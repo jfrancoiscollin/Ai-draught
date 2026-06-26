@@ -250,7 +250,9 @@ function Runs({ runs }: { runs: Run[] }): React.ReactElement {
 }
 
 function BoardCard({ pos }: { pos: Position }): React.ReactElement {
-  const [mode, setMode] = useState<'view' | 'solve' | 'play'>('view')
+  // Boards open directly in free-play mode: the reader can search the solution
+  // on the board straight away. "Lire" switches to the step-through view.
+  const [mode, setMode] = useState<'view' | 'solve' | 'play'>('play')
   const [step, setStep] = useState(0)
   const [revealed, setRevealed] = useState(false)
   const [solved, setSolved] = useState(false)
@@ -467,8 +469,9 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
           <div className="ctrls">
             <button className="btn sm" onClick={undoPlay} disabled={!playHist.length}>↶ Annuler</button>
             <button className="btn sm" onClick={resetPlay} disabled={!playHist.length && playFrom == null}>↺ Position</button>
-            {total > 0 && <button className="btn sm" onClick={() => { setMode('view'); setStep(0); setRevealed(true) }}>Voir solution</button>}
-            <button className="btn sm" onClick={toView}>Quitter</button>
+            {total > 0 && <button className="btn sm" onClick={toSolve}>Résoudre</button>}
+            {total > 0 && <button className="btn sm" onClick={() => { setMode('view'); setStep(0); setRevealed(true) }}>Solution</button>}
+            <button className="btn sm" onClick={toView}>Lire</button>
           </div>
         </div>
       )}
