@@ -25,6 +25,8 @@ interface Props {
   onOpenManual: (source: string) => void
   // Open the exercise/manual library (free browsing) — a sub-view of the path.
   onOpenLibrary: () => void
+  // Open a whole module as the interactive reader (lessons = chapters).
+  onOpenModuleReader: (moduleId: string) => void
 }
 
 const STATE_STYLE: Record<ModuleState, { ring: string; badge: string; label: string; labelEn: string }> = {
@@ -44,7 +46,7 @@ const ProgressBar: React.FC<{ value: number; total: number; state: ModuleState }
   )
 }
 
-const LearningPathPage: React.FC<Props> = ({ onClose, onOpenExercise, onOpenLesson, onOpenManual, onOpenLibrary }) => {
+const LearningPathPage: React.FC<Props> = ({ onClose, onOpenExercise, onOpenLesson, onOpenManual, onOpenLibrary, onOpenModuleReader }) => {
   const { language } = useLanguage()
   const { user } = useAuth()
   const isLoggedIn = !!user
@@ -271,7 +273,7 @@ const LearningPathPage: React.FC<Props> = ({ onClose, onOpenExercise, onOpenLess
                   <li key={m.id}>
                     <button
                       disabled={!clickable}
-                      onClick={() => clickable && openModuleDetail(m.id)}
+                      onClick={() => clickable && onOpenModuleReader(m.id)}
                       className={`group relative w-full rounded-xl border p-4 text-left transition-all duration-200 ${sty.ring} ${clickable ? 'cursor-pointer' : 'cursor-not-allowed'}`}
                     >
                       <div className="flex items-start justify-between gap-3">
@@ -314,6 +316,14 @@ const LearningPathPage: React.FC<Props> = ({ onClose, onOpenExercise, onOpenLess
                         </p>
                       )}
                     </button>
+                    {clickable && (
+                      <button
+                        onClick={() => openModuleDetail(m.id)}
+                        className="mt-1 ml-1 text-xs text-gray-500 hover:text-amber-500"
+                      >
+                        {fr ? 'Progression & exercices →' : 'Progress & exercises →'}
+                      </button>
+                    )}
                   </li>
                 )
               })}
