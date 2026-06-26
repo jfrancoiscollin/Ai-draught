@@ -1,4 +1,8 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react'
+import {
+  getLegalMoves, applyEngineMove, type EngineMove, type Turn,
+  WHITE_MAN, WHITE_KING, BLACK_MAN, BLACK_KING,
+} from './draughtsEngine'
 
 // ---------------------------------------------------------------------------
 // Self-contained interactive manual viewer.
@@ -113,6 +117,17 @@ function leadStep(p: Position): number {
   while (s < nMoves(p) && moverSide(p, s) !== solverSide(p)) s++
   return s
 }
+
+// Engine board (length-51 piece array) for the free-play mode.
+function liveToBoard(S: LiveState): number[] {
+  const b = new Array<number>(51).fill(0)
+  S.wm.forEach(s => { b[s] = WHITE_MAN })
+  S.wk.forEach(s => { b[s] = WHITE_KING })
+  S.bm.forEach(s => { b[s] = BLACK_MAN })
+  S.bk.forEach(s => { b[s] = BLACK_KING })
+  return b
+}
+function startBoard(p: Position): number[] { return liveToBoard(startState(p)) }
 
 const CSS = `
 .dm *{box-sizing:border-box}
@@ -235,7 +250,7 @@ function Runs({ runs }: { runs: Run[] }): React.ReactElement {
 }
 
 function BoardCard({ pos }: { pos: Position }): React.ReactElement {
-  const [mode, setMode] = useState<'view' | 'solve'>('view')
+  const [mode, setMode] = useState<'view' | 'solve' | 'play'>('view')
   const [step, setStep] = useState(0)
   const [revealed, setRevealed] = useState(false)
   const [solved, setSolved] = useState(false)
@@ -245,8 +260,17 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
   const [motifHi, setMotifHi] = useState<number[] | null>(null)
   const [activeChip, setActiveChip] = useState<number | null>(null)
   const [flash, setFlash] = useState<string | null>(null)
+  // Free-play ("Jouer") mode: play any legal move on the board to search for
+  // the solution yourself. Independent of the stored solution line.
+  const [playBoard, setPlayBoard] = useState<number[]>(() => startBoard(pos))
+  const [playTurn, setPlayTurn] = useState<Turn>(pos.start.turn)
+  const [playHist, setPlayHist] = useState<{ board: number[]; turn: Turn }[]>([])
+  const [playFrom, setPlayFrom] = useState<number | null>(null)
+  const [playLast, setPlayLast] = useState<EngineMove | null>(null)
+  const [playMsg, setPlayMsg] = useState('')
 
   const total = nMoves(pos)
+  const inPlay = mode === 'play'
   const showSolution = (mode === 'view' && revealed) || (mode === 'solve' && solved)
   const S = useMemo(() => stateAt(pos, step), [pos, step])
   const lastMove = step > 0 ? pos.moves[step - 1] : null
@@ -256,6 +280,12 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
     return () => clearTimeout(t)
   }, [flash])
 
+  // Legal moves for the live free-play board (only computed while playing).
+  const legal = useMemo(
+    () => (inPlay ? getLegalMoves(playBoard, playTurn) : []),
+    [inPlay, playBoard, playTurn],
+  )
+
   function toView(): void {
     setMode('view'); setStep(0); setSolveSel([]); setHintLevel(0)
     setSolveMsg({ t: '', c: '' }); setMotifHi(null); setActiveChip(null)
@@ -264,12 +294,25 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
     setMode('solve'); setSolved(false); setStep(leadStep(pos)); setSolveSel([]); setHintLevel(0)
     setSolveMsg({ t: '', c: '' }); setMotifHi(null); setRevealed(false); setActiveChip(null)
   }
+  function resetPlay(): void {
+    setPlayBoard(startBoard(pos)); setPlayTurn(pos.start.turn)
+    setPlayHist([]); setPlayFrom(null); setPlayLast(null); setPlayMsg('')
+  }
+  function toPlay(): void {
+    setMode('play'); setRevealed(false); setMotifHi(null); setActiveChip(null); resetPlay()
+  }
+  function undoPlay(): void {
+    if (!playHist.length) return
+    const prev = playHist[playHist.length - 1]
+    setPlayBoard(prev.board); setPlayTurn(prev.turn)
+    setPlayHist(playHist.slice(0, -1)); setPlayFrom(null); setPlayLast(null); setPlayMsg('')
+  }
   function stepBy(d: number): void {
     setMotifHi(null); setActiveChip(null)
     setStep(s => Math.min(total, Math.max(0, s + d)))
   }
-  function onSquare(sq: number | null): void {
-    if (mode !== 'solve' || solved || step >= total || !sq) return
+  function onSolveSquare(sq: number): void {
+    if (solved || step >= total) return
     const exp = pos.moves[step]
     const path = exp.path || [exp.f, exp.t]
     const need = path[solveSel.length]
@@ -291,11 +334,43 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
       setFlash('no')
     }
   }
+  function onPlaySquare(sq: number): void {
+    const own = (p: number): boolean => playTurn === 'white'
+      ? (p === WHITE_MAN || p === WHITE_KING) : (p === BLACK_MAN || p === BLACK_KING)
+    if (playFrom == null) {
+      if (legal.some(m => m.path[0] === sq)) { setPlayFrom(sq); setPlayMsg('') }
+      else if (own(playBoard[sq])) setPlayMsg('Cette pièce ne peut pas jouer (prise majoritaire obligatoire ?).')
+      return
+    }
+    if (sq === playFrom) { setPlayFrom(null); return }
+    const cands = legal.filter(m => m.path[0] === playFrom && m.path[m.path.length - 1] === sq)
+    if (cands.length) {
+      const mv = cands.reduce((a, b) => (b.captures.length > a.captures.length ? b : a))
+      setPlayHist(h => [...h, { board: playBoard, turn: playTurn }])
+      setPlayBoard(applyEngineMove(playBoard, mv))
+      setPlayTurn(playTurn === 'white' ? 'black' : 'white')
+      setPlayLast(mv); setPlayFrom(null); setPlayMsg(''); setFlash('ok')
+    } else if (legal.some(m => m.path[0] === sq)) {
+      setPlayFrom(sq); setPlayMsg('')
+    } else {
+      setPlayFrom(null)
+    }
+  }
   function hint(): void {
     const h = Math.min(2, hintLevel + 1)
     setHintLevel(h)
     setSolveMsg({ t: h >= 2 ? 'Trajectoire indiquée.' : 'Pièce à jouer indiquée.', c: '' })
   }
+
+  // Unified occupancy + last-move overlay for rendering (works for all modes).
+  const board = inPlay ? playBoard : liveToBoard(S)
+  const last = inPlay
+    ? (playLast ? { path: playLast.path, c: playLast.captures } : null)
+    : (lastMove ? { path: lastMove.path || [lastMove.f, lastMove.t], c: lastMove.c || [] } : null)
+  const playDests = (inPlay && playFrom != null)
+    ? legal.filter(m => m.path[0] === playFrom).map(m => m.path[m.path.length - 1])
+    : []
+  const turnNow: Turn = inPlay ? playTurn : S.turn
 
   const cells: React.ReactElement[] = []
   for (let r = 0; r < 10; r++) for (let c = 0; c < 10; c++) {
@@ -304,17 +379,18 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
     const inner: React.ReactElement[] = []
     if (playing && sq != null) {
       inner.push(<span className="num" key="n">{sq}</span>)
-      if (S.wm.has(sq)) inner.push(<div className="pc w" key="p" />)
-      else if (S.wk.has(sq)) inner.push(<div className="pc w k" key="p" />)
-      else if (S.bm.has(sq)) inner.push(<div className="pc b" key="p" />)
-      else if (S.bk.has(sq)) inner.push(<div className="pc b k" key="p" />)
-      if (lastMove) {
-        const pth = lastMove.path || [lastMove.f, lastMove.t]
+      const pc = board[sq]
+      if (pc === WHITE_MAN) inner.push(<div className="pc w" key="p" />)
+      else if (pc === WHITE_KING) inner.push(<div className="pc w k" key="p" />)
+      else if (pc === BLACK_MAN) inner.push(<div className="pc b" key="p" />)
+      else if (pc === BLACK_KING) inner.push(<div className="pc b k" key="p" />)
+      if (last) {
+        const pth = last.path
         const idx = pth.indexOf(sq)
         if (idx > 0 && idx < pth.length - 1) inner.push(<div className="trail" key="t" />)
-        if (sq === lastMove.f) inner.push(<div className="ring from" key="rf" />)
-        if (sq === lastMove.t) inner.push(<div className="ring to" key="rt" />)
-        if ((lastMove.c || []).includes(sq)) inner.push(<div className="capx" key="cx" />)
+        if (sq === pth[0]) inner.push(<div className="ring from" key="rf" />)
+        if (sq === pth[pth.length - 1]) inner.push(<div className="ring to" key="rt" />)
+        if (last.c.includes(sq)) inner.push(<div className="capx" key="cx" />)
       }
       if (mode === 'solve' && !solved) {
         if (solveSel.includes(sq)) inner.push(<div className="ring sel" key="sel" />)
@@ -324,16 +400,22 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
           if (hp.includes(sq)) inner.push(<div className="ring hint" key="hint" />)
         }
       }
+      if (inPlay) {
+        if (sq === playFrom) inner.push(<div className="ring sel" key="psel" />)
+        else if (playDests.includes(sq)) inner.push(<div className="ring hint" key="pdst" />)
+      }
       if (motifHi && motifHi.includes(sq)) inner.push(<div className="ring mhi" key="mhi" />)
     }
+    const handler = inPlay ? onPlaySquare : (mode === 'solve' ? onSolveSquare : null)
     cells.push(
       <div key={r * 10 + c} className={'sq ' + (playing ? 'dark' : 'light')}
-        onClick={playing ? () => onSquare(sq) : undefined}>{inner}</div>,
+        onClick={playing && sq != null && handler ? () => handler(sq) : undefined}>{inner}</div>,
     )
   }
-  const clickable = mode === 'solve' && !solved && total > 0
+  const clickable = inPlay || (mode === 'solve' && !solved && total > 0)
   const boardCls = 'board' + (clickable ? ' clickable' : '')
     + (flash === 'ok' ? ' fok' : '') + (flash === 'no' ? ' fno' : '')
+  const playOver = inPlay && legal.length === 0
 
   return (
     <div className="card">
@@ -343,11 +425,11 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
       </div>
       <div className="boardwrap"><div className={boardCls}>{cells}</div></div>
 
-      {mode === 'view' ? (
+      {mode === 'view' && (
         <div className="ctrls">
           <span className="toplay">
-            <span className={'dot ' + (S.turn === 'white' ? 'w' : 'b')} />
-            {S.turn === 'white' ? 'Blancs' : 'Noirs'}
+            <span className={'dot ' + (turnNow === 'white' ? 'w' : 'b')} />
+            {turnNow === 'white' ? 'Blancs' : 'Noirs'}
           </span>
           <button className="btn sm" onClick={() => { setStep(0); setMotifHi(null) }} disabled={step === 0}>↺</button>
           <button className="btn sm" onClick={() => stepBy(-1)} disabled={step <= 0}>◀</button>
@@ -355,8 +437,11 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
           <button className="btn sm" onClick={() => stepBy(1)} disabled={step >= total}>▶</button>
           {total > 0 && <button className="btn sm" onClick={() => setRevealed(v => !v)}>{revealed ? 'Masquer' : 'Solution'}</button>}
           {total > 0 && <button className="btn sm" onClick={toSolve}>Résoudre</button>}
+          <button className="btn sm brass" onClick={toPlay}>Jouer</button>
         </div>
-      ) : (
+      )}
+
+      {mode === 'solve' && (
         <div>
           <div className="solvemsg" style={{ marginTop: 11 }}>
             {solved ? <span className="ok">Combinaison résolue ✓</span>
@@ -366,6 +451,23 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
           <div className="ctrls">
             <button className="btn sm" onClick={hint} disabled={solved}>Indice</button>
             <button className="btn sm" onClick={toSolve} disabled={!solved && step === leadStep(pos) && solveSel.length === 0}>↺</button>
+            <button className="btn sm" onClick={toView}>Quitter</button>
+          </div>
+        </div>
+      )}
+
+      {mode === 'play' && (
+        <div>
+          <div className="solvemsg" style={{ marginTop: 11 }}>
+            {playOver
+              ? <span className="no">Plus de coup légal — trait aux {turnNow === 'white' ? 'Blancs' : 'Noirs'} : ils ont perdu.</span>
+              : <>Exploration libre — trait aux <strong>{turnNow === 'white' ? 'Blancs' : 'Noirs'}</strong>. Clique une pièce, puis sa case d'arrivée.</>}
+          </div>
+          {playMsg && <div className="solvemsg no">{playMsg}</div>}
+          <div className="ctrls">
+            <button className="btn sm" onClick={undoPlay} disabled={!playHist.length}>↶ Annuler</button>
+            <button className="btn sm" onClick={resetPlay} disabled={!playHist.length && playFrom == null}>↺ Position</button>
+            {total > 0 && <button className="btn sm" onClick={() => { setMode('view'); setStep(0); setRevealed(true) }}>Voir solution</button>}
             <button className="btn sm" onClick={toView}>Quitter</button>
           </div>
         </div>
