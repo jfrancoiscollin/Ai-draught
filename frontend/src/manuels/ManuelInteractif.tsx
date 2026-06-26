@@ -535,16 +535,22 @@ export default function ManuelInteractif({ data, onClose }: { data: ManuelData; 
     return c ? c.n : 0
   }, [data])
   const [chap, setChap] = useState(firstWithBoards)
-  const topRef = useRef<HTMLDivElement>(null)
+  const scrollRef = useRef<HTMLDivElement>(null)
   const blocks = useMemo(() => data.blocks.filter(b => b.ch === chap), [data, chap])
   const idx = chapters.findIndex(c => c.n === chap)
-  function goChap(n: number): void {
-    setChap(n)
-    if (topRef.current) topRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
+  // Changing chapter (Précédent / Suivant or the selector) restarts the reader
+  // at the top of the page rather than keeping the previous scroll position.
+  useEffect(() => {
+    // The reader scrolls inside its own `.dm` container; reset that, and also
+    // walk up to whatever scrollable ancestor actually moved, as a fallback.
+    scrollRef.current?.scrollTo({ top: 0, behavior: 'auto' })
+    let el: HTMLElement | null = scrollRef.current?.parentElement ?? null
+    while (el) { if (el.scrollTop > 0) el.scrollTop = 0; el = el.parentElement }
+  }, [chap])
+  function goChap(n: number): void { setChap(n) }
 
   return (
-    <div className="dm" style={{ width: '100%', height: '100%', overflowY: 'auto' }}>
+    <div ref={scrollRef} className="dm" style={{ width: '100%', height: '100%', overflowY: 'auto' }}>
       <style>{CSS}</style>
       <div className="topbar">
         <div className="topin">
@@ -556,7 +562,7 @@ export default function ManuelInteractif({ data, onClose }: { data: ManuelData; 
           </select>
         </div>
       </div>
-      <div className="doc" ref={topRef}>
+      <div className="doc">
         {blocks.map((b, i) => <BlockView key={i} b={b} positions={data.positions} />)}
         <div className="navrow">
           <button className="btn" disabled={idx <= 0} onClick={() => goChap(chapters[idx - 1].n)}>◀ Précédent</button>
