@@ -563,7 +563,18 @@ export default function ManuelInteractif({ data, onClose }: { data: ManuelData; 
         </div>
       </div>
       <div className="doc">
-        {blocks.map((b, i) => <BlockView key={i} b={b} positions={data.positions} />)}
+        {/* Key by chapter + position id so that switching chapters remounts each
+            BoardCard with its own position. With a bare index key, a board at
+            the same index in another chapter reused the previous card instance
+            and kept its (free-play) board state — every chapter showed the same
+            position. */}
+        {blocks.map((b, i) => (
+          <BlockView
+            key={b.type === 'board' ? `${chap}-board-${b.id}` : `${chap}-${i}`}
+            b={b}
+            positions={data.positions}
+          />
+        ))}
         <div className="navrow">
           <button className="btn" disabled={idx <= 0} onClick={() => goChap(chapters[idx - 1].n)}>◀ Précédent</button>
           <button className="btn brass" disabled={idx >= chapters.length - 1} onClick={() => goChap(chapters[idx + 1].n)}>Suivant ▶</button>
