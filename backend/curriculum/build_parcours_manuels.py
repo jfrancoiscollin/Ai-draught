@@ -77,6 +77,22 @@ def _diagram_solution_index() -> dict[str, dict]:
     return {r["diagram_id"]: r for r in strat["exercises"] if r.get("diagram_id")}
 
 
+_CHAP_RE = re.compile(r"\s*Chapitre\s+(\d+)")
+
+
+def _combinaisons_by_chapter() -> dict[int, list[dict]]:
+    """The Dubois 'Apprendre les combinaisons' exercises grouped by their book
+    chapter (parsed from ``description`` = "Chapitre N – …"). The Débutant
+    reading lessons carry only prose (no items); their chapter N's worked
+    combinations live here, so they become playable boards under each lesson."""
+    by_ch: dict[int, list[dict]] = {}
+    for ex in _load_py_list("exercises_data.py", "INITIAL_EXERCISES"):
+        m = _CHAP_RE.match(ex.get("description", ""))
+        if m and ex.get("initial_fen"):
+            by_ch.setdefault(int(m.group(1)), []).append(ex)
+    return by_ch
+
+
 # --- engine helpers ---------------------------------------------------------
 def _fen_to_start(fen: str) -> Optional[dict]:
     try:
@@ -188,7 +204,7 @@ def _lesson_prose(lesson: dict, lessons_json: dict, sens_json: dict) -> tuple[li
 
 
 def build_module(module: dict, level_title: str, ex_idx: dict, diag_idx: dict,
-                 lessons_json: dict, sens_json: dict) -> dict:
+                 lessons_json: dict, sens_json: dict, combi_by_ch: dict) -> dict:
     chapters: list[dict] = []
     blocks: list[dict] = []
     positions: dict[str, dict] = {}
@@ -207,6 +223,18 @@ def build_module(module: dict, level_title: str, ex_idx: dict, diag_idx: dict,
         proses, diagrams = _lesson_prose(lesson, lessons_json, sens_json)
         for para in proses:
             blocks.append({"type": "p", "ch": ci, "runs": [{"t": para}]})
+
+        # Débutant reading lessons (chapter 201..) carry only prose; attach the
+        # worked combinations of their book chapter (chapter - 200) as boards.
+        ch = lesson.get("chapter")
+        if ch is not None and str(ch - 200) in lessons_json:
+            for ei, ex in enumerate(combi_by_ch.get(ch - 200, [])):
+                pid = f"{module['id']}_l{ci}_combi{ei}"
+                made = _board_from_exercise(pid, ci, ex, ex.get("name") or "Combinaison",
+                                            ex.get("category") or "")
+                if made:
+                    positions[made["id"]] = made
+                    blocks.append({"type": "board", "id": made["id"], "ch": ci})
 
         # Illustrative sens-du-jeu diagrams (label only, no solution line).
         for di, d in enumerate(diagrams):
@@ -318,6 +346,7 @@ def main(argv: list[str]) -> int:
     level_title = {lv["id"]: lv["title"] for lv in cur["levels"]}
     ex_idx = _exercise_index()
     diag_idx = _diagram_solution_index()
+    combi_by_ch = _combinaisons_by_chapter()
 
     wanted = set(argv[1:])
     modules = [m for m in cur["modules"] if not wanted or m["id"] in wanted]
@@ -329,7 +358,7 @@ def main(argv: list[str]) -> int:
     metas = []
     for m in modules:
         data = build_module(m, level_title.get(m["level"], m["level"]),
-                            ex_idx, diag_idx, lessons_json, sens_json)
+                            ex_idx, diag_idx, lessons_json, sens_json, combi_by_ch)
         metas.append(_write_module(data, m["id"]))
     if not wanted:
         _write_registry(metas)
