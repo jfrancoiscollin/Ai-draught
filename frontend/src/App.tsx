@@ -21,7 +21,6 @@ import LivePlayPanel from './components/LivePlayPanel'
 import LiveGameScreen from './components/LiveGameScreen'
 import ChallengeToast from './components/ChallengeToast'
 import StrategyPanel from './components/StrategyPanel'
-import StrategyManualPage from './components/StrategyManualPage'
 import ManuelInteractifPage from './manuels/ManuelInteractifPage'
 import type { LiveGameSessionState } from './api/client'
 import { useLiveWS } from './hooks/useLiveWS'
@@ -197,7 +196,10 @@ export default function App() {
   // Deep-link target for the diagram annotator: set by the manual reader's
   // "✎ Corriger la position" button so the strategy panel opens straight on
   // that diagram's crop + editable board (crop + annotate → copy JSON entry).
-  const [strategyJumpTarget, setStrategyJumpTarget] = useState<
+  // The in-reader "✎ Corriger la position" jump was removed with the old manual
+  // reader; the strategy panel still accepts an initial jump target if one is
+  // ever set again. Kept read-only for now.
+  const [strategyJumpTarget] = useState<
     { source: string; page: number; number: number } | undefined
   >(undefined)
   const [preloadedPdn, setPreloadedPdn] = useState<string | null>(null)
@@ -1743,22 +1745,14 @@ export default function App() {
           />
         )}
 
-        {/* STRATEGY MANUAL TAB — long-form pedagogical manual for one
-            corpus source (Sijbrands / Springer / Roozenburg / Keller).
-            Sections grouped by topic centroid; each passage rendered
-            with its Board (FEN) and prose with clickable PDN moves. */}
+        {/* STRATEGY MANUAL TAB — long-form pedagogical manual for one corpus
+            source. Rendered with the interactive inline reader: prose flows
+            full-width and each diagram board is embedded in the text body,
+            scrolling with it (no fixed board). */}
         {tab === 'strategy-manual' && (
-          <StrategyManualPage
+          <ManuelInteractifPage
             source={strategyManualSource}
             onClose={() => setTab(strategyManualOrigin)}
-            lang={language}
-            onAnnotateDiagram={(source, page, number) => {
-              // Open the shared diagram annotator on this exact position so
-              // the operator can fix a mis-detected FEN and copy the JSON
-              // entry into diagrams_fens.json (reviewed via PR).
-              setStrategyJumpTarget({ source, page, number })
-              setTab('strategy')
-            }}
           />
         )}
 

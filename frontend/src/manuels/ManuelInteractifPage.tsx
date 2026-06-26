@@ -1,12 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import ManuelInteractif, { type ManuelData } from './ManuelInteractif'
 import { MANUELS, type ManuelEntry } from './index'
 
 // Library + reader for the interactive theoretical manuals. The list lazy-loads
 // each manual's (large) data module only when opened, so the main bundle stays
 // light. Each manual reuses the shared ManuelInteractif viewer.
+//
+// Pass `source` (e.g. "SIJBRANDS") to open straight into that manual and skip
+// the library — this is how the existing "open strategy manual" entry points
+// reuse the new inline reader. Without it, the library list is shown.
 
-export default function ManuelInteractifPage({ onClose }: { onClose?: () => void }): React.ReactElement {
+interface Props {
+  onClose?: () => void
+  /** Corpus source code to open directly (case-insensitive), e.g. "SIJBRANDS". */
+  source?: string
+}
+
+export default function ManuelInteractifPage({ onClose, source }: Props): React.ReactElement {
   const [open, setOpen] = useState<{ entry: ManuelEntry; data: ManuelData } | null>(null)
   const [loading, setLoading] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -23,8 +33,30 @@ export default function ManuelInteractifPage({ onClose }: { onClose?: () => void
     }
   }
 
+  // Direct-open mode: a specific manual was requested (existing manual links).
+  const directId = source ? source.toLowerCase() : null
+  const directEntry = directId ? MANUELS.find(m => m.id === directId) : undefined
+  useEffect(() => {
+    if (directEntry && (!open || open.entry.id !== directEntry.id)) {
+      void openManuel(directEntry)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [directId])
+
   if (open) {
-    return <ManuelInteractif data={open.data} onClose={() => setOpen(null)} />
+    // In direct-open mode, closing the reader returns to the caller (onClose);
+    // from the library it returns to the list.
+    return <ManuelInteractif data={open.data} onClose={directEntry ? onClose : () => setOpen(null)} />
+  }
+
+  if (directEntry) {
+    // Loading the requested manual — render nothing heavy meanwhile.
+    return (
+      <div style={{ width: '100%', height: '100%', background: '#161419', color: '#9b9485',
+        display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        {error || `Chargement de « ${directEntry.book} »…`}
+      </div>
+    )
   }
 
   return (
