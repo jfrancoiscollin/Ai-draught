@@ -1,27 +1,33 @@
 import React, { useState, useEffect } from 'react'
 import ManuelInteractif, { type ManuelData } from './ManuelInteractif'
 import { MANUELS, type ManuelEntry } from './index'
+import { PARCOURS_MANUELS } from './parcours'
 
 // Library + reader for the interactive theoretical manuals. The list lazy-loads
 // each manual's (large) data module only when opened, so the main bundle stays
 // light. Each manual reuses the shared ManuelInteractif viewer.
 //
-// Pass `source` (e.g. "SIJBRANDS") to open straight into that manual and skip
-// the library — this is how the existing "open strategy manual" entry points
-// reuse the new inline reader. Without it, the library list is shown.
+// Pass `source` (e.g. "SIJBRANDS") to open straight into a theoretical manual,
+// or `parcoursId` (a curriculum module id) to open a learning-path module as a
+// reader — both skip the library. Without either, the library list is shown.
+
+// A loadable reader entry (theoretical manual or parcours module share a shape).
+type ReaderEntry = ManuelEntry
 
 interface Props {
   onClose?: () => void
   /** Corpus source code to open directly (case-insensitive), e.g. "SIJBRANDS". */
   source?: string
+  /** Curriculum module id to open directly, e.g. "int_comb_2". */
+  parcoursId?: string
 }
 
-export default function ManuelInteractifPage({ onClose, source }: Props): React.ReactElement {
-  const [open, setOpen] = useState<{ entry: ManuelEntry; data: ManuelData } | null>(null)
+export default function ManuelInteractifPage({ onClose, source, parcoursId }: Props): React.ReactElement {
+  const [open, setOpen] = useState<{ entry: ReaderEntry; data: ManuelData } | null>(null)
   const [loading, setLoading] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
 
-  async function openManuel(entry: ManuelEntry): Promise<void> {
+  async function openManuel(entry: ReaderEntry): Promise<void> {
     setLoading(entry.id); setError(null)
     try {
       const mod = await entry.load()
@@ -33,9 +39,11 @@ export default function ManuelInteractifPage({ onClose, source }: Props): React.
     }
   }
 
-  // Direct-open mode: a specific manual was requested (existing manual links).
-  const directId = source ? source.toLowerCase() : null
-  const directEntry = directId ? MANUELS.find(m => m.id === directId) : undefined
+  // Direct-open mode: a specific reader was requested (manual link or module).
+  const directId = parcoursId ?? (source ? source.toLowerCase() : null)
+  const directEntry: ReaderEntry | undefined = parcoursId
+    ? PARCOURS_MANUELS[parcoursId]
+    : (directId ? MANUELS.find(m => m.id === directId) : undefined)
   useEffect(() => {
     if (directEntry && (!open || open.entry.id !== directEntry.id)) {
       void openManuel(directEntry)
