@@ -141,6 +141,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_base_l1_combi0",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi1",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi2",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi3",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi4",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi5",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi6",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi7",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi8",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_base_l1_combi9",
+"ch": 1
+},
+{
 "type": "h2",
 "ch": 2,
 "runs": [
@@ -166,6 +216,56 @@ const DATA: ManuelData = {
 "t": "Quels sont les points d’appui qui peuvent servir de point de départ à une rafle ? Nous avons les pions 35 et 48. Une rafle commençant par le pion 35 ne peut aboutir que sur les cases 2, 4, 11, 13, 15, 22 ou 24. On comprend immédiatement qu’aucune rafle partant de la case 35 n’a de sens. Une rafle partant de la case 48 peut accéder aux cases 6, 8, 10, 17, 19, 26, 28, 30. Une rafle 48x10 est donc concevable. C’est ce que montre le second diagramme. Il reste ensuite à chercher de quelle manière acheminer des pions noirs en 31 et 42 pour rendre la rafle possible. Solution : 1. 31-27 (22x31) 2. 35-30 (24x42) 3. 48x10. La méthode comprend donc 2 étapes : 1 – identifier la rafle et les points d’appui. 2 – utiliser les mécanismes connus pour rendre possible la rafle Nous verrons par la suite que cette manière de procéder n’est pas la seule possible, mais qu’il est malgré tout essentiel de maîtriser celle-ci pour évoluer ensuite vers des combinaisons plus élaborées."
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi0",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi5",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi7",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi8",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_base_l2_combi9",
+"ch": 2
 },
 {
 "type": "h2",
@@ -202,6 +302,56 @@ const DATA: ManuelData = {
 "t": "Par exemple, une rafle partant du pion 43 peut aboutir sur les cases 1, 3, 5, 12, 14, 21, 23, 25, 32, 34, 41 ou 45, à l’exclusion de toute autre case. Autre exemple : un coup de dame sur la case 2 ne peut provenir que de l’une des cases 11, 13, 15, 22, 24, 31, 33, 35, 42, 44. Une rafle aboutissant sur une ligne paire ne peut avoir comme départ qu’une case également située sur une ligne paire."
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi0",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi1",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi2",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi3",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi4",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi5",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi6",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi7",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi8",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_base_l3_combi9",
+"ch": 3
 },
 {
 "type": "h2",
@@ -276,6 +426,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_base_l4_combi0",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi1",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi2",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi3",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi4",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi5",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi6",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi7",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi8",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_base_l4_combi9",
+"ch": 4
+},
+{
 "type": "h2",
 "ch": 5,
 "runs": [
@@ -301,6 +501,56 @@ const DATA: ManuelData = {
 "t": "Dans cette situation, la rafle finale n’est pas évidente. De plus, il y a de nombreux points d’appui possibles. Concevoir une rafle en 6 avec un point d’appui en 39, est loin d’être intuitif. Par contre, en commençant par la recherche des points de contact et par la manière dont on peut sacrifier les pions, on ouvre de nouvelles perspectives. Ainsi, les blancs peuvent donner leurs pions de différentes manières. Par exemple 34-30, 29-23, 37-32 ou l’inattendu 31-27. Cette prise majoritaire de 4 pions rend ensuite évidente la rafle 39x6. Solution : 31-27 (22x24) 34-30 (25x34) 39x6 Les deux méthodes sont complémentaires et ne s’annulent pas l’une l’autre. On passe généralement de l’une à l’autre. A la fois du raisonnement et de la recherche systématique."
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi0",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi1",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi2",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi3",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi4",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi5",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi6",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi7",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi8",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_base_l5_combi9",
+"ch": 5
 },
 {
 "type": "h2",
@@ -330,6 +580,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_base_l6_combi0",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi1",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi2",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi3",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi4",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi5",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi6",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi7",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi8",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_base_l6_combi9",
+"ch": 6
+},
+{
 "type": "h2",
 "ch": 7,
 "runs": [
@@ -355,6 +655,56 @@ const DATA: ManuelData = {
 "t": "Dans le premier diagramme, si les Blancs envoient le pion 26 à dame à 48, on se rend compte que les noirs seront en prise de deux pions blancs 20 et 34. Cette situation est propice aux collages. Solution : 37-31 (26x48) 33-28 [position du 2e diagramme] 48x14 [position du 3e diagramme] 28x10"
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi0",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi1",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi2",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi3",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi4",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi5",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi6",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi7",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi8",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_base_l7_combi9",
+"ch": 7
 },
 {
 "type": "h2",
@@ -411,6 +761,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_base_l8_combi0",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi1",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi2",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi3",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi4",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi5",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi6",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi7",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi8",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_base_l8_combi9",
+"ch": 8
+},
+{
 "type": "h2",
 "ch": 9,
 "runs": [
@@ -463,6 +863,56 @@ const DATA: ManuelData = {
 "t": "Nous verrons plus tard que les temps de repos permettent également de mettre en place des mécanismes suivis de combinaisons."
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi0",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi1",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi2",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi3",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi4",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi5",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi6",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi7",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi8",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_base_l9_combi9",
+"ch": 9
 },
 {
 "type": "h2",
@@ -519,6 +969,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_base_l10_combi0",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi1",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi2",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi3",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi4",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi5",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi6",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi7",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi8",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_base_l10_combi9",
+"ch": 10
+},
+{
 "type": "h2",
 "ch": 11,
 "runs": [
@@ -535,9 +1035,10867 @@ const DATA: ManuelData = {
 "t": "C’est le moment de faire un récapitulatif avant d’attaquer progressivement les combinaisons en 4 temps. Nous avons vu jusqu’à présent de nombreux mécanismes élaborés qui ne sont absolument pas intuitifs. Il s’agit notamment de la prise majoritaire, du collage, de l’envoi à dame et de l’intégration de ces mécanismes lors d’une attaque ou en provoquant un temps de repos. De plus, nous avons mis en évidence l’intérêt de se focaliser d’abord sur la, ou les rafles possibles. Nous avons également pris conscience de l’importance du point d’appui qui sert de base à la rafle. Ce point d’appui pouvant être un pion de bande, une formation de pionnage ou encore un collage. Enfin, nous avons établi une méthode pour chercher les combinaisons. Partir de la fin en concevant la rafle, ou partir du début en identifiant les mécanismes exploitables. L’association de ces 2 approches constitue généralement un bon moyen de trouver les combinaisons. Trouver une combinaison en 3 temps n’est pas évident car il faut se familiariser avec tout ce que je viens d’évoquer. Une période d’apprentissage est nécessaire. Toutes les combinaisons en 3 temps qui vont suivre ne feront pas intervenir de nouveaux mécanismes."
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi0",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi1",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi2",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi3",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi4",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi5",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi6",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi7",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi8",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_base_l11_combi9",
+"ch": 11
 }
 ],
-"positions": {}
+"positions": {
+"deb_combi_base_l1_combi0": {
+"id": "deb_combi_base_l1_combi0",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D1",
+"start": {
+"wm": [
+26,
+31,
+32,
+43
+],
+"wk": [],
+"bm": [
+9,
+17,
+19,
+38
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+32,
+21,
+31
+],
+"path": [
+17,
+26,
+37,
+28
+],
+"p": false
+},
+{
+"n": "43x3",
+"f": 43,
+"t": 3,
+"c": [
+9,
+19,
+28,
+38
+],
+"path": [
+43,
+32,
+23,
+14,
+3
+],
+"p": true
+}
+],
+"theme": "combinaisons_2",
+"pub": "26-21 17x28 43x3",
+"win": "white",
+"exp": "le premier temps est nécessairement un contact avec un pion adverse, ici 26-21 Le pion noir peut prendre de trois manièr"
+},
+"deb_combi_base_l1_combi1": {
+"id": "deb_combi_base_l1_combi1",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D2",
+"start": {
+"wm": [
+28,
+32,
+37
+],
+"wk": [],
+"bm": [
+10,
+17,
+19
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x5",
+"f": 32,
+"t": 5,
+"c": [
+10,
+19,
+28
+],
+"path": [
+32,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_2",
+"pub": "28-22 17x28 32x5",
+"win": "white",
+"exp": "Le coup est connu sous le nom de coup de mazette. Ce coup se rencontre fréquemment en partie. 28-22   32x5"
+},
+"deb_combi_base_l1_combi2": {
+"id": "deb_combi_base_l1_combi2",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D3",
+"start": {
+"wm": [
+25,
+26,
+27,
+33,
+38,
+39,
+40
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+16,
+18,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x21",
+"f": 23,
+"t": 21,
+"c": [
+27,
+29,
+38,
+39
+],
+"path": [
+23,
+34,
+43,
+32,
+21
+],
+"p": false
+},
+{
+"n": "26x10",
+"f": 26,
+"t": 10,
+"c": [
+13,
+12,
+21,
+14
+],
+"path": [
+26,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2",
+"pub": "33-29 23x21 26x10",
+"win": "white",
+"exp": "les Blancs ont plusieurs manières de sacrifier leurs pions. Il est nécessaire de toutes les passer en revue et de faire"
+},
+"deb_combi_base_l1_combi3": {
+"id": "deb_combi_base_l1_combi3",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D4",
+"start": {
+"wm": [
+27,
+28,
+33,
+34,
+35,
+38,
+43
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+16,
+19,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "23x21",
+"f": 23,
+"t": 21,
+"c": [
+27,
+28
+],
+"path": [
+23,
+32,
+21
+],
+"p": false
+},
+{
+"n": "29x7",
+"f": 29,
+"t": 7,
+"c": [
+24,
+12,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2",
+"pub": "34-29 23x21 29x7",
+"win": "white",
+"exp": "Les Noirs attaquent 2 pions. Cette situation doit orienter les recherches vers un collage : 34-29   29x7"
+},
+"deb_combi_base_l1_combi4": {
+"id": "deb_combi_base_l1_combi4",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D5",
+"start": {
+"wm": [
+24,
+25,
+33,
+37,
+41,
+42,
+43
+],
+"wk": [],
+"bm": [
+8,
+9,
+10,
+13,
+18,
+19,
+26,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "27x20",
+"f": 27,
+"t": 20,
+"c": [
+33,
+24,
+41,
+42,
+31
+],
+"path": [
+27,
+36,
+47,
+38,
+29,
+20
+],
+"p": false
+},
+{
+"n": "25x5",
+"f": 25,
+"t": 5,
+"c": [
+18,
+19,
+20,
+8,
+9,
+10
+],
+"path": [
+25,
+14,
+3,
+12,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_2",
+"pub": "37-31 27x20 25x5",
+"win": "white",
+"exp": "La solution n’est pas évidente. Là encore, il est nécessaire de tout examiner attentivement en s’attachant aux prises ma"
+},
+"deb_combi_base_l1_combi5": {
+"id": "deb_combi_base_l1_combi5",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D6",
+"start": {
+"wm": [
+26,
+30,
+33,
+34,
+38,
+39,
+40,
+41
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+16,
+19,
+22,
+24,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "25x32",
+"f": 25,
+"t": 32,
+"c": [
+38,
+30,
+39
+],
+"path": [
+25,
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "29x38",
+"f": 29,
+"t": 38,
+"c": [
+32,
+22,
+24,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18,
+27,
+38
+],
+"p": false
+}
+],
+"theme": "combinaisons_2",
+"pub": "34-29 25x32 29x38",
+"win": "white",
+"exp": "Une attaque de 2 pions par les Noirs. Cela oriente normalement vers un collage. Ici, ce n’est pas possible. Un tour d’ho"
+},
+"deb_combi_base_l1_combi6": {
+"id": "deb_combi_base_l1_combi6",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D7",
+"start": {
+"wm": [
+22,
+30,
+32,
+33,
+35,
+47
+],
+"wk": [],
+"bm": [
+11,
+13,
+14,
+17,
+19,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+32,
+22
+],
+"path": [
+17,
+28,
+37
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+24,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18
+],
+"p": false
+}
+],
+"theme": "combinaisons_2",
+"pub": "33-29 17x37 29x18",
+"win": "white",
+"exp": "Une attaque de 2 pions, donc un collage : 33-29   29x18"
+},
+"deb_combi_base_l1_combi7": {
+"id": "deb_combi_base_l1_combi7",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D8",
+"start": {
+"wm": [
+28,
+30,
+32,
+33,
+35,
+36,
+37,
+38,
+39
+],
+"wk": [],
+"bm": [
+11,
+12,
+13,
+14,
+17,
+19,
+21,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x31",
+"f": 24,
+"t": 31,
+"c": [
+37,
+29,
+38
+],
+"path": [
+24,
+33,
+42,
+31
+],
+"p": false
+},
+{
+"n": "36x20",
+"f": 36,
+"t": 20,
+"c": [
+21,
+11,
+12,
+13,
+14,
+31
+],
+"path": [
+36,
+27,
+16,
+7,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_2",
+"pub": "33-29 24x31 36x20",
+"win": "white",
+"exp": "Oser donner 3 pions ne vient pas naturellement à l’esprit. Dans bien des cas, la solution échappe à notre intuition. Il"
+},
+"deb_combi_base_l1_combi8": {
+"id": "deb_combi_base_l1_combi8",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D9",
+"start": {
+"wm": [
+30,
+32,
+35,
+44,
+48
+],
+"wk": [],
+"bm": [
+14,
+23,
+25,
+29,
+33
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "25x43",
+"f": 25,
+"t": 43,
+"c": [
+30,
+39
+],
+"path": [
+25,
+34,
+43
+],
+"p": false
+},
+{
+"n": "48x10",
+"f": 48,
+"t": 10,
+"c": [
+33,
+43,
+14,
+23
+],
+"path": [
+48,
+39,
+28,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2",
+"pub": "44-39 25x43 48x10",
+"win": "white",
+"exp": "La prise majoritaire est ici déterminante : 43-38   48x10"
+},
+"deb_combi_base_l1_combi9": {
+"id": "deb_combi_base_l1_combi9",
+"ch": 1,
+"title": "COMBINAISONS EN 2 TEMPS – D10",
+"start": {
+"wm": [
+29,
+31,
+33,
+34,
+35,
+36,
+38,
+39
+],
+"wk": [],
+"bm": [
+12,
+13,
+16,
+18,
+20,
+22,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+29,
+38,
+39
+],
+"path": [
+23,
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "30x37",
+"f": 30,
+"t": 37,
+"c": [
+32,
+22,
+24,
+12,
+13
+],
+"path": [
+30,
+19,
+8,
+17,
+28,
+37
+],
+"p": false
+}
+],
+"theme": "combinaisons_2",
+"pub": "34-30 23x32 30x37",
+"win": "white",
+"exp": "Comme dans le diagramme n°8, la solution est contre intuitive : 34-30   30x37  7"
+},
+"deb_combi_base_l2_combi0": {
+"id": "deb_combi_base_l2_combi0",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D1",
+"start": {
+"wm": [
+22,
+27,
+32,
+33,
+34,
+35,
+37,
+42
+],
+"wk": [],
+"bm": [
+8,
+9,
+10,
+13,
+16,
+18,
+20,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x30",
+"f": 26,
+"t": 30,
+"c": [
+32,
+33,
+34,
+31
+],
+"path": [
+26,
+37,
+28,
+39,
+30
+],
+"p": false
+},
+{
+"n": "35x4",
+"f": 35,
+"t": 4,
+"c": [
+10,
+20,
+30
+],
+"path": [
+35,
+24,
+15,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "37-31 26x30 35x4",
+"win": "white",
+"exp": "pour trouver la solution, il faut s’intéresser aux points de contact. Le 1 er coup ne peut être que 2721 ou 37-31. Ensui"
+},
+"deb_combi_base_l2_combi1": {
+"id": "deb_combi_base_l2_combi1",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D2",
+"start": {
+"wm": [
+28,
+31,
+33,
+41,
+42,
+44,
+49
+],
+"wk": [],
+"bm": [
+8,
+10,
+13,
+18,
+19,
+20,
+39
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+33,
+22,
+41,
+42,
+31
+],
+"path": [
+18,
+27,
+36,
+47,
+38,
+29
+],
+"p": false
+},
+{
+"n": "44x4",
+"f": 44,
+"t": 4,
+"c": [
+10,
+20,
+29,
+39
+],
+"path": [
+44,
+33,
+24,
+15,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-22 18x29 44x4",
+"win": "white",
+"exp": "Les Noirs viennent d’attaquer en lunette. Ils menacent de prendre un pion et de damer. Il faut penser à la règle de la p"
+},
+"deb_combi_base_l2_combi2": {
+"id": "deb_combi_base_l2_combi2",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D3",
+"start": {
+"wm": [
+29,
+30,
+33,
+38,
+39,
+40,
+48
+],
+"wk": [],
+"bm": [
+12,
+13,
+18,
+21,
+22,
+23,
+31
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x42",
+"f": 22,
+"t": 42,
+"c": [
+38,
+39,
+40,
+28,
+29,
+30
+],
+"path": [
+22,
+33,
+24,
+35,
+44,
+33,
+42
+],
+"p": false
+},
+{
+"n": "48x28",
+"f": 48,
+"t": 28,
+"c": [
+21,
+23,
+42,
+12,
+13,
+31
+],
+"path": [
+48,
+37,
+26,
+17,
+8,
+19,
+28
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-28 22x42 48x28",
+"win": "white",
+"exp": "La solution est basée sur le même principe que le diagramme précédent. Solution : 33-28   48x28"
+},
+"deb_combi_base_l2_combi3": {
+"id": "deb_combi_base_l2_combi3",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D4",
+"start": {
+"wm": [
+25,
+32,
+33,
+35,
+36,
+38,
+42,
+43,
+44,
+45
+],
+"wk": [],
+"bm": [
+1,
+7,
+13,
+16,
+17,
+18,
+19,
+20,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "25x21",
+"f": 25,
+"t": 21,
+"c": [
+17,
+18,
+19,
+20
+],
+"path": [
+25,
+14,
+23,
+12,
+21
+],
+"p": false
+},
+{
+"n": "28x50",
+"f": 28,
+"t": 50,
+"c": [
+32,
+42,
+43,
+44
+],
+"path": [
+28,
+37,
+48,
+39,
+50
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "23-28 25x21 28x50",
+"win": "black",
+"exp": "Attention, ce sont cette fois les Noirs qui gagnent. Il est important de voir les combinaisons avec les Blancs et avec l"
+},
+"deb_combi_base_l2_combi4": {
+"id": "deb_combi_base_l2_combi4",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D5",
+"start": {
+"wm": [
+23,
+29,
+32,
+34,
+43,
+44
+],
+"wk": [],
+"bm": [
+8,
+9,
+10,
+17,
+20,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "20x27",
+"f": 20,
+"t": 27,
+"c": [
+32,
+34,
+24,
+43,
+44
+],
+"path": [
+20,
+29,
+40,
+49,
+38,
+27
+],
+"p": false
+},
+{
+"n": "23x5",
+"f": 23,
+"t": 5,
+"c": [
+17,
+8,
+9,
+10,
+27,
+28
+],
+"path": [
+23,
+32,
+21,
+12,
+3,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "29-24 20x27 23x5",
+"win": "white",
+"exp": "La solution est inattendue. Notre esprit n’est pas préparé à déceler ce genre de combinaison. Il faut s’habituer à envis"
+},
+"deb_combi_base_l2_combi5": {
+"id": "deb_combi_base_l2_combi5",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D6",
+"start": {
+"wm": [
+32,
+33,
+37,
+39
+],
+"wk": [],
+"bm": [
+9,
+18,
+23,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x28",
+"f": 26,
+"t": 28,
+"c": [
+32,
+31
+],
+"path": [
+26,
+37,
+28
+],
+"p": false
+},
+{
+"n": "33x4",
+"f": 33,
+"t": 4,
+"c": [
+9,
+18,
+28
+],
+"path": [
+33,
+22,
+13,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "37-31 26x28 33x4",
+"win": "white",
+"exp": "Ce coup est connu sous le nom de « coup de l’express ». Il s’agit ici de sa forme la plus simple. Solution : 37-31   33x"
+},
+"deb_combi_base_l2_combi6": {
+"id": "deb_combi_base_l2_combi6",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D7",
+"start": {
+"wm": [
+27,
+29,
+32,
+33,
+34,
+35,
+37,
+38,
+39,
+44
+],
+"wk": [],
+"bm": [
+9,
+11,
+12,
+13,
+15,
+16,
+18,
+20,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+37,
+38,
+27,
+28,
+29
+],
+"path": [
+24,
+33,
+22,
+31,
+42,
+33
+],
+"p": false
+},
+{
+"n": "39x6",
+"f": 39,
+"t": 6,
+"c": [
+33,
+23,
+11,
+12,
+13
+],
+"path": [
+39,
+28,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-28 24x33 39x6",
+"win": "white",
+"exp": "27-22 ne donne qu’un échange de pions. Le gain s’obtient par 33-28   39x6"
+},
+"deb_combi_base_l2_combi7": {
+"id": "deb_combi_base_l2_combi7",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D8",
+"start": {
+"wm": [
+23,
+24,
+26,
+32,
+33,
+34,
+40
+],
+"wk": [],
+"bm": [
+9,
+12,
+13,
+15,
+16,
+20,
+22
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "20x18",
+"f": 20,
+"t": 18,
+"c": [
+24,
+23
+],
+"path": [
+20,
+29,
+18
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+12,
+13,
+22
+],
+"path": [
+28,
+17,
+8,
+19
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-28 20x18 28x19",
+"win": "white",
+"exp": "l’attaque de plusieurs pions est souvent à l’origine de « collages ». Solution : 33-28   28x19"
+},
+"deb_combi_base_l2_combi8": {
+"id": "deb_combi_base_l2_combi8",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D9",
+"start": {
+"wm": [
+20,
+29,
+39,
+42
+],
+"wk": [],
+"bm": [
+21,
+22,
+24,
+32
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+29,
+38,
+39
+],
+"path": [
+32,
+43,
+34,
+23
+],
+"p": false
+},
+{
+"n": "20x16",
+"f": 20,
+"t": 16,
+"c": [
+24,
+21,
+22,
+23
+],
+"path": [
+20,
+29,
+18,
+27,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "42-38 32x23 20x16",
+"win": "white",
+"exp": "Là encore, la prise majoritaire est la clé. Solution : 42-38   20x16"
+},
+"deb_combi_base_l2_combi9": {
+"id": "deb_combi_base_l2_combi9",
+"ch": 2,
+"title": "COMBINAISONS EN 2 et 3 TEMPS – D10",
+"start": {
+"wm": [
+27,
+30,
+32,
+33,
+34,
+35,
+37,
+42,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+7,
+12,
+13,
+14,
+15,
+16,
+17,
+19,
+20,
+23,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+24,
+33,
+34
+],
+"path": [
+19,
+30,
+39,
+28
+],
+"p": false
+},
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "16x38",
+"f": 16,
+"t": 38,
+"c": [
+32,
+21
+],
+"path": [
+16,
+27,
+38
+],
+"p": false
+},
+{
+"n": "42x2",
+"f": 42,
+"t": 2,
+"c": [
+17,
+28,
+38,
+7
+],
+"path": [
+42,
+33,
+22,
+11,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "30-24 19x28 27-21 16x38 42x2",
+"win": "white",
+"exp": "En examinant la position, on peut espérer faire un coup de dame aboutissant à la case 2. La case de départ est donc néce"
+},
+"deb_combi_base_l3_combi0": {
+"id": "deb_combi_base_l3_combi0",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D1",
+"start": {
+"wm": [
+33,
+38,
+42,
+43
+],
+"wk": [],
+"bm": [
+12,
+17,
+22,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "38x7",
+"f": 38,
+"t": 7,
+"c": [
+33,
+12,
+23
+],
+"path": [
+38,
+29,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-28 22x33 38x7",
+"win": "white",
+"exp": "La formation de 4 pions 33-38-42-43 est très intéressante pour réaliser des combinaisons connues sous le nom de « Coup p"
+},
+"deb_combi_base_l3_combi1": {
+"id": "deb_combi_base_l3_combi1",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D2",
+"start": {
+"wm": [
+27,
+31,
+32,
+33,
+34,
+36,
+45,
+48
+],
+"wk": [],
+"bm": [
+8,
+13,
+16,
+17,
+18,
+19,
+20,
+40
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "17x30",
+"f": 17,
+"t": 30,
+"c": [
+32,
+33,
+34,
+21,
+31
+],
+"path": [
+17,
+26,
+37,
+28,
+39,
+30
+],
+"p": false
+},
+{
+"n": "45x3",
+"f": 45,
+"t": 3,
+"c": [
+18,
+19,
+20,
+40,
+8,
+30
+],
+"path": [
+45,
+34,
+25,
+14,
+23,
+12,
+3
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-21 17x30 45x3",
+"win": "white",
+"exp": "Les Noirs sont entrés en lunette et menacent 2 pions. En examinant la position des Noirs, on voit qu’il suffit d’amener"
+},
+"deb_combi_base_l3_combi2": {
+"id": "deb_combi_base_l3_combi2",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D3",
+"start": {
+"wm": [
+33,
+35,
+37,
+38,
+39,
+46,
+47
+],
+"wk": [],
+"bm": [
+13,
+14,
+22,
+23,
+24,
+26,
+31
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x41",
+"f": 23,
+"t": 41,
+"c": [
+37,
+29,
+38,
+39
+],
+"path": [
+23,
+34,
+43,
+32,
+41
+],
+"p": false
+},
+{
+"n": "47x29",
+"f": 47,
+"t": 29,
+"c": [
+22,
+24,
+41,
+13,
+14,
+31
+],
+"path": [
+47,
+36,
+27,
+18,
+9,
+20,
+29
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-29 23x41 47x29",
+"win": "white",
+"exp": "Beaucoup de trous dans le camp des Noirs. La prise majoritaire permet à nouveau de conclure. Solution : 33-29   47x29"
+},
+"deb_combi_base_l3_combi3": {
+"id": "deb_combi_base_l3_combi3",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D4",
+"start": {
+"wm": [
+33,
+37,
+38,
+39,
+40
+],
+"wk": [],
+"bm": [
+13,
+14,
+22,
+24,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "35x31",
+"f": 35,
+"t": 31,
+"c": [
+40,
+37,
+38,
+39
+],
+"path": [
+35,
+44,
+33,
+42,
+31
+],
+"p": false
+},
+{
+"n": "29x36",
+"f": 29,
+"t": 36,
+"c": [
+22,
+24,
+13,
+14,
+31
+],
+"path": [
+29,
+20,
+9,
+18,
+27,
+36
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-29 35x31 29x36",
+"win": "white",
+"exp": "Solution : 33-29   29x36"
+},
+"deb_combi_base_l3_combi4": {
+"id": "deb_combi_base_l3_combi4",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D5",
+"start": {
+"wm": [
+21,
+29,
+32,
+33,
+42,
+43
+],
+"wk": [],
+"bm": [
+8,
+9,
+10,
+18,
+19,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+32,
+33,
+23,
+42,
+43
+],
+"path": [
+19,
+28,
+37,
+48,
+39,
+28
+],
+"p": false
+},
+{
+"n": "21x5",
+"f": 21,
+"t": 5,
+"c": [
+18,
+8,
+9,
+10,
+27,
+28
+],
+"path": [
+21,
+32,
+23,
+12,
+3,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "29-23 19x28 21x5",
+"win": "white",
+"exp": "Solution : 29-23   21x5"
+},
+"deb_combi_base_l3_combi5": {
+"id": "deb_combi_base_l3_combi5",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D6",
+"start": {
+"wm": [
+23,
+28,
+32,
+34,
+42,
+43
+],
+"wk": [],
+"bm": [
+7,
+8,
+9,
+17,
+20,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x30",
+"f": 17,
+"t": 30,
+"c": [
+32,
+34,
+22,
+42,
+43
+],
+"path": [
+17,
+28,
+37,
+48,
+39,
+30
+],
+"p": false
+},
+{
+"n": "23x1",
+"f": 23,
+"t": 1,
+"c": [
+20,
+7,
+8,
+9,
+29,
+30
+],
+"path": [
+23,
+34,
+25,
+14,
+3,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-22 17x30 23x1",
+"win": "white",
+"exp": "Solution : 28-22   23x1"
+},
+"deb_combi_base_l3_combi6": {
+"id": "deb_combi_base_l3_combi6",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D7",
+"start": {
+"wm": [
+25,
+31,
+33,
+34,
+35,
+37,
+38,
+40,
+43,
+45
+],
+"wk": [],
+"bm": [
+3,
+8,
+15,
+16,
+17,
+18,
+19,
+20,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "25x21",
+"f": 25,
+"t": 21,
+"c": [
+17,
+18,
+19,
+20
+],
+"path": [
+25,
+14,
+23,
+12,
+21
+],
+"p": false
+},
+{
+"n": "28x48",
+"f": 28,
+"t": 48,
+"c": [
+33,
+43
+],
+"path": [
+28,
+39,
+48
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "23-28 25x21 28x48",
+"win": "black",
+"exp": "Ce genre de situation se présente assez fréquemment en partie. Sur les attaques de pions, il faut tout envisager. Les co"
+},
+"deb_combi_base_l3_combi7": {
+"id": "deb_combi_base_l3_combi7",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D8",
+"start": {
+"wm": [
+25,
+27,
+32,
+33,
+37,
+38,
+39,
+44,
+48
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+16,
+18,
+21,
+22,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "21x34",
+"f": 21,
+"t": 34,
+"c": [
+27,
+38,
+39
+],
+"path": [
+21,
+32,
+43,
+34
+],
+"p": false
+},
+{
+"n": "28x39",
+"f": 28,
+"t": 39,
+"c": [
+34,
+22,
+24,
+12,
+13
+],
+"path": [
+28,
+17,
+8,
+19,
+30,
+39
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "32-28 21x34 28x39",
+"win": "white",
+"exp": "Un cas très pratique. Une attaque de 2 pions apparemment décisive. La prise majoritaire est bien souvent un moyen de déf"
+},
+"deb_combi_base_l3_combi8": {
+"id": "deb_combi_base_l3_combi8",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D9",
+"start": {
+"wm": [
+22,
+27,
+30,
+33,
+34,
+35,
+37,
+43,
+47
+],
+"wk": [],
+"bm": [
+3,
+6,
+11,
+13,
+14,
+16,
+19,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "22-17",
+"f": 22,
+"t": 17,
+"c": [],
+"path": [
+22,
+17
+],
+"p": false
+},
+{
+"n": "11x42",
+"f": 11,
+"t": 42,
+"c": [
+17,
+27,
+37
+],
+"path": [
+11,
+22,
+31,
+42
+],
+"p": false
+},
+{
+"n": "47x20",
+"f": 47,
+"t": 20,
+"c": [
+33,
+23,
+42,
+13,
+14
+],
+"path": [
+47,
+38,
+29,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-29 24x33 22-17 11x42 47x20",
+"win": "white",
+"exp": "Harry KOLK – Leo MOUS   Une combinaison en 3 temps. La réflexion se porte automatiquement sur la rafle et sur le point d"
+},
+"deb_combi_base_l3_combi9": {
+"id": "deb_combi_base_l3_combi9",
+"ch": 3,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D10",
+"start": {
+"wm": [
+21,
+28,
+32,
+33,
+34,
+37,
+38,
+39,
+40,
+44
+],
+"wk": [],
+"bm": [
+6,
+12,
+13,
+15,
+17,
+22,
+24,
+25,
+26,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "32x41",
+"f": 32,
+"t": 41,
+"c": [
+37
+],
+"path": [
+32,
+41
+],
+"p": false
+},
+{
+"n": "17x26",
+"f": 17,
+"t": 26,
+"c": [
+21
+],
+"path": [
+17,
+26
+],
+"p": false
+},
+{
+"n": "28x30",
+"f": 28,
+"t": 30,
+"c": [
+24,
+12,
+13,
+22
+],
+"path": [
+28,
+17,
+8,
+19,
+30
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "37-31 26x37 32x41 17x26 28x30",
+"win": "white",
+"exp": "S. LAUTENBACH – J. van der DOE   La rafle 28x30 est déjà prête. Il ne manque que le pion 17 à faire sauter. Solution : 3"
+},
+"deb_combi_base_l4_combi0": {
+"id": "deb_combi_base_l4_combi0",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D1",
+"start": {
+"wm": [
+27,
+33,
+38,
+39,
+40,
+45
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+19,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+28,
+38,
+39
+],
+"path": [
+23,
+32,
+43,
+34
+],
+"p": false
+},
+{
+"n": "40x7",
+"f": 40,
+"t": 7,
+"c": [
+34,
+24,
+12,
+13,
+14
+],
+"path": [
+40,
+29,
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-28 23x34 40x7",
+"win": "white",
+"exp": "La formation des Noirs en étoile 13-14-19-23-24 est souvent à l’origine d’une combinaison connue sous le nom de « Coup r"
+},
+"deb_combi_base_l4_combi1": {
+"id": "deb_combi_base_l4_combi1",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D2",
+"start": {
+"wm": [
+22,
+27,
+29,
+33,
+34,
+35,
+43,
+48
+],
+"wk": [],
+"bm": [
+8,
+9,
+11,
+15,
+16,
+19,
+20,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "26x30",
+"f": 26,
+"t": 30,
+"c": [
+33,
+34,
+21,
+22
+],
+"path": [
+26,
+17,
+28,
+39,
+30
+],
+"p": false
+},
+{
+"n": "35x2",
+"f": 35,
+"t": 2,
+"c": [
+8,
+19,
+30
+],
+"path": [
+35,
+24,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-21 26x30 35x2",
+"win": "white",
+"exp": "Gil SALOME – Fidèle NIMBI   La prise majoritaire réserve bien des surprises. Le premier coup est inattendu. Cela prove u"
+},
+"deb_combi_base_l4_combi2": {
+"id": "deb_combi_base_l4_combi2",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D3",
+"start": {
+"wm": [
+25,
+26,
+30,
+32,
+35,
+37,
+38,
+39,
+49
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+17,
+19,
+22,
+23,
+24,
+34
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x44",
+"f": 22,
+"t": 44,
+"c": [
+27,
+37,
+38,
+39
+],
+"path": [
+22,
+31,
+42,
+33,
+44
+],
+"p": false
+},
+{
+"n": "49x7",
+"f": 49,
+"t": 7,
+"c": [
+34,
+12,
+24,
+44,
+13,
+14
+],
+"path": [
+49,
+40,
+29,
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "32-27 22x44 49x7",
+"win": "white",
+"exp": "A nouveau la prise majoritaire. Solution : 32-27   49x7"
+},
+"deb_combi_base_l4_combi3": {
+"id": "deb_combi_base_l4_combi3",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D4",
+"start": {
+"wm": [
+22,
+28,
+32,
+33,
+34,
+35,
+36
+],
+"wk": [],
+"bm": [
+13,
+16,
+19,
+20,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "35-30 24x35 33-29",
+"win": "white",
+"exp": "Un intrus dans cette série de combinaisons. Il s’agit d’un gambit. Cette forme de gain basée sur le sacrifice d’un pion"
+},
+"deb_combi_base_l4_combi4": {
+"id": "deb_combi_base_l4_combi4",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D5",
+"start": {
+"wm": [
+33,
+37,
+38,
+39,
+40,
+41
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+18,
+22,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+29,
+38,
+39
+],
+"path": [
+23,
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "37x10",
+"f": 37,
+"t": 10,
+"c": [
+32,
+22,
+12,
+13,
+14
+],
+"path": [
+37,
+28,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-29 23x32 37x10",
+"win": "white",
+"exp": "33-29   37x10"
+},
+"deb_combi_base_l4_combi5": {
+"id": "deb_combi_base_l4_combi5",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D6",
+"start": {
+"wm": [
+26,
+28,
+32,
+36,
+38,
+39,
+40,
+43,
+45
+],
+"wk": [],
+"bm": [
+11,
+12,
+13,
+14,
+17,
+19,
+21,
+22,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x35",
+"f": 22,
+"t": 35,
+"c": [
+40,
+28,
+39
+],
+"path": [
+22,
+33,
+44,
+35
+],
+"p": false
+},
+{
+"n": "27x29",
+"f": 27,
+"t": 29,
+"c": [
+21,
+24,
+11,
+12,
+13,
+14
+],
+"path": [
+27,
+16,
+7,
+18,
+9,
+20,
+29
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "32-27 22x35 27x29",
+"win": "white",
+"exp": "Une attaque de 3 pions. Il faut avoir le réflexe de penser au collage. Solution : 32-27   27x29"
+},
+"deb_combi_base_l4_combi6": {
+"id": "deb_combi_base_l4_combi6",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D7",
+"start": {
+"wm": [
+27,
+28,
+33,
+34,
+37,
+38,
+42
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+16,
+18,
+21,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x31",
+"f": 24,
+"t": 31,
+"c": [
+27,
+28,
+29
+],
+"path": [
+24,
+33,
+22,
+31
+],
+"p": false
+},
+{
+"n": "37x10",
+"f": 37,
+"t": 10,
+"c": [
+21,
+12,
+13,
+14,
+31
+],
+"path": [
+37,
+26,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-29 24x31 37x10",
+"win": "white",
+"exp": "La règle de la prise majoritaire est inattendue mais décisive. Solution : 33-29   37x10"
+},
+"deb_combi_base_l4_combi7": {
+"id": "deb_combi_base_l4_combi7",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D8",
+"start": {
+"wm": [
+27,
+28,
+32,
+33,
+35,
+37,
+38,
+39,
+42,
+47
+],
+"wk": [],
+"bm": [
+3,
+6,
+12,
+13,
+14,
+16,
+18,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x48",
+"f": 26,
+"t": 48,
+"c": [
+42,
+31
+],
+"path": [
+26,
+37,
+48
+],
+"p": true
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "48x22",
+"f": 48,
+"t": 22,
+"c": [
+42,
+27
+],
+"path": [
+48,
+31,
+22
+],
+"p": false
+},
+{
+"n": "28x10",
+"f": 28,
+"t": 10,
+"c": [
+12,
+13,
+22,
+14
+],
+"path": [
+28,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "37-31 26x48 47-42 48x22 28x10",
+"win": "white",
+"exp": "La rafle 28x10 se dessine. Il faut trouver le moyen de placer une pièce noire en 22. L’envoi à dame est le mécanisme app"
+},
+"deb_combi_base_l4_combi8": {
+"id": "deb_combi_base_l4_combi8",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D9",
+"start": {
+"wm": [
+24,
+28,
+29,
+31,
+33,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+5,
+6,
+9,
+10,
+11,
+12,
+13,
+15,
+17,
+20,
+21,
+22
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "24x4",
+"f": 24,
+"t": 4,
+"c": [
+9,
+19
+],
+"path": [
+24,
+13,
+4
+],
+"p": true
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "4x27",
+"f": 4,
+"t": 27,
+"c": [
+22
+],
+"path": [
+4,
+27
+],
+"p": false
+},
+{
+"n": "21x45",
+"f": 21,
+"t": 45,
+"c": [
+40,
+27,
+28,
+29
+],
+"path": [
+21,
+32,
+23,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "13-19 24x4 11-16 4x27 21x45",
+"win": "black",
+"exp": "Marcel NAVARRO – Piet ROOZENBURG   L’idée de base repose sur une combinaison aboutissant à 45. Le point d’appui se situe"
+},
+"deb_combi_base_l4_combi9": {
+"id": "deb_combi_base_l4_combi9",
+"ch": 4,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D10",
+"start": {
+"wm": [
+18,
+22,
+23,
+28,
+29,
+32,
+36,
+37,
+39,
+40,
+41,
+42,
+43,
+44,
+46,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+9,
+10,
+11,
+13,
+14,
+15,
+16,
+17,
+21,
+25,
+26,
+35
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "23x5",
+"f": 23,
+"t": 5,
+"c": [
+10,
+19
+],
+"path": [
+23,
+14,
+5
+],
+"p": true
+},
+{
+"n": "4-10",
+"f": 4,
+"t": 10,
+"c": [],
+"path": [
+4,
+10
+],
+"p": false
+},
+{
+"n": "5x8",
+"f": 5,
+"t": 8,
+"c": [
+10,
+13
+],
+"path": [
+5,
+19,
+8
+],
+"p": false
+},
+{
+"n": "3x45",
+"f": 3,
+"t": 45,
+"c": [
+8,
+18,
+40,
+29
+],
+"path": [
+3,
+12,
+23,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "14-19 23x5 4-10 5x8 3x45",
+"win": "black",
+"exp": "Cees BAKKER – Fred IVENS   Il faut commencer par éliminer l’idée d’une combinaison en 47 ou 49 car il n’y a pas de point"
+},
+"deb_combi_base_l5_combi0": {
+"id": "deb_combi_base_l5_combi0",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D1",
+"start": {
+"wm": [
+34,
+40,
+45
+],
+"wk": [],
+"bm": [
+12,
+23,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x7",
+"f": 40,
+"t": 7,
+"c": [
+34,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "34-30 25x34 40x7",
+"win": "white",
+"exp": "Ce coup est connu sous le nom de « coup Philippe ». Il s’agit ici de sa forme la plus élémentaire. Solution : 34-30   40"
+},
+"deb_combi_base_l5_combi1": {
+"id": "deb_combi_base_l5_combi1",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D2",
+"start": {
+"wm": [
+27,
+31,
+32,
+33,
+35,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+9,
+12,
+13,
+16,
+17,
+19,
+24,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "17x39",
+"f": 17,
+"t": 39,
+"c": [
+32,
+33,
+21,
+31
+],
+"path": [
+17,
+26,
+37,
+28,
+39
+],
+"p": false
+},
+{
+"n": "43x3",
+"f": 43,
+"t": 3,
+"c": [
+9,
+19,
+29,
+39
+],
+"path": [
+43,
+34,
+23,
+14,
+3
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-21 17x39 43x3",
+"win": "white",
+"exp": "On retrouve le thème de la prise majoritaire. Solution : 27-21   43x3"
+},
+"deb_combi_base_l5_combi2": {
+"id": "deb_combi_base_l5_combi2",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D3",
+"start": {
+"wm": [
+26,
+30,
+31,
+33,
+35,
+38,
+39
+],
+"wk": [],
+"bm": [
+9,
+16,
+17,
+18,
+19,
+24,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "25x32",
+"f": 25,
+"t": 32,
+"c": [
+38,
+30,
+39
+],
+"path": [
+25,
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "21x3",
+"f": 21,
+"t": 3,
+"c": [
+17,
+18,
+19,
+9
+],
+"path": [
+21,
+12,
+23,
+14,
+3
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "26-21 25x32 21x3",
+"win": "white",
+"exp": "On retrouve le thème du collage Solution : 26-21   21x3"
+},
+"deb_combi_base_l5_combi3": {
+"id": "deb_combi_base_l5_combi3",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D4",
+"start": {
+"wm": [
+26,
+29,
+33,
+35,
+37,
+38,
+39,
+47
+],
+"wk": [],
+"bm": [
+11,
+13,
+14,
+18,
+22,
+25,
+27,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "26-21 27x16 38-32",
+"win": "white",
+"exp": "On retrouve le thème du gambit. Solution : 26-21   38-32"
+},
+"deb_combi_base_l5_combi4": {
+"id": "deb_combi_base_l5_combi4",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D5",
+"start": {
+"wm": [
+17,
+22,
+32,
+33,
+44
+],
+"wk": [],
+"bm": [
+7,
+8,
+9,
+10,
+20,
+39
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "17-12",
+"f": 17,
+"t": 12,
+"c": [],
+"path": [
+17,
+12
+],
+"p": false
+},
+{
+"n": "7x29",
+"f": 7,
+"t": 29,
+"c": [
+32,
+33,
+12,
+22
+],
+"path": [
+7,
+18,
+27,
+38,
+29
+],
+"p": false
+},
+{
+"n": "44x2",
+"f": 44,
+"t": 2,
+"c": [
+20,
+39,
+8,
+9,
+10,
+29
+],
+"path": [
+44,
+33,
+24,
+15,
+4,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "17-12 7x29 44x2",
+"win": "white",
+"exp": "17-12   44x2"
+},
+"deb_combi_base_l5_combi5": {
+"id": "deb_combi_base_l5_combi5",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D6",
+"start": {
+"wm": [
+20,
+26,
+29,
+31,
+34,
+36,
+37,
+38,
+39,
+40,
+41,
+43,
+49,
+50
+],
+"wk": [],
+"bm": [
+4,
+6,
+7,
+9,
+11,
+12,
+13,
+14,
+17,
+22,
+23,
+25,
+27,
+28
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x10",
+"f": 26,
+"t": 10,
+"c": [
+13,
+12,
+21,
+14
+],
+"path": [
+26,
+17,
+8,
+19,
+10
+],
+"p": false
+},
+{
+"n": "4x35",
+"f": 4,
+"t": 35,
+"c": [
+20,
+39,
+40,
+10,
+29
+],
+"path": [
+4,
+15,
+24,
+33,
+44,
+35
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "17-21 26x10 4x35",
+"win": "black",
+"exp": "Francesco LAPORTA – Georges MOSTOVOY   Les Noirs gagnent par   26x10"
+},
+"deb_combi_base_l5_combi6": {
+"id": "deb_combi_base_l5_combi6",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D7",
+"start": {
+"wm": [
+27,
+31,
+32,
+33,
+35,
+36,
+38,
+40,
+45
+],
+"wk": [],
+"bm": [
+16,
+17,
+18,
+19,
+22,
+23,
+24,
+29,
+34
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x44",
+"f": 24,
+"t": 44,
+"c": [
+40,
+30
+],
+"path": [
+24,
+35,
+44
+],
+"p": false
+},
+{
+"n": "33x13",
+"f": 33,
+"t": 13,
+"c": [
+19,
+29
+],
+"path": [
+33,
+24,
+13
+],
+"p": false
+},
+{
+"n": "18x9",
+"f": 18,
+"t": 9,
+"c": [
+13
+],
+"path": [
+18,
+9
+],
+"p": false
+},
+{
+"n": "27x49",
+"f": 27,
+"t": 49,
+"c": [
+34,
+44,
+22,
+23
+],
+"path": [
+27,
+18,
+29,
+40,
+49
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "35-30 24x44 33x13 18x9 27x49",
+"win": "white",
+"exp": "La rafle finale 27x49 ne saute pas aux yeux car les pions 18 et 29 semblent bien en place. Les points de contact sont 27"
+},
+"deb_combi_base_l5_combi7": {
+"id": "deb_combi_base_l5_combi7",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D8",
+"start": {
+"wm": [
+28,
+32,
+33,
+34,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+3,
+5,
+6,
+7,
+8,
+9,
+12,
+13,
+14,
+15,
+19,
+21,
+23,
+24,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x22",
+"f": 24,
+"t": 22,
+"c": [
+28,
+29
+],
+"path": [
+24,
+33,
+22
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+21,
+22,
+23
+],
+"path": [
+40,
+29,
+18,
+27,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-29 24x22 34-30 25x34 40x16",
+"win": "white",
+"exp": "Pieter BERGSMA – J. de VRIES   Les points de contact sont 35-30, 32-27, 33-29, 34-29 et 34-30. En offrant 2 pions par 33"
+},
+"deb_combi_base_l5_combi8": {
+"id": "deb_combi_base_l5_combi8",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D9",
+"start": {
+"wm": [
+18,
+23,
+28,
+33,
+34,
+36,
+37,
+38,
+39
+],
+"wk": [],
+"bm": [
+1,
+3,
+11,
+14,
+15,
+17,
+19,
+21,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "23x25",
+"f": 23,
+"t": 25,
+"c": [
+19,
+20
+],
+"path": [
+23,
+14,
+25
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "36x7",
+"f": 36,
+"t": 7,
+"c": [
+11,
+21,
+31
+],
+"path": [
+36,
+27,
+16,
+7
+],
+"p": false
+},
+{
+"n": "1x41",
+"f": 1,
+"t": 41,
+"c": [
+18,
+28,
+37,
+7
+],
+"path": [
+1,
+12,
+23,
+32,
+41
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "14-20 23x25 26-31 36x7 1x41",
+"win": "black",
+"exp": "Eugène LECLERCQ – Isidore WEISS   La rafle   est cachée car elle semble vouée à l’échec en raison du pion 36. En recherc"
+},
+"deb_combi_base_l5_combi9": {
+"id": "deb_combi_base_l5_combi9",
+"ch": 5,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D10",
+"start": {
+"wm": [
+23,
+24,
+28,
+29,
+34,
+36,
+39,
+42,
+44
+],
+"wk": [],
+"bm": [
+11,
+12,
+13,
+14,
+15,
+17,
+21,
+22,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "23-19",
+"f": 23,
+"t": 19,
+"c": [],
+"path": [
+23,
+19
+],
+"p": false
+},
+{
+"n": "14x32",
+"f": 14,
+"t": 32,
+"c": [
+19,
+28
+],
+"path": [
+14,
+23,
+32
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "35x33",
+"f": 35,
+"t": 33,
+"c": [
+40,
+39
+],
+"path": [
+35,
+44,
+33
+],
+"p": false
+},
+{
+"n": "29x9",
+"f": 29,
+"t": 9,
+"c": [
+32,
+33,
+21,
+11,
+12,
+13
+],
+"path": [
+29,
+38,
+27,
+16,
+7,
+18,
+9
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "23-19 14x32 44-40 35x33 29x9",
+"win": "white",
+"exp": "La rafle n’est pas très évidente à trouver. On s’attend normalement à une rafle 36x20. Il existe un autre point d’appui"
+},
+"deb_combi_base_l6_combi0": {
+"id": "deb_combi_base_l6_combi0",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D1",
+"start": {
+"wm": [
+25,
+28,
+29,
+30,
+32,
+36,
+37,
+38,
+39
+],
+"wk": [],
+"bm": [
+8,
+12,
+13,
+14,
+15,
+16,
+17,
+19,
+22
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "15x31",
+"f": 15,
+"t": 31,
+"c": [
+37,
+20,
+29,
+38
+],
+"path": [
+15,
+24,
+33,
+42,
+31
+],
+"p": false
+},
+{
+"n": "36x20",
+"f": 36,
+"t": 20,
+"c": [
+14,
+13,
+22,
+31
+],
+"path": [
+36,
+27,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "25-20 15x31 36x20",
+"win": "white",
+"exp": "Une combinaison étonnante sur le principe de la prise majoritaire. Solution : 25-20   36x20"
+},
+"deb_combi_base_l6_combi1": {
+"id": "deb_combi_base_l6_combi1",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D2",
+"start": {
+"wm": [
+34,
+38,
+41,
+42,
+43,
+44
+],
+"wk": [],
+"bm": [
+8,
+9,
+18,
+19,
+28,
+36
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "36x29",
+"f": 36,
+"t": 29,
+"c": [
+34,
+41,
+42,
+43,
+44
+],
+"path": [
+36,
+47,
+38,
+49,
+40,
+29
+],
+"p": false
+},
+{
+"n": "32x34",
+"f": 32,
+"t": 34,
+"c": [
+18,
+19,
+8,
+9,
+28,
+29
+],
+"path": [
+32,
+23,
+12,
+3,
+14,
+23,
+34
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "38-32 36x29 32x34",
+"win": "white",
+"exp": "Une application de la prise majoritaire. Solution : 38-32   32x34"
+},
+"deb_combi_base_l6_combi2": {
+"id": "deb_combi_base_l6_combi2",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D3",
+"start": {
+"wm": [
+20,
+25,
+29,
+31,
+33,
+35,
+36,
+37,
+38,
+39,
+48
+],
+"wk": [],
+"bm": [
+4,
+9,
+10,
+11,
+12,
+13,
+14,
+18,
+22,
+26,
+27
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "27-32",
+"f": 27,
+"t": 32,
+"c": [],
+"path": [
+27,
+32
+],
+"p": false
+},
+{
+"n": "37x19",
+"f": 37,
+"t": 19,
+"c": [
+32,
+12,
+13,
+22
+],
+"path": [
+37,
+28,
+17,
+8,
+19
+],
+"p": false
+},
+{
+"n": "14x32",
+"f": 14,
+"t": 32,
+"c": [
+19,
+29,
+38,
+39
+],
+"path": [
+14,
+23,
+34,
+43,
+32
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-32 37x19 14x32",
+"win": "black",
+"exp": "Michael KORENIEVSKI - Viacheslav SHCHEGOLEV   On ne pense pas toujours à tout. Même les coups en 2 temps peuvent échappe"
+},
+"deb_combi_base_l6_combi3": {
+"id": "deb_combi_base_l6_combi3",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D4",
+"start": {
+"wm": [
+22,
+27,
+28,
+32,
+35,
+37,
+38,
+45
+],
+"wk": [],
+"bm": [
+8,
+11,
+13,
+16,
+20,
+24,
+29,
+30
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "16x18",
+"f": 16,
+"t": 18,
+"c": [
+21,
+22
+],
+"path": [
+16,
+27,
+18
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-21 16x18 28-23",
+"win": "white",
+"exp": "Les Blancs gagnent par un gambit de 2 pions. Solution : 27-21   28-23"
+},
+"deb_combi_base_l6_combi4": {
+"id": "deb_combi_base_l6_combi4",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D5",
+"start": {
+"wm": [
+27,
+28,
+32,
+37,
+38
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+15,
+18
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "28x10",
+"f": 28,
+"t": 10,
+"c": [
+12,
+13,
+22,
+14
+],
+"path": [
+28,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "38-33 18-22 28x10",
+"win": "white",
+"exp": "La règle précise que l’on doit d’abord effectuer la prise et seulement ensuite enlever les pions. L’application de cette"
+},
+"deb_combi_base_l6_combi5": {
+"id": "deb_combi_base_l6_combi5",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D6",
+"start": {
+"wm": [
+22,
+26,
+28,
+32,
+33,
+34,
+36,
+38,
+43,
+48,
+50
+],
+"wk": [],
+"bm": [
+6,
+8,
+11,
+12,
+13,
+14,
+15,
+17,
+19,
+21,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "21x23",
+"f": 21,
+"t": 23,
+"c": [
+27,
+28
+],
+"path": [
+21,
+32,
+23
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "17x39",
+"f": 17,
+"t": 39,
+"c": [
+33,
+22
+],
+"path": [
+17,
+28,
+39
+],
+"p": false
+},
+{
+"n": "29x16",
+"f": 29,
+"t": 16,
+"c": [
+24,
+11,
+12,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "32-27 21x23 34-29 17x39 29x16",
+"win": "white",
+"exp": "La rafle 29x16 ou 29x27 est immédiatement repérable. Sans point d’appui à 29, il faut penser au collage. Solution : 32-2"
+},
+"deb_combi_base_l6_combi6": {
+"id": "deb_combi_base_l6_combi6",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D7",
+"start": {
+"wm": [
+26,
+27,
+29,
+32,
+34,
+36,
+37,
+38,
+40,
+43,
+48
+],
+"wk": [],
+"bm": [
+11,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+20,
+22,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+27,
+37,
+38
+],
+"path": [
+22,
+31,
+42,
+33
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19x39",
+"f": 19,
+"t": 39,
+"c": [
+24,
+34
+],
+"path": [
+19,
+30,
+39
+],
+"p": false
+},
+{
+"n": "28x6",
+"f": 28,
+"t": 6,
+"c": [
+11,
+12,
+13,
+23
+],
+"path": [
+28,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "29-24 22x33 32-28 19x39 28x6",
+"win": "white",
+"exp": "L’idée d’une rafle aboutissant à 6 est plausible. Il faut d’une part éliminer le pion 19 et d’autre part trouver un poin"
+},
+"deb_combi_base_l6_combi7": {
+"id": "deb_combi_base_l6_combi7",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D8",
+"start": {
+"wm": [
+26,
+29,
+30,
+33,
+35,
+37,
+38,
+40,
+48
+],
+"wk": [],
+"bm": [
+4,
+5,
+9,
+12,
+13,
+14,
+15,
+22,
+31
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "31x24",
+"f": 31,
+"t": 24,
+"c": [
+29,
+37,
+38
+],
+"path": [
+31,
+42,
+33,
+24
+],
+"p": false
+},
+{
+"n": "28x10",
+"f": 28,
+"t": 10,
+"c": [
+12,
+13,
+22,
+14
+],
+"path": [
+28,
+17,
+8,
+19,
+10
+],
+"p": false
+},
+{
+"n": "5x14",
+"f": 5,
+"t": 14,
+"c": [
+10
+],
+"path": [
+5,
+14
+],
+"p": false
+},
+{
+"n": "30x10",
+"f": 30,
+"t": 10,
+"c": [
+24,
+14
+],
+"path": [
+30,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-28 31x24 28x10 5x14 30x10",
+"win": "white",
+"exp": "Rien d’évident à première vue. La seule manière de procéder est d’envisager le coup inattendu 33-28 et d’examiner mental"
+},
+"deb_combi_base_l6_combi8": {
+"id": "deb_combi_base_l6_combi8",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D9",
+"start": {
+"wm": [
+27,
+28,
+32,
+33,
+37,
+38,
+39,
+40,
+45
+],
+"wk": [],
+"bm": [
+6,
+12,
+13,
+14,
+18,
+19,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+28,
+38,
+39
+],
+"path": [
+23,
+32,
+43,
+34
+],
+"p": false
+},
+{
+"n": "40x7",
+"f": 40,
+"t": 7,
+"c": [
+34,
+24,
+12,
+13,
+14
+],
+"path": [
+40,
+29,
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-22 18x27 32x21 23x34 40x7",
+"win": "white",
+"exp": "La rafle 40x7 caractérise le Coup royal. Solution : 27-22   32x21   40x7"
+},
+"deb_combi_base_l6_combi9": {
+"id": "deb_combi_base_l6_combi9",
+"ch": 6,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D10",
+"start": {
+"wm": [
+15,
+28,
+29,
+33,
+34,
+37,
+38,
+40,
+41,
+43,
+45
+],
+"wk": [],
+"bm": [
+3,
+4,
+5,
+12,
+13,
+14,
+16,
+19,
+21,
+26,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x49",
+"f": 27,
+"t": 49,
+"c": [
+32,
+43
+],
+"path": [
+27,
+38,
+49
+],
+"p": true
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "49x24",
+"f": 49,
+"t": 24,
+"c": [
+40,
+30
+],
+"path": [
+49,
+35,
+24
+],
+"p": false
+},
+{
+"n": "29x7",
+"f": 29,
+"t": 7,
+"c": [
+24,
+12,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "38-32 27x49 34-30 49x24 29x7",
+"win": "white",
+"exp": "Wim RUSTENBURG – Piet van DARTELEN   L’idée est d’aboutir sur la case 7. Le pion 29 peut servir d’appui. Il reste à ache"
+},
+"deb_combi_base_l7_combi0": {
+"id": "deb_combi_base_l7_combi0",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D1",
+"start": {
+"wm": [
+29,
+32,
+33,
+34,
+36,
+38,
+40,
+42,
+48
+],
+"wk": [],
+"bm": [
+9,
+15,
+16,
+17,
+18,
+19,
+20,
+21,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "19x37",
+"f": 19,
+"t": 37,
+"c": [
+24,
+33,
+34,
+32
+],
+"path": [
+19,
+30,
+39,
+28,
+37
+],
+"p": false
+},
+{
+"n": "42x4",
+"f": 42,
+"t": 4,
+"c": [
+9,
+18,
+27,
+37
+],
+"path": [
+42,
+31,
+22,
+13,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "29-24 19x37 42x4",
+"win": "white",
+"exp": "une combinaison basée sur la prise majoritaire Solution : 29-24   42x4"
+},
+"deb_combi_base_l7_combi1": {
+"id": "deb_combi_base_l7_combi1",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D2",
+"start": {
+"wm": [
+27,
+29,
+31,
+32,
+33,
+34,
+35,
+36,
+43,
+48
+],
+"wk": [],
+"bm": [
+7,
+8,
+9,
+13,
+15,
+16,
+18,
+19,
+22,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "26x30",
+"f": 26,
+"t": 30,
+"c": [
+32,
+33,
+34,
+31
+],
+"path": [
+26,
+37,
+28,
+39,
+30
+],
+"p": false
+},
+{
+"n": "23x1",
+"f": 23,
+"t": 1,
+"c": [
+8,
+9,
+19,
+7
+],
+"path": [
+23,
+14,
+3,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "29-23 26x30 23x1",
+"win": "white",
+"exp": "les Noirs ont attaqué 4 pions. Il faut penser au collage Solution : 29-23   23x1"
+},
+"deb_combi_base_l7_combi2": {
+"id": "deb_combi_base_l7_combi2",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D3",
+"start": {
+"wm": [
+25,
+28,
+32,
+33,
+34,
+35,
+36,
+42
+],
+"wk": [],
+"bm": [
+8,
+12,
+14,
+16,
+17,
+19,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "23x21",
+"f": 23,
+"t": 21,
+"c": [
+27,
+28
+],
+"path": [
+23,
+32,
+21
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "32-27 23x21 34-29",
+"win": "white",
+"exp": "l’attaque du pion 24 est souvent décisive. On y parvient par un gambit. Solution : 32-27   34-29"
+},
+"deb_combi_base_l7_combi3": {
+"id": "deb_combi_base_l7_combi3",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D4",
+"start": {
+"wm": [
+20,
+29,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+45,
+47
+],
+"wk": [],
+"bm": [
+2,
+4,
+8,
+9,
+12,
+14,
+22,
+23,
+25,
+27,
+28
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "28-33",
+"f": 28,
+"t": 33,
+"c": [],
+"path": [
+28,
+33
+],
+"p": false
+},
+{
+"n": "39x10",
+"f": 39,
+"t": 10,
+"c": [
+33,
+14,
+23
+],
+"path": [
+39,
+28,
+19,
+10
+],
+"p": false
+},
+{
+"n": "4x31",
+"f": 4,
+"t": 31,
+"c": [
+20,
+37,
+38,
+10,
+29
+],
+"path": [
+4,
+15,
+24,
+33,
+42,
+31
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-33 39x10 4x31",
+"win": "black",
+"exp": "Rienk van Marle – Johan Krajenbrink   De nombreuses prises possibles. Il faut penser simultanément à une rafle se termin"
+},
+"deb_combi_base_l7_combi4": {
+"id": "deb_combi_base_l7_combi4",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D5",
+"start": {
+"wm": [
+24,
+26,
+28,
+32,
+34,
+38,
+42
+],
+"wk": [],
+"bm": [
+7,
+8,
+9,
+13,
+17,
+18,
+19
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x48",
+"f": 19,
+"t": 48,
+"c": [
+32,
+42,
+23
+],
+"path": [
+19,
+28,
+37,
+48
+],
+"p": true
+},
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "48x19",
+"f": 48,
+"t": 19,
+"c": [
+24,
+34
+],
+"path": [
+48,
+30,
+19
+],
+"p": false
+},
+{
+"n": "21x1",
+"f": 21,
+"t": 1,
+"c": [
+17,
+18,
+19,
+7,
+8,
+9
+],
+"path": [
+21,
+12,
+3,
+14,
+23,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-23 19x48 26-21 48x19 21x1",
+"win": "white",
+"exp": "une combinaison avec peu de pions qui réunit de nombreux mécanismes, à savoir la prise majoritaire, l’envoi à dame et le"
+},
+"deb_combi_base_l7_combi5": {
+"id": "deb_combi_base_l7_combi5",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D6",
+"start": {
+"wm": [
+22,
+23,
+25,
+27,
+28,
+33,
+37,
+38,
+39,
+40,
+42,
+49
+],
+"wk": [],
+"bm": [
+6,
+8,
+10,
+12,
+13,
+14,
+15,
+16,
+19,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "23x3",
+"f": 23,
+"t": 3,
+"c": [
+8,
+18
+],
+"path": [
+23,
+12,
+3
+],
+"p": true
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "3x29",
+"f": 3,
+"t": 29,
+"c": [
+24,
+14
+],
+"path": [
+3,
+20,
+29
+],
+"p": false
+},
+{
+"n": "21x41",
+"f": 21,
+"t": 41,
+"c": [
+37,
+38,
+39,
+27,
+28,
+29
+],
+"path": [
+21,
+32,
+23,
+34,
+43,
+32,
+41
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "12-18 23x3 16-21 3x29 21x41",
+"win": "black",
+"exp": "Benedictus SPRINGER – R.C. KELLER   La combinaison peut se trouver de 2 manières. Soit en envoyant le pion blanc à 23 à"
+},
+"deb_combi_base_l7_combi6": {
+"id": "deb_combi_base_l7_combi6",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D7",
+"start": {
+"wm": [
+24,
+28,
+29,
+31,
+36,
+37,
+39,
+40,
+42,
+44,
+46,
+48
+],
+"wk": [],
+"bm": [
+2,
+6,
+8,
+10,
+13,
+14,
+15,
+16,
+17,
+21,
+25,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "24x4",
+"f": 24,
+"t": 4,
+"c": [
+10,
+20
+],
+"path": [
+24,
+15,
+4
+],
+"p": true
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "4x27",
+"f": 4,
+"t": 27,
+"c": [
+13,
+22
+],
+"path": [
+4,
+18,
+27
+],
+"p": false
+},
+{
+"n": "21x45",
+"f": 21,
+"t": 45,
+"c": [
+40,
+27,
+28,
+29
+],
+"path": [
+21,
+32,
+23,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "15-20 24x4 17-22 4x27 21x45",
+"win": "black",
+"exp": "Claude GOURNIER – Baba SY   Là encore, 2 manières de procéder. Soit commencer par l’envoi à dame  , soit supposer une ra"
+},
+"deb_combi_base_l7_combi7": {
+"id": "deb_combi_base_l7_combi7",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D8",
+"start": {
+"wm": [
+27,
+30,
+32,
+34,
+35,
+37,
+43
+],
+"wk": [],
+"bm": [
+9,
+16,
+17,
+19,
+21,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "23x25",
+"f": 23,
+"t": 25,
+"c": [
+29,
+30
+],
+"path": [
+23,
+34,
+25
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x3",
+"f": 32,
+"t": 3,
+"c": [
+9,
+19,
+28
+],
+"path": [
+32,
+23,
+14,
+3
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "34-29 23x25 27-22 17x28 32x3",
+"win": "white",
+"exp": "un grand classique, le coup de mazette : 34-29   27-22   31x3"
+},
+"deb_combi_base_l7_combi8": {
+"id": "deb_combi_base_l7_combi8",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D9",
+"start": {
+"wm": [
+24,
+28,
+29,
+31,
+34,
+37,
+39,
+40,
+44,
+47
+],
+"wk": [],
+"bm": [
+8,
+9,
+11,
+12,
+14,
+15,
+17,
+18,
+21,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "18x36",
+"f": 18,
+"t": 36,
+"c": [
+22,
+31
+],
+"path": [
+18,
+27,
+36
+],
+"p": false
+},
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "29x27",
+"f": 29,
+"t": 27,
+"c": [
+11,
+12,
+21,
+23
+],
+"path": [
+29,
+18,
+7,
+16,
+27
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-22 18x36 24-19 14x23 29x27",
+"win": "white",
+"exp": "un coup de mazette inversé : 28-22   24-19   29x27"
+},
+"deb_combi_base_l7_combi9": {
+"id": "deb_combi_base_l7_combi9",
+"ch": 7,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D10",
+"start": {
+"wm": [
+22,
+29,
+32,
+33,
+34,
+35,
+36,
+37,
+39,
+42,
+43,
+44,
+48
+],
+"wk": [],
+"bm": [
+6,
+8,
+11,
+12,
+13,
+14,
+15,
+19,
+20,
+21,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "33x31",
+"f": 33,
+"t": 31,
+"c": [
+37,
+38
+],
+"path": [
+33,
+42,
+31
+],
+"p": false
+},
+{
+"n": "36x9",
+"f": 36,
+"t": 9,
+"c": [
+21,
+11,
+12,
+13,
+31
+],
+"path": [
+36,
+27,
+16,
+7,
+18,
+9
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-28 24x33 42-38 33x31 36x9",
+"win": "white",
+"exp": "la rafle 36x9 est à rechercher. Il faut amener un pion noir en 31. Le pion 24 est un bon candidat. Solution : 33-28   42"
+},
+"deb_combi_base_l8_combi0": {
+"id": "deb_combi_base_l8_combi0",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D1",
+"start": {
+"wm": [
+24,
+25,
+29,
+32,
+37,
+39,
+43,
+48
+],
+"wk": [],
+"bm": [
+4,
+8,
+9,
+13,
+14,
+16,
+17,
+28
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x21",
+"f": 25,
+"t": 21,
+"c": [
+8,
+9,
+20,
+17
+],
+"path": [
+25,
+14,
+3,
+12,
+21
+],
+"p": false
+},
+{
+"n": "16x49",
+"f": 16,
+"t": 49,
+"c": [
+32,
+43,
+21
+],
+"path": [
+16,
+27,
+38,
+49
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "14-20 25x21 16x49",
+"win": "black",
+"exp": "L’attaque 38-32 libère la case 38 et rend envisageable un coup de dame à 49. Il reste à trouver comment acheminer un pio"
+},
+"deb_combi_base_l8_combi1": {
+"id": "deb_combi_base_l8_combi1",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D2",
+"start": {
+"wm": [
+25,
+27,
+28,
+30,
+31,
+32,
+33,
+35,
+38,
+40,
+42,
+43,
+45
+],
+"wk": [],
+"bm": [
+3,
+4,
+8,
+9,
+13,
+14,
+16,
+17,
+18,
+19,
+24,
+26,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "26x39",
+"f": 26,
+"t": 39,
+"c": [
+42,
+43,
+31
+],
+"path": [
+26,
+37,
+48,
+39
+],
+"p": false
+},
+{
+"n": "21x43",
+"f": 21,
+"t": 43,
+"c": [
+17,
+18,
+29,
+39
+],
+"path": [
+21,
+12,
+23,
+34,
+43
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-21 26x39 21x43",
+"win": "white",
+"exp": "Harry de WAARD – Andrew TJON A ONG   Une attaque de 3 pions qui laisse supposer un collage. Solution : 27-21   21x43 +1p"
+},
+"deb_combi_base_l8_combi2": {
+"id": "deb_combi_base_l8_combi2",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D3",
+"start": {
+"wm": [
+27,
+29,
+30,
+35,
+36,
+42,
+44
+],
+"wk": [],
+"bm": [
+9,
+15,
+16,
+17,
+18,
+19,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-22 18x27 29-23",
+"win": "white",
+"exp": "Pas de combinaison possible, mais un très joli gambit. Solution : 27-22   29-23"
+},
+"deb_combi_base_l8_combi3": {
+"id": "deb_combi_base_l8_combi3",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D4",
+"start": {
+"wm": [
+24,
+27,
+28,
+32,
+33,
+35,
+37,
+38,
+40,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+7,
+8,
+9,
+13,
+15,
+16,
+17,
+18,
+20,
+21,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x39",
+"f": 17,
+"t": 39,
+"c": [
+33,
+22
+],
+"path": [
+17,
+28,
+39
+],
+"p": false
+},
+{
+"n": "43x34",
+"f": 43,
+"t": 34,
+"c": [
+39
+],
+"path": [
+43,
+34
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "34x1",
+"f": 34,
+"t": 1,
+"c": [
+18,
+29,
+7
+],
+"path": [
+34,
+23,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-22 17x39 43x34 20x29 34x1",
+"win": "white",
+"exp": "Un coup de dame sur la case 1 semble vraisemblable. Solution : 28-22   43x34   34x1"
+},
+"deb_combi_base_l8_combi4": {
+"id": "deb_combi_base_l8_combi4",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D5",
+"start": {
+"wm": [
+26,
+27,
+28,
+31,
+32,
+34,
+35
+],
+"wk": [],
+"bm": [
+11,
+16,
+17,
+19,
+23,
+25,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+21,
+31
+],
+"path": [
+17,
+26,
+37
+],
+"p": false
+},
+{
+"n": "32x41",
+"f": 32,
+"t": 41,
+"c": [
+37
+],
+"path": [
+32,
+41
+],
+"p": false
+},
+{
+"n": "23x21",
+"f": 23,
+"t": 21,
+"c": [
+27,
+28
+],
+"path": [
+23,
+32,
+21
+],
+"p": false
+},
+{
+"n": "34x14",
+"f": 34,
+"t": 14,
+"c": [
+19,
+29
+],
+"path": [
+34,
+23,
+14
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "26-21 17x37 32x41 23x21 34x14",
+"win": "white",
+"exp": "Une attaque après laquelle le pion blanc 34 devient un point d’appui grâce à 2 prises majoritaires successives. Solution"
+},
+"deb_combi_base_l8_combi5": {
+"id": "deb_combi_base_l8_combi5",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D6",
+"start": {
+"wm": [
+23,
+28,
+29,
+31,
+32,
+33,
+34,
+36,
+38,
+39,
+41,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+4,
+5,
+6,
+7,
+8,
+12,
+13,
+14,
+15,
+16,
+17,
+20,
+21,
+25,
+27,
+30
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x26",
+"f": 28,
+"t": 26,
+"c": [
+21,
+22
+],
+"path": [
+28,
+17,
+26
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "31x13",
+"f": 31,
+"t": 13,
+"c": [
+18,
+27
+],
+"path": [
+31,
+22,
+13
+],
+"p": false
+},
+{
+"n": "8x46",
+"f": 8,
+"t": 46,
+"c": [
+32,
+41,
+13,
+23
+],
+"path": [
+8,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "17-22 28x26 13-18 31x13 8x46",
+"win": "black",
+"exp": "Joop JANSSEN – Geert van AALTEN   Dès que les Noirs ont l’idée d’un coup de dame à 46, le plan se précise. Enlever le 28"
+},
+"deb_combi_base_l8_combi6": {
+"id": "deb_combi_base_l8_combi6",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D7",
+"start": {
+"wm": [
+25,
+27,
+28,
+29,
+31,
+32,
+33,
+34,
+41,
+43
+],
+"wk": [],
+"bm": [
+2,
+8,
+9,
+10,
+13,
+14,
+16,
+18,
+19,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "26x48",
+"f": 26,
+"t": 48,
+"c": [
+32,
+33,
+43,
+31
+],
+"path": [
+26,
+37,
+28,
+39,
+48
+],
+"p": true
+},
+{
+"n": "23x3",
+"f": 23,
+"t": 3,
+"c": [
+8,
+18
+],
+"path": [
+23,
+12,
+3
+],
+"p": true
+},
+{
+"n": "48x30",
+"f": 48,
+"t": 30,
+"c": [
+34
+],
+"path": [
+48,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-23 26x48 23x3 48x30 25x34",
+"win": "white",
+"exp": "Patrick CARLI – Adrie van OUTHEUSDEN   A nouveau le mécanisme de la prise majoritaire. Solution : 28-23   23x3   25x34"
+},
+"deb_combi_base_l8_combi7": {
+"id": "deb_combi_base_l8_combi7",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D8",
+"start": {
+"wm": [
+22,
+26,
+27,
+29,
+33,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+45
+],
+"wk": [],
+"bm": [
+3,
+6,
+7,
+8,
+9,
+10,
+11,
+13,
+15,
+17,
+18,
+20,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+33,
+42,
+43,
+22
+],
+"path": [
+17,
+28,
+39,
+48,
+37
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "34x1",
+"f": 34,
+"t": 1,
+"c": [
+18,
+29,
+7
+],
+"path": [
+34,
+23,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "39-34 17x37 29-24 20x29 34x1",
+"win": "white",
+"exp": "Un coup de dame à 1 ou à 5 semble prévisible, oui mais comment ? Solution : 39-34   29-24   34x1"
+},
+"deb_combi_base_l8_combi8": {
+"id": "deb_combi_base_l8_combi8",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D9",
+"start": {
+"wm": [
+22,
+27,
+28,
+30,
+32,
+33,
+35,
+37,
+38,
+39,
+44,
+45,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+8,
+9,
+11,
+13,
+14,
+19,
+21,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "27x7",
+"f": 27,
+"t": 7,
+"c": [
+11,
+21
+],
+"path": [
+27,
+16,
+7
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "23x25",
+"f": 23,
+"t": 25,
+"c": [
+28,
+30,
+38,
+39
+],
+"path": [
+23,
+32,
+43,
+34,
+25
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "13-18 27x7 18x27 32x21 23x25",
+"win": "black",
+"exp": "A. VERESJAGIN – S. BALAJAN   L’attaque de 2 pions laisse supposer un collage. Solution :   27x7   32x21"
+},
+"deb_combi_base_l8_combi9": {
+"id": "deb_combi_base_l8_combi9",
+"ch": 8,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D10",
+"start": {
+"wm": [
+26,
+28,
+30,
+32,
+33,
+35,
+38,
+42,
+43
+],
+"wk": [],
+"bm": [
+7,
+12,
+13,
+14,
+17,
+19,
+21,
+22,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "21x23",
+"f": 21,
+"t": 23,
+"c": [
+27,
+28
+],
+"path": [
+21,
+32,
+23
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "38x29",
+"f": 38,
+"t": 29,
+"c": [
+33,
+23,
+24,
+13,
+14
+],
+"path": [
+38,
+29,
+18,
+9,
+20,
+29
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "32-27 21x23 33-28 22x33 38x29",
+"win": "white",
+"exp": "La formation 33-38-42-43 est propice aux coups parallèles. Solution : 32-27   33-28   38x29  28"
+},
+"deb_combi_base_l9_combi0": {
+"id": "deb_combi_base_l9_combi0",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D1",
+"start": {
+"wm": [
+27,
+28,
+30,
+32,
+33,
+35,
+38,
+42,
+43,
+45
+],
+"wk": [],
+"bm": [
+3,
+11,
+12,
+13,
+15,
+16,
+18,
+19,
+24,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+32,
+33,
+23,
+42,
+43
+],
+"path": [
+19,
+28,
+37,
+48,
+39,
+28
+],
+"p": false
+},
+{
+"n": "30x6",
+"f": 30,
+"t": 6,
+"c": [
+24,
+11,
+12,
+13
+],
+"path": [
+30,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-23 19x28 30x6",
+"win": "white",
+"exp": "G. LINSSEN,G. – Menno BANDSTRA   Une seule rafle possible, à savoir 30x6. Il ne faut pas hésiter à faire sauter le pion"
+},
+"deb_combi_base_l9_combi1": {
+"id": "deb_combi_base_l9_combi1",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D2",
+"start": {
+"wm": [
+27,
+28,
+31,
+32,
+33,
+39,
+40,
+42
+],
+"wk": [],
+"bm": [
+13,
+14,
+16,
+17,
+19,
+23,
+24,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "35x22",
+"f": 35,
+"t": 22,
+"c": [
+40,
+28,
+39
+],
+"path": [
+35,
+44,
+33,
+22
+],
+"p": false
+},
+{
+"n": "29x29",
+"f": 29,
+"t": 29,
+"c": [
+24,
+13,
+14,
+23
+],
+"path": [
+29,
+18,
+9,
+20,
+29
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-29 35x22 29x29",
+"win": "white",
+"exp": "Une combinaison base sur le mécanisme de la prise majoritaire. Solution : 33-29   29x29"
+},
+"deb_combi_base_l9_combi2": {
+"id": "deb_combi_base_l9_combi2",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D3",
+"start": {
+"wm": [
+28,
+30,
+31,
+32,
+33,
+34,
+39,
+44
+],
+"wk": [],
+"bm": [
+6,
+7,
+8,
+14,
+19,
+23,
+24,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x22",
+"f": 24,
+"t": 22,
+"c": [
+28,
+29
+],
+"path": [
+24,
+33,
+22
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "27x9",
+"f": 27,
+"t": 9,
+"c": [
+24,
+14,
+22,
+23
+],
+"path": [
+27,
+18,
+29,
+20,
+9
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "33-29 24x22 32-27 35x24 27x9",
+"win": "white",
+"exp": "Jan LOENEN – Jasper HENGEFELD   Une mignonne exploitation des temps de repos. Solution : 33-29   32-27   27x9"
+},
+"deb_combi_base_l9_combi3": {
+"id": "deb_combi_base_l9_combi3",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D4",
+"start": {
+"wm": [
+25,
+27,
+28,
+32,
+36,
+37,
+38,
+40,
+45,
+48
+],
+"wk": [],
+"bm": [
+6,
+12,
+13,
+14,
+15,
+16,
+23,
+24,
+26,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+12,
+13,
+23
+],
+"path": [
+28,
+19,
+8,
+17
+],
+"p": false
+},
+{
+"n": "29-34",
+"f": 29,
+"t": 34,
+"c": [],
+"path": [
+29,
+34
+],
+"p": false
+},
+{
+"n": "40x29",
+"f": 40,
+"t": 29,
+"c": [
+34
+],
+"path": [
+40,
+29
+],
+"p": false
+},
+{
+"n": "24x11",
+"f": 24,
+"t": 11,
+"c": [
+17,
+37,
+38,
+27,
+29
+],
+"path": [
+24,
+33,
+42,
+31,
+22,
+11
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "15-20 28x17 29-34 40x29 24x11",
+"win": "black",
+"exp": "Soerish BADAL – Mark KEMPERMAN   L’attaque des Blancs crée pour les Noirs un temps de repos, ou l’opportunité d’un colla"
+},
+"deb_combi_base_l9_combi4": {
+"id": "deb_combi_base_l9_combi4",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D5",
+"start": {
+"wm": [
+24,
+27,
+29,
+31,
+33,
+34,
+36,
+39,
+41,
+42,
+43,
+45,
+46,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+7,
+8,
+10,
+11,
+13,
+16,
+17,
+18,
+19,
+22,
+23,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "23x25",
+"f": 23,
+"t": 25,
+"c": [
+29,
+30
+],
+"path": [
+23,
+34,
+25
+],
+"p": false
+},
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+21,
+31
+],
+"path": [
+17,
+26,
+37
+],
+"p": false
+},
+{
+"n": "41x5",
+"f": 41,
+"t": 5,
+"c": [
+10,
+19,
+28,
+37
+],
+"path": [
+41,
+32,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "34-30 23x25 27-21 17x37 41x5",
+"win": "white",
+"exp": "Theo SCHIPPERS – Frank BARTEN   Beaucoup de trous dans le camp des Noirs mais peu de points d’appui chez les Blancs. Cel"
+},
+"deb_combi_base_l9_combi5": {
+"id": "deb_combi_base_l9_combi5",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D6",
+"start": {
+"wm": [
+22,
+26,
+28,
+30,
+32,
+33,
+34,
+35,
+36,
+42,
+43,
+46,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+7,
+8,
+13,
+19,
+20,
+21,
+23,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "34x12",
+"f": 34,
+"t": 12,
+"c": [
+8,
+9,
+19,
+29
+],
+"path": [
+34,
+23,
+14,
+3,
+12
+],
+"p": false
+},
+{
+"n": "7x47",
+"f": 7,
+"t": 47,
+"c": [
+32,
+42,
+12,
+22
+],
+"path": [
+7,
+18,
+27,
+38,
+47
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "3-9 26x17 23-29 34x12 7x47",
+"win": "black",
+"exp": "J. van LEEUWEN – Douwe de JONG   Une combinaison compliquée. Par le raisonnement, on peut la trouver. Les Noirs disposen"
+},
+"deb_combi_base_l9_combi6": {
+"id": "deb_combi_base_l9_combi6",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D7",
+"start": {
+"wm": [
+21,
+22,
+27,
+28,
+33,
+34,
+35,
+47
+],
+"wk": [],
+"bm": [
+4,
+11,
+12,
+13,
+14,
+16,
+19,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "22-17",
+"f": 22,
+"t": 17,
+"c": [],
+"path": [
+22,
+17
+],
+"p": false
+},
+{
+"n": "11x31",
+"f": 11,
+"t": 31,
+"c": [
+17,
+27
+],
+"path": [
+11,
+22,
+31
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "29x7",
+"f": 29,
+"t": 7,
+"c": [
+24,
+12,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "22-17 11x31 34-29 16x27 29x7",
+"win": "white",
+"exp": "Beaucoup de trous dans le camp des Noirs. L’offre 22-17 fournit aux Blancs un temps de repos qu’ils peuvent utiliser. So"
+},
+"deb_combi_base_l9_combi7": {
+"id": "deb_combi_base_l9_combi7",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D8",
+"start": {
+"wm": [
+25,
+26,
+27,
+31,
+32,
+35,
+36,
+38,
+39,
+43,
+44,
+45,
+48
+],
+"wk": [],
+"bm": [
+2,
+6,
+8,
+11,
+12,
+14,
+16,
+17,
+18,
+19,
+20,
+22,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+32,
+21,
+31
+],
+"path": [
+17,
+26,
+37,
+28
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "33x15",
+"f": 33,
+"t": 15,
+"c": [
+18,
+19,
+28,
+20
+],
+"path": [
+33,
+22,
+13,
+24,
+15
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "26-21 17x28 38-33 22x31 33x15",
+"win": "white",
+"exp": "Les cases vides en 13 et 24 laissent entrevoir une rafle aboutissant à la case 15. L’offre classique de 3 pions par 26-2"
+},
+"deb_combi_base_l9_combi8": {
+"id": "deb_combi_base_l9_combi8",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D9",
+"start": {
+"wm": [
+24,
+25,
+29,
+30,
+31,
+36,
+37,
+38,
+41,
+46
+],
+"wk": [],
+"bm": [
+9,
+13,
+15,
+16,
+19,
+21,
+22,
+26,
+27,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x42",
+"f": 15,
+"t": 42,
+"c": [
+20,
+29,
+38
+],
+"path": [
+15,
+24,
+33,
+42
+],
+"p": false
+},
+{
+"n": "37x48",
+"f": 37,
+"t": 48,
+"c": [
+42
+],
+"path": [
+37,
+48
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "41x3",
+"f": 41,
+"t": 3,
+"c": [
+9,
+19,
+28,
+37
+],
+"path": [
+41,
+32,
+23,
+14,
+3
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "24-20 15x42 37x48 26x37 41x3",
+"win": "white",
+"exp": "Krijn TOET – Frits LUTEIJN   La rafle 41x3 est à envisager. Avec la formation 31-36-37-41-46, il faut penser au mécanism"
+},
+"deb_combi_base_l9_combi9": {
+"id": "deb_combi_base_l9_combi9",
+"ch": 9,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D10",
+"start": {
+"wm": [
+22,
+27,
+28,
+32,
+35,
+36,
+37,
+38,
+43,
+45
+],
+"wk": [],
+"bm": [
+9,
+13,
+16,
+19,
+20,
+21,
+24,
+26,
+29,
+30
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x17",
+"f": 19,
+"t": 17,
+"c": [
+22,
+23
+],
+"path": [
+19,
+28,
+17
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x3",
+"f": 32,
+"t": 3,
+"c": [
+20,
+9,
+28,
+29,
+30
+],
+"path": [
+32,
+23,
+34,
+25,
+14,
+3
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-23 19x17 27-22 17x28 32x3",
+"win": "white",
+"exp": "Une rafle aboutissant à la case 3 est la plus probable. Quels sont les points d’appui possibles ? Les pions 32 et 45. Le"
+},
+"deb_combi_base_l10_combi0": {
+"id": "deb_combi_base_l10_combi0",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D1",
+"start": {
+"wm": [
+15,
+26,
+29,
+34,
+35,
+36,
+37,
+38,
+39,
+41,
+43,
+44,
+45,
+47,
+49
+],
+"wk": [],
+"bm": [
+2,
+4,
+6,
+9,
+11,
+12,
+13,
+16,
+18,
+21,
+22,
+23,
+25,
+27,
+28
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "27-31",
+"f": 27,
+"t": 31,
+"c": [],
+"path": [
+27,
+31
+],
+"p": false
+},
+{
+"n": "26x19",
+"f": 26,
+"t": 19,
+"c": [
+13,
+12,
+21
+],
+"path": [
+26,
+17,
+8,
+19
+],
+"p": false
+},
+{
+"n": "31x13",
+"f": 31,
+"t": 13,
+"c": [
+29,
+19,
+37,
+38
+],
+"path": [
+31,
+42,
+33,
+24,
+13
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "27-31 26x19 31x13",
+"win": "black",
+"exp": "Matthias de KRUIJF – Ad de HEK   Une attaque de 3 pions. Il faut penser aux collages. Solution :   26x19"
+},
+"deb_combi_base_l10_combi1": {
+"id": "deb_combi_base_l10_combi1",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D2",
+"start": {
+"wm": [
+28,
+30,
+34,
+35,
+36,
+38,
+39,
+42
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+18,
+19,
+21,
+24,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "25x32",
+"f": 25,
+"t": 32,
+"c": [
+38,
+30,
+39
+],
+"path": [
+25,
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "29x7",
+"f": 29,
+"t": 7,
+"c": [
+24,
+12,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "28-22 18x27 34-29 25x32 29x7",
+"win": "white",
+"exp": "Pas de point d’appui. Il faut penser aux combinaisons basées sur le principe du collage. Solution : 28-22   34-29   29x7"
+},
+"deb_combi_base_l10_combi2": {
+"id": "deb_combi_base_l10_combi2",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D3",
+"start": {
+"wm": [
+25,
+26,
+27,
+28,
+32,
+35,
+38,
+40
+],
+"wk": [],
+"bm": [
+12,
+14,
+16,
+18,
+19,
+23,
+24,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "29x38",
+"f": 29,
+"t": 38,
+"c": [
+33
+],
+"path": [
+29,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "23x21",
+"f": 23,
+"t": 21,
+"c": [
+27,
+28
+],
+"path": [
+23,
+32,
+21
+],
+"p": false
+},
+{
+"n": "26x8",
+"f": 26,
+"t": 8,
+"c": [
+12,
+21
+],
+"path": [
+26,
+17,
+8
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "38-33 29x38 32x43 23x21 26x8",
+"win": "white",
+"exp": "Il faut s’intéresser aux points de contact et suivre mentalement les prises. Solution : 38-33   32x43   26x8"
+},
+"deb_combi_base_l10_combi3": {
+"id": "deb_combi_base_l10_combi3",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D4",
+"start": {
+"wm": [
+25,
+27,
+28,
+30,
+32,
+33,
+35,
+37,
+38,
+40,
+50
+],
+"wk": [],
+"bm": [
+9,
+12,
+14,
+15,
+16,
+18,
+19,
+21,
+24,
+26,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x45",
+"f": 14,
+"t": 45,
+"c": [
+40,
+20,
+30
+],
+"path": [
+14,
+25,
+34,
+45
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "33x4",
+"f": 33,
+"t": 4,
+"c": [
+9,
+19,
+29
+],
+"path": [
+33,
+24,
+13,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "25-20 14x45 35-30 24x35 33x4",
+"win": "white",
+"exp": "Tout est prêt pour une rafle 33x4. Il suffit de faire sauter le pion noir 24. Solution : 25-20   35-30   33x4"
+},
+"deb_combi_base_l10_combi4": {
+"id": "deb_combi_base_l10_combi4",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D5",
+"start": {
+"wm": [
+26,
+30,
+31,
+33,
+34,
+36,
+37,
+38,
+39,
+40,
+41,
+45,
+46,
+48,
+49
+],
+"wk": [],
+"bm": [
+3,
+4,
+6,
+9,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+20,
+22,
+23,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "17x26",
+"f": 17,
+"t": 26,
+"c": [
+21
+],
+"path": [
+17,
+26
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+29,
+38,
+39
+],
+"path": [
+23,
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "37x10",
+"f": 37,
+"t": 10,
+"c": [
+32,
+22,
+12,
+13,
+14
+],
+"path": [
+37,
+28,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "26-21 17x26 34-29 23x32 37x10",
+"win": "white",
+"exp": "Une combinaison qui about sur la case 10. Il faut supprimer le pion 17 et acheminer un pion noir en 32. Solution : 26-21"
+},
+"deb_combi_base_l10_combi5": {
+"id": "deb_combi_base_l10_combi5",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D6",
+"start": {
+"wm": [
+27,
+32,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+7,
+9,
+12,
+13,
+14,
+15,
+16,
+21,
+24,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "29x49",
+"f": 29,
+"t": 49,
+"c": [
+33,
+43
+],
+"path": [
+29,
+38,
+49
+],
+"p": true
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "49x31",
+"f": 49,
+"t": 31,
+"c": [
+34,
+27,
+44
+],
+"path": [
+49,
+40,
+18,
+31
+],
+"p": false
+},
+{
+"n": "37x10",
+"f": 37,
+"t": 10,
+"c": [
+21,
+12,
+13,
+14,
+31
+],
+"path": [
+37,
+26,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "38-33 29x49 40-34 49x31 37x10",
+"win": "white",
+"exp": "Boris FELDMAN – GAINULLIN   Une jolie combinaison assez surprenante. Le but est d’arriver en 10. Le point d’appui est le"
+},
+"deb_combi_base_l10_combi6": {
+"id": "deb_combi_base_l10_combi6",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D7",
+"start": {
+"wm": [
+25,
+29,
+32,
+34,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+46,
+48
+],
+"wk": [],
+"bm": [
+3,
+8,
+14,
+15,
+16,
+17,
+18,
+19,
+21,
+22,
+23,
+26,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "22x35",
+"f": 22,
+"t": 35,
+"c": [
+40,
+28,
+39
+],
+"path": [
+22,
+33,
+44,
+35
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "42x2",
+"f": 42,
+"t": 2,
+"c": [
+8,
+18,
+27,
+37
+],
+"path": [
+42,
+31,
+22,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "32-28 22x35 37-31 26x37 42x2",
+"win": "white",
+"exp": "A. DUSSAUT – Isidore WEISS   Le mécanisme de la prise majoritaire n’est pas inné. Un examen scrupuleux de la position pe"
+},
+"deb_combi_base_l10_combi7": {
+"id": "deb_combi_base_l10_combi7",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D8",
+"start": {
+"wm": [
+24,
+25,
+33,
+40,
+43
+],
+"wk": [],
+"bm": [
+8,
+10,
+12,
+14,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "29x49",
+"f": 29,
+"t": 49,
+"c": [
+33,
+43
+],
+"path": [
+29,
+38,
+49
+],
+"p": true
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "49x13",
+"f": 49,
+"t": 13,
+"c": [
+40,
+19
+],
+"path": [
+49,
+35,
+13
+],
+"p": false
+},
+{
+"n": "20x7",
+"f": 20,
+"t": 7,
+"c": [
+12,
+13,
+14
+],
+"path": [
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "24-19 29x49 25-20 49x13 20x7",
+"win": "white",
+"exp": "Une composition de Van DARTELEN. En laissant prendre à dame, on remarque que la dame devra ensuite prendre 2 pions. Il f"
+},
+"deb_combi_base_l10_combi8": {
+"id": "deb_combi_base_l10_combi8",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D9",
+"start": {
+"wm": [
+26,
+31,
+34,
+36,
+37,
+38,
+39,
+43,
+44,
+49
+],
+"wk": [],
+"bm": [
+11,
+12,
+13,
+14,
+15,
+18,
+22,
+23,
+25,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+27,
+37,
+38
+],
+"path": [
+22,
+31,
+42,
+33
+],
+"p": false
+},
+{
+"n": "39x6",
+"f": 39,
+"t": 6,
+"c": [
+33,
+23,
+11,
+12,
+13
+],
+"path": [
+39,
+28,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "26-21 27x16 31-27 22x33 39x6",
+"win": "white",
+"exp": "La formation des Noirs comporte de nombreux trous. Une rafle 39x6 semble réaliste. La question est simplement de savoir"
+},
+"deb_combi_base_l10_combi9": {
+"id": "deb_combi_base_l10_combi9",
+"ch": 10,
+"title": "COMBINAISONS EN 2 ET 3 TEMPS – D10",
+"start": {
+"wm": [
+22,
+27,
+28,
+31,
+32,
+33,
+37,
+38,
+39,
+40,
+42,
+46
+],
+"wk": [],
+"bm": [
+3,
+8,
+11,
+13,
+16,
+17,
+18,
+21,
+24,
+26,
+29,
+30
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x25",
+"f": 32,
+"t": 25,
+"c": [
+28,
+29,
+30
+],
+"path": [
+32,
+23,
+34,
+25
+],
+"p": false
+},
+{
+"n": "21x45",
+"f": 21,
+"t": 45,
+"c": [
+40,
+27,
+38,
+39
+],
+"path": [
+21,
+32,
+43,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_2_3",
+"pub": "18-23 28x19 17x28 32x25 21x45",
+"win": "black",
+"exp": "Jos STOKKEL - Yevgeniy SKLYAROV   Une rafle aboutissant en 45 est la plus probable. Il suffit de faire sauter le pion 32"
+},
+"deb_combi_base_l11_combi0": {
+"id": "deb_combi_base_l11_combi0",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D1",
+"start": {
+"wm": [
+21,
+25,
+26,
+27,
+33,
+37,
+38,
+43,
+45
+],
+"wk": [],
+"bm": [
+6,
+11,
+12,
+13,
+14,
+15,
+18,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x22",
+"f": 24,
+"t": 22,
+"c": [
+27,
+37,
+29,
+38
+],
+"path": [
+24,
+33,
+42,
+31,
+22
+],
+"p": false
+},
+{
+"n": "21-17",
+"f": 21,
+"t": 17,
+"c": [],
+"path": [
+21,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "26x8",
+"f": 26,
+"t": 8,
+"c": [
+13,
+21,
+22,
+23
+],
+"path": [
+26,
+17,
+28,
+19,
+8
+],
+"p": false
+}
+],
+"theme": "combinaisons_3",
+"pub": "33-29 24x22 21-17 12x21 26x8",
+"win": "white",
+"exp": "A van der VOORT – Henk EIJKELKAMP   Comment exploiter les nombreux trous dans la position des Noirs ? Pas vraiment d’aut"
+},
+"deb_combi_base_l11_combi1": {
+"id": "deb_combi_base_l11_combi1",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D2",
+"start": {
+"wm": [
+23,
+24,
+29,
+32,
+33,
+34,
+36,
+37,
+38
+],
+"wk": [],
+"bm": [
+4,
+9,
+11,
+13,
+14,
+15,
+17,
+21,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "23-18",
+"f": 23,
+"t": 18,
+"c": [],
+"path": [
+23,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "29x7",
+"f": 29,
+"t": 7,
+"c": [
+11,
+21,
+22,
+23
+],
+"path": [
+29,
+18,
+27,
+16,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_3",
+"pub": "23-18 13x22 24-19 14x23 29x7",
+"win": "white",
+"exp": "Un coup Napoléon : 23-18   24-19   29x7"
+},
+"deb_combi_base_l11_combi2": {
+"id": "deb_combi_base_l11_combi2",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D3",
+"start": {
+"wm": [
+22,
+27,
+28,
+32,
+34,
+35,
+36,
+37,
+38,
+39,
+45,
+49
+],
+"wk": [],
+"bm": [
+1,
+3,
+9,
+11,
+13,
+15,
+16,
+17,
+19,
+20,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "22x4",
+"f": 22,
+"t": 4,
+"c": [
+9,
+18
+],
+"path": [
+22,
+13,
+4
+],
+"p": true
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "4x29",
+"f": 4,
+"t": 29,
+"c": [
+9,
+23
+],
+"path": [
+4,
+18,
+29
+],
+"p": false
+},
+{
+"n": "24x44",
+"f": 24,
+"t": 44,
+"c": [
+37,
+38,
+39,
+27,
+28,
+29
+],
+"path": [
+24,
+33,
+22,
+31,
+42,
+33,
+44
+],
+"p": false
+}
+],
+"theme": "combinaisons_3",
+"pub": "13-18 22x4 3-9 4x29 24x44",
+"win": "black",
+"exp": "D. BUMBULE – Elena ALTCHOUL   L’expérience est utile pour découvrir rapidement cette combinaison. Le principe d’un envoi"
+},
+"deb_combi_base_l11_combi3": {
+"id": "deb_combi_base_l11_combi3",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D4",
+"start": {
+"wm": [
+24,
+26,
+29,
+31,
+34,
+36,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+47,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+6,
+7,
+8,
+9,
+12,
+13,
+15,
+18,
+20,
+22,
+23,
+25,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "13x33",
+"f": 13,
+"t": 33,
+"c": [
+19,
+29
+],
+"path": [
+13,
+24,
+33
+],
+"p": false
+},
+{
+"n": "39x17",
+"f": 39,
+"t": 17,
+"c": [
+33,
+22
+],
+"path": [
+39,
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "31x4",
+"f": 31,
+"t": 4,
+"c": [
+9,
+18,
+27
+],
+"path": [
+31,
+22,
+13,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_3",
+"pub": "24-19 13x33 39x17 12x21 31x4",
+"win": "white",
+"exp": "Un coup de dame usuel 31x4. Il faut faire sauter les pions 13 et 22. Solution :24-19   39x17   31x4"
+},
+"deb_combi_base_l11_combi4": {
+"id": "deb_combi_base_l11_combi4",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D5",
+"start": {
+"wm": [
+25,
+26,
+28,
+31,
+33,
+34,
+35,
+36,
+38,
+39,
+42,
+43,
+44,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+7,
+8,
+10,
+11,
+12,
+13,
+14,
+15,
+17,
+18,
+19,
+22,
+24,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "18x40",
+"f": 18,
+"t": 40,
+"c": [
+34,
+23
+],
+"path": [
+18,
+29,
+40
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "38x18",
+"f": 38,
+"t": 18,
+"c": [
+24,
+33,
+13,
+14
+],
+"path": [
+38,
+29,
+20,
+9,
+18
+],
+"p": false
+}
+],
+"theme": "combinaisons_3",
+"pub": "28-23 18x40 33-28 22x33 38x18",
+"win": "white",
+"exp": "Douwe de JONG – T. van PROOIJEN   Une combinaison très usuelle dans ce genre de position. La case vide en 9 laisse augur"
+},
+"deb_combi_base_l11_combi5": {
+"id": "deb_combi_base_l11_combi5",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D6",
+"start": {
+"wm": [
+17,
+22,
+31,
+35,
+38,
+45,
+48,
+49
+],
+"wk": [],
+"bm": [
+6,
+8,
+10,
+11,
+23,
+24,
+34,
+39
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "39x48",
+"f": 39,
+"t": 48,
+"c": [
+43
+],
+"path": [
+39,
+48
+],
+"p": true
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "48x12",
+"f": 48,
+"t": 12,
+"c": [
+17,
+31
+],
+"path": [
+48,
+26,
+12
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+11,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_3",
+"pub": "48-43 39x48 45-40 48x12 40x16",
+"win": "white",
+"exp": "J. GAROUTE – Maurice RAICHENBACH   Des pions très avancés du côté des Noirs. Un envoi à dame suivi d’un collage est plus"
+},
+"deb_combi_base_l11_combi6": {
+"id": "deb_combi_base_l11_combi6",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D7",
+"start": {
+"wm": [
+26,
+27,
+28,
+30,
+32,
+34,
+36,
+38,
+39,
+40,
+42,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+21,
+23,
+25,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+},
+{
+"n": "26x10",
+"f": 26,
+"t": 10,
+"c": [
+13,
+12,
+21,
+14
+],
+"path": [
+26,
+17,
+8,
+19,
+10
+],
+"p": false
+},
+{
+"n": "24x31",
+"f": 24,
+"t": 31,
+"c": [
+39,
+40,
+27,
+28,
+30
+],
+"path": [
+24,
+35,
+44,
+33,
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "15x4",
+"f": 15,
+"t": 4,
+"c": [
+10
+],
+"path": [
+15,
+4
+],
+"p": false
+}
+],
+"theme": "combinaisons_3",
+"pub": "19-24 26x10 24x31 36x27 15x4",
+"win": "black",
+"exp": "Une attaque de 2 pions. Il faut penser aux collages et aux coups inattendus. Au jeu de dames, tout est possible. Solutio"
+},
+"deb_combi_base_l11_combi7": {
+"id": "deb_combi_base_l11_combi7",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D8",
+"start": {
+"wm": [
+28,
+32,
+33,
+34,
+35,
+36,
+38,
+41,
+42,
+43
+],
+"wk": [],
+"bm": [
+8,
+9,
+10,
+12,
+14,
+17,
+18,
+20,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x22",
+"f": 24,
+"t": 22,
+"c": [
+28,
+29
+],
+"path": [
+24,
+33,
+22
+],
+"p": false
+},
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "26x30",
+"f": 26,
+"t": 30,
+"c": [
+42,
+43,
+34,
+31
+],
+"path": [
+26,
+37,
+48,
+39,
+30
+],
+"p": false
+},
+{
+"n": "35x2",
+"f": 35,
+"t": 2,
+"c": [
+20,
+8,
+9,
+10,
+30
+],
+"path": [
+35,
+24,
+15,
+4,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_3",
+"pub": "33-29 24x22 36-31 26x30 35x2",
+"win": "white",
+"exp": "Une combinaison très logique avec une rafle 35x2. Solution : 33-29   36-31   35x2"
+},
+"deb_combi_base_l11_combi8": {
+"id": "deb_combi_base_l11_combi8",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D9",
+"start": {
+"wm": [
+23,
+24,
+26,
+28,
+30,
+33,
+36,
+39,
+42,
+49
+],
+"wk": [],
+"bm": [
+3,
+9,
+11,
+12,
+13,
+14,
+15,
+17,
+21,
+22
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "23-18",
+"f": 23,
+"t": 18,
+"c": [],
+"path": [
+23,
+18
+],
+"p": false
+},
+{
+"n": "12x32",
+"f": 12,
+"t": 32,
+"c": [
+18,
+28
+],
+"path": [
+12,
+23,
+32
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "14x43",
+"f": 14,
+"t": 43,
+"c": [
+20,
+30,
+39
+],
+"path": [
+14,
+25,
+34,
+43
+],
+"p": false
+},
+{
+"n": "49x7",
+"f": 49,
+"t": 7,
+"c": [
+32,
+11,
+43,
+21
+],
+"path": [
+49,
+38,
+27,
+16,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_3",
+"pub": "23-18 12x32 24-20 14x43 49x7",
+"win": "white",
+"exp": "Beaucoup de trous dans la position des Noirs. Une case d’arrivée à 7 plus légitime que les autres, Une seule case de dép"
+},
+"deb_combi_base_l11_combi9": {
+"id": "deb_combi_base_l11_combi9",
+"ch": 11,
+"title": "COMBINAISONS EN 3 TEMPS – D10",
+"start": {
+"wm": [
+25,
+27,
+28,
+31,
+32,
+33,
+35,
+36,
+37,
+39,
+43,
+49
+],
+"wk": [],
+"bm": [
+6,
+7,
+9,
+12,
+13,
+14,
+15,
+18,
+19,
+20,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+32,
+33,
+23
+],
+"path": [
+18,
+29,
+38,
+27
+],
+"p": false
+},
+{
+"n": "31x2",
+"f": 31,
+"t": 2,
+"c": [
+17,
+27,
+7
+],
+"path": [
+31,
+22,
+11,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_3",
+"pub": "27-21 26x17 28-23 18x27 31x2",
+"win": "white",
+"exp": "Un coup de dame en 2. Il faut placer un pion en 17 et acheminer un pion en 27. Solution : 27-21   28-23   31x2  38"
+}
+}
 }
 
 export default DATA

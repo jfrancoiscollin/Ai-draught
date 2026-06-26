@@ -172,6 +172,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_profondes_l1_combi0",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi1",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi2",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi3",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi4",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi5",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi6",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi7",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi8",
+"ch": 1
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l1_combi9",
+"ch": 1
+},
+{
 "type": "h2",
 "ch": 2,
 "runs": [
@@ -197,6 +247,56 @@ const DATA: ManuelData = {
 "t": "La position du premier diagramme sert de canevas. Un pion central en 28 et un enchaînement sur l’aile droite. Le second diagramme est un bel exemple de la manière d’utiliser l’enchaînement de l’aile droite. L’idée essentielle est que les Noirs ne peuvent jouer (18-23) en raison du coup de talon 28-22 (17x28) 38-33 (28x39) 34x43 (25x34) 40x7 ou 40x9. Les noirs sont forcés de jouer 1… (15-20). Les blancs peuvent maintenir la situation en jouant 38-33, puis après (21-26) 37-31 (26x37) 32x41, parvenir au 3e diagramme. A présent, (17-21) est perdant par 27-22 (18x27) 28-23 etc. tandis que (18-23) reste interdit par le coup de talon. La meilleure solution pour les noirs est de perdre le pion par (17-22) etc."
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi0",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi5",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi7",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi8",
+"ch": 2
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l2_combi9",
+"ch": 2
 },
 {
 "type": "h2",
@@ -431,6 +531,56 @@ const DATA: ManuelData = {
 "t": "6. 38x20"
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi0",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi1",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi2",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi3",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi4",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi5",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi6",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi7",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi8",
+"ch": 3
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l3_combi9",
+"ch": 3
 },
 {
 "type": "h2",
@@ -784,6 +934,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_profondes_l4_combi0",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi1",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi2",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi3",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi4",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi5",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi6",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi7",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi8",
+"ch": 4
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l4_combi9",
+"ch": 4
+},
+{
 "type": "h2",
 "ch": 5,
 "runs": [
@@ -1018,6 +1218,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_profondes_l5_combi0",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi1",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi2",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi3",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi4",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi5",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi6",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi7",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi8",
+"ch": 5
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l5_combi9",
+"ch": 5
+},
+{
 "type": "h2",
 "ch": 6,
 "runs": [
@@ -1106,6 +1356,56 @@ const DATA: ManuelData = {
 "t": "Sur (12-17), les blancs combinent par 44-39 (35x44) 37-31 (26x28) 33x11 etc. Sur (4-10), les blancs gagnent un pion par 44-39 (35x44) 37-31 (26x28) 33x22 (44x33) 38x9 (13x4) 22x24. Sur (14-20) 25x14 (19x10), les blancs gagnent par 44-39 (35x44) 32-28 (23x34) 50x17."
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi0",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi1",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi2",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi3",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi4",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi5",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi6",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi7",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi8",
+"ch": 6
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l6_combi9",
+"ch": 6
 },
 {
 "type": "h2",
@@ -1277,6 +1577,56 @@ const DATA: ManuelData = {
 "t": "Tout est en place pour exécuter le coup Marne de la même manière que ci-dessus."
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi0",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi1",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi2",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi3",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi4",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi5",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi6",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi7",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi8",
+"ch": 7
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l7_combi9",
+"ch": 7
 },
 {
 "type": "h2",
@@ -1594,6 +1944,46 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_profondes_l8_combi0",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l8_combi1",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l8_combi2",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l8_combi3",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l8_combi4",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l8_combi5",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l8_combi6",
+"ch": 8
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l8_combi7",
+"ch": 8
+},
+{
 "type": "h2",
 "ch": 9,
 "runs": [
@@ -1900,6 +2290,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_profondes_l9_combi0",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi1",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi2",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi3",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi4",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi5",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi6",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi7",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi8",
+"ch": 9
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l9_combi9",
+"ch": 9
+},
+{
 "type": "h2",
 "ch": 10,
 "runs": [
@@ -2195,6 +2635,56 @@ const DATA: ManuelData = {
 "t": "27x36 23x43 43x34"
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi0",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi1",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi2",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi3",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi4",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi5",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi6",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi7",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi8",
+"ch": 10
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l10_combi9",
+"ch": 10
 },
 {
 "type": "h2",
@@ -2611,6 +3101,56 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "deb_combi_profondes_l11_combi0",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi1",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi2",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi3",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi4",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi5",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi6",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi7",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi8",
+"ch": 11
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l11_combi9",
+"ch": 11
+},
+{
 "type": "h2",
 "ch": 12,
 "runs": [
@@ -2627,9 +3167,20693 @@ const DATA: ManuelData = {
 "t": "Cette première partie est à présent terminée. Les 440 combinaisons entre 2 et 6 temps que vous venez d’exécuter, vous ont permis d’acquérir les connaissances tactiques et la vision suffisantes pour jouer en deuxième ou troisième série du championnat de France. Cela constitue une première étape. Le jeu combinatoire est fondamental au jeu de dames. Il est impossible de le dissocier du jeu de position. Les deux sont complémentaires. Je vous invite donc à poursuivre votre apprentissage du jeu en examinant les fiches consacrées au sens du jeu. Ces fiches sont accessibles sur le site de Jean-François LATAPIE, « allons à dame » : Bonne continuation à chacun d’entre vous Jean-Pierre DUBOIS"
 }
 ]
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi0",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi1",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi2",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi3",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi4",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi5",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi6",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi7",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi8",
+"ch": 12
+},
+{
+"type": "board",
+"id": "deb_combi_profondes_l12_combi9",
+"ch": 12
 }
 ],
-"positions": {}
+"positions": {
+"deb_combi_profondes_l1_combi0": {
+"id": "deb_combi_profondes_l1_combi0",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D1",
+"start": {
+"wm": [
+24,
+26,
+28,
+29,
+31,
+33,
+34,
+36,
+38,
+39,
+40,
+41,
+43,
+45,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+11,
+13,
+14,
+15,
+17,
+18,
+20,
+22,
+25,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x32",
+"f": 25,
+"t": 32,
+"c": [
+28,
+29,
+30
+],
+"path": [
+25,
+34,
+23,
+32
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "34x21",
+"f": 34,
+"t": 21,
+"c": [
+17,
+18,
+29
+],
+"path": [
+34,
+23,
+12,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "38x20",
+"f": 38,
+"t": 20,
+"c": [
+32,
+13,
+22,
+14
+],
+"path": [
+38,
+27,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "34-30 25x32 39-34 20x29 34x21 27x16 38x20",
+"win": "white",
+"exp": "Une combinaison avec 2 rafles successives, basée sur le principe du temps de repos. Pas de vraie méthode pour trouver la"
+},
+"deb_combi_profondes_l1_combi1": {
+"id": "deb_combi_profondes_l1_combi1",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D2",
+"start": {
+"wm": [
+25,
+26,
+31,
+33,
+34,
+36,
+37,
+38,
+39,
+41,
+43,
+45,
+49
+],
+"wk": [],
+"bm": [
+6,
+7,
+11,
+12,
+13,
+14,
+15,
+18,
+19,
+22,
+23,
+27,
+30
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x29",
+"f": 27,
+"t": 29,
+"c": [
+32,
+33
+],
+"path": [
+27,
+38,
+29
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "34x32",
+"f": 34,
+"t": 32,
+"c": [
+38,
+39
+],
+"path": [
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "37x8",
+"f": 37,
+"t": 8,
+"c": [
+32,
+12,
+22
+],
+"path": [
+37,
+28,
+17,
+8
+],
+"p": false
+},
+{
+"n": "13x2",
+"f": 13,
+"t": 2,
+"c": [
+8
+],
+"path": [
+13,
+2
+],
+"p": false
+},
+{
+"n": "25x1",
+"f": 25,
+"t": 1,
+"c": [
+18,
+29,
+30,
+7
+],
+"path": [
+25,
+34,
+23,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "34-29 23x34 38-32 27x29 43-38 34x32 37x8 13x2 25x1",
+"win": "white",
+"exp": "Un coup de dame très spectaculaire, assez difficile à voir car la rafle finale est peu courante. Solution : 34-29   38-3"
+},
+"deb_combi_profondes_l1_combi2": {
+"id": "deb_combi_profondes_l1_combi2",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D3",
+"start": {
+"wm": [
+25,
+28,
+30,
+33,
+35,
+36,
+37,
+38,
+39,
+40,
+42,
+47,
+48
+],
+"wk": [],
+"bm": [
+3,
+4,
+6,
+8,
+9,
+10,
+11,
+13,
+17,
+19,
+21,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "19x8",
+"f": 19,
+"t": 8,
+"c": [
+13
+],
+"path": [
+19,
+8
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "8x28",
+"f": 8,
+"t": 28,
+"c": [
+12,
+22
+],
+"path": [
+8,
+17,
+28
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "14x45",
+"f": 14,
+"t": 45,
+"c": [
+19,
+38,
+39,
+40,
+28
+],
+"path": [
+14,
+23,
+32,
+43,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "19-23 28x19 8-12 19x8 17-22 8x28 9-14 30x19 14x45",
+"win": "black",
+"exp": "Jo HOBBELEN – Ferdi OKROGELNIK   Comment se rendre sur la case 45 ? Comment s’y prendre pour que le pion blanc 28 revien"
+},
+"deb_combi_profondes_l1_combi3": {
+"id": "deb_combi_profondes_l1_combi3",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D4",
+"start": {
+"wm": [
+24,
+25,
+27,
+32,
+33,
+34,
+35,
+37,
+40,
+41,
+42,
+45,
+46,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+4,
+6,
+8,
+9,
+10,
+11,
+13,
+16,
+17,
+18,
+19,
+21,
+23,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "19x39",
+"f": 19,
+"t": 39,
+"c": [
+24,
+34
+],
+"path": [
+19,
+30,
+39
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x28",
+"f": 26,
+"t": 28,
+"c": [
+32,
+31
+],
+"path": [
+26,
+37,
+28
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "39x37",
+"f": 39,
+"t": 37,
+"c": [
+42,
+43
+],
+"path": [
+39,
+48,
+37
+],
+"p": false
+},
+{
+"n": "41x5",
+"f": 41,
+"t": 5,
+"c": [
+18,
+37,
+8,
+9,
+10,
+28
+],
+"path": [
+41,
+32,
+23,
+12,
+3,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "33-28 19x39 28x19 13x24 37-31 26x28 48-43 39x37 41x5",
+"win": "white",
+"exp": "Johan STERRENBURG – Anko BAKSOELLAH   Un coup de dame à 5 démarrant de la case 41. Solution : Phase de déblaiement : 33-"
+},
+"deb_combi_profondes_l1_combi4": {
+"id": "deb_combi_profondes_l1_combi4",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D5",
+"start": {
+"wm": [
+16,
+25,
+30,
+33,
+35,
+36,
+38,
+42,
+44,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+7,
+9,
+12,
+13,
+14,
+15,
+22,
+23,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x34",
+"f": 14,
+"t": 34,
+"c": [
+20,
+30
+],
+"path": [
+14,
+25,
+34
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "34x32",
+"f": 34,
+"t": 32,
+"c": [
+38,
+39
+],
+"path": [
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "48x17",
+"f": 48,
+"t": 17,
+"c": [
+33,
+23,
+43,
+12,
+13
+],
+"path": [
+48,
+39,
+28,
+19,
+8,
+17
+],
+"p": false
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "25-20 14x34 44-39 34x32 33-28 22x33 42-38 32x43 48x17",
+"win": "white",
+"exp": "Sven BEUGELINK - Christien SCHNEIDER   Un passage à damme grace à un coup parallèle. Solution : 25-20   44-39   33-28"
+},
+"deb_combi_profondes_l1_combi5": {
+"id": "deb_combi_profondes_l1_combi5",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D6",
+"start": {
+"wm": [
+27,
+28,
+30,
+34,
+35,
+37,
+38,
+40,
+44,
+45,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+8,
+14,
+16,
+17,
+18,
+19,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x29",
+"f": 40,
+"t": 29,
+"c": [
+34
+],
+"path": [
+40,
+29
+],
+"p": false
+},
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+},
+{
+"n": "29x9",
+"f": 29,
+"t": 9,
+"c": [
+24,
+14
+],
+"path": [
+29,
+20,
+9
+],
+"p": false
+},
+{
+"n": "4x31",
+"f": 4,
+"t": 31,
+"c": [
+18,
+37,
+38,
+9,
+28
+],
+"path": [
+4,
+13,
+22,
+33,
+42,
+31
+],
+"p": false
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "18-22 27x18 24-29 34x23 25x34 40x29 19-24 29x9 4x31",
+"win": "black",
+"exp": "Bertus BOSCH – Igor CHARTORIYSKI   Une combinaison assez simple mais peu courante. Pas tellement d’autre moyen que de to"
+},
+"deb_combi_profondes_l1_combi6": {
+"id": "deb_combi_profondes_l1_combi6",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D7",
+"start": {
+"wm": [
+24,
+26,
+31,
+32,
+35,
+37,
+38,
+39,
+42,
+44,
+48
+],
+"wk": [],
+"bm": [
+6,
+8,
+12,
+13,
+14,
+15,
+16,
+18,
+22,
+23,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+},
+{
+"n": "28x37",
+"f": 28,
+"t": 37,
+"c": [
+32
+],
+"path": [
+28,
+37
+],
+"p": false
+},
+{
+"n": "42x2",
+"f": 42,
+"t": 2,
+"c": [
+8,
+18,
+27,
+37
+],
+"path": [
+42,
+31,
+22,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "24-19 13x24 31-27 22x31 26-21 16x27 37x26 28x37 42x2",
+"win": "white",
+"exp": "Un pur coup de la trappe : 24-19   31-27   26-21   37x26   42x2"
+},
+"deb_combi_profondes_l1_combi7": {
+"id": "deb_combi_profondes_l1_combi7",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D8",
+"start": {
+"wm": [
+25,
+27,
+32,
+34,
+35,
+37,
+38,
+40,
+41,
+42,
+43,
+48,
+50
+],
+"wk": [],
+"bm": [
+3,
+4,
+5,
+8,
+10,
+13,
+15,
+16,
+17,
+18,
+21,
+26,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x9",
+"f": 27,
+"t": 9,
+"c": [
+13,
+22
+],
+"path": [
+27,
+18,
+9
+],
+"p": false
+},
+{
+"n": "4x13",
+"f": 4,
+"t": 13,
+"c": [
+9
+],
+"path": [
+4,
+13
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x46",
+"f": 10,
+"t": 46,
+"c": [
+32,
+41,
+14,
+23
+],
+"path": [
+10,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "18-22 27x9 4x13 34x23 26-31 37x26 15-20 25x14 10x46",
+"win": "black",
+"exp": "Erik van de WEERDHOF – Wouter LUDWIG   Un coup de dame en 46. Quelle case de départ sinon la case 10. Comment faite saut"
+},
+"deb_combi_profondes_l1_combi8": {
+"id": "deb_combi_profondes_l1_combi8",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D9",
+"start": {
+"wm": [
+25,
+31,
+32,
+34,
+35,
+36,
+38,
+39,
+41,
+42,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+7,
+8,
+9,
+10,
+12,
+13,
+14,
+15,
+16,
+17,
+22,
+23
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "22-27",
+"f": 22,
+"t": 27,
+"c": [],
+"path": [
+22,
+27
+],
+"p": false
+},
+{
+"n": "31x11",
+"f": 31,
+"t": 11,
+"c": [
+17,
+27
+],
+"path": [
+31,
+22,
+11
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "22x13",
+"f": 22,
+"t": 13,
+"c": [
+18
+],
+"path": [
+22,
+13
+],
+"p": false
+},
+{
+"n": "8x46",
+"f": 8,
+"t": 46,
+"c": [
+32,
+41,
+13,
+23
+],
+"path": [
+8,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "22-27 31x11 12-17 11x22 23-29 34x23 13-18 22x13 8x46",
+"win": "black",
+"exp": "Marcel KOSTERS – Gerard van der WOUDEN   Un coup de dame en 46, la case de départ en 8, le mécanisme du coup parallèle.."
+},
+"deb_combi_profondes_l1_combi9": {
+"id": "deb_combi_profondes_l1_combi9",
+"ch": 1,
+"title": "COMBINAISONS EN 4 ET 5 TEMPS – D10",
+"start": {
+"wm": [
+25,
+27,
+28,
+32,
+33,
+35,
+36,
+37,
+38,
+39,
+42,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+9,
+10,
+12,
+13,
+15,
+16,
+17,
+18,
+19,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x5",
+"f": 32,
+"t": 5,
+"c": [
+10,
+19,
+28
+],
+"path": [
+32,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_4_5",
+"pub": "35-30 24x35 33-29 23x34 39x30 35x24 28-22 17x28 32x5",
+"win": "white",
+"exp": "un coup de mazette : 35-30   33-29   39x30   28-22   32x5  96"
+},
+"deb_combi_profondes_l2_combi0": {
+"id": "deb_combi_profondes_l2_combi0",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D1",
+"start": {
+"wm": [
+25,
+31,
+34,
+39,
+42,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+6,
+13,
+14,
+19,
+22,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "35x33",
+"f": 35,
+"t": 33,
+"c": [
+40,
+39
+],
+"path": [
+35,
+44,
+33
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "31x42",
+"f": 31,
+"t": 42,
+"c": [
+37
+],
+"path": [
+31,
+42
+],
+"p": false
+},
+{
+"n": "47x20",
+"f": 47,
+"t": 20,
+"c": [
+33,
+23,
+42,
+13,
+14
+],
+"path": [
+47,
+38,
+29,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_5",
+"pub": "34-30 24x35 45-40 35x33 31-27 22x31 42-37 31x42 47x20",
+"win": "white",
+"exp": "Jaap PLUIM – Niels MEIJER   Solution : 34-30   45-40   31-27   42-37   47x20"
+},
+"deb_combi_profondes_l2_combi1": {
+"id": "deb_combi_profondes_l2_combi1",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D2",
+"start": {
+"wm": [
+27,
+28,
+30,
+33,
+35,
+37,
+38,
+39,
+46,
+48
+],
+"wk": [],
+"bm": [
+3,
+5,
+7,
+8,
+9,
+16,
+17,
+18,
+19,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "30x28",
+"f": 30,
+"t": 28,
+"c": [
+24,
+23
+],
+"path": [
+30,
+19,
+28
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "17x8",
+"f": 17,
+"t": 8,
+"c": [
+12
+],
+"path": [
+17,
+8
+],
+"p": false
+},
+{
+"n": "3x34",
+"f": 3,
+"t": 34,
+"c": [
+18,
+38,
+39,
+8,
+28
+],
+"path": [
+3,
+12,
+23,
+32,
+43,
+34
+],
+"p": false
+}
+],
+"theme": "combinaisons_5",
+"pub": "17-22 28x17 19-23 30x28 18-22 27x18 8-12 17x8 3x34",
+"win": "black",
+"exp": "Daouda SOUMAH – Anton van BERKEL   Beaucoup de trous, mais comment en profiter ? Pas tellement d’autre moyen que de suiv"
+},
+"deb_combi_profondes_l2_combi2": {
+"id": "deb_combi_profondes_l2_combi2",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D3",
+"start": {
+"wm": [
+25,
+26,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+42,
+44
+],
+"wk": [],
+"bm": [
+3,
+4,
+6,
+9,
+11,
+14,
+15,
+16,
+17,
+18,
+19,
+21,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+17,
+18,
+27
+],
+"path": [
+32,
+21,
+12,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+23
+],
+"path": [
+19,
+28
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+28
+],
+"path": [
+33,
+22
+],
+"p": false
+},
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "9x49",
+"f": 9,
+"t": 49,
+"c": [
+24,
+34,
+44,
+14
+],
+"path": [
+9,
+20,
+29,
+40,
+49
+],
+"p": true
+}
+],
+"theme": "combinaisons_5",
+"pub": "21-27 32x23 19x28 33x22 24-30 35x24 14-20 25x14 9x49",
+"win": "black",
+"exp": "Pierre DIONIS – Stanislas BIZOT   Un coup de dame sur la case 49. Solution : Phase de déblaiement :   32x23   33x22 Phas"
+},
+"deb_combi_profondes_l2_combi3": {
+"id": "deb_combi_profondes_l2_combi3",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D4",
+"start": {
+"wm": [
+23,
+24,
+27,
+29,
+32,
+33,
+36,
+37,
+38,
+40,
+41,
+42,
+43,
+44,
+45,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+8,
+9,
+10,
+11,
+12,
+13,
+15,
+16,
+18,
+20,
+21,
+25,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "37x17",
+"f": 37,
+"t": 17,
+"c": [
+21,
+31
+],
+"path": [
+37,
+26,
+17
+],
+"p": false
+},
+{
+"n": "11x31",
+"f": 11,
+"t": 31,
+"c": [
+17,
+27
+],
+"path": [
+11,
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "24x22",
+"f": 24,
+"t": 22,
+"c": [
+18,
+19
+],
+"path": [
+24,
+13,
+22
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "23x12",
+"f": 23,
+"t": 12,
+"c": [
+18
+],
+"path": [
+23,
+12
+],
+"p": false
+},
+{
+"n": "8x46",
+"f": 8,
+"t": 46,
+"c": [
+32,
+41,
+12,
+22
+],
+"path": [
+8,
+17,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5",
+"pub": "26-31 37x17 11x31 36x27 13-19 24x22 12-18 23x12 8x46",
+"win": "black",
+"exp": "J. RENKENS – Hans LADAGE   Un coup de dame classique sur la case 46, utilisant le mécanisme du coup parallèle. Solution"
+},
+"deb_combi_profondes_l2_combi4": {
+"id": "deb_combi_profondes_l2_combi4",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D5",
+"start": {
+"wm": [
+26,
+28,
+29,
+30,
+33,
+37,
+38,
+42,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+3,
+6,
+11,
+12,
+13,
+14,
+17,
+18,
+19,
+21,
+22,
+31
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x39",
+"f": 19,
+"t": 39,
+"c": [
+33,
+23
+],
+"path": [
+19,
+28,
+39
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "39x50",
+"f": 39,
+"t": 50,
+"c": [
+44
+],
+"path": [
+39,
+50
+],
+"p": true
+},
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "50x41",
+"f": 50,
+"t": 41,
+"c": [
+33,
+37
+],
+"path": [
+50,
+28,
+41
+],
+"p": false
+},
+{
+"n": "47x20",
+"f": 47,
+"t": 20,
+"c": [
+21,
+41,
+11,
+12,
+13,
+14,
+31
+],
+"path": [
+47,
+36,
+27,
+16,
+7,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_5",
+"pub": "28-23 19x39 49-44 39x50 29-23 18x29 38-33 50x41 47x20",
+"win": "white",
+"exp": "Arie KOSTER – Erik DUBELAAR   Il faut faire sauter le pion 18 et acheminent une pièce en 41. Solution : 28-23   49-44"
+},
+"deb_combi_profondes_l2_combi5": {
+"id": "deb_combi_profondes_l2_combi5",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D6",
+"start": {
+"wm": [
+32,
+33,
+35,
+36,
+37,
+38,
+44,
+45,
+49,
+50
+],
+"wk": [],
+"bm": [
+5,
+9,
+11,
+13,
+17,
+19,
+22,
+23,
+24,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+27,
+37,
+38
+],
+"path": [
+22,
+31,
+42,
+33
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "35x44",
+"f": 35,
+"t": 44,
+"c": [
+40
+],
+"path": [
+35,
+44
+],
+"p": false
+},
+{
+"n": "50x8",
+"f": 50,
+"t": 8,
+"c": [
+33,
+44,
+13,
+23
+],
+"path": [
+50,
+39,
+28,
+19,
+8
+],
+"p": false
+}
+],
+"theme": "combinaisons_5",
+"pub": "35-30 24x35 33x24 19x30 32-27 22x33 44-40 35x44 50x8",
+"win": "white",
+"exp": "Auke SCHOLMA – Anton van BERKEL   Une combinaison aboutissant sur la case 8. Solution : Phase de déblaiement : 35-30   3"
+},
+"deb_combi_profondes_l2_combi6": {
+"id": "deb_combi_profondes_l2_combi6",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D7",
+"start": {
+"wm": [
+25,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+39,
+44,
+48,
+49
+],
+"wk": [],
+"bm": [
+3,
+9,
+12,
+13,
+14,
+16,
+18,
+19,
+22,
+23,
+24,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "23x43",
+"f": 23,
+"t": 43,
+"c": [
+29,
+39
+],
+"path": [
+23,
+34,
+43
+],
+"p": false
+},
+{
+"n": "32x14",
+"f": 32,
+"t": 14,
+"c": [
+19,
+28
+],
+"path": [
+32,
+23,
+14
+],
+"p": false
+},
+{
+"n": "9x20",
+"f": 9,
+"t": 20,
+"c": [
+14
+],
+"path": [
+9,
+20
+],
+"p": false
+},
+{
+"n": "48x19",
+"f": 48,
+"t": 19,
+"c": [
+33,
+22,
+43,
+12,
+13
+],
+"path": [
+48,
+39,
+28,
+17,
+8,
+19
+],
+"p": false
+}
+],
+"theme": "combinaisons_5",
+"pub": "33-29 24x33 25-20 14x25 34-29 23x43 32x14 9x20 48x19",
+"win": "white",
+"exp": "Sur une idée de combinaison de Laurent NICAULT au cht de France 1997 Solution : 33-29   25-20   34-29   32x14   48x19"
+},
+"deb_combi_profondes_l2_combi7": {
+"id": "deb_combi_profondes_l2_combi7",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D8",
+"start": {
+"wm": [
+22,
+25,
+27,
+28,
+32,
+34,
+35,
+36,
+37,
+38,
+40,
+41,
+42,
+43,
+44,
+45,
+48
+],
+"wk": [],
+"bm": [
+1,
+3,
+5,
+6,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+19,
+21,
+23,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+},
+{
+"n": "28x30",
+"f": 28,
+"t": 30,
+"c": [
+24,
+23
+],
+"path": [
+28,
+19,
+30
+],
+"p": false
+},
+{
+"n": "21-26",
+"f": 21,
+"t": 26,
+"c": [],
+"path": [
+21,
+26
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x46",
+"f": 10,
+"t": 46,
+"c": [
+32,
+41,
+14,
+23
+],
+"path": [
+10,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5",
+"pub": "19-24 28x30 21-26 34x23 26-31 37x26 14-20 25x14 10x46",
+"win": "black",
+"exp": "Cees van ATTEN – Krijn BRAAKE   Un coup de dame sur la case 46 en utilisant un temps de repos pour faire sauter le pion"
+},
+"deb_combi_profondes_l2_combi8": {
+"id": "deb_combi_profondes_l2_combi8",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D9",
+"start": {
+"wm": [
+26,
+27,
+31,
+34,
+35,
+36,
+37,
+38,
+40,
+41,
+43,
+45
+],
+"wk": [],
+"bm": [
+7,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+22,
+23,
+25,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "34x32",
+"f": 34,
+"t": 32,
+"c": [
+38,
+39
+],
+"path": [
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "37x8",
+"f": 37,
+"t": 8,
+"c": [
+32,
+12,
+22
+],
+"path": [
+37,
+28,
+17,
+8
+],
+"p": false
+},
+{
+"n": "13x2",
+"f": 13,
+"t": 2,
+"c": [
+8
+],
+"path": [
+13,
+2
+],
+"p": false
+},
+{
+"n": "31x33",
+"f": 31,
+"t": 33,
+"c": [
+19,
+18,
+27,
+29
+],
+"path": [
+31,
+22,
+13,
+24,
+33
+],
+"p": false
+}
+],
+"theme": "combinaisons_5",
+"pub": "34-30 25x34 27-21 16x27 43-39 34x32 37x8 13x2 31x33",
+"win": "white",
+"exp": "Une combinaison avec double rafle : 34-30   27-21   43-39   37x8   31x33"
+},
+"deb_combi_profondes_l2_combi9": {
+"id": "deb_combi_profondes_l2_combi9",
+"ch": 2,
+"title": "COMBINAISONS EN 5 TEMPS – D10",
+"start": {
+"wm": [
+25,
+27,
+30,
+32,
+35,
+36,
+37,
+38,
+40,
+42,
+43,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+8,
+9,
+11,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+23,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x34",
+"f": 14,
+"t": 34,
+"c": [
+20,
+30
+],
+"path": [
+14,
+25,
+34
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "29x38",
+"f": 29,
+"t": 38,
+"c": [
+33
+],
+"path": [
+29,
+38
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+11,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5",
+"pub": "25-20 14x34 27-22 18x27 32x21 16x27 38-33 29x38 40x16",
+"win": "white",
+"exp": "J. KIVITS – Nico KOCKEN   Un coup Philippe : 25-20   27-22   32x21   38-33   40x16  99"
+},
+"deb_combi_profondes_l3_combi0": {
+"id": "deb_combi_profondes_l3_combi0",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+25,
+26,
+27,
+28,
+32,
+33,
+34,
+38,
+39,
+41,
+42,
+43,
+44,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+3,
+5,
+6,
+8,
+9,
+10,
+13,
+14,
+16,
+17,
+18,
+19,
+21,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "34x23x12",
+"f": 34,
+"t": 12,
+"c": [
+18,
+29
+],
+"path": [
+34,
+23,
+12
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19x30",
+"f": 28,
+"t": 30,
+"c": [
+24,
+23
+],
+"path": [
+28,
+19,
+30
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "12x23",
+"f": 12,
+"t": 23,
+"c": [
+18
+],
+"path": [
+12,
+23
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x19x28x37x46",
+"f": 10,
+"t": 46,
+"c": [
+32,
+41,
+14,
+23
+],
+"path": [
+10,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "23-29 34x23x12 19-23 28x19x30 13-18 12x23 14-20 25x14 10x19x28x37x46",
+"win": "black",
+"exp": "P. LACROIX – Ad van TILBORG   Une combinaison en 46 semble probable. Oui, mais comment éliminer le pion blanc 28 ? La so"
+},
+"deb_combi_profondes_l3_combi1": {
+"id": "deb_combi_profondes_l3_combi1",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+26,
+27,
+28,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+43
+],
+"wk": [],
+"bm": [
+3,
+6,
+8,
+11,
+13,
+14,
+16,
+17,
+18,
+19,
+21,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "32x12",
+"f": 32,
+"t": 12,
+"c": [
+18,
+28
+],
+"path": [
+32,
+23,
+12
+],
+"p": false
+},
+{
+"n": "8x17",
+"f": 8,
+"t": 17,
+"c": [
+12
+],
+"path": [
+8,
+17
+],
+"p": false
+},
+{
+"n": "27x40",
+"f": 27,
+"t": 40,
+"c": [
+34,
+22,
+24,
+13,
+14
+],
+"path": [
+27,
+18,
+9,
+20,
+29,
+40
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "28-22 17x28 26x17 11x22 34-29 23x34 32x12 8x17 27x40",
+"win": "white",
+"exp": "Un coup de la trappe : 28-22   26x17   34-29   32x12   27x40"
+},
+"deb_combi_profondes_l3_combi2": {
+"id": "deb_combi_profondes_l3_combi2",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+22,
+28,
+32,
+33,
+34,
+35,
+36,
+38,
+40,
+42,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+8,
+9,
+10,
+11,
+13,
+14,
+17,
+19,
+20,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "22-18",
+"f": 22,
+"t": 18,
+"c": [],
+"path": [
+22,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+33,
+34,
+23
+],
+"path": [
+19,
+28,
+39,
+30
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "38x29",
+"f": 38,
+"t": 29,
+"c": [
+33
+],
+"path": [
+38,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "35x2",
+"f": 35,
+"t": 2,
+"c": [
+20,
+8,
+9,
+10,
+30
+],
+"path": [
+35,
+24,
+15,
+4,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "22-18 13x22 28-23 19x30 32-28 22x33 38x29 24x33 35x2",
+"win": "white",
+"exp": "Un coup de dame 35x… cela signifie qu’il faut acheminer un pion noir en 30 et faire sauter le pion 24. Solution : 22-18"
+},
+"deb_combi_profondes_l3_combi3": {
+"id": "deb_combi_profondes_l3_combi3",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+27,
+28,
+31,
+32,
+33,
+34,
+35,
+48
+],
+"wk": [],
+"bm": [
+9,
+12,
+13,
+16,
+18,
+21,
+24,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "18x38",
+"f": 18,
+"t": 38,
+"c": [
+33,
+23
+],
+"path": [
+18,
+29,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "21x32",
+"f": 21,
+"t": 32,
+"c": [
+27
+],
+"path": [
+21,
+32
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "48x17",
+"f": 48,
+"t": 17,
+"c": [
+34,
+24,
+43,
+12,
+13
+],
+"path": [
+48,
+39,
+30,
+19,
+8,
+17
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "34-30 25x34 28-23 18x38 32x43 21x32 43-38 32x43 48x17",
+"win": "white",
+"exp": "Ton SIJBRANDS – Henk KALK   Observer les points de contact et visualiser mentalement les prises conduit à la solution de"
+},
+"deb_combi_profondes_l3_combi4": {
+"id": "deb_combi_profondes_l3_combi4",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+26,
+31,
+33,
+34,
+36,
+39,
+41,
+43,
+44,
+45,
+46
+],
+"wk": [],
+"bm": [
+2,
+9,
+12,
+13,
+15,
+17,
+18,
+22,
+27,
+28,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+21,
+31
+],
+"path": [
+17,
+26,
+37
+],
+"p": false
+},
+{
+"n": "41x23",
+"f": 41,
+"t": 23,
+"c": [
+28,
+37
+],
+"path": [
+41,
+32,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "39x19",
+"f": 39,
+"t": 19,
+"c": [
+33,
+12,
+13,
+22
+],
+"path": [
+39,
+28,
+17,
+8,
+19
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "34-30 35x24 33-29 24x33 26-21 17x37 41x23 18x29 39x19",
+"win": "white",
+"exp": "A. IVENS – T. van STEIJN   En examinant les points de contact, on imagine une rafle possible 39x… à condition de faire s"
+},
+"deb_combi_profondes_l3_combi5": {
+"id": "deb_combi_profondes_l3_combi5",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+25,
+31,
+32,
+35,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+7,
+8,
+9,
+10,
+11,
+13,
+14,
+15,
+16,
+20,
+21,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "31x22",
+"f": 31,
+"t": 22,
+"c": [
+27
+],
+"path": [
+31,
+22
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "25x23",
+"f": 25,
+"t": 23,
+"c": [
+19,
+20
+],
+"path": [
+25,
+14,
+23
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "22x13",
+"f": 22,
+"t": 13,
+"c": [
+18
+],
+"path": [
+22,
+13
+],
+"p": false
+},
+{
+"n": "8x46",
+"f": 8,
+"t": 46,
+"c": [
+32,
+41,
+13,
+23
+],
+"path": [
+8,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "21-27 31x22 26-31 37x26 14-19 25x23 13-18 22x13 8x46",
+"win": "black",
+"exp": "Philippe LERUTH – Yves VANDEBERG   Un coup de dame à 46 basé sur le thème du coup parallèle :   31x22   37x26   25x23"
+},
+"deb_combi_profondes_l3_combi6": {
+"id": "deb_combi_profondes_l3_combi6",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+25,
+31,
+32,
+33,
+34,
+36,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+7,
+8,
+9,
+10,
+12,
+14,
+15,
+16,
+17,
+18,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "24x11",
+"f": 24,
+"t": 11,
+"c": [
+17,
+18,
+19
+],
+"path": [
+24,
+13,
+22,
+11
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x46",
+"f": 10,
+"t": 46,
+"c": [
+32,
+41,
+14,
+23
+],
+"path": [
+10,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-29 33x24 14-19 24x11 23-29 34x23 15-20 25x14 10x46",
+"win": "black",
+"exp": "Johan WIERING – Adama KONE   Un coup de dame en 46 avec une rafle 10x46, c’est évidemment ce qui vient en premier lieu à"
+},
+"deb_combi_profondes_l3_combi7": {
+"id": "deb_combi_profondes_l3_combi7",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+22,
+23,
+28,
+33,
+35,
+36,
+40,
+42,
+43,
+44,
+45
+],
+"wk": [],
+"bm": [
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+17,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "23-19",
+"f": 23,
+"t": 19,
+"c": [],
+"path": [
+23,
+19
+],
+"p": false
+},
+{
+"n": "14x32",
+"f": 14,
+"t": 32,
+"c": [
+19,
+28
+],
+"path": [
+14,
+23,
+32
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+11,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "23-19 14x32 33-28 32x23 44-39 17x28 35-30 25x34 40x16",
+"win": "white",
+"exp": "Michel HISARD – Emile BISCONS   Un coup Philippe : 23-19   33-28   44-39   35-30   40x16"
+},
+"deb_combi_profondes_l3_combi8": {
+"id": "deb_combi_profondes_l3_combi8",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D9",
+"start": {
+"wm": [
+27,
+28,
+32,
+35,
+36,
+37,
+38,
+42,
+43,
+44,
+45,
+48
+],
+"wk": [],
+"bm": [
+6,
+7,
+8,
+9,
+11,
+13,
+15,
+16,
+18,
+19,
+23,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "23x41",
+"f": 23,
+"t": 41,
+"c": [
+28,
+37
+],
+"path": [
+23,
+32,
+41
+],
+"p": false
+},
+{
+"n": "36x47",
+"f": 36,
+"t": 47,
+"c": [
+41
+],
+"path": [
+36,
+47
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x40",
+"f": 27,
+"t": 40,
+"c": [
+32,
+43,
+44
+],
+"path": [
+27,
+38,
+49,
+40
+],
+"p": false
+},
+{
+"n": "45x1",
+"f": 45,
+"t": 1,
+"c": [
+19,
+7,
+40,
+9,
+29,
+8
+],
+"path": [
+45,
+34,
+23,
+14,
+3,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-22 18x27 32x21 23x41 36x47 16x27 38-32 27x40 45x1",
+"win": "white",
+"exp": "Philip BATTEFELD – Stanislas BIZOT   Un coup de dame sur la case 1. La case de départ ne peut être que la case 45. Le re"
+},
+"deb_combi_profondes_l3_combi9": {
+"id": "deb_combi_profondes_l3_combi9",
+"ch": 3,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D10",
+"start": {
+"wm": [
+21,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+45,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+8,
+11,
+12,
+14,
+15,
+17,
+18,
+23,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "42x31",
+"f": 42,
+"t": 31,
+"c": [
+37
+],
+"path": [
+42,
+31
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+21,
+31
+],
+"path": [
+17,
+26,
+37
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "33x13",
+"f": 33,
+"t": 13,
+"c": [
+18,
+28
+],
+"path": [
+33,
+22,
+13
+],
+"p": false
+},
+{
+"n": "8x19",
+"f": 8,
+"t": 19,
+"c": [
+13
+],
+"path": [
+8,
+19
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+11,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "37-31 26x37 42x31 17x37 38-32 37x28 33x13 8x19 34-30 25x34 40x16",
+"win": "white",
+"exp": "Pieter WIJN – T. FONVILLE   Un coup Philippe inhabituel : 37-31   42x31   38-32   33x13   34-30   40x16  102"
+},
+"deb_combi_profondes_l4_combi0": {
+"id": "deb_combi_profondes_l4_combi0",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+25,
+31,
+33,
+34,
+35,
+36,
+37,
+38,
+41,
+42,
+43,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+7,
+9,
+11,
+12,
+13,
+14,
+15,
+17,
+18,
+22,
+23,
+26,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "34x32",
+"f": 34,
+"t": 32,
+"c": [
+38,
+39
+],
+"path": [
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "41x21",
+"f": 41,
+"t": 21,
+"c": [
+27,
+37
+],
+"path": [
+41,
+32,
+21
+],
+"p": false
+},
+{
+"n": "17x26",
+"f": 17,
+"t": 26,
+"c": [
+21
+],
+"path": [
+17,
+26
+],
+"p": false
+},
+{
+"n": "28x10",
+"f": 28,
+"t": 10,
+"c": [
+12,
+13,
+22,
+14
+],
+"path": [
+28,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "34-29 23x34 43-39 34x32 37x28 26x37 41x21 17x26 28x10",
+"win": "white",
+"exp": "Anatoli KOWRIZJKIN – G. GRIGOREW   Une combinaison construite sur le mécanisme de la trappe. Solution : 34-29   43-39"
+},
+"deb_combi_profondes_l4_combi1": {
+"id": "deb_combi_profondes_l4_combi1",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+25,
+29,
+30,
+33,
+35,
+37,
+38,
+40,
+43,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+3,
+7,
+9,
+12,
+13,
+14,
+15,
+17,
+18,
+19,
+20,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "48-42",
+"f": 48,
+"t": 42,
+"c": [],
+"path": [
+48,
+42
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+33,
+42,
+43
+],
+"path": [
+37,
+48,
+39,
+28
+],
+"p": false
+},
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x2",
+"f": 35,
+"t": 2,
+"c": [
+17,
+7,
+28,
+29,
+30
+],
+"path": [
+35,
+24,
+33,
+22,
+11,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "37-31 26x37 48-42 37x28 29-23 18x29 30-24 19x30 35x2",
+"win": "white",
+"exp": "Wim van der SLUIS - Viacheslav SHCHEGOLEV   Un coup de dame en 2 très pur. Solution : 37-31   48-42   29-23   30-24  35x"
+},
+"deb_combi_profondes_l4_combi2": {
+"id": "deb_combi_profondes_l4_combi2",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+25,
+26,
+29,
+30,
+32,
+35,
+38,
+43,
+47,
+48,
+50
+],
+"wk": [],
+"bm": [
+3,
+6,
+7,
+11,
+13,
+14,
+15,
+18,
+22,
+23,
+36
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "36x47",
+"f": 36,
+"t": 47,
+"c": [
+41
+],
+"path": [
+36,
+47
+],
+"p": true
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "47x44",
+"f": 47,
+"t": 44,
+"c": [
+38,
+39
+],
+"path": [
+47,
+33,
+44
+],
+"p": false
+},
+{
+"n": "50x10",
+"f": 50,
+"t": 10,
+"c": [
+24,
+34,
+44,
+14
+],
+"path": [
+50,
+39,
+30,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "30-24 23x34 24-20 15x24 47-41 36x47 43-39 47x44 50x10",
+"win": "white",
+"exp": "Toby HAGE – Danny VERSCHUEREN   L’attaque des Noirs donne un temps de repos et ouvre la perspective d’une combinaison se"
+},
+"deb_combi_profondes_l4_combi3": {
+"id": "deb_combi_profondes_l4_combi3",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+27,
+28,
+29,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+42,
+45,
+48
+],
+"wk": [],
+"bm": [
+1,
+3,
+6,
+8,
+13,
+14,
+15,
+16,
+18,
+19,
+20,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "29x9",
+"f": 29,
+"t": 9,
+"c": [
+13,
+23
+],
+"path": [
+29,
+18,
+9
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "9x18",
+"f": 9,
+"t": 18,
+"c": [
+13
+],
+"path": [
+9,
+18
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "16x7",
+"f": 16,
+"t": 7,
+"c": [
+11
+],
+"path": [
+16,
+7
+],
+"p": false
+},
+{
+"n": "1x43",
+"f": 1,
+"t": 43,
+"c": [
+18,
+28,
+38,
+7
+],
+"path": [
+1,
+12,
+23,
+32,
+43
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "18-23 29x9 8-13 9x18 16-21 27x16 6-11 16x7 1x43",
+"win": "black",
+"exp": "Wim BREMMER – Robbert WESTERINK   Un coup aboutissant à la case 43 parait plausible. Dans ce cas-là, la case de départ n"
+},
+"deb_combi_profondes_l4_combi4": {
+"id": "deb_combi_profondes_l4_combi4",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+27,
+28,
+30,
+32,
+33,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+21,
+23,
+24
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x31",
+"f": 24,
+"t": 31,
+"c": [
+37,
+29,
+38
+],
+"path": [
+24,
+33,
+42,
+31
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "43x32",
+"f": 43,
+"t": 32,
+"c": [
+38
+],
+"path": [
+43,
+32
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "28x37",
+"f": 28,
+"t": 37,
+"c": [
+21,
+23,
+12,
+13,
+31
+],
+"path": [
+28,
+19,
+8,
+17,
+26,
+37
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-22 18x27 33-29 24x31 30-24 27x38 43x32 19x30 28x37",
+"win": "white",
+"exp": "R.C. KELLER – E. WERTWIJN   Un coup du cheval : 27-22   33-29   30-24   43x32   28x37"
+},
+"deb_combi_profondes_l4_combi5": {
+"id": "deb_combi_profondes_l4_combi5",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+32,
+34,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+45
+],
+"wk": [],
+"bm": [
+12,
+14,
+16,
+19,
+21,
+23,
+24,
+25,
+26,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "38x27",
+"f": 38,
+"t": 27,
+"c": [
+32
+],
+"path": [
+38,
+27
+],
+"p": false
+},
+{
+"n": "21x32",
+"f": 21,
+"t": 32,
+"c": [
+27
+],
+"path": [
+21,
+32
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+23
+],
+"path": [
+19,
+28
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "32x34",
+"f": 32,
+"t": 34,
+"c": [
+38,
+39
+],
+"path": [
+32,
+43,
+34
+],
+"p": false
+},
+{
+"n": "40x9",
+"f": 40,
+"t": 9,
+"c": [
+24,
+34,
+14
+],
+"path": [
+40,
+29,
+20,
+9
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "32-28 23x32 38x27 21x32 34x23 19x28 43-38 32x34 40x9",
+"win": "white",
+"exp": "Un genre de coup royal décomposé en 2 phases. Solution : 32-28   38x27   34x23   43-38   40x9"
+},
+"deb_combi_profondes_l4_combi6": {
+"id": "deb_combi_profondes_l4_combi6",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+25,
+26,
+31,
+32,
+34,
+35,
+36,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+8,
+9,
+10,
+12,
+14,
+15,
+16,
+17,
+18,
+19,
+22,
+23,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x28",
+"f": 26,
+"t": 28,
+"c": [
+21,
+22
+],
+"path": [
+26,
+17,
+28
+],
+"p": false
+},
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+},
+{
+"n": "28x30",
+"f": 28,
+"t": 30,
+"c": [
+24,
+23
+],
+"path": [
+28,
+19,
+30
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x46",
+"f": 10,
+"t": 46,
+"c": [
+32,
+41,
+14,
+23
+],
+"path": [
+10,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "17-21 26x28 19-24 28x30 18-22 34x23 14-20 25x14 10x46",
+"win": "black",
+"exp": "Stanislaw GULYAEV - Anatoli CHULKOV   Une combinaison 10x46. Solution : Phase de déblaiement :   26x28   28x30 Phase de"
+},
+"deb_combi_profondes_l4_combi7": {
+"id": "deb_combi_profondes_l4_combi7",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+26,
+27,
+28,
+31,
+33,
+36,
+41,
+42,
+43,
+44,
+45,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+6,
+7,
+8,
+12,
+16,
+17,
+18,
+19,
+20,
+22,
+25,
+30
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "17x39",
+"f": 17,
+"t": 39,
+"c": [
+42,
+43,
+21,
+31
+],
+"path": [
+17,
+26,
+37,
+48,
+39
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x32",
+"f": 12,
+"t": 32,
+"c": [
+17,
+27
+],
+"path": [
+12,
+21,
+32
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "39x28",
+"f": 39,
+"t": 28,
+"c": [
+33
+],
+"path": [
+39,
+28
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "30x39",
+"f": 30,
+"t": 39,
+"c": [
+34
+],
+"path": [
+30,
+39
+],
+"p": false
+},
+{
+"n": "44x15",
+"f": 44,
+"t": 15,
+"c": [
+18,
+19,
+20,
+39,
+28
+],
+"path": [
+44,
+33,
+22,
+13,
+24,
+15
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "26-21 17x39 28x17 12x32 45-40 39x28 40-34 30x39 44x15",
+"win": "white",
+"exp": "Stanislaw GULYAEV - Vladimir WEYTSMAN   La conception de la rafle est un préalable pour trouver la combinaison. Après, t"
+},
+"deb_combi_profondes_l4_combi8": {
+"id": "deb_combi_profondes_l4_combi8",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D9",
+"start": {
+"wm": [
+21,
+31,
+33,
+34,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+44,
+46,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+7,
+9,
+10,
+12,
+13,
+14,
+17,
+18,
+19,
+22,
+26,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "38x20",
+"f": 38,
+"t": 20,
+"c": [
+24,
+33
+],
+"path": [
+38,
+29,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "26x28",
+"f": 26,
+"t": 28,
+"c": [
+32,
+31
+],
+"path": [
+26,
+37,
+28
+],
+"p": false
+},
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+21,
+31
+],
+"path": [
+17,
+26,
+37
+],
+"p": false
+},
+{
+"n": "41x5",
+"f": 41,
+"t": 5,
+"c": [
+10,
+19,
+28,
+37
+],
+"path": [
+41,
+32,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "34-30 35x24 33-28 22x33 38x20 14x25 37-32 26x28 36-31 17x37 41x5",
+"win": "white",
+"exp": "Isidore WEISS – A. DUSSAUT   Un coup de dame en 5. Une seule rafle possible 41x5. Il ne reste qu’à mettre les pions en p"
+},
+"deb_combi_profondes_l4_combi9": {
+"id": "deb_combi_profondes_l4_combi9",
+"ch": 4,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D10",
+"start": {
+"wm": [
+16,
+25,
+28,
+30,
+33,
+35,
+38,
+39,
+40,
+41,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+6,
+9,
+12,
+14,
+15,
+18,
+19,
+24,
+26,
+36
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x23",
+"f": 25,
+"t": 23,
+"c": [
+19,
+20
+],
+"path": [
+25,
+14,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "2-8",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "16x18",
+"f": 16,
+"t": 18,
+"c": [
+11,
+12
+],
+"path": [
+16,
+7,
+18
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "19x8",
+"f": 19,
+"t": 8,
+"c": [
+13
+],
+"path": [
+19,
+8
+],
+"p": false
+},
+{
+"n": "3x45",
+"f": 3,
+"t": 45,
+"c": [
+18,
+38,
+39,
+8,
+40,
+28
+],
+"path": [
+3,
+12,
+23,
+32,
+43,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "14-20 25x23 18x29 30x19 2-8 33x24 6-11 16x18 8-13 19x8 3x45",
+"win": "black",
+"exp": "J. VELTMAN – Leo STEYNTJES   Une rafle aboutissant à 45. Un point d’appui en 43. Il reste à tout mettre en place. Soluti"
+},
+"deb_combi_profondes_l5_combi0": {
+"id": "deb_combi_profondes_l5_combi0",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+15,
+27,
+28,
+30,
+32,
+37,
+38,
+39,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+4,
+11,
+12,
+13,
+14,
+16,
+18,
+19,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "30x39",
+"f": 30,
+"t": 39,
+"c": [
+34
+],
+"path": [
+30,
+39
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "39x48",
+"f": 39,
+"t": 48,
+"c": [
+43
+],
+"path": [
+39,
+48
+],
+"p": true
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "48x22",
+"f": 48,
+"t": 22,
+"c": [
+27,
+37
+],
+"path": [
+48,
+31,
+22
+],
+"p": false
+},
+{
+"n": "28x10",
+"f": 28,
+"t": 10,
+"c": [
+12,
+13,
+22,
+14
+],
+"path": [
+28,
+17,
+8,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "30-24 19x30 39-34 30x39 48-43 39x48 38-33 48x22 28x10",
+"win": "white",
+"exp": "Bert LOOMS – J. de JONG   Une combinaison aboutissant sur la case 10, basée sur le mécanisme d’envoi à dame. Solution :"
+},
+"deb_combi_profondes_l5_combi1": {
+"id": "deb_combi_profondes_l5_combi1",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+20,
+27,
+32,
+33,
+35,
+36,
+38,
+39,
+40,
+41,
+42,
+43,
+45,
+46,
+47,
+48,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+7,
+9,
+10,
+11,
+12,
+13,
+15,
+16,
+17,
+18,
+19,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x29",
+"f": 27,
+"t": 29,
+"c": [
+22,
+23
+],
+"path": [
+27,
+18,
+29
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "24x13",
+"f": 24,
+"t": 13,
+"c": [
+19
+],
+"path": [
+24,
+13
+],
+"p": false
+},
+{
+"n": "15x35",
+"f": 15,
+"t": 35,
+"c": [
+40,
+20,
+29,
+39
+],
+"path": [
+15,
+24,
+33,
+44,
+35
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-29 33x24 19x30 35x24 18-22 27x29 13-19 24x13 15x35",
+"win": "black",
+"exp": "Joeri HEZEMANS – Erno PROSMAN   C’est la rafle qui est difficile à envisager. Solution :   33x24   35x24   27x29   24x13"
+},
+"deb_combi_profondes_l5_combi2": {
+"id": "deb_combi_profondes_l5_combi2",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+26,
+30,
+32,
+37,
+38,
+39,
+40,
+42,
+45,
+47
+],
+"wk": [],
+"bm": [
+7,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "30x39",
+"f": 30,
+"t": 39,
+"c": [
+34
+],
+"path": [
+30,
+39
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "39x28",
+"f": 39,
+"t": 28,
+"c": [
+33
+],
+"path": [
+39,
+28
+],
+"p": false
+},
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "16x38",
+"f": 16,
+"t": 38,
+"c": [
+32,
+21
+],
+"path": [
+16,
+27,
+38
+],
+"p": false
+},
+{
+"n": "42x2",
+"f": 42,
+"t": 2,
+"c": [
+17,
+28,
+38,
+7
+],
+"path": [
+42,
+33,
+22,
+11,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "30-24 19x30 39-34 30x39 38-33 39x28 26-21 16x38 42x2",
+"win": "white",
+"exp": "Un coup de dame à 2. Phase de positionnement : 30-24   39-34   38-33   Phase d’acheminement : 26-21   42x2"
+},
+"deb_combi_profondes_l5_combi3": {
+"id": "deb_combi_profondes_l5_combi3",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+43,
+44,
+45,
+47,
+49
+],
+"wk": [],
+"bm": [
+4,
+6,
+9,
+12,
+14,
+15,
+16,
+18,
+19,
+21,
+22,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "22x42",
+"f": 22,
+"t": 42,
+"c": [
+27,
+37
+],
+"path": [
+22,
+31,
+42
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "26x28",
+"f": 26,
+"t": 28,
+"c": [
+32,
+31
+],
+"path": [
+26,
+37,
+28
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+18,
+19,
+28
+],
+"path": [
+33,
+22,
+13,
+24
+],
+"p": false
+},
+{
+"n": "42x33",
+"f": 42,
+"t": 33,
+"c": [
+38
+],
+"path": [
+42,
+33
+],
+"p": false
+},
+{
+"n": "39x10",
+"f": 39,
+"t": 10,
+"c": [
+33,
+14,
+23
+],
+"path": [
+39,
+28,
+19,
+10
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "31-27 22x42 35-30 24x35 36-31 26x28 33x24 42x33 39x10",
+"win": "white",
+"exp": "Une double combinaison basée sur le mécanisme de la trappe. Solution : 31-27   35-30   36-31   33x24   39x10"
+},
+"deb_combi_profondes_l5_combi4": {
+"id": "deb_combi_profondes_l5_combi4",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+24,
+25,
+32,
+33,
+38,
+45,
+47,
+48,
+50
+],
+"wk": [],
+"bm": [
+8,
+10,
+14,
+15,
+16,
+21,
+22,
+23,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "21x43",
+"f": 21,
+"t": 43,
+"c": [
+27,
+38
+],
+"path": [
+21,
+32,
+43
+],
+"p": false
+},
+{
+"n": "48x17",
+"f": 48,
+"t": 17,
+"c": [
+34,
+22,
+23,
+24,
+43
+],
+"path": [
+48,
+39,
+30,
+19,
+28,
+17
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "33-29 23x34 24-19 14x23 25-20 15x24 32-27 21x43 48x17",
+"win": "white",
+"exp": "Michael GALACHOV – Sergei KALINOV   Pas évident de concevoir la rafle. Solution : 33-29   24-19   25-20   32-27   48x17"
+},
+"deb_combi_profondes_l5_combi5": {
+"id": "deb_combi_profondes_l5_combi5",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+16,
+26,
+32,
+33,
+35,
+37,
+39,
+44,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+6,
+8,
+10,
+12,
+13,
+17,
+18,
+19,
+24,
+25,
+36
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "36x47",
+"f": 36,
+"t": 47,
+"c": [
+41
+],
+"path": [
+36,
+47
+],
+"p": true
+},
+{
+"n": "16-11",
+"f": 16,
+"t": 11,
+"c": [],
+"path": [
+16,
+11
+],
+"p": false
+},
+{
+"n": "47x29",
+"f": 47,
+"t": 29,
+"c": [
+33
+],
+"path": [
+47,
+29
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "18x38",
+"f": 18,
+"t": 38,
+"c": [
+32,
+22
+],
+"path": [
+18,
+27,
+38
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "38x40",
+"f": 38,
+"t": 40,
+"c": [
+43,
+44
+],
+"path": [
+38,
+49,
+40
+],
+"p": false
+},
+{
+"n": "45x5",
+"f": 45,
+"t": 5,
+"c": [
+40,
+10,
+19,
+29
+],
+"path": [
+45,
+34,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "47-41 36x47 16-11 47x29 11x22 18x38 48-43 38x40 45x5",
+"win": "white",
+"exp": "Un coup de dame à 5 un peu surprenant. Pas d’autre méthode que de tester les points de contact les uns après les autres."
+},
+"deb_combi_profondes_l5_combi6": {
+"id": "deb_combi_profondes_l5_combi6",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+25,
+32,
+33,
+36,
+40,
+42,
+43,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+7,
+14,
+16,
+17,
+19,
+20,
+34
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+},
+{
+"n": "40x29",
+"f": 40,
+"t": 29,
+"c": [
+34
+],
+"path": [
+40,
+29
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "25x23",
+"f": 25,
+"t": 23,
+"c": [
+19,
+20
+],
+"path": [
+25,
+14,
+23
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "32x12",
+"f": 32,
+"t": 12,
+"c": [
+17,
+27
+],
+"path": [
+32,
+21,
+12
+],
+"p": false
+},
+{
+"n": "7x49",
+"f": 7,
+"t": 49,
+"c": [
+33,
+43,
+12,
+23
+],
+"path": [
+7,
+18,
+29,
+38,
+49
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "19-24 40x29 14-19 25x23 16-21 29x20 21-27 32x12 7x49",
+"win": "black",
+"exp": "P. REIMANN - Sergei ANDREJEV   Un coup de dame sur la case 49 sur le thème du temps de repos. Solution : Phase de positi"
+},
+"deb_combi_profondes_l5_combi7": {
+"id": "deb_combi_profondes_l5_combi7",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+27,
+28,
+32,
+34,
+35,
+38,
+48
+],
+"wk": [],
+"bm": [
+12,
+13,
+16,
+18,
+21,
+24,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "29x38",
+"f": 29,
+"t": 38,
+"c": [
+33
+],
+"path": [
+29,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "21x32",
+"f": 21,
+"t": 32,
+"c": [
+27
+],
+"path": [
+21,
+32
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "48x17",
+"f": 48,
+"t": 17,
+"c": [
+34,
+24,
+43,
+12,
+13
+],
+"path": [
+48,
+39,
+30,
+19,
+8,
+17
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "34-30 25x34 28-23 18x29 38-33 29x38 32x43 21x32 43-38 32x43 48x17",
+"win": "white",
+"exp": "La rafle vraisemblable est 48x17 ou 48x26. Le pion noir pouvant être acheminé en 43 est le pion 21. Le raisonnement est"
+},
+"deb_combi_profondes_l5_combi8": {
+"id": "deb_combi_profondes_l5_combi8",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D9",
+"start": {
+"wm": [
+21,
+25,
+28,
+34,
+36,
+39,
+40,
+45,
+48
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+15,
+19,
+23,
+24,
+37
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "21-17",
+"f": 21,
+"t": 17,
+"c": [],
+"path": [
+21,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+32,
+33,
+34,
+21
+],
+"path": [
+40,
+29,
+38,
+27,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "39-33 23x32 25-20 14x25 21-17 12x21 33-29 24x33 34-30 25x34 40x16",
+"win": "white",
+"exp": "Alfred DUSSAUT – Georges BALEDENT  . Beaucoup de trous dans la position des noirs, mais comment en profiter ? Il faut pe"
+},
+"deb_combi_profondes_l5_combi9": {
+"id": "deb_combi_profondes_l5_combi9",
+"ch": 5,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D10",
+"start": {
+"wm": [
+15,
+25,
+32,
+33,
+36,
+38,
+39,
+42,
+44,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+8,
+9,
+12,
+13,
+22,
+23,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "4-10",
+"f": 4,
+"t": 10,
+"c": [],
+"path": [
+4,
+10
+],
+"p": false
+},
+{
+"n": "15x4",
+"f": 15,
+"t": 4,
+"c": [
+10
+],
+"path": [
+15,
+4
+],
+"p": true
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "4x13",
+"f": 4,
+"t": 13,
+"c": [
+9
+],
+"path": [
+4,
+13
+],
+"p": false
+},
+{
+"n": "8x30",
+"f": 8,
+"t": 30,
+"c": [
+24,
+13
+],
+"path": [
+8,
+19,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "22-28",
+"f": 22,
+"t": 28,
+"c": [],
+"path": [
+22,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+},
+{
+"n": "18x49",
+"f": 18,
+"t": 49,
+"c": [
+34,
+44,
+23
+],
+"path": [
+18,
+29,
+40,
+49
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "23-29 33x24 4-10 15x4 13-18 4x13 8x30 25x34 22-28 32x23 18x49",
+"win": "black",
+"exp": "Solik GERSHT - Viacheslav SHCHEGOLEV   Une combinaison déroutante car elle se déroule en 2 temps. Il faut tout d’abord m"
+},
+"deb_combi_profondes_l6_combi0": {
+"id": "deb_combi_profondes_l6_combi0",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+23,
+24,
+26,
+28,
+32,
+33,
+34,
+38,
+40,
+42
+],
+"wk": [],
+"bm": [
+3,
+8,
+9,
+11,
+13,
+14,
+15,
+17,
+21,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "23-18",
+"f": 23,
+"t": 18,
+"c": [],
+"path": [
+23,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+28
+],
+"path": [
+33,
+22
+],
+"p": false
+},
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "29x7",
+"f": 29,
+"t": 7,
+"c": [
+11,
+21,
+22,
+23
+],
+"path": [
+29,
+18,
+27,
+16,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "23-18 13x22 33-29 22x33 32-28 33x22 24-19 14x23 29x7",
+"win": "white",
+"exp": "Un coup Napoléon : 23-18   33-29   32-28   24-19   29x7"
+},
+"deb_combi_profondes_l6_combi1": {
+"id": "deb_combi_profondes_l6_combi1",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+25,
+27,
+28,
+32,
+33,
+34,
+36,
+37,
+38,
+39,
+41,
+42,
+44,
+45,
+46,
+48
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+5,
+9,
+10,
+11,
+12,
+13,
+14,
+16,
+17,
+21,
+24,
+26,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+},
+{
+"n": "21x43",
+"f": 21,
+"t": 43,
+"c": [
+27,
+38
+],
+"path": [
+21,
+32,
+43
+],
+"p": false
+},
+{
+"n": "23-19",
+"f": 23,
+"t": 19,
+"c": [],
+"path": [
+23,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "43x32",
+"f": 43,
+"t": 32,
+"c": [
+38
+],
+"path": [
+43,
+32
+],
+"p": false
+},
+{
+"n": "37x6",
+"f": 37,
+"t": 6,
+"c": [
+32,
+23,
+11,
+12,
+13
+],
+"path": [
+37,
+28,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "28-22 17x28 32x23 21x43 23-19 14x23 42-38 43x32 37x6",
+"win": "white",
+"exp": "Fred IVENS – Waldo ALIAR   Solution : 28-22   32x23   23-19   42-38   37x6"
+},
+"deb_combi_profondes_l6_combi2": {
+"id": "deb_combi_profondes_l6_combi2",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+30,
+32,
+33,
+37,
+38,
+39,
+41,
+43,
+44,
+47,
+48
+],
+"wk": [],
+"bm": [
+4,
+8,
+11,
+13,
+14,
+16,
+18,
+19,
+21,
+24,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x31",
+"f": 24,
+"t": 31,
+"c": [
+37,
+29,
+38
+],
+"path": [
+24,
+33,
+42,
+31
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "33x42",
+"f": 33,
+"t": 42,
+"c": [
+38
+],
+"path": [
+33,
+42
+],
+"p": false
+},
+{
+"n": "48x6",
+"f": 48,
+"t": 6,
+"c": [
+42,
+11,
+21,
+31
+],
+"path": [
+48,
+37,
+26,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "33-29 24x31 39-33 35x24 33-29 24x33 43-38 33x42 48x6",
+"win": "white",
+"exp": "Pieter BERGSMA – Evert BRONSTRING   Une combinaison aboutissant sur la case 6 ou sur la case 9 ? La recherche de la case"
+},
+"deb_combi_profondes_l6_combi3": {
+"id": "deb_combi_profondes_l6_combi3",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+28,
+31,
+32,
+34,
+35,
+36,
+38,
+40,
+43,
+45,
+48,
+49
+],
+"wk": [],
+"bm": [
+3,
+5,
+8,
+10,
+13,
+19,
+20,
+21,
+23,
+24,
+25,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "29x27",
+"f": 29,
+"t": 27,
+"c": [
+32,
+33
+],
+"path": [
+29,
+38,
+27
+],
+"p": false
+},
+{
+"n": "31x22",
+"f": 31,
+"t": 22,
+"c": [
+27
+],
+"path": [
+31,
+22
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+32,
+33,
+34,
+21
+],
+"path": [
+40,
+29,
+38,
+27,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "38-33 29x27 31x22 23x32 34-29 24x33 35-30 25x34 40x16",
+"win": "white",
+"exp": "Ommo DOORNBOS – J. LAMMERTS   Un joli coup Napoléon. Solution : 38-33   31x22   34-29   35-30   40x16"
+},
+"deb_combi_profondes_l6_combi4": {
+"id": "deb_combi_profondes_l6_combi4",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+16,
+27,
+28,
+32,
+34,
+37,
+38,
+39,
+40,
+45,
+48
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+7,
+8,
+15,
+18,
+19,
+20,
+21,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "19x8",
+"f": 19,
+"t": 8,
+"c": [
+13
+],
+"path": [
+19,
+8
+],
+"p": false
+},
+{
+"n": "2x35",
+"f": 2,
+"t": 35,
+"c": [
+18,
+37,
+38,
+39,
+8,
+40,
+27
+],
+"path": [
+2,
+13,
+22,
+31,
+42,
+33,
+44,
+35
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "19-23 28x19 18-22 27x18 3-9 16x27 8-13 19x8 2x35",
+"win": "black",
+"exp": "Beaucoup de « trous » dans la position des Blancs. Une rafle aboutissant en 35 est envisageable, mais à partir de quelle"
+},
+"deb_combi_profondes_l6_combi5": {
+"id": "deb_combi_profondes_l6_combi5",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+25,
+28,
+31,
+32,
+33,
+34,
+36,
+38,
+39,
+40,
+41,
+42,
+43,
+45,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+21,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "28x26",
+"f": 28,
+"t": 26,
+"c": [
+21,
+22
+],
+"path": [
+28,
+17,
+26
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x23",
+"f": 25,
+"t": 23,
+"c": [
+19,
+20
+],
+"path": [
+25,
+14,
+23
+],
+"p": false
+},
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "34x25",
+"f": 34,
+"t": 25,
+"c": [
+30
+],
+"path": [
+34,
+25
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x46",
+"f": 10,
+"t": 46,
+"c": [
+32,
+41,
+14,
+23
+],
+"path": [
+10,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "18-22 28x26 14-20 25x23 24-30 34x25 15-20 25x14 10x46",
+"win": "black",
+"exp": "Jan KOERSELMAN – Maurice BERGBOER   Un coup de dame 10x46. Solution : Phase de déblaiement :   28x26 Phase de positionne"
+},
+"deb_combi_profondes_l6_combi6": {
+"id": "deb_combi_profondes_l6_combi6",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+24,
+27,
+28,
+33,
+34,
+37,
+38,
+39,
+49
+],
+"wk": [],
+"bm": [
+3,
+9,
+12,
+13,
+15,
+16,
+18,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "33x4",
+"f": 33,
+"t": 4,
+"c": [
+9,
+18,
+28
+],
+"path": [
+33,
+22,
+13,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-19 13x24 27-22 18x27 28-22 27x18 37-31 26x37 38-32 37x28 33x4",
+"win": "white",
+"exp": "Un coup de dame sur la case 4 sur le thème du coup de l’express. Solution : 24-19   27-22   28-22   37-31   38-32   33x4"
+},
+"deb_combi_profondes_l6_combi7": {
+"id": "deb_combi_profondes_l6_combi7",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+22,
+27,
+30,
+32,
+33,
+34,
+35,
+36,
+38,
+39,
+42
+],
+"wk": [],
+"bm": [
+8,
+11,
+13,
+14,
+15,
+16,
+19,
+21,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "21x43",
+"f": 21,
+"t": 43,
+"c": [
+27,
+38
+],
+"path": [
+21,
+32,
+43
+],
+"p": false
+},
+{
+"n": "39x48",
+"f": 39,
+"t": 48,
+"c": [
+43
+],
+"path": [
+39,
+48
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "22-18",
+"f": 22,
+"t": 18,
+"c": [],
+"path": [
+22,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "48x6",
+"f": 48,
+"t": 6,
+"c": [
+11,
+33,
+43,
+22
+],
+"path": [
+48,
+39,
+28,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "32-28 21x43 39x48 23x32 33-29 24x33 22-18 13x22 42-38 32x43 48x6",
+"win": "white",
+"exp": "Une combinaison un peu compliquée car la rafle finale n’est pas évidente. De plus le point d’appui pour le départ de la"
+},
+"deb_combi_profondes_l6_combi8": {
+"id": "deb_combi_profondes_l6_combi8",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D9",
+"start": {
+"wm": [
+24,
+27,
+28,
+29,
+30,
+32,
+34,
+36,
+38,
+39,
+40,
+42,
+45,
+46,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+7,
+8,
+9,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20,
+23,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "29x27",
+"f": 29,
+"t": 27,
+"c": [
+22,
+23
+],
+"path": [
+29,
+18,
+27
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "19x37",
+"f": 19,
+"t": 37,
+"c": [
+32,
+23
+],
+"path": [
+19,
+28,
+37
+],
+"p": false
+},
+{
+"n": "42x31",
+"f": 42,
+"t": 31,
+"c": [
+37
+],
+"path": [
+42,
+31
+],
+"p": false
+},
+{
+"n": "25x12",
+"f": 25,
+"t": 12,
+"c": [
+17,
+38,
+39,
+27,
+30
+],
+"path": [
+25,
+34,
+43,
+32,
+21,
+12
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "16-21 27x16 17-22 28x17 18-22 29x27 20x29 34x23 19x37 42x31 25x12",
+"win": "black",
+"exp": "Avec la case vide en 43, il faut chercher un coup de chevron avec une rafle finale 25x… Solution :   27x16   28x17   29x"
+},
+"deb_combi_profondes_l6_combi9": {
+"id": "deb_combi_profondes_l6_combi9",
+"ch": 6,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D10",
+"start": {
+"wm": [
+24,
+26,
+27,
+31,
+33,
+34,
+36,
+37,
+38,
+39,
+40,
+43,
+45
+],
+"wk": [],
+"bm": [
+6,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "31x22",
+"f": 31,
+"t": 22,
+"c": [
+27
+],
+"path": [
+31,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+28
+],
+"path": [
+33,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+11,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-19 14x23 27-21 16x27 31x22 17x28 33x22 18x27 34-30 25x34 40x16",
+"win": "white",
+"exp": "Fred IVENS – M. van de WIEL   Avec un pion de bande à 25, le réflexe est de chercher un coup Philippe avec une rafle 40x"
+},
+"deb_combi_profondes_l7_combi0": {
+"id": "deb_combi_profondes_l7_combi0",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+23,
+24,
+29,
+33,
+36,
+39,
+40,
+41,
+46,
+47,
+48
+],
+"wk": [],
+"bm": [
+3,
+4,
+12,
+13,
+14,
+16,
+17,
+18,
+21,
+26,
+27
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "23x14",
+"f": 23,
+"t": 14,
+"c": [
+19
+],
+"path": [
+23,
+14
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "14x3",
+"f": 14,
+"t": 3,
+"c": [
+9
+],
+"path": [
+14,
+3
+],
+"p": true
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "3x28",
+"f": 3,
+"t": 28,
+"c": [
+12,
+22
+],
+"path": [
+3,
+17,
+28
+],
+"p": false
+},
+{
+"n": "27-31",
+"f": 27,
+"t": 31,
+"c": [],
+"path": [
+27,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "21x45",
+"f": 21,
+"t": 45,
+"c": [
+40,
+27,
+28,
+29
+],
+"path": [
+21,
+32,
+23,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "14-19 23x14 3-9 14x3 17-22 3x28 27-31 36x27 21x45",
+"win": "black",
+"exp": "Valerij SWIZINSKI – W. DASJKEWITSJ   Une fois que la rafle finale 21x45 est imaginée, le reste prend forme. Solution : P"
+},
+"deb_combi_profondes_l7_combi1": {
+"id": "deb_combi_profondes_l7_combi1",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+28,
+31,
+32,
+33,
+34,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+8,
+12,
+13,
+14,
+15,
+16,
+19,
+21,
+23,
+24,
+25,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x44",
+"f": 24,
+"t": 44,
+"c": [
+40,
+30
+],
+"path": [
+24,
+35,
+44
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "44x22",
+"f": 44,
+"t": 22,
+"c": [
+28,
+39
+],
+"path": [
+44,
+33,
+22
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "21x32",
+"f": 21,
+"t": 32,
+"c": [
+27
+],
+"path": [
+21,
+32
+],
+"p": false
+},
+{
+"n": "38x7",
+"f": 38,
+"t": 7,
+"c": [
+32,
+22,
+23,
+24,
+12,
+13,
+14
+],
+"path": [
+38,
+27,
+18,
+9,
+20,
+29,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "35-30 24x44 33x24 44x22 24-20 15x24 32-27 21x32 38x7",
+"win": "white",
+"exp": "I. STEPANOV – S. KORCHOV   Une combinaison que l’on trouve en examinant les points de contact et en suivant mentalement"
+},
+"deb_combi_profondes_l7_combi2": {
+"id": "deb_combi_profondes_l7_combi2",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+25,
+27,
+28,
+33,
+34,
+35,
+37,
+38,
+39,
+47
+],
+"wk": [],
+"bm": [
+6,
+9,
+12,
+14,
+15,
+16,
+18,
+19,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "33x4",
+"f": 33,
+"t": 4,
+"c": [
+9,
+18,
+28
+],
+"path": [
+33,
+22,
+13,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-22 18x27 28-22 27x18 37-31 26x37 38-32 37x28 33x4",
+"win": "white",
+"exp": "Un coup de l’express : 27-22   28-22   37-31   38-32   33x4"
+},
+"deb_combi_profondes_l7_combi3": {
+"id": "deb_combi_profondes_l7_combi3",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+26,
+29,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+47
+],
+"wk": [],
+"bm": [
+13,
+14,
+15,
+17,
+18,
+22,
+25,
+27,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "28x48",
+"f": 28,
+"t": 48,
+"c": [
+33,
+43
+],
+"path": [
+28,
+39,
+48
+],
+"p": true
+},
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "42x24",
+"f": 42,
+"t": 24,
+"c": [
+29,
+38
+],
+"path": [
+42,
+33,
+24
+],
+"p": false
+},
+{
+"n": "48x31",
+"f": 48,
+"t": 31,
+"c": [
+37
+],
+"path": [
+48,
+31
+],
+"p": false
+},
+{
+"n": "36x20",
+"f": 36,
+"t": 20,
+"c": [
+14,
+13,
+22,
+31
+],
+"path": [
+36,
+27,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "39-33 28x48 29-23 18x29 38-32 27x38 42x24 48x31 36x20",
+"win": "white",
+"exp": "Une rafle 36x20 s’appuyant sur le mécanisme de l’envoi à dame : 39-33   29-23   38-32   42x24   36x20"
+},
+"deb_combi_profondes_l7_combi4": {
+"id": "deb_combi_profondes_l7_combi4",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+25,
+26,
+28,
+31,
+32,
+35,
+36,
+38,
+39,
+45,
+48,
+49
+],
+"wk": [],
+"bm": [
+3,
+6,
+8,
+12,
+14,
+15,
+16,
+17,
+19,
+21,
+24,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "21x34",
+"f": 21,
+"t": 34,
+"c": [
+27,
+38,
+39
+],
+"path": [
+21,
+32,
+43,
+34
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "31x2",
+"f": 31,
+"t": 2,
+"c": [
+19,
+8,
+27,
+28,
+29
+],
+"path": [
+31,
+22,
+33,
+24,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "32-27 21x34 28-22 17x28 35-30 24x35 26-21 16x27 31x2",
+"win": "white",
+"exp": "FABRE – DUMONT Un coup Napoléon : 32-27   28-22   35-30   26-21   31x2"
+},
+"deb_combi_profondes_l7_combi5": {
+"id": "deb_combi_profondes_l7_combi5",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+29,
+32,
+33,
+34,
+36,
+38,
+39,
+41,
+42,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+7,
+11,
+12,
+13,
+15,
+18,
+19,
+22,
+23,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "39x17",
+"f": 39,
+"t": 17,
+"c": [
+33,
+12,
+13,
+23
+],
+"path": [
+39,
+28,
+19,
+8,
+17
+],
+"p": false
+},
+{
+"n": "30x50",
+"f": 30,
+"t": 50,
+"c": [
+34,
+44
+],
+"path": [
+30,
+39,
+50
+],
+"p": true
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "50x28",
+"f": 50,
+"t": 28,
+"c": [
+33
+],
+"path": [
+50,
+28
+],
+"p": false
+},
+{
+"n": "32x1",
+"f": 32,
+"t": 1,
+"c": [
+18,
+28,
+7
+],
+"path": [
+32,
+23,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "29-24 19x30 33-28 22x33 39x17 30x50 41-37 11x22 38-33 50x28 32x1",
+"win": "white",
+"exp": "Barbara GRAAS - Annemieke van de KRAATS STUNNENBERG   Un coup de dame en 1. Difficile de trouver ce coup lorsque l’on ne"
+},
+"deb_combi_profondes_l7_combi6": {
+"id": "deb_combi_profondes_l7_combi6",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+25,
+27,
+31,
+32,
+34,
+35,
+36,
+38,
+40,
+41,
+42,
+43,
+44,
+45,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+12,
+13,
+14,
+15,
+16,
+18,
+21,
+23,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+},
+{
+"n": "21x32",
+"f": 21,
+"t": 32,
+"c": [
+27
+],
+"path": [
+21,
+32
+],
+"p": false
+},
+{
+"n": "38x27",
+"f": 38,
+"t": 27,
+"c": [
+32
+],
+"path": [
+38,
+27
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "23x21",
+"f": 23,
+"t": 21,
+"c": [
+17,
+18
+],
+"path": [
+23,
+12,
+21
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "23x12",
+"f": 23,
+"t": 12,
+"c": [
+18
+],
+"path": [
+23,
+12
+],
+"p": false
+},
+{
+"n": "8x46",
+"f": 8,
+"t": 46,
+"c": [
+41,
+12,
+21,
+31
+],
+"path": [
+8,
+17,
+26,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "23-28 32x23 21x32 38x27 12-17 23x21 6-11 34x23 13-18 23x12 8x46",
+"win": "black",
+"exp": "Mijndert VERKAIK - Michael PALMER   Un coup de dame en 46 partant de la case 8. Solution : Phase 1 de déblaiement :   32"
+},
+"deb_combi_profondes_l7_combi7": {
+"id": "deb_combi_profondes_l7_combi7",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+24,
+26,
+29,
+31,
+34,
+36,
+37,
+38,
+39,
+40,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+15,
+16,
+17,
+19,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "43x5",
+"f": 43,
+"t": 5,
+"c": [
+10,
+19,
+28,
+38
+],
+"path": [
+43,
+32,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "31-27 19x30 29-24 30x19 27-22 17x28 26-21 16x27 38-32 27x38 43x5",
+"win": "white",
+"exp": "Maks SHAVEL - Rostislav LESTCHINSKI   Une attaque fautive du pion taquin 24 qui livre un coup de dame en 5. De manière t"
+},
+"deb_combi_profondes_l7_combi8": {
+"id": "deb_combi_profondes_l7_combi8",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D9",
+"start": {
+"wm": [
+24,
+29,
+33,
+37,
+38,
+39,
+40,
+42,
+47
+],
+"wk": [],
+"bm": [
+7,
+9,
+13,
+15,
+17,
+18,
+21,
+25,
+36
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "38x29",
+"f": 38,
+"t": 29,
+"c": [
+33
+],
+"path": [
+38,
+29
+],
+"p": false
+},
+{
+"n": "34x1",
+"f": 34,
+"t": 1,
+"c": [
+18,
+29,
+7
+],
+"path": [
+34,
+23,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "37-31 36x27 38-32 27x38 24-19 13x24 29x20 15x24 39-34 38x29 34x1",
+"win": "white",
+"exp": "Le mécanisme de la trappe associé à un temps de repos permet de damer sur la case 1. Solution : 37-31   38-32   24-19"
+},
+"deb_combi_profondes_l7_combi9": {
+"id": "deb_combi_profondes_l7_combi9",
+"ch": 7,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D10",
+"start": {
+"wm": [
+22,
+27,
+28,
+29,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+6,
+8,
+9,
+13,
+14,
+15,
+16,
+18,
+19,
+20,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+23
+],
+"path": [
+29,
+18
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "16x7",
+"f": 16,
+"t": 7,
+"c": [
+11
+],
+"path": [
+16,
+7
+],
+"p": false
+},
+{
+"n": "1x41",
+"f": 1,
+"t": 41,
+"c": [
+18,
+28,
+37,
+7
+],
+"path": [
+1,
+12,
+23,
+32,
+41
+],
+"p": false
+},
+{
+"n": "36x47",
+"f": 36,
+"t": 47,
+"c": [
+41
+],
+"path": [
+36,
+47
+],
+"p": false
+},
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "19x17",
+"f": 19,
+"t": 17,
+"c": [
+22,
+23
+],
+"path": [
+19,
+28,
+17
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "18-23 29x18 16-21 27x16 6-11 16x7 1x41 36x47 24-29 34x23 19x17",
+"win": "black",
+"exp": "P. CORNELISSEN – Ferdi OKROGELNIK   Les noirs gagnent un pion par   29x18   27x16   16x7   36x47   34x23    114"
+},
+"deb_combi_profondes_l8_combi0": {
+"id": "deb_combi_profondes_l8_combi0",
+"ch": 8,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+27,
+29,
+31,
+32,
+33,
+34,
+35,
+41,
+43,
+44,
+45
+],
+"wk": [],
+"bm": [
+3,
+7,
+12,
+14,
+15,
+16,
+17,
+18,
+19,
+20,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "12x23",
+"f": 12,
+"t": 23,
+"c": [
+18
+],
+"path": [
+12,
+23
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+23
+],
+"path": [
+29,
+18
+],
+"p": false
+},
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "33x13",
+"f": 33,
+"t": 13,
+"c": [
+19,
+29
+],
+"path": [
+33,
+24,
+13
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "20x47",
+"f": 20,
+"t": 47,
+"c": [
+32,
+34,
+24,
+41,
+43,
+44,
+31
+],
+"path": [
+20,
+29,
+40,
+49,
+38,
+27,
+36,
+47
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "18-22 27x18 12x23 29x18 24-29 33x13 14-19 13x24 20x47",
+"win": "black",
+"exp": "Bert vav OOSTEROM – Carlo van den HURK   Un coup de rappel :   27x18   29x18   33x13   13x24"
+},
+"deb_combi_profondes_l8_combi1": {
+"id": "deb_combi_profondes_l8_combi1",
+"ch": 8,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+25,
+27,
+32,
+33,
+35,
+37,
+38,
+39,
+40,
+42,
+43,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+3,
+4,
+6,
+12,
+13,
+14,
+16,
+18,
+19,
+21,
+23,
+24,
+26,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x44",
+"f": 24,
+"t": 44,
+"c": [
+40,
+30
+],
+"path": [
+24,
+35,
+44
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "44x33",
+"f": 44,
+"t": 33,
+"c": [
+39
+],
+"path": [
+44,
+33
+],
+"p": false
+},
+{
+"n": "38x20",
+"f": 38,
+"t": 20,
+"c": [
+33,
+13,
+14,
+23
+],
+"path": [
+38,
+29,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-22 18x27 35-30 24x44 33x24 19x30 25x34 44x33 38x20",
+"win": "white",
+"exp": "Un coup Philippe. Il suffit d’effectuer les prises dans le bon ordre. Solution : 27-22   35-30   33x24   25x34   38x20"
+},
+"deb_combi_profondes_l8_combi2": {
+"id": "deb_combi_profondes_l8_combi2",
+"ch": 8,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+23,
+24,
+25,
+29,
+33,
+37,
+38,
+40,
+42,
+47
+],
+"wk": [],
+"bm": [
+3,
+9,
+12,
+13,
+14,
+15,
+21,
+22,
+26,
+36
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "23x14",
+"f": 23,
+"t": 14,
+"c": [
+19
+],
+"path": [
+23,
+14
+],
+"p": false
+},
+{
+"n": "9x20",
+"f": 9,
+"t": 20,
+"c": [
+14
+],
+"path": [
+9,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "14x3",
+"f": 14,
+"t": 3,
+"c": [
+9
+],
+"path": [
+14,
+3
+],
+"p": true
+},
+{
+"n": "36-41",
+"f": 36,
+"t": 41,
+"c": [],
+"path": [
+36,
+41
+],
+"p": false
+},
+{
+"n": "3x28",
+"f": 3,
+"t": 28,
+"c": [
+12,
+22
+],
+"path": [
+3,
+17,
+28
+],
+"p": false
+},
+{
+"n": "41x45",
+"f": 41,
+"t": 45,
+"c": [
+40,
+29,
+28,
+37
+],
+"path": [
+41,
+32,
+23,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "14-19 23x14 9x20 25x14 3-9 14x3 36-41 3x28 41x45",
+"win": "black",
+"exp": "Vadim VIRNY – Fred IVENS   De nombreux trous chez les blancs. Un envoi à dame possible avec collage envisageable. Tout e"
+},
+"deb_combi_profondes_l8_combi3": {
+"id": "deb_combi_profondes_l8_combi3",
+"ch": 8,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+25,
+26,
+27,
+28,
+30,
+31,
+32,
+33,
+35,
+38,
+39,
+42,
+45,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+6,
+8,
+9,
+10,
+11,
+14,
+16,
+17,
+18,
+19,
+21,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+18,
+19,
+29
+],
+"path": [
+33,
+24,
+13,
+22
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "28x8",
+"f": 28,
+"t": 8,
+"c": [
+13,
+23
+],
+"path": [
+28,
+19,
+8
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+32,
+22
+],
+"path": [
+17,
+28,
+37
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "3x34",
+"f": 3,
+"t": 34,
+"c": [
+17,
+38,
+39,
+8,
+27
+],
+"path": [
+3,
+12,
+21,
+32,
+43,
+34
+],
+"p": false
+},
+{
+"n": "30x39",
+"f": 30,
+"t": 39,
+"c": [
+34
+],
+"path": [
+30,
+39
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-29 33x22 8-13 28x8 17x37 26x17 3x34 30x39 37x26",
+"win": "black",
+"exp": "Raphaël ZDOROVIAK – Aleksej DOMCHEV   Une rafle finale 3x34 n’est pas courante. Une fois qu’on a l’idée, tout s’enchaîne"
+},
+"deb_combi_profondes_l8_combi4": {
+"id": "deb_combi_profondes_l8_combi4",
+"ch": 8,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+24,
+28,
+29,
+37,
+38,
+39,
+42,
+43,
+44,
+47,
+49
+],
+"wk": [],
+"bm": [
+3,
+6,
+8,
+12,
+13,
+14,
+15,
+16,
+18,
+25,
+36
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "36x47",
+"f": 36,
+"t": 47,
+"c": [
+41
+],
+"path": [
+36,
+47
+],
+"p": true
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "47x38",
+"f": 47,
+"t": 38,
+"c": [
+42
+],
+"path": [
+47,
+38
+],
+"p": false
+},
+{
+"n": "43x21",
+"f": 43,
+"t": 21,
+"c": [
+27,
+38
+],
+"path": [
+43,
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "29x7",
+"f": 29,
+"t": 7,
+"c": [
+24,
+12,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18,
+7
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "28-22 18x27 47-41 36x47 38-33 47x38 43x21 16x27 24-20 15x24 29x7",
+"win": "white",
+"exp": "Un thème intéressant qui permet d’utiliser l’envoi à dame comme moyen intermédiaire. Solution : 28-22   47-41   38-33"
+},
+"deb_combi_profondes_l8_combi5": {
+"id": "deb_combi_profondes_l8_combi5",
+"ch": 8,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+24,
+28,
+29,
+32,
+36,
+37,
+39,
+43,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+8,
+13,
+15,
+19,
+20,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "30x39",
+"f": 30,
+"t": 39,
+"c": [
+34
+],
+"path": [
+30,
+39
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+23
+],
+"path": [
+29,
+18
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "39x28",
+"f": 39,
+"t": 28,
+"c": [
+33
+],
+"path": [
+39,
+28
+],
+"p": false
+},
+{
+"n": "32x3",
+"f": 32,
+"t": 3,
+"c": [
+8,
+18,
+28
+],
+"path": [
+32,
+23,
+12,
+3
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "43-38 19x30 39-34 30x39 29-24 20x29 28-23 29x18 38-33 39x28 32x3",
+"win": "white",
+"exp": "Un coup de l’express : 43-38   39-34   29-24   28-23   38-33   32x3"
+},
+"deb_combi_profondes_l8_combi6": {
+"id": "deb_combi_profondes_l8_combi6",
+"ch": 8,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+25,
+27,
+32,
+33,
+35,
+37,
+38,
+39,
+40,
+42
+],
+"wk": [],
+"bm": [
+11,
+12,
+13,
+14,
+18,
+19,
+23,
+24,
+26,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x44",
+"f": 24,
+"t": 44,
+"c": [
+40,
+30
+],
+"path": [
+24,
+35,
+44
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "44x33",
+"f": 44,
+"t": 33,
+"c": [
+39
+],
+"path": [
+44,
+33
+],
+"p": false
+},
+{
+"n": "38x20",
+"f": 38,
+"t": 20,
+"c": [
+33,
+13,
+14,
+23
+],
+"path": [
+38,
+29,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-22 18x27 32x21 26x17 35-30 24x44 33x24 19x30 25x34 44x33 38x20",
+"win": "white",
+"exp": "Un coup Philippe : 27-22   32x21   35-30   33x24   25x34   38x20"
+},
+"deb_combi_profondes_l8_combi7": {
+"id": "deb_combi_profondes_l8_combi7",
+"ch": 8,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+29,
+31,
+33,
+35,
+36,
+38,
+39,
+42,
+43,
+44,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [
+41
+],
+"bm": [
+1,
+2,
+3,
+4,
+6,
+7,
+8,
+9,
+10,
+12,
+13,
+16,
+17,
+18,
+19,
+20,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "41x14x5",
+"f": 41,
+"t": 5,
+"c": [
+10,
+19
+],
+"path": [
+41,
+14,
+5
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "41x14x5",
+"win": "white",
+"exp": "Alexey KHALIN – Alexey TOMASHEVSKIY  . Un coup de dame en 5 avec rafle 41x5. Solution :  118"
+},
+"deb_combi_profondes_l9_combi0": {
+"id": "deb_combi_profondes_l9_combi0",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+27,
+32,
+34,
+35,
+37,
+38,
+43,
+47,
+50
+],
+"wk": [],
+"bm": [
+3,
+10,
+11,
+12,
+13,
+17,
+24,
+25,
+36
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "17x26",
+"f": 17,
+"t": 26,
+"c": [
+21
+],
+"path": [
+17,
+26
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "36x47",
+"f": 36,
+"t": 47,
+"c": [
+41
+],
+"path": [
+36,
+47
+],
+"p": true
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "47x44",
+"f": 47,
+"t": 44,
+"c": [
+38,
+39
+],
+"path": [
+47,
+33,
+44
+],
+"p": false
+},
+{
+"n": "50x6",
+"f": 50,
+"t": 6,
+"c": [
+34,
+12,
+24,
+11,
+44,
+13
+],
+"path": [
+50,
+39,
+30,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "34-30 25x34 27-21 17x26 47-41 36x47 43-39 47x44 50x6",
+"win": "white",
+"exp": "Une combinaison basée sur l’envoi à dame et la prise majoritaire : 34-30   27-21   47-41   43-39   50x6"
+},
+"deb_combi_profondes_l9_combi1": {
+"id": "deb_combi_profondes_l9_combi1",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+27,
+30,
+31,
+32,
+33,
+34,
+38,
+43,
+48
+],
+"wk": [],
+"bm": [
+6,
+8,
+10,
+13,
+16,
+18,
+20,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "48-42",
+"f": 48,
+"t": 42,
+"c": [],
+"path": [
+48,
+42
+],
+"p": false
+},
+{
+"n": "37x39",
+"f": 37,
+"t": 39,
+"c": [
+42,
+43
+],
+"path": [
+37,
+48,
+39
+],
+"p": false
+},
+{
+"n": "34x43",
+"f": 34,
+"t": 43,
+"c": [
+39
+],
+"path": [
+34,
+43
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "33x4",
+"f": 33,
+"t": 4,
+"c": [
+10,
+20,
+29
+],
+"path": [
+33,
+24,
+15,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "32-28 26x37 48-42 37x39 34x43 25x34 28-23 18x29 33x4",
+"win": "white",
+"exp": "Un coup de dame à 4 exploitant le temps de repos : 32-28   48-42   34x43   28-23   33x4"
+},
+"deb_combi_profondes_l9_combi2": {
+"id": "deb_combi_profondes_l9_combi2",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+25,
+29,
+33,
+37,
+39,
+40,
+42,
+47,
+48
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+15,
+19,
+22,
+26,
+27,
+31
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "38x49",
+"f": 38,
+"t": 49,
+"c": [
+43
+],
+"path": [
+38,
+49
+],
+"p": true
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "49x35",
+"f": 49,
+"t": 35,
+"c": [
+40
+],
+"path": [
+49,
+35
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "29x36",
+"f": 29,
+"t": 36,
+"c": [
+22,
+24,
+13,
+14,
+31
+],
+"path": [
+29,
+20,
+9,
+18,
+27,
+36
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "37-32 27x38 48-43 38x49 39-34 49x35 34-30 35x24 29x36",
+"win": "white",
+"exp": "Une combinaison basée sur l’envoi à dame : 37-32   48-43   39-34   34-30   29x36"
+},
+"deb_combi_profondes_l9_combi3": {
+"id": "deb_combi_profondes_l9_combi3",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+22,
+27,
+30,
+31,
+32,
+33,
+35,
+36,
+37,
+38,
+39,
+42,
+44
+],
+"wk": [],
+"bm": [
+1,
+3,
+5,
+8,
+9,
+12,
+13,
+16,
+18,
+19,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "32x14",
+"f": 32,
+"t": 14,
+"c": [
+19,
+28
+],
+"path": [
+32,
+23,
+14
+],
+"p": false
+},
+{
+"n": "9x20",
+"f": 9,
+"t": 20,
+"c": [
+14
+],
+"path": [
+9,
+20
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "22x2",
+"f": 22,
+"t": 2,
+"c": [
+8,
+18
+],
+"path": [
+22,
+13,
+2
+],
+"p": true
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "2x30",
+"f": 2,
+"t": 30,
+"c": [
+24
+],
+"path": [
+2,
+30
+],
+"p": false
+},
+{
+"n": "25x41",
+"f": 25,
+"t": 41,
+"c": [
+38,
+37,
+30,
+39
+],
+"path": [
+25,
+34,
+43,
+32,
+41
+],
+"p": false
+},
+{
+"n": "36x47",
+"f": 36,
+"t": 47,
+"c": [
+41
+],
+"path": [
+36,
+47
+],
+"p": false
+},
+{
+"n": "26x48",
+"f": 26,
+"t": 48,
+"c": [
+42,
+31
+],
+"path": [
+26,
+37,
+48
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "23-28 32x14 9x20 30x19 13x24 22x2 20-25 2x30 25x41 36x47 26x48",
+"win": "black",
+"exp": "A. STRUNKIS – Andris ANDREIKO   Une combinaison avec double rafle. Pas tellement d’autre solution que de suivre mentalem"
+},
+"deb_combi_profondes_l9_combi4": {
+"id": "deb_combi_profondes_l9_combi4",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+19,
+24,
+27,
+28,
+29,
+32,
+33,
+34,
+38,
+39,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+6,
+8,
+9,
+10,
+12,
+13,
+15,
+16,
+17,
+18,
+21,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "25x23",
+"f": 25,
+"t": 23,
+"c": [
+19,
+20
+],
+"path": [
+25,
+14,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+32,
+22
+],
+"path": [
+17,
+28,
+37
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "33x15",
+"f": 33,
+"t": 15,
+"c": [
+9,
+18,
+10,
+28
+],
+"path": [
+33,
+22,
+13,
+4,
+15
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-20 25x23 28x19 13x24 29x20 15x24 27-22 17x37 38-32 37x28 33x15",
+"win": "white",
+"exp": "Wim van der KOOIJ – H. HESSEL   Un coup de l’express : 24-20   28x19   29x20   27-22   38-32   33x15"
+},
+"deb_combi_profondes_l9_combi5": {
+"id": "deb_combi_profondes_l9_combi5",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+21,
+25,
+28,
+29,
+30,
+32,
+35,
+38,
+43,
+45,
+47
+],
+"wk": [],
+"bm": [
+7,
+9,
+12,
+13,
+14,
+15,
+17,
+18,
+19,
+20,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x37",
+"f": 17,
+"t": 37,
+"c": [
+32,
+22
+],
+"path": [
+17,
+28,
+37
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x2",
+"f": 35,
+"t": 2,
+"c": [
+17,
+7,
+28,
+29,
+30
+],
+"path": [
+35,
+24,
+33,
+22,
+11,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "29-23 18x29 28-22 17x37 45-40 26x17 38-32 37x28 30-24 19x30 35x2",
+"win": "white",
+"exp": "Un coup de dame en 2 partant de la case 35. Solution : Phase de positionnement : 29-23   28-22   45-40   38-32   Phase d"
+},
+"deb_combi_profondes_l9_combi6": {
+"id": "deb_combi_profondes_l9_combi6",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+22,
+25,
+26,
+31,
+32,
+35,
+36,
+39,
+43,
+44,
+45
+],
+"wk": [],
+"bm": [
+3,
+6,
+9,
+10,
+11,
+12,
+13,
+14,
+16,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x5",
+"f": 25,
+"t": 5,
+"c": [
+10,
+20
+],
+"path": [
+25,
+14,
+5
+],
+"p": true
+},
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "5x28",
+"f": 5,
+"t": 28,
+"c": [
+23
+],
+"path": [
+5,
+28
+],
+"p": false
+},
+{
+"n": "18x40",
+"f": 18,
+"t": 40,
+"c": [
+32,
+43,
+44,
+22
+],
+"path": [
+18,
+27,
+38,
+49,
+40
+],
+"p": false
+},
+{
+"n": "45x34",
+"f": 45,
+"t": 34,
+"c": [
+40
+],
+"path": [
+45,
+34
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "11x44",
+"f": 11,
+"t": 44,
+"c": [
+17,
+28,
+39
+],
+"path": [
+11,
+22,
+33,
+44
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "14-20 25x5 24-30 35x24 12-18 5x28 18x40 45x34 16-21 26x17 11x44",
+"win": "black",
+"exp": "Edmondo FANELLI – Andris ANDREIKO   Un coup Philippe inattendu conçu à partir de 2 rafles. Solution :  25x5   35x24   5x"
+},
+"deb_combi_profondes_l9_combi7": {
+"id": "deb_combi_profondes_l9_combi7",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+24,
+25,
+27,
+35,
+38,
+41,
+43,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+3,
+11,
+12,
+13,
+14,
+15,
+16,
+18,
+22,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "31x33",
+"f": 31,
+"t": 33,
+"c": [
+37,
+38
+],
+"path": [
+31,
+42,
+33
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "34x43",
+"f": 34,
+"t": 43,
+"c": [
+39
+],
+"path": [
+34,
+43
+],
+"p": false
+},
+{
+"n": "48x6",
+"f": 48,
+"t": 6,
+"c": [
+33,
+23,
+11,
+43,
+12,
+13
+],
+"path": [
+48,
+39,
+28,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "49-44 22x31 41-37 31x33 25-20 14x25 35-30 25x34 43-39 34x43 48x6",
+"win": "white",
+"exp": "Jan van KRIEKEN – Hans VERMIN   Beaucoup de trous dans le camp des Noirs. Une attaque qui livre un temps de repos. Il fa"
+},
+"deb_combi_profondes_l9_combi8": {
+"id": "deb_combi_profondes_l9_combi8",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D9",
+"start": {
+"wm": [
+24,
+27,
+29,
+31,
+33,
+34,
+36,
+42,
+43,
+48
+],
+"wk": [],
+"bm": [
+8,
+9,
+12,
+13,
+15,
+16,
+18,
+22,
+23,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "13x33",
+"f": 13,
+"t": 33,
+"c": [
+19,
+29
+],
+"path": [
+13,
+24,
+33
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "33x42",
+"f": 33,
+"t": 42,
+"c": [
+38
+],
+"path": [
+33,
+42
+],
+"p": false
+},
+{
+"n": "48x17",
+"f": 48,
+"t": 17,
+"c": [
+32,
+42,
+22
+],
+"path": [
+48,
+37,
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "31x2",
+"f": 31,
+"t": 2,
+"c": [
+8,
+18,
+27
+],
+"path": [
+31,
+22,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-21 16x27 33-28 23x32 24-19 13x33 42-38 33x42 48x17 12x21 31x2",
+"win": "white",
+"exp": "Un coup parallèle : 27-21   33-28   24-19   42-38   48x17   31x2"
+},
+"deb_combi_profondes_l9_combi9": {
+"id": "deb_combi_profondes_l9_combi9",
+"ch": 9,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D10",
+"start": {
+"wm": [
+23,
+26,
+28,
+30,
+33,
+36,
+37,
+38,
+40,
+41,
+42,
+43,
+44,
+45,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+17,
+19,
+20,
+22,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "27x36",
+"f": 27,
+"t": 36,
+"c": [
+31
+],
+"path": [
+27,
+36
+],
+"p": false
+},
+{
+"n": "23-18",
+"f": 23,
+"t": 18,
+"c": [],
+"path": [
+23,
+18
+],
+"p": false
+},
+{
+"n": "12x32",
+"f": 12,
+"t": 32,
+"c": [
+18,
+28
+],
+"path": [
+12,
+23,
+32
+],
+"p": false
+},
+{
+"n": "38x18",
+"f": 38,
+"t": 18,
+"c": [
+32,
+22
+],
+"path": [
+38,
+27,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "20x38",
+"f": 20,
+"t": 38,
+"c": [
+24,
+33
+],
+"path": [
+20,
+29,
+38
+],
+"p": false
+},
+{
+"n": "43x1",
+"f": 43,
+"t": 1,
+"c": [
+17,
+27,
+38,
+7
+],
+"path": [
+43,
+32,
+21,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "36-31 27x36 23-18 12x32 38x18 13x22 37-31 36x27 30-24 20x38 43x1",
+"win": "white",
+"exp": "Un coup de dame à 1. Phase de déblaiement : 36-31   23-18   38x18   Phase de positionnement : 37-31   Phase d’achemineme"
+},
+"deb_combi_profondes_l10_combi0": {
+"id": "deb_combi_profondes_l10_combi0",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+27,
+28,
+30,
+32,
+35,
+38,
+39,
+42,
+43,
+46,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+3,
+7,
+8,
+9,
+12,
+14,
+17,
+18,
+19,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "16x7",
+"f": 16,
+"t": 7,
+"c": [
+11
+],
+"path": [
+16,
+7
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "7x20",
+"f": 7,
+"t": 20,
+"c": [
+24,
+12,
+23
+],
+"path": [
+7,
+18,
+29,
+20
+],
+"p": false
+},
+{
+"n": "22x44",
+"f": 22,
+"t": 44,
+"c": [
+28,
+39
+],
+"path": [
+22,
+33,
+44
+],
+"p": false
+},
+{
+"n": "49x40",
+"f": 49,
+"t": 40,
+"c": [
+44
+],
+"path": [
+49,
+40
+],
+"p": false
+},
+{
+"n": "14x45",
+"f": 14,
+"t": 45,
+"c": [
+40,
+20,
+30
+],
+"path": [
+14,
+25,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "17-21 27x16 7-11 16x7 18-22 7x20 22x44 49x40 14x45",
+"win": "black",
+"exp": "Paul TEER – Martin DOLFING   Une combinaison difficile à voir car la rafle finale n’est pas en place. Solution :   27x16"
+},
+"deb_combi_profondes_l10_combi1": {
+"id": "deb_combi_profondes_l10_combi1",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+24,
+27,
+28,
+29,
+37,
+38,
+40,
+42,
+43
+],
+"wk": [],
+"bm": [
+4,
+7,
+12,
+13,
+15,
+17,
+18,
+19,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "35x2",
+"f": 35,
+"t": 2,
+"c": [
+17,
+7,
+28,
+29,
+30
+],
+"path": [
+35,
+24,
+33,
+22,
+11,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-21 19x30 29-23 18x29 28-22 17x28 40-35 26x17 35x2",
+"win": "white",
+"exp": "Réfléchir à la rafle pour profiter du temps de repos provoqué par l’attaque du pion taquin. Solution : 27-21   29-23   2"
+},
+"deb_combi_profondes_l10_combi2": {
+"id": "deb_combi_profondes_l10_combi2",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+24,
+25,
+30,
+31,
+33,
+35,
+36,
+37,
+39,
+41,
+43,
+46,
+49
+],
+"wk": [],
+"bm": [
+2,
+4,
+7,
+9,
+11,
+13,
+14,
+15,
+21,
+22,
+26,
+27,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "27x29",
+"f": 27,
+"t": 29,
+"c": [
+32,
+33
+],
+"path": [
+27,
+38,
+29
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "41x32",
+"f": 41,
+"t": 32,
+"c": [
+37
+],
+"path": [
+41,
+32
+],
+"p": false
+},
+{
+"n": "28x37",
+"f": 28,
+"t": 37,
+"c": [
+32
+],
+"path": [
+28,
+37
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "30x6",
+"f": 30,
+"t": 6,
+"c": [
+24,
+11,
+22,
+23
+],
+"path": [
+30,
+19,
+28,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-19 14x23 37-32 27x29 43-38 26x37 41x32 28x37 25-20 15x24 30x6",
+"win": "white",
+"exp": "Evert BRONSTRING – Tengiz BARAMIDZE   Une rafle aboutissant à 6. Un coup Napoléon. Solution : 24-19   37-32   43-38   41"
+},
+"deb_combi_profondes_l10_combi3": {
+"id": "deb_combi_profondes_l10_combi3",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+25,
+26,
+30,
+31,
+35,
+36,
+37,
+38,
+41,
+43,
+49
+],
+"wk": [],
+"bm": [
+6,
+11,
+12,
+13,
+14,
+18,
+19,
+20,
+22,
+23,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "34x32",
+"f": 34,
+"t": 32,
+"c": [
+38,
+39
+],
+"path": [
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "37x8",
+"f": 37,
+"t": 8,
+"c": [
+32,
+12,
+22
+],
+"path": [
+37,
+28,
+17,
+8
+],
+"p": false
+},
+{
+"n": "13x2",
+"f": 13,
+"t": 2,
+"c": [
+8
+],
+"path": [
+13,
+2
+],
+"p": false
+},
+{
+"n": "31x33",
+"f": 31,
+"t": 33,
+"c": [
+19,
+18,
+27,
+29
+],
+"path": [
+31,
+22,
+13,
+24,
+33
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "30-24 20x29 25-20 14x25 35-30 25x34 43-39 34x32 37x8 13x2 31x33",
+"win": "white",
+"exp": "La présence des 2 pions 41 et 37 fait imaginer une double rafle 37x8 puis 31x. Le but est donc d’amener un pion noir en"
+},
+"deb_combi_profondes_l10_combi4": {
+"id": "deb_combi_profondes_l10_combi4",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+24,
+28,
+29,
+31,
+33,
+36,
+37,
+38,
+39,
+40,
+48
+],
+"wk": [],
+"bm": [
+3,
+4,
+8,
+9,
+13,
+15,
+16,
+17,
+18,
+20,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+23
+],
+"path": [
+29,
+18
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "26x28",
+"f": 26,
+"t": 28,
+"c": [
+32,
+31
+],
+"path": [
+26,
+37,
+28
+],
+"p": false
+},
+{
+"n": "33x11",
+"f": 33,
+"t": 11,
+"c": [
+17,
+28
+],
+"path": [
+33,
+22,
+11
+],
+"p": false
+},
+{
+"n": "16x7",
+"f": 16,
+"t": 7,
+"c": [
+11
+],
+"path": [
+16,
+7
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "34x1",
+"f": 34,
+"t": 1,
+"c": [
+18,
+29,
+7
+],
+"path": [
+34,
+23,
+12,
+1
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "29-23 18x29 28-23 29x18 37-32 26x28 33x11 16x7 39-34 20x29 34x1",
+"win": "white",
+"exp": "Iser KOUPERMAN. Une jolie combinaison sur la case 1. Pas d’autre solution que d’examiner tous les points de contact et d"
+},
+"deb_combi_profondes_l10_combi5": {
+"id": "deb_combi_profondes_l10_combi5",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+16,
+25,
+32,
+33,
+34,
+36,
+37,
+38,
+39,
+40,
+45,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+3,
+6,
+8,
+9,
+10,
+12,
+13,
+14,
+15,
+18,
+19,
+22,
+23,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "16x7",
+"f": 16,
+"t": 7,
+"c": [
+11
+],
+"path": [
+16,
+7
+],
+"p": false
+},
+{
+"n": "22-28",
+"f": 22,
+"t": 28,
+"c": [],
+"path": [
+22,
+28
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+28
+],
+"path": [
+33,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "7x29",
+"f": 7,
+"t": 29,
+"c": [
+12,
+23
+],
+"path": [
+7,
+18,
+29
+],
+"p": false
+},
+{
+"n": "27-31",
+"f": 27,
+"t": 31,
+"c": [],
+"path": [
+27,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+23
+],
+"path": [
+29,
+18
+],
+"p": false
+},
+{
+"n": "13x35",
+"f": 13,
+"t": 35,
+"c": [
+18,
+37,
+38,
+39,
+40,
+27
+],
+"path": [
+13,
+22,
+31,
+42,
+33,
+44,
+35
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "6-11 16x7 22-28 33x22 18x27 7x29 27-31 36x27 19-23 29x18 13x35",
+"win": "black",
+"exp": "F. TROMPEN – R.C. KELLER   Avec le pion 16, on pense à un coup de la trappe :   16x7   33x22   7x29   36x27   29x18"
+},
+"deb_combi_profondes_l10_combi6": {
+"id": "deb_combi_profondes_l10_combi6",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+24,
+25,
+26,
+31,
+34,
+36,
+38,
+39,
+40,
+42,
+43,
+44,
+49
+],
+"wk": [],
+"bm": [
+2,
+6,
+8,
+9,
+10,
+12,
+13,
+14,
+15,
+18,
+22,
+23,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x45",
+"f": 25,
+"t": 45,
+"c": [
+40,
+30
+],
+"path": [
+25,
+34,
+45
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "45x34",
+"f": 45,
+"t": 34,
+"c": [
+40
+],
+"path": [
+45,
+34
+],
+"p": false
+},
+{
+"n": "39x17",
+"f": 39,
+"t": 17,
+"c": [
+24,
+34,
+22,
+23
+],
+"path": [
+39,
+30,
+19,
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "31x4",
+"f": 31,
+"t": 4,
+"c": [
+9,
+18,
+27
+],
+"path": [
+31,
+22,
+13,
+4
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-19 13x24 25-20 14x25 34-30 25x45 44-40 45x34 39x17 12x21 31x4",
+"win": "white",
+"exp": "Il faut parvenir à éliminer les pions noirs 13 et 22 pour obtenir une rafle 31x. Solution : 24-19   25-20   34-30   44-4"
+},
+"deb_combi_profondes_l10_combi7": {
+"id": "deb_combi_profondes_l10_combi7",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+25,
+27,
+31,
+36,
+38,
+39,
+40,
+42,
+43,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+10,
+11,
+12,
+13,
+14,
+16,
+18,
+20,
+21,
+22,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "21x32",
+"f": 21,
+"t": 32,
+"c": [
+27
+],
+"path": [
+21,
+32
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x35",
+"f": 22,
+"t": 35,
+"c": [
+40,
+28,
+39
+],
+"path": [
+22,
+33,
+44,
+35
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "35x44",
+"f": 35,
+"t": 44,
+"c": [
+40
+],
+"path": [
+35,
+44
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "44x33",
+"f": 44,
+"t": 33,
+"c": [
+39
+],
+"path": [
+44,
+33
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "48x6",
+"f": 48,
+"t": 6,
+"c": [
+33,
+23,
+11,
+43,
+12,
+13
+],
+"path": [
+48,
+39,
+28,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "38-33 21x32 33-28 22x35 45-40 35x44 43-39 44x33 42-38 32x43 48x6",
+"win": "white",
+"exp": "Kenneth KARP - Mindaugas SIMA   Un coup parallèle aboutissant sur la case 6. Solution : 38-33   33-28   45-40   43-39"
+},
+"deb_combi_profondes_l10_combi8": {
+"id": "deb_combi_profondes_l10_combi8",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D9",
+"start": {
+"wm": [
+26,
+27,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+45,
+46,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+8,
+11,
+12,
+13,
+15,
+16,
+17,
+18,
+19,
+20,
+23,
+24,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "17x26",
+"f": 17,
+"t": 26,
+"c": [
+21
+],
+"path": [
+17,
+26
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "41x21",
+"f": 41,
+"t": 21,
+"c": [
+27,
+37
+],
+"path": [
+41,
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+11,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "26-21 17x26 27-22 18x27 37-31 26x37 41x21 16x27 34-30 25x34 40x16",
+"win": "white",
+"exp": "Un pur coup Philippe : 26-21   27-22   37-31   41x21   34-30   40x16"
+},
+"deb_combi_profondes_l10_combi9": {
+"id": "deb_combi_profondes_l10_combi9",
+"ch": 10,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D10",
+"start": {
+"wm": [
+25,
+26,
+27,
+31,
+33,
+34,
+36,
+37,
+38,
+39,
+41,
+43,
+44,
+45,
+46,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+3,
+4,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+16,
+17,
+18,
+19,
+22,
+24,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "27-21",
+"f": 27,
+"t": 21,
+"c": [],
+"path": [
+27,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x29",
+"f": 27,
+"t": 29,
+"c": [
+32,
+33
+],
+"path": [
+27,
+38,
+29
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "28x39",
+"f": 28,
+"t": 39,
+"c": [
+33
+],
+"path": [
+28,
+39
+],
+"p": false
+},
+{
+"n": "43x5",
+"f": 43,
+"t": 5,
+"c": [
+10,
+19,
+29,
+39
+],
+"path": [
+43,
+34,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "34-30 24x35 25-20 14x25 27-21 16x27 38-32 27x29 39-33 28x39 43x5",
+"win": "white",
+"exp": "Paul OUDSHOORN – Jacob OKKEN   Un coup parallèle aboutissant sur la case 5. Solution : 34-30   25-20   27-21   38-32   3"
+},
+"deb_combi_profondes_l11_combi0": {
+"id": "deb_combi_profondes_l11_combi0",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D1",
+"start": {
+"wm": [
+14,
+24,
+31,
+33,
+34,
+35,
+38,
+39,
+40,
+44,
+47
+],
+"wk": [],
+"bm": [
+3,
+5,
+8,
+10,
+12,
+13,
+18,
+21,
+22,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10x19",
+"f": 10,
+"t": 19,
+"c": [
+14
+],
+"path": [
+10,
+19
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "33x2",
+"f": 33,
+"t": 2,
+"c": [
+8,
+19,
+29
+],
+"path": [
+33,
+24,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-19 13x24 35-30 10x19 34-29 24x35 29-23 18x29 33x2 24-20",
+"win": "white",
+"exp": "Jean-Marc NDJOFANG- Otgonbayaryd TUVSHINBOLD   Vu par Ton Sijbrands : 24-19   35-30   34-29   29-23   33x2. En partie, l"
+},
+"deb_combi_profondes_l11_combi1": {
+"id": "deb_combi_profondes_l11_combi1",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D2",
+"start": {
+"wm": [
+22,
+25,
+27,
+28,
+31,
+32,
+33,
+34,
+35,
+37,
+38,
+39,
+40,
+42,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+8,
+9,
+11,
+13,
+14,
+15,
+16,
+18,
+19,
+21,
+23,
+24,
+26,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "19x10",
+"f": 19,
+"t": 10,
+"c": [
+14
+],
+"path": [
+19,
+10
+],
+"p": false
+},
+{
+"n": "28x30",
+"f": 28,
+"t": 30,
+"c": [
+24,
+23
+],
+"path": [
+28,
+19,
+30
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "34x12",
+"f": 34,
+"t": 12,
+"c": [
+18,
+29
+],
+"path": [
+34,
+23,
+12
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+28
+],
+"path": [
+33,
+22
+],
+"p": false
+},
+{
+"n": "8x28",
+"f": 8,
+"t": 28,
+"c": [
+12,
+22
+],
+"path": [
+8,
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+},
+{
+"n": "21x25",
+"f": 21,
+"t": 25,
+"c": [
+27,
+30,
+38,
+39
+],
+"path": [
+21,
+32,
+43,
+34,
+25
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "14-20 25x14 19x10 28x30 11-17 34x12 17x28 33x22 8x28 32x23 21x25",
+"win": "black",
+"exp": "Jan de KLUIJVER – Jean SIMONATA   Un coup de chevron, c’est-à-dire un coup avec une rafle de 4 pions en forme de chevron"
+},
+"deb_combi_profondes_l11_combi2": {
+"id": "deb_combi_profondes_l11_combi2",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D3",
+"start": {
+"wm": [
+24,
+29,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+43,
+45
+],
+"wk": [],
+"bm": [
+6,
+8,
+9,
+10,
+11,
+12,
+13,
+15,
+18,
+20,
+21,
+22,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x23",
+"f": 25,
+"t": 23,
+"c": [
+29,
+30
+],
+"path": [
+25,
+34,
+23
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+28,
+37,
+38
+],
+"path": [
+22,
+33,
+42,
+31
+],
+"p": false
+},
+{
+"n": "36x7",
+"f": 36,
+"t": 7,
+"c": [
+11,
+21,
+31
+],
+"path": [
+36,
+27,
+16,
+7
+],
+"p": false
+},
+{
+"n": "12x1",
+"f": 12,
+"t": 1,
+"c": [
+7
+],
+"path": [
+12,
+1
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "34x5",
+"f": 34,
+"t": 5,
+"c": [
+18,
+8,
+9,
+10,
+29
+],
+"path": [
+34,
+23,
+12,
+3,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "34-30 25x23 33-28 22x31 36x7 12x1 39-34 20x29 32-28 23x32 34x5",
+"win": "white",
+"exp": "Jean-Pierre DUBOIS : Une combinaison aboutissant sur la case 5. La case de départ est nécessairement la case 34. Il faut"
+},
+"deb_combi_profondes_l11_combi3": {
+"id": "deb_combi_profondes_l11_combi3",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D4",
+"start": {
+"wm": [
+20,
+25,
+27,
+30,
+32,
+33,
+37,
+38,
+40,
+41,
+42,
+45,
+48,
+49
+],
+"wk": [],
+"bm": [
+3,
+4,
+8,
+9,
+11,
+12,
+13,
+14,
+16,
+18,
+19,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+11,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-22 18x27 32x21 16x27 30-24 19x30 25x34 14x25 34-30 25x34 40x16",
+"win": "white",
+"exp": "Fred PASSCHIER – J. BLAAUW   Un coup philippe : 27-22   32x21   30-24   25x34   34-30   40x16"
+},
+"deb_combi_profondes_l11_combi4": {
+"id": "deb_combi_profondes_l11_combi4",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D5",
+"start": {
+"wm": [
+25,
+26,
+30,
+31,
+32,
+34,
+36,
+38,
+41,
+42,
+44,
+47,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+5,
+7,
+9,
+10,
+11,
+12,
+14,
+17,
+19,
+22,
+27
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "22-28",
+"f": 22,
+"t": 28,
+"c": [],
+"path": [
+22,
+28
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "21x23",
+"f": 21,
+"t": 23,
+"c": [
+17,
+18
+],
+"path": [
+21,
+12,
+23
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x46",
+"f": 10,
+"t": 46,
+"c": [
+32,
+41,
+14,
+23
+],
+"path": [
+10,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "19-23 32x21 23-29 34x23 22-28 23x32 12-18 21x23 14-20 25x14 10x46",
+"win": "black",
+"exp": "Mari van BALLEGOOIJEN – Marinus MORSINK   Une combinaison classique sur l’attaque du pion taquin lorsque les noirs possè"
+},
+"deb_combi_profondes_l11_combi5": {
+"id": "deb_combi_profondes_l11_combi5",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D6",
+"start": {
+"wm": [
+29,
+30,
+33,
+35,
+36,
+37,
+38,
+39,
+45
+],
+"wk": [],
+"bm": [
+3,
+5,
+9,
+15,
+18,
+20,
+22,
+26,
+27
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "20-24",
+"f": 20,
+"t": 24,
+"c": [],
+"path": [
+20,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "27-32",
+"f": 27,
+"t": 32,
+"c": [],
+"path": [
+27,
+32
+],
+"p": false
+},
+{
+"n": "37x17",
+"f": 37,
+"t": 17,
+"c": [
+32,
+22
+],
+"path": [
+37,
+28,
+17
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "19x8",
+"f": 19,
+"t": 8,
+"c": [
+13
+],
+"path": [
+19,
+8
+],
+"p": false
+},
+{
+"n": "3x34",
+"f": 3,
+"t": 34,
+"c": [
+17,
+38,
+39,
+8,
+27
+],
+"path": [
+3,
+12,
+21,
+32,
+43,
+34
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "20-24 29x20 15x24 30x19 27-32 37x17 26-31 36x27 9-13 19x8 3x34",
+"win": "black",
+"exp": "Tjeerd HARMSMA – Anatoli GANTVARG  . Une combinaison 3x34 très logique. Solution :   29x20   30x19   37x17   36x27   19x"
+},
+"deb_combi_profondes_l11_combi6": {
+"id": "deb_combi_profondes_l11_combi6",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D7",
+"start": {
+"wm": [
+27,
+28,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+6,
+8,
+9,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+24,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "42x11",
+"f": 42,
+"t": 11,
+"c": [
+17,
+27,
+37
+],
+"path": [
+42,
+31,
+22,
+11
+],
+"p": false
+},
+{
+"n": "6x17",
+"f": 6,
+"t": 17,
+"c": [
+11
+],
+"path": [
+6,
+17
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+23
+],
+"path": [
+19,
+28
+],
+"p": false
+},
+{
+"n": "33x11",
+"f": 33,
+"t": 11,
+"c": [
+17,
+28
+],
+"path": [
+33,
+22,
+11
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "27-22 18x27 32x21 16x27 37-31 26x37 42x11 6x17 28-23 19x28 33x11",
+"win": "white",
+"exp": "Coup de l’Espagnol : 27-22   32x21   37-31   42x11   28-23   33x11"
+},
+"deb_combi_profondes_l11_combi7": {
+"id": "deb_combi_profondes_l11_combi7",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D8",
+"start": {
+"wm": [
+25,
+26,
+27,
+30,
+32,
+35,
+36,
+37,
+38,
+39,
+40,
+42,
+45,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+3,
+4,
+5,
+6,
+9,
+11,
+12,
+13,
+14,
+15,
+17,
+18,
+19,
+23,
+24,
+28,
+29
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "29x38",
+"f": 29,
+"t": 38,
+"c": [
+33
+],
+"path": [
+29,
+38
+],
+"p": false
+},
+{
+"n": "42x22",
+"f": 42,
+"t": 22,
+"c": [
+28,
+38
+],
+"path": [
+42,
+33,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "28x39",
+"f": 28,
+"t": 39,
+"c": [
+33
+],
+"path": [
+28,
+39
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x38",
+"f": 18,
+"t": 38,
+"c": [
+32,
+22
+],
+"path": [
+18,
+27,
+38
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x34",
+"f": 14,
+"t": 34,
+"c": [
+20,
+30
+],
+"path": [
+14,
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x16",
+"f": 40,
+"t": 16,
+"c": [
+34,
+11,
+12,
+23
+],
+"path": [
+40,
+29,
+18,
+7,
+16
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "38-33 29x38 42x22 17x28 39-33 28x39 27-22 18x38 25-20 14x34 40x16",
+"win": "white",
+"exp": "Ton SIJBRANDS   Un coup philippe inhabituel : 38-33   42x22   39-33   27-22   25-20   40x16"
+},
+"deb_combi_profondes_l11_combi8": {
+"id": "deb_combi_profondes_l11_combi8",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D9",
+"start": {
+"wm": [
+24,
+26,
+31,
+33,
+34,
+35,
+36,
+38,
+39,
+42,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+6,
+7,
+8,
+11,
+13,
+14,
+15,
+22,
+23,
+25,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x32",
+"f": 25,
+"t": 32,
+"c": [
+38,
+30,
+39
+],
+"path": [
+25,
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "33x42",
+"f": 33,
+"t": 42,
+"c": [
+38
+],
+"path": [
+33,
+42
+],
+"p": false
+},
+{
+"n": "47x20",
+"f": 47,
+"t": 20,
+"c": [
+32,
+22,
+42,
+13,
+14
+],
+"path": [
+47,
+38,
+27,
+18,
+9,
+20
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "24-20 15x24 34-30 25x32 33-29 24x33 26-21 27x16 42-38 33x42 47x20",
+"win": "white",
+"exp": "Kaspar HEIJNEN – Nicole SCHOUTEN   Un coup parallèle : 24-20   34-30   33-29   26-21   42-38   47x20"
+},
+"deb_combi_profondes_l11_combi9": {
+"id": "deb_combi_profondes_l11_combi9",
+"ch": 11,
+"title": "COMBINAISONS EN 5 ET 6 TEMPS – D10",
+"start": {
+"wm": [
+25,
+28,
+29,
+33,
+35,
+37,
+38,
+39,
+40,
+41,
+44,
+48
+],
+"wk": [],
+"bm": [
+3,
+4,
+5,
+8,
+9,
+10,
+17,
+19,
+21,
+22,
+24,
+27
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "21-26",
+"f": 21,
+"t": 26,
+"c": [],
+"path": [
+21,
+26
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "20x9",
+"f": 20,
+"t": 9,
+"c": [
+14
+],
+"path": [
+20,
+9
+],
+"p": false
+},
+{
+"n": "3x14x23",
+"f": 3,
+"t": 23,
+"c": [
+9,
+19
+],
+"path": [
+3,
+14,
+23
+],
+"p": false
+}
+],
+"theme": "combinaisons_5_6",
+"pub": "21-26 29x20 19-23 28x19 26-31 37x26 9-14 20x9 3x14x23",
+"win": "black",
+"exp": "Jean-Marc NDJOFANG – Alexander SHVARTSMAN  . Une combinaison aboutissant sur la case 45 :   29x20   28x19   37x26   26x2"
+},
+"deb_combi_profondes_l12_combi0": {
+"id": "deb_combi_profondes_l12_combi0",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D1",
+"start": {
+"wm": [
+26,
+27,
+28,
+29,
+31,
+33,
+36,
+40
+],
+"wk": [],
+"bm": [
+11,
+13,
+16,
+17,
+18,
+19,
+20,
+30
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x39",
+"f": 19,
+"t": 39,
+"c": [
+33,
+23
+],
+"path": [
+19,
+28,
+39
+],
+"p": false
+},
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "29x40",
+"f": 29,
+"t": 40,
+"c": [
+34
+],
+"path": [
+29,
+40
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "26-21",
+"f": 26,
+"t": 21,
+"c": [],
+"path": [
+26,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "31x15",
+"f": 31,
+"t": 15,
+"c": [
+20,
+39,
+40,
+27,
+28,
+30
+],
+"path": [
+31,
+22,
+33,
+44,
+35,
+24,
+15
+],
+"p": false
+}
+],
+"theme": "combinaisons_6",
+"pub": "28-23 19x39 29-23 18x29 40-34 29x40 27-22 17x28 26-21 16x27 31x15",
+"win": "white",
+"exp": "Alexander FEDORUK – GORJATSCHEW  . Un coup Napoléon : 28-23   29-23   40-34   27-22   26-21   31x15"
+},
+"deb_combi_profondes_l12_combi1": {
+"id": "deb_combi_profondes_l12_combi1",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D2",
+"start": {
+"wm": [
+25,
+26,
+28,
+30,
+33,
+34,
+35,
+37,
+38,
+41,
+42,
+43,
+45,
+47,
+49
+],
+"wk": [],
+"bm": [
+3,
+5,
+6,
+8,
+9,
+11,
+12,
+13,
+14,
+16,
+17,
+18,
+19,
+24,
+31
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "37x17",
+"f": 37,
+"t": 17,
+"c": [
+21,
+31
+],
+"path": [
+37,
+26,
+17
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "34x12",
+"f": 34,
+"t": 12,
+"c": [
+18,
+29
+],
+"path": [
+34,
+23,
+12
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "12x23",
+"f": 12,
+"t": 23,
+"c": [
+18
+],
+"path": [
+12,
+23
+],
+"p": false
+},
+{
+"n": "19x46",
+"f": 19,
+"t": 46,
+"c": [
+33,
+23,
+41,
+42,
+43
+],
+"path": [
+19,
+28,
+39,
+48,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_6",
+"pub": "17-21 26x17 12x21 37x17 11x22 28x17 24-29 34x12 13-18 12x23 19x46",
+"win": "black",
+"exp": "G. DERBY – A. VLAM   Un coup de dame en 46 basé sur le mécanisme du rappel :   26x17   37x17   28x17   34x12   12x23"
+},
+"deb_combi_profondes_l12_combi2": {
+"id": "deb_combi_profondes_l12_combi2",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D3",
+"start": {
+"wm": [
+25,
+27,
+28,
+33,
+34,
+35,
+37,
+38,
+39,
+43,
+47
+],
+"wk": [],
+"bm": [
+3,
+6,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+24,
+36
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+23
+],
+"path": [
+19,
+28
+],
+"p": false
+},
+{
+"n": "33x31",
+"f": 33,
+"t": 31,
+"c": [
+27,
+28
+],
+"path": [
+33,
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "39x17",
+"f": 39,
+"t": 17,
+"c": [
+24,
+34,
+12,
+13
+],
+"path": [
+39,
+30,
+19,
+8,
+17
+],
+"p": false
+}
+],
+"theme": "combinaisons_6",
+"pub": "27-22 18x27 28-23 19x28 33x31 36x27 25-20 14x25 34-30 25x34 39x17",
+"win": "white",
+"exp": "La flèche 34-39-43 doit faire penser à une rafle 39x17. Solution : Phase de déblaiement : 27-22   28-23   33x31   Phase"
+},
+"deb_combi_profondes_l12_combi3": {
+"id": "deb_combi_profondes_l12_combi3",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D4",
+"start": {
+"wm": [
+23,
+24,
+26,
+27,
+29,
+32,
+34,
+35,
+39,
+41,
+44,
+49
+],
+"wk": [],
+"bm": [
+5,
+8,
+10,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+20,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "25-30",
+"f": 25,
+"t": 30,
+"c": [],
+"path": [
+25,
+30
+],
+"p": false
+},
+{
+"n": "34x25",
+"f": 34,
+"t": 25,
+"c": [
+30
+],
+"path": [
+34,
+25
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18x9",
+"f": 27,
+"t": 9,
+"c": [
+13,
+22
+],
+"path": [
+27,
+18,
+9
+],
+"p": false
+},
+{
+"n": "14x3",
+"f": 14,
+"t": 3,
+"c": [
+9
+],
+"path": [
+14,
+3
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x19x28x37x46",
+"f": 10,
+"t": 46,
+"c": [
+32,
+41,
+14,
+23
+],
+"path": [
+10,
+19,
+28,
+37,
+46
+],
+"p": true
+}
+],
+"theme": "combinaisons_6",
+"pub": "25-30 34x25 18-22 27x18x9 14x3 25x14 10x19x28x37x46",
+"win": "black",
+"exp": "Thijs GERRITSEN - Harmjan LAMMERS   Un coup de dame à 46 basé le mécanisme du coup de talon :   34x25   27x7   7x9   25x"
+},
+"deb_combi_profondes_l12_combi4": {
+"id": "deb_combi_profondes_l12_combi4",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D5",
+"start": {
+"wm": [
+26,
+28,
+30,
+36,
+38,
+39,
+42,
+44,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+8,
+12,
+15,
+17,
+19,
+27,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "27-31",
+"f": 27,
+"t": 31,
+"c": [],
+"path": [
+27,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "19x8",
+"f": 19,
+"t": 8,
+"c": [
+13
+],
+"path": [
+19,
+8
+],
+"p": false
+},
+{
+"n": "3x34",
+"f": 3,
+"t": 34,
+"c": [
+17,
+38,
+39,
+8,
+27
+],
+"path": [
+3,
+12,
+21,
+32,
+43,
+34
+],
+"p": false
+}
+],
+"theme": "combinaisons_6",
+"pub": "17-22 28x17 12x21 26x17 27-31 36x27 19-24 30x19 8-13 19x8 3x34",
+"win": "black",
+"exp": "L. SWAAB – van der SLEEN   Une rafle 3x34. Solution : Phase positionnement :   28x17   26x17   36x27 Phase d’acheminemen"
+},
+"deb_combi_profondes_l12_combi5": {
+"id": "deb_combi_profondes_l12_combi5",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D6",
+"start": {
+"wm": [
+27,
+28,
+32,
+33,
+34,
+35,
+37,
+38,
+39,
+40,
+42,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+10,
+12,
+13,
+15,
+16,
+17,
+18,
+19,
+23,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "40x20",
+"f": 40,
+"t": 20,
+"c": [
+24,
+34
+],
+"path": [
+40,
+29,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x5",
+"f": 32,
+"t": 5,
+"c": [
+10,
+19,
+28
+],
+"path": [
+32,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_6",
+"pub": "34-30 25x34 40x20 15x24 35-30 24x35 33-29 23x34 39x30 35x24 28-22 17x28 32x5",
+"win": "white",
+"exp": "Coup de mazette : 34-30   40x20   35-30   33-29   39x30   28-22   32x5"
+},
+"deb_combi_profondes_l12_combi6": {
+"id": "deb_combi_profondes_l12_combi6",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D7",
+"start": {
+"wm": [
+25,
+29,
+30,
+33,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+48
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+7,
+8,
+13,
+14,
+16,
+19,
+21,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+24,
+13,
+14
+],
+"path": [
+29,
+20,
+9,
+18
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "27-31",
+"f": 27,
+"t": 31,
+"c": [],
+"path": [
+27,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "18x7",
+"f": 18,
+"t": 7,
+"c": [
+12
+],
+"path": [
+18,
+7
+],
+"p": false
+},
+{
+"n": "1x45",
+"f": 1,
+"t": 45,
+"c": [
+17,
+39,
+38,
+7,
+40,
+27
+],
+"path": [
+1,
+12,
+21,
+32,
+43,
+34,
+45
+],
+"p": false
+}
+],
+"theme": "combinaisons_6",
+"pub": "21-27 29x18 26-31 37x26 16-21 26x17 27-31 36x27 7-12 18x7 1x45",
+"win": "black",
+"exp": "Ramon SAKIDIN – Edwin FEDDEMA   Une rafle difficile à déterminer car très rare. Le mécanisme est simple. Solution :   29"
+},
+"deb_combi_profondes_l12_combi7": {
+"id": "deb_combi_profondes_l12_combi7",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D8",
+"start": {
+"wm": [
+15,
+24,
+30,
+31,
+33,
+34,
+36,
+37,
+38,
+39,
+43,
+44,
+45,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+4,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+17,
+18,
+19,
+22,
+25,
+27,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "25x23",
+"f": 25,
+"t": 23,
+"c": [
+29,
+30
+],
+"path": [
+25,
+34,
+23
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "14x25",
+"f": 14,
+"t": 25,
+"c": [
+20
+],
+"path": [
+14,
+25
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "43x5",
+"f": 43,
+"t": 5,
+"c": [
+10,
+19,
+28,
+38
+],
+"path": [
+43,
+32,
+23,
+14,
+5
+],
+"p": true
+}
+],
+"theme": "combinaisons_6",
+"pub": "34-29 25x23 24-20 14x25 33-29 23x34 39x30 25x34 38-32 27x38 43x5",
+"win": "white",
+"exp": "Ganbold GERELBOLD - Andrejs CEHANOVICS   Un coup de dame 43x3 ou 43x5. Oui mais comment éliminer le pion noir 14 et ache"
+},
+"deb_combi_profondes_l12_combi8": {
+"id": "deb_combi_profondes_l12_combi8",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D9",
+"start": {
+"wm": [
+31,
+33,
+34,
+35,
+36,
+38,
+42,
+43,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+11,
+12,
+13,
+15,
+18,
+22,
+23,
+25,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "34x43x32",
+"f": 34,
+"t": 32,
+"c": [
+38,
+39
+],
+"path": [
+34,
+43,
+32
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "31x22",
+"f": 31,
+"t": 22,
+"c": [
+27
+],
+"path": [
+31,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "33x42",
+"f": 33,
+"t": 42,
+"c": [
+38
+],
+"path": [
+33,
+42
+],
+"p": false
+},
+{
+"n": "48x37x28x19x8x17x6",
+"f": 48,
+"t": 6,
+"c": [
+32,
+23,
+42,
+11,
+12,
+13
+],
+"path": [
+48,
+37,
+28,
+19,
+8,
+17,
+6
+],
+"p": false
+}
+],
+"theme": "combinaisons_6",
+"pub": "34-30 25x34 43-39 34x43x32 33-28 22x33 31x22 18x27 42-38 33x42 48x37x28x19x8x17x6",
+"win": "white",
+"exp": "Cor van DUSSELDORP – Bert WOOLSCHOT   Une combinaison 48x6 basée sur le mécanisme du coup parallèle : 34-30   43-39   33"
+},
+"deb_combi_profondes_l12_combi9": {
+"id": "deb_combi_profondes_l12_combi9",
+"ch": 12,
+"title": "COMBINAISONS EN 6 TEMPS – D10",
+"start": {
+"wm": [
+16,
+25,
+28,
+30,
+33,
+35,
+39,
+41,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+7,
+8,
+12,
+14,
+18,
+19,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14x23",
+"f": 25,
+"t": 23,
+"c": [
+19,
+20
+],
+"path": [
+25,
+14,
+23
+],
+"p": false
+},
+{
+"n": "18x29x38",
+"f": 18,
+"t": 38,
+"c": [
+33,
+23
+],
+"path": [
+18,
+29,
+38
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "16x7x18",
+"f": 16,
+"t": 18,
+"c": [
+11,
+12
+],
+"path": [
+16,
+7,
+18
+],
+"p": false
+},
+{
+"n": "38-43",
+"f": 38,
+"t": 43,
+"c": [],
+"path": [
+38,
+43
+],
+"p": false
+},
+{
+"n": "49x38",
+"f": 49,
+"t": 38,
+"c": [
+43
+],
+"path": [
+49,
+38
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "19x8",
+"f": 19,
+"t": 8,
+"c": [
+13
+],
+"path": [
+19,
+8
+],
+"p": false
+},
+{
+"n": "3x12x23x32x43x34",
+"f": 3,
+"t": 34,
+"c": [
+18,
+38,
+39,
+8,
+28
+],
+"path": [
+3,
+12,
+23,
+32,
+43,
+34
+],
+"p": false
+}
+],
+"theme": "combinaisons_6",
+"pub": "14-20 25x14x23 18x29x38 30x19 7-11 16x7x18 38-43 49x38 8-13 19x8 3x12x23x32x43x34",
+"win": "black",
+"exp": "Alexander PRESMAN – Edvard BUZINSKIJ   Une combinaison 3x34 basée sur les mécanismes de temps de repos et coup parallèle"
+}
+}
 }
 
 export default DATA
