@@ -527,14 +527,18 @@ function BlockView({ b, positions }: { b: Block; positions: Record<string, Posit
   return null
 }
 
-export default function ManuelInteractif({ data, onClose }: { data: ManuelData; onClose?: () => void }): React.ReactElement {
+export default function ManuelInteractif(
+  { data, onClose, initialChapter }: { data: ManuelData; onClose?: () => void; initialChapter?: number },
+): React.ReactElement {
   const chapters = data.chapters
   const firstWithBoards = useMemo(() => {
     const withB = new Set(data.blocks.filter(b => b.type === 'board').map(b => b.ch))
     const c = chapters.find(c => withB.has(c.n)) || chapters[0]
     return c ? c.n : 0
   }, [data])
-  const [chap, setChap] = useState(firstWithBoards)
+  const [chap, setChap] = useState(
+    initialChapter != null && chapters.some(c => c.n === initialChapter) ? initialChapter : firstWithBoards,
+  )
   const scrollRef = useRef<HTMLDivElement>(null)
   const blocks = useMemo(() => data.blocks.filter(b => b.ch === chap), [data, chap])
   const idx = chapters.findIndex(c => c.n === chap)
