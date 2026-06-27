@@ -288,6 +288,110 @@ def build_module(module: dict, level_title: str, ex_idx: dict, diag_idx: dict,
     }
 
 
+def _norm_fen(fen: str) -> tuple:
+    """Canonical (turn, frozenset of coloured/kinged squares) for matching a
+    diagram FEN to an exercise's initial FEN regardless of square order."""
+    parts = (fen or "").split(":")
+    pieces = []
+    for grp in parts[1:]:
+        if not grp:
+            continue
+        color = grp[0]
+        for tok in grp[1:].split(","):
+            if tok:
+                pieces.append(color + tok)
+    return (parts[0] if parts else "", frozenset(pieces))
+
+
+_ORD = {
+    "premier": 1, "première": 1, "deuxième": 2, "second": 2, "seconde": 2,
+    "troisième": 3, "quatrième": 4, "cinquième": 5, "sixième": 6, "septième": 7,
+    "huitième": 8, "neuvième": 9, "dixième": 10,
+}
+_REF_RE = re.compile(
+    r"(premier|première|deuxième|second[e]?|troisième|quatrième|cinquième|"
+    r"sixième|septième|huitième|neuvième|dixième)\s+diagramme"
+    r"|diagramme\s+(\d+)|\(?\s*diag\.?\s*(\d+)\s*\)?",
+    re.IGNORECASE,
+)
+
+
+def _diagram_refs(text: str) -> list[int]:
+    """1-based diagram indices referenced in a paragraph, in order: ordinals
+    ("le troisième diagramme") and numbers ("diagramme 3", "(diag. 3)")."""
+    out: list[int] = []
+    for m in _REF_RE.finditer(text):
+        if m.group(1):
+            k = _ORD.get(m.group(1).lower())
+        else:
+            k = int(m.group(2) or m.group(3))
+        if k:
+            out.append(k)
+    return out
+
+
+def _lesson_blocks(ch: int, proses: list[str], diagrams: list, ex_rows: list[dict],
+                   prefix: str) -> tuple[list[dict], dict[str, dict]]:
+    """Lay a chapter out as the masters do: prose with each illustrative diagram
+    inserted right where the text refers to it ("le second diagramme …"), then
+    the remaining practice exercises. A diagram that matches an exercise FEN
+    becomes playable (its verified line attached); exercises already shown as a
+    diagram are not repeated."""
+    blocks: list[dict] = []
+    positions: dict[str, dict] = {}
+    ex_by_fen: dict[tuple, dict] = {}
+    for ex in ex_rows:
+        ex_by_fen.setdefault(_norm_fen(ex["initial_fen"]), ex)
+    used: set[tuple] = set()
+
+    # Build the ordered illustrative-diagram boards (playable when matched).
+    dia: list[tuple[str, dict] | None] = []
+    for i, d in enumerate(diagrams or []):
+        fen = d if isinstance(d, str) else (d.get("fen") if isinstance(d, dict) else None)
+        if not fen:
+            dia.append(None)
+            continue
+        label = (d.get("label") if isinstance(d, dict) else "") or f"Diagramme {i + 1}"
+        pid = f"{prefix}_d{i}"
+        key = _norm_fen(fen)
+        match = ex_by_fen.get(key)
+        if match:
+            used.add(key)
+            made = _board_from_exercise(pid, ch, match, label, match.get("category") or "")
+        else:
+            made = _board_from_position(pid, ch, fen, label, None)
+        dia.append((pid, made) if made else None)
+
+    placed: set[int] = set()
+
+    def place(k: int) -> None:
+        if 1 <= k <= len(dia) and dia[k - 1] and k not in placed:
+            placed.add(k)
+            _, pos = dia[k - 1]  # type: ignore[misc]
+            positions[pos["id"]] = pos
+            blocks.append({"type": "board", "id": pos["id"], "ch": ch})
+
+    for para in proses:
+        blocks.append({"type": "p", "ch": ch, "runs": [{"t": para}]})
+        for k in _diagram_refs(para):
+            place(k)
+    for k in range(1, len(dia) + 1):  # any diagram the prose never referenced
+        place(k)
+
+    # Practice exercises not already shown inline as a diagram.
+    rem = [ex for ex in ex_rows if _norm_fen(ex["initial_fen"]) not in used]
+    if rem:
+        blocks.append({"type": "h3", "ch": ch, "runs": [{"t": "Exercices"}]})
+        for j, ex in enumerate(rem):
+            pid = f"{prefix}_x{j}"
+            made = _board_from_exercise(pid, ch, ex, ex.get("name") or "Exercice",
+                                        ex.get("category") or "")
+            if made:
+                positions[made["id"]] = made
+                blocks.append({"type": "board", "id": made["id"], "ch": ch})
+    return blocks, positions
+
+
 def build_combinaisons_book(lessons_json: dict, combi_by_ch: dict) -> dict:
     """The full Dubois 'Apprendre les combinaisons' book as one reader: its 41
     chapters (lessons.json) each with prose + the chapter's worked combinations
@@ -304,15 +408,11 @@ def build_combinaisons_book(lessons_json: dict, combi_by_ch: dict) -> dict:
         entry = lessons_json[str(n)]
         chapters.append({"n": n, "title": entry.get("title") or f"Chapitre {n}"})
         blocks.append({"type": "h2", "ch": n, "runs": [{"t": entry.get("title") or f"Chapitre {n}"}]})
-        for para in _paras(entry.get("text", "")):
-            blocks.append({"type": "p", "ch": n, "runs": [{"t": para}]})
-        for ei, ex in enumerate(combi_by_ch.get(n, [])):
-            pid = f"combi_c{n}_e{ei}"
-            made = _board_from_exercise(pid, n, ex, ex.get("name") or "Combinaison",
-                                        ex.get("category") or "")
-            if made:
-                positions[made["id"]] = made
-                blocks.append({"type": "board", "id": made["id"], "ch": n})
+        b, p = _lesson_blocks(n, _paras(entry.get("text", "")),
+                              entry.get("diagrams") or [], combi_by_ch.get(n, []),
+                              prefix=f"combi_c{n}")
+        blocks.extend(b)
+        positions.update(p)
     return {
         "book": "Dubois — Apprendre les combinaisons",
         "level": "Débutant",
@@ -334,39 +434,24 @@ def _ex_by_chapter(rows: list[dict], id_offset: int) -> dict[int, list[dict]]:
 
 
 def build_lesson_book(book: str, level: str, chapters_dict: dict, id_offset: int,
-                      ex_by_n: dict[int, list[dict]], want_diagrams: bool) -> dict:
+                      ex_by_n: dict[int, list[dict]]) -> dict:
     """A lesson-prose book (Débutant, Sens du jeu) as one reader: each chapter's
-    prose, its illustrative diagrams (when wanted, or when it has no exercises)
-    and its exercises as playable boards. Chapter ids are mapped to friendly
+    prose with its illustrative diagrams inlined where the text refers to them,
+    then the remaining practice exercises. Chapter ids are mapped to friendly
     numbers via ``id_offset`` (Débutant 0, Sens du jeu 100)."""
     chapters: list[dict] = []
     blocks: list[dict] = []
     positions: dict[str, dict] = {}
-    for ci, idStr in enumerate(sorted(chapters_dict, key=int)):
+    for idStr in sorted(chapters_dict, key=int):
         n = int(idStr) - id_offset
         entry = chapters_dict[idStr]
         chapters.append({"n": n, "title": entry.get("title") or f"Chapitre {n}"})
         blocks.append({"type": "h2", "ch": n, "runs": [{"t": entry.get("title") or f"Chapitre {n}"}]})
-        for para in _paras(entry.get("text", "")):
-            blocks.append({"type": "p", "ch": n, "runs": [{"t": para}]})
-        exs = ex_by_n.get(n, [])
-        if want_diagrams or not exs:
-            for di, d in enumerate(entry.get("diagrams") or []):
-                fen = d.get("fen")
-                if not fen:
-                    continue
-                pid = f"{idStr}_dia{di}"
-                made = _board_from_position(pid, n, fen, d.get("label", ""), None)
-                if made:
-                    positions[pid] = made
-                    blocks.append({"type": "board", "id": pid, "ch": n})
-        for ei, ex in enumerate(exs):
-            pid = f"{idStr}_ex{ei}"
-            made = _board_from_exercise(pid, n, ex, ex.get("name") or "Exercice",
-                                        ex.get("category") or "")
-            if made:
-                positions[made["id"]] = made
-                blocks.append({"type": "board", "id": made["id"], "ch": n})
+        b, p = _lesson_blocks(n, _paras(entry.get("text", "")),
+                              entry.get("diagrams") or [], ex_by_n.get(n, []),
+                              prefix=idStr)
+        blocks.extend(b)
+        positions.update(p)
     return {"book": book, "level": level, "chapters": chapters,
             "blocks": blocks, "positions": positions}
 
@@ -454,7 +539,7 @@ def main(argv: list[str]) -> int:
         sens_ex = _ex_by_chapter(_load_py_list("sens_du_jeu_exercises.py",
                                                "SENS_DU_JEU_EXERCISES"), 100)
         sens_book = build_lesson_book("Dubois — Le sens du jeu", "Intermédiaire",
-                                      sens_chapters, 100, sens_ex, want_diagrams=True)
+                                      sens_chapters, 100, sens_ex)
         metas.append(_write_module(sens_book, "manuel_dubois_sens_du_jeu"))
 
         # Débutant manual (chapters 1..16). Needs dilf (fixtures); skip if absent.
@@ -464,7 +549,7 @@ def main(argv: list[str]) -> int:
             deb_chapters = load_debutant_chapters()
             deb_ex = _ex_by_chapter(all_debutant_exercises(), 0)
             deb_book = build_lesson_book("Manuel Débutant", "Débutant",
-                                         deb_chapters, 0, deb_ex, want_diagrams=False)
+                                         deb_chapters, 0, deb_ex)
             metas.append(_write_module(deb_book, "manuel_debutant"))
         except Exception as e:  # noqa: BLE001
             print(f"  (skipped manuel_debutant: {e})")
