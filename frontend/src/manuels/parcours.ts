@@ -32,4 +32,6 @@ export const PARCOURS_MANUELS: Record<string, ParcoursManuel> = {
   "int_sdj_formations": { id: "int_sdj_formations", book: "Pions et formations avanc\u00e9s", level: "Interm\u00e9diaire", load: () => import('./data/parcours_int_sdj_formations') },
   "int_manuels_strategiques": { id: "int_manuels_strategiques", book: "Les grands manuels strat\u00e9giques", level: "Interm\u00e9diaire", load: () => import('./data/parcours_int_manuels_strategiques') },
   "manuel_dubois_combinaisons": { id: "manuel_dubois_combinaisons", book: "Dubois \u2014 Apprendre les combinaisons", level: "D\u00e9butant", load: () => import('./data/parcours_manuel_dubois_combinaisons') },
+  "manuel_dubois_sens_du_jeu": { id: "manuel_dubois_sens_du_jeu", book: "Dubois \u2014 Le sens du jeu", level: "Interm\u00e9diaire", load: () => import('./data/parcours_manuel_dubois_sens_du_jeu') },
+  "manuel_debutant": { id: "manuel_debutant", book: "Manuel D\u00e9butant", level: "D\u00e9butant", load: () => import('./data/parcours_manuel_debutant') },
 }
