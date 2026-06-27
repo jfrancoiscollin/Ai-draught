@@ -178,6 +178,14 @@ function fenToBoard(fen: string): number[] {
 
 type Tab = 'home' | 'play' | 'live' | 'learning-path' | 'exercise-library' | 'exercises' | 'import-game' | 'opening-builder' | 'game-history' | 'analyze-menu' | 'my-games' | 'strategy' | 'strategy-manual' | 'manuel-interactif' | 'parcours-manuel'
 
+// Dubois "Apprendre les combinaisons" lesson ids (201..241) map to the
+// interactive reader "manuel_dubois_combinaisons" at chapter id-200. Returns
+// the chapter to open at, or null when the lesson belongs to another book
+// (which still uses the classic LessonPanel).
+function combiLessonChapter(id: number): number | null {
+  return id >= 201 && id <= 241 ? id - 200 : null
+}
+
 export default function App() {
   const { t, language } = useLanguage()
   const { user, logout } = useAuth()
@@ -1174,13 +1182,21 @@ export default function App() {
             exactly where they were in their analysis. */}
         {narrativeLessonChapter !== null && (
           <div className="absolute inset-0 z-40 bg-gray-900">
-            <LessonPanel
-              chapter={narrativeLessonChapter}
-              exampleFen=""
-              onClose={() => setNarrativeLessonChapter(null)}
-              onLessonRead={handleLessonRead}
-              isRead={readChapters.has(narrativeLessonChapter)}
-            />
+            {combiLessonChapter(narrativeLessonChapter) !== null ? (
+              <ManuelInteractifPage
+                parcoursId="manuel_dubois_combinaisons"
+                initialChapter={combiLessonChapter(narrativeLessonChapter)!}
+                onClose={() => setNarrativeLessonChapter(null)}
+              />
+            ) : (
+              <LessonPanel
+                chapter={narrativeLessonChapter}
+                exampleFen=""
+                onClose={() => setNarrativeLessonChapter(null)}
+                onLessonRead={handleLessonRead}
+                isRead={readChapters.has(narrativeLessonChapter)}
+              />
+            )}
           </div>
         )}
 
@@ -1798,13 +1814,21 @@ export default function App() {
 
         {tab === 'exercises' && !exerciseGameState && lessonOpen && (
           <div className="h-full">
-            <LessonPanel
-              chapter={lessonOpen.chapter}
-              exampleFen={lessonOpen.fen}
-              onClose={() => setLessonOpen(null)}
-              onLessonRead={handleLessonRead}
-              isRead={readChapters.has(lessonOpen.chapter)}
-            />
+            {combiLessonChapter(lessonOpen.chapter) !== null ? (
+              <ManuelInteractifPage
+                parcoursId="manuel_dubois_combinaisons"
+                initialChapter={combiLessonChapter(lessonOpen.chapter)!}
+                onClose={() => setLessonOpen(null)}
+              />
+            ) : (
+              <LessonPanel
+                chapter={lessonOpen.chapter}
+                exampleFen={lessonOpen.fen}
+                onClose={() => setLessonOpen(null)}
+                onLessonRead={handleLessonRead}
+                isRead={readChapters.has(lessonOpen.chapter)}
+              />
+            )}
           </div>
         )}
 

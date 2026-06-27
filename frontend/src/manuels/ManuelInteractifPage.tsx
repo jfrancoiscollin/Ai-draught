@@ -18,11 +18,13 @@ interface Props {
   onClose?: () => void
   /** Corpus source code to open directly (case-insensitive), e.g. "SIJBRANDS". */
   source?: string
-  /** Curriculum module id to open directly, e.g. "int_comb_2". */
+  /** Curriculum module id (or standalone book id) to open directly. */
   parcoursId?: string
+  /** Chapter number to open at (e.g. from the Exercices 📖 lesson button). */
+  initialChapter?: number
 }
 
-export default function ManuelInteractifPage({ onClose, source, parcoursId }: Props): React.ReactElement {
+export default function ManuelInteractifPage({ onClose, source, parcoursId, initialChapter }: Props): React.ReactElement {
   const [open, setOpen] = useState<{ entry: ReaderEntry; data: ManuelData } | null>(null)
   const [loading, setLoading] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -54,7 +56,7 @@ export default function ManuelInteractifPage({ onClose, source, parcoursId }: Pr
   if (open) {
     // In direct-open mode, closing the reader returns to the caller (onClose);
     // from the library it returns to the list.
-    return <ManuelInteractif data={open.data} onClose={directEntry ? onClose : () => setOpen(null)} />
+    return <ManuelInteractif data={open.data} initialChapter={initialChapter} onClose={directEntry ? onClose : () => setOpen(null)} />
   }
 
   if (directEntry) {
