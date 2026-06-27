@@ -473,37 +473,37 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "101_dia0",
+"id": "101_d0",
 "ch": 1
 },
 {
 "type": "board",
-"id": "101_dia1",
+"id": "101_d1",
 "ch": 1
 },
 {
 "type": "board",
-"id": "101_dia2",
+"id": "101_d2",
 "ch": 1
 },
 {
 "type": "board",
-"id": "101_dia3",
+"id": "101_d3",
 "ch": 1
 },
 {
 "type": "board",
-"id": "101_dia4",
+"id": "101_d4",
 "ch": 1
 },
 {
 "type": "board",
-"id": "101_dia5",
+"id": "101_d5",
 "ch": 1
 },
 {
 "type": "board",
-"id": "101_dia6",
+"id": "101_d6",
 "ch": 1
 },
 {
@@ -787,132 +787,141 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "102_dia0",
+"id": "102_d0",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia1",
+"id": "102_d1",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia2",
+"id": "102_d2",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia3",
+"id": "102_d3",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia4",
+"id": "102_d4",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia5",
+"id": "102_d5",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia6",
+"id": "102_d6",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia7",
+"id": "102_d7",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia8",
+"id": "102_d8",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia9",
+"id": "102_d9",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia10",
+"id": "102_d10",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia11",
+"id": "102_d11",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia12",
+"id": "102_d12",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia13",
+"id": "102_d13",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia14",
+"id": "102_d14",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia15",
+"id": "102_d15",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia16",
+"id": "102_d16",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia17",
+"id": "102_d17",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia18",
+"id": "102_d18",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_dia19",
+"id": "102_d19",
+"ch": 2
+},
+{
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "102_x0",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_ex0",
+"id": "102_x1",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_ex1",
+"id": "102_x2",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_ex2",
+"id": "102_x3",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_ex3",
+"id": "102_x4",
 "ch": 2
 },
 {
 "type": "board",
-"id": "102_ex4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "102_ex5",
+"id": "102_x5",
 "ch": 2
 },
 {
@@ -941,6 +950,11 @@ const DATA: ManuelData = {
 "t": "Le diagramme n°1 présente le cas le plus simple et le plus évident. Le pion blanc 48 occupe une case centrale. Il peut se déplacer vers la gauche ou vers la droite. Les pions noirs sont bloqués sur le bord du damier. Le diagramme n°2 illustre une situation comparable au diagramme précédent. Le troisième diagramme montre encore une position dans laquelle prédominent les pions centraux."
 }
 ]
+},
+{
+"type": "board",
+"id": "103_d2",
+"ch": 3
 },
 {
 "type": "p",
@@ -1322,72 +1336,76 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "103_dia0",
+"id": "103_d0",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_dia1",
+"id": "103_d1",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_dia2",
+"id": "103_d3",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_dia3",
+"id": "103_d4",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_dia4",
+"id": "103_d5",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_dia5",
+"id": "103_d6",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_dia6",
+"id": "103_d7",
+"ch": 3
+},
+{
+"type": "h3",
+"ch": 3,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "103_x0",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_dia7",
+"id": "103_x1",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_ex0",
+"id": "103_x2",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_ex1",
+"id": "103_x3",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_ex2",
+"id": "103_x4",
 "ch": 3
 },
 {
 "type": "board",
-"id": "103_ex3",
-"ch": 3
-},
-{
-"type": "board",
-"id": "103_ex4",
-"ch": 3
-},
-{
-"type": "board",
-"id": "103_ex5",
+"id": "103_x5",
 "ch": 3
 },
 {
@@ -1497,6 +1515,11 @@ const DATA: ManuelData = {
 "t": "On obtient ainsi la position du second diagramme. On constate que les blancs sont en surnombre sur le flanc gauche. Après par exemple : 2… 5. 21-16"
 }
 ]
+},
+{
+"type": "board",
+"id": "104_d1",
+"ch": 4
 },
 {
 "type": "p",
@@ -1761,52 +1784,56 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "104_dia0",
+"id": "104_d0",
 "ch": 4
 },
 {
 "type": "board",
-"id": "104_dia1",
+"id": "104_d2",
 "ch": 4
 },
 {
 "type": "board",
-"id": "104_dia2",
+"id": "104_d3",
+"ch": 4
+},
+{
+"type": "h3",
+"ch": 4,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "104_x0",
 "ch": 4
 },
 {
 "type": "board",
-"id": "104_dia3",
+"id": "104_x1",
 "ch": 4
 },
 {
 "type": "board",
-"id": "104_ex0",
+"id": "104_x2",
 "ch": 4
 },
 {
 "type": "board",
-"id": "104_ex1",
+"id": "104_x3",
 "ch": 4
 },
 {
 "type": "board",
-"id": "104_ex2",
+"id": "104_x4",
 "ch": 4
 },
 {
 "type": "board",
-"id": "104_ex3",
-"ch": 4
-},
-{
-"type": "board",
-"id": "104_ex4",
-"ch": 4
-},
-{
-"type": "board",
-"id": "104_ex5",
+"id": "104_x5",
 "ch": 4
 },
 {
@@ -2285,6 +2312,21 @@ const DATA: ManuelData = {
 "t": "L’échange d’un pion de la 4e rangée ne modifie pas l’écart (diag. 1 : 29-24) L’échange d’un pion de la 5e rangée fait gagner 2 temps (diag. 2 : 32-28) L’échange d’un pion de la 6e rangée fait gagner 4 temps (diag. 3 : 37-31)"
 }
 ]
+},
+{
+"type": "board",
+"id": "105_d0",
+"ch": 5
+},
+{
+"type": "board",
+"id": "105_d1",
+"ch": 5
+},
+{
+"type": "board",
+"id": "105_d2",
+"ch": 5
 },
 {
 "type": "p",
@@ -2936,167 +2978,152 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "105_dia0",
+"id": "105_d3",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia1",
+"id": "105_d4",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia2",
+"id": "105_d5",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia3",
+"id": "105_d6",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia4",
+"id": "105_d7",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia5",
+"id": "105_d8",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia6",
+"id": "105_d9",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia7",
+"id": "105_d10",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia8",
+"id": "105_d11",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia9",
+"id": "105_d12",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia10",
+"id": "105_d13",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia11",
+"id": "105_d14",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia12",
+"id": "105_d15",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia13",
+"id": "105_d16",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia14",
+"id": "105_d17",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia15",
+"id": "105_d18",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia16",
+"id": "105_d19",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia17",
+"id": "105_d20",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia18",
+"id": "105_d21",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia19",
+"id": "105_d22",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia20",
+"id": "105_d23",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia21",
+"id": "105_d24",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia22",
+"id": "105_d25",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia23",
+"id": "105_d26",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia24",
+"id": "105_d27",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia25",
+"id": "105_d28",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia26",
+"id": "105_d29",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia27",
+"id": "105_d30",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia28",
+"id": "105_d31",
 "ch": 5
 },
 {
 "type": "board",
-"id": "105_dia29",
-"ch": 5
-},
-{
-"type": "board",
-"id": "105_dia30",
-"ch": 5
-},
-{
-"type": "board",
-"id": "105_dia31",
-"ch": 5
-},
-{
-"type": "board",
-"id": "105_dia32",
+"id": "105_d32",
 "ch": 5
 },
 {
@@ -3641,47 +3668,47 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "106_dia0",
+"id": "106_d0",
 "ch": 6
 },
 {
 "type": "board",
-"id": "106_dia1",
+"id": "106_d1",
 "ch": 6
 },
 {
 "type": "board",
-"id": "106_dia2",
+"id": "106_d2",
 "ch": 6
 },
 {
 "type": "board",
-"id": "106_dia3",
+"id": "106_d3",
 "ch": 6
 },
 {
 "type": "board",
-"id": "106_dia4",
+"id": "106_d4",
 "ch": 6
 },
 {
 "type": "board",
-"id": "106_dia5",
+"id": "106_d5",
 "ch": 6
 },
 {
 "type": "board",
-"id": "106_dia6",
+"id": "106_d6",
 "ch": 6
 },
 {
 "type": "board",
-"id": "106_dia7",
+"id": "106_d7",
 "ch": 6
 },
 {
 "type": "board",
-"id": "106_dia8",
+"id": "106_d8",
 "ch": 6
 },
 {
@@ -3710,6 +3737,21 @@ const DATA: ManuelData = {
 "t": "Trait aux noirs Dans le premier diagramme, le pion noir à 12 ne joue aucun rôle. Il est appelé « pion suspendu ». Les blancs ont l’équivalent d’un pion de plus. Dans le second diagramme, c’est le pion noir à 6 qui ne joue aucun rôle. Il est appelé « pion arrière ». Le troisième diagramme est extrait d’une partie entre Thomy MBONGO et Dave BLEEKER, jouée au Pays Bas en 2010. Si les noirs jouent (6-11-17), ils se retrouvent avec un pion suspendu en 12 après 32-28. S’ils jouent (12-17), ils restent avec un pion arrière en 6 après 32-28. Nous allons à présent examiner quelques exemples concrets : Vladimir KAPLAN - Harm WIERSMA (match URSS - Pays-Bas 1967) 44e temps - trait aux blancs Les noirs ont ici une position critique avec le risque de se retrouver avec un pion suspendu en 11 ou en 12. 44. 38-33"
 }
 ]
+},
+{
+"type": "board",
+"id": "107_d0",
+"ch": 7
+},
+{
+"type": "board",
+"id": "107_d1",
+"ch": 7
+},
+{
+"type": "board",
+"id": "107_d2",
+"ch": 7
 },
 {
 "type": "p",
@@ -4307,42 +4349,27 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "107_dia0",
+"id": "107_d3",
 "ch": 7
 },
 {
 "type": "board",
-"id": "107_dia1",
+"id": "107_d4",
 "ch": 7
 },
 {
 "type": "board",
-"id": "107_dia2",
+"id": "107_d5",
 "ch": 7
 },
 {
 "type": "board",
-"id": "107_dia3",
+"id": "107_d6",
 "ch": 7
 },
 {
 "type": "board",
-"id": "107_dia4",
-"ch": 7
-},
-{
-"type": "board",
-"id": "107_dia5",
-"ch": 7
-},
-{
-"type": "board",
-"id": "107_dia6",
-"ch": 7
-},
-{
-"type": "board",
-"id": "107_dia7",
+"id": "107_d7",
 "ch": 7
 },
 {
@@ -4407,6 +4434,11 @@ const DATA: ManuelData = {
 "t": "Dans le premier diagramme, le trèfle noir 16-21-26 empêche le développement de l’aile gauche et met bien en évidence l’inactivité des pions 36 et 46. Toutefois le développement des blancs 36-31 puis 46-41 et 41-36, avec l’intention de débloquer l’aile gauche par 27-22x22, ne doit pas être pris à la légère. Le meilleur moyen de contrer ce développement est de libérer la case 18 afin d’empêcher l’échange 27-22. Par exemple : 1. 36-31"
 }
 ]
+},
+{
+"type": "board",
+"id": "108_d0",
+"ch": 8
 },
 {
 "type": "p",
@@ -4607,6 +4639,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "108_d1",
+"ch": 8
+},
+{
 "type": "p",
 "ch": 8,
 "runs": [
@@ -4716,52 +4753,51 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "108_dia0",
+"id": "108_d2",
 "ch": 8
 },
 {
 "type": "board",
-"id": "108_dia1",
+"id": "108_d3",
 "ch": 8
 },
 {
 "type": "board",
-"id": "108_dia2",
+"id": "108_d4",
 "ch": 8
 },
 {
 "type": "board",
-"id": "108_dia3",
+"id": "108_d5",
+"ch": 8
+},
+{
+"type": "h3",
+"ch": 8,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "108_x0",
 "ch": 8
 },
 {
 "type": "board",
-"id": "108_dia4",
+"id": "108_x1",
 "ch": 8
 },
 {
 "type": "board",
-"id": "108_dia5",
+"id": "108_x2",
 "ch": 8
 },
 {
 "type": "board",
-"id": "108_ex0",
-"ch": 8
-},
-{
-"type": "board",
-"id": "108_ex1",
-"ch": 8
-},
-{
-"type": "board",
-"id": "108_ex2",
-"ch": 8
-},
-{
-"type": "board",
-"id": "108_ex3",
+"id": "108_x3",
 "ch": 8
 },
 {
@@ -5198,77 +5234,86 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "109_dia0",
+"id": "109_d0",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia1",
+"id": "109_d1",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia2",
+"id": "109_d2",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia3",
+"id": "109_d3",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia4",
+"id": "109_d4",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia5",
+"id": "109_d5",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia6",
+"id": "109_d6",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia7",
+"id": "109_d7",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia8",
+"id": "109_d8",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_dia9",
+"id": "109_d9",
+"ch": 9
+},
+{
+"type": "h3",
+"ch": 9,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "109_x0",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_ex0",
+"id": "109_x1",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_ex1",
+"id": "109_x2",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_ex2",
+"id": "109_x3",
 "ch": 9
 },
 {
 "type": "board",
-"id": "109_ex3",
-"ch": 9
-},
-{
-"type": "board",
-"id": "109_ex4",
+"id": "109_x4",
 "ch": 9
 },
 {
@@ -5813,67 +5858,76 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "110_dia0",
+"id": "110_d0",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_dia1",
+"id": "110_d1",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_dia2",
+"id": "110_d2",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_dia3",
+"id": "110_d3",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_dia4",
+"id": "110_d4",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_dia5",
+"id": "110_d5",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_dia6",
+"id": "110_d6",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_dia7",
+"id": "110_d7",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_dia8",
+"id": "110_d8",
+"ch": 10
+},
+{
+"type": "h3",
+"ch": 10,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "110_x0",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_ex0",
+"id": "110_x1",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_ex1",
+"id": "110_x2",
 "ch": 10
 },
 {
 "type": "board",
-"id": "110_ex2",
-"ch": 10
-},
-{
-"type": "board",
-"id": "110_ex3",
+"id": "110_x3",
 "ch": 10
 },
 {
@@ -6175,32 +6229,32 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "111_dia0",
+"id": "111_d0",
 "ch": 11
 },
 {
 "type": "board",
-"id": "111_dia1",
+"id": "111_d1",
 "ch": 11
 },
 {
 "type": "board",
-"id": "111_dia2",
+"id": "111_d2",
 "ch": 11
 },
 {
 "type": "board",
-"id": "111_dia3",
+"id": "111_d3",
 "ch": 11
 },
 {
 "type": "board",
-"id": "111_dia4",
+"id": "111_d4",
 "ch": 11
 },
 {
 "type": "board",
-"id": "111_dia5",
+"id": "111_d5",
 "ch": 11
 },
 {
@@ -6763,67 +6817,67 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "112_dia0",
+"id": "112_d0",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia1",
+"id": "112_d1",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia2",
+"id": "112_d2",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia3",
+"id": "112_d3",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia4",
+"id": "112_d4",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia5",
+"id": "112_d5",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia6",
+"id": "112_d6",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia7",
+"id": "112_d7",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia8",
+"id": "112_d8",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia9",
+"id": "112_d9",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia10",
+"id": "112_d10",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia11",
+"id": "112_d11",
 "ch": 12
 },
 {
 "type": "board",
-"id": "112_dia12",
+"id": "112_d12",
 "ch": 12
 },
 {
@@ -7088,6 +7142,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "113_d0",
+"ch": 13
+},
+{
+"type": "board",
+"id": "113_d1",
+"ch": 13
+},
+{
 "type": "p",
 "ch": 13,
 "runs": [
@@ -7232,6 +7296,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "113_d2",
+"ch": 13
+},
+{
 "type": "p",
 "ch": 13,
 "runs": [
@@ -7251,52 +7320,37 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "113_dia0",
+"id": "113_d3",
 "ch": 13
 },
 {
 "type": "board",
-"id": "113_dia1",
+"id": "113_d4",
 "ch": 13
 },
 {
 "type": "board",
-"id": "113_dia2",
+"id": "113_d5",
 "ch": 13
 },
 {
 "type": "board",
-"id": "113_dia3",
+"id": "113_d6",
 "ch": 13
 },
 {
 "type": "board",
-"id": "113_dia4",
+"id": "113_d7",
 "ch": 13
 },
 {
 "type": "board",
-"id": "113_dia5",
+"id": "113_d8",
 "ch": 13
 },
 {
 "type": "board",
-"id": "113_dia6",
-"ch": 13
-},
-{
-"type": "board",
-"id": "113_dia7",
-"ch": 13
-},
-{
-"type": "board",
-"id": "113_dia8",
-"ch": 13
-},
-{
-"type": "board",
-"id": "113_dia9",
+"id": "113_d9",
 "ch": 13
 },
 {
@@ -7589,37 +7643,37 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "114_dia0",
+"id": "114_d0",
 "ch": 14
 },
 {
 "type": "board",
-"id": "114_dia1",
+"id": "114_d1",
 "ch": 14
 },
 {
 "type": "board",
-"id": "114_dia2",
+"id": "114_d2",
 "ch": 14
 },
 {
 "type": "board",
-"id": "114_dia3",
+"id": "114_d3",
 "ch": 14
 },
 {
 "type": "board",
-"id": "114_dia4",
+"id": "114_d4",
 "ch": 14
 },
 {
 "type": "board",
-"id": "114_dia5",
+"id": "114_d5",
 "ch": 14
 },
 {
 "type": "board",
-"id": "114_dia6",
+"id": "114_d6",
 "ch": 14
 },
 {
@@ -7675,6 +7729,16 @@ const DATA: ManuelData = {
 "t": "Cette situation se rencontre fréquemment en partie classique. Dans le premier diagramme, les noirs ont mis en jeu leur pion 2. Cela leur permet de développer leur aile droite par (12-17), car l’éventuel échange 27-22 détruirait le centre des blancs. Dans le second diagramme, les noirs ont mis en jeu leur pion 1. Le développement de leur aile droite passe nécessairement par (11-17). Dans ce cas, les blancs ont à leur disposition l’excellent échange 27-22 (18x27) 31x11, qui présente le triple avantage de supprimer la possibilité de créer une colonne de choc 6-11-17, d’éliminer les menaces de coup royal, et enfin de mettre en jeu favorablement le pion 36 vers la case 27."
 }
 ]
+},
+{
+"type": "board",
+"id": "115_d0",
+"ch": 15
+},
+{
+"type": "board",
+"id": "115_d1",
+"ch": 15
 },
 {
 "type": "p",
@@ -7912,102 +7976,101 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "115_dia0",
+"id": "115_d2",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia1",
+"id": "115_d3",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia2",
+"id": "115_d4",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia3",
+"id": "115_d5",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia4",
+"id": "115_d6",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia5",
+"id": "115_d7",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia6",
+"id": "115_d8",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia7",
+"id": "115_d9",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia8",
+"id": "115_d10",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia9",
+"id": "115_d11",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia10",
+"id": "115_d12",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia11",
+"id": "115_d13",
+"ch": 15
+},
+{
+"type": "h3",
+"ch": 15,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "115_x0",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia12",
+"id": "115_x1",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_dia13",
+"id": "115_x2",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_ex0",
+"id": "115_x3",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_ex1",
+"id": "115_x4",
 "ch": 15
 },
 {
 "type": "board",
-"id": "115_ex2",
-"ch": 15
-},
-{
-"type": "board",
-"id": "115_ex3",
-"ch": 15
-},
-{
-"type": "board",
-"id": "115_ex4",
-"ch": 15
-},
-{
-"type": "board",
-"id": "115_ex5",
+"id": "115_x5",
 "ch": 15
 },
 {
@@ -8054,6 +8117,16 @@ const DATA: ManuelData = {
 "t": "Les deux positions semblent comparables. Pourtant, dans le premier diagramme, le pion 36 participe à l’action tandis que dans le second diagramme, il ne joue aucun rôle. Examinons cela de plus près : Diagramme n°1 : par exemple (3-9) 34-30 (24-29) [en effet, la présence d’un pion à 36 interdit la sortie (23-29) par 28-23 etc.] 30-25 etc. Ou encore : (3-8) 34-30 (24-29) 30-25 (18-22) 27x18 (23x12) 25-20 (19-24) 20-14 (29-34) 14-10 (34-39) 48-43 etc. Diagramme n°2 : le pion blanc 36 ne participe pas au jeu. Après par exemple 38-33 (13-18) ! 25-20 [après 34-30 suit (12-17) 36-31 (17-22) 28x17 (21x12) 33-28 (12-17)] (24x15) ! 34-30 (14-20) etc."
 }
 ]
+},
+{
+"type": "board",
+"id": "116_d0",
+"ch": 16
+},
+{
+"type": "board",
+"id": "116_d1",
+"ch": 16
 },
 {
 "type": "p",
@@ -8606,82 +8679,81 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "116_dia0",
+"id": "116_d2",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia1",
+"id": "116_d3",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia2",
+"id": "116_d4",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia3",
+"id": "116_d5",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia4",
+"id": "116_d6",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia5",
+"id": "116_d7",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia6",
+"id": "116_d8",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia7",
+"id": "116_d9",
+"ch": 16
+},
+{
+"type": "h3",
+"ch": 16,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "116_x0",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia8",
+"id": "116_x1",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_dia9",
+"id": "116_x2",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_ex0",
+"id": "116_x3",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_ex1",
+"id": "116_x4",
 "ch": 16
 },
 {
 "type": "board",
-"id": "116_ex2",
-"ch": 16
-},
-{
-"type": "board",
-"id": "116_ex3",
-"ch": 16
-},
-{
-"type": "board",
-"id": "116_ex4",
-"ch": 16
-},
-{
-"type": "board",
-"id": "116_ex5",
+"id": "116_x5",
 "ch": 16
 },
 {
@@ -8728,6 +8800,16 @@ const DATA: ManuelData = {
 "t": "Dans le premier diagramme, la masse de pions noirs est inefficace. Le pion 26 gêne le développement des noirs sur leur aile droite. Nous verrons plus loin des extraits de parties qui soulignent bien cette situation inconfortable des noirs. A l’inverse, dans le second diagramme, la formation des noirs 6-11-16-17 met sous pression la position blanche. 43-39 est interdit par le coup Philippe (24-29) 33x24 (19x30) 35x24 (17-21) 26x17 (11x44). Après 1. 31-27 (18-23) 2. 43-39 (13-18), la position des blancs est intenable."
 }
 ]
+},
+{
+"type": "board",
+"id": "117_d0",
+"ch": 17
+},
+{
+"type": "board",
+"id": "117_d1",
+"ch": 17
 },
 {
 "type": "p",
@@ -10018,97 +10100,96 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "117_dia0",
+"id": "117_d2",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia1",
+"id": "117_d3",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia2",
+"id": "117_d4",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia3",
+"id": "117_d5",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia4",
+"id": "117_d6",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia5",
+"id": "117_d7",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia6",
+"id": "117_d8",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia7",
+"id": "117_d9",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia8",
+"id": "117_d10",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia9",
+"id": "117_d11",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia10",
+"id": "117_d12",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia11",
+"id": "117_d13",
+"ch": 17
+},
+{
+"type": "h3",
+"ch": 17,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "117_x0",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia12",
+"id": "117_x1",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_dia13",
+"id": "117_x2",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_ex0",
+"id": "117_x3",
 "ch": 17
 },
 {
 "type": "board",
-"id": "117_ex1",
-"ch": 17
-},
-{
-"type": "board",
-"id": "117_ex2",
-"ch": 17
-},
-{
-"type": "board",
-"id": "117_ex3",
-"ch": 17
-},
-{
-"type": "board",
-"id": "117_ex4",
+"id": "117_x4",
 "ch": 17
 },
 {
@@ -10191,6 +10272,11 @@ const DATA: ManuelData = {
 "t": "Dans le premier diagramme, les noirs sont menacés du coup royal par 27-22 (18x27) 32x21 (23x34) 40x7. Les noirs sont forcés de jouer : 1…"
 }
 ]
+},
+{
+"type": "board",
+"id": "120_d0",
+"ch": 20
 },
 {
 "type": "p",
@@ -10344,6 +10430,16 @@ const DATA: ManuelData = {
 "t": "Dans le second diagramme, on voit clairement que le pion 45 est un pion “arrière” et que les 3 pions blancs sont tenus en respect par seulement 2 pions noirs. Dans le troisième diagramme, la situation est assez subtile. Le pion 45 ne peut être mis en jeu en raison de (18-23) 28x30 (25x45)."
 }
 ]
+},
+{
+"type": "board",
+"id": "120_d1",
+"ch": 20
+},
+{
+"type": "board",
+"id": "120_d2",
+"ch": 20
 },
 {
 "type": "p",
@@ -10743,62 +10839,56 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "120_dia0",
+"id": "120_d3",
 "ch": 20
 },
 {
 "type": "board",
-"id": "120_dia1",
+"id": "120_d4",
 "ch": 20
 },
 {
 "type": "board",
-"id": "120_dia2",
+"id": "120_d5",
 "ch": 20
 },
 {
 "type": "board",
-"id": "120_dia3",
+"id": "120_d6",
 "ch": 20
 },
 {
 "type": "board",
-"id": "120_dia4",
+"id": "120_d7",
+"ch": 20
+},
+{
+"type": "h3",
+"ch": 20,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "120_x0",
 "ch": 20
 },
 {
 "type": "board",
-"id": "120_dia5",
+"id": "120_x1",
 "ch": 20
 },
 {
 "type": "board",
-"id": "120_dia6",
+"id": "120_x2",
 "ch": 20
 },
 {
 "type": "board",
-"id": "120_dia7",
-"ch": 20
-},
-{
-"type": "board",
-"id": "120_ex0",
-"ch": 20
-},
-{
-"type": "board",
-"id": "120_ex1",
-"ch": 20
-},
-{
-"type": "board",
-"id": "120_ex2",
-"ch": 20
-},
-{
-"type": "board",
-"id": "120_ex3",
+"id": "120_x3",
 "ch": 20
 },
 {
@@ -11145,57 +11235,66 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "121_dia0",
+"id": "121_d0",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_dia1",
+"id": "121_d1",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_dia2",
+"id": "121_d2",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_dia3",
+"id": "121_d3",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_dia4",
+"id": "121_d4",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_dia5",
+"id": "121_d5",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_dia6",
+"id": "121_d6",
+"ch": 21
+},
+{
+"type": "h3",
+"ch": 21,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "121_x0",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_ex0",
+"id": "121_x1",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_ex1",
+"id": "121_x2",
 "ch": 21
 },
 {
 "type": "board",
-"id": "121_ex2",
-"ch": 21
-},
-{
-"type": "board",
-"id": "121_ex3",
+"id": "121_x3",
 "ch": 21
 },
 {
@@ -11686,102 +11785,102 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "123_dia0",
+"id": "123_d0",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia1",
+"id": "123_d1",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia2",
+"id": "123_d2",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia3",
+"id": "123_d3",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia4",
+"id": "123_d4",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia5",
+"id": "123_d5",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia6",
+"id": "123_d6",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia7",
+"id": "123_d7",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia8",
+"id": "123_d8",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia9",
+"id": "123_d9",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia10",
+"id": "123_d10",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia11",
+"id": "123_d11",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia12",
+"id": "123_d12",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia13",
+"id": "123_d13",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia14",
+"id": "123_d14",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia15",
+"id": "123_d15",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia16",
+"id": "123_d16",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia17",
+"id": "123_d17",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia18",
+"id": "123_d18",
 "ch": 23
 },
 {
 "type": "board",
-"id": "123_dia19",
+"id": "123_d19",
 "ch": 23
 },
 {
@@ -11927,6 +12026,11 @@ const DATA: ManuelData = {
 "t": "On voit que l’avant-poste 24 occupe une place stratégique sur le damier. Implanté dans les lignes adverses, il limite considérablement le champ d’action du camp opposé. La valeur de l’avant-poste 24 repose essentiellement sur trois critères, à savoir garantir la défense du pion, éviter un débordement sur l’aile droite et s’imposer au centre. Les formes de contre jeu consisteront donc essentiellement à isoler le pion taquin, à l’attaquer, ou à l’échanger. Nous verrons que la formation particulière du second diagramme offre de nombreuses manœuvres pour le camp adverse"
 }
 ]
+},
+{
+"type": "board",
+"id": "129_d1",
+"ch": 29
 },
 {
 "type": "p",
@@ -12542,57 +12646,52 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "129_dia0",
+"id": "129_d0",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia1",
+"id": "129_d2",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia2",
+"id": "129_d3",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia3",
+"id": "129_d4",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia4",
+"id": "129_d5",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia5",
+"id": "129_d6",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia6",
+"id": "129_d7",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia7",
+"id": "129_d8",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia8",
+"id": "129_d9",
 "ch": 29
 },
 {
 "type": "board",
-"id": "129_dia9",
-"ch": 29
-},
-{
-"type": "board",
-"id": "129_dia10",
+"id": "129_d10",
 "ch": 29
 },
 {
@@ -13776,97 +13875,106 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "130_dia0",
+"id": "130_d0",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia1",
+"id": "130_d1",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia2",
+"id": "130_d2",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia3",
+"id": "130_d3",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia4",
+"id": "130_d4",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia5",
+"id": "130_d5",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia6",
+"id": "130_d6",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia7",
+"id": "130_d7",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia8",
+"id": "130_d8",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia9",
+"id": "130_d9",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia10",
+"id": "130_d10",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia11",
+"id": "130_d11",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia12",
+"id": "130_d12",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia13",
+"id": "130_d13",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_dia14",
+"id": "130_d14",
+"ch": 30
+},
+{
+"type": "h3",
+"ch": 30,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "130_x0",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_ex0",
+"id": "130_x1",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_ex1",
+"id": "130_x2",
 "ch": 30
 },
 {
 "type": "board",
-"id": "130_ex2",
-"ch": 30
-},
-{
-"type": "board",
-"id": "130_ex3",
+"id": "130_x3",
 "ch": 30
 },
 {
@@ -14834,112 +14942,121 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "131_dia0",
+"id": "131_d0",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia1",
+"id": "131_d1",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia2",
+"id": "131_d2",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia3",
+"id": "131_d3",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia4",
+"id": "131_d4",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia5",
+"id": "131_d5",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia6",
+"id": "131_d6",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia7",
+"id": "131_d7",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia8",
+"id": "131_d8",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia9",
+"id": "131_d9",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia10",
+"id": "131_d10",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia11",
+"id": "131_d11",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia12",
+"id": "131_d12",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia13",
+"id": "131_d13",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia14",
+"id": "131_d14",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_dia15",
+"id": "131_d15",
+"ch": 31
+},
+{
+"type": "h3",
+"ch": 31,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "131_x0",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_ex0",
+"id": "131_x1",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_ex1",
+"id": "131_x2",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_ex2",
+"id": "131_x3",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_ex3",
+"id": "131_x4",
 "ch": 31
 },
 {
 "type": "board",
-"id": "131_ex4",
-"ch": 31
-},
-{
-"type": "board",
-"id": "131_ex5",
+"id": "131_x5",
 "ch": 31
 },
 {
@@ -15529,77 +15646,86 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "132_dia0",
+"id": "132_d0",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_dia1",
+"id": "132_d1",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_dia2",
+"id": "132_d2",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_dia3",
+"id": "132_d3",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_dia4",
+"id": "132_d4",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_dia5",
+"id": "132_d5",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_dia6",
+"id": "132_d6",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_dia7",
+"id": "132_d7",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_dia8",
+"id": "132_d8",
+"ch": 32
+},
+{
+"type": "h3",
+"ch": 32,
+"runs": [
+{
+"t": "Exercices"
+}
+]
+},
+{
+"type": "board",
+"id": "132_x0",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_ex0",
+"id": "132_x1",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_ex1",
+"id": "132_x2",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_ex2",
+"id": "132_x3",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_ex3",
+"id": "132_x4",
 "ch": 32
 },
 {
 "type": "board",
-"id": "132_ex4",
-"ch": 32
-},
-{
-"type": "board",
-"id": "132_ex5",
+"id": "132_x5",
 "ch": 32
 },
 {
@@ -15658,8 +15784,8 @@ const DATA: ManuelData = {
 }
 ],
 "positions": {
-"101_dia0": {
-"id": "101_dia0",
+"101_d0": {
+"id": "101_d0",
 "ch": 1,
 "title": "Camp des Noirs",
 "start": {
@@ -15702,8 +15828,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Camp des Noirs"
 },
-"101_dia1": {
-"id": "101_dia1",
+"101_d1": {
+"id": "101_d1",
 "ch": 1,
 "title": "Zone frontière",
 "start": {
@@ -15738,8 +15864,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Zone frontière"
 },
-"101_dia2": {
-"id": "101_dia2",
+"101_d2": {
+"id": "101_d2",
 "ch": 1,
 "title": "Territoire défensif des",
 "start": {
@@ -15759,8 +15885,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Territoire défensif des"
 },
-"101_dia3": {
-"id": "101_dia3",
+"101_d3": {
+"id": "101_d3",
 "ch": 1,
 "title": "Noirs",
 "start": {
@@ -15795,8 +15921,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Noirs"
 },
-"101_dia4": {
-"id": "101_dia4",
+"101_d4": {
+"id": "101_d4",
 "ch": 1,
 "title": "Zone frontière offensive",
 "start": {
@@ -15833,8 +15959,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Zone frontière offensive"
 },
-"101_dia5": {
-"id": "101_dia5",
+"101_d5": {
+"id": "101_d5",
 "ch": 1,
 "title": "Territoire défensif",
 "start": {
@@ -15871,8 +15997,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Territoire défensif"
 },
-"101_dia6": {
-"id": "101_dia6",
+"101_d6": {
+"id": "101_d6",
 "ch": 1,
 "title": "2 – Les déséquilibres latéraux",
 "start": {
@@ -15903,8 +16029,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "2 – Les déséquilibres latéraux"
 },
-"102_dia0": {
-"id": "102_dia0",
+"102_d0": {
+"id": "102_d0",
 "ch": 2,
 "title": "L’enchaînement latéral",
 "start": {
@@ -15921,8 +16047,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "L’enchaînement latéral"
 },
-"102_dia1": {
-"id": "102_dia1",
+"102_d1": {
+"id": "102_d1",
 "ch": 2,
 "title": "L’enchaînement en tenaille",
 "start": {
@@ -15941,8 +16067,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "L’enchaînement en tenaille"
 },
-"102_dia2": {
-"id": "102_dia2",
+"102_d2": {
+"id": "102_d2",
 "ch": 2,
 "title": "L’enchaînement latéral",
 "start": {
@@ -15961,8 +16087,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "L’enchaînement latéral"
 },
-"102_dia3": {
-"id": "102_dia3",
+"102_d3": {
+"id": "102_d3",
 "ch": 2,
 "title": "Le pion arrière",
 "start": {
@@ -15979,8 +16105,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le pion arrière"
 },
-"102_dia4": {
-"id": "102_dia4",
+"102_d4": {
+"id": "102_d4",
 "ch": 2,
 "title": "Le pion suspendu",
 "start": {
@@ -15997,8 +16123,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le pion suspendu"
 },
-"102_dia5": {
-"id": "102_dia5",
+"102_d5": {
+"id": "102_d5",
 "ch": 2,
 "title": "Le pion arrière",
 "start": {
@@ -16015,8 +16141,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le pion arrière"
 },
-"102_dia6": {
-"id": "102_dia6",
+"102_d6": {
+"id": "102_d6",
 "ch": 2,
 "title": "Le trèfle immobilisateur",
 "start": {
@@ -16037,8 +16163,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le trèfle immobilisateur"
 },
-"102_dia7": {
-"id": "102_dia7",
+"102_d7": {
+"id": "102_d7",
 "ch": 2,
 "title": "Le trèfle immobilisateur",
 "start": {
@@ -16058,8 +16184,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le trèfle immobilisateur"
 },
-"102_dia8": {
-"id": "102_dia8",
+"102_d8": {
+"id": "102_d8",
 "ch": 2,
 "title": "Le trèfle immobilisateur",
 "start": {
@@ -16080,8 +16206,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le trèfle immobilisateur"
 },
-"102_dia9": {
-"id": "102_dia9",
+"102_d9": {
+"id": "102_d9",
 "ch": 2,
 "title": "Le bon pion central",
 "start": {
@@ -16099,8 +16225,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le bon pion central"
 },
-"102_dia10": {
-"id": "102_dia10",
+"102_d10": {
+"id": "102_d10",
 "ch": 2,
 "title": "Le piquet canadien",
 "start": {
@@ -16118,8 +16244,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le piquet canadien"
 },
-"102_dia11": {
-"id": "102_dia11",
+"102_d11": {
+"id": "102_d11",
 "ch": 2,
 "title": "Le pion taquin",
 "start": {
@@ -16137,8 +16263,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le pion taquin"
 },
-"102_dia12": {
-"id": "102_dia12",
+"102_d12": {
+"id": "102_d12",
 "ch": 2,
 "title": "Le pion passé",
 "start": {
@@ -16155,8 +16281,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Le pion passé"
 },
-"102_dia13": {
-"id": "102_dia13",
+"102_d13": {
+"id": "102_d13",
 "ch": 2,
 "title": "Diag. 14",
 "start": {
@@ -16174,8 +16300,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 14"
 },
-"102_dia14": {
-"id": "102_dia14",
+"102_d14": {
+"id": "102_d14",
 "ch": 2,
 "title": "Diag. 15",
 "start": {
@@ -16190,8 +16316,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 15"
 },
-"102_dia15": {
-"id": "102_dia15",
+"102_d15": {
+"id": "102_d15",
 "ch": 2,
 "title": "LE TRAIT",
 "start": {
@@ -16214,8 +16340,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "LE TRAIT"
 },
-"102_dia16": {
-"id": "102_dia16",
+"102_d16": {
+"id": "102_d16",
 "ch": 2,
 "title": "LE TRAIT",
 "start": {
@@ -16240,8 +16366,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "LE TRAIT"
 },
-"102_dia17": {
-"id": "102_dia17",
+"102_d17": {
+"id": "102_d17",
 "ch": 2,
 "title": "L’ATTAQUE A CONTRE TEMPS",
 "start": {
@@ -16272,8 +16398,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "L’ATTAQUE A CONTRE TEMPS"
 },
-"102_dia18": {
-"id": "102_dia18",
+"102_d18": {
+"id": "102_d18",
 "ch": 2,
 "title": "L’ATTAQUE A CONTRE TEMPS",
 "start": {
@@ -16304,8 +16430,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "L’ATTAQUE A CONTRE TEMPS"
 },
-"102_dia19": {
-"id": "102_dia19",
+"102_d19": {
+"id": "102_d19",
 "ch": 2,
 "title": "Trait aux noirs",
 "start": {
@@ -16336,8 +16462,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"102_ex0": {
-"id": "102_ex0",
+"102_x0": {
+"id": "102_x0",
 "ch": 2,
 "title": "LA NOTION D'AVANTAGE – D1",
 "start": {
@@ -16380,8 +16506,8 @@ const DATA: ManuelData = {
 "pub": "32-27 23x34 39x30",
 "win": "white"
 },
-"102_ex1": {
-"id": "102_ex1",
+"102_x1": {
+"id": "102_x1",
 "ch": 2,
 "title": "LA NOTION D'AVANTAGE – D2",
 "start": {
@@ -16432,8 +16558,8 @@ const DATA: ManuelData = {
 "pub": "34-29 11-16 27-21 19-23 27-21 23-28 33x22 17x28 21-16",
 "win": "white"
 },
-"102_ex2": {
-"id": "102_ex2",
+"102_x2": {
+"id": "102_x2",
 "ch": 2,
 "title": "LA NOTION D'AVANTAGE – D3",
 "start": {
@@ -16484,8 +16610,8 @@ const DATA: ManuelData = {
 "pub": "48-42 12x23 28x10 4x15 39-34",
 "win": "white"
 },
-"102_ex3": {
-"id": "102_ex3",
+"102_x3": {
+"id": "102_x3",
 "ch": 2,
 "title": "LA NOTION D'AVANTAGE – D4",
 "start": {
@@ -16530,8 +16656,8 @@ const DATA: ManuelData = {
 "pub": "23-18 22x31 36x27",
 "win": "white"
 },
-"102_ex4": {
-"id": "102_ex4",
+"102_x4": {
+"id": "102_x4",
 "ch": 2,
 "title": "LA NOTION D'AVANTAGE – D5",
 "start": {
@@ -16580,8 +16706,8 @@ const DATA: ManuelData = {
 "pub": "25-20 19x30 28-23 15x24 29x20 18x29 33x35 12-18 20-15 9-14",
 "win": "white"
 },
-"102_ex5": {
-"id": "102_ex5",
+"102_x5": {
+"id": "102_x5",
 "ch": 2,
 "title": "LA NOTION D'AVANTAGE – D6",
 "start": {
@@ -16628,58 +16754,8 @@ const DATA: ManuelData = {
 "pub": "25-20 33-29 27-32 38x27 22x31 25-20 15x33 34-29 33x24 30x10",
 "win": "white"
 },
-"103_dia0": {
-"id": "103_dia0",
-"ch": 3,
-"title": "Diag. 1",
-"start": {
-"wm": [
-27,
-30,
-33,
-48
-],
-"wk": [],
-"bm": [
-13,
-18,
-19,
-23
-],
-"bk": [],
-"turn": "white"
-},
-"moves": [],
-"theme": "Diag. 1"
-},
-"103_dia1": {
-"id": "103_dia1",
-"ch": 3,
-"title": "Diag. 2",
-"start": {
-"wm": [
-26,
-27,
-32,
-48,
-49
-],
-"wk": [],
-"bm": [
-6,
-11,
-16,
-17,
-21
-],
-"bk": [],
-"turn": "white"
-},
-"moves": [],
-"theme": "Diag. 2"
-},
-"103_dia2": {
-"id": "103_dia2",
+"103_d2": {
+"id": "103_d2",
 "ch": 3,
 "title": "Alexander BALIAKIN - Ryszard STENCEL",
 "start": {
@@ -16706,8 +16782,58 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Alexander BALIAKIN - Ryszard STENCEL"
 },
-"103_dia3": {
-"id": "103_dia3",
+"103_d0": {
+"id": "103_d0",
+"ch": 3,
+"title": "Diag. 1",
+"start": {
+"wm": [
+27,
+30,
+33,
+48
+],
+"wk": [],
+"bm": [
+13,
+18,
+19,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [],
+"theme": "Diag. 1"
+},
+"103_d1": {
+"id": "103_d1",
+"ch": 3,
+"title": "Diag. 2",
+"start": {
+"wm": [
+26,
+27,
+32,
+48,
+49
+],
+"wk": [],
+"bm": [
+6,
+11,
+16,
+17,
+21
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [],
+"theme": "Diag. 2"
+},
+"103_d3": {
+"id": "103_d3",
 "ch": 3,
 "title": "Soezdal 1981",
 "start": {
@@ -16742,8 +16868,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Soezdal 1981"
 },
-"103_dia4": {
-"id": "103_dia4",
+"103_d4": {
+"id": "103_d4",
 "ch": 3,
 "title": "Trait aux blancs",
 "start": {
@@ -16778,8 +16904,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"103_dia5": {
-"id": "103_dia5",
+"103_d5": {
+"id": "103_d5",
 "ch": 3,
 "title": "Trait aux noirs",
 "start": {
@@ -16814,8 +16940,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"103_dia6": {
-"id": "103_dia6",
+"103_d6": {
+"id": "103_d6",
 "ch": 3,
 "title": "Trait aux noirs",
 "start": {
@@ -16846,8 +16972,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"103_dia7": {
-"id": "103_dia7",
+"103_d7": {
+"id": "103_d7",
 "ch": 3,
 "title": "Diag. 8",
 "start": {
@@ -16880,8 +17006,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 8"
 },
-"103_ex0": {
-"id": "103_ex0",
+"103_x0": {
+"id": "103_x0",
 "ch": 3,
 "title": "LIBERTÉ DE MOUVEMENT – D1",
 "start": {
@@ -16928,8 +17054,8 @@ const DATA: ManuelData = {
 "pub": "29-23 22x33 36x27",
 "win": "white"
 },
-"103_ex1": {
-"id": "103_ex1",
+"103_x1": {
+"id": "103_x1",
 "ch": 3,
 "title": "LIBERTÉ DE MOUVEMENT – D2",
 "start": {
@@ -16976,8 +17102,8 @@ const DATA: ManuelData = {
 "pub": "32-28 18x29 33x24 19x30 35x24",
 "win": "white"
 },
-"103_ex2": {
-"id": "103_ex2",
+"103_x2": {
+"id": "103_x2",
 "ch": 3,
 "title": "LIBERTÉ DE MOUVEMENT – D3",
 "start": {
@@ -17035,8 +17161,8 @@ const DATA: ManuelData = {
 "pub": "34-29 23x34 40x20 15x24 32-27 37-32",
 "win": "white"
 },
-"103_ex3": {
-"id": "103_ex3",
+"103_x3": {
+"id": "103_x3",
 "ch": 3,
 "title": "LIBERTÉ DE MOUVEMENT – D4",
 "start": {
@@ -17099,8 +17225,8 @@ const DATA: ManuelData = {
 "pub": "32-27 8-13 43-39",
 "win": "white"
 },
-"103_ex4": {
-"id": "103_ex4",
+"103_x4": {
+"id": "103_x4",
 "ch": 3,
 "title": "LIBERTÉ DE MOUVEMENT – D5",
 "start": {
@@ -17145,8 +17271,8 @@ const DATA: ManuelData = {
 "pub": "43-39",
 "win": "white"
 },
-"103_ex5": {
-"id": "103_ex5",
+"103_x5": {
+"id": "103_x5",
 "ch": 3,
 "title": "LIBERTÉ DE MOUVEMENT – D6",
 "start": {
@@ -17208,8 +17334,42 @@ const DATA: ManuelData = {
 "pub": "39-34 24-29 11-17 43-38",
 "win": "white"
 },
-"104_dia0": {
-"id": "104_dia0",
+"104_d1": {
+"id": "104_d1",
+"ch": 4,
+"title": "Trait aux noirs",
+"start": {
+"wm": [
+24,
+27,
+28,
+32,
+36,
+37,
+38,
+39,
+45
+],
+"wk": [],
+"bm": [
+8,
+12,
+13,
+15,
+16,
+18,
+21,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [],
+"theme": "Trait aux noirs"
+},
+"104_d0": {
+"id": "104_d0",
 "ch": 4,
 "title": "Trait aux blancs",
 "start": {
@@ -17246,42 +17406,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"104_dia1": {
-"id": "104_dia1",
-"ch": 4,
-"title": "Trait aux noirs",
-"start": {
-"wm": [
-24,
-27,
-28,
-32,
-36,
-37,
-38,
-39,
-45
-],
-"wk": [],
-"bm": [
-8,
-12,
-13,
-15,
-16,
-18,
-21,
-25,
-26
-],
-"bk": [],
-"turn": "white"
-},
-"moves": [],
-"theme": "Trait aux noirs"
-},
-"104_dia2": {
-"id": "104_dia2",
+"104_d2": {
+"id": "104_d2",
 "ch": 4,
 "title": "Trait aux noirs",
 "start": {
@@ -17318,8 +17444,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"104_dia3": {
-"id": "104_dia3",
+"104_d3": {
+"id": "104_d3",
 "ch": 4,
 "title": "Trait aux noirs",
 "start": {
@@ -17354,8 +17480,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"104_ex0": {
-"id": "104_ex0",
+"104_x0": {
+"id": "104_x0",
 "ch": 4,
 "title": "LES ÉCHANGES – D1",
 "start": {
@@ -17406,8 +17532,8 @@ const DATA: ManuelData = {
 "pub": "33-29 18x29 34x23",
 "win": "white"
 },
-"104_ex1": {
-"id": "104_ex1",
+"104_x1": {
+"id": "104_x1",
 "ch": 4,
 "title": "LES ÉCHANGES – D2",
 "start": {
@@ -17456,8 +17582,8 @@ const DATA: ManuelData = {
 "pub": "29-23 24x33 39x28",
 "win": "white"
 },
-"104_ex2": {
-"id": "104_ex2",
+"104_x2": {
+"id": "104_x2",
 "ch": 4,
 "title": "LES ÉCHANGES – D3",
 "start": {
@@ -17512,8 +17638,8 @@ const DATA: ManuelData = {
 "pub": "25-20 23x34 40x20 14x25 33-29",
 "win": "white"
 },
-"104_ex3": {
-"id": "104_ex3",
+"104_x3": {
+"id": "104_x3",
 "ch": 4,
 "title": "LES ÉCHANGES – D4",
 "start": {
@@ -17567,8 +17693,8 @@ const DATA: ManuelData = {
 "pub": "27-22 14x34 40x7 2x11 43-39 3-8 28-23 19x28 32x23",
 "win": "white"
 },
-"104_ex4": {
-"id": "104_ex4",
+"104_x4": {
+"id": "104_x4",
 "ch": 4,
 "title": "LES ÉCHANGES – D5",
 "start": {
@@ -17621,8 +17747,8 @@ const DATA: ManuelData = {
 "pub": "34-30 16x27 31x22 18x27 32x21 23x32 38x27",
 "win": "white"
 },
-"104_ex5": {
-"id": "104_ex5",
+"104_x5": {
+"id": "104_x5",
 "ch": 4,
 "title": "LES ÉCHANGES – D6",
 "start": {
@@ -17678,8 +17804,8 @@ const DATA: ManuelData = {
 "pub": "31-26 28-22 28-22 17x28 33x22",
 "win": "white"
 },
-"105_dia0": {
-"id": "105_dia0",
+"105_d0": {
+"id": "105_d0",
 "ch": 5,
 "title": "Trait aux blancs",
 "start": {
@@ -17714,8 +17840,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"105_dia1": {
-"id": "105_dia1",
+"105_d1": {
+"id": "105_d1",
 "ch": 5,
 "title": "Alexander Georgiev – Valery Kudriavcev",
 "start": {
@@ -17742,8 +17868,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Alexander Georgiev – Valery Kudriavcev"
 },
-"105_dia2": {
-"id": "105_dia2",
+"105_d2": {
+"id": "105_d2",
 "ch": 5,
 "title": "Jan Bom – Ton Sijbrands",
 "start": {
@@ -17776,8 +17902,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Jan Bom – Ton Sijbrands"
 },
-"105_dia3": {
-"id": "105_dia3",
+"105_d3": {
+"id": "105_d3",
 "ch": 5,
 "title": "Cht Pays-Bas 1966",
 "start": {
@@ -17808,8 +17934,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Cht Pays-Bas 1966"
 },
-"105_dia4": {
-"id": "105_dia4",
+"105_d4": {
+"id": "105_d4",
 "ch": 5,
 "title": "Radjinder Jharap – Hans Jansen",
 "start": {
@@ -17840,8 +17966,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Radjinder Jharap – Hans Jansen"
 },
-"105_dia5": {
-"id": "105_dia5",
+"105_d5": {
+"id": "105_d5",
 "ch": 5,
 "title": "VAD Paastoernooi, 03-04-2015",
 "start": {
@@ -17874,8 +18000,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "VAD Paastoernooi, 03-04-2015"
 },
-"105_dia6": {
-"id": "105_dia6",
+"105_d6": {
+"id": "105_d6",
 "ch": 5,
 "title": "Trait aux noirs",
 "start": {
@@ -17908,8 +18034,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"105_dia7": {
-"id": "105_dia7",
+"105_d7": {
+"id": "105_d7",
 "ch": 5,
 "title": "Trait aux blancs",
 "start": {
@@ -17927,8 +18053,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"105_dia8": {
-"id": "105_dia8",
+"105_d8": {
+"id": "105_d8",
 "ch": 5,
 "title": "Trait aux blancs",
 "start": {
@@ -17947,8 +18073,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"105_dia9": {
-"id": "105_dia9",
+"105_d9": {
+"id": "105_d9",
 "ch": 5,
 "title": "Trait aux blancs",
 "start": {
@@ -17967,8 +18093,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"105_dia10": {
-"id": "105_dia10",
+"105_d10": {
+"id": "105_d10",
 "ch": 5,
 "title": "Trait aux noirs",
 "start": {
@@ -17986,8 +18112,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"105_dia11": {
-"id": "105_dia11",
+"105_d11": {
+"id": "105_d11",
 "ch": 5,
 "title": "Trait aux noirs",
 "start": {
@@ -18005,8 +18131,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"105_dia12": {
-"id": "105_dia12",
+"105_d12": {
+"id": "105_d12",
 "ch": 5,
 "title": "Trait aux noirs",
 "start": {
@@ -18024,8 +18150,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"105_dia13": {
-"id": "105_dia13",
+"105_d13": {
+"id": "105_d13",
 "ch": 5,
 "title": "Trait aux blancs (-4T)",
 "start": {
@@ -18056,8 +18182,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs (-4T)"
 },
-"105_dia14": {
-"id": "105_dia14",
+"105_d14": {
+"id": "105_d14",
 "ch": 5,
 "title": "Trait aux blancs (0T)",
 "start": {
@@ -18082,8 +18208,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs (0T)"
 },
-"105_dia15": {
-"id": "105_dia15",
+"105_d15": {
+"id": "105_d15",
 "ch": 5,
 "title": "Diag. 16",
 "start": {
@@ -18138,8 +18264,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 16"
 },
-"105_dia16": {
-"id": "105_dia16",
+"105_d16": {
+"id": "105_d16",
 "ch": 5,
 "title": "Diag. 17",
 "start": {
@@ -18192,8 +18318,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 17"
 },
-"105_dia17": {
-"id": "105_dia17",
+"105_d17": {
+"id": "105_d17",
 "ch": 5,
 "title": "Diag. 18",
 "start": {
@@ -18246,8 +18372,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 18"
 },
-"105_dia18": {
-"id": "105_dia18",
+"105_d18": {
+"id": "105_d18",
 "ch": 5,
 "title": "Diag. 19",
 "start": {
@@ -18298,8 +18424,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 19"
 },
-"105_dia19": {
-"id": "105_dia19",
+"105_d19": {
+"id": "105_d19",
 "ch": 5,
 "title": "Diag. 20",
 "start": {
@@ -18350,8 +18476,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 20"
 },
-"105_dia20": {
-"id": "105_dia20",
+"105_d20": {
+"id": "105_d20",
 "ch": 5,
 "title": "Diag. 21",
 "start": {
@@ -18400,8 +18526,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 21"
 },
-"105_dia21": {
-"id": "105_dia21",
+"105_d21": {
+"id": "105_d21",
 "ch": 5,
 "title": "Diag. 22",
 "start": {
@@ -18450,8 +18576,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 22"
 },
-"105_dia22": {
-"id": "105_dia22",
+"105_d22": {
+"id": "105_d22",
 "ch": 5,
 "title": "Diag. 23",
 "start": {
@@ -18496,8 +18622,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 23"
 },
-"105_dia23": {
-"id": "105_dia23",
+"105_d23": {
+"id": "105_d23",
 "ch": 5,
 "title": "Diag. 24",
 "start": {
@@ -18542,8 +18668,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 24"
 },
-"105_dia24": {
-"id": "105_dia24",
+"105_d24": {
+"id": "105_d24",
 "ch": 5,
 "title": "Diag. 25",
 "start": {
@@ -18586,8 +18712,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 25"
 },
-"105_dia25": {
-"id": "105_dia25",
+"105_d25": {
+"id": "105_d25",
 "ch": 5,
 "title": "Diag. 26",
 "start": {
@@ -18630,8 +18756,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 26"
 },
-"105_dia26": {
-"id": "105_dia26",
+"105_d26": {
+"id": "105_d26",
 "ch": 5,
 "title": "Diag. 27",
 "start": {
@@ -18672,8 +18798,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 27"
 },
-"105_dia27": {
-"id": "105_dia27",
+"105_d27": {
+"id": "105_d27",
 "ch": 5,
 "title": "43. 37-31 etc. +",
 "start": {
@@ -18714,8 +18840,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "43. 37-31 etc. +"
 },
-"105_dia28": {
-"id": "105_dia28",
+"105_d28": {
+"id": "105_d28",
 "ch": 5,
 "title": "Diag. 29",
 "start": {
@@ -18754,8 +18880,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 29"
 },
-"105_dia29": {
-"id": "105_dia29",
+"105_d29": {
+"id": "105_d29",
 "ch": 5,
 "title": "Diag. 30",
 "start": {
@@ -18794,8 +18920,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 30"
 },
-"105_dia30": {
-"id": "105_dia30",
+"105_d30": {
+"id": "105_d30",
 "ch": 5,
 "title": "Diag. 31",
 "start": {
@@ -18832,8 +18958,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 31"
 },
-"105_dia31": {
-"id": "105_dia31",
+"105_d31": {
+"id": "105_d31",
 "ch": 5,
 "title": "Diag. 32",
 "start": {
@@ -18870,8 +18996,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 32"
 },
-"105_dia32": {
-"id": "105_dia32",
+"105_d32": {
+"id": "105_d32",
 "ch": 5,
 "title": "Diag. 33",
 "start": {
@@ -18906,8 +19032,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 33"
 },
-"106_dia0": {
-"id": "106_dia0",
+"106_d0": {
+"id": "106_d0",
 "ch": 6,
 "title": "Trait aux blancs",
 "start": {
@@ -18930,8 +19056,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"106_dia1": {
-"id": "106_dia1",
+"106_d1": {
+"id": "106_d1",
 "ch": 6,
 "title": "Diag. 2",
 "start": {
@@ -18966,8 +19092,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 2"
 },
-"106_dia2": {
-"id": "106_dia2",
+"106_d2": {
+"id": "106_d2",
 "ch": 6,
 "title": "Diag. 3",
 "start": {
@@ -19002,8 +19128,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 3"
 },
-"106_dia3": {
-"id": "106_dia3",
+"106_d3": {
+"id": "106_d3",
 "ch": 6,
 "title": "Trait aux noirs",
 "start": {
@@ -19038,8 +19164,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"106_dia4": {
-"id": "106_dia4",
+"106_d4": {
+"id": "106_d4",
 "ch": 6,
 "title": "Diag. 5",
 "start": {
@@ -19074,8 +19200,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 5"
 },
-"106_dia5": {
-"id": "106_dia5",
+"106_d5": {
+"id": "106_d5",
 "ch": 6,
 "title": "Diag. 6",
 "start": {
@@ -19110,8 +19236,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 6"
 },
-"106_dia6": {
-"id": "106_dia6",
+"106_d6": {
+"id": "106_d6",
 "ch": 6,
 "title": "Ben Provoost – Ton Bollebakker",
 "start": {
@@ -19152,8 +19278,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Ben Provoost – Ton Bollebakker"
 },
-"106_dia7": {
-"id": "106_dia7",
+"106_d7": {
+"id": "106_d7",
 "ch": 6,
 "title": "Barnsteen, 2003",
 "start": {
@@ -19194,8 +19320,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Barnsteen, 2003"
 },
-"106_dia8": {
-"id": "106_dia8",
+"106_d8": {
+"id": "106_d8",
 "ch": 6,
 "title": "Les noirs abandonnent",
 "start": {
@@ -19230,8 +19356,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Les noirs abandonnent"
 },
-"107_dia0": {
-"id": "107_dia0",
+"107_d0": {
+"id": "107_d0",
 "ch": 7,
 "title": "Trait aux noirs",
 "start": {
@@ -19258,8 +19384,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"107_dia1": {
-"id": "107_dia1",
+"107_d1": {
+"id": "107_d1",
 "ch": 7,
 "title": "Hans JANSEN – Jeoeren KOS",
 "start": {
@@ -19290,8 +19416,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Hans JANSEN – Jeoeren KOS"
 },
-"107_dia2": {
-"id": "107_dia2",
+"107_d2": {
+"id": "107_d2",
 "ch": 7,
 "title": "Pays Bas 1993",
 "start": {
@@ -19322,8 +19448,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Pays Bas 1993"
 },
-"107_dia3": {
-"id": "107_dia3",
+"107_d3": {
+"id": "107_d3",
 "ch": 7,
 "title": "Hans VROLIJK – Wim VRIJLAND",
 "start": {
@@ -19350,8 +19476,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Hans VROLIJK – Wim VRIJLAND"
 },
-"107_dia4": {
-"id": "107_dia4",
+"107_d4": {
+"id": "107_d4",
 "ch": 7,
 "title": "Rotterdam 1972",
 "start": {
@@ -19380,8 +19506,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Rotterdam 1972"
 },
-"107_dia5": {
-"id": "107_dia5",
+"107_d5": {
+"id": "107_d5",
 "ch": 7,
 "title": "Aristo BONGUEN – Arnaud CORDIER",
 "start": {
@@ -19414,8 +19540,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Aristo BONGUEN – Arnaud CORDIER"
 },
-"107_dia6": {
-"id": "107_dia6",
+"107_d6": {
+"id": "107_d6",
 "ch": 7,
 "title": "Paris 1995",
 "start": {
@@ -19442,8 +19568,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Paris 1995"
 },
-"107_dia7": {
-"id": "107_dia7",
+"107_d7": {
+"id": "107_d7",
 "ch": 7,
 "title": "Trait aux blancs",
 "start": {
@@ -19474,8 +19600,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"108_dia0": {
-"id": "108_dia0",
+"108_d0": {
+"id": "108_d0",
 "ch": 8,
 "title": "Diag. 1",
 "start": {
@@ -19513,8 +19639,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 1"
 },
-"108_dia1": {
-"id": "108_dia1",
+"108_d1": {
+"id": "108_d1",
 "ch": 8,
 "title": "Trait aux blancs",
 "start": {
@@ -19555,8 +19681,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"108_dia2": {
-"id": "108_dia2",
+"108_d2": {
+"id": "108_d2",
 "ch": 8,
 "title": "Trait aux blancs",
 "start": {
@@ -19595,8 +19721,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"108_dia3": {
-"id": "108_dia3",
+"108_d3": {
+"id": "108_d3",
 "ch": 8,
 "title": "Trait aux blancs",
 "start": {
@@ -19637,8 +19763,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"108_dia4": {
-"id": "108_dia4",
+"108_d4": {
+"id": "108_d4",
 "ch": 8,
 "title": "Trait aux blancs",
 "start": {
@@ -19675,8 +19801,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"108_dia5": {
-"id": "108_dia5",
+"108_d5": {
+"id": "108_d5",
 "ch": 8,
 "title": "révèle délicate",
 "start": {
@@ -19717,8 +19843,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "révèle délicate"
 },
-"108_ex0": {
-"id": "108_ex0",
+"108_x0": {
+"id": "108_x0",
 "ch": 8,
 "title": "LE PION D'ANGLE 46 (1) – D1",
 "start": {
@@ -19782,8 +19908,8 @@ const DATA: ManuelData = {
 "pub": "24-29 33x24 19x39 43x34 12-18 28x19 13x24",
 "win": "black"
 },
-"108_ex1": {
-"id": "108_ex1",
+"108_x1": {
+"id": "108_x1",
 "ch": 8,
 "title": "LE PION D'ANGLE 46 (1) – D2",
 "start": {
@@ -19836,8 +19962,8 @@ const DATA: ManuelData = {
 "pub": "27-22 17x28 33x22",
 "win": "white"
 },
-"108_ex2": {
-"id": "108_ex2",
+"108_x2": {
+"id": "108_x2",
 "ch": 8,
 "title": "LE PION D'ANGLE 46 (1) – D3",
 "start": {
@@ -19898,8 +20024,8 @@ const DATA: ManuelData = {
 "pub": "47-41 26x37 34-29 23x34 40x20 15x24 27-22 18x27 32x12 8x17",
 "win": "white"
 },
-"108_ex3": {
-"id": "108_ex3",
+"108_x3": {
+"id": "108_x3",
 "ch": 8,
 "title": "LE PION D'ANGLE 46 (1) – D4",
 "start": {
@@ -19966,8 +20092,8 @@ const DATA: ManuelData = {
 "pub": "39-34 32-28 23x32 37x28 26x37 41x32",
 "win": "white"
 },
-"109_dia0": {
-"id": "109_dia0",
+"109_d0": {
+"id": "109_d0",
 "ch": 9,
 "title": "1 – DEBUT 32-28 (19-23x23)",
 "start": {
@@ -20020,8 +20146,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "1 – DEBUT 32-28 (19-23x23)"
 },
-"109_dia1": {
-"id": "109_dia1",
+"109_d1": {
+"id": "109_d1",
 "ch": 9,
 "title": "Diag. 2",
 "start": {
@@ -20074,8 +20200,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 2"
 },
-"109_dia2": {
-"id": "109_dia2",
+"109_d2": {
+"id": "109_d2",
 "ch": 9,
 "title": "Diag. 3",
 "start": {
@@ -20126,8 +20252,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 3"
 },
-"109_dia3": {
-"id": "109_dia3",
+"109_d3": {
+"id": "109_d3",
 "ch": 9,
 "title": "Diag. 4",
 "start": {
@@ -20180,8 +20306,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 4"
 },
-"109_dia4": {
-"id": "109_dia4",
+"109_d4": {
+"id": "109_d4",
 "ch": 9,
 "title": "Diag. 5",
 "start": {
@@ -20232,8 +20358,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 5"
 },
-"109_dia5": {
-"id": "109_dia5",
+"109_d5": {
+"id": "109_d5",
 "ch": 9,
 "title": "Diag. 6",
 "start": {
@@ -20284,8 +20410,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 6"
 },
-"109_dia6": {
-"id": "109_dia6",
+"109_d6": {
+"id": "109_d6",
 "ch": 9,
 "title": "Diag. 7",
 "start": {
@@ -20336,8 +20462,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 7"
 },
-"109_dia7": {
-"id": "109_dia7",
+"109_d7": {
+"id": "109_d7",
 "ch": 9,
 "title": "2 – DEBUT 32-28 (20-25)",
 "start": {
@@ -20392,8 +20518,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "2 – DEBUT 32-28 (20-25)"
 },
-"109_dia8": {
-"id": "109_dia8",
+"109_d8": {
+"id": "109_d8",
 "ch": 9,
 "title": "3 – DEBUT 32-28 (17-21)",
 "start": {
@@ -20446,8 +20572,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "3 – DEBUT 32-28 (17-21)"
 },
-"109_dia9": {
-"id": "109_dia9",
+"109_d9": {
+"id": "109_d9",
 "ch": 9,
 "title": "4 – DEBUT 33-28 (17-21)",
 "start": {
@@ -20500,8 +20626,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "4 – DEBUT 33-28 (17-21)"
 },
-"109_ex0": {
-"id": "109_ex0",
+"109_x0": {
+"id": "109_x0",
 "ch": 9,
 "title": "LE PION D'ANGLE 46 (2) – D1",
 "start": {
@@ -20568,8 +20694,8 @@ const DATA: ManuelData = {
 "pub": "27-22 18x27 38-33 27x29 37-31 23x32 34x5 32-28",
 "win": "white"
 },
-"109_ex1": {
-"id": "109_ex1",
+"109_x1": {
+"id": "109_x1",
 "ch": 9,
 "title": "LE PION D'ANGLE 46 (2) – D2",
 "start": {
@@ -20636,8 +20762,8 @@ const DATA: ManuelData = {
 "pub": "27-22 31-27 27-22 18x29 37-31 26x37 42x31 23x32 34x5",
 "win": "white"
 },
-"109_ex2": {
-"id": "109_ex2",
+"109_x2": {
+"id": "109_x2",
 "ch": 9,
 "title": "LE PION D'ANGLE 46 (2) – D3",
 "start": {
@@ -20702,8 +20828,8 @@ const DATA: ManuelData = {
 "pub": "27-22 27-22 18x27 38-33 27x29 37-31 23x32 34x5",
 "win": "white"
 },
-"109_ex3": {
-"id": "109_ex3",
+"109_x3": {
+"id": "109_x3",
 "ch": 9,
 "title": "LE PION D'ANGLE 46 (2) – D4",
 "start": {
@@ -20770,8 +20896,8 @@ const DATA: ManuelData = {
 "pub": "37-31 5-10 12x21",
 "win": "white"
 },
-"109_ex4": {
-"id": "109_ex4",
+"109_x4": {
+"id": "109_x4",
 "ch": 9,
 "title": "LE PION D'ANGLE 46 (2) – D5",
 "start": {
@@ -20836,8 +20962,8 @@ const DATA: ManuelData = {
 "pub": "33-29 27-22 18x27 32x21 23x43 49x38 16x27 38-32 27x29 34x5",
 "win": "white"
 },
-"110_dia0": {
-"id": "110_dia0",
+"110_d0": {
+"id": "110_d0",
 "ch": 10,
 "title": "Trait aux noirs",
 "start": {
@@ -20860,8 +20986,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"110_dia1": {
-"id": "110_dia1",
+"110_d1": {
+"id": "110_d1",
 "ch": 10,
 "title": "Trait aux noirs",
 "start": {
@@ -20896,8 +21022,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"110_dia2": {
-"id": "110_dia2",
+"110_d2": {
+"id": "110_d2",
 "ch": 10,
 "title": "Diag. 3",
 "start": {
@@ -20934,8 +21060,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 3"
 },
-"110_dia3": {
-"id": "110_dia3",
+"110_d3": {
+"id": "110_d3",
 "ch": 10,
 "title": "Trait aux noirs",
 "start": {
@@ -20974,8 +21100,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"110_dia4": {
-"id": "110_dia4",
+"110_d4": {
+"id": "110_d4",
 "ch": 10,
 "title": "Sur (3-8) suit 28-22x22",
 "start": {
@@ -21028,8 +21154,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Sur (3-8) suit 28-22x22"
 },
-"110_dia5": {
-"id": "110_dia5",
+"110_d5": {
+"id": "110_d5",
 "ch": 10,
 "title": "Diag. 6",
 "start": {
@@ -21072,8 +21198,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 6"
 },
-"110_dia6": {
-"id": "110_dia6",
+"110_d6": {
+"id": "110_d6",
 "ch": 10,
 "title": "Trait aux blancs",
 "start": {
@@ -21112,8 +21238,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"110_dia7": {
-"id": "110_dia7",
+"110_d7": {
+"id": "110_d7",
 "ch": 10,
 "title": "Diag. 8",
 "start": {
@@ -21150,8 +21276,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 8"
 },
-"110_dia8": {
-"id": "110_dia8",
+"110_d8": {
+"id": "110_d8",
 "ch": 10,
 "title": "Diag. 9",
 "start": {
@@ -21184,8 +21310,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 9"
 },
-"110_ex0": {
-"id": "110_ex0",
+"110_x0": {
+"id": "110_x0",
 "ch": 10,
 "title": "LE PION D'ANGLE 46 (3) – D1",
 "start": {
@@ -21246,8 +21372,8 @@ const DATA: ManuelData = {
 "pub": "35-30 24x35 33-29 23x34 39x30 35x24 28-22 17x28 32x5",
 "win": "white"
 },
-"110_ex1": {
-"id": "110_ex1",
+"110_x1": {
+"id": "110_x1",
 "ch": 10,
 "title": "LE PION D'ANGLE 46 (3) – D2",
 "start": {
@@ -21306,8 +21432,8 @@ const DATA: ManuelData = {
 "pub": "35-30 25x34 40x20 15x24 35-30 24x35 33-29 23x34 39x30 35x24",
 "win": "white"
 },
-"110_ex2": {
-"id": "110_ex2",
+"110_x2": {
+"id": "110_x2",
 "ch": 10,
 "title": "LE PION D'ANGLE 46 (3) – D3",
 "start": {
@@ -21370,8 +21496,8 @@ const DATA: ManuelData = {
 "pub": "25-20 23x34 39x30 25x34 28-22 17x39 38-33 39x28 32x5",
 "win": "white"
 },
-"110_ex3": {
-"id": "110_ex3",
+"110_x3": {
+"id": "110_x3",
 "ch": 10,
 "title": "LE PION D'ANGLE 46 (3) – D4",
 "start": {
@@ -21432,8 +21558,8 @@ const DATA: ManuelData = {
 "pub": "34-29 14x34 40x18 12x23 35-30 24x35 33-29 23x34 39x30 35x24",
 "win": "white"
 },
-"111_dia0": {
-"id": "111_dia0",
+"111_d0": {
+"id": "111_d0",
 "ch": 11,
 "title": "Trait aux blancs",
 "start": {
@@ -21454,8 +21580,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"111_dia1": {
-"id": "111_dia1",
+"111_d1": {
+"id": "111_d1",
 "ch": 11,
 "title": "Alexander Georgiev – Andrej Kalmakov",
 "start": {
@@ -21486,8 +21612,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Alexander Georgiev – Andrej Kalmakov"
 },
-"111_dia2": {
-"id": "111_dia2",
+"111_d2": {
+"id": "111_d2",
 "ch": 11,
 "title": "Wch Challenge Mondial Jakoetsk, 2002",
 "start": {
@@ -21516,8 +21642,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Wch Challenge Mondial Jakoetsk, 2002"
 },
-"111_dia3": {
-"id": "111_dia3",
+"111_d3": {
+"id": "111_d3",
 "ch": 11,
 "title": "Alexander Georgiev - A. Moiseev",
 "start": {
@@ -21542,8 +21668,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Alexander Georgiev - A. Moiseev"
 },
-"111_dia4": {
-"id": "111_dia4",
+"111_d4": {
+"id": "111_d4",
 "ch": 11,
 "title": "Confederation Cup Men, 2001",
 "start": {
@@ -21574,8 +21700,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Confederation Cup Men, 2001"
 },
-"111_dia5": {
-"id": "111_dia5",
+"111_d5": {
+"id": "111_d5",
 "ch": 11,
 "title": "Salou, 1998",
 "start": {
@@ -21606,8 +21732,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Salou, 1998"
 },
-"112_dia0": {
-"id": "112_dia0",
+"112_d0": {
+"id": "112_d0",
 "ch": 12,
 "title": "Diag. 1",
 "start": {
@@ -21625,8 +21751,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 1"
 },
-"112_dia1": {
-"id": "112_dia1",
+"112_d1": {
+"id": "112_d1",
 "ch": 12,
 "title": "Diag. 2",
 "start": {
@@ -21646,8 +21772,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 2"
 },
-"112_dia2": {
-"id": "112_dia2",
+"112_d2": {
+"id": "112_d2",
 "ch": 12,
 "title": "Diag. 3",
 "start": {
@@ -21667,8 +21793,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 3"
 },
-"112_dia3": {
-"id": "112_dia3",
+"112_d3": {
+"id": "112_d3",
 "ch": 12,
 "title": "Diag. 4",
 "start": {
@@ -21689,8 +21815,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 4"
 },
-"112_dia4": {
-"id": "112_dia4",
+"112_d4": {
+"id": "112_d4",
 "ch": 12,
 "title": "Diag. 5",
 "start": {
@@ -21713,8 +21839,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 5"
 },
-"112_dia5": {
-"id": "112_dia5",
+"112_d5": {
+"id": "112_d5",
 "ch": 12,
 "title": "Wch, 1925",
 "start": {
@@ -21745,8 +21871,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Wch, 1925"
 },
-"112_dia6": {
-"id": "112_dia6",
+"112_d6": {
+"id": "112_d6",
 "ch": 12,
 "title": "Trait aux blancs",
 "start": {
@@ -21777,8 +21903,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"112_dia7": {
-"id": "112_dia7",
+"112_d7": {
+"id": "112_d7",
 "ch": 12,
 "title": "NLD-chT Ereklasse, 2007",
 "start": {
@@ -21811,8 +21937,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "NLD-chT Ereklasse, 2007"
 },
-"112_dia8": {
-"id": "112_dia8",
+"112_d8": {
+"id": "112_d8",
 "ch": 12,
 "title": "Iser Kouperman – Andris Andreiko",
 "start": {
@@ -21847,8 +21973,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Iser Kouperman – Andris Andreiko"
 },
-"112_dia9": {
-"id": "112_dia9",
+"112_d9": {
+"id": "112_d9",
 "ch": 12,
 "title": "EU-ch, 1967",
 "start": {
@@ -21883,8 +22009,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "EU-ch, 1967"
 },
-"112_dia10": {
-"id": "112_dia10",
+"112_d10": {
+"id": "112_d10",
 "ch": 12,
 "title": "Trait aux blancs",
 "start": {
@@ -21917,8 +22043,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"112_dia11": {
-"id": "112_dia11",
+"112_d11": {
+"id": "112_d11",
 "ch": 12,
 "title": "Harm Wiersma – Macodou NDiaye",
 "start": {
@@ -21951,8 +22077,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Harm Wiersma – Macodou NDiaye"
 },
-"112_dia12": {
-"id": "112_dia12",
+"112_d12": {
+"id": "112_d12",
 "ch": 12,
 "title": "Wch, 1992",
 "start": {
@@ -21987,8 +22113,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Wch, 1992"
 },
-"113_dia0": {
-"id": "113_dia0",
+"113_d0": {
+"id": "113_d0",
 "ch": 13,
 "title": "Trait aux noirs",
 "start": {
@@ -22015,8 +22141,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"113_dia1": {
-"id": "113_dia1",
+"113_d1": {
+"id": "113_d1",
 "ch": 13,
 "title": "Trait aux blancs",
 "start": {
@@ -22047,8 +22173,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"113_dia2": {
-"id": "113_dia2",
+"113_d2": {
+"id": "113_d2",
 "ch": 13,
 "title": "Présentation",
 "start": {
@@ -22071,8 +22197,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Présentation"
 },
-"113_dia3": {
-"id": "113_dia3",
+"113_d3": {
+"id": "113_d3",
 "ch": 13,
 "title": "Trait aux blancs",
 "start": {
@@ -22099,8 +22225,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"113_dia4": {
-"id": "113_dia4",
+"113_d4": {
+"id": "113_d4",
 "ch": 13,
 "title": "Trait aux blancs",
 "start": {
@@ -22129,8 +22255,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"113_dia5": {
-"id": "113_dia5",
+"113_d5": {
+"id": "113_d5",
 "ch": 13,
 "title": "Diag. 6",
 "start": {
@@ -22183,8 +22309,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 6"
 },
-"113_dia6": {
-"id": "113_dia6",
+"113_d6": {
+"id": "113_d6",
 "ch": 13,
 "title": "Diag. 7",
 "start": {
@@ -22239,8 +22365,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 7"
 },
-"113_dia7": {
-"id": "113_dia7",
+"113_d7": {
+"id": "113_d7",
 "ch": 13,
 "title": "Diag. 8",
 "start": {
@@ -22295,8 +22421,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 8"
 },
-"113_dia8": {
-"id": "113_dia8",
+"113_d8": {
+"id": "113_d8",
 "ch": 13,
 "title": "Diag. 9",
 "start": {
@@ -22321,8 +22447,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 9"
 },
-"113_dia9": {
-"id": "113_dia9",
+"113_d9": {
+"id": "113_d9",
 "ch": 13,
 "title": "Diag. 10",
 "start": {
@@ -22341,8 +22467,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 10"
 },
-"114_dia0": {
-"id": "114_dia0",
+"114_d0": {
+"id": "114_d0",
 "ch": 14,
 "title": "Trait aux blancs",
 "start": {
@@ -22381,8 +22507,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"114_dia1": {
-"id": "114_dia1",
+"114_d1": {
+"id": "114_d1",
 "ch": 14,
 "title": "Trait aux blancs",
 "start": {
@@ -22413,8 +22539,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"114_dia2": {
-"id": "114_dia2",
+"114_d2": {
+"id": "114_d2",
 "ch": 14,
 "title": "Trait aux blancs",
 "start": {
@@ -22449,8 +22575,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"114_dia3": {
-"id": "114_dia3",
+"114_d3": {
+"id": "114_d3",
 "ch": 14,
 "title": "Trait aux blancs",
 "start": {
@@ -22481,8 +22607,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"114_dia4": {
-"id": "114_dia4",
+"114_d4": {
+"id": "114_d4",
 "ch": 14,
 "title": "Sur (24-29), suit 27-22",
 "start": {
@@ -22504,8 +22630,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Sur (24-29), suit 27-22"
 },
-"114_dia5": {
-"id": "114_dia5",
+"114_d5": {
+"id": "114_d5",
 "ch": 14,
 "title": "Trait aux blancs",
 "start": {
@@ -22540,8 +22666,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"114_dia6": {
-"id": "114_dia6",
+"114_d6": {
+"id": "114_d6",
 "ch": 14,
 "title": "Trait aux blancs",
 "start": {
@@ -22576,8 +22702,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"115_dia0": {
-"id": "115_dia0",
+"115_d0": {
+"id": "115_d0",
 "ch": 15,
 "title": "1 – En système classique",
 "start": {
@@ -22624,8 +22750,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "1 – En système classique"
 },
-"115_dia1": {
-"id": "115_dia1",
+"115_d1": {
+"id": "115_d1",
 "ch": 15,
 "title": "Trait aux noirs",
 "start": {
@@ -22672,8 +22798,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"115_dia2": {
-"id": "115_dia2",
+"115_d2": {
+"id": "115_d2",
 "ch": 15,
 "title": "Trait aux noirs",
 "start": {
@@ -22722,8 +22848,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"115_dia3": {
-"id": "115_dia3",
+"115_d3": {
+"id": "115_d3",
 "ch": 15,
 "title": "Trait aux noirs",
 "start": {
@@ -22772,8 +22898,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"115_dia4": {
-"id": "115_dia4",
+"115_d4": {
+"id": "115_d4",
 "ch": 15,
 "title": "Trait aux blancs",
 "start": {
@@ -22810,8 +22936,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"115_dia5": {
-"id": "115_dia5",
+"115_d5": {
+"id": "115_d5",
 "ch": 15,
 "title": "Trait aux blancs",
 "start": {
@@ -22848,8 +22974,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"115_dia6": {
-"id": "115_dia6",
+"115_d6": {
+"id": "115_d6",
 "ch": 15,
 "title": "Trait aux blancs",
 "start": {
@@ -22900,8 +23026,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"115_dia7": {
-"id": "115_dia7",
+"115_d7": {
+"id": "115_d7",
 "ch": 15,
 "title": "Trait aux blancs",
 "start": {
@@ -22961,8 +23087,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"115_dia8": {
-"id": "115_dia8",
+"115_d8": {
+"id": "115_d8",
 "ch": 15,
 "title": "Diag. 9",
 "start": {
@@ -23003,8 +23129,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 9"
 },
-"115_dia9": {
-"id": "115_dia9",
+"115_d9": {
+"id": "115_d9",
 "ch": 15,
 "title": "Diag. 10",
 "start": {
@@ -23043,8 +23169,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 10"
 },
-"115_dia10": {
-"id": "115_dia10",
+"115_d10": {
+"id": "115_d10",
 "ch": 15,
 "title": "Trait aux noirs",
 "start": {
@@ -23061,8 +23187,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"115_dia11": {
-"id": "115_dia11",
+"115_d11": {
+"id": "115_d11",
 "ch": 15,
 "title": "Meilleur est 31-26",
 "start": {
@@ -23089,8 +23215,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Meilleur est 31-26"
 },
-"115_dia12": {
-"id": "115_dia12",
+"115_d12": {
+"id": "115_d12",
 "ch": 15,
 "title": "Trait aux blancs",
 "start": {
@@ -23125,8 +23251,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"115_dia13": {
-"id": "115_dia13",
+"115_d13": {
+"id": "115_d13",
 "ch": 15,
 "title": "Diag. 14",
 "start": {
@@ -23159,8 +23285,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 14"
 },
-"115_ex0": {
-"id": "115_ex0",
+"115_x0": {
+"id": "115_x0",
 "ch": 15,
 "title": "LES PIONS 49 ET 50 – D1",
 "start": {
@@ -23213,8 +23339,8 @@ const DATA: ManuelData = {
 "pub": "15-20 33x13 9x18 28x19 18-23 19x28 7-11 16x18 17-22 28x17",
 "win": "black"
 },
-"115_ex1": {
-"id": "115_ex1",
+"115_x1": {
+"id": "115_x1",
 "ch": 15,
 "title": "LES PIONS 49 ET 50 – D2",
 "start": {
@@ -23265,8 +23391,8 @@ const DATA: ManuelData = {
 "pub": "27-22 25x34 22-17 21x12 35-30 24x44 33x24 19x30 49x7",
 "win": "white"
 },
-"115_ex2": {
-"id": "115_ex2",
+"115_x2": {
+"id": "115_x2",
 "ch": 15,
 "title": "LES PIONS 49 ET 50 – D3",
 "start": {
@@ -23323,8 +23449,8 @@ const DATA: ManuelData = {
 "pub": "37-31 32-27 21x32 43-38 32x34 33-28 22x33 44-39 34x43 49x7",
 "win": "white"
 },
-"115_ex3": {
-"id": "115_ex3",
+"115_x3": {
+"id": "115_x3",
 "ch": 15,
 "title": "LES PIONS 49 ET 50 – D4",
 "start": {
@@ -23375,8 +23501,8 @@ const DATA: ManuelData = {
 "pub": "32-27 26x28 33x22 21x32 39-33 18x27 33-29 24x33 43-38 32x43",
 "win": "white"
 },
-"115_ex4": {
-"id": "115_ex4",
+"115_x4": {
+"id": "115_x4",
 "ch": 15,
 "title": "LES PIONS 49 ET 50 – D5",
 "start": {
@@ -23427,8 +23553,8 @@ const DATA: ManuelData = {
 "pub": "34-29 23x34 28-23 19x26 44-40 35x44 50x6",
 "win": "white"
 },
-"115_ex5": {
-"id": "115_ex5",
+"115_x5": {
+"id": "115_x5",
 "ch": 15,
 "title": "LES PIONS 49 ET 50 – D6",
 "start": {
@@ -23487,8 +23613,8 @@ const DATA: ManuelData = {
 "pub": "34-29 26x28 33x22 21x32 22-18 13x22 34-29 23x43 49x7",
 "win": "white"
 },
-"116_dia0": {
-"id": "116_dia0",
+"116_d0": {
+"id": "116_d0",
 "ch": 16,
 "title": "Trait aux noirs",
 "start": {
@@ -23519,8 +23645,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"116_dia1": {
-"id": "116_dia1",
+"116_d1": {
+"id": "116_d1",
 "ch": 16,
 "title": "Trait aux blancs",
 "start": {
@@ -23553,8 +23679,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"116_dia2": {
-"id": "116_dia2",
+"116_d2": {
+"id": "116_d2",
 "ch": 16,
 "title": "Trait aux noirs",
 "start": {
@@ -23589,8 +23715,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"116_dia3": {
-"id": "116_dia3",
+"116_d3": {
+"id": "116_d3",
 "ch": 16,
 "title": "Graaskamp - Sipma (Salou 2017)",
 "start": {
@@ -23619,8 +23745,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Graaskamp - Sipma (Salou 2017)"
 },
-"116_dia4": {
-"id": "116_dia4",
+"116_d4": {
+"id": "116_d4",
 "ch": 16,
 "title": "Viacheslav Shchegolev – Andries Andreiko",
 "start": {
@@ -23653,8 +23779,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Viacheslav Shchegolev – Andries Andreiko"
 },
-"116_dia5": {
-"id": "116_dia5",
+"116_d5": {
+"id": "116_d5",
 "ch": 16,
 "title": "match départage cht URSS 1964",
 "start": {
@@ -23689,8 +23815,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "match départage cht URSS 1964"
 },
-"116_dia6": {
-"id": "116_dia6",
+"116_d6": {
+"id": "116_d6",
 "ch": 16,
 "title": "Iser Kouperman – A. Winderman",
 "start": {
@@ -23725,8 +23851,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Iser Kouperman – A. Winderman"
 },
-"116_dia7": {
-"id": "116_dia7",
+"116_d7": {
+"id": "116_d7",
 "ch": 16,
 "title": "Championnat URSS 1954",
 "start": {
@@ -23759,8 +23885,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Championnat URSS 1954"
 },
-"116_dia8": {
-"id": "116_dia8",
+"116_d8": {
+"id": "116_d8",
 "ch": 16,
 "title": "Vladimir Kaplan – Sergeï Mansjien",
 "start": {
@@ -23795,8 +23921,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Vladimir Kaplan – Sergeï Mansjien"
 },
-"116_dia9": {
-"id": "116_dia9",
+"116_d9": {
+"id": "116_d9",
 "ch": 16,
 "title": "Championnat URSS 1964",
 "start": {
@@ -23831,8 +23957,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Championnat URSS 1964"
 },
-"116_ex0": {
-"id": "116_ex0",
+"116_x0": {
+"id": "116_x0",
 "ch": 16,
 "title": "LE PION BLANC 36 – D1",
 "start": {
@@ -23889,8 +24015,8 @@ const DATA: ManuelData = {
 "pub": "33-28 13x22 28x17 33-29 24x31 36x7",
 "win": "white"
 },
-"116_ex1": {
-"id": "116_ex1",
+"116_x1": {
+"id": "116_x1",
 "ch": 16,
 "title": "LE PION BLANC 36 – D2",
 "start": {
@@ -23939,8 +24065,8 @@ const DATA: ManuelData = {
 "pub": "22-18 22x33 38x18 13x22 32-28 22x33 42-38 33x31 36x7",
 "win": "white"
 },
-"116_ex2": {
-"id": "116_ex2",
+"116_x2": {
+"id": "116_x2",
 "ch": 16,
 "title": "LE PION BLANC 36 – D3",
 "start": {
@@ -23991,8 +24117,8 @@ const DATA: ManuelData = {
 "pub": "29-23 26x37 32x41 23x21 33-29 24x42 41-37 42x31 36x7",
 "win": "white"
 },
-"116_ex3": {
-"id": "116_ex3",
+"116_x3": {
+"id": "116_x3",
 "ch": 16,
 "title": "LE PION BLANC 36 – D4",
 "start": {
@@ -24041,8 +24167,8 @@ const DATA: ManuelData = {
 "pub": "37-31 18x29 33x24 22x42 31-26 19x30 35x24 20x29 43-39 42x31",
 "win": "white"
 },
-"116_ex4": {
-"id": "116_ex4",
+"116_x4": {
+"id": "116_x4",
 "ch": 16,
 "title": "LE PION BLANC 36 – D5",
 "start": {
@@ -24093,8 +24219,8 @@ const DATA: ManuelData = {
 "pub": "28-23 19x39 49-43 39x48 29-23 18x29 31-26 48x31 36x9",
 "win": "white"
 },
-"116_ex5": {
-"id": "116_ex5",
+"116_x5": {
+"id": "116_x5",
 "ch": 16,
 "title": "LE PION BLANC 36 – D6",
 "start": {
@@ -24169,8 +24295,8 @@ const DATA: ManuelData = {
 "pub": "29-23 18x29 33x24 22x31 36x9 19x39 9-3",
 "win": "white"
 },
-"117_dia0": {
-"id": "117_dia0",
+"117_d0": {
+"id": "117_d0",
 "ch": 17,
 "title": "Trait aux noirs",
 "start": {
@@ -24197,8 +24323,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"117_dia1": {
-"id": "117_dia1",
+"117_d1": {
+"id": "117_d1",
 "ch": 17,
 "title": "Trait aux blancs",
 "start": {
@@ -24235,8 +24361,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"117_dia2": {
-"id": "117_dia2",
+"117_d2": {
+"id": "117_d2",
 "ch": 17,
 "title": "Guntis Valneris – Ove Verdel",
 "start": {
@@ -24275,8 +24401,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Guntis Valneris – Ove Verdel"
 },
-"117_dia3": {
-"id": "117_dia3",
+"117_d3": {
+"id": "117_d3",
 "ch": 17,
 "title": "Etc. B+",
 "start": {
@@ -24311,8 +24437,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Etc. B+"
 },
-"117_dia4": {
-"id": "117_dia4",
+"117_d4": {
+"id": "117_d4",
 "ch": 17,
 "title": "Leonid Kats – Andris Andreiko",
 "start": {
@@ -24347,8 +24473,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Leonid Kats – Andris Andreiko"
 },
-"117_dia5": {
-"id": "117_dia5",
+"117_d5": {
+"id": "117_d5",
 "ch": 17,
 "title": "Cht URSS 1965",
 "start": {
@@ -24393,8 +24519,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Cht URSS 1965"
 },
-"117_dia6": {
-"id": "117_dia6",
+"117_d6": {
+"id": "117_d6",
 "ch": 17,
 "title": "26. 38-33 etc. B+",
 "start": {
@@ -24431,8 +24557,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "26. 38-33 etc. B+"
 },
-"117_dia7": {
-"id": "117_dia7",
+"117_d7": {
+"id": "117_d7",
 "ch": 17,
 "title": "Vadim Virny – Vladimir Kolesnik",
 "start": {
@@ -24461,8 +24587,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Vadim Virny – Vladimir Kolesnik"
 },
-"117_dia8": {
-"id": "117_dia8",
+"117_d8": {
+"id": "117_d8",
 "ch": 17,
 "title": "Diag. 9",
 "start": {
@@ -24483,8 +24609,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 9"
 },
-"117_dia9": {
-"id": "117_dia9",
+"117_d9": {
+"id": "117_d9",
 "ch": 17,
 "title": "Diag. 10",
 "start": {
@@ -24519,8 +24645,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 10"
 },
-"117_dia10": {
-"id": "117_dia10",
+"117_d10": {
+"id": "117_d10",
 "ch": 17,
 "title": "Diag. 11",
 "start": {
@@ -24557,8 +24683,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 11"
 },
-"117_dia11": {
-"id": "117_dia11",
+"117_d11": {
+"id": "117_d11",
 "ch": 17,
 "title": "11. 35x4 +",
 "start": {
@@ -24593,8 +24719,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "11. 35x4 +"
 },
-"117_dia12": {
-"id": "117_dia12",
+"117_d12": {
+"id": "117_d12",
 "ch": 17,
 "title": "24. 37-31 diag. Suivant",
 "start": {
@@ -24647,8 +24773,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "24. 37-31 diag. Suivant"
 },
-"117_dia13": {
-"id": "117_dia13",
+"117_d13": {
+"id": "117_d13",
 "ch": 17,
 "title": "Diag. 14",
 "start": {
@@ -24689,8 +24815,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 14"
 },
-"117_ex0": {
-"id": "117_ex0",
+"117_x0": {
+"id": "117_x0",
 "ch": 17,
 "title": "LE PION DE BANDE 26 – D1",
 "start": {
@@ -24743,8 +24869,8 @@ const DATA: ManuelData = {
 "pub": "39-34 18x27 33-29 24x22 35-30 25x34 40x20 15x24 32-28 22x33",
 "win": "white"
 },
-"117_ex1": {
-"id": "117_ex1",
+"117_x1": {
+"id": "117_x1",
 "ch": 17,
 "title": "LE PION DE BANDE 26 – D2",
 "start": {
@@ -24797,8 +24923,8 @@ const DATA: ManuelData = {
 "pub": "23-29 26x17 11x33 38x20 19-24 20x29 23x43",
 "win": "black"
 },
-"117_ex2": {
-"id": "117_ex2",
+"117_x2": {
+"id": "117_x2",
 "ch": 17,
 "title": "LE PION DE BANDE 26 – D3",
 "start": {
@@ -24864,8 +24990,8 @@ const DATA: ManuelData = {
 "pub": "34-30 25x34 40x18 13x22 32-28 22-27 43-39 19-24 28-22 27x18",
 "win": "white"
 },
-"117_ex3": {
-"id": "117_ex3",
+"117_x3": {
+"id": "117_x3",
 "ch": 17,
 "title": "LE PION DE BANDE 26 – D4",
 "start": {
@@ -24914,8 +25040,8 @@ const DATA: ManuelData = {
 "pub": "34-30 12-17 27-21 16x27 32x12 18x7 34-30 25x34 40x18 13x22",
 "win": "white"
 },
-"117_ex4": {
-"id": "117_ex4",
+"117_x4": {
+"id": "117_x4",
 "ch": 17,
 "title": "LE PION DE BANDE 26 – D5",
 "start": {
@@ -25083,8 +25209,8 @@ const DATA: ManuelData = {
 "pub": "39-33 11-17 47-42 20-24 27-22 18x27 37-31 26x37 42x11 16x7",
 "win": "white"
 },
-"120_dia0": {
-"id": "120_dia0",
+"120_d0": {
+"id": "120_d0",
 "ch": 20,
 "title": "Championnat d’Europe 1971",
 "start": {
@@ -25115,8 +25241,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Championnat d’Europe 1971"
 },
-"120_dia1": {
-"id": "120_dia1",
+"120_d1": {
+"id": "120_d1",
 "ch": 20,
 "title": "Trait aux blancs",
 "start": {
@@ -25147,8 +25273,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"120_dia2": {
-"id": "120_dia2",
+"120_d2": {
+"id": "120_d2",
 "ch": 20,
 "title": "COMPLEMENT",
 "start": {
@@ -25183,8 +25309,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "COMPLEMENT"
 },
-"120_dia3": {
-"id": "120_dia3",
+"120_d3": {
+"id": "120_d3",
 "ch": 20,
 "title": "Trait aux blancs",
 "start": {
@@ -25217,8 +25343,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"120_dia4": {
-"id": "120_dia4",
+"120_d4": {
+"id": "120_d4",
 "ch": 20,
 "title": "Baba SY - Hugo VERPOEST",
 "start": {
@@ -25243,8 +25369,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Baba SY - Hugo VERPOEST"
 },
-"120_dia5": {
-"id": "120_dia5",
+"120_d5": {
+"id": "120_d5",
 "ch": 20,
 "title": "Trait aux blancs",
 "start": {
@@ -25277,8 +25403,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"120_dia6": {
-"id": "120_dia6",
+"120_d6": {
+"id": "120_d6",
 "ch": 20,
 "title": "Trait aux blancs",
 "start": {
@@ -25305,8 +25431,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"120_dia7": {
-"id": "120_dia7",
+"120_d7": {
+"id": "120_d7",
 "ch": 20,
 "title": "3. 32-28 B+",
 "start": {
@@ -25337,8 +25463,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "3. 32-28 B+"
 },
-"120_ex0": {
-"id": "120_ex0",
+"120_x0": {
+"id": "120_x0",
 "ch": 20,
 "title": "LE PION BLANC 45 – D1",
 "start": {
@@ -25391,8 +25517,8 @@ const DATA: ManuelData = {
 "pub": "27-22 19x30 27-21 16x49 40-35 49x40 35x24 20x29 45x1",
 "win": "white"
 },
-"120_ex1": {
-"id": "120_ex1",
+"120_x1": {
+"id": "120_x1",
 "ch": 20,
 "title": "LE PION BLANC 45 – D2",
 "start": {
@@ -25438,8 +25564,8 @@ const DATA: ManuelData = {
 "pub": "39-33 18x27 32x21 23x41 36x47 16x27 38-32 27x40 45x1",
 "win": "white"
 },
-"120_ex2": {
-"id": "120_ex2",
+"120_x2": {
+"id": "120_x2",
 "ch": 20,
 "title": "LE PION BLANC 45 – D3",
 "start": {
@@ -25492,8 +25618,8 @@ const DATA: ManuelData = {
 "pub": "27-21 16x47 32-28 23x32 38x27 47x40 45x1",
 "win": "white"
 },
-"120_ex3": {
-"id": "120_ex3",
+"120_x3": {
+"id": "120_x3",
 "ch": 20,
 "title": "LE PION BLANC 45 – D4",
 "start": {
@@ -25545,8 +25671,8 @@ const DATA: ManuelData = {
 "pub": "41-36 25x21 26x17 19x30 44-39 12x21 29-23 18x29 40-34 29x40",
 "win": "white"
 },
-"121_dia0": {
-"id": "121_dia0",
+"121_d0": {
+"id": "121_d0",
 "ch": 21,
 "title": "Trait aux blancs",
 "start": {
@@ -25573,8 +25699,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"121_dia1": {
-"id": "121_dia1",
+"121_d1": {
+"id": "121_d1",
 "ch": 21,
 "title": "Trait aux noirs",
 "start": {
@@ -25607,8 +25733,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"121_dia2": {
-"id": "121_dia2",
+"121_d2": {
+"id": "121_d2",
 "ch": 21,
 "title": "Trait aux blancs",
 "start": {
@@ -25661,8 +25787,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"121_dia3": {
-"id": "121_dia3",
+"121_d3": {
+"id": "121_d3",
 "ch": 21,
 "title": "Trait aux blancs",
 "start": {
@@ -25713,8 +25839,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"121_dia4": {
-"id": "121_dia4",
+"121_d4": {
+"id": "121_d4",
 "ch": 21,
 "title": "Trait aux blancs",
 "start": {
@@ -25757,8 +25883,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"121_dia5": {
-"id": "121_dia5",
+"121_d5": {
+"id": "121_d5",
 "ch": 21,
 "title": "Andris Andreiko – Sergej Mansjien",
 "start": {
@@ -25814,8 +25940,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Andris Andreiko – Sergej Mansjien"
 },
-"121_dia6": {
-"id": "121_dia6",
+"121_d6": {
+"id": "121_d6",
 "ch": 21,
 "title": "Championnat URSS 1971",
 "start": {
@@ -25854,8 +25980,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Championnat URSS 1971"
 },
-"121_ex0": {
-"id": "121_ex0",
+"121_x0": {
+"id": "121_x0",
 "ch": 21,
 "title": "LE PION BLANC 35 – D1",
 "start": {
@@ -25902,8 +26028,8 @@ const DATA: ManuelData = {
 "pub": "34-29 19x39 30x19 13x33 38x29 39x30 35x4",
 "win": "white"
 },
-"121_ex1": {
-"id": "121_ex1",
+"121_x1": {
+"id": "121_x1",
 "ch": 21,
 "title": "LE PION BLANC 35 – D2",
 "start": {
@@ -25960,8 +26086,8 @@ const DATA: ManuelData = {
 "pub": "28-23 16x27 32x12 18x7 33-29 24x33 38x18 13x22 37-31 26x48",
 "win": "white"
 },
-"121_ex2": {
-"id": "121_ex2",
+"121_x2": {
+"id": "121_x2",
 "ch": 21,
 "title": "LE PION BLANC 35 – D3",
 "start": {
@@ -26127,8 +26253,8 @@ const DATA: ManuelData = {
 "pub": "32-27 31x22 33-28 22x33 38x20 25x14 37-31 26x48 30-25 48x30",
 "win": "white"
 },
-"121_ex3": {
-"id": "121_ex3",
+"121_x3": {
+"id": "121_x3",
 "ch": 21,
 "title": "LE PION BLANC 35 – D4",
 "start": {
@@ -26192,8 +26318,8 @@ const DATA: ManuelData = {
 "pub": "33-29 24x33 38x18 13x22 32-28 22x33 42-38 33x42 37x48 26x37",
 "win": "white"
 },
-"123_dia0": {
-"id": "123_dia0",
+"123_d0": {
+"id": "123_d0",
 "ch": 23,
 "title": "Diag. 1",
 "start": {
@@ -26212,8 +26338,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 1"
 },
-"123_dia1": {
-"id": "123_dia1",
+"123_d1": {
+"id": "123_d1",
 "ch": 23,
 "title": "Trait aux blancs",
 "start": {
@@ -26236,8 +26362,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"123_dia2": {
-"id": "123_dia2",
+"123_d2": {
+"id": "123_d2",
 "ch": 23,
 "title": "Trait aux noirs",
 "start": {
@@ -26262,8 +26388,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"123_dia3": {
-"id": "123_dia3",
+"123_d3": {
+"id": "123_d3",
 "ch": 23,
 "title": "Trait aux blancs",
 "start": {
@@ -26286,8 +26412,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"123_dia4": {
-"id": "123_dia4",
+"123_d4": {
+"id": "123_d4",
 "ch": 23,
 "title": "La finale SCOUPPE",
 "start": {
@@ -26308,8 +26434,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "La finale SCOUPPE"
 },
-"123_dia5": {
-"id": "123_dia5",
+"123_d5": {
+"id": "123_d5",
 "ch": 23,
 "title": "Trait aux blancs",
 "start": {
@@ -26330,8 +26456,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"123_dia6": {
-"id": "123_dia6",
+"123_d6": {
+"id": "123_d6",
 "ch": 23,
 "title": "La finale LECLERC",
 "start": {
@@ -26352,8 +26478,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "La finale LECLERC"
 },
-"123_dia7": {
-"id": "123_dia7",
+"123_d7": {
+"id": "123_d7",
 "ch": 23,
 "title": "Trait aux noirs",
 "start": {
@@ -26384,8 +26510,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"123_dia8": {
-"id": "123_dia8",
+"123_d8": {
+"id": "123_d8",
 "ch": 23,
 "title": "Trait aux noirs",
 "start": {
@@ -26424,8 +26550,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"123_dia9": {
-"id": "123_dia9",
+"123_d9": {
+"id": "123_d9",
 "ch": 23,
 "title": "Trait aux blancs",
 "start": {
@@ -26462,8 +26588,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"123_dia10": {
-"id": "123_dia10",
+"123_d10": {
+"id": "123_d10",
 "ch": 23,
 "title": "Trait aux noirs",
 "start": {
@@ -26502,8 +26628,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"123_dia11": {
-"id": "123_dia11",
+"123_d11": {
+"id": "123_d11",
 "ch": 23,
 "title": "menace (26-31) et (4-9)",
 "start": {
@@ -26534,8 +26660,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "menace (26-31) et (4-9)"
 },
-"123_dia12": {
-"id": "123_dia12",
+"123_d12": {
+"id": "123_d12",
 "ch": 23,
 "title": "Sijbrands - Kuijken",
 "start": {
@@ -26578,8 +26704,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Sijbrands - Kuijken"
 },
-"123_dia13": {
-"id": "123_dia13",
+"123_d13": {
+"id": "123_d13",
 "ch": 23,
 "title": "Trait aux noirs",
 "start": {
@@ -26614,8 +26740,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"123_dia14": {
-"id": "123_dia14",
+"123_d14": {
+"id": "123_d14",
 "ch": 23,
 "title": "Boudewijn Derkx - Maikel Palmans",
 "start": {
@@ -26652,8 +26778,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Boudewijn Derkx - Maikel Palmans"
 },
-"123_dia15": {
-"id": "123_dia15",
+"123_d15": {
+"id": "123_d15",
 "ch": 23,
 "title": "NLD-chJ, 2004",
 "start": {
@@ -26672,8 +26798,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "NLD-chJ, 2004"
 },
-"123_dia16": {
-"id": "123_dia16",
+"123_d16": {
+"id": "123_d16",
 "ch": 23,
 "title": "Trait aux blancs",
 "start": {
@@ -26693,8 +26819,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"123_dia17": {
-"id": "123_dia17",
+"123_d17": {
+"id": "123_d17",
 "ch": 23,
 "title": "Vadim VIRNY – Ndiaga SAMB",
 "start": {
@@ -26715,8 +26841,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Vadim VIRNY – Ndiaga SAMB"
 },
-"123_dia18": {
-"id": "123_dia18",
+"123_d18": {
+"id": "123_d18",
 "ch": 23,
 "title": "Nijmegen 2001",
 "start": {
@@ -26736,8 +26862,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Nijmegen 2001"
 },
-"123_dia19": {
-"id": "123_dia19",
+"123_d19": {
+"id": "123_d19",
 "ch": 23,
 "title": "Trait aux blancs",
 "start": {
@@ -26776,38 +26902,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"129_dia0": {
-"id": "129_dia0",
-"ch": 29,
-"title": "Le pion taquin isolé",
-"start": {
-"wm": [
-24,
-27,
-28,
-32,
-37,
-38,
-44
-],
-"wk": [],
-"bm": [
-8,
-12,
-13,
-15,
-16,
-18,
-25
-],
-"bk": [],
-"turn": "white"
-},
-"moves": [],
-"theme": "Le pion taquin isolé"
-},
-"129_dia1": {
-"id": "129_dia1",
+"129_d1": {
+"id": "129_d1",
 "ch": 29,
 "title": "Iser KOEPERMAN – Michel HISARD",
 "start": {
@@ -26844,8 +26940,38 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Iser KOEPERMAN – Michel HISARD"
 },
-"129_dia2": {
-"id": "129_dia2",
+"129_d0": {
+"id": "129_d0",
+"ch": 29,
+"title": "Le pion taquin isolé",
+"start": {
+"wm": [
+24,
+27,
+28,
+32,
+37,
+38,
+44
+],
+"wk": [],
+"bm": [
+8,
+12,
+13,
+15,
+16,
+18,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [],
+"theme": "Le pion taquin isolé"
+},
+"129_d2": {
+"id": "129_d2",
 "ch": 29,
 "title": "Tournoi du Sucre 1969",
 "start": {
@@ -26880,8 +27006,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Tournoi du Sucre 1969"
 },
-"129_dia3": {
-"id": "129_dia3",
+"129_d3": {
+"id": "129_d3",
 "ch": 29,
 "title": "Diag. 4",
 "start": {
@@ -26914,8 +27040,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 4"
 },
-"129_dia4": {
-"id": "129_dia4",
+"129_d4": {
+"id": "129_d4",
 "ch": 29,
 "title": "11. 32-28 etc. B+",
 "start": {
@@ -26950,8 +27076,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "11. 32-28 etc. B+"
 },
-"129_dia5": {
-"id": "129_dia5",
+"129_d5": {
+"id": "129_d5",
 "ch": 29,
 "title": "Diag. 6",
 "start": {
@@ -26982,8 +27108,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 6"
 },
-"129_dia6": {
-"id": "129_dia6",
+"129_d6": {
+"id": "129_d6",
 "ch": 29,
 "title": "Diag. 7",
 "start": {
@@ -27012,8 +27138,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 7"
 },
-"129_dia7": {
-"id": "129_dia7",
+"129_d7": {
+"id": "129_d7",
 "ch": 29,
 "title": "Tournoi de Cannes 1990",
 "start": {
@@ -27048,8 +27174,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Tournoi de Cannes 1990"
 },
-"129_dia8": {
-"id": "129_dia8",
+"129_d8": {
+"id": "129_d8",
 "ch": 29,
 "title": "Trait aux blancs",
 "start": {
@@ -27086,8 +27212,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"129_dia9": {
-"id": "129_dia9",
+"129_d9": {
+"id": "129_d9",
 "ch": 29,
 "title": "Trait aux blancs",
 "start": {
@@ -27124,8 +27250,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"129_dia10": {
-"id": "129_dia10",
+"129_d10": {
+"id": "129_d10",
 "ch": 29,
 "title": "Gain du pion taquin",
 "start": {
@@ -27168,8 +27294,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Gain du pion taquin"
 },
-"130_dia0": {
-"id": "130_dia0",
+"130_d0": {
+"id": "130_d0",
 "ch": 30,
 "title": "Nikolai Sretenski – Jurij Kolodiev",
 "start": {
@@ -27191,8 +27317,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Nikolai Sretenski – Jurij Kolodiev"
 },
-"130_dia1": {
-"id": "130_dia1",
+"130_d1": {
+"id": "130_d1",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27227,8 +27353,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_dia2": {
-"id": "130_dia2",
+"130_d2": {
+"id": "130_d2",
 "ch": 30,
 "title": "Amsterdam-ch 2e klasse, 1939",
 "start": {
@@ -27263,8 +27389,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Amsterdam-ch 2e klasse, 1939"
 },
-"130_dia3": {
-"id": "130_dia3",
+"130_d3": {
+"id": "130_d3",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27299,8 +27425,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_dia4": {
-"id": "130_dia4",
+"130_d4": {
+"id": "130_d4",
 "ch": 30,
 "title": "Match Wallen - Koeperman, 1986",
 "start": {
@@ -27335,8 +27461,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Match Wallen - Koeperman, 1986"
 },
-"130_dia5": {
-"id": "130_dia5",
+"130_d5": {
+"id": "130_d5",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27367,8 +27493,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_dia6": {
-"id": "130_dia6",
+"130_d6": {
+"id": "130_d6",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27403,8 +27529,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_dia7": {
-"id": "130_dia7",
+"130_d7": {
+"id": "130_d7",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27435,8 +27561,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_dia8": {
-"id": "130_dia8",
+"130_d8": {
+"id": "130_d8",
 "ch": 30,
 "title": "Avec",
 "start": {
@@ -27469,8 +27595,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Avec"
 },
-"130_dia9": {
-"id": "130_dia9",
+"130_d9": {
+"id": "130_d9",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27505,8 +27631,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_dia10": {
-"id": "130_dia10",
+"130_d10": {
+"id": "130_d10",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27541,8 +27667,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_dia11": {
-"id": "130_dia11",
+"130_d11": {
+"id": "130_d11",
 "ch": 30,
 "title": "Trait aux noirs",
 "start": {
@@ -27577,8 +27703,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"130_dia12": {
-"id": "130_dia12",
+"130_d12": {
+"id": "130_d12",
 "ch": 30,
 "title": "4 – L’OCCUPATION TERRITORIALE",
 "start": {
@@ -27613,8 +27739,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "4 – L’OCCUPATION TERRITORIALE"
 },
-"130_dia13": {
-"id": "130_dia13",
+"130_d13": {
+"id": "130_d13",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27647,8 +27773,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_dia14": {
-"id": "130_dia14",
+"130_d14": {
+"id": "130_d14",
 "ch": 30,
 "title": "Trait aux blancs",
 "start": {
@@ -27681,8 +27807,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"130_ex0": {
-"id": "130_ex0",
+"130_x0": {
+"id": "130_x0",
 "ch": 30,
 "title": "LA FORMATION 45-40 – D1",
 "start": {
@@ -27731,8 +27857,8 @@ const DATA: ManuelData = {
 "pub": "37-31 18x29 38-33 29x38 32x43 21x32 43-38 32x34 40x7",
 "win": "white"
 },
-"130_ex1": {
-"id": "130_ex1",
+"130_x1": {
+"id": "130_x1",
 "ch": 30,
 "title": "LA FORMATION 45-40 – D2",
 "start": {
@@ -27777,8 +27903,8 @@ const DATA: ManuelData = {
 "pub": "28-23 26x28 33x22 21x32 48-43 18x27 43-38 32x34 40x7",
 "win": "white"
 },
-"130_ex2": {
-"id": "130_ex2",
+"130_x2": {
+"id": "130_x2",
 "ch": 30,
 "title": "LA FORMATION 45-40 – D3",
 "start": {
@@ -27825,8 +27951,8 @@ const DATA: ManuelData = {
 "pub": "37-31 26x37 32x41 21x34 28-22 29x38 40x7",
 "win": "white"
 },
-"130_ex3": {
-"id": "130_ex3",
+"130_x3": {
+"id": "130_x3",
 "ch": 30,
 "title": "LA FORMATION 45-40 – D4",
 "start": {
@@ -27875,8 +28001,8 @@ const DATA: ManuelData = {
 "pub": "37-31 16x27 32x12 18x7 33-28 23x34 40x18",
 "win": "white"
 },
-"131_dia0": {
-"id": "131_dia0",
+"131_d0": {
+"id": "131_d0",
 "ch": 31,
 "title": "Trait aux noirs",
 "start": {
@@ -27893,8 +28019,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"131_dia1": {
-"id": "131_dia1",
+"131_d1": {
+"id": "131_d1",
 "ch": 31,
 "title": "Championnat du monde 1912",
 "start": {
@@ -27921,8 +28047,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Championnat du monde 1912"
 },
-"131_dia2": {
-"id": "131_dia2",
+"131_d2": {
+"id": "131_d2",
 "ch": 31,
 "title": "Trait aux blancs",
 "start": {
@@ -27957,8 +28083,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"131_dia3": {
-"id": "131_dia3",
+"131_d3": {
+"id": "131_d3",
 "ch": 31,
 "title": "Trait aux blancs",
 "start": {
@@ -27984,8 +28110,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"131_dia4": {
-"id": "131_dia4",
+"131_d4": {
+"id": "131_d4",
 "ch": 31,
 "title": "Jurij Ogorodnikov – Alexander Verete",
 "start": {
@@ -28014,8 +28140,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Jurij Ogorodnikov – Alexander Verete"
 },
-"131_dia5": {
-"id": "131_dia5",
+"131_d5": {
+"id": "131_d5",
 "ch": 31,
 "title": "Championnat URSS 1965",
 "start": {
@@ -28043,8 +28169,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Championnat URSS 1965"
 },
-"131_dia6": {
-"id": "131_dia6",
+"131_d6": {
+"id": "131_d6",
 "ch": 31,
 "title": "Mark Kemperman – Jo Weijman",
 "start": {
@@ -28077,8 +28203,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Mark Kemperman – Jo Weijman"
 },
-"131_dia7": {
-"id": "131_dia7",
+"131_d7": {
+"id": "131_d7",
 "ch": 31,
 "title": "Huissen oc, 1996",
 "start": {
@@ -28117,8 +28243,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Huissen oc, 1996"
 },
-"131_dia8": {
-"id": "131_dia8",
+"131_d8": {
+"id": "131_d8",
 "ch": 31,
 "title": "Trait aux blancs",
 "start": {
@@ -28151,8 +28277,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"131_dia9": {
-"id": "131_dia9",
+"131_d9": {
+"id": "131_d9",
 "ch": 31,
 "title": "NLD-ch, 1928",
 "start": {
@@ -28191,8 +28317,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "NLD-ch, 1928"
 },
-"131_dia10": {
-"id": "131_dia10",
+"131_d10": {
+"id": "131_d10",
 "ch": 31,
 "title": "Trait aux blancs",
 "start": {
@@ -28223,8 +28349,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"131_dia11": {
-"id": "131_dia11",
+"131_d11": {
+"id": "131_d11",
 "ch": 31,
 "title": "48. 25x14 +",
 "start": {
@@ -28259,8 +28385,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "48. 25x14 +"
 },
-"131_dia12": {
-"id": "131_dia12",
+"131_d12": {
+"id": "131_d12",
 "ch": 31,
 "title": "5 – Divers",
 "start": {
@@ -28291,8 +28417,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "5 – Divers"
 },
-"131_dia13": {
-"id": "131_dia13",
+"131_d13": {
+"id": "131_d13",
 "ch": 31,
 "title": "Trait aux blancs",
 "start": {
@@ -28323,8 +28449,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"131_dia14": {
-"id": "131_dia14",
+"131_d14": {
+"id": "131_d14",
 "ch": 31,
 "title": "Un thème peu connu",
 "start": {
@@ -28359,8 +28485,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Un thème peu connu"
 },
-"131_dia15": {
-"id": "131_dia15",
+"131_d15": {
+"id": "131_d15",
 "ch": 31,
 "title": "Une jolie combinaison",
 "start": {
@@ -28395,8 +28521,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Une jolie combinaison"
 },
-"131_ex0": {
-"id": "131_ex0",
+"131_x0": {
+"id": "131_x0",
 "ch": 31,
 "title": "LA FLÈCHE 33-38-42 – D1",
 "start": {
@@ -28445,8 +28571,8 @@ const DATA: ManuelData = {
 "pub": "27-22 18x27 32x21 33-29 24x33 38x7",
 "win": "white"
 },
-"131_ex1": {
-"id": "131_ex1",
+"131_x1": {
+"id": "131_x1",
 "ch": 31,
 "title": "LA FLÈCHE 33-38-42 – D2",
 "start": {
@@ -28510,8 +28636,8 @@ const DATA: ManuelData = {
 "pub": "27-21 16x27 32x12 18x7 25-20 14x34 33-29 24x33 38x9",
 "win": "white"
 },
-"131_ex2": {
-"id": "131_ex2",
+"131_x2": {
+"id": "131_x2",
 "ch": 31,
 "title": "LA FLÈCHE 33-38-42 – D3",
 "start": {
@@ -28560,8 +28686,8 @@ const DATA: ManuelData = {
 "pub": "27-21 18x27 32x21 33-29 24x44 43-39 44x33 38x20",
 "win": "white"
 },
-"131_ex3": {
-"id": "131_ex3",
+"131_x3": {
+"id": "131_x3",
 "ch": 31,
 "title": "LA FLÈCHE 33-38-42 – D4",
 "start": {
@@ -28614,8 +28740,8 @@ const DATA: ManuelData = {
 "pub": "27-21 26x28 33x22 18x27 32x21 16x27 44-40 35x33 38x7",
 "win": "white"
 },
-"131_ex4": {
-"id": "131_ex4",
+"131_x4": {
+"id": "131_x4",
 "ch": 31,
 "title": "LA FLÈCHE 33-38-42 – D5",
 "start": {
@@ -28666,8 +28792,8 @@ const DATA: ManuelData = {
 "pub": "27-22 21x12 27-22 18x27 32x21 16x27 33-29 24x33 38x7",
 "win": "white"
 },
-"131_ex5": {
-"id": "131_ex5",
+"131_x5": {
+"id": "131_x5",
 "ch": 31,
 "title": "LA FLÈCHE 33-38-42 – D6",
 "start": {
@@ -28716,8 +28842,8 @@ const DATA: ManuelData = {
 "pub": "22-17 17x28 33x22 18x27 32x21 16x27 34-29 24x44 43-39 44x33",
 "win": "white"
 },
-"132_dia0": {
-"id": "132_dia0",
+"132_d0": {
+"id": "132_d0",
 "ch": 32,
 "title": "Ben Springer – Alfred Molimard",
 "start": {
@@ -28736,8 +28862,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Ben Springer – Alfred Molimard"
 },
-"132_dia1": {
-"id": "132_dia1",
+"132_d1": {
+"id": "132_d1",
 "ch": 32,
 "title": "Championnat du monde 1928",
 "start": {
@@ -28760,8 +28886,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Championnat du monde 1928"
 },
-"132_dia2": {
-"id": "132_dia2",
+"132_d2": {
+"id": "132_d2",
 "ch": 32,
 "title": "Trait aux blancs",
 "start": {
@@ -28792,8 +28918,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux blancs"
 },
-"132_dia3": {
-"id": "132_dia3",
+"132_d3": {
+"id": "132_d3",
 "ch": 32,
 "title": "Brunssum 2000",
 "start": {
@@ -28826,8 +28952,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Brunssum 2000"
 },
-"132_dia4": {
-"id": "132_dia4",
+"132_d4": {
+"id": "132_d4",
 "ch": 32,
 "title": "Trait aux noirs",
 "start": {
@@ -28860,8 +28986,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Trait aux noirs"
 },
-"132_dia5": {
-"id": "132_dia5",
+"132_d5": {
+"id": "132_d5",
 "ch": 32,
 "title": "Diag. 6",
 "start": {
@@ -28898,8 +29024,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Diag. 6"
 },
-"132_dia6": {
-"id": "132_dia6",
+"132_d6": {
+"id": "132_d6",
 "ch": 32,
 "title": "NLD-ch sf Groep 1, 1977",
 "start": {
@@ -28936,8 +29062,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "NLD-ch sf Groep 1, 1977"
 },
-"132_dia7": {
-"id": "132_dia7",
+"132_d7": {
+"id": "132_d7",
 "ch": 32,
 "title": "La menace (28-32) est inévitable",
 "start": {
@@ -28970,8 +29096,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "La menace (28-32) est inévitable"
 },
-"132_dia8": {
-"id": "132_dia8",
+"132_d8": {
+"id": "132_d8",
 "ch": 32,
 "title": "Nicolai Mistchanski – Edvard Buzinskij",
 "start": {
@@ -29002,8 +29128,8 @@ const DATA: ManuelData = {
 "moves": [],
 "theme": "Nicolai Mistchanski – Edvard Buzinskij"
 },
-"132_ex0": {
-"id": "132_ex0",
+"132_x0": {
+"id": "132_x0",
 "ch": 32,
 "title": "LA FORMATION 34-39-43 – D1",
 "start": {
@@ -29065,8 +29191,8 @@ const DATA: ManuelData = {
 "pub": "27-22 18x27 28-23 19x28 33x11 16x7 34-30 25x34 39x8",
 "win": "white"
 },
-"132_ex1": {
-"id": "132_ex1",
+"132_x1": {
+"id": "132_x1",
 "ch": 32,
 "title": "LA FORMATION 34-39-43 – D2",
 "start": {
@@ -29128,8 +29254,8 @@ const DATA: ManuelData = {
 "pub": "28-22 17x28 33x13 19x8 34-30 25x34 39x28",
 "win": "white"
 },
-"132_ex2": {
-"id": "132_ex2",
+"132_x2": {
+"id": "132_x2",
 "ch": 32,
 "title": "LA FORMATION 34-39-43 – D3",
 "start": {
@@ -29178,8 +29304,8 @@ const DATA: ManuelData = {
 "pub": "37-31 26x28 38-33 21x32 33x13 19x8 34-30 25x34 39x37",
 "win": "white"
 },
-"132_ex3": {
-"id": "132_ex3",
+"132_x3": {
+"id": "132_x3",
 "ch": 32,
 "title": "LA FORMATION 34-39-43 – D4",
 "start": {
@@ -29224,8 +29350,8 @@ const DATA: ManuelData = {
 "pub": "37-31 19x17 37-31 26x37 38-32 37x28 33x22 17x28 34-30 25x34",
 "win": "white"
 },
-"132_ex4": {
-"id": "132_ex4",
+"132_x4": {
+"id": "132_x4",
 "ch": 32,
 "title": "LA FORMATION 34-39-43 – D5",
 "start": {
@@ -29272,8 +29398,8 @@ const DATA: ManuelData = {
 "pub": "28-22 14x23 38-32 27x47 26-21 47x24 34-30 25x34 39x6",
 "win": "white"
 },
-"132_ex5": {
-"id": "132_ex5",
+"132_x5": {
+"id": "132_x5",
 "ch": 32,
 "title": "LA FORMATION 34-39-43 – D6",
 "start": {
