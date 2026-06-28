@@ -7,6 +7,10 @@ const DATA: ManuelData = {
 "level": "Exercices",
 "chapters": [
 {
+"n": 0,
+"title": "Présentation"
+},
+{
 "n": 1,
 "title": "Combinaisons"
 },
@@ -69,11 +73,83 @@ const DATA: ManuelData = {
 ],
 "blocks": [
 {
+"type": "h1",
+"ch": 0,
+"runs": [
+{
+"t": "Goedemoed — A Course in Draughts"
+}
+]
+},
+{
+"type": "p",
+"ch": 0,
+"runs": [
+{
+"t": "Judging 1 Harry de Waard – Tjalling Goedemoed Judging 2 In this chapter we will discuss two game types: Solutions The right wing lock and the fork-lock. This is because locks are treated in the first section. In the rest of this chapter we will practice the art of judging positions. We discussed seven features to be able to judge a position:"
+}
+]
+},
+{
 "type": "h2",
 "ch": 1,
 "runs": [
 {
 "t": "Combinaisons"
+}
+]
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "Calculation You have to draw the position after this combination in the right diagram. In the left diagram a combination is pictured."
+}
+]
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "E) If black plays 31... 12-18 in order to be able to change after 37-32 (8-12 32x21 22-28 33x22 18x16) black can force a win. How?"
+}
+]
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "5) Play the lines on your board and answer the questions. 12... 14-20"
+}
+]
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "Opening (theory) Attacking the outpost (without a piece on <20>) 1.32-28 19-23 2.28x19 14x23 doesn’t yield any positive results for black: 3.37-32 10-14 4.41-37 14-19 12...14-19 13.45-40 19x30 14.40-35 9-14 5.35-30 20-25 15.35x24 14-19 16.44-40 19x30 17.40-35 3-9 18.35x24 9-14 19.49-44 14-19 20.44-40 19x30 If black refuses the invitation to go to <25> with 21.40-35 4-9 22.35x24 9-14? 23.38-33! 5...5-10 then 6.30-25 10-14 follows and instead of the normal 7.46-41 white can also play the B) How is 23... 14-19 punished now? Kuperman-move: 7.47-41! 17-21 (7...17-22 8.34-29 23x34 9.40x29 11-17 10.45-40 6-11) 8.34-29 23x34 13.45-40 6-11 14.38-33 17-21 9.40x29 21-26 10.45-40 and if black goes to 15.42-38 21-26 16.41-36 <23> white develops his left wing playing 32- 28x28x37 with string centre play. Avoiding the 16-21 26-31 13-19 12-17 17x46 After 7... 20-24 white is going to attack <24>: kingshot. 8.34-29 23x34 9.40x20 15x24 10.32-28 etc. 16... 11-17 6.33-29 White wants to pla a Ropozenburg attack. 6.40-35 leads to different types of play."
+}
+]
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "C) Which combination can black perform if white played 17.50-45?"
+}
+]
+},
+{
+"type": "h3",
+"ch": 1,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },
@@ -533,15 +609,6 @@ const DATA: ManuelData = {
 "ch": 1
 },
 {
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "Calculation You have to draw the position after this combination in the right diagram. In the left diagram a combination is pictured."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0104_d1",
 "ch": 1
@@ -610,42 +677,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0133_d8",
 "ch": 1
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "E) If black plays 31... 12-18 in order to be able to change after 37-32 (8-12 32x21 22-28 33x22 18x16) black can force a win. How?"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "5) Play the lines on your board and answer the questions. 12... 14-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "Opening (theory) Attacking the outpost (without a piece on <20>) 1.32-28 19-23 2.28x19 14x23 doesn’t yield any positive results for black: 3.37-32 10-14 4.41-37 14-19 12...14-19 13.45-40 19x30 14.40-35 9-14 5.35-30 20-25 15.35x24 14-19 16.44-40 19x30 17.40-35 3-9 18.35x24 9-14 19.49-44 14-19 20.44-40 19x30 If black refuses the invitation to go to <25> with 21.40-35 4-9 22.35x24 9-14? 23.38-33! 5...5-10 then 6.30-25 10-14 follows and instead of the normal 7.46-41 white can also play the B) How is 23... 14-19 punished now? Kuperman-move: 7.47-41! 17-21 (7...17-22 8.34-29 23x34 9.40x29 11-17 10.45-40 6-11) 8.34-29 23x34 13.45-40 6-11 14.38-33 17-21 9.40x29 21-26 10.45-40 and if black goes to 15.42-38 21-26 16.41-36 <23> white develops his left wing playing 32- 28x28x37 with string centre play. Avoiding the 16-21 26-31 13-19 12-17 17x46 After 7... 20-24 white is going to attack <24>: kingshot. 8.34-29 23x34 9.40x20 15x24 10.32-28 etc. 16... 11-17 6.33-29 White wants to pla a Ropozenburg attack. 6.40-35 leads to different types of play."
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "C) Which combination can black perform if white played 17.50-45?"
-}
-]
 },
 {
 "type": "board",
@@ -832,76 +863,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0004_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0004_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0004_d6",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0005_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0005_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0005_d6",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0006_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0006_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0007_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0007_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0007_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0007_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0007_d5",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0007_d6",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -909,36 +870,6 @@ const DATA: ManuelData = {
 "t": "5) S. Egorov – A. Prusokov 1.29-24? The same position emerged in a game A. Scholma – T. Brouwers. White should have played 27-21x21 +/-. 6 1… 8-13 2.24-20 23-29!! 3.20x9 3.34x23 25x43 4.38x49 (4.20x9 13x4 5.38x49 18x29 6.27x18 12x23 Z+1) 4...14x25 5.23x14 25-30 6.35x24 22-28 7.32x23 18x9 B+ 13x4 4.34x14 25x43 5.38x49 4-9 6.14x3 18- 23 7.27x29 12-18 8.3x21 16x47 B+"
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0020_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0020_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0020_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0020_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0020_d5",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0020_d6",
-"ch": 2
 },
 {
 "type": "p",
@@ -959,11 +890,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0023_d1",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -973,21 +899,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0034_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0034_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0034_d3",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -995,36 +906,6 @@ const DATA: ManuelData = {
 "t": "Calculation 2  Look for the shot after the shown moves"
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0035_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0035_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0035_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0035_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0035_d5",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0035_d6",
-"ch": 2
 },
 {
 "type": "p",
@@ -1045,76 +926,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0040_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0040_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0064_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0064_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0064_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0065_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0065_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0065_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0068_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0068_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0068_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0068_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0068_d5",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0068_d6",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -1131,16 +942,6 @@ const DATA: ManuelData = {
 "t": "2A) Which move would you advice white to play?"
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0073_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0073_d4",
-"ch": 2
 },
 {
 "type": "p",
@@ -1179,16 +980,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0086_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0086_d2",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -1196,36 +987,6 @@ const DATA: ManuelData = {
 "t": "Calculation & Tactics  Look for the shot after the shown moves!"
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0106_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0106_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0106_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0106_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0106_d5",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0106_d6",
-"ch": 2
 },
 {
 "type": "p",
@@ -1244,21 +1005,6 @@ const DATA: ManuelData = {
 "t": "R. Clerc – J. v.d. Wal 31.40-35 2-7 32.47-41 1.31-26 21-27 2.32x21 16x27 3.37-31 17-22 4.42-38 C) How would you judge this last move? Draw the position in the empty diagram:"
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0109_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0109_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0109_d4",
-"ch": 2
 },
 {
 "type": "p",
@@ -1297,11 +1043,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0110_d3",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -1327,16 +1068,6 @@ const DATA: ManuelData = {
 "t": "C) How does black lose a piece if 28.38-33 is answered by 11-16? B) White has no good move left. How does black win after 35.39-33? We look at the position after 28.38-33 19-23 29.43-38."
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0111_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0111_d3",
-"ch": 2
 },
 {
 "type": "p",
@@ -1366,26 +1097,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0112_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0112_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0112_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0121_d1",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -1393,16 +1104,6 @@ const DATA: ManuelData = {
 "t": "2) B. Dukel – W. de Jong 1.28-23! 1.49-44? fails due to 17-21 2.28x17 21-27 E) H. Maceaux – T. Brouwers 3.32x21 13-19 4.24x22 8-13 5.17x19 14x41 6.36x47 26x50 B+; 1.30-25? isn’t good either: 22-27 2.32x21 17- 22 3.28x17 13-19 4.24x22 8-13 5.17x19 14x41 6.36x47 26x39 B+; 1.49-43 leads to an equal position: 13-19 2.24x13 8x19 = 1...26-31?! 1...13-19 2.24x13 8x28 3.32x23 is the best continuation for black. 2.36x27 22x42 3.38x47 18-22? 3...14-20 4.23-19 20-25 5.19-14 25x43 6.14x5 43-48 7.24-20 15x24 8.29x20 isn’t so clear. It looks good or black, but white surprises his F) J. van Dijk – G. Hessing opponent with: 4.32-27!! 22x31 5.30-25! 13- 18* 6.24-20 15x24 7.29x9 18x38 8.9-4 38-42 9.4x36 42-48 10.39-34 48x30 11.25x34 W+ Calculation & Tactics 3) White has to take care for shots. Black is 1) A. Shaibakov – M. van IJzendoorn threatening to play 26-31 37x26 17-21 26x17 1...27-31 2.36x27 22x31 3.33-28? 17-21! 11x31 36x27 16-21 27x16 18-22 28x17 12z21 4.26x17 11x33 5.37x26 12-17 6.23x21 14-19 16x27 13-19 24x13 8x48. 7.39x28 19x37 8.38-32 25-30 9.32x41 30-34 1.36-31 is dangerous since black replies 17-22 B+ 2.28x17 12x21 3.23x12 8x17 and after 4.27-22 17x28 5.32x23 3-8 (threatening 21-27 & 13-19) 2) 1.44-39 6-11 2.50-44 17-21 3.30-24? 25-30! follows, while 4.44-40 is met by 14-19! 5.40-35 4.34x25 23x34 5.39x30 14-19 6.24x22 21-27 19x30 6.35x24 17-22 7.27x18 13x22 B+1. 7.32x21 26x50 B+ White has to pull back his outposts changing 1.34-30 25x34 2.29x40 20x29 3.23x34 =. 3) E. Bronstring – J. Bastiaannet 1.49-44 12-18? 2.36-31! 27x47 3.33-28 22x33 4) H. Verdolage – S. Winkel 4.38x20 47x49 5.39-33 15x24 6.26-21 49x16 White should take care for the trap: 1.34-29? 7.37-32 16x29 8.34x3 25x34 9.40x20 14x25 17-21! 2.28x17 21-27 3.32x21 13-19 4.24x22 10.3x1 W+ 8-13 5.17x19 14x34 6.39x30 26x48 and the"
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0122_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0122_d2",
-"ch": 2
 },
 {
 "type": "p",
@@ -1441,16 +1142,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0124_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0124_d2",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -1476,31 +1167,6 @@ const DATA: ManuelData = {
 "t": "5A) Piece <49> should defend the outpost. D) 30.34-30 25x32 31.37x19 13x24 32.33-28 Moreover, square 44 must be occupied if white 22x33 33.31x2 W+ goes to centre-square <28>, to eliminate shots with 16-21 6-11 13x.... E) 30.33-29! Now 3-9 is punished by 29-23 28x19* 38-32 27x29 34x3, while 12-17 is met by the same kind of shot. If black plays 30...11-17 31.29-23! 28x19 32.34-30 25x32 33.37x28 22x33 34.31x2 W+ follows."
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0125_d1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0125_d2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0125_d3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0125_d4",
-"ch": 2
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0125_d5",
-"ch": 2
 },
 {
 "type": "p",
@@ -1575,6 +1241,416 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "Judging positions The right wing attack is not the only way to attack. In this chapter we do exercises to master other attacking systems. We also take Combinations – classical attack the perspective from one who plays against an attack. Which move do you play"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "8) 1.27-21 16x27 2.31x22 18x27 3.32x21 3)  A. Presman – A. Schwarzman 23x43 4.42-38 43x32 5.33-29 24x33 6.21-17 White forced a nice kingshot: 24.25-20! 24-30 11x22 7.35-30 25x34 8.40x7 W+ 25.34x25 15x24 26.47-41! 36x47 27.38-32 47x29 28.28-22 18x49 29.50-44 49x40 Forcings – piece <25> 30.45x5 12-17 and white won the endgame in a nice way: 31.16-11 17-22 32.5-41 6x17 1) 1.48-43! 3-8 2.27-22! 25-30 3.34x25 12-18 33.41-47 22-27 34.47x20 27-31 35.20-38 13- 4.39-34! 18x27 5.25-20 14x25 6.34-30 25x34 18 36.25-20 17-22 37.20-14 22-28 38.35-30 7.40x18 13x22 8.28x26 W+ 18-23 39.30-24 31-36 40.38-49 28-33 41.48-43 23-28 42.49-44 28-32 43.44x37 36-41 44.14- 2) 1.48-43! 13-19 2.28-22! 9-14 (2...9-13? 10 4x15 45.37-14 15-20 46.24x15 41-47 3.27-21! 26x28 4.32x5) 3.22x13 19x8 4.32-28! 47.14-20 3-9 48.20x26 W+ 11-17 (4...12-18? 5.27-22! 18x27 6.28-22 27x18 7.37-31 26x37 8.38-32 37x28 9.33x2) 4) J. v.d. Borst – J. Wit 5.38-32 and black can't parry the 34-30 threat.  1...1-7? 2.27-22! 18x27 3.33-29 24x33 4.38x18 12x23 5.47-41 36x38 6.43x1 W+ 3) 1.47-41! 9-14 2.34-29! 3-9 3.28-22! 12-17 4.22x11 16x7 5.27-22! 18x27 6.32x21 26x17 5)  1.48-42?! 4-10!? 2.15x4 21-26? 3.4x22 7.29-23 19x28 8.33x2 W+ 26x17 4.44-40! 35x44 5.27-22 17x28 6.33x22 44x33 7.38x9 W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "13.24-20 14-19 14.20-15 18-23 15.25-20 23-28 6) H. Vermin – F. Luteyn 16.15-10 6-11 17.10-5 W+  1.39-33? 12-18! 2.21x12 23-28 3.12x32 24- 30 4.35x15 14-20 5.15x24 19x46 B+ 4) In the game 1.44-39? was played. After 1...18-23 2.39-33 7-11 3.6x17 12x21 4.33-29 Analysing positions 23x34 5.30x39 19-23 black has an advantage and won the game. If white plays 1.43-39 1A) 2...8-13? 3.34-30! 24x33 4.38x9 W+ however, after 18-23 2.39-33 7-11 3.6x17 12x21 4.33-29 23x34 5.30x39 19-23 6.48-43 piece <44> is still active. Black now has to take B) 2...12-17? 3.34-30! 24x33 4.38x18 17x28 care for shots like 8-13? 35-30! 24x35 44-40 5.32x14 W+ 35x33 38x9 14x3 25x14 +/-. After 6...8-12 7.38-33 white can use the C) 2...11-17? 3.22x11 1-6 4.34-30! 24x33 33/39/43/44 fork. 7...24-29 8.33x24 20x29 5.38x18 6x17 6.42-38 12x23 7.37-31 36x27 9.42-38 results in an equal position. 8.32x3 W+ 5) White plays against both <26, 36 & 25>! D) 3..11-17? 22x11 1-6 33-29! 24x33 38x18 1.39-34! 12-18 [ 1...12-17 2.32-27 6-11 (2...13- 6x17 42-38 12x23 37-31 36x27 32x3 W+ 18 3.37-31 26x37 4.27-21 17x26 5.48-42 37x48 6.40-35 48x30 7.35x4 W+) 3.27-21 13- E) 3...24-30? 4.33-29! 30x39 5.29x18 12x23 18 4.21x12 18x7 5.34-30 25x34 6.40x18 W+ ; 6.49-44 39x50 7.48-43 50x17 8.37-31 36x27 1...13-18 2.33-28 25-30! 3.34x25 12-17 4.38- 9.32x3 W+ 33 18-22 5.40-34 6-11 6.34-30 22-27 7.32x12 23x41 8.12-8 +/- ] 2.33-28 White wants to play F) 3...11-17! 4.22x11 24-30! 5.33-29 30x39 38-33 to introduce the 37-31 threat. 2...6-11 6.29x18 12x23 7.49-43 20-24! 8.43x34 24-30 3.38-33 15-20 White can't take the 37-31 B+ kingshot now, since the king will be caught (11- 17. 4.49-44 9-14 [ 4...11-17 5.37-31 36x29 G) 8...7-11? 9.16x7 12x1 10.37-31! 36x27 6.48-42 23x32 7.34x3 W+ ] Since black has no 11.32x12 18x7 12.33-29 24x33 13.38x18 W+ formations anymore, white goes to <29>. 5.34- 29 23x34 with a very strong centre position for H) 8...7-11? 9.16x7 2x11 10.32-27! 11-16 white, for example: 6.40x29 19-24 7.48-42 14- (10...17-22 loses to 37-32-27 & 33-29 W+) 19 8.42-38 11-16 9.32-27 25-30 10.38-32 30- 11.27-22 17x28 12.33x13 19x8 13.38-33 with 35 11.44-39 20-25 12.29x20 25x14 13.33-29 the strong threat of 33-29! W+ and white will win."
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "I) 2-8 32-27 8-13 (17-21 27-22 16-11 33-29 6) White lacks space to play. Therefore best is W+; 17-22 27-21 etc. +) 27-22! 17x28 33x22 to make a draw with a shot: 34.37-31! 28x48 18x27 35-30 24x35 44-40 35x33 38x9 W+ 35.30-24 48x45 36.24x4 36x27 37.4x36 =. In the game white played 34.40-35? 2) 41.40-35 10-14 42.43-39 13-19 43.28-22 8- and lost after 9-13 35.44-40 20-24 36.38-33 13 44.22-17 14-20 (44...12-18 45.34-29 21x12 17-22 37.42-38 [ 37.39-34 28x39 38.34x43 11- 46.29x9 13x4 47.37-31 26x28 48.33x24) 17 39.42-38 22-28 40.43-39 17-22 41.40-34 7- 45.17x8 13x2 46.33-28 2-7 47.39-33 7-12 11 42.16x7 12x1 -/++ ] 37...24-29! 38.33x24 48.28-22 19-23 49.22-17 12-18 50.34-30 22-27 39.32x21 28-33 40.38x29 23x45 41.24- 25x34 (50...21x12 51.30x28 20-24 52.28-22 20 19-23 42.20x9 13x4 43.25-20 11-17 44.20- 18-23 53.44-40) 51.33-28 21x12 52.28x39 12- 14 17-22 45.30-25 45-50 46.39-34 22-27 B+ 17 53.32-28 W+ 7) Position after: 3) White played 1.33-29! 24x33 2.38x29 trying 1.32-28 17-22 2.28x17 11x22 3.37-32 12-17 to get an initiative on the right wing. 4.31-26 6-11 5.36-31 8-12 6.32-27 16-21 If black allows white to play 29-24 20x29 34x23 7.27x16 22-28 8.33x22 18x36 9.41-37 19-23 the pieces at his right wing are inactive. Black 10.37-32 14-19 11.32-27 12-18 12.27-21 7-12 can play 20-24 29x20 15x24 but the piece on 13.16x7 2x11 14.21-16 1-7 15.39-33 10-14 <24> will be attacked. The game was: 2...20- 16.44-39 20-24 17.46-41 14-20 18.41-37 5-10 24 3.29x20 15x24 4.42-38 22-28 5.38-32 24- 19.34-30 19...20-25 isn’t attractive for black, 29 6.32x23 29x18 Now white has a lot of since white will block his right wing, creating a space at the right flank. He uses it to organize classical position: 20.37-32 25x34 21.40x20 a breaktrough. 15x24 22.33-28! +/- 7.34-30 3-9 8.30-24 9-14 9.40-34 12-17 10.26- 21 17x26 11.34-30 11-17 12.30-25 17-22"
+}
+]
+},
+{
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "Diagrammes"
+}
+]
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0004_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0004_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0004_d6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0005_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0005_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0005_d6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0006_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0006_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0007_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0007_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0007_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0007_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0007_d5",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0007_d6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0020_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0020_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0020_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0020_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0020_d5",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0020_d6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0023_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0034_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0034_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0034_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0035_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0035_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0035_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0035_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0035_d5",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0035_d6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0040_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0040_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0064_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0064_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0064_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0065_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0065_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0065_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0068_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0068_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0068_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0068_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0068_d5",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0068_d6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0073_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0073_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0086_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0086_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0106_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0106_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0106_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0106_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0106_d5",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0106_d6",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0109_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0109_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0109_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0110_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0111_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0111_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0112_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0112_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0112_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0121_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0122_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0122_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0124_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0124_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0125_d1",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0125_d2",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0125_d3",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0125_d4",
+"ch": 2
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0125_d5",
+"ch": 2
+},
+{
 "type": "board",
 "id": "GOEDEMOED_p0129_d1",
 "ch": 2
@@ -1603,15 +1679,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0129_d6",
 "ch": 2
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Judging positions The right wing attack is not the only way to attack. In this chapter we do exercises to master other attacking systems. We also take Combinations – classical attack the perspective from one who plays against an attack. Which move do you play"
-}
-]
 },
 {
 "type": "board",
@@ -1789,36 +1856,9 @@ const DATA: ManuelData = {
 "ch": 2
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "8) 1.27-21 16x27 2.31x22 18x27 3.32x21 3)  A. Presman – A. Schwarzman 23x43 4.42-38 43x32 5.33-29 24x33 6.21-17 White forced a nice kingshot: 24.25-20! 24-30 11x22 7.35-30 25x34 8.40x7 W+ 25.34x25 15x24 26.47-41! 36x47 27.38-32 47x29 28.28-22 18x49 29.50-44 49x40 Forcings – piece <25> 30.45x5 12-17 and white won the endgame in a nice way: 31.16-11 17-22 32.5-41 6x17 1) 1.48-43! 3-8 2.27-22! 25-30 3.34x25 12-18 33.41-47 22-27 34.47x20 27-31 35.20-38 13- 4.39-34! 18x27 5.25-20 14x25 6.34-30 25x34 18 36.25-20 17-22 37.20-14 22-28 38.35-30 7.40x18 13x22 8.28x26 W+ 18-23 39.30-24 31-36 40.38-49 28-33 41.48-43 23-28 42.49-44 28-32 43.44x37 36-41 44.14- 2) 1.48-43! 13-19 2.28-22! 9-14 (2...9-13? 10 4x15 45.37-14 15-20 46.24x15 41-47 3.27-21! 26x28 4.32x5) 3.22x13 19x8 4.32-28! 47.14-20 3-9 48.20x26 W+ 11-17 (4...12-18? 5.27-22! 18x27 6.28-22 27x18 7.37-31 26x37 8.38-32 37x28 9.33x2) 4) J. v.d. Borst – J. Wit 5.38-32 and black can't parry the 34-30 threat.  1...1-7? 2.27-22! 18x27 3.33-29 24x33 4.38x18 12x23 5.47-41 36x38 6.43x1 W+ 3) 1.47-41! 9-14 2.34-29! 3-9 3.28-22! 12-17 4.22x11 16x7 5.27-22! 18x27 6.32x21 26x17 5)  1.48-42?! 4-10!? 2.15x4 21-26? 3.4x22 7.29-23 19x28 8.33x2 W+ 26x17 4.44-40! 35x44 5.27-22 17x28 6.33x22 44x33 7.38x9 W+"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0196_d1",
 "ch": 2
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "13.24-20 14-19 14.20-15 18-23 15.25-20 23-28 6) H. Vermin – F. Luteyn 16.15-10 6-11 17.10-5 W+  1.39-33? 12-18! 2.21x12 23-28 3.12x32 24- 30 4.35x15 14-20 5.15x24 19x46 B+ 4) In the game 1.44-39? was played. After 1...18-23 2.39-33 7-11 3.6x17 12x21 4.33-29 Analysing positions 23x34 5.30x39 19-23 black has an advantage and won the game. If white plays 1.43-39 1A) 2...8-13? 3.34-30! 24x33 4.38x9 W+ however, after 18-23 2.39-33 7-11 3.6x17 12x21 4.33-29 23x34 5.30x39 19-23 6.48-43 piece <44> is still active. Black now has to take B) 2...12-17? 3.34-30! 24x33 4.38x18 17x28 care for shots like 8-13? 35-30! 24x35 44-40 5.32x14 W+ 35x33 38x9 14x3 25x14 +/-. After 6...8-12 7.38-33 white can use the C) 2...11-17? 3.22x11 1-6 4.34-30! 24x33 33/39/43/44 fork. 7...24-29 8.33x24 20x29 5.38x18 6x17 6.42-38 12x23 7.37-31 36x27 9.42-38 results in an equal position. 8.32x3 W+ 5) White plays against both <26, 36 & 25>! D) 3..11-17? 22x11 1-6 33-29! 24x33 38x18 1.39-34! 12-18 [ 1...12-17 2.32-27 6-11 (2...13- 6x17 42-38 12x23 37-31 36x27 32x3 W+ 18 3.37-31 26x37 4.27-21 17x26 5.48-42 37x48 6.40-35 48x30 7.35x4 W+) 3.27-21 13- E) 3...24-30? 4.33-29! 30x39 5.29x18 12x23 18 4.21x12 18x7 5.34-30 25x34 6.40x18 W+ ; 6.49-44 39x50 7.48-43 50x17 8.37-31 36x27 1...13-18 2.33-28 25-30! 3.34x25 12-17 4.38- 9.32x3 W+ 33 18-22 5.40-34 6-11 6.34-30 22-27 7.32x12 23x41 8.12-8 +/- ] 2.33-28 White wants to play F) 3...11-17! 4.22x11 24-30! 5.33-29 30x39 38-33 to introduce the 37-31 threat. 2...6-11 6.29x18 12x23 7.49-43 20-24! 8.43x34 24-30 3.38-33 15-20 White can't take the 37-31 B+ kingshot now, since the king will be caught (11- 17. 4.49-44 9-14 [ 4...11-17 5.37-31 36x29 G) 8...7-11? 9.16x7 12x1 10.37-31! 36x27 6.48-42 23x32 7.34x3 W+ ] Since black has no 11.32x12 18x7 12.33-29 24x33 13.38x18 W+ formations anymore, white goes to <29>. 5.34- 29 23x34 with a very strong centre position for H) 8...7-11? 9.16x7 2x11 10.32-27! 11-16 white, for example: 6.40x29 19-24 7.48-42 14- (10...17-22 loses to 37-32-27 & 33-29 W+) 19 8.42-38 11-16 9.32-27 25-30 10.38-32 30- 11.27-22 17x28 12.33x13 19x8 13.38-33 with 35 11.44-39 20-25 12.29x20 25x14 13.33-29 the strong threat of 33-29! W+ and white will win."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "I) 2-8 32-27 8-13 (17-21 27-22 16-11 33-29 6) White lacks space to play. Therefore best is W+; 17-22 27-21 etc. +) 27-22! 17x28 33x22 to make a draw with a shot: 34.37-31! 28x48 18x27 35-30 24x35 44-40 35x33 38x9 W+ 35.30-24 48x45 36.24x4 36x27 37.4x36 =. In the game white played 34.40-35? 2) 41.40-35 10-14 42.43-39 13-19 43.28-22 8- and lost after 9-13 35.44-40 20-24 36.38-33 13 44.22-17 14-20 (44...12-18 45.34-29 21x12 17-22 37.42-38 [ 37.39-34 28x39 38.34x43 11- 46.29x9 13x4 47.37-31 26x28 48.33x24) 17 39.42-38 22-28 40.43-39 17-22 41.40-34 7- 45.17x8 13x2 46.33-28 2-7 47.39-33 7-12 11 42.16x7 12x1 -/++ ] 37...24-29! 38.33x24 48.28-22 19-23 49.22-17 12-18 50.34-30 22-27 39.32x21 28-33 40.38x29 23x45 41.24- 25x34 (50...21x12 51.30x28 20-24 52.28-22 20 19-23 42.20x9 13x4 43.25-20 11-17 44.20- 18-23 53.44-40) 51.33-28 21x12 52.28x39 12- 14 17-22 45.30-25 45-50 46.39-34 22-27 B+ 17 53.32-28 W+ 7) Position after: 3) White played 1.33-29! 24x33 2.38x29 trying 1.32-28 17-22 2.28x17 11x22 3.37-32 12-17 to get an initiative on the right wing. 4.31-26 6-11 5.36-31 8-12 6.32-27 16-21 If black allows white to play 29-24 20x29 34x23 7.27x16 22-28 8.33x22 18x36 9.41-37 19-23 the pieces at his right wing are inactive. Black 10.37-32 14-19 11.32-27 12-18 12.27-21 7-12 can play 20-24 29x20 15x24 but the piece on 13.16x7 2x11 14.21-16 1-7 15.39-33 10-14 <24> will be attacked. The game was: 2...20- 16.44-39 20-24 17.46-41 14-20 18.41-37 5-10 24 3.29x20 15x24 4.42-38 22-28 5.38-32 24- 19.34-30 19...20-25 isn’t attractive for black, 29 6.32x23 29x18 Now white has a lot of since white will block his right wing, creating a space at the right flank. He uses it to organize classical position: 20.37-32 25x34 21.40x20 a breaktrough. 15x24 22.33-28! +/- 7.34-30 3-9 8.30-24 9-14 9.40-34 12-17 10.26- 21 17x26 11.34-30 11-17 12.30-25 17-22"
-}
-]
 },
 {
 "type": "h2",
@@ -1826,6 +1866,33 @@ const DATA: ManuelData = {
 "runs": [
 {
 "t": "Bon ou pas ?"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": " All kind of variations are possible, like piece 1.27-22 18x27 2.25-20 14x34 3.40x18 13x22 <39> on <43> etc. 4.28x26, winning piece <27>. 1.27-22 18x27 2.36-31 27x36 3.28-22 17x28 4.35-30 24x33 5.38x20 15x24 6.32x5"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "1) White has a nice podkowa. There are White’s position is much more flexible than the weaknesses in black’s centre: the Drenth-zone black one: he has more possibilities. White can is poorly occupied. If white controls both wings, play 33-28 or 33-29x29, in both cases having he has a sound surrounding strategy. In order the best chances. If white plays 33-28 he to control the wings, he should start by playing wants a Ghestem-lock later. With 33-29x29, 30-25. If white plays 31-27 too fast, black can white goes for podkowa play. take control over the right wing and eventually take over <24>: 1.31-27? 22x31 2.36x27 20- 7) T. Goedemoed – R. v.d. Beek 25! and white’s right wing is locked. Black’s White is ready for an attack at the left wing, plan goes 14-20 4-10-15 and 20-24x24. playing 28-22x22, e.g. 1...11-16 2.28-22! Therefore white should play 30-25, (without 17x28 3.33x22 12-17 4.22x11 16x7 5.27-22! any fear for 1...19-24? due to 2.34-30! 23x43 20-25 6.26-21 with a big advantage. 3.30x10 4x15) with a good game, for example: Black can’t stop this by playing 1...24-29? 1.30-25 4-10 2.31-27 22x31 3.36x27 10-15 2.33x24 20x29 because of 3.39-33! 14-20 4.46-41 2-8 5.33-28 6-11 6.39-33, with white 4.33x24 20x29 5.40-34 29x40 6.45x34 having a big advantage. (threatening 28-22, 34-29) 9-14 7.38-33 14-20* 8.43-38 20-24 9.35-30! 24x35 10.33-29 12-18 2) This is the famous Woldouby position. It is 11.27-21 8-12 12.28-22 18x16 13.29x9 W+ covered in the section on classics in part II of ACID. White to move has problems to make a 8) F. Veltman – G. Heerema draw. He is frozen out after 1.34-29 23x34 After 1.35-30! black must take care: 1...17-22? 2.30x39 18-23 3.39-34? 13-18 (4.34-30 12-17) (1...7-12? 2.30-24! 19x30 3.32-27 21x32 and black has a winning position. Only 3.27- 4.37x19 13x15 5.38-32 26x28 6.33x2, 1...9-14 22! gives white the chance to escape from 2.20x9 3x14 is better for white) 2.30-24 19x30 losing, as you can read in ACID 2. 3.32-27 21x32 4.37x19 13x15 5.39-34 30x28 6.43-39 26x37 7.41x1 W+ 3) White shouldn’t play 1.39-34? 12-17 2.47- Black should play 9-14x14. 42? Since black plays (as in Ricou – Garoutte) 2...24-29! 3.33x24 17-22 4.28x17 21x12 5.24- Which move would you play? 20 14x25 6.34-29 25x34 7.29x40 19-24 8.40- 34 24-29 and black wins (see ACID 2 on 1) White can perform a forcing: 1.33-28! 13-19 classics). 2.39-33 (threatening to play 30-24) 20-24 3.28- After 1.47-41 12-17 2.41-36 17-22 3.28x17 22! 8-13 4.32-28! 23x21 5.33-28 18x27 6.28- 21x12 4.33-28 12-17 however, white has a 23 19x28 7.30x6 W+ famous winning position, Ricou – Bonnard: 5.39-34! 24-29 (5...16-21 6.27x16 18-22 7.34- 2) White should defend with 1.42-38 since 29 24x31 8.36x20, 5...17-21 6.38-33) 6.30-25 1.28-22? is punished by 1...23-29! 2.34x12 14- 29x40 7.35x44 16-21 8.27x16 18-22 9.25-20 20 3.25x23 11-17 4.22x11 16x47 5.27x16 47- 22x31 10.20x29 W+ 33 B+. 1...11-17 2.34-30 23-29 (2...21-26 3.27- 21 16x27 4.32x12 23x43 5.12x23 19x39 4) Black has a weak piece on <10>, the piece 6.30x10 leads to a draw) 3.28-23 19x37 is dangling. White still has the opportunity to 4.30x10 21x43 5.33x24 and white must fight build the Olympic formation: 1.43-39 activates for a draw. the Coup Royal threat 27-22 etc. Even after 1...3-9 white can take the Coup Royal 2.27-22 3) M. Camara – J.M. Ndjofang 18x27 3.32x21 23x34 4.40x20 26x17 5.20-15! 1...21-27! 2.32x21 26x17 Black weakens the W+ white centre, with a strong podkowa: 3.37-32? (3.38-32 17-21 4.48-43 18-23 5.36-31 also 5) White has several advantages: loses due to 23-29! 6.43-38 21-27 7.31x22 19-  Black has a weak piece at 15, it is 23 8.28x30 25x43 9.33x24 43-48 B+, 3.48-43 staying behind. is the best defense: 18-22 4.28-23! 19x28  White trails 5 temps in development. 5.37-31 17-21 6.31-27 22x31 7.36x27 21x32  White can take a Ghestem-lock 8.38x27 28-32 9.27x38 16-21 10.38-32 but is playing 1.28-22!! and deactivate better for black) 3...18-22! and since 32-27x27 black’s formations at the right wing. is punished by 19-23, white can’t resist the 24- Piece <22> can’t be exchanged easily 29 threat and loses. either. After 11-17x17 piece <12> is dangling. 4) White can force the win: 1.33-29! 24x33 (1...23x34 2.40x20 10-15 3.27-22 15x24 4.32- 6) A. Cordier – P. Chmiel 28 18x27 5.28-23 19x28 6.30x10 4x15 7.37-31"
+}
+]
+},
+{
+"type": "h3",
+"ch": 3,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },
@@ -1910,15 +1977,6 @@ const DATA: ManuelData = {
 "ch": 3
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": " All kind of variations are possible, like piece 1.27-22 18x27 2.25-20 14x34 3.40x18 13x22 <39> on <43> etc. 4.28x26, winning piece <27>. 1.27-22 18x27 2.36-31 27x36 3.28-22 17x28 4.35-30 24x33 5.38x20 15x24 6.32x5"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0084_d1",
 "ch": 3
@@ -1937,15 +1995,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0084_d4",
 "ch": 3
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "1) White has a nice podkowa. There are White’s position is much more flexible than the weaknesses in black’s centre: the Drenth-zone black one: he has more possibilities. White can is poorly occupied. If white controls both wings, play 33-28 or 33-29x29, in both cases having he has a sound surrounding strategy. In order the best chances. If white plays 33-28 he to control the wings, he should start by playing wants a Ghestem-lock later. With 33-29x29, 30-25. If white plays 31-27 too fast, black can white goes for podkowa play. take control over the right wing and eventually take over <24>: 1.31-27? 22x31 2.36x27 20- 7) T. Goedemoed – R. v.d. Beek 25! and white’s right wing is locked. Black’s White is ready for an attack at the left wing, plan goes 14-20 4-10-15 and 20-24x24. playing 28-22x22, e.g. 1...11-16 2.28-22! Therefore white should play 30-25, (without 17x28 3.33x22 12-17 4.22x11 16x7 5.27-22! any fear for 1...19-24? due to 2.34-30! 23x43 20-25 6.26-21 with a big advantage. 3.30x10 4x15) with a good game, for example: Black can’t stop this by playing 1...24-29? 1.30-25 4-10 2.31-27 22x31 3.36x27 10-15 2.33x24 20x29 because of 3.39-33! 14-20 4.46-41 2-8 5.33-28 6-11 6.39-33, with white 4.33x24 20x29 5.40-34 29x40 6.45x34 having a big advantage. (threatening 28-22, 34-29) 9-14 7.38-33 14-20* 8.43-38 20-24 9.35-30! 24x35 10.33-29 12-18 2) This is the famous Woldouby position. It is 11.27-21 8-12 12.28-22 18x16 13.29x9 W+ covered in the section on classics in part II of ACID. White to move has problems to make a 8) F. Veltman – G. Heerema draw. He is frozen out after 1.34-29 23x34 After 1.35-30! black must take care: 1...17-22? 2.30x39 18-23 3.39-34? 13-18 (4.34-30 12-17) (1...7-12? 2.30-24! 19x30 3.32-27 21x32 and black has a winning position. Only 3.27- 4.37x19 13x15 5.38-32 26x28 6.33x2, 1...9-14 22! gives white the chance to escape from 2.20x9 3x14 is better for white) 2.30-24 19x30 losing, as you can read in ACID 2. 3.32-27 21x32 4.37x19 13x15 5.39-34 30x28 6.43-39 26x37 7.41x1 W+ 3) White shouldn’t play 1.39-34? 12-17 2.47- Black should play 9-14x14. 42? Since black plays (as in Ricou – Garoutte) 2...24-29! 3.33x24 17-22 4.28x17 21x12 5.24- Which move would you play? 20 14x25 6.34-29 25x34 7.29x40 19-24 8.40- 34 24-29 and black wins (see ACID 2 on 1) White can perform a forcing: 1.33-28! 13-19 classics). 2.39-33 (threatening to play 30-24) 20-24 3.28- After 1.47-41 12-17 2.41-36 17-22 3.28x17 22! 8-13 4.32-28! 23x21 5.33-28 18x27 6.28- 21x12 4.33-28 12-17 however, white has a 23 19x28 7.30x6 W+ famous winning position, Ricou – Bonnard: 5.39-34! 24-29 (5...16-21 6.27x16 18-22 7.34- 2) White should defend with 1.42-38 since 29 24x31 8.36x20, 5...17-21 6.38-33) 6.30-25 1.28-22? is punished by 1...23-29! 2.34x12 14- 29x40 7.35x44 16-21 8.27x16 18-22 9.25-20 20 3.25x23 11-17 4.22x11 16x47 5.27x16 47- 22x31 10.20x29 W+ 33 B+. 1...11-17 2.34-30 23-29 (2...21-26 3.27- 21 16x27 4.32x12 23x43 5.12x23 19x39 4) Black has a weak piece on <10>, the piece 6.30x10 leads to a draw) 3.28-23 19x37 is dangling. White still has the opportunity to 4.30x10 21x43 5.33x24 and white must fight build the Olympic formation: 1.43-39 activates for a draw. the Coup Royal threat 27-22 etc. Even after 1...3-9 white can take the Coup Royal 2.27-22 3) M. Camara – J.M. Ndjofang 18x27 3.32x21 23x34 4.40x20 26x17 5.20-15! 1...21-27! 2.32x21 26x17 Black weakens the W+ white centre, with a strong podkowa: 3.37-32? (3.38-32 17-21 4.48-43 18-23 5.36-31 also 5) White has several advantages: loses due to 23-29! 6.43-38 21-27 7.31x22 19-  Black has a weak piece at 15, it is 23 8.28x30 25x43 9.33x24 43-48 B+, 3.48-43 staying behind. is the best defense: 18-22 4.28-23! 19x28  White trails 5 temps in development. 5.37-31 17-21 6.31-27 22x31 7.36x27 21x32  White can take a Ghestem-lock 8.38x27 28-32 9.27x38 16-21 10.38-32 but is playing 1.28-22!! and deactivate better for black) 3...18-22! and since 32-27x27 black’s formations at the right wing. is punished by 19-23, white can’t resist the 24- Piece <22> can’t be exchanged easily 29 threat and loses. either. After 11-17x17 piece <12> is dangling. 4) White can force the win: 1.33-29! 24x33 (1...23x34 2.40x20 10-15 3.27-22 15x24 4.32- 6) A. Cordier – P. Chmiel 28 18x27 5.28-23 19x28 6.30x10 4x15 7.37-31"
-}
-]
 },
 {
 "type": "board",
@@ -2072,6 +2121,231 @@ const DATA: ManuelData = {
 "runs": [
 {
 "t": "Right wing lock – Which move do you play? "
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Finish the position Use the number of white pieces that is shown beneath each diagram! You have to compose a white position so that black to move has no good move left."
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Which move would you play?  focus on tactics!"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "5.44-39 13-18 6.38-33 9-13 7.43-38 3-9 8.38-32 17-21 9.42-38 C) Why does black gain at least one piece now?"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "D) Instead of 3...23-29, black has another strong move, enough for winning the game. Which move is that and why is it so strong?"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "B) Try to find the right move for white in this position! What variation do you consider logical?"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "5) White plays podkowa. Try to analyse the A. Shaibakov – A. Tolchikov position. Can you find a winning variation (line) for white? 8) Piece <24> seems well protected, but white can still attack the piece succesfully. How can white do this?"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "9) Black has many formations, but he doesn’t B) It looks like black will be able to release the have much space to play. How can white profit pressure at the next move by playing 23-28. from this? Analyse the position and try to show Try to find a solution to freeze out black a line in which white wins. anyway."
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "7) Analyse the position. Try to find a winning line for white. 10) Analysis of Pim Meurs showed black has a winning position."
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "B) Show a line after 2.40-35 in which white is The right defence is 2...12-17 3.30-25 13-18! frozen out. 4.34-30"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "D) Which move now saves the draw for black? Now we investigate 2.40-34 20-25 3.45-40"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "13) Black to move has a winning strategy. Can you calculate the winning line from the diagram without touching the pieces?"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Which move do you play – Classical attack  Focus on tactics!"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Roozenburg – Which move do you play?  Focus on tactics!"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "R. Schalley – P. Oudshoorn 12) Both players have an outpost on <24 / 27>. Black also has an outpost on <28>. The 14) Both players have a classical outpost. position is very sharp, so tactics play a crucial White to play has to take care not to lose due role. Look at the possible moves for white and to a shot. try to find out which move is best: A) How does black punish 1.48-42? A) 49-44 B) 35-30 C) 38-32 B) How does black force a win after 1.43-39? D) 26-21"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "C) Can you spot a way for white to escape from defeat?"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "13) White soens’t have many good continuations. Which line would you advice white to play? The line should be at least 5 moves for white and 5 for black."
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "White to move. Try to find the best move for white. What’s his plan? Can you show a logical line from this diagram?"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Analyse the position and find out which continuation is best for white (to move)."
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "White can’t play 1.32-27? because of 1...7-11 2.6x17 12x41. 1.32-28 is too dangerous, since the white centre will be surrounded. So, candidate moves are 1.44-39 and 1.43-39 (we skip 1.38-33)."
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "A theoretical position from the Korchov- opening. Black is to move. Candidate moves are"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Try to find out which move is best (white to move) by analysing the position. Look at the possible answers for black and show how white will proceed."
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "E) Why is this move wrong? Which move would you advice black to play?"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "F) White could have forced a winning endgame now. Try to find this forcing!"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "C) Why is this move played? G) How should black have defended his position?"
+}
+]
+},
+{
+"type": "h3",
+"ch": 4,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },
@@ -2236,15 +2510,6 @@ const DATA: ManuelData = {
 "ch": 4
 },
 {
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Finish the position Use the number of white pieces that is shown beneath each diagram! You have to compose a white position so that black to move has no good move left."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0037_d1",
 "ch": 4
@@ -2283,15 +2548,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0037_d8",
 "ch": 4
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Which move would you play?  focus on tactics!"
-}
-]
 },
 {
 "type": "board",
@@ -2334,33 +2590,6 @@ const DATA: ManuelData = {
 "ch": 4
 },
 {
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "5.44-39 13-18 6.38-33 9-13 7.43-38 3-9 8.38-32 17-21 9.42-38 C) Why does black gain at least one piece now?"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "D) Instead of 3...23-29, black has another strong move, enough for winning the game. Which move is that and why is it so strong?"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "B) Try to find the right move for white in this position! What variation do you consider logical?"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0074_d2",
 "ch": 4
@@ -2369,33 +2598,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0074_d3",
 "ch": 4
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "5) White plays podkowa. Try to analyse the A. Shaibakov – A. Tolchikov position. Can you find a winning variation (line) for white? 8) Piece <24> seems well protected, but white can still attack the piece succesfully. How can white do this?"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "9) Black has many formations, but he doesn’t B) It looks like black will be able to release the have much space to play. How can white profit pressure at the next move by playing 23-28. from this? Analyse the position and try to show Try to find a solution to freeze out black a line in which white wins. anyway."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "7) Analyse the position. Try to find a winning line for white. 10) Analysis of Pim Meurs showed black has a winning position."
-}
-]
 },
 {
 "type": "board",
@@ -2426,33 +2628,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0075_d6",
 "ch": 4
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "B) Show a line after 2.40-35 in which white is The right defence is 2...12-17 3.30-25 13-18! frozen out. 4.34-30"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "D) Which move now saves the draw for black? Now we investigate 2.40-34 20-25 3.45-40"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "13) Black to move has a winning strategy. Can you calculate the winning line from the diagram without touching the pieces?"
-}
-]
 },
 {
 "type": "board",
@@ -2590,15 +2765,6 @@ const DATA: ManuelData = {
 "ch": 4
 },
 {
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Which move do you play – Classical attack  Focus on tactics!"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0142_d1",
 "ch": 4
@@ -2637,15 +2803,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0142_d8",
 "ch": 4
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Roozenburg – Which move do you play?  Focus on tactics!"
-}
-]
 },
 {
 "type": "board",
@@ -2688,33 +2845,6 @@ const DATA: ManuelData = {
 "ch": 4
 },
 {
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "R. Schalley – P. Oudshoorn 12) Both players have an outpost on <24 / 27>. Black also has an outpost on <28>. The 14) Both players have a classical outpost. position is very sharp, so tactics play a crucial White to play has to take care not to lose due role. Look at the possible moves for white and to a shot. try to find out which move is best: A) How does black punish 1.48-42? A) 49-44 B) 35-30 C) 38-32 B) How does black force a win after 1.43-39? D) 26-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "C) Can you spot a way for white to escape from defeat?"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "13) White soens’t have many good continuations. Which line would you advice white to play? The line should be at least 5 moves for white and 5 for black."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0151_d1",
 "ch": 4
@@ -2728,51 +2858,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0151_d3",
 "ch": 4
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "White to move. Try to find the best move for white. What’s his plan? Can you show a logical line from this diagram?"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Analyse the position and find out which continuation is best for white (to move)."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "White can’t play 1.32-27? because of 1...7-11 2.6x17 12x41. 1.32-28 is too dangerous, since the white centre will be surrounded. So, candidate moves are 1.44-39 and 1.43-39 (we skip 1.38-33)."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "A theoretical position from the Korchov- opening. Black is to move. Candidate moves are"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Try to find out which move is best (white to move) by analysing the position. Look at the possible answers for black and show how white will proceed."
-}
-]
 },
 {
 "type": "board",
@@ -2833,33 +2918,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0183_d8",
 "ch": 4
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "E) Why is this move wrong? Which move would you advice black to play?"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "F) White could have forced a winning endgame now. Try to find this forcing!"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "C) Why is this move played? G) How should black have defended his position?"
-}
-]
 },
 {
 "type": "board",
@@ -2927,26 +2985,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0015_d1",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0015_d2",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0015_d3",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0015_d4",
-"ch": 5
-},
-{
 "type": "p",
 "ch": 5,
 "runs": [
@@ -2983,31 +3021,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0016_d1",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0016_d2",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0016_d3",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0016_d4",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0016_d5",
-"ch": 5
-},
-{
 "type": "p",
 "ch": 5,
 "runs": [
@@ -3024,21 +3037,6 @@ const DATA: ManuelData = {
 "t": "Black can’t play 18-23x23 due to 33-28 and he Black is in dire straits. Now tactics become his also fears to become chain-locked by 38-32- biggest problem: 27. F) Show how next moves are punished: 30... 16-21 31.41-37  38...7-12 C) Why doesn’t white play 31-26?  38...8-12"
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0017_d1",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0017_d2",
-"ch": 5
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0017_d3",
-"ch": 5
 },
 {
 "type": "p",
@@ -3066,6 +3064,381 @@ const DATA: ManuelData = {
 "t": "4) Judge the position by using the known 7) Which is the most relevant feature that is procedure. responsible for black having a big advantage?"
 }
 ]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "1A) Black has more active formations. White can build a fork playing 50-45 but this fork isn’t active at all. 4 Pieces are aimed at one single piece <25>. White’s pieces aren’t working together well either. There are gaps at <37 & 39>. Black controls the wings."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "B) After 32-28 white has no single formation left. With no formations and several gaps in your position it isn’t right to make a decision, 3 that is, to decide to put a piece on the 26 – 30 row. White should instead connect his pieces, 3-8 28-22 8-12 22-17x17 and white wins the so playing 43-39 or 41-37 should be endgame after 23-29 etc. considered."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "2) Tactics and space. White loses due to a lack of space to play. The natural move 30-24 fails (1.30-24 19x30 2.28x8 2x13 3.35x24 18-23 4.29x18 13x42 5.38x47 20x49 B+. If he plays 36-31 black takes a right wing lock and white is frozen out. 1.36-31 20-24 2.29x20 15x24 3.41-36 10-14 4.27-22 18x27 5.31x22 14-20 and white is 4 frozen out B+"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "3A) White uses 4 pieces to lock only 3 pieces. The lock isn’t economic. B) 1...24-30! 2.35x24 19x30 Taking more space, while moving in the other direction from the lock. Black wants to control the right flank after which white is frozen out. The game continued: 3.40-34 30-35 4.33-29 13-19 5.38-33 8-13 6.43-38 14-20 7.31-26 20-25 8.36-31 19-24 9.29x20 25x14 10.33-29 14-20 11.38-33 13-19 12.33-28 20-25 13.28-22 17x37 14.26x17 37x26 15.27-21 16x27 16.17-11 9-14 17.11-7 14-20 18.39-33 19-24 19.33-28 24x22 20.7-1 26-31 21.1x15 31-37 22.15-47 27-31 23.34-29 31-36 24.29-23 37-41 25.23-19 41-46 26.19-13 Black should have protected piece <22> now"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "to win: 35-40! (26...46-10? 27.47-15!=) 27.13-8 2.36-31!! 10-14 3.41-36 47-33 46-28!) 40-45 and black becomes White shouldn't hurry: 3.37-32? 26x28 4.41-36 dominant. 22x31 5.33x24 23-28! 6.36x27 25-30 7.34x25 14-20 8.25x14 3-9 9.14x3 15-20 10.3x33 4) The game was: 1...11-17! 2.22x11 16x7 20x49 = 3.27x16 20-25! 4.31-27 26-31! 5.37x26 24-30 3...1-7 4.37-32! 26x28 5.42-38 22x31 6.33x24 6.35x24 19x39 7.28x8 39x48 8.16-11 7x16 etc. W+1 9.8-2 48-34 10.2-30 34-7 11.30-35 3-8 12.35x11 16x7 and black won. 7)  = -2, better for white (since he has more waiting moves in this closed classical position. 5) White’s pieces are better connected than 1.38-33 26-31! [ 1...23-29 2.28-23 29x38 the black ones. Black has already put pieces 3.23x21 26x17 4.32x43 W+ ; 1...17-21 2.40-34 on <23 & 24>, but they are not part of any 24-29 3.33x24 19x30 4.28x10 18-23 5.35x24 formation. White has a clear plan to control 23-28 6.32x23 21x41 7.10-5 41-47 8.23-19 both wings. He is going to control <25 & 26> 47x15 9.19x8 W+ ; 1...24-29 2.33x24 19x30 trying to freeze black out. 3.28x10 17-22 4.35x24 22x42 5.10-4 42-48 The game was: 6.40-34 W+ ] 2.37x26 23-29 3.40-34 29x38 1.41-37 14-19 2.40-34 8-13 3.43-39 10-14 4.32x43 16-21 5.27x16 18-22 6.28-23 19x28 4.31-26 2-8 5.34-30 13-18 6.37-31 9-13 7.31- and black escapes with a draw. An important 27 7-12 8.33-28 6-11 classical position to remember!"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "8) A: White is better because of his many formations. Chizhov – Valneris Mind Games Lille Black has no active formations at all. White has a good centre position with lots of formations. Therefore he holds a pretty big advantage. Black has to defend precisely to hold a draw. 1.44-40! [Game: 1.33-29 24x33 2.38x29 12-18 3.42-38 +/- ] 1...19-23 [ 1...30-35 2.34-29 35x44 3.39x50 11-17 4.29x20 17x39 5.20-15 19-23 6.15-10 23-29 7.10-4 29-33 8.4x1 25-30 9.38x29 39-43 10.42-38 43-49 11.29-23 ++/- ] White controls both wings! Black risks being 2.40-35 24-29 3.33x24 30x19 4.35-30! [ 4.39- frozen out. 9.39-33(?) 33 25-30 5.34x25 19-24 = ] 4...12-18 [ 4...11- After 9.38-33! 11-17 (9...23-29 10.28-23 19x37 17 5.22x11 16x7 6.39-33 13-18 7.33-29 12-17 11.30x10 29x38 12.48-43 38x49 13.36-31 8.29-24 8-13 9.27-22 17x28 10.24-20 25x14 49x21 14.26x6 37x26 15.6-1) 10.36-31! black 11.34-29 23x25 12.32x1 W+ ] 5.39-33 8-12 could not have escaped. The best defence is 6.33-28 12-17 7.30-24 19x39 8.28x8 17x28 9.38-33 12-17(!) 10.48-43 8-12 11.43-38 16-21 9.32x12 39-44 10.8-3 11-17 11.12x21 26x17 12.27x7 12x1 13.36-31 24-29! 14.33x24 18-22 12.3x26 25-30 ++/- 15.39-33 14-20 16.24x15 23-29 17.33x24 22x42 but after 18.32-27 the endgame is pretty 9) B: White can surround the black position bad for black. successfully. Black has no formations to get rid 9...11-17 10.36-31 23-29 11.48-42 18-23 of piece <29>. After 38-32! black’s space to Black could have defended his position by play is reduced seriously. playing 11...17-21! 12.26x17 12x21 13.31-26 A. van Berkel – M. Barkel 14-20 14.26x17 20-25 15.42-37 25x34 16.27- 1.38-32! 17-21 21 16x27 17.32x21 34-39 18.33x44 29-34 =. 1...25-30 2.34x25 23x34 3.39x30 20-24 4.32- 12.30-25 29-34 13.33-29 24x22 14.27x40 W+ 28 24x35 5.43-38 and the chain-lock is lethal. 2.31-26 22x31 3.26x17 12x21 4.36x27 6-11? 6A) Black has many gaps in his position: <7, 8, Black should have defended with 4...25-30 9, 13, 14>. The black pieces aren’t well 5.34x25 23x34 6.39x30 20-24 7.43-39 24x35 connected. Especially the gaps in black’s 8.39-34 +/-; 4...19-24? 5.33-28 24x31 6.42-37 Drenth-zone make his position tactically 31x42 7.43-38 42x33 8.39x10 ++/- vulnerable. 5.41-37 21-26 Now 5...25-30 6.34x25 23x34 7.39x30 20-24 B) 1.38-33! 17-22 loses due to 8.37-31 24x35 9.31-26 11-17 1...1-7 2.27-22! 18x27 3.34-30 25x34 4.40x18 12x23 5.37-31 26x37 6.41x1 W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "10.33-29 8-12 11.42-38 19-23 12.27-22! etc. B) The most relevant feature of the position is W+; white having more formations and space than 5...11-17 6.33-28 21-26 7.28-22 17x28 8.34-30 black. We will show how this worked out in the 25x34 9.39x30 23x25 10.32x3 W+ game. 6.42-38 8-12 6… 19-24 is met by the shot with 7.37-31! A. Baliakin – H. Meijer 26x28 8.33x22 24x42 9.43-38 42x33 10.39x10 29.32-28 23x32 30.37x28 W+ 7.33-28 25-30 8.34x25 23x34 9.39x30 18-23 Black can’t play 18-23x23 due to 33-28 and he 9...20-24 10.38-33 24x35 11.33-29 also fears to become chain-locked by 38-32- 10.44-40 etc. W+ 27."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "30... 16-21 31.41-37 Judging positions 2 C) After 31-26 21-27 black can play a right wing attack. Without base pieces white can’t successfully play against this attack."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "The beginning of a wrong plan. Black wants to take <23>. 34.31-27 22x31 35.36x27 18-23? A) 1) Formations: White has many formations! All pieces are connected and white has many tails to work with. Black however has few formations. 2) Locks: There are no locks 3) Development:  = 0. White has developed all base pieces. Black’s has developed his pieces also. 4) Strategic squares: Black occupies <22 & 23> but white can remove him from these squares if he likes. White has not taken a strategic square yet. He has a flexible position and can still decide where to go. E) Watch what has changed: 5) Weaknesses: Black has some gaps in 1) White still has more formations than the Drenth zone and piece <6> isn’t so black has. active. White has no base pieces, but 2) Still no locks. this is compensated by having many 3)  = 4 White has taken a lead in formations in a solid construction. development. 6) Space: White has more space to play. 4) White has taken <27 & 28>, black is He can go to all strategic squares still. on <23> but he doesn’t control <24>! Using his formations white can take 5) Black has many gaps in his position even more space. making his position vulnerable. Not 7) Tactics: Black has just played 4-10 controlling ,24> is also a crucial because of the 33-28 threat, missing weakness. base piece <4> now. There aren’t 6) White still has more space to play. many tactical aspects to the position 7) Becasue of the many gaps black’s yet, but in the game tactics become position is vulnerable for tactics. The crucial. absence of a piece on <24> brings about that white can use the 33-29 move for forcing. Black also must take"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "care white coming in on <21> or <22. 4) Black has <24> in possession and With 27-21 or 27-22. controls <23>. White has <28> but still needs a piece on <27>. 36.33-29! 2-7 5) White has 4 edge pieces and black has no edge piece at all! Because of the gaps black can’t play 12-18 ... 6) Because white has developed 8 temps more he has less space to play than 37.29x18 12x23 38.39-33 black. 7) After 8-12 black threatens to play 14- 20."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Black has a better, even winning, position. He has more space to play. White’s edge pieces aren’t active. Black can use tactics to freeze out white. In order to neutralise the 14-20 shot after 8-12, white has to play 36-31-27 or 49-43- 38."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "This last line was the game, it continued: 44... 15-20 45.6x4 39-44 46.37-32 44-50 47.27-21 26x17 48.32-28 50x22 49.4x27 W+."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "1) White has more formations than black. White has all pieces in the Drenth zone. 2) There are no locks, but if white transports a piece to <26> he could lock black’s right wing. 3)  = -11, white is trailing by 11 temps. 4) White has <28>, black has <24> and <22>. 2 5) Black misses a piece on <13> and has no base pieces left. White has no 1) White lacks any formation. Black can weaknesses. still built formations by playing 8-12 1-7 6) White has still a lot of space. Black has 3-8 making two forks working together. also enough space. If white is able to 2) No locks go to <26> black’s space would be 3)  = 8, so white is 8 temps ahead. reduced seriously though. 7) Black has to take care for shots, since he misses a piece on <13> he can’t play 14-19 because of 35-30 28-23 39-"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "34 33x15. White can play the desired 1...4-9 is punished by a kingshot: 2.30-24 37-31 move. Because of tactics he will 20x38 3.39-33 38x29 4.34x3 W+ be able to take a chain lock. 1...20-24 will lose due to 2.40-35 13-18 3.28- 22 17x28 4.33x13 19x8 5.30x19 W+ Tactics are decisive in this position in order for 1...13-18 2.30-24 20x38 3.39-33 38x29 white’s strategy to succeed. In an open 4.34x21 gives white a huge advantage: 4-9 position (without any locks) usually leading in 5.40-34! (21-16? 15-20 19-23 20-24 25x45 =) development is cool, but in this case black 11-16 6.21-17 9-13 7.28-22 15-20 8.26-21 20- could be frozen out if he is locked or blocked. 24 9.17-12 W+ 2.49-43 4-10 3.40-35 10-14 4.33-29! 13-18 1.37-31! would have been the right move for 5.39-33 and black is frozen out. white. He threatens to take <26> and if black plays 21-26 he responds 2.34-29! 26x37 3.42x31 10-15 It’s not possible to play 3... 14-19 4.42x31 25x14 because of 5.28-23! 19x28 6.31-27 22x31 7.33x15 W+. 4.29x20 15x24 5.38-32! Black can’t prevent white from playing 32-27, creating a chain-lock, since 16-21? is punished by 6.32-27 21x23 7.33-29 24x33 8.39x10 W+. So white will take the chain lock with 32-27 with a superior position."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "1) Black has no active formations. White has he active 33 / 38 / 42 tail, making the 33-29x29 exchange possible. 2) Black’s right wing is locked. 4 Pieces are locking 5 pieces, so the lock is economic. Black has no pieces behind the lock (on <1, 2, 7, 12> however, which would make the lock even worse 4 for black. 3)  = 0 E. Prosman 4) White occupies strategic square <27>, black has <23 & 24>. 1) White has the 28 / 33 / 39 tail. Black 5) Both players have no weaknesses. has the 6 / 11 / 17 tail, but without 6) Due to the lock black’s space is being able to play 13-18 this formation limited. White can create more space isn’t active. by changing 33-29x29. 2) There are no locks. 7) Because of the lock, white has to take 3)  = 5. care for tactics. He has to spot that 37- 4) White has <27 & 28>. Black has a 31? can be met by a shot. piece at the edge on <25>. 5) White’s piece on <40> is dangling. White’s position is much better, since black is Black’s piece on <6> can easily get bothered by a lack of space. inactive. In the game white changed immediately: 6) White is able to reduce black’s space 1.33-29 24x33 2.38x29 18-22 3.27x18 23x12 to play by taking extra space himself, White still has an advantage, but it turns out with the 35-30 move! that waiting with the 33-29 exchange is even 7) Crucial is spotting the surprising 35-30 better: move, to tactically freeze black out! After this move 4/9 & 4-10 can’t be 1.43-39! played! 1.37-31? Gives black the chance to perform a nice kingshot: 23-29! 2.34x25 24-29 3.33x24 E. Prosman played: 13-19 4.24x4 3-8 5.4x22 17x50 6.26x17 11x22 1.35-30! 11-16 7.27x18="
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "1...20-25 2.37-31 9-14 1...15-20 2.44-40 (2.37-32? isn’t good because 2...3-8 3.33-29 24x33 4.38x29 19-24 5.30x28 of 22-28! 3.41-37 23-29! 4.32x34 16-21 18-22 6.27x18 13x24 won’t save black either: 5.27x16 14-19 6.25x23 18x49 7.38-32 49x27 7.42-38 8-13 8.31-27 13-19 9.38-33 9-13 8.31x22 17x28 =) 2...20-24 3.37-32 forces 10.33-29 24x33 11.39x28 13-18 12.35-30 W+ black to go to a worse endgame, since 13-19 is 3.33-29 24x33 4.38x29 White didn’t change punished by a kingshot with 32-28 & 27-21 33-29x29 until black couldn’t change back with W+. 18-22x12 anymore. Black is frozen out: 3... 22-28 4.25-20! 28x46 5.20x9 13x4 6.27-21 4... 14-20 5.42-37 20-24 6.29x20 25x14 7.30- 16x27 7.31x2 +/- 24! 19x30 8.35x24! 23-28 9.32x12 21x41 2.37-32 Preventing black from escaping from 10.12x21 16x27 11.36x47 27x36 12.26-21 W+ the lock by changing 17-21x21. 2... 15-20 3.25x14 19x10 4.44-40 10-14 4...13-19 is met by 5.26-21! W+ 5.40-35 23-29 5...14-20 6.41-37 13-19 7.48-42 19-24 8.39-33 8-13 (8...20-25 9.33-29 24x33 10.38x29 23x34 11.32-28 22x33 12.27-21 16x27 13.31x2 W+) 9.43-39 20-25 10.50-44 13-19 11.39-34 and black has only a kingshot left that is too expensive: 16-21 12.27x16 23-28 13.32x14 22-27 14.31x13 12-18 15.13x22 17x50 16.14- 10 W+ 6.41-37 13-19 7.35-30 and black resigned."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "8) White has a fork at the left flank and can sill build several formations at the other wing. Black can try to make a formations at the right flank by playing 13-19 (creating the 14 / 19 / 23 tail) or 14-19 (creating 19/23). Black’s formations at the left flank aren’t active, since his right wing is locked. 9) White has fork-locked his opponent. 6 pieces are needed to lock 8 pieces, so the lock is economic. 10)  = -3 11) Black has <23>, white controls <27>. 12) Black’s weakness is that he has left few pieces that are not locked. He risks being frozen out. 13) Black is locked and therefore has limited space to play. White can still play at both wings. At the left wing he will play 37-32 and 41-37. 14) Black can’t activate piece <8> by 13- 19 (and 8-13) because of a kingshot with 26-21 & 37-32."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "White is much better because of the economic fork-lock; black risks being frozen out."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "In the course we have learned several strategies with centre play. We discussed the power block, the strong piece at <21>, the left wing attack, the piece at <17> and cannon play. The exercises cover all these strategies."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "1) M. Janssen – R. Boomstra Black has a very strong centre position with many formations. He controls <23 & 24>. White controls <27> but can’t get <28> under control. 37 – 32 and 38 – 32 are not possible. In the game white played 1.49 – 44, building a formation and threatening with a coup Philippe 26 – 21 27 – 22 33 – 29. Black replied 1...24 – 30! A move we know from S2.3 The strong piece at <21>. Black threatens to take the 2 kingshot with 23 – 29 & 14 – 20, while 2.33 – 29 is punished by 14 – 20! etc. B+ and after 2.44 – 40 30 – 35! white is lost, since after capturing always 23 – 29 will follow. Other moves will not help white either:  1.27 – 21 is simply met by 23 – 28 B+1.  1.37 – 31 is answered by 11 - 16 2.49 – 43 23 – 29 3.34 x 23 18 x 29 4.27 – 22 17 x 28 5.33 x 22 29 – 34 6.39 x 30 24 x 35 with a breakthrough.  1.49 – 43 is the best but after 17 – 22! 2.37 – 32 22 x 31 3.26 x 37 11 – 16! 3 4.32 – 27 23 – 28! 5.33 x 22 14 – 20 6.25 x 23 18 x 40 black has a nice Calculation 2 breakthrough."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "1) 1.41-37 6-11 2.33-28 11-17? 3.34-30! 24x35 2) A. Georgiev – W. Chogoliev 4.28-22 17x28 5.32x23 18x29 6.27-21 16x27 White has launched a strong left wing attack. 7.38-32 27x38 8.42x4 W+ His own right wing is protected by 44 / 45 / 50. Especially the piece on <50> is a strong 2) J. Krajenbrink – C. van Wijk defender. Black’s right wing isn’t protected 1.38-33 15-20 2.42-38 13-18 34-30 2-8? 4.32- well. White aims his arrows at this wing. 28! 23x41 5.36x47 26x37 6.38-32 37x28 The game was 37...12-18 38.22-17 Paul 7.33x2 W+ Oudshoorn showed an even better plan for white in order to force a breakthrough: 38.32- 3) J. Daems – G. Kolk (blitz) 27! 3-8 (38...19-24 39.22-17 13-19 40.21-16 1...14-20?! 2.25x14 19x10 3.33-28? 24-30!! etc. W+) 39.21-17 23-29 40.31-26 18-23 4.28x8 6-11 5.35x24 15-20 6.24x4 1-6 7.4x22 41.26-21 29-33 42.21-16 8-12 (42...30-34 17x46 8.8x17 11x31 9.26x37 46x40 B+ 43.16-11 33-39 44.44x33 8-12 45.17x8 6x39 46.8-3 25-30 47.3-25 30-35 48.27-22 35-40 4) B. Zwart – H. Hoekman 49.25-30 34x25 50.45x43 W+) 43.17x8 13x2 44.22-17 2-7 45.16-11 7x16 46.17-12 W+. In"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "the game white won after a crucial mistake of 28...7-12 is met by 29.34-29! 23x34 30.40x20 black in time trouble: 15x24 31.28-23 19x39 32.30x10 9-14 38...3-8 39.31-26 8-12 40.17x8 13x2 41.21-17 33.10x19 13x24 34.37-31! 26x28 35.38-33 30-35 42.26-21 19-24 43.48-43 23-29 44.45-40 21x32 36.33x2 39-44 37.2x30 44-50 38.42-37 24-30 45.32-28 2-8?? (45...18-22 would lead 32x41 39.36x47 12-17 40.30-13 with a winning to a draw) 46.21-16 8-13 47.28-23 30-34 endgame for white as shown in the course 48.23x12 34x45 49.12-7 13-19 50.17-12 29-34 (see the power block). 51.7-1 34-40 52.44-39 40-44 53.12-8 44x33 54.8-3 19-24 55.3-17 24-30 56.17x44 W+ 7) T. Sijbrands – Hisard 1968 White has a solid centre position with many 3) A. Gantwarg – Dramaretski formations and controls the left wing. Black’s White has an active position with many right wing is weakened. This wing will be the formations. White removes piece <23> first target for a future attack. Black is ready to preparing an attack at the left wing. change 24 – 20 x 30 x 23 but this exchange 29.34-29 23x34 30.40x29 20-25 31.29x20 isn’t so strong here. White simply plays 40 – 15x24 32.27-21 16x27 33.31x22 18x27 35, removing black from the centre. After this 34.32x21 8-12 35.36-31 13-18 36.31-27 18-23 he starts a crushing attack at the left wing. 37.38-32 12-18 38.43-38 6-11 39.44-40 9-13 Watch Sijbrands’ great technique: 40.28-22 11-16 41.21-17 4-9 42.17-11 7-12 26...24-30 27.35x24 19x30 28.28x19 14x23 43.11-6 23-28 44.32x23 19x17 45.6-1 14-19 29.40-35 8-12 30.35x24 23-29 31.34x23 46.27-22 18x27 47.1x15 17-21 48.26x17 27- 18x20 32.27-21 16x27 33.32x21 10-14 34.38- 31 49.15-10 9-14 50.10-5 31-36 51.33-29 W+ 32 14-19 35.43-38 13-18 36.32-27 9-13 37.38- 32 6-11 38.45-40 20-24 39.40-34 24-30 40.21- 4) T. Sijbrands – W. v.d. Sluis 1970 16 15-20 41.16x7 12x1 42.26-21 3-8 43.32-28 White is better: he can break the classical 30-35 44.21-17 8-12 45.17x8 13x2 46.28-22 structure. First he launches an attack with his 20-24 47.22x13 19x8 48.48-43 24-30 49.33-28 cannon, removing piece 18 (which is guarding 8-13 50.28-23 2-7 51.27-22 7-12 52.43-38 1-6 centre square <23>. After black changes piece 53.22-18 13x22 54.23-19 22-27 55.19-14 27- <22> he puts pressure on <24>. 31 56.14-10 31-36 57.10-5 12-18 58.38-33 6- 22.27-22! 18x27 23.31x22 11-17 24.22x11 11 59.5-46 18-22 60.33-29 22-27 61.46-14 11- 16x7 25.34-29! 23x34 26.40x20 15x24 27.39- 17 62.14-10 17-22 63.10-5 27-31 64.50-44 W+ 34 7-12 28.43-39 2-7 29.34-29 14-20 30.45-40 20-25 31.29x20 25x14 32.40-34 7-11 33.33-29 8) J. Bom – T. Sijbrands 1989 12-18 34.38-33 11-16 35.36-31 6-11 36.31-27 White has a weak piece at <46>. This piece 19-24 37.29x20 14x25 38.34-29 11-17 39.28- isn’t active. Black can play against this wing 22 17x28 40.32x12 8x17 41.33-28 9-14 42.37- with the pieces 16 / 21 / 26. At the other wing, 32 14-20 43.42-37 4-10 44.39-34 10-1545.35- black has an initiative. This gives him the 30 3-8 46.30-24 8-12 47.28-22 17x28 opportunity to play against white’s weak left 48.32x23 13-18 49.44-39 16-21 50.27x16 18- wing. Black breaks open the position playing 22 51.39-33 22-27 52.37-32 27x38 53.33x42 24-30x29x30 and in the end white is frozen out W+ completely. 26...24-30 27.35x24 20x29 28.33x24 19x30 5) T. Sijbrands – B. Ba (training) 29.28x19 13x24 30.43-39 8-13 31.38-33 30-35 White has a strong centre with a cannon and 32.40-34 9-14 33.34-30 14-19 34.30-25 18-23 the right formations at his right wing. 35.45-40 35x44 36.39x50 15-20 37.25x14 He can choose from two plans: 19x10 38.48-43 10-14 39.46-41 13-19 40.42-  30.33-29! 24x33 31.38x29 19-23 38 3-8 41.33-28 8-13 42.43-39 23-29 43.28-22 32.43-38 23x34 33.30x39 29-34 44.39x30 24x35 45.38-33 1-7  30.40-34 18-23 31.33-28 17-21 32.34- 46.36-31 7-12 47.22-17 35-40 48.17x8 13x2 29 24x22 33.27x29 49.33-29 40-45 50.41-36 14-20 B+ In both cases white holds an advantage. Strategy: Which move would you play? 6) A. Baliakin – Markevics White has a strong power block, putting 1) A. Shaibakov – T. v.d. Broek pressure on <24>. Black has no proper 1.27-21! 16x27 2.32x21 defence. The game was 28...8-12 29.34-29 White puts a strong piece at <21> getting 23x34 30.40x20 15x24 31.27-22 18x27 32.37- control over the left wing. The game was; 31 26x37 33.42x22 3-8 34.45-40 21-26 35.40- 2...9-14 3.37-32 26-31 4.21-16 31-36 5.42-37 34 6-11 36.36-31 26x37 37.32x41 12-17 4-9 6.48-42 14-20 7.34-29 10-14 8.49-43 18- 38.22-18 13x22 W+ 22 9.29-23 13-19 10.40-34 22-27 11.32x21"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "17x26 12.34-29 9-13 13.38-32 25-30 14.32-27 40...12-18 41.28-23 19x17 42.30x19 13x24 2-7 White could have made a king shot with 43.37-31 26x28 44.33x4 W+ 15.27 – 21! 26 x 17 16.37 – 31 36 x 27 17.23 – 41.22x11 16x7 42.28-22 7-12 18 and 28 – 23 or 29 – 23 etc. White won the 42...9-14 is met by 43.32-28 14-20 44.22-18 game after 15.37–32. 13x22 45.28x17 21x12 46.30-25 8-13 47.25x23 13-18 48.35-30! 24x35 49.23-19 18- 2) T. Sijbrands – F. Gordijn 1973 22 50.19-14 W+. You could play 34 – 29 23 x 34 40 x 20 14 x 25 43.32-28 Black has no good move left. 33 – 29, but Sijbrands wants to eliminate the 12-18 44.28-23 19x17 45.30x19 13x24 46.37- piece in the centre, piece <18>, first. Therefore 31 26x37 47.38-32 37x28 48.33x4 W+ he uses his cannon, playing 27.27-22 18x27 28.31x22 and after 11-17 29.22x11 16x7 white 6) R. Letsjinski – M. Sjawel 1976 breaks the classical structure in order to get White can conquer central squares <28 & 29> strong centre play: 30.34-29 23x34 31.40x20 using tactics. 14x25 32.33-29 7-12 33.43-39 1-7 34.38-33 35.34-29! 23x34 36.40x29 7-12 19-24 35.29x20 25x14 36.42-38 6-11 37.36-31 Black couldn’t play 36...19 – 23, because of 13-18 38.45-40 9-13 39.31-27 3-9 40.40-34 the kingshot with 33 – 28 27 – 21 28 – 22 32 x 11-17? 41.27-21! and black resigned. 1 W+. 37.32-28 19-24 38.37-32 3-9 39.47-42 14-19 3) F. Gordijn – T. Sijbrands 1965 40.42-37 20-25 41.29x20 25x14 42.35-30 Sijbrands puts pressure on <27> by changing and black’s position is completely lost. After 17 – 22 and building a power block after that. 42...6 – 11 43.33 – 29 11 – 16 44.29 – 24 20...17-22 21.28x17 11x31 22.36x27 7-11 black is frozen out and 42...14 – 20 is met by 23.47-41 12-17 24.49-43 17-21 25.33-28 8-12 the kingshot with 27– 21 28 – 22 38 – 33 32 x 26.39-33 12-17 The power block is built. 27.41- 3 W+ 36 24-29 Even better is to play 17 – 22 first and then 24 – 29 & 14 – 20. 7) A. Andreiko – F. Gordijn 1973 28.33x24 14-20 29.25x14 9x29 30.30-25? 34.39-34! White wants to break the classical White could have defended by playing 27 – 22 structure of the position, so he prepares the 33 18 x 27 37 – 31 2 x 37 42 x 22. – 29 24 x 22 27 x 29 exchange. 30...17-22 31.28x17 11x31 32.36x27 6-11 34...12-18 is met by 35.27-22! 18x27 36.31x22 33.44-39 11-17 34.50-45 15-20 35.25x14 with the threat of 33 – 29, for example: 16-21 19x10 36.39-33 10-14 37.33x24 23-28 37.33-29 24x33 38.38x18 8-12 39.43-39 12x23 38.32x12 21x41 39.12x21 16x27 40.42-37 40.30-24 19x30 41.28x8 3x12 42.35x24 W+. 41x32 41.48-42 26-31 42.38-33 31-36 43.33- 34...1-6 35.33-29! 24x22 36.27x29 12-18 28 32x23 44.42-37 23-28 45.43-38 36-41 36...19-23 37.29x18 12x23 38.30-24 9-14 46.37x46 28-32 47.38-33 32-37 B+ 39.34-30 14-19 40.24-20 3-9 41.31-27 is terrible for black. 4) F. Gordijn – T. Sijbrands 1970 37.43-39 7-12 38.31-27 11-17 39.39-33 17-21 Black starts an attack at white’s right wing: 40.29-24 12-17 41.33-28 17-22 42.28x17 31...24-30! 32.35x24 19x30 33.31-27 13-19 21x12 43.38-33 6-11 44.24-20 9-14 45.20x9 34.43-39 8-13 35.48-43 2-8 36.37-31 3-9 13x4 46.33-28 8-13 47.42-38 3-8 48.38-33 11- 37.41-36 30-35 38.31-26 35x44 39.39x50 19- 17 49.34-29 4-9 50.36-31 17-22 51.28x17 24 40.50-44 25-30 41.27-21 13-19 42.36-31 8- 12x21 52.29-24 8-12 53.33-28 12-17 54.28-23 13 43.31-27 23-29 44.21-16 30-34 45.42-37 18x20 55.27-22 17x28 56.32x3 13-18 57.3x25 18-23 46.43-39 34x43 47.38x49 29x38 18-22 58.25-14 21-27 59.14-9 27x36 60.9x27 48.32x43 24-29 49.37-32 13-18 50.44-39 19- 26-31 61.37x26 36-41 62.30-24 W+ 24 51.43-38 24-30 52.39-33 30-34 53.33x24 34-39 54.24-20 39-43 55.26-21 17x26 56.27- 8) A. Chizhov – A. Andreev 22 18x27 57.32x21 26x17 58.20-15 43x32 30.34-29 24x33 31.38x29 59.15-10 17-22 60.49-43 12-18 61.45-40 23-28 White takes the 27 / 29 bond, since black has 62.40-35? 32-37 63.35-30 37-41 64.30-25 28- no formations to challenge the bond. White 33 B+ gets active at the right wing. If black plays 31...13 – 19 white keeps playing 5) T. Sijbrands – H. van Klaveren 1980 in the direction of the right wing: 32.32 – 28 8 – White removes centre piece <23> and 13 33.37 – 32 (threatening 29 – 23 & 27 – 21) launches a strong (Highland) attack after that. 20 – 25 42 – 38 3 – 8 34.39 – 33 etc. 37.34-29! 23x34 38.39x30 20-24 39.27-22! 7- If black plays 31...20 – 25 32.42 – 38 11 – 17 12 40.44-39 12-17 white can go to <24>: 33.29 – 24 since 17 –"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Judging positions 1) After 1.31-27! white controls the position. Black can’t play at his right wing, 12-18 and 12-17 are punished by a king shot. 10-15 1...12-18 2.28-23 19x17 3.27-21 16x27 4.32x1 W+; 1...12-17 2.27-21 16x18 3.28-22 17x28 4.32x1 W+ 2.34-29 25-30 3.40-35 20-25 4.29x20 15x24 5.44-40 14-20 6.49-44 etc. W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "2) W. Shchegolev – I. Kuperman Your first impression might be that white has a 2 good Highland attack. The pieces seem to work together well. But after 12-18! white suddenly has big problems. White can’t get rid of piece <18> since he can’t build the 29/34/40-tail anymore. 1...12-18! Also confronts white with several tactical problems: 2.29-24 35-40 3.44x35 16-21 4.27x7 18x27 5.32x21 8-12 6.7x18 13x44 B+ 2.37-31 35-40 3.44x35 18-23 4.29x18 11-17 5.22x11 13x44 6.11-7 8-12 7.7x18 6-11 B+ 2.39-33 8-12 3.29-24 ; 2.28-23 9-14 3.23x3 35- 40 4.3x20 15x33 5.44x35 33x44 B+ The game was 2.39-33 9-14 44.37-31 8-12 3 45.28-23 11-17 46.22x11 16x7 47.33-28 14-20 48.29-24 18x29 49.24x33 White’s right wing is Calculation 2 severely weakened. 49… 25-30 50.44-39 20- 24 51.27-22 13-19 52.39-34 30x39 53.33x44 1) 1.36-31 15-20 2.35-30 20-24? 3.48-42 24-30 54.31-26 30-34 55.22-17 12x21 3.47-42 24x35 etc. is also possible. 56.26x17 34-40 57.44-39 40-45 58.32-27 15- 3...24x35 4.33-29 23x34 5.39x30 35x24 6.22- 20 59.38-32 7-11 60.27-22 19-23 61.28x19 45- 18 13x33 7.38x20 14x25 8.27-22 17x28 50 62.19-13 50x48 63.13-8 35-40 64.8-2 48-26 9.32x5 W+ 65.2x16 26x12 66.16-38 20-25 67.38-42 40-45 B+ 2) 1...15-20 2.46-41 10-15 3.37-32? 24-30 4.35x33 23-29 5.33x24 20x29 6.34x23 19x46 3) S. Davidov – A. Chizhov B+ Black has a Highland attack, piece <29> is supported by a strong centre. Piece <29> can’t 3) 1.37-31 26x37 2.42x31 5-10 3.46-41 2-8 be threatened and black can build enough 4.41-37? 24-29 5.33x24 19x30 6.35x24 13-18 formations. He began by building the 11/17/22- 7.22x2 9-13 8.2x19 14x41 B+ tail. 1... 18-22! Black can’t play 37-32? Or 21- 16 1-7 37-32 now (29-34 14-20 22=-28 17x46)."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "2.21-16 1-7 3.43-39 12-18 4.48-43 18-23 5.37- back. 7.42-38 19-24 8.38x27 24-30 9.35x24 31 22-28 8.33x22 17x28 and black won the 20x29 B+ game. 3...4-9 4.38-32 White closes the gat on <32> but now he has a weakness on <38> ... 16-21! 4) White has a Highland attack supported by a 5.27x16 18x38 6.33x42 7-11 7.16x18 13x24 strong centre, but white has also weaknesses. B+1 Piece <46> isn’t active and white’s right wing is weak. Black has control over <24>! His 7) R. Boomstra - E. Vatoetin strategy is to surround the centre, if white goes Black has a lack of space to play and is frozen to <29> he can change this piece and after 39- out. 34 (white breaks the 28/33/39-tail) black can 1.16-11! 17-21 2.27x16 6x17 3.48-42 12-18 change 11-17x17 in order to surround the 4.42-37 8-12 5.37-31 and black is out of moves remaining white centre. A logical line is: after 15-20 31-26. 1.45-40 9-14 2.40-34 14-20 3.34-29 20-24 4.29x20 15x24 5.39-34 11-17 6.22x11 6x17 8) I. Kuperman – A. Andreiko 7.37-31 26x37 8.32x41 [ 8.42x31 17-22 White’s attack is helped by tactics. White 9.28x26 24-30 10.35x24 19x37 11.31x42 25- prepares a strong threat. 30 ] 8...17-22 9.28x26 24-30 10.35x24 19x28 1.31-27! 25-30 [ 1...14-20 2.36-31 20-24 11.48-43 25-30 12.43-39 13-19 13.41-37 19-24 3.29x20 25x14 4.35-30 4-10 5.30-25 10-15 (black trying to break through) -/++. 6.33-29 19-24 7.29x20 15x24 8.38-33 13-19 9.42-38 9-13 10.48-42 13-18 11.22x13 19x8 5) A. Chizhov – A. Gantwarg Wch 2001 12.28-23 8-13 13.33-28 13-18 14.27-22 18x36 Black has just played the weak 1-6? instead of 15.23-18 12x23 16.28x10 W+ ] 2.35x24 19x30 7-12, giving white time to centralize piece 3.36-31! Bringing the 22-18 threat in play. 30- <36>: 27.36-31! 7-12 28.31-27 12-18 35 4.22-18! 12x34 5.33-29 34x23 6.28x8 2x13 28...12-17 29.40-34! 8-12 (29...24-30 30.35x24 7.27-21 16x36 8.37-31 36x27 9.32x1 W+ 20x40 31.22-18 13x31 32.39-34 40x29 33.33x4) 30.34-30 +/- Classical attack – combinations 29.28-23! 19x17 30.27-21 16x27 31.32x23 White takes a centre strong attack. Piece <23> 1) 1.33-29! 24x42 2.22-17 11x33 3.32-27 can’t be threatened and white will slowly 21x32 4.41-37 32x41 5.36x20 W+ reinforce the attack and he won the game: 8- 12 32.37-31 26x37 33.42x31 11-16 34.31-27 2) R. Letsjinski – A. Gantwarg 6-11 5.33-28 13-18 36.39-34 18x29 37.34x23 1...13-18! 2.22x2 21-27 3.32x21 23x32 9-13 38.43-39 14-19 39.25x14 19x10 40.38-32 4.38x27 14-20 5.25x23 6-11 6.30x19 3-8 13-18 41.39-34 18x29 42.34x23 12-17 43.40- 7.2x13 9x49 8.19-13 11-17 9.21x12 49x24 B+ 34 24-29 44.23-18 29x40 45.35x44 3-9 46.48- 42 10-14 47.42-37 17-21 48.28-22 14-19 3) 1.32-27! 21x32 49.18-12 9-13 50.37-31 21-26 51.22-18 26x28 1...23x32 2.37x28 21x23 3.43-39 17x28 4.40- 52.18x9 28-33 53.12-8 W+ 34 29x40 5.35x44 24x35 6.44-40 35x33 7.38x7 11x2 8.25-20 14x25 9.36-31 26x37 10.41x5 6) Zhiyong Xiong – R. Boomstra (Wch rapid W+ 2012). Black is much better. White has too 2.38x27 23x21 3.42-38 17x28 4.40-34 29x40 many gaps in his position. 5.35x44 24x35 6.25-20 14x25 7.37-31 26x37 1.37-31? Instead of creating another gap on 8.41x5 W+ <32> white should have closed the gap on <38> to reinforce his centre position. 1.43-38 4) 1.39-33? 12-17! 2.33x15 14-20 3.15x24 although also now black has the best chances 19x30 4.28x8 2x13 5.35x24 13-19 6.24x22 to win, for example: 7-12 2.44-39 20-24 17x50 B+ 3.29x20 15x24 4.34-29 25-30 5.29x20 18-23 6.35x24 19x30 7.28x19 13x15 8.33-29 15-20 5) J.M. Ndjofang – M.Rentmeester and black will break through at the right flank. 1.28-22! 17x37 2.26x17 37x26 3.27-21 16x27 1...26x37 2.32x41 8-12 Black builds 4.17-11 6x17 5.33-28 23x43 6.34x32 43x34 formations: 7/12/18 & 4/9/13. 2...19-23 3.28x19 7.40x18 W+ 13x24 4.22x13 8x19 would also have forced winning a piece. 6) Y. Anikeev 3.43-38 1.22-18! 23x12 2.43-39 34x43 3.28-22 17x48 3.48-42 4-9 4.27-21 16x27 5.22x31 18-23 4.45-40 43x21 5.26x6 29x38 6.6-1 48x26 6.29x18 12x32 and white can't win the piece 7.1x42 26x48 8.40-34 48x30 9.35x2 W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "4) M. Seck – A. Baliakin 8) P. Stork - P. Meurs After 1...11-16! 2.27-22 16-21 3.22x11 6x17 1.44-40? 17-21! 2.26x8 2x13 3.28x17 20-24 white has no good move left (tactical freeze 4.31x22 24-29 5.33x24 19x37 B+ out). Roozenburg – which move do you play? 5) 1.35-30! 11-17 2.38-33! 29x38 3.30-24 19x30 4.28x19 13x24 5.37-31 26x28 6.43x14 1) F. Andriessen – S. Winkel 21x32 7.14-9 W+ 1.32-27 21x32 2.37x10 26x46 3.42-38 46x5 4.29-23 5x43 5.49x38 20x29 6.34x3 W+ 6) M. Stempher 1.35-30! 25x34 2.39x30 14-20 3.27-22 18x27 2) J.M. Ndjofang – P. Meurs 1... 18-23! 2.37- 4.32x21 23x41 5.36x47 26x17 6.30-24 19x30 32 24-30! 3.34x14 9x20 4.32x21 23x34 B+1 7.38-33 29x49 8.40-35 49x40 9.45x3 W+ 3) R. Samb – N. Clerc (missed) 7) A. Getmanski – A. Shaibakov 1.34-29? 16-21! 2.29x20 14x34 3.39x30 18-23 1.39-34! 1-7? [ 1...13-18 2.22x13 9x18 3.37-31 4.37-32 23-29 5.33x24 22x33 6.31x11 13-18 26x37 4.42x31 21-26 5.43-39 26x37 6.32x41 7.24x22 12-17 8.38x29 17x50 9.26x17 2-7 23x21 7.34x12 +/- ] 2.22-17! 21x12 3.37-31 10.11x13 9x18 B+ 26x37 4.32x41 23x21 5.34x23 19x28 6.30x26 W+1 4) 17.33-28 17.50-45? 21-26! 18.33-28 16-21! 19.28x8 8) 1.39-33! 20-24 2.22-17 21x12 3.27-22 2x13 20.27x16 26-31 21.37x26 13-19 18x27 4.32x21 23x43 5.34x3 16x27 6.3x49 22.24x22 17x46 B+ W+ 17...3-8 18.28x19 18-22 19.27x18 12x14 20.32-28 = Roozenburg – combinations"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "8) W. Van der Sluis – T. Sijbrands Dutch 3 champ. 1965. The opening of the game was: 1.32-28 16-21 2.31-26 18-22 3.37-32 11-16 Calculation 4 4.41-37 7-11 5.34-29 20-24 6.29x20 15x24 7.37-31 21-27 8.32x21 16x27 9.40-34 1-7 1) 1.33-28 11-17 2.28x19 17-21 3.39-33? 10- 10.46-41 10-15 11.42-37 11-16 12.48-42 7-11 14! 4.19x10 13-19 5.24x22 9-14 6.10x19 21-27 13.37-32 16-21 14.41-37 13-18 15.45-40 9- 7.32x21 26x50 B+ 13? [15... 14-20 was later played in Wiersma – Sijbrands) – diagram – White forces a win: 2) 1.34-29? 23x34 2.39x30 24-29! 3.33x13 16.34-30! 5-10 17.40-34! 3-9 18.28-23! 18x40 22x33 4.31x22 9x27 5.38x29 27x40 6.45x34 19.33-28 22x33 20.38x20 14x34 21.31x22 B+ 17x28 22.32x5 W+ 3) 1.39-33 11-17 2.47-41 7-11? 3.37-31! 26x39 Calculation 3 4.38-33 39x28 5.27-22 18x27 6.29x7 20x29 7.34x5 25x34 8.40x29 W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "B) 9.36-31? 13-19!! Analysing positions 9...41-46? 10.31-27 21x32 11.47-41 46x37 12.33-28 32x23 13.1x42 W+ 1A) Black has a centre attack with an outpost 10.47x36 30-34 11.40x29 19-23 12.29x18 21- on <28>. The piece on <10> is dangling. This 27 13.31x22 2-7 14.1x12 8x50 B+ makes black’s right wing weak. If black plays 14-19 white responds 25-20 threatening to go"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "to <14>. At the other wing white can fight to 5.28-23 19x28 6.30x19 13x24 7.32x23 24-29 take <27>. White has good formations to play 8.33x24 20x18 9.38-32 27x38 10.43x32 10-14 against the attack. In the Drenth zone only 11.31-27 22x31 12.36x16 - / + <48> is missing. The edge pieces <15 & 25> are active. They help to control the right wing. 6) R. Boomstra – K.H. Leijenaar A) 20... 17-21 21.26x28 27-32 22.38x27 19-24 B) 1.38-32! 12-17* 2.39-34! Using the gap on 23.30x19 14x41 B+ <12> to create a new threat. 8-12 3.32-27 17- 22 B) 20...17-21? 21.26x28 19-24 22.31x22 24-30 [Game: 3...28-33 4.26-21! 17x26 5.27-22 23.35x24 13-18 24.22x13 8x50 25.38-33 W+1 18x27 6.25-20 14x25 7.34-30 25x34 8.43-39 34x43 9.49x9 4x13 10.15x4 ; 3...13-19 4.34-30 C) Black was threatening to play 17-21 26x28 28-33 5.43-38 ] 4.37-31 11-17 [ 4...28-33 5.43- 23x41. 38 ] 5.49-44 13-19 [ 5...23-29 6.34x32 16-21 7.27x16 22-27 8.31x11 12-17 9.11x22 18x40 D) 31...2-8 32.29-24! (threatening 39-33 & 24- 10.16-11 and white wins the endgame] 6.34-30 19 30x28 31x2) 14-19 32.34-29 23x34 33.38- and black is frozen out, since 28-33 is 32 27x38 34.43x14 etc. W+ punished by 43-38 23-29 30-24 W+."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "G) 31.39-34 28x39 32.25-20 15x35 33.37-32 39x30 34.32x1 W+ B) 13-19 24x13 8x28 29-24 20x29 34x21 W+1. 7) Black has to take care for white threatens to C) 5... 2-7! and 6.42-37 is punished by 17-21 play 29-23 28x19 33-28. It looks like black 26x28 27-32 38x27 20-24 29x9 18x49 9x18 can’t do anything about it, and in this blindfold 12x41 B+. game white resigned. But black could have sacrificed a piece with enough compensation D) 8.38-32! 27x40 9.31-27 22x31 10.33x4 W+ to draw: 1...17-21! 2.26x17 12x21 3.31-26 8-12 4.26x8 5) E. Dusamos – B. Stegeman 2x13 5.35-30 27-31 6.36x27 22x31 7.33x22 1...11-16! 18x27 and eventually black will make a 1...13-18? 2.37-32! 11-16 3.32x21 16x27 4.26- breakthrough. 21!! 17x46 5.28x17 12x21 6.38-32 27x29 7.34x1 25x34 8.40x29 24x33 9.39x28 46x23 8) Damincourt – T. Sijbrands 10.1x15 W+ White has several weaknesses, gaps on <33, 2.37-32 16-21 3.41-37 10-15 4.48-42 5-10 34, 37, 43>. Black controls the wings with its 4...7-11? 5.34-29!! 25x23 6.33-29 23x34 edge pieces surrounding the white centre 7.39x30 22x33 8.31x22 17x28 9.32x25 W+ attack."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "1.48-43 13-18 2.43-38 2-7 3.41-36 (3.40-34 14-20!) 3...18-22 4.27x18 14-19 5.23x14 12x43 13) K. van Amerongen – M. van Ijzendoorn 6.38x49 15-20 B+1. (We also show the interesting openings play) The game was: 1.27-22 25-30! 2.22x11 16x7 1.32-28 19-23 2.28x19 14x23 3.37-32 10-14 3.40-34 7-11 4.34x25 35-40 5.44x35 12-18 4.41-37 16-21 5.35-30 20-25 6.47-41 21-26 6.23x3 13-18 7.3x20 15x44 B+. 7.32-28 23x32 8.37x28 26x37 9.41x32 17-21 10.30-24 11-17 11.34-30 25x34 12.40x29 6-11 9A) A. Baliakin – R. Meijer 13.45-40 18-22 14.40-34 14-20 15.46-41 13-18 Black has an attack with outposts on <27 & 16.41-37 9-13 17.37-31 11-16 18.31-26 21-27 28>. Black has weak pieces on <11 & 16>. 19.32x21 16x27 20.28-23 5-10 21.42-37 10-14 White pieces 26/31/36 keep these pieces at its 22.44-40 3-9 23.50-44 7-11 24.34-30? [ 24.37- place, since 16-21 will create an arrow lock. At 32! 11-16 25.32x21 16x27 26.48-42 1-7 27.33- the right wing white has taken a counter attack. 28 22x33 28.39x28 18-22 29.43-39 22x33 This counter attack is very strong since black’s 30.39x28= ; 24.37-31? 1-7 25.48-42 27-32! distribution of pieces isn’t great. Black has to 26.38x27 22-28 27.23x32 18-23 28.29x18 many pieces at his right wing, compared to his 20x47 B+ ] 24...20-25 25.40-34 1-7 26.44-40 left wing. Black can still use the 2/8/13 tail, in 14-20 27.37-32 9-14 28.32x21 11-16 29.48-42 order to chance piece <24> but white will keep 16x27 30.42-37 27-31 31.36x27 22x42 on playing pieces to the right wing and 32.38x47 17-22 33.43-38 13-19 34.24x13 reinforce its counter attack. White has the best 8x28 35.47-42 2-8 chances. 36.49-43 4-10 37.40-35 14-19 38.42-37 20-24 39.29x20 15x24 40.26-21 10-14 41.21-16 7-11 B) 38.40-35 13-19 39.24x13 18x9 40.3538.40- 42.16x7 12x1 and blak won. 35 13-19 39.24x13 18x9 40.35-30 9-13 41.30- 24 13-18 42.24-20 15x24 43.39x9 3x14 44.34- 14A) 1.48-42 29-34! 2.30x39 24-29 3.33x24 29 14-19 45.29-24 19x30 46.25x34 W+. 19x30 4.28x8 17x48 5.35x24 18-22 6.27x18 16-21 7.26x17 11x2 B+ 10) 13-18! Threatening 27-32 & 17-22. 40.37- 32 17-21 41.23-19 [ 41.30-24 12-17 42.23x12 B) 1.43-39 29-34 2.48-42 (2.48-43 15-20 3.27- 1-7 43.12x1 17-22! 44.28x17 21x12 45.1x31 21 18x27 4.21x12 27-31 5.26x37 11-17 26x19 B+ ; 41.48-42 12-17 42.23x12 1-7 6.12x21 16x27 7.32x21 23x41 B+) 2...34x43 43.12x1 8-12 44.1x31 26x48 B+ ] 41...12-17 3.38x49 17-21 4.26x17 14-20 5.25x14 19x10 [ 41...20-24 42.29x20 15x13 ] 42.19-14 20x9 6.30x8 16-21 7.27x7 18x47 8.28x19 47x22 B+ etc. C) 1.25-20!! 14x34 2.43-39 34x43 3.48x39 = 11A) White removes the outpost on <29> in order to be able to surround the centre attack. Strategy B) 8... 17-22 9.38-33! with the strong threat 24- 19 & 32-27 +. 1) 49...23-29 50.34x23 18x29 51.37-32 19-24 52.38-33 29x38 53.32x43 13-18 B+ C) 13.48-43! 7-11 14.39-34! (threatening 34-29 +) 28-33 15.27-21! 26x17 16.24-19 13x24 52...18-22 53.37-31 12-18 54.32-27 14-19 17.31-27 22x42 18.47x9 W+ 55.38-32 24-30 56.33-29 30x39 57.29-24 19x30 58.25x43 23-29 59.43-38 29-34 60.38- 12) 33 34-40 61.33-29 40-44 62.29-24 44-50 A) 1.26-21? is a ridiculous move, opening 63.24-20 50-45 64.20-14 18-23 65.27x29 <49>. Black can simply take the king 45x10 B+ shot with 17-32 & 18-23 B+. B) 1.35-30 18-23! 2.29x18 12x23 3.33-29 2A) 14.31-26 19-23 15.28x19 14x23 followed 8-12 4.29x18 12x23 5.38-33 20x38 by 21-27x27. 6.43x1 11-17!7.1x29 28-32 8.37x28 22x33 B+ B) Black wants to get control at the right wing, C) 1.38-32 27x38 2.43x23 22-27 3.31x22 so he can play against the Highland attack. 17x30 4.35x24 18-23 5.29x18 20x38 6.42x33 12x23 B+ C) Other moves would allow the 16-21 17-22 D) 1.26-21! 17x26 [ 1...27x16 2.34-30 king shot. 25x23 3.24-19 13x24 4.31-27 22x31 5.33x4 W+ ] 2.38-32 27x38 3.43x23 11-17 4.31-27 22x31 5.36x27 +/-"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "C) Black can now pin down the dangling piece on <41> by playing 23-28. Much better is 27.44-39 23-28 28.40-34 9-13 and white's piece at <41> can still be activated by building up with 38-33 42-38 41-37."
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "4A) 17... 17-21! 18.26x8 3x12 19.28x8 18-22 20.32x21 22-28 21.33x22 24-29 22.34x23 19x48 23.8x19 14x23 24.35-30 48-26 25.47-42 13... 4-10 26x48 26.39-34 48x39 27.44x33 = Black wants do develop his left wing (after B) 21.47-41 23x32 22.41-37 32x41 23.36x47 white has gone to <25>) playing 19-23x23x19. 27x36 24.26-21 17x26 25.33-29 24x33 Black could also have played 13... 5-10 since 26.39x6 2-7 27.6-1 19-24 = (if white takes a 30-25 isn’t allowed then (19-23x23 22-27! king it is caught with an equal amount of 17x46) he can change 19-23x23 on the next pieces). move."
+}
+]
+},
+{
+"type": "h3",
+"ch": 5,
+"runs": [
+{
+"t": "Diagrammes"
+}
+]
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0015_d1",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0015_d2",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0015_d3",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0015_d4",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0016_d1",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0016_d2",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0016_d3",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0016_d4",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0016_d5",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0017_d1",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0017_d2",
+"ch": 5
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0017_d3",
+"ch": 5
 },
 {
 "type": "board",
@@ -3113,42 +3486,6 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "1A) Black has more active formations. White can build a fork playing 50-45 but this fork isn’t active at all. 4 Pieces are aimed at one single piece <25>. White’s pieces aren’t working together well either. There are gaps at <37 & 39>. Black controls the wings."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "B) After 32-28 white has no single formation left. With no formations and several gaps in your position it isn’t right to make a decision, 3 that is, to decide to put a piece on the 26 – 30 row. White should instead connect his pieces, 3-8 28-22 8-12 22-17x17 and white wins the so playing 43-39 or 41-37 should be endgame after 23-29 etc. considered."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "2) Tactics and space. White loses due to a lack of space to play. The natural move 30-24 fails (1.30-24 19x30 2.28x8 2x13 3.35x24 18-23 4.29x18 13x42 5.38x47 20x49 B+. If he plays 36-31 black takes a right wing lock and white is frozen out. 1.36-31 20-24 2.29x20 15x24 3.41-36 10-14 4.27-22 18x27 5.31x22 14-20 and white is 4 frozen out B+"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "3A) White uses 4 pieces to lock only 3 pieces. The lock isn’t economic. B) 1...24-30! 2.35x24 19x30 Taking more space, while moving in the other direction from the lock. Black wants to control the right flank after which white is frozen out. The game continued: 3.40-34 30-35 4.33-29 13-19 5.38-33 8-13 6.43-38 14-20 7.31-26 20-25 8.36-31 19-24 9.29x20 25x14 10.33-29 14-20 11.38-33 13-19 12.33-28 20-25 13.28-22 17x37 14.26x17 37x26 15.27-21 16x27 16.17-11 9-14 17.11-7 14-20 18.39-33 19-24 19.33-28 24x22 20.7-1 26-31 21.1x15 31-37 22.15-47 27-31 23.34-29 31-36 24.29-23 37-41 25.23-19 41-46 26.19-13 Black should have protected piece <22> now"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0024_d1",
 "ch": 5
@@ -3174,54 +3511,9 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "to win: 35-40! (26...46-10? 27.47-15!=) 27.13-8 2.36-31!! 10-14 3.41-36 47-33 46-28!) 40-45 and black becomes White shouldn't hurry: 3.37-32? 26x28 4.41-36 dominant. 22x31 5.33x24 23-28! 6.36x27 25-30 7.34x25 14-20 8.25x14 3-9 9.14x3 15-20 10.3x33 4) The game was: 1...11-17! 2.22x11 16x7 20x49 = 3.27x16 20-25! 4.31-27 26-31! 5.37x26 24-30 3...1-7 4.37-32! 26x28 5.42-38 22x31 6.33x24 6.35x24 19x39 7.28x8 39x48 8.16-11 7x16 etc. W+1 9.8-2 48-34 10.2-30 34-7 11.30-35 3-8 12.35x11 16x7 and black won. 7)  = -2, better for white (since he has more waiting moves in this closed classical position. 5) White’s pieces are better connected than 1.38-33 26-31! [ 1...23-29 2.28-23 29x38 the black ones. Black has already put pieces 3.23x21 26x17 4.32x43 W+ ; 1...17-21 2.40-34 on <23 & 24>, but they are not part of any 24-29 3.33x24 19x30 4.28x10 18-23 5.35x24 formation. White has a clear plan to control 23-28 6.32x23 21x41 7.10-5 41-47 8.23-19 both wings. He is going to control <25 & 26> 47x15 9.19x8 W+ ; 1...24-29 2.33x24 19x30 trying to freeze black out. 3.28x10 17-22 4.35x24 22x42 5.10-4 42-48 The game was: 6.40-34 W+ ] 2.37x26 23-29 3.40-34 29x38 1.41-37 14-19 2.40-34 8-13 3.43-39 10-14 4.32x43 16-21 5.27x16 18-22 6.28-23 19x28 4.31-26 2-8 5.34-30 13-18 6.37-31 9-13 7.31- and black escapes with a draw. An important 27 7-12 8.33-28 6-11 classical position to remember!"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "8) A: White is better because of his many formations. Chizhov – Valneris Mind Games Lille Black has no active formations at all. White has a good centre position with lots of formations. Therefore he holds a pretty big advantage. Black has to defend precisely to hold a draw. 1.44-40! [Game: 1.33-29 24x33 2.38x29 12-18 3.42-38 +/- ] 1...19-23 [ 1...30-35 2.34-29 35x44 3.39x50 11-17 4.29x20 17x39 5.20-15 19-23 6.15-10 23-29 7.10-4 29-33 8.4x1 25-30 9.38x29 39-43 10.42-38 43-49 11.29-23 ++/- ] White controls both wings! Black risks being 2.40-35 24-29 3.33x24 30x19 4.35-30! [ 4.39- frozen out. 9.39-33(?) 33 25-30 5.34x25 19-24 = ] 4...12-18 [ 4...11- After 9.38-33! 11-17 (9...23-29 10.28-23 19x37 17 5.22x11 16x7 6.39-33 13-18 7.33-29 12-17 11.30x10 29x38 12.48-43 38x49 13.36-31 8.29-24 8-13 9.27-22 17x28 10.24-20 25x14 49x21 14.26x6 37x26 15.6-1) 10.36-31! black 11.34-29 23x25 12.32x1 W+ ] 5.39-33 8-12 could not have escaped. The best defence is 6.33-28 12-17 7.30-24 19x39 8.28x8 17x28 9.38-33 12-17(!) 10.48-43 8-12 11.43-38 16-21 9.32x12 39-44 10.8-3 11-17 11.12x21 26x17 12.27x7 12x1 13.36-31 24-29! 14.33x24 18-22 12.3x26 25-30 ++/- 15.39-33 14-20 16.24x15 23-29 17.33x24 22x42 but after 18.32-27 the endgame is pretty 9) B: White can surround the black position bad for black. successfully. Black has no formations to get rid 9...11-17 10.36-31 23-29 11.48-42 18-23 of piece <29>. After 38-32! black’s space to Black could have defended his position by play is reduced seriously. playing 11...17-21! 12.26x17 12x21 13.31-26 A. van Berkel – M. Barkel 14-20 14.26x17 20-25 15.42-37 25x34 16.27- 1.38-32! 17-21 21 16x27 17.32x21 34-39 18.33x44 29-34 =. 1...25-30 2.34x25 23x34 3.39x30 20-24 4.32- 12.30-25 29-34 13.33-29 24x22 14.27x40 W+ 28 24x35 5.43-38 and the chain-lock is lethal. 2.31-26 22x31 3.26x17 12x21 4.36x27 6-11? 6A) Black has many gaps in his position: <7, 8, Black should have defended with 4...25-30 9, 13, 14>. The black pieces aren’t well 5.34x25 23x34 6.39x30 20-24 7.43-39 24x35 connected. Especially the gaps in black’s 8.39-34 +/-; 4...19-24? 5.33-28 24x31 6.42-37 Drenth-zone make his position tactically 31x42 7.43-38 42x33 8.39x10 ++/- vulnerable. 5.41-37 21-26 Now 5...25-30 6.34x25 23x34 7.39x30 20-24 B) 1.38-33! 17-22 loses due to 8.37-31 24x35 9.31-26 11-17 1...1-7 2.27-22! 18x27 3.34-30 25x34 4.40x18 12x23 5.37-31 26x37 6.41x1 W+"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0025_d1",
 "ch": 5
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "10.33-29 8-12 11.42-38 19-23 12.27-22! etc. B) The most relevant feature of the position is W+; white having more formations and space than 5...11-17 6.33-28 21-26 7.28-22 17x28 8.34-30 black. We will show how this worked out in the 25x34 9.39x30 23x25 10.32x3 W+ game. 6.42-38 8-12 6… 19-24 is met by the shot with 7.37-31! A. Baliakin – H. Meijer 26x28 8.33x22 24x42 9.43-38 42x33 10.39x10 29.32-28 23x32 30.37x28 W+ 7.33-28 25-30 8.34x25 23x34 9.39x30 18-23 Black can’t play 18-23x23 due to 33-28 and he 9...20-24 10.38-33 24x35 11.33-29 also fears to become chain-locked by 38-32- 10.44-40 etc. W+ 27."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "30... 16-21 31.41-37 Judging positions 2 C) After 31-26 21-27 black can play a right wing attack. Without base pieces white can’t successfully play against this attack."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "The beginning of a wrong plan. Black wants to take <23>. 34.31-27 22x31 35.36x27 18-23? A) 1) Formations: White has many formations! All pieces are connected and white has many tails to work with. Black however has few formations. 2) Locks: There are no locks 3) Development:  = 0. White has developed all base pieces. Black’s has developed his pieces also. 4) Strategic squares: Black occupies <22 & 23> but white can remove him from these squares if he likes. White has not taken a strategic square yet. He has a flexible position and can still decide where to go. E) Watch what has changed: 5) Weaknesses: Black has some gaps in 1) White still has more formations than the Drenth zone and piece <6> isn’t so black has. active. White has no base pieces, but 2) Still no locks. this is compensated by having many 3)  = 4 White has taken a lead in formations in a solid construction. development. 6) Space: White has more space to play. 4) White has taken <27 & 28>, black is He can go to all strategic squares still. on <23> but he doesn’t control <24>! Using his formations white can take 5) Black has many gaps in his position even more space. making his position vulnerable. Not 7) Tactics: Black has just played 4-10 controlling ,24> is also a crucial because of the 33-28 threat, missing weakness. base piece <4> now. There aren’t 6) White still has more space to play. many tactical aspects to the position 7) Becasue of the many gaps black’s yet, but in the game tactics become position is vulnerable for tactics. The crucial. absence of a piece on <24> brings about that white can use the 33-29 move for forcing. Black also must take"
-}
-]
 },
 {
 "type": "board",
@@ -3232,42 +3524,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0026_d2",
 "ch": 5
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "care white coming in on <21> or <22. 4) Black has <24> in possession and With 27-21 or 27-22. controls <23>. White has <28> but still needs a piece on <27>. 36.33-29! 2-7 5) White has 4 edge pieces and black has no edge piece at all! Because of the gaps black can’t play 12-18 ... 6) Because white has developed 8 temps more he has less space to play than 37.29x18 12x23 38.39-33 black. 7) After 8-12 black threatens to play 14- 20."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Black has a better, even winning, position. He has more space to play. White’s edge pieces aren’t active. Black can use tactics to freeze out white. In order to neutralise the 14-20 shot after 8-12, white has to play 36-31-27 or 49-43- 38."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "This last line was the game, it continued: 44... 15-20 45.6x4 39-44 46.37-32 44-50 47.27-21 26x17 48.32-28 50x22 49.4x27 W+."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "1) White has more formations than black. White has all pieces in the Drenth zone. 2) There are no locks, but if white transports a piece to <26> he could lock black’s right wing. 3)  = -11, white is trailing by 11 temps. 4) White has <28>, black has <24> and <22>. 2 5) Black misses a piece on <13> and has no base pieces left. White has no 1) White lacks any formation. Black can weaknesses. still built formations by playing 8-12 1-7 6) White has still a lot of space. Black has 3-8 making two forks working together. also enough space. If white is able to 2) No locks go to <26> black’s space would be 3)  = 8, so white is 8 temps ahead. reduced seriously though. 7) Black has to take care for shots, since he misses a piece on <13> he can’t play 14-19 because of 35-30 28-23 39-"
-}
-]
 },
 {
 "type": "board",
@@ -3285,24 +3541,6 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "34 33x15. White can play the desired 1...4-9 is punished by a kingshot: 2.30-24 37-31 move. Because of tactics he will 20x38 3.39-33 38x29 4.34x3 W+ be able to take a chain lock. 1...20-24 will lose due to 2.40-35 13-18 3.28- 22 17x28 4.33x13 19x8 5.30x19 W+ Tactics are decisive in this position in order for 1...13-18 2.30-24 20x38 3.39-33 38x29 white’s strategy to succeed. In an open 4.34x21 gives white a huge advantage: 4-9 position (without any locks) usually leading in 5.40-34! (21-16? 15-20 19-23 20-24 25x45 =) development is cool, but in this case black 11-16 6.21-17 9-13 7.28-22 15-20 8.26-21 20- could be frozen out if he is locked or blocked. 24 9.17-12 W+ 2.49-43 4-10 3.40-35 10-14 4.33-29! 13-18 1.37-31! would have been the right move for 5.39-33 and black is frozen out. white. He threatens to take <26> and if black plays 21-26 he responds 2.34-29! 26x37 3.42x31 10-15 It’s not possible to play 3... 14-19 4.42x31 25x14 because of 5.28-23! 19x28 6.31-27 22x31 7.33x15 W+. 4.29x20 15x24 5.38-32! Black can’t prevent white from playing 32-27, creating a chain-lock, since 16-21? is punished by 6.32-27 21x23 7.33-29 24x33 8.39x10 W+. So white will take the chain lock with 32-27 with a superior position."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "1) Black has no active formations. White has he active 33 / 38 / 42 tail, making the 33-29x29 exchange possible. 2) Black’s right wing is locked. 4 Pieces are locking 5 pieces, so the lock is economic. Black has no pieces behind the lock (on <1, 2, 7, 12> however, which would make the lock even worse 4 for black. 3)  = 0 E. Prosman 4) White occupies strategic square <27>, black has <23 & 24>. 1) White has the 28 / 33 / 39 tail. Black 5) Both players have no weaknesses. has the 6 / 11 / 17 tail, but without 6) Due to the lock black’s space is being able to play 13-18 this formation limited. White can create more space isn’t active. by changing 33-29x29. 2) There are no locks. 7) Because of the lock, white has to take 3)  = 5. care for tactics. He has to spot that 37- 4) White has <27 & 28>. Black has a 31? can be met by a shot. piece at the edge on <25>. 5) White’s piece on <40> is dangling. White’s position is much better, since black is Black’s piece on <6> can easily get bothered by a lack of space. inactive. In the game white changed immediately: 6) White is able to reduce black’s space 1.33-29 24x33 2.38x29 18-22 3.27x18 23x12 to play by taking extra space himself, White still has an advantage, but it turns out with the 35-30 move! that waiting with the 33-29 exchange is even 7) Crucial is spotting the surprising 35-30 better: move, to tactically freeze black out! After this move 4/9 & 4-10 can’t be 1.43-39! played! 1.37-31? Gives black the chance to perform a nice kingshot: 23-29! 2.34x25 24-29 3.33x24 E. Prosman played: 13-19 4.24x4 3-8 5.4x22 17x50 6.26x17 11x22 1.35-30! 11-16 7.27x18="
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0028_d1",
 "ch": 5
@@ -3313,45 +3551,9 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "1...20-25 2.37-31 9-14 1...15-20 2.44-40 (2.37-32? isn’t good because 2...3-8 3.33-29 24x33 4.38x29 19-24 5.30x28 of 22-28! 3.41-37 23-29! 4.32x34 16-21 18-22 6.27x18 13x24 won’t save black either: 5.27x16 14-19 6.25x23 18x49 7.38-32 49x27 7.42-38 8-13 8.31-27 13-19 9.38-33 9-13 8.31x22 17x28 =) 2...20-24 3.37-32 forces 10.33-29 24x33 11.39x28 13-18 12.35-30 W+ black to go to a worse endgame, since 13-19 is 3.33-29 24x33 4.38x29 White didn’t change punished by a kingshot with 32-28 & 27-21 33-29x29 until black couldn’t change back with W+. 18-22x12 anymore. Black is frozen out: 3... 22-28 4.25-20! 28x46 5.20x9 13x4 6.27-21 4... 14-20 5.42-37 20-24 6.29x20 25x14 7.30- 16x27 7.31x2 +/- 24! 19x30 8.35x24! 23-28 9.32x12 21x41 2.37-32 Preventing black from escaping from 10.12x21 16x27 11.36x47 27x36 12.26-21 W+ the lock by changing 17-21x21. 2... 15-20 3.25x14 19x10 4.44-40 10-14 4...13-19 is met by 5.26-21! W+ 5.40-35 23-29 5...14-20 6.41-37 13-19 7.48-42 19-24 8.39-33 8-13 (8...20-25 9.33-29 24x33 10.38x29 23x34 11.32-28 22x33 12.27-21 16x27 13.31x2 W+) 9.43-39 20-25 10.50-44 13-19 11.39-34 and black has only a kingshot left that is too expensive: 16-21 12.27x16 23-28 13.32x14 22-27 14.31x13 12-18 15.13x22 17x50 16.14- 10 W+ 6.41-37 13-19 7.35-30 and black resigned."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "8) White has a fork at the left flank and can sill build several formations at the other wing. Black can try to make a formations at the right flank by playing 13-19 (creating the 14 / 19 / 23 tail) or 14-19 (creating 19/23). Black’s formations at the left flank aren’t active, since his right wing is locked. 9) White has fork-locked his opponent. 6 pieces are needed to lock 8 pieces, so the lock is economic. 10)  = -3 11) Black has <23>, white controls <27>. 12) Black’s weakness is that he has left few pieces that are not locked. He risks being frozen out. 13) Black is locked and therefore has limited space to play. White can still play at both wings. At the left wing he will play 37-32 and 41-37. 14) Black can’t activate piece <8> by 13- 19 (and 8-13) because of a kingshot with 26-21 & 37-32."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "White is much better because of the economic fork-lock; black risks being frozen out."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0029_d1",
 "ch": 5
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "In the course we have learned several strategies with centre play. We discussed the power block, the strong piece at <21>, the left wing attack, the piece at <17> and cannon play. The exercises cover all these strategies."
-}
-]
 },
 {
 "type": "board",
@@ -3394,24 +3596,6 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "1) M. Janssen – R. Boomstra Black has a very strong centre position with many formations. He controls <23 & 24>. White controls <27> but can’t get <28> under control. 37 – 32 and 38 – 32 are not possible. In the game white played 1.49 – 44, building a formation and threatening with a coup Philippe 26 – 21 27 – 22 33 – 29. Black replied 1...24 – 30! A move we know from S2.3 The strong piece at <21>. Black threatens to take the 2 kingshot with 23 – 29 & 14 – 20, while 2.33 – 29 is punished by 14 – 20! etc. B+ and after 2.44 – 40 30 – 35! white is lost, since after capturing always 23 – 29 will follow. Other moves will not help white either:  1.27 – 21 is simply met by 23 – 28 B+1.  1.37 – 31 is answered by 11 - 16 2.49 – 43 23 – 29 3.34 x 23 18 x 29 4.27 – 22 17 x 28 5.33 x 22 29 – 34 6.39 x 30 24 x 35 with a breakthrough.  1.49 – 43 is the best but after 17 – 22! 2.37 – 32 22 x 31 3.26 x 37 11 – 16! 3 4.32 – 27 23 – 28! 5.33 x 22 14 – 20 6.25 x 23 18 x 40 black has a nice Calculation 2 breakthrough."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "1) 1.41-37 6-11 2.33-28 11-17? 3.34-30! 24x35 2) A. Georgiev – W. Chogoliev 4.28-22 17x28 5.32x23 18x29 6.27-21 16x27 White has launched a strong left wing attack. 7.38-32 27x38 8.42x4 W+ His own right wing is protected by 44 / 45 / 50. Especially the piece on <50> is a strong 2) J. Krajenbrink – C. van Wijk defender. Black’s right wing isn’t protected 1.38-33 15-20 2.42-38 13-18 34-30 2-8? 4.32- well. White aims his arrows at this wing. 28! 23x41 5.36x47 26x37 6.38-32 37x28 The game was 37...12-18 38.22-17 Paul 7.33x2 W+ Oudshoorn showed an even better plan for white in order to force a breakthrough: 38.32- 3) J. Daems – G. Kolk (blitz) 27! 3-8 (38...19-24 39.22-17 13-19 40.21-16 1...14-20?! 2.25x14 19x10 3.33-28? 24-30!! etc. W+) 39.21-17 23-29 40.31-26 18-23 4.28x8 6-11 5.35x24 15-20 6.24x4 1-6 7.4x22 41.26-21 29-33 42.21-16 8-12 (42...30-34 17x46 8.8x17 11x31 9.26x37 46x40 B+ 43.16-11 33-39 44.44x33 8-12 45.17x8 6x39 46.8-3 25-30 47.3-25 30-35 48.27-22 35-40 4) B. Zwart – H. Hoekman 49.25-30 34x25 50.45x43 W+) 43.17x8 13x2 44.22-17 2-7 45.16-11 7x16 46.17-12 W+. In"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0050_d1",
 "ch": 5
@@ -3425,24 +3609,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0050_d3",
 "ch": 5
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "the game white won after a crucial mistake of 28...7-12 is met by 29.34-29! 23x34 30.40x20 black in time trouble: 15x24 31.28-23 19x39 32.30x10 9-14 38...3-8 39.31-26 8-12 40.17x8 13x2 41.21-17 33.10x19 13x24 34.37-31! 26x28 35.38-33 30-35 42.26-21 19-24 43.48-43 23-29 44.45-40 21x32 36.33x2 39-44 37.2x30 44-50 38.42-37 24-30 45.32-28 2-8?? (45...18-22 would lead 32x41 39.36x47 12-17 40.30-13 with a winning to a draw) 46.21-16 8-13 47.28-23 30-34 endgame for white as shown in the course 48.23x12 34x45 49.12-7 13-19 50.17-12 29-34 (see the power block). 51.7-1 34-40 52.44-39 40-44 53.12-8 44x33 54.8-3 19-24 55.3-17 24-30 56.17x44 W+ 7) T. Sijbrands – Hisard 1968 White has a solid centre position with many 3) A. Gantwarg – Dramaretski formations and controls the left wing. Black’s White has an active position with many right wing is weakened. This wing will be the formations. White removes piece <23> first target for a future attack. Black is ready to preparing an attack at the left wing. change 24 – 20 x 30 x 23 but this exchange 29.34-29 23x34 30.40x29 20-25 31.29x20 isn’t so strong here. White simply plays 40 – 15x24 32.27-21 16x27 33.31x22 18x27 35, removing black from the centre. After this 34.32x21 8-12 35.36-31 13-18 36.31-27 18-23 he starts a crushing attack at the left wing. 37.38-32 12-18 38.43-38 6-11 39.44-40 9-13 Watch Sijbrands’ great technique: 40.28-22 11-16 41.21-17 4-9 42.17-11 7-12 26...24-30 27.35x24 19x30 28.28x19 14x23 43.11-6 23-28 44.32x23 19x17 45.6-1 14-19 29.40-35 8-12 30.35x24 23-29 31.34x23 46.27-22 18x27 47.1x15 17-21 48.26x17 27- 18x20 32.27-21 16x27 33.32x21 10-14 34.38- 31 49.15-10 9-14 50.10-5 31-36 51.33-29 W+ 32 14-19 35.43-38 13-18 36.32-27 9-13 37.38- 32 6-11 38.45-40 20-24 39.40-34 24-30 40.21- 4) T. Sijbrands – W. v.d. Sluis 1970 16 15-20 41.16x7 12x1 42.26-21 3-8 43.32-28 White is better: he can break the classical 30-35 44.21-17 8-12 45.17x8 13x2 46.28-22 structure. First he launches an attack with his 20-24 47.22x13 19x8 48.48-43 24-30 49.33-28 cannon, removing piece 18 (which is guarding 8-13 50.28-23 2-7 51.27-22 7-12 52.43-38 1-6 centre square <23>. After black changes piece 53.22-18 13x22 54.23-19 22-27 55.19-14 27- <22> he puts pressure on <24>. 31 56.14-10 31-36 57.10-5 12-18 58.38-33 6- 22.27-22! 18x27 23.31x22 11-17 24.22x11 11 59.5-46 18-22 60.33-29 22-27 61.46-14 11- 16x7 25.34-29! 23x34 26.40x20 15x24 27.39- 17 62.14-10 17-22 63.10-5 27-31 64.50-44 W+ 34 7-12 28.43-39 2-7 29.34-29 14-20 30.45-40 20-25 31.29x20 25x14 32.40-34 7-11 33.33-29 8) J. Bom – T. Sijbrands 1989 12-18 34.38-33 11-16 35.36-31 6-11 36.31-27 White has a weak piece at <46>. This piece 19-24 37.29x20 14x25 38.34-29 11-17 39.28- isn’t active. Black can play against this wing 22 17x28 40.32x12 8x17 41.33-28 9-14 42.37- with the pieces 16 / 21 / 26. At the other wing, 32 14-20 43.42-37 4-10 44.39-34 10-1545.35- black has an initiative. This gives him the 30 3-8 46.30-24 8-12 47.28-22 17x28 opportunity to play against white’s weak left 48.32x23 13-18 49.44-39 16-21 50.27x16 18- wing. Black breaks open the position playing 22 51.39-33 22-27 52.37-32 27x38 53.33x42 24-30x29x30 and in the end white is frozen out W+ completely. 26...24-30 27.35x24 20x29 28.33x24 19x30 5) T. Sijbrands – B. Ba (training) 29.28x19 13x24 30.43-39 8-13 31.38-33 30-35 White has a strong centre with a cannon and 32.40-34 9-14 33.34-30 14-19 34.30-25 18-23 the right formations at his right wing. 35.45-40 35x44 36.39x50 15-20 37.25x14 He can choose from two plans: 19x10 38.48-43 10-14 39.46-41 13-19 40.42-  30.33-29! 24x33 31.38x29 19-23 38 3-8 41.33-28 8-13 42.43-39 23-29 43.28-22 32.43-38 23x34 33.30x39 29-34 44.39x30 24x35 45.38-33 1-7  30.40-34 18-23 31.33-28 17-21 32.34- 46.36-31 7-12 47.22-17 35-40 48.17x8 13x2 29 24x22 33.27x29 49.33-29 40-45 50.41-36 14-20 B+ In both cases white holds an advantage. Strategy: Which move would you play? 6) A. Baliakin – Markevics White has a strong power block, putting 1) A. Shaibakov – T. v.d. Broek pressure on <24>. Black has no proper 1.27-21! 16x27 2.32x21 defence. The game was 28...8-12 29.34-29 White puts a strong piece at <21> getting 23x34 30.40x20 15x24 31.27-22 18x27 32.37- control over the left wing. The game was; 31 26x37 33.42x22 3-8 34.45-40 21-26 35.40- 2...9-14 3.37-32 26-31 4.21-16 31-36 5.42-37 34 6-11 36.36-31 26x37 37.32x41 12-17 4-9 6.48-42 14-20 7.34-29 10-14 8.49-43 18- 38.22-18 13x22 W+ 22 9.29-23 13-19 10.40-34 22-27 11.32x21"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "17x26 12.34-29 9-13 13.38-32 25-30 14.32-27 40...12-18 41.28-23 19x17 42.30x19 13x24 2-7 White could have made a king shot with 43.37-31 26x28 44.33x4 W+ 15.27 – 21! 26 x 17 16.37 – 31 36 x 27 17.23 – 41.22x11 16x7 42.28-22 7-12 18 and 28 – 23 or 29 – 23 etc. White won the 42...9-14 is met by 43.32-28 14-20 44.22-18 game after 15.37–32. 13x22 45.28x17 21x12 46.30-25 8-13 47.25x23 13-18 48.35-30! 24x35 49.23-19 18- 2) T. Sijbrands – F. Gordijn 1973 22 50.19-14 W+. You could play 34 – 29 23 x 34 40 x 20 14 x 25 43.32-28 Black has no good move left. 33 – 29, but Sijbrands wants to eliminate the 12-18 44.28-23 19x17 45.30x19 13x24 46.37- piece in the centre, piece <18>, first. Therefore 31 26x37 47.38-32 37x28 48.33x4 W+ he uses his cannon, playing 27.27-22 18x27 28.31x22 and after 11-17 29.22x11 16x7 white 6) R. Letsjinski – M. Sjawel 1976 breaks the classical structure in order to get White can conquer central squares <28 & 29> strong centre play: 30.34-29 23x34 31.40x20 using tactics. 14x25 32.33-29 7-12 33.43-39 1-7 34.38-33 35.34-29! 23x34 36.40x29 7-12 19-24 35.29x20 25x14 36.42-38 6-11 37.36-31 Black couldn’t play 36...19 – 23, because of 13-18 38.45-40 9-13 39.31-27 3-9 40.40-34 the kingshot with 33 – 28 27 – 21 28 – 22 32 x 11-17? 41.27-21! and black resigned. 1 W+. 37.32-28 19-24 38.37-32 3-9 39.47-42 14-19 3) F. Gordijn – T. Sijbrands 1965 40.42-37 20-25 41.29x20 25x14 42.35-30 Sijbrands puts pressure on <27> by changing and black’s position is completely lost. After 17 – 22 and building a power block after that. 42...6 – 11 43.33 – 29 11 – 16 44.29 – 24 20...17-22 21.28x17 11x31 22.36x27 7-11 black is frozen out and 42...14 – 20 is met by 23.47-41 12-17 24.49-43 17-21 25.33-28 8-12 the kingshot with 27– 21 28 – 22 38 – 33 32 x 26.39-33 12-17 The power block is built. 27.41- 3 W+ 36 24-29 Even better is to play 17 – 22 first and then 24 – 29 & 14 – 20. 7) A. Andreiko – F. Gordijn 1973 28.33x24 14-20 29.25x14 9x29 30.30-25? 34.39-34! White wants to break the classical White could have defended by playing 27 – 22 structure of the position, so he prepares the 33 18 x 27 37 – 31 2 x 37 42 x 22. – 29 24 x 22 27 x 29 exchange. 30...17-22 31.28x17 11x31 32.36x27 6-11 34...12-18 is met by 35.27-22! 18x27 36.31x22 33.44-39 11-17 34.50-45 15-20 35.25x14 with the threat of 33 – 29, for example: 16-21 19x10 36.39-33 10-14 37.33x24 23-28 37.33-29 24x33 38.38x18 8-12 39.43-39 12x23 38.32x12 21x41 39.12x21 16x27 40.42-37 40.30-24 19x30 41.28x8 3x12 42.35x24 W+. 41x32 41.48-42 26-31 42.38-33 31-36 43.33- 34...1-6 35.33-29! 24x22 36.27x29 12-18 28 32x23 44.42-37 23-28 45.43-38 36-41 36...19-23 37.29x18 12x23 38.30-24 9-14 46.37x46 28-32 47.38-33 32-37 B+ 39.34-30 14-19 40.24-20 3-9 41.31-27 is terrible for black. 4) F. Gordijn – T. Sijbrands 1970 37.43-39 7-12 38.31-27 11-17 39.39-33 17-21 Black starts an attack at white’s right wing: 40.29-24 12-17 41.33-28 17-22 42.28x17 31...24-30! 32.35x24 19x30 33.31-27 13-19 21x12 43.38-33 6-11 44.24-20 9-14 45.20x9 34.43-39 8-13 35.48-43 2-8 36.37-31 3-9 13x4 46.33-28 8-13 47.42-38 3-8 48.38-33 11- 37.41-36 30-35 38.31-26 35x44 39.39x50 19- 17 49.34-29 4-9 50.36-31 17-22 51.28x17 24 40.50-44 25-30 41.27-21 13-19 42.36-31 8- 12x21 52.29-24 8-12 53.33-28 12-17 54.28-23 13 43.31-27 23-29 44.21-16 30-34 45.42-37 18x20 55.27-22 17x28 56.32x3 13-18 57.3x25 18-23 46.43-39 34x43 47.38x49 29x38 18-22 58.25-14 21-27 59.14-9 27x36 60.9x27 48.32x43 24-29 49.37-32 13-18 50.44-39 19- 26-31 61.37x26 36-41 62.30-24 W+ 24 51.43-38 24-30 52.39-33 30-34 53.33x24 34-39 54.24-20 39-43 55.26-21 17x26 56.27- 8) A. Chizhov – A. Andreev 22 18x27 57.32x21 26x17 58.20-15 43x32 30.34-29 24x33 31.38x29 59.15-10 17-22 60.49-43 12-18 61.45-40 23-28 White takes the 27 / 29 bond, since black has 62.40-35? 32-37 63.35-30 37-41 64.30-25 28- no formations to challenge the bond. White 33 B+ gets active at the right wing. If black plays 31...13 – 19 white keeps playing 5) T. Sijbrands – H. van Klaveren 1980 in the direction of the right wing: 32.32 – 28 8 – White removes centre piece <23> and 13 33.37 – 32 (threatening 29 – 23 & 27 – 21) launches a strong (Highland) attack after that. 20 – 25 42 – 38 3 – 8 34.39 – 33 etc. 37.34-29! 23x34 38.39x30 20-24 39.27-22! 7- If black plays 31...20 – 25 32.42 – 38 11 – 17 12 40.44-39 12-17 white can go to <24>: 33.29 – 24 since 17 –"
-}
-]
 },
 {
 "type": "board",
@@ -3565,24 +3731,6 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Judging positions 1) After 1.31-27! white controls the position. Black can’t play at his right wing, 12-18 and 12-17 are punished by a king shot. 10-15 1...12-18 2.28-23 19x17 3.27-21 16x27 4.32x1 W+; 1...12-17 2.27-21 16x18 3.28-22 17x28 4.32x1 W+ 2.34-29 25-30 3.40-35 20-25 4.29x20 15x24 5.44-40 14-20 6.49-44 etc. W+"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "2) W. Shchegolev – I. Kuperman Your first impression might be that white has a 2 good Highland attack. The pieces seem to work together well. But after 12-18! white suddenly has big problems. White can’t get rid of piece <18> since he can’t build the 29/34/40-tail anymore. 1...12-18! Also confronts white with several tactical problems: 2.29-24 35-40 3.44x35 16-21 4.27x7 18x27 5.32x21 8-12 6.7x18 13x44 B+ 2.37-31 35-40 3.44x35 18-23 4.29x18 11-17 5.22x11 13x44 6.11-7 8-12 7.7x18 6-11 B+ 2.39-33 8-12 3.29-24 ; 2.28-23 9-14 3.23x3 35- 40 4.3x20 15x33 5.44x35 33x44 B+ The game was 2.39-33 9-14 44.37-31 8-12 3 45.28-23 11-17 46.22x11 16x7 47.33-28 14-20 48.29-24 18x29 49.24x33 White’s right wing is Calculation 2 severely weakened. 49… 25-30 50.44-39 20- 24 51.27-22 13-19 52.39-34 30x39 53.33x44 1) 1.36-31 15-20 2.35-30 20-24? 3.48-42 24-30 54.31-26 30-34 55.22-17 12x21 3.47-42 24x35 etc. is also possible. 56.26x17 34-40 57.44-39 40-45 58.32-27 15- 3...24x35 4.33-29 23x34 5.39x30 35x24 6.22- 20 59.38-32 7-11 60.27-22 19-23 61.28x19 45- 18 13x33 7.38x20 14x25 8.27-22 17x28 50 62.19-13 50x48 63.13-8 35-40 64.8-2 48-26 9.32x5 W+ 65.2x16 26x12 66.16-38 20-25 67.38-42 40-45 B+ 2) 1...15-20 2.46-41 10-15 3.37-32? 24-30 4.35x33 23-29 5.33x24 20x29 6.34x23 19x46 3) S. Davidov – A. Chizhov B+ Black has a Highland attack, piece <29> is supported by a strong centre. Piece <29> can’t 3) 1.37-31 26x37 2.42x31 5-10 3.46-41 2-8 be threatened and black can build enough 4.41-37? 24-29 5.33x24 19x30 6.35x24 13-18 formations. He began by building the 11/17/22- 7.22x2 9-13 8.2x19 14x41 B+ tail. 1... 18-22! Black can’t play 37-32? Or 21- 16 1-7 37-32 now (29-34 14-20 22=-28 17x46)."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0161_d1",
 "ch": 5
@@ -3591,42 +3739,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0161_d3",
 "ch": 5
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "2.21-16 1-7 3.43-39 12-18 4.48-43 18-23 5.37- back. 7.42-38 19-24 8.38x27 24-30 9.35x24 31 22-28 8.33x22 17x28 and black won the 20x29 B+ game. 3...4-9 4.38-32 White closes the gat on <32> but now he has a weakness on <38> ... 16-21! 4) White has a Highland attack supported by a 5.27x16 18x38 6.33x42 7-11 7.16x18 13x24 strong centre, but white has also weaknesses. B+1 Piece <46> isn’t active and white’s right wing is weak. Black has control over <24>! His 7) R. Boomstra - E. Vatoetin strategy is to surround the centre, if white goes Black has a lack of space to play and is frozen to <29> he can change this piece and after 39- out. 34 (white breaks the 28/33/39-tail) black can 1.16-11! 17-21 2.27x16 6x17 3.48-42 12-18 change 11-17x17 in order to surround the 4.42-37 8-12 5.37-31 and black is out of moves remaining white centre. A logical line is: after 15-20 31-26. 1.45-40 9-14 2.40-34 14-20 3.34-29 20-24 4.29x20 15x24 5.39-34 11-17 6.22x11 6x17 8) I. Kuperman – A. Andreiko 7.37-31 26x37 8.32x41 [ 8.42x31 17-22 White’s attack is helped by tactics. White 9.28x26 24-30 10.35x24 19x37 11.31x42 25- prepares a strong threat. 30 ] 8...17-22 9.28x26 24-30 10.35x24 19x28 1.31-27! 25-30 [ 1...14-20 2.36-31 20-24 11.48-43 25-30 12.43-39 13-19 13.41-37 19-24 3.29x20 25x14 4.35-30 4-10 5.30-25 10-15 (black trying to break through) -/++. 6.33-29 19-24 7.29x20 15x24 8.38-33 13-19 9.42-38 9-13 10.48-42 13-18 11.22x13 19x8 5) A. Chizhov – A. Gantwarg Wch 2001 12.28-23 8-13 13.33-28 13-18 14.27-22 18x36 Black has just played the weak 1-6? instead of 15.23-18 12x23 16.28x10 W+ ] 2.35x24 19x30 7-12, giving white time to centralize piece 3.36-31! Bringing the 22-18 threat in play. 30- <36>: 27.36-31! 7-12 28.31-27 12-18 35 4.22-18! 12x34 5.33-29 34x23 6.28x8 2x13 28...12-17 29.40-34! 8-12 (29...24-30 30.35x24 7.27-21 16x36 8.37-31 36x27 9.32x1 W+ 20x40 31.22-18 13x31 32.39-34 40x29 33.33x4) 30.34-30 +/- Classical attack – combinations 29.28-23! 19x17 30.27-21 16x27 31.32x23 White takes a centre strong attack. Piece <23> 1) 1.33-29! 24x42 2.22-17 11x33 3.32-27 can’t be threatened and white will slowly 21x32 4.41-37 32x41 5.36x20 W+ reinforce the attack and he won the game: 8- 12 32.37-31 26x37 33.42x31 11-16 34.31-27 2) R. Letsjinski – A. Gantwarg 6-11 5.33-28 13-18 36.39-34 18x29 37.34x23 1...13-18! 2.22x2 21-27 3.32x21 23x32 9-13 38.43-39 14-19 39.25x14 19x10 40.38-32 4.38x27 14-20 5.25x23 6-11 6.30x19 3-8 13-18 41.39-34 18x29 42.34x23 12-17 43.40- 7.2x13 9x49 8.19-13 11-17 9.21x12 49x24 B+ 34 24-29 44.23-18 29x40 45.35x44 3-9 46.48- 42 10-14 47.42-37 17-21 48.28-22 14-19 3) 1.32-27! 21x32 49.18-12 9-13 50.37-31 21-26 51.22-18 26x28 1...23x32 2.37x28 21x23 3.43-39 17x28 4.40- 52.18x9 28-33 53.12-8 W+ 34 29x40 5.35x44 24x35 6.44-40 35x33 7.38x7 11x2 8.25-20 14x25 9.36-31 26x37 10.41x5 6) Zhiyong Xiong – R. Boomstra (Wch rapid W+ 2012). Black is much better. White has too 2.38x27 23x21 3.42-38 17x28 4.40-34 29x40 many gaps in his position. 5.35x44 24x35 6.25-20 14x25 7.37-31 26x37 1.37-31? Instead of creating another gap on 8.41x5 W+ <32> white should have closed the gap on <38> to reinforce his centre position. 1.43-38 4) 1.39-33? 12-17! 2.33x15 14-20 3.15x24 although also now black has the best chances 19x30 4.28x8 2x13 5.35x24 13-19 6.24x22 to win, for example: 7-12 2.44-39 20-24 17x50 B+ 3.29x20 15x24 4.34-29 25-30 5.29x20 18-23 6.35x24 19x30 7.28x19 13x15 8.33-29 15-20 5) J.M. Ndjofang – M.Rentmeester and black will break through at the right flank. 1.28-22! 17x37 2.26x17 37x26 3.27-21 16x27 1...26x37 2.32x41 8-12 Black builds 4.17-11 6x17 5.33-28 23x43 6.34x32 43x34 formations: 7/12/18 & 4/9/13. 2...19-23 3.28x19 7.40x18 W+ 13x24 4.22x13 8x19 would also have forced winning a piece. 6) Y. Anikeev 3.43-38 1.22-18! 23x12 2.43-39 34x43 3.28-22 17x48 3.48-42 4-9 4.27-21 16x27 5.22x31 18-23 4.45-40 43x21 5.26x6 29x38 6.6-1 48x26 6.29x18 12x32 and white can't win the piece 7.1x42 26x48 8.40-34 48x30 9.35x2 W+"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "4) M. Seck – A. Baliakin 8) P. Stork - P. Meurs After 1...11-16! 2.27-22 16-21 3.22x11 6x17 1.44-40? 17-21! 2.26x8 2x13 3.28x17 20-24 white has no good move left (tactical freeze 4.31x22 24-29 5.33x24 19x37 B+ out). Roozenburg – which move do you play? 5) 1.35-30! 11-17 2.38-33! 29x38 3.30-24 19x30 4.28x19 13x24 5.37-31 26x28 6.43x14 1) F. Andriessen – S. Winkel 21x32 7.14-9 W+ 1.32-27 21x32 2.37x10 26x46 3.42-38 46x5 4.29-23 5x43 5.49x38 20x29 6.34x3 W+ 6) M. Stempher 1.35-30! 25x34 2.39x30 14-20 3.27-22 18x27 2) J.M. Ndjofang – P. Meurs 1... 18-23! 2.37- 4.32x21 23x41 5.36x47 26x17 6.30-24 19x30 32 24-30! 3.34x14 9x20 4.32x21 23x34 B+1 7.38-33 29x49 8.40-35 49x40 9.45x3 W+ 3) R. Samb – N. Clerc (missed) 7) A. Getmanski – A. Shaibakov 1.34-29? 16-21! 2.29x20 14x34 3.39x30 18-23 1.39-34! 1-7? [ 1...13-18 2.22x13 9x18 3.37-31 4.37-32 23-29 5.33x24 22x33 6.31x11 13-18 26x37 4.42x31 21-26 5.43-39 26x37 6.32x41 7.24x22 12-17 8.38x29 17x50 9.26x17 2-7 23x21 7.34x12 +/- ] 2.22-17! 21x12 3.37-31 10.11x13 9x18 B+ 26x37 4.32x41 23x21 5.34x23 19x28 6.30x26 W+1 4) 17.33-28 17.50-45? 21-26! 18.33-28 16-21! 19.28x8 8) 1.39-33! 20-24 2.22-17 21x12 3.27-22 2x13 20.27x16 26-31 21.37x26 13-19 18x27 4.32x21 23x43 5.34x3 16x27 6.3x49 22.24x22 17x46 B+ W+ 17...3-8 18.28x19 18-22 19.27x18 12x14 20.32-28 = Roozenburg – combinations"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "8) W. Van der Sluis – T. Sijbrands Dutch 3 champ. 1965. The opening of the game was: 1.32-28 16-21 2.31-26 18-22 3.37-32 11-16 Calculation 4 4.41-37 7-11 5.34-29 20-24 6.29x20 15x24 7.37-31 21-27 8.32x21 16x27 9.40-34 1-7 1) 1.33-28 11-17 2.28x19 17-21 3.39-33? 10- 10.46-41 10-15 11.42-37 11-16 12.48-42 7-11 14! 4.19x10 13-19 5.24x22 9-14 6.10x19 21-27 13.37-32 16-21 14.41-37 13-18 15.45-40 9- 7.32x21 26x50 B+ 13? [15... 14-20 was later played in Wiersma – Sijbrands) – diagram – White forces a win: 2) 1.34-29? 23x34 2.39x30 24-29! 3.33x13 16.34-30! 5-10 17.40-34! 3-9 18.28-23! 18x40 22x33 4.31x22 9x27 5.38x29 27x40 6.45x34 19.33-28 22x33 20.38x20 14x34 21.31x22 B+ 17x28 22.32x5 W+ 3) 1.39-33 11-17 2.47-41 7-11? 3.37-31! 26x39 Calculation 3 4.38-33 39x28 5.27-22 18x27 6.29x7 20x29 7.34x5 25x34 8.40x29 W+"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "B) 9.36-31? 13-19!! Analysing positions 9...41-46? 10.31-27 21x32 11.47-41 46x37 12.33-28 32x23 13.1x42 W+ 1A) Black has a centre attack with an outpost 10.47x36 30-34 11.40x29 19-23 12.29x18 21- on <28>. The piece on <10> is dangling. This 27 13.31x22 2-7 14.1x12 8x50 B+ makes black’s right wing weak. If black plays 14-19 white responds 25-20 threatening to go"
-}
-]
 },
 {
 "type": "board",
@@ -3644,24 +3756,6 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "to <14>. At the other wing white can fight to 5.28-23 19x28 6.30x19 13x24 7.32x23 24-29 take <27>. White has good formations to play 8.33x24 20x18 9.38-32 27x38 10.43x32 10-14 against the attack. In the Drenth zone only 11.31-27 22x31 12.36x16 - / + <48> is missing. The edge pieces <15 & 25> are active. They help to control the right wing. 6) R. Boomstra – K.H. Leijenaar A) 20... 17-21 21.26x28 27-32 22.38x27 19-24 B) 1.38-32! 12-17* 2.39-34! Using the gap on 23.30x19 14x41 B+ <12> to create a new threat. 8-12 3.32-27 17- 22 B) 20...17-21? 21.26x28 19-24 22.31x22 24-30 [Game: 3...28-33 4.26-21! 17x26 5.27-22 23.35x24 13-18 24.22x13 8x50 25.38-33 W+1 18x27 6.25-20 14x25 7.34-30 25x34 8.43-39 34x43 9.49x9 4x13 10.15x4 ; 3...13-19 4.34-30 C) Black was threatening to play 17-21 26x28 28-33 5.43-38 ] 4.37-31 11-17 [ 4...28-33 5.43- 23x41. 38 ] 5.49-44 13-19 [ 5...23-29 6.34x32 16-21 7.27x16 22-27 8.31x11 12-17 9.11x22 18x40 D) 31...2-8 32.29-24! (threatening 39-33 & 24- 10.16-11 and white wins the endgame] 6.34-30 19 30x28 31x2) 14-19 32.34-29 23x34 33.38- and black is frozen out, since 28-33 is 32 27x38 34.43x14 etc. W+ punished by 43-38 23-29 30-24 W+."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "G) 31.39-34 28x39 32.25-20 15x35 33.37-32 39x30 34.32x1 W+ B) 13-19 24x13 8x28 29-24 20x29 34x21 W+1. 7) Black has to take care for white threatens to C) 5... 2-7! and 6.42-37 is punished by 17-21 play 29-23 28x19 33-28. It looks like black 26x28 27-32 38x27 20-24 29x9 18x49 9x18 can’t do anything about it, and in this blindfold 12x41 B+. game white resigned. But black could have sacrificed a piece with enough compensation D) 8.38-32! 27x40 9.31-27 22x31 10.33x4 W+ to draw: 1...17-21! 2.26x17 12x21 3.31-26 8-12 4.26x8 5) E. Dusamos – B. Stegeman 2x13 5.35-30 27-31 6.36x27 22x31 7.33x22 1...11-16! 18x27 and eventually black will make a 1...13-18? 2.37-32! 11-16 3.32x21 16x27 4.26- breakthrough. 21!! 17x46 5.28x17 12x21 6.38-32 27x29 7.34x1 25x34 8.40x29 24x33 9.39x28 46x23 8) Damincourt – T. Sijbrands 10.1x15 W+ White has several weaknesses, gaps on <33, 2.37-32 16-21 3.41-37 10-15 4.48-42 5-10 34, 37, 43>. Black controls the wings with its 4...7-11? 5.34-29!! 25x23 6.33-29 23x34 edge pieces surrounding the white centre 7.39x30 22x33 8.31x22 17x28 9.32x25 W+ attack."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0165_d1",
 "ch": 5
@@ -3670,33 +3764,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0165_d2",
 "ch": 5
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "1.48-43 13-18 2.43-38 2-7 3.41-36 (3.40-34 14-20!) 3...18-22 4.27x18 14-19 5.23x14 12x43 13) K. van Amerongen – M. van Ijzendoorn 6.38x49 15-20 B+1. (We also show the interesting openings play) The game was: 1.27-22 25-30! 2.22x11 16x7 1.32-28 19-23 2.28x19 14x23 3.37-32 10-14 3.40-34 7-11 4.34x25 35-40 5.44x35 12-18 4.41-37 16-21 5.35-30 20-25 6.47-41 21-26 6.23x3 13-18 7.3x20 15x44 B+. 7.32-28 23x32 8.37x28 26x37 9.41x32 17-21 10.30-24 11-17 11.34-30 25x34 12.40x29 6-11 9A) A. Baliakin – R. Meijer 13.45-40 18-22 14.40-34 14-20 15.46-41 13-18 Black has an attack with outposts on <27 & 16.41-37 9-13 17.37-31 11-16 18.31-26 21-27 28>. Black has weak pieces on <11 & 16>. 19.32x21 16x27 20.28-23 5-10 21.42-37 10-14 White pieces 26/31/36 keep these pieces at its 22.44-40 3-9 23.50-44 7-11 24.34-30? [ 24.37- place, since 16-21 will create an arrow lock. At 32! 11-16 25.32x21 16x27 26.48-42 1-7 27.33- the right wing white has taken a counter attack. 28 22x33 28.39x28 18-22 29.43-39 22x33 This counter attack is very strong since black’s 30.39x28= ; 24.37-31? 1-7 25.48-42 27-32! distribution of pieces isn’t great. Black has to 26.38x27 22-28 27.23x32 18-23 28.29x18 many pieces at his right wing, compared to his 20x47 B+ ] 24...20-25 25.40-34 1-7 26.44-40 left wing. Black can still use the 2/8/13 tail, in 14-20 27.37-32 9-14 28.32x21 11-16 29.48-42 order to chance piece <24> but white will keep 16x27 30.42-37 27-31 31.36x27 22x42 on playing pieces to the right wing and 32.38x47 17-22 33.43-38 13-19 34.24x13 reinforce its counter attack. White has the best 8x28 35.47-42 2-8 chances. 36.49-43 4-10 37.40-35 14-19 38.42-37 20-24 39.29x20 15x24 40.26-21 10-14 41.21-16 7-11 B) 38.40-35 13-19 39.24x13 18x9 40.3538.40- 42.16x7 12x1 and blak won. 35 13-19 39.24x13 18x9 40.35-30 9-13 41.30- 24 13-18 42.24-20 15x24 43.39x9 3x14 44.34- 14A) 1.48-42 29-34! 2.30x39 24-29 3.33x24 29 14-19 45.29-24 19x30 46.25x34 W+. 19x30 4.28x8 17x48 5.35x24 18-22 6.27x18 16-21 7.26x17 11x2 B+ 10) 13-18! Threatening 27-32 & 17-22. 40.37- 32 17-21 41.23-19 [ 41.30-24 12-17 42.23x12 B) 1.43-39 29-34 2.48-42 (2.48-43 15-20 3.27- 1-7 43.12x1 17-22! 44.28x17 21x12 45.1x31 21 18x27 4.21x12 27-31 5.26x37 11-17 26x19 B+ ; 41.48-42 12-17 42.23x12 1-7 6.12x21 16x27 7.32x21 23x41 B+) 2...34x43 43.12x1 8-12 44.1x31 26x48 B+ ] 41...12-17 3.38x49 17-21 4.26x17 14-20 5.25x14 19x10 [ 41...20-24 42.29x20 15x13 ] 42.19-14 20x9 6.30x8 16-21 7.27x7 18x47 8.28x19 47x22 B+ etc. C) 1.25-20!! 14x34 2.43-39 34x43 3.48x39 = 11A) White removes the outpost on <29> in order to be able to surround the centre attack. Strategy B) 8... 17-22 9.38-33! with the strong threat 24- 19 & 32-27 +. 1) 49...23-29 50.34x23 18x29 51.37-32 19-24 52.38-33 29x38 53.32x43 13-18 B+ C) 13.48-43! 7-11 14.39-34! (threatening 34-29 +) 28-33 15.27-21! 26x17 16.24-19 13x24 52...18-22 53.37-31 12-18 54.32-27 14-19 17.31-27 22x42 18.47x9 W+ 55.38-32 24-30 56.33-29 30x39 57.29-24 19x30 58.25x43 23-29 59.43-38 29-34 60.38- 12) 33 34-40 61.33-29 40-44 62.29-24 44-50 A) 1.26-21? is a ridiculous move, opening 63.24-20 50-45 64.20-14 18-23 65.27x29 <49>. Black can simply take the king 45x10 B+ shot with 17-32 & 18-23 B+. B) 1.35-30 18-23! 2.29x18 12x23 3.33-29 2A) 14.31-26 19-23 15.28x19 14x23 followed 8-12 4.29x18 12x23 5.38-33 20x38 by 21-27x27. 6.43x1 11-17!7.1x29 28-32 8.37x28 22x33 B+ B) Black wants to get control at the right wing, C) 1.38-32 27x38 2.43x23 22-27 3.31x22 so he can play against the Highland attack. 17x30 4.35x24 18-23 5.29x18 20x38 6.42x33 12x23 B+ C) Other moves would allow the 16-21 17-22 D) 1.26-21! 17x26 [ 1...27x16 2.34-30 king shot. 25x23 3.24-19 13x24 4.31-27 22x31 5.33x4 W+ ] 2.38-32 27x38 3.43x23 11-17 4.31-27 22x31 5.36x27 +/-"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "C) Black can now pin down the dangling piece on <41> by playing 23-28. Much better is 27.44-39 23-28 28.40-34 9-13 and white's piece at <41> can still be activated by building up with 38-33 42-38 41-37."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "4A) 17... 17-21! 18.26x8 3x12 19.28x8 18-22 20.32x21 22-28 21.33x22 24-29 22.34x23 19x48 23.8x19 14x23 24.35-30 48-26 25.47-42 13... 4-10 26x48 26.39-34 48x39 27.44x33 = Black wants do develop his left wing (after B) 21.47-41 23x32 22.41-37 32x41 23.36x47 white has gone to <25>) playing 19-23x23x19. 27x36 24.26-21 17x26 25.33-29 24x33 Black could also have played 13... 5-10 since 26.39x6 2-7 27.6-1 19-24 = (if white takes a 30-25 isn’t allowed then (19-23x23 22-27! king it is caught with an equal amount of 17x46) he can change 19-23x23 on the next pieces). move."
-}
-]
 },
 {
 "type": "board",
@@ -3709,6 +3776,141 @@ const DATA: ManuelData = {
 "runs": [
 {
 "t": "Coups forcés"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "1...26-31! 2.37x26 23-28 3.32x14 21x32 3) 1.31-27! 2-7 (1...13-18? 2.25-20! 14x34 4.38x27 9x20 5.25x14 13-19 6.14x23 18x47 3.37-31! 26x37 4.32x41 21x43 5.35-30 24x44 B+ 6.33x4 23x32 7.4x29 W+) 2.27-22 7-11 3.22- 18! 23x12 4.28-23 19x39 5.30x6 W+ Forcings podkowa 4) E. van Muijen – Puochiauskas 1) H. Wiersma – M. Hisard After 1.49-43 10-14 2.45-40 15-20 3.38-32? 1.33-28! 14-20 2.27-21! 16x38 3.30-25 23x32 black missed a kingshot: 3...25-30! 4.34x25 4.25x3 W+ 23-29 5.33x15 4-10 6.15x4 7-11 7.4x22 17x46 B+ 2) J. de Leeuw – M. Rentmeester White could have forced a win: 1.29-24! 17-22 5) H. Jansen – P. Kort 2.32-28! 22x44 3.27-22 18x27 4.43-39 44x33 1.30-24 19x30 2.34x25 12-18 3.33-28 23-29 5.38x9 27-31 6.24x13 31-36 7.9-3 36x38 8.34- 4.28-23 29-34? (4...29-33? also loses due to 29 25x23 9.37-31 26x37 10.3x12 W+ 5.23x1 33x44 6.1-6 W+, 4...7-12! however is a defence: 5.23x34 12-17 6.32-28 11-16 7.39-33 3) G. Valneris – D. van Schaik sr. 14-19 8.25-20 19-24 9.20x29 17-21=) 5.23x1 1.33-28! 15-20 2.30-24! 20x29 3.27-22 18x38 34x43 6.1-34 W+ 4.48-42 23x32 5.42x11 32-38 6.11-6 38-43 7.50-44 W+ 6) 1...11-17? 2.33-29 17-22? 3.30-25! 22x31 4.36x27 12-17? 5.37-31! 26x28 6.27-22 18x27 4) W. Leijenaar – J. Lemmen 7.29x20 15x24 8.25-20 24x15 9.38-33 28x30 1...18-23! 2.28-22 17x28 3.26x17 23-29 10.35x2 W+ 4.33x22 29-34 5.40x20 14x41 W+ Composing shots 5) E. Vatoetin 1.32-27! 21x32 2.38x27 20-24 3.29x20 15x24 4.40-35!! 23-29 5.34x23 18x49 6.31-26 49x21 7.26x30 W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "The right wing attack is a very important type of game you should be able to use. Playing an attack can give good chances to win a game strategically. Sometimes you win by breaking through to king earlier than the opponent, or you can win by freezing out the opponent. If you play an attack or play against an attack, you should also know the strategies for playing against the attack. Making the exercises will teach you more about these strategies, so you can recognize and use them in your own games."
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "2) Play the game on your board and answer the question 23... 24-30 24.35x24 19x30 25.46-41 14-20 26.28-23 5-10 27.32-28 10-14 J. van der Wal – A. Dibman 28.37-32 Kislovodsk, 02-10-1981 1.32-28 17-22 2.28x17 12x21 3.37-32 7-12 4.41-37 1-7 5.34-29 11-17 6.40-34 19-23 7.33-28 7-11 8.28x19 13x33 9.39x28 9-13 10.44-39 4-9 11.50-44 13-19 12.39-33 8-13 13.44-39 2-8 14.47-41"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Black changes the outpost on <22> in order to play against the other outpost on <23>."
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "39.43-38 30x39 40.33x44 25-30 41.45-40? It seems like white has a good attacking position, but black tries to surround the white White could have defended with 41.44-39 =. position with a weakness on <44>, anyway."
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Sharper is an immediate attack on <27> with 13.37-32. Black has to defend his outpost like this line shows: 13.37-32 7-11 14.32x21 16x27 15.41- 44.32-27 9-13 37 11-16 16.37-32 6-11 17.32x21 16x27 18.47-41 2-7 19.34-30 4-9 20.45-40 18-23 G) Show the winning move for black after: 21.30-25 23x32 22.33-29 24x33 23.39x37 19-  45.42-37 23  45.40-34  45.38-33 3-8 46.40-34 A) How can black respond tactically to the  45.38-33 3-8 46.39-34 24.37-32 attack now?"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "13... 10-15 14.50-45 7-11 45.38-32 25-30! 46.40-34 13-19! 15.37-32 3-9 16.32x21 16x27 47.34x25 17-22 48.28x8 19x48 17.41-37 11-16 18.37-32 6-11 49.8-2 48x23 50.27-21 19.32x21 16x27 20.34-30 11-16 21.30-25 18-23 Black is two pieces ahead in the endgame."
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "3) Play the game on your board and answer the questions. White has no sound temp to take the 2 x 2 with K. Toet – T. Sijbrands (1970) 33-29. 1.32-28 16-21 2.31-26 18-22 3.37-32 11-16 4.41-37 7-11 B) How is 22.40-34 23x32 23.33-29? 24x33 5.34-29 1-7 6.46-41 20-24 24.39x37 punished by black? 7.29x20 15x24 8.40-34 13-18 9.37-31 21-27 10.32x21 16x27 22.47-41 23x32 23.33-29 24x33 Black takes a Roozenburg attack. 24.39x37 19-23 25.37-32 13-19 26.32x21 16x27 11.42-37 9-13 12.48-42 11-16"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "27.42-37? B) White could have taken a breakthrough shot. Why doesn’t he take it? C) Why is this move wrong?"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "White deliberately kept his base piece on <50>. Now he can change a piece on <28> helping the attack on the outpost enormously."
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "A) Black could have played 14...7-11 15.46-41 10-15 16.41-37 5-10 17.37-32 and now black can take a king shot. How?"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Black develops his left wing, taking 4 temps (after the exchange  = -2) after which he builds a strong centre position."
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "The outposts are exchanged. Black takes piece <24>; white takes piece <27>. After the 19...17-22! exchange the white pieces 21/26/36 become weak edge pieces. At the other wing black Black takes a right wing attack by playing starts a strong attack. 19...17-22 20.37-31 22-27!"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "41...15-20 26...18-22 Piece 15 is centralized, reinforcing the attack, With this and next moves black reinforces the while piece 30 is pushed to the edge of the attack. board."
+}
+]
+},
+{
+"type": "h3",
+"ch": 6,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },
@@ -3873,15 +4075,6 @@ const DATA: ManuelData = {
 "ch": 6
 },
 {
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "1...26-31! 2.37x26 23-28 3.32x14 21x32 3) 1.31-27! 2-7 (1...13-18? 2.25-20! 14x34 4.38x27 9x20 5.25x14 13-19 6.14x23 18x47 3.37-31! 26x37 4.32x41 21x43 5.35-30 24x44 B+ 6.33x4 23x32 7.4x29 W+) 2.27-22 7-11 3.22- 18! 23x12 4.28-23 19x39 5.30x6 W+ Forcings podkowa 4) E. van Muijen – Puochiauskas 1) H. Wiersma – M. Hisard After 1.49-43 10-14 2.45-40 15-20 3.38-32? 1.33-28! 14-20 2.27-21! 16x38 3.30-25 23x32 black missed a kingshot: 3...25-30! 4.34x25 4.25x3 W+ 23-29 5.33x15 4-10 6.15x4 7-11 7.4x22 17x46 B+ 2) J. de Leeuw – M. Rentmeester White could have forced a win: 1.29-24! 17-22 5) H. Jansen – P. Kort 2.32-28! 22x44 3.27-22 18x27 4.43-39 44x33 1.30-24 19x30 2.34x25 12-18 3.33-28 23-29 5.38x9 27-31 6.24x13 31-36 7.9-3 36x38 8.34- 4.28-23 29-34? (4...29-33? also loses due to 29 25x23 9.37-31 26x37 10.3x12 W+ 5.23x1 33x44 6.1-6 W+, 4...7-12! however is a defence: 5.23x34 12-17 6.32-28 11-16 7.39-33 3) G. Valneris – D. van Schaik sr. 14-19 8.25-20 19-24 9.20x29 17-21=) 5.23x1 1.33-28! 15-20 2.30-24! 20x29 3.27-22 18x38 34x43 6.1-34 W+ 4.48-42 23x32 5.42x11 32-38 6.11-6 38-43 7.50-44 W+ 6) 1...11-17? 2.33-29 17-22? 3.30-25! 22x31 4.36x27 12-17? 5.37-31! 26x28 6.27-22 18x27 4) W. Leijenaar – J. Lemmen 7.29x20 15x24 8.25-20 24x15 9.38-33 28x30 1...18-23! 2.28-22 17x28 3.26x17 23-29 10.35x2 W+ 4.33x22 29-34 5.40x20 14x41 W+ Composing shots 5) E. Vatoetin 1.32-27! 21x32 2.38x27 20-24 3.29x20 15x24 4.40-35!! 23-29 5.34x23 18x49 6.31-26 49x21 7.26x30 W+"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0083_d1",
 "ch": 6
@@ -3972,15 +4165,6 @@ const DATA: ManuelData = {
 "ch": 6
 },
 {
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "The right wing attack is a very important type of game you should be able to use. Playing an attack can give good chances to win a game strategically. Sometimes you win by breaking through to king earlier than the opponent, or you can win by freezing out the opponent. If you play an attack or play against an attack, you should also know the strategies for playing against the attack. Making the exercises will teach you more about these strategies, so you can recognize and use them in your own games."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0102_d1",
 "ch": 6
@@ -4021,33 +4205,6 @@ const DATA: ManuelData = {
 "ch": 6
 },
 {
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "2) Play the game on your board and answer the question 23... 24-30 24.35x24 19x30 25.46-41 14-20 26.28-23 5-10 27.32-28 10-14 J. van der Wal – A. Dibman 28.37-32 Kislovodsk, 02-10-1981 1.32-28 17-22 2.28x17 12x21 3.37-32 7-12 4.41-37 1-7 5.34-29 11-17 6.40-34 19-23 7.33-28 7-11 8.28x19 13x33 9.39x28 9-13 10.44-39 4-9 11.50-44 13-19 12.39-33 8-13 13.44-39 2-8 14.47-41"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Black changes the outpost on <22> in order to play against the other outpost on <23>."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "39.43-38 30x39 40.33x44 25-30 41.45-40? It seems like white has a good attacking position, but black tries to surround the white White could have defended with 41.44-39 =. position with a weakness on <44>, anyway."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0153_d1",
 "ch": 6
@@ -4068,33 +4225,6 @@ const DATA: ManuelData = {
 "ch": 6
 },
 {
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Sharper is an immediate attack on <27> with 13.37-32. Black has to defend his outpost like this line shows: 13.37-32 7-11 14.32x21 16x27 15.41- 44.32-27 9-13 37 11-16 16.37-32 6-11 17.32x21 16x27 18.47-41 2-7 19.34-30 4-9 20.45-40 18-23 G) Show the winning move for black after: 21.30-25 23x32 22.33-29 24x33 23.39x37 19-  45.42-37 23  45.40-34  45.38-33 3-8 46.40-34 A) How can black respond tactically to the  45.38-33 3-8 46.39-34 24.37-32 attack now?"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "13... 10-15 14.50-45 7-11 45.38-32 25-30! 46.40-34 13-19! 15.37-32 3-9 16.32x21 16x27 47.34x25 17-22 48.28x8 19x48 17.41-37 11-16 18.37-32 6-11 49.8-2 48x23 50.27-21 19.32x21 16x27 20.34-30 11-16 21.30-25 18-23 Black is two pieces ahead in the endgame."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "3) Play the game on your board and answer the questions. White has no sound temp to take the 2 x 2 with K. Toet – T. Sijbrands (1970) 33-29. 1.32-28 16-21 2.31-26 18-22 3.37-32 11-16 4.41-37 7-11 B) How is 22.40-34 23x32 23.33-29? 24x33 5.34-29 1-7 6.46-41 20-24 24.39x37 punished by black? 7.29x20 15x24 8.40-34 13-18 9.37-31 21-27 10.32x21 16x27 22.47-41 23x32 23.33-29 24x33 Black takes a Roozenburg attack. 24.39x37 19-23 25.37-32 13-19 26.32x21 16x27 11.42-37 9-13 12.48-42 11-16"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0154_d1",
 "ch": 6
@@ -4108,33 +4238,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0154_d3",
 "ch": 6
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "27.42-37? B) White could have taken a breakthrough shot. Why doesn’t he take it? C) Why is this move wrong?"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "White deliberately kept his base piece on <50>. Now he can change a piece on <28> helping the attack on the outpost enormously."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "A) Black could have played 14...7-11 15.46-41 10-15 16.41-37 5-10 17.37-32 and now black can take a king shot. How?"
-}
-]
 },
 {
 "type": "board",
@@ -4322,33 +4425,6 @@ const DATA: ManuelData = {
 "ch": 6
 },
 {
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Black develops his left wing, taking 4 temps (after the exchange  = -2) after which he builds a strong centre position."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "The outposts are exchanged. Black takes piece <24>; white takes piece <27>. After the 19...17-22! exchange the white pieces 21/26/36 become weak edge pieces. At the other wing black Black takes a right wing attack by playing starts a strong attack. 19...17-22 20.37-31 22-27!"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "41...15-20 26...18-22 Piece 15 is centralized, reinforcing the attack, With this and next moves black reinforces the while piece 30 is pushed to the edge of the attack. board."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0199_d1",
 "ch": 6
@@ -4388,36 +4464,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0038_d1",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0038_d2",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0038_d3",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0038_d4",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0038_d5",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0038_d6",
-"ch": 7
-},
-{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -4434,16 +4480,6 @@ const DATA: ManuelData = {
 "t": "5) B. Aalberts - M. van IJzendoorn 1.27-22 18x29 2.37-31 23x32 3.34x5 1...17-21! 2.31-26 (2.30-25 19-23 3.39-34 There are more possibilities, for example with (3.31-26 22x31 4.26x37 23-29 5.33-28 29-33 piece <33> on <38> (27-22 & 38-33). Another 6.28-23 18x29 7.39x28 21-27 8.32x21 16x27 option is to put piece <34> on <41>, but in that B+) 3...24-29 4.33x24 21-26, 2.39-34 21-26 case the king shot isn’t winning! (after 27-22 3.32-28 26x37 4.28x17 37-41 5.27-21 16x27 18x29 39-34 23x32 34x5 8-12! 37x28 13-19 6.17-11 41-47 7.33-28 47-41 8.28-22 4-9 5x23 18x29 = follows. 9.22x4 41-36 10.4x31 36x6 B+) 2...22x31 3.26x37 21-27 4.32x21 16x27 5.39-34 18-23 Analysing 2 6.30-25 27-32 7.37x28 23x32 8.34-30 32-37 9.33-29 (9.33-28 37-42 10.28-23 19x28 1) White can launch a strong left wing attack! 11.30x19 42-47 12.19-13 47-24 B+) 9...24x33 1.27-21 14-20 2.32-27 7-12 3.28-22 25-30 10.30-24 19x30 11.35x24 37-42 12.24-19 42- (3...24-29 4.22x15 29x49 5.21-16 49x21 48 13.19-13 48-26 14.25-20 33-38 15.20-14 6.26x8) 4.34x23 18x38 5.39-33 38x29 6.22-17 38-42 16.14-10 (16.13-9 4x13 17.14-10 26-37 29-33 7.17x8 33-38 8.8-3 38-42 9.3-12 42-47 10.21-16 47-36 11.27-21 W+"
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0053_d1",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0053_d2",
-"ch": 7
 },
 {
 "type": "p",
@@ -4471,21 +4507,6 @@ const DATA: ManuelData = {
 "t": "4) White controls all strategic squares (27, 28 & 24>. Although white hasn’t got a piece on <28> yet, he does control this square already."
 }
 ]
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0054_d1",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0054_d2",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0054_d3",
-"ch": 7
 },
 {
 "type": "p",
@@ -4533,31 +4554,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0055_d1",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0055_d2",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0055_d3",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0055_d4",
-"ch": 7
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0055_d5",
-"ch": 7
-},
-{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -4583,6 +4579,221 @@ const DATA: ManuelData = {
 "t": "After the sacrifice black has to return the piece White takes his favourite 27 / 29 bond again, and white gets a good centre position. taking more space."
 }
 ]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "Closing <17> with 35...11 – 17? is weak, since White changes and takes <29>, breaking white can take a chain lock now. black’s centre."
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "Black is frozen out, so she resigned. White changes 34 – 29 x 30, breaking black’s centre again. A. Chizhov – N. Varlamov Russian champ. 2006"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "The French would say: L’histoire se repête. (history is repeated). White weakens the black White takes centre square <28>, while centre once more... developing his left wing. Pieces <46 & 41> come into play."
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "3) Analyse this position in order to find the winning line for white! 1A) White to move. Try to judge this position."
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "D) Try to find how white forces a win after 4... Black to move 14-20 ! 4) Try to find the winning moves for black!"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "2) White hasn’t got much space, while black 5) Try to find the winning line for white! can try to control both wings. Try to find the best strategy for black. Can you give a variation in which black is winning in a strategic way?"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "P. Meurs – M. Kroesbergen K. Overes – H. Verheul 1.31-26! 1A) Describe the position and try to judge it. 3A) What’s the intention of this move?"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "1... 9-14 2.28-23 16-21 B) Analyse the position. Try to find the best 3.49-44 21-27 4.37-31 plan for white."
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "White doesn’t have to fear shots with 27-32 38x27 22-28. Check this! Black also can’t play 13-29. 2A) What kind of an attack does black have? B) Why is 13-19 wrong?"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "5) Does black to move have to play 11-16 or B) Black can take a standard king shot. Why 13-18? Analyse the position and find out which doesn’t he take it? move is better."
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "6) R. Boomstra – K.H. Leijenaar The type of game has changed from (Rapid 2012) Roozenburg to a right wing attack. 1.32-28 17-22 2.28x17 11x22 3.37-32 12-17 4.41-37 6-11 21.44-39 13-19 22.37-32 5.46-41 8-12 6.34-29 19-23 7.40-34 14-19 8.45-40 10-14 C) Why this move? 9.32-28 23x32 10.37x28 16-21 11.41-37 5-10 12.31-26 20-24 22... 11-16 23.32x21 16x27 13.29x20 15x24 14.34-30 21-27 24.38-33 6-11 25.42-38 10-15 15.37-31 3-8 16.30-25 1-6 26.47-42 8-13? 17.40-34 Breaking the 2 / 8 / 13 tail ..."
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "Black has taken a Roozenburg attack and now the breaking move 18-23 is played. It was also possible to wait one more move (10-15) and then play 18-23. White is surrounding the black attack. Pieces 26/31/37/48/43/39/34/30/25 encircle the black 17... 18-23 18.50-45 centre position. It’s not so easy since black has no real weaknesses. A) Why can’t white play 18.34-30 23x32 19.33- We will analyse 29.45-40 here. 29 24x33 20.39x37 ? 29.45-40 1) 29...19-23 30.40-35 9-13 31.33-29 14-19 18...23x32 19.33-29 24x33 20.39x37 D) How does white answer 31... 2-8?"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "Black has no good defence left. Show how 1 white wins after:"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "The best defence for black is 2...15-20, but still white can win. The most attractive move 2 seems to be 3.39-33, but this isn’t the right move. Black shouldn’t play the following K. Thijssen – W. Wesselink moves, show why: Try to find a winning line for white! D) 11-17 22x11 1-6"
+}
+]
+},
+{
+"type": "h3",
+"ch": 7,
+"runs": [
+{
+"t": "Diagrammes"
+}
+]
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0038_d1",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0038_d2",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0038_d3",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0038_d4",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0038_d5",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0038_d6",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0053_d1",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0053_d2",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0054_d1",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0054_d2",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0054_d3",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0055_d1",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0055_d2",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0055_d3",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0055_d4",
+"ch": 7
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0055_d5",
+"ch": 7
 },
 {
 "type": "board",
@@ -4613,33 +4824,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0056_d6",
 "ch": 7
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "Closing <17> with 35...11 – 17? is weak, since White changes and takes <29>, breaking white can take a chain lock now. black’s centre."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "Black is frozen out, so she resigned. White changes 34 – 29 x 30, breaking black’s centre again. A. Chizhov – N. Varlamov Russian champ. 2006"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "The French would say: L’histoire se repête. (history is repeated). White weakens the black White takes centre square <28>, while centre once more... developing his left wing. Pieces <46 & 41> come into play."
-}
-]
 },
 {
 "type": "board",
@@ -4677,33 +4861,6 @@ const DATA: ManuelData = {
 "ch": 7
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "3) Analyse this position in order to find the winning line for white! 1A) White to move. Try to judge this position."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "D) Try to find how white forces a win after 4... Black to move 14-20 ! 4) Try to find the winning moves for black!"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "2) White hasn’t got much space, while black 5) Try to find the winning line for white! can try to control both wings. Try to find the best strategy for black. Can you give a variation in which black is winning in a strategic way?"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0078_d1",
 "ch": 7
@@ -4729,33 +4886,6 @@ const DATA: ManuelData = {
 "ch": 7
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "P. Meurs – M. Kroesbergen K. Overes – H. Verheul 1.31-26! 1A) Describe the position and try to judge it. 3A) What’s the intention of this move?"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "1... 9-14 2.28-23 16-21 B) Analyse the position. Try to find the best 3.49-44 21-27 4.37-31 plan for white."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "White doesn’t have to fear shots with 27-32 38x27 22-28. Check this! Black also can’t play 13-29. 2A) What kind of an attack does black have? B) Why is 13-19 wrong?"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0147_d1",
 "ch": 7
@@ -4769,33 +4899,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0147_d3",
 "ch": 7
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "5) Does black to move have to play 11-16 or B) Black can take a standard king shot. Why 13-18? Analyse the position and find out which doesn’t he take it? move is better."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "6) R. Boomstra – K.H. Leijenaar The type of game has changed from (Rapid 2012) Roozenburg to a right wing attack. 1.32-28 17-22 2.28x17 11x22 3.37-32 12-17 4.41-37 6-11 21.44-39 13-19 22.37-32 5.46-41 8-12 6.34-29 19-23 7.40-34 14-19 8.45-40 10-14 C) Why this move? 9.32-28 23x32 10.37x28 16-21 11.41-37 5-10 12.31-26 20-24 22... 11-16 23.32x21 16x27 13.29x20 15x24 14.34-30 21-27 24.38-33 6-11 25.42-38 10-15 15.37-31 3-8 16.30-25 1-6 26.47-42 8-13? 17.40-34 Breaking the 2 / 8 / 13 tail ..."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "Black has taken a Roozenburg attack and now the breaking move 18-23 is played. It was also possible to wait one more move (10-15) and then play 18-23. White is surrounding the black attack. Pieces 26/31/37/48/43/39/34/30/25 encircle the black 17... 18-23 18.50-45 centre position. It’s not so easy since black has no real weaknesses. A) Why can’t white play 18.34-30 23x32 19.33- We will analyse 29.45-40 here. 29 24x33 20.39x37 ? 29.45-40 1) 29...19-23 30.40-35 9-13 31.33-29 14-19 18...23x32 19.33-29 24x33 20.39x37 D) How does white answer 31... 2-8?"
-}
-]
 },
 {
 "type": "board",
@@ -4816,24 +4919,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0148_d4",
 "ch": 7
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "Black has no good defence left. Show how 1 white wins after:"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "The best defence for black is 2...15-20, but still white can win. The most attractive move 2 seems to be 3.39-33, but this isn’t the right move. Black shouldn’t play the following K. Thijssen – W. Wesselink moves, show why: Try to find a winning line for white! D) 11-17 22x11 1-6"
-}
-]
 },
 {
 "type": "board",
@@ -4883,36 +4968,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "GOEDEMOED_p0039_d1",
-"ch": 8
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0039_d2",
-"ch": 8
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0039_d3",
-"ch": 8
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0039_d4",
-"ch": 8
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0039_d5",
-"ch": 8
-},
-{
-"type": "board",
-"id": "GOEDEMOED_p0039_d6",
-"ch": 8
-},
-{
 "type": "p",
 "ch": 8,
 "runs": [
@@ -4949,6 +5004,45 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "h3",
+"ch": 8,
+"runs": [
+{
+"t": "Diagrammes"
+}
+]
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0039_d1",
+"ch": 8
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0039_d2",
+"ch": 8
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0039_d3",
+"ch": 8
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0039_d4",
+"ch": 8
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0039_d5",
+"ch": 8
+},
+{
+"type": "board",
+"id": "GOEDEMOED_p0039_d6",
+"ch": 8
+},
+{
 "type": "board",
 "id": "GOEDEMOED_p0069_d4",
 "ch": 8
@@ -4968,6 +5062,204 @@ const DATA: ManuelData = {
 "runs": [
 {
 "t": "3) White goes to <29> while also occupying <27>. Why is this bond strong in this position?"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "6) Can you find the right line for white, leading = to a position in which he controls both wings and freezes black out? 9.34-30 11-17 10.39-33 1-7 11.44-39 2-8 12.50-44 17-21 13.40-34 21x32 14.37x28 7-11 15.30-25 11-17 16.41-37 17-22 17.28x17 12x21 18.46-41 6-11"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "7) Try to find a winning line for white. In the main line white makes a kingshot to <3>, winning the endgame. ="
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "We show a nice classical game form Wiersma beating Macadou N’Diaye (World championship 1992) Calculate the difference in rate of development (which we called Dirod and is now symbolized by )at each diagram."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "C) Black threatens to play 24-30! and 17-22. D) 14...9-13!! (14...15-20 15.33-29 24x33 White can’t close both <37 & 39>. He can’t 16.28x39 18-23 17.39-33!=) 15.34-29 (15.34- change piece <29> either: 4.40-34 29x40 30 22-27 B+) 15...15-20 16.40-34 22-27 B+ 5.45x34 is simply met by 5...24-30 B+. 5) 1.30-24! 19x30 2.34x25 6-11 3.32-27 12-18 D) 3...12-18! threatening to play 17-22 28x17 4.33-29 23x34 5.39x30 8-13 6.30-24 11-17 23-28 32x12 13-18 12x23 19x50 while 4.44-39 7.38-32 7-12 8.24-20 W+ is met by 4...18-22!, taking a chain-lock. White can’t do anything to stop the 24-29 threat. 6A) White has put his pieces around the black centre, trying to freeze black out with the 3A) White controls both wings. Black risks podkowa strategy. being frozen out since he has a lack of space to play. B) 1.25-20! 14x25 2.35-30 17-21 3.31-26 22x31 4.36x27 12-17 5.29-24 8-12 6.33-29 B) 1.48-42! (1.27-21? 7-12 2.48-42 29-34! etc. W+ 3.30x39 18-22 =) 1...4-9 (1...4-10? 2.27-21! 7- 12 3.43-38 10-15 4.21-16 W+, 1...7-11? 2.42- 7) 1.27-21! 3-9 2.21x12 18x7 3.48-42 6-11 38! W+) 2.27-21 7-12 3.43-38 and black is (after 3...13-18 4.33-29 24x33 5.38x29 9-13 tactically frozen out: 18-22 4.30-24! 22x33 6.30-25 white breaks through) 4.33-29 24x33 5.21-16 etc. W+ 5.38x18 13x22 6.37-31 26x48 7.30-25 48x30 8.35x4 W+ 4A) Black removes the strong pieces on <27 & 28>. White can take back <28> after the 8) 1.32-28! 23x32 2.31-27 32x21 3.26x8 13x2 exchange, but he loses control over <27>, 4.43-39 and 24 will fall. giving black a good podkowa strategy. 9) 1.36-31!! Reducing black’s space to play B) This natural move (black wants to take <24> even more (he can’t go to <22>) 23-29 anyway) brings about that white can’t build up 1...17-21 2.47-41 21-26 3.41-36 23-29 4.48-43 with 38-32 (in order to reinforce the left wing), 18-23 5.43-39 12-18 6.40-35 W+; 1…17-22 for then a king shot with 14-20 13-18 follows. 2.28x17 12x21 3.27-22! 18x36 4.33-29 W+ 2.47-41! 18-23 2...17-22 3.28x17 11x22 (3...12x21 4.40-34 29x40 5.45x34 19-23 6.34-29 23x34 7.32-28 21x23 8.33-28 23x43 9.48x10 W+) 4.33-28 22x33 5.40-34 29x40 6.38x9 13x4 7.45x34 W+, 2...17-21 3.41-36 21-26 4.48-43 18-23 5.43-39 12-18 6.40-35 W+ 3.27-22 16-21 4.31-26 12-18 5.40-35 18x27 6.35-30 24x35 7.33x24 19x30 8.28x10 W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "1A) T. Goedemoed – K. Posthumus 6) W. Sipma – F. de Koning White controls both wings, helped by tactics. 1.31-26! After 31-27! white has a lack of space and 1.31-27? 23-29 2.37-31 18-23 3.31-26 8-12 risks being frozen out (tactically). Dirod = -3, so 4.42-37 14-20! 5.25x14 19x10 6.30x8 12x3 white has more waiting moves. 7.33x24 17-21 8.26x17 11x33 B+ 1… 23-29? Black should play 1… 8-12! (2.33- B) 1... 23-29 2.32-28 29x38 3.39-33 38x29 28 16-21!) 4.28-23 19x28 5.30x10 W+ 2.37-31 18-23 3.32-27 8-12 4.42-37 12-18 5.37-32 17-21 C) After 5.33-28! black will be frozen out. 5... 5... 17-22 6.26-21! W+ 24-29 is met by 6.30-24 etc. W+. 6.26x17 11x22 7.31-26 22x31 8.36x27 6-11 5... 16-21 6.27x16 18-22 is punished by 7.32- 9.26-21 If <48> is on <42> white can win by 27! 23x21 8.16x29 W+ and 5... 17-21 6.47-42 the gambit 33-28 11-17 26-21 17x26 42-37 +. 21-26 7.42-37 doesn’t help either. 11-17 10.21x12 18x7 11.33-28 7-12 12.28-22 12-17 13.22x11 16x7 14.27-22 7-12 15.32-27 D) 5.33-28! 20-25 6.47-42 11-17 7.42-38! and W+ black is frozen out tactically:  7... 24-29 8.49-43! 29x40 9.35x44 7) H. de Cokere 25x34 10.27-22 18x27 11.32x12 1.26-21! 1.33-28? 12-17! = 23x32 12.38x27 W+ 1… 6-11 2.36-31 11-17 3.31-26 17-22 4.39-34  7... 17-22 8.28x17 24-29 9.32-28! 22x31 5.26x37 16x27 6.32x21 18-22 7.37-31 23x12 10.34x14 25x34 11.14-10 W+ White can always take a winning kingshot, in  7... 17-21 8.38-33 21-26 9.49-43 16-21 spite of a broken through black piece on <43>! 10.27x16 26-31 11.32-27 23x21 13-18 12.16x36 W+ 7...12-18 8.21-17 22x11 9.33-28 23x43 10.34x3 W+ 2) C. de Jong – W. Ankersmit 8.31-27 22x31 9.21-17 12x21 10.33-28 23x43 The winning strategy is 1...4-9 2.43-39 14-20 11.34x3 W+ 3.25x14 9x20 Taking the right wing (from white’s perspective) under control. Strategy - Dirod 4.39-34 20-25 Threatening 24-30 +. 5.34-29 23x34 6.22-18 13x22 7.28x26 2-8 H. Wiersma – Mac.N'Diaye 8.48-43 8-13 9.43-39 34x43 10.38x49 25-30 1.33-29 20-24 2.29x20 15x24 11.36-31 30-34 black breaking through 3.32-28 17-22 4.28x17 12x21 (playing 24-30x30 at the next move). 5.31-26 7-12 6.26x17 12x21 7.36-31 21-26 8.31-27 8-12 3) T. v.d. Broek – J. Stokkel 1.40-34! The game was : 1.49-43? 23-29? 2.39-34 18- 23 3.33-28 23x21 4.26x17 +, but black could have escaped playing 1... 10-14. 1...10-14 2.38-32 13-19 3.49-44 14-20 4.33- 29! 24x33 5.39x28 20-24 6.28-22!"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "1) Black to move. White has a right wing 4) White to move. What strategy should he attack. Black chose a very strong strategy to follow playing against the attack? play against the attack. Try to find the best plan for black."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "2) Black to move. What’s his best plan? Show 5) White to move. What will be your strategy? a variation (line of moves) in which black’s strategy is working well."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "3) Black to move. Which plan should he 6) Black to move. What is the best strategy? follow?"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "We show a game in which Sijbrands Plays a strong Highland attack against Alexeï th Chizhov. This was the 14 game in the world championship match Chizhov – Sijbrands. Sijbrands had won the second game, and if he had won this game he would have won the match for sure. But Sijbrands didn’t finish off the game correctly and Chizhov escaped. th Chizhov won the 17 game and all other games were drawn. Chizhov remained world champion after the 20 – 20 match score. 38... 24-29 39.38-33 29x38 1) Try to find the winning continuation for black 40.32x43 1-7 41.39-34 19-24 th 42.36-31 13-19 43.37-32 28x37 at the 49 move. Maybe you can also find the nd 44.31x42 7-11 45.43-38 11-16 right move at the 52 move. 46.42-37 8-13 47.44-39 24-29 Chizhov – Sijbrands 48.50-45 29x40 49.45x34 Wch, 22-02-1990 1.32-28 18-23 2.38-32 12-18 3.43-38 7-12 4.49-43 20-24 5.31-27 14-20 6.37-31 24-29 7.33x24 20x29 8.35-30 10-14, 9.39-33 14-20 10.33x24 20x29 11.41-37 17-22 12.28x17 11x22 13.43-39 9-14 14.39-33 14-20 15.33x24 20x29 16.31-26 22x31 17.36x27 4-9 18.46-41 9-14 19.41-36 12-17 20.37-31 8-12 21.42-37 6-11 22.47-42 17-22 23.44-39 15-20 24.30-24 19x30 25.34x25 5-10 26.48-43 10-15 27.39-33 2-8 28.33x24 20x29 49... 19-24 50.27-22 18x27 29.43-39 15-20 30.40-35 20-24 51.21x32 13-18 52.39-33 31.45-40 3-9"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "play against the centre attack. White needs to control <24 & 27>."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "White doesn’t allow black to take a centre attack while developing his right wing."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "20... 15-20 21.35-30 20-25 22.45-40 21-27 23.40-35 22-28 White has taken <27> and will allow his left wing to be locked. There are only a few pieces locked by many pieces of black. The black centre can’t expand and he must fear being frozen out. If piece 7 is gone <23> will become vulnerable. White just played the strategic move 38-32 here, but could already have won the game by a standard shot: 39-33! 28x19 27-21 23x34 21x5 W+."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Taking <24> under control is a crucial part of white’s strategy playing against the centre attack."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "White changes back, but he could already have used the vulnerable <23> by playing a waiting move: 47-41. If black plays 14-19 white does take 34-30 25x34 39x30 23x25 32x14 W+."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Another crucial move for white’s strategy: Piece <27> is removed in order to be able to"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "White’s strategy has succeeded. Black is frozen out. He decides to make a sacrifice, but it won’t save the game for him."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Draughts players discussing the Dutch version Forcings of A course in draughts part 1 Good or not?"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "We discuss games with a (black) edge piece Analysing positions on <25> or <36> in this section. These edge pieces bring about many tactical possibilities. Which move do you play"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Use 7, 8 or 9 diagrams to make a movie of this game. Comment on the strategically crucial black moves!"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "19...10-14 20.30-25 17-22 21.37-32 11-17 22.42-37 4) Z. Golubeva – E. Petryla 1.37-32! 9-14 (1...7-12 2.33-28 24-29? 3.32- 1) 22...24-29(?) 23.33x24 20x29 24.35- 27! 23x43 4.34x3 43-48 5.30-24 48x22 6.16-11 30! Black has to take care for tactics: 17x6 7.3x28 W+) 2.33-28 7-12 3.42-37 24-29 a) 24...7-11 25.16x7 12x1 26.40-34! 29x40 (3...14-20? 4.30-25! 18-22 5.25x14 22x31 27.45x34 is very dangerous for black: 6.32-27! 31x22 7.16-11 17x6 8.34-30 19x10 a1) 27...14-20 28.25x14 19x10 29.39-33 9.30x19 W+) 4.30-24 19x39 5.28x8 12x3 6.37- 10-14 30.30-25 13-19 31.48-42 15-20 31 36x27 7.32x43 W+ 32.49-44! 4-10 33.33-29 20-24 34.29x20 10-15 35.43-39 15x24 36.39-33 5) P. Bakelaar – L. Sekongo a2) 27...15-20(!) 28.34-29 23x34 29.37-31 1.36-31! 15-20 (1...3-8? 2.27-22! 18x36 3.34- 36x27 30.32x23 19x28 31.49-44 13-19 30 25x34 4.40x7 11x2 5.37-31 36x27 6.32x23) 32.39-33 28x39 33.44x33 34-39 34.43x34 2.34-29 23x34 3.40x29 9-14 4.43-39 3-8 5.48- 20-24 35.34-29 24x35 36.38-32 +/- 43 17-21 6.26x17 12x21 7.45-40! (In the game b) In A. Schwarzman – J. de Leeuw the 7.28-23!? was played) 7...8-12 8.31-26! 19-23 game went 24...22-28?? 25.47-41! 36x47 9.26x10 23x45 10.35-30 24x35 11.28-23 26.30-24 47x35 27.24x2 35-24 28.43-38 18x29 12.33x15 W+ 24x31 29.26x37 etc. W+ c) 24...14-20? 25.25x14 19x10 (25...9x20 6) M. Rentmeester – J. Stokkel 26.26-21 17x26 27.30-24 19x30 28.47-41 1.37-31! 26x37 2.32x41 (threatens 27-22 36- 36x47 29.50-44 47x33 30.39x28) 26.26-21 31 38-32 34x5 W+) 18-23 3.34-30 23x21 4.41- 17x26 27.47-41 36x47 28.50-44 47x33 37 25x34 5.40x20 15x24 6.33-29 24x31 29.39x28 7.36x9 W+ d) 24...15-20 25.39-33 36-41 26.33x15* 41-46 27.40-35 14-20 28.15x24 23-28 7) V. Agafonow – A. Schotanus 29.32x14 46x5 30.38-33 9-14 with an 1.48-42! 23-28 (1...21-26 2.42-37! 11-17 expensive king for black. 3.22x11 16x7 4.27-22! 18x27 5.32x21 26x17 6.34-30 25x34 7.40x9 W+) 2.32x12 21x43 2) 22...23-29? 23.50-44! (to be able to 3.42-38 43x32 4.22-17 11x22 5.33-29 24x33 punish the 19-23 move!) 4-10 (23...19-23 6.34-30 25x34 7.40x9 W+ 24.35-30 24x35 25.33x24 20x29 26.47-41 36x47 27.37-31 47x33 28.39x8) 24.47-42! 8) F. Ivens – M. van IJzendoorn 3-8 25.37-31 36x27 26.32x21 18-23 1.26-21! 24-29! (the game went 1...8-12? 2.21- 27.42-37 23-28 28.37-31 W+ 17 12x21 3.27-22 18x27 4.34-30 25x34 5.40x18 13x22 6.28x26 9-13 7.32x21 16x27 3) 22...23-28! 23.32x23 19x28 24.48-42 8.37-32 W+1) 2.33x24 20x29 3.28-22 15-20 24-29 25.33x24 20x29 26.40-34 29x40 4.32-28 23x41 5.34x3 41-46 6.39-33 and white 27.45x34 with an equal position, as played has an advantage. in K. Thijssen - B. Winkel."
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "2) K. Thijssen – J. Arts Black should have played 1...9-14!, introducing the stick move to king with 4-10 35-40 4x11 40x49 26x17 16x7. After 1...9-14! 2.33-28, black waits a move playing 13-18 and takes the king at the next move."
+}
+]
+},
+{
+"type": "h3",
+"ch": 9,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },
@@ -5092,33 +5384,6 @@ const DATA: ManuelData = {
 "ch": 9
 },
 {
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "6) Can you find the right line for white, leading = to a position in which he controls both wings and freezes black out? 9.34-30 11-17 10.39-33 1-7 11.44-39 2-8 12.50-44 17-21 13.40-34 21x32 14.37x28 7-11 15.30-25 11-17 16.41-37 17-22 17.28x17 12x21 18.46-41 6-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "7) Try to find a winning line for white. In the main line white makes a kingshot to <3>, winning the endgame. ="
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "We show a nice classical game form Wiersma beating Macadou N’Diaye (World championship 1992) Calculate the difference in rate of development (which we called Dirod and is now symbolized by )at each diagram."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0079_d1",
 "ch": 9
@@ -5174,15 +5439,6 @@ const DATA: ManuelData = {
 "ch": 9
 },
 {
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "C) Black threatens to play 24-30! and 17-22. D) 14...9-13!! (14...15-20 15.33-29 24x33 White can’t close both <37 & 39>. He can’t 16.28x39 18-23 17.39-33!=) 15.34-29 (15.34- change piece <29> either: 4.40-34 29x40 30 22-27 B+) 15...15-20 16.40-34 22-27 B+ 5.45x34 is simply met by 5...24-30 B+. 5) 1.30-24! 19x30 2.34x25 6-11 3.32-27 12-18 D) 3...12-18! threatening to play 17-22 28x17 4.33-29 23x34 5.39x30 8-13 6.30-24 11-17 23-28 32x12 13-18 12x23 19x50 while 4.44-39 7.38-32 7-12 8.24-20 W+ is met by 4...18-22!, taking a chain-lock. White can’t do anything to stop the 24-29 threat. 6A) White has put his pieces around the black centre, trying to freeze black out with the 3A) White controls both wings. Black risks podkowa strategy. being frozen out since he has a lack of space to play. B) 1.25-20! 14x25 2.35-30 17-21 3.31-26 22x31 4.36x27 12-17 5.29-24 8-12 6.33-29 B) 1.48-42! (1.27-21? 7-12 2.48-42 29-34! etc. W+ 3.30x39 18-22 =) 1...4-9 (1...4-10? 2.27-21! 7- 12 3.43-38 10-15 4.21-16 W+, 1...7-11? 2.42- 7) 1.27-21! 3-9 2.21x12 18x7 3.48-42 6-11 38! W+) 2.27-21 7-12 3.43-38 and black is (after 3...13-18 4.33-29 24x33 5.38x29 9-13 tactically frozen out: 18-22 4.30-24! 22x33 6.30-25 white breaks through) 4.33-29 24x33 5.21-16 etc. W+ 5.38x18 13x22 6.37-31 26x48 7.30-25 48x30 8.35x4 W+ 4A) Black removes the strong pieces on <27 & 28>. White can take back <28> after the 8) 1.32-28! 23x32 2.31-27 32x21 3.26x8 13x2 exchange, but he loses control over <27>, 4.43-39 and 24 will fall. giving black a good podkowa strategy. 9) 1.36-31!! Reducing black’s space to play B) This natural move (black wants to take <24> even more (he can’t go to <22>) 23-29 anyway) brings about that white can’t build up 1...17-21 2.47-41 21-26 3.41-36 23-29 4.48-43 with 38-32 (in order to reinforce the left wing), 18-23 5.43-39 12-18 6.40-35 W+; 1…17-22 for then a king shot with 14-20 13-18 follows. 2.28x17 12x21 3.27-22! 18x36 4.33-29 W+ 2.47-41! 18-23 2...17-22 3.28x17 11x22 (3...12x21 4.40-34 29x40 5.45x34 19-23 6.34-29 23x34 7.32-28 21x23 8.33-28 23x43 9.48x10 W+) 4.33-28 22x33 5.40-34 29x40 6.38x9 13x4 7.45x34 W+, 2...17-21 3.41-36 21-26 4.48-43 18-23 5.43-39 12-18 6.40-35 W+ 3.27-22 16-21 4.31-26 12-18 5.40-35 18x27 6.35-30 24x35 7.33x24 19x30 8.28x10 W+"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0087_d1",
 "ch": 9
@@ -5201,15 +5457,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0088_d1",
 "ch": 9
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "1A) T. Goedemoed – K. Posthumus 6) W. Sipma – F. de Koning White controls both wings, helped by tactics. 1.31-26! After 31-27! white has a lack of space and 1.31-27? 23-29 2.37-31 18-23 3.31-26 8-12 risks being frozen out (tactically). Dirod = -3, so 4.42-37 14-20! 5.25x14 19x10 6.30x8 12x3 white has more waiting moves. 7.33x24 17-21 8.26x17 11x33 B+ 1… 23-29? Black should play 1… 8-12! (2.33- B) 1... 23-29 2.32-28 29x38 3.39-33 38x29 28 16-21!) 4.28-23 19x28 5.30x10 W+ 2.37-31 18-23 3.32-27 8-12 4.42-37 12-18 5.37-32 17-21 C) After 5.33-28! black will be frozen out. 5... 5... 17-22 6.26-21! W+ 24-29 is met by 6.30-24 etc. W+. 6.26x17 11x22 7.31-26 22x31 8.36x27 6-11 5... 16-21 6.27x16 18-22 is punished by 7.32- 9.26-21 If <48> is on <42> white can win by 27! 23x21 8.16x29 W+ and 5... 17-21 6.47-42 the gambit 33-28 11-17 26-21 17x26 42-37 +. 21-26 7.42-37 doesn’t help either. 11-17 10.21x12 18x7 11.33-28 7-12 12.28-22 12-17 13.22x11 16x7 14.27-22 7-12 15.32-27 D) 5.33-28! 20-25 6.47-42 11-17 7.42-38! and W+ black is frozen out tactically:  7... 24-29 8.49-43! 29x40 9.35x44 7) H. de Cokere 25x34 10.27-22 18x27 11.32x12 1.26-21! 1.33-28? 12-17! = 23x32 12.38x27 W+ 1… 6-11 2.36-31 11-17 3.31-26 17-22 4.39-34  7... 17-22 8.28x17 24-29 9.32-28! 22x31 5.26x37 16x27 6.32x21 18-22 7.37-31 23x12 10.34x14 25x34 11.14-10 W+ White can always take a winning kingshot, in  7... 17-21 8.38-33 21-26 9.49-43 16-21 spite of a broken through black piece on <43>! 10.27x16 26-31 11.32-27 23x21 13-18 12.16x36 W+ 7...12-18 8.21-17 22x11 9.33-28 23x43 10.34x3 W+ 2) C. de Jong – W. Ankersmit 8.31-27 22x31 9.21-17 12x21 10.33-28 23x43 The winning strategy is 1...4-9 2.43-39 14-20 11.34x3 W+ 3.25x14 9x20 Taking the right wing (from white’s perspective) under control. Strategy - Dirod 4.39-34 20-25 Threatening 24-30 +. 5.34-29 23x34 6.22-18 13x22 7.28x26 2-8 H. Wiersma – Mac.N'Diaye 8.48-43 8-13 9.43-39 34x43 10.38x49 25-30 1.33-29 20-24 2.29x20 15x24 11.36-31 30-34 black breaking through 3.32-28 17-22 4.28x17 12x21 (playing 24-30x30 at the next move). 5.31-26 7-12 6.26x17 12x21 7.36-31 21-26 8.31-27 8-12 3) T. v.d. Broek – J. Stokkel 1.40-34! The game was : 1.49-43? 23-29? 2.39-34 18- 23 3.33-28 23x21 4.26x17 +, but black could have escaped playing 1... 10-14. 1...10-14 2.38-32 13-19 3.49-44 14-20 4.33- 29! 24x33 5.39x28 20-24 6.28-22!"
-}
-]
 },
 {
 "type": "board",
@@ -5257,33 +5504,6 @@ const DATA: ManuelData = {
 "ch": 9
 },
 {
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "1) Black to move. White has a right wing 4) White to move. What strategy should he attack. Black chose a very strong strategy to follow playing against the attack? play against the attack. Try to find the best plan for black."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "2) Black to move. What’s his best plan? Show 5) White to move. What will be your strategy? a variation (line of moves) in which black’s strategy is working well."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "3) Black to move. Which plan should he 6) Black to move. What is the best strategy? follow?"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0113_d1",
 "ch": 9
@@ -5314,15 +5534,6 @@ const DATA: ManuelData = {
 "ch": 9
 },
 {
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "We show a game in which Sijbrands Plays a strong Highland attack against Alexeï th Chizhov. This was the 14 game in the world championship match Chizhov – Sijbrands. Sijbrands had won the second game, and if he had won this game he would have won the match for sure. But Sijbrands didn’t finish off the game correctly and Chizhov escaped. th Chizhov won the 17 game and all other games were drawn. Chizhov remained world champion after the 20 – 20 match score. 38... 24-29 39.38-33 29x38 1) Try to find the winning continuation for black 40.32x43 1-7 41.39-34 19-24 th 42.36-31 13-19 43.37-32 28x37 at the 49 move. Maybe you can also find the nd 44.31x42 7-11 45.43-38 11-16 right move at the 52 move. 46.42-37 8-13 47.44-39 24-29 Chizhov – Sijbrands 48.50-45 29x40 49.45x34 Wch, 22-02-1990 1.32-28 18-23 2.38-32 12-18 3.43-38 7-12 4.49-43 20-24 5.31-27 14-20 6.37-31 24-29 7.33x24 20x29 8.35-30 10-14, 9.39-33 14-20 10.33x24 20x29 11.41-37 17-22 12.28x17 11x22 13.43-39 9-14 14.39-33 14-20 15.33x24 20x29 16.31-26 22x31 17.36x27 4-9 18.46-41 9-14 19.41-36 12-17 20.37-31 8-12 21.42-37 6-11 22.47-42 17-22 23.44-39 15-20 24.30-24 19x30 25.34x25 5-10 26.48-43 10-15 27.39-33 2-8 28.33x24 20x29 49... 19-24 50.27-22 18x27 29.43-39 15-20 30.40-35 20-24 51.21x32 13-18 52.39-33 31.45-40 3-9"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0152_d1",
 "ch": 9
@@ -5341,60 +5552,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0152_d4",
 "ch": 9
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "play against the centre attack. White needs to control <24 & 27>."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "White doesn’t allow black to take a centre attack while developing his right wing."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "20... 15-20 21.35-30 20-25 22.45-40 21-27 23.40-35 22-28 White has taken <27> and will allow his left wing to be locked. There are only a few pieces locked by many pieces of black. The black centre can’t expand and he must fear being frozen out. If piece 7 is gone <23> will become vulnerable. White just played the strategic move 38-32 here, but could already have won the game by a standard shot: 39-33! 28x19 27-21 23x34 21x5 W+."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Taking <24> under control is a crucial part of white’s strategy playing against the centre attack."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "White changes back, but he could already have used the vulnerable <23> by playing a waiting move: 47-41. If black plays 14-19 white does take 34-30 25x34 39x30 23x25 32x14 W+."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Another crucial move for white’s strategy: Piece <27> is removed in order to be able to"
-}
-]
 },
 {
 "type": "board",
@@ -5422,63 +5579,9 @@ const DATA: ManuelData = {
 "ch": 9
 },
 {
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "White’s strategy has succeeded. Black is frozen out. He decides to make a sacrifice, but it won’t save the game for him."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0169_d1",
 "ch": 9
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Draughts players discussing the Dutch version Forcings of A course in draughts part 1 Good or not?"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "We discuss games with a (black) edge piece Analysing positions on <25> or <36> in this section. These edge pieces bring about many tactical possibilities. Which move do you play"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Use 7, 8 or 9 diagrams to make a movie of this game. Comment on the strategically crucial black moves!"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "19...10-14 20.30-25 17-22 21.37-32 11-17 22.42-37 4) Z. Golubeva – E. Petryla 1.37-32! 9-14 (1...7-12 2.33-28 24-29? 3.32- 1) 22...24-29(?) 23.33x24 20x29 24.35- 27! 23x43 4.34x3 43-48 5.30-24 48x22 6.16-11 30! Black has to take care for tactics: 17x6 7.3x28 W+) 2.33-28 7-12 3.42-37 24-29 a) 24...7-11 25.16x7 12x1 26.40-34! 29x40 (3...14-20? 4.30-25! 18-22 5.25x14 22x31 27.45x34 is very dangerous for black: 6.32-27! 31x22 7.16-11 17x6 8.34-30 19x10 a1) 27...14-20 28.25x14 19x10 29.39-33 9.30x19 W+) 4.30-24 19x39 5.28x8 12x3 6.37- 10-14 30.30-25 13-19 31.48-42 15-20 31 36x27 7.32x43 W+ 32.49-44! 4-10 33.33-29 20-24 34.29x20 10-15 35.43-39 15x24 36.39-33 5) P. Bakelaar – L. Sekongo a2) 27...15-20(!) 28.34-29 23x34 29.37-31 1.36-31! 15-20 (1...3-8? 2.27-22! 18x36 3.34- 36x27 30.32x23 19x28 31.49-44 13-19 30 25x34 4.40x7 11x2 5.37-31 36x27 6.32x23) 32.39-33 28x39 33.44x33 34-39 34.43x34 2.34-29 23x34 3.40x29 9-14 4.43-39 3-8 5.48- 20-24 35.34-29 24x35 36.38-32 +/- 43 17-21 6.26x17 12x21 7.45-40! (In the game b) In A. Schwarzman – J. de Leeuw the 7.28-23!? was played) 7...8-12 8.31-26! 19-23 game went 24...22-28?? 25.47-41! 36x47 9.26x10 23x45 10.35-30 24x35 11.28-23 26.30-24 47x35 27.24x2 35-24 28.43-38 18x29 12.33x15 W+ 24x31 29.26x37 etc. W+ c) 24...14-20? 25.25x14 19x10 (25...9x20 6) M. Rentmeester – J. Stokkel 26.26-21 17x26 27.30-24 19x30 28.47-41 1.37-31! 26x37 2.32x41 (threatens 27-22 36- 36x47 29.50-44 47x33 30.39x28) 26.26-21 31 38-32 34x5 W+) 18-23 3.34-30 23x21 4.41- 17x26 27.47-41 36x47 28.50-44 47x33 37 25x34 5.40x20 15x24 6.33-29 24x31 29.39x28 7.36x9 W+ d) 24...15-20 25.39-33 36-41 26.33x15* 41-46 27.40-35 14-20 28.15x24 23-28 7) V. Agafonow – A. Schotanus 29.32x14 46x5 30.38-33 9-14 with an 1.48-42! 23-28 (1...21-26 2.42-37! 11-17 expensive king for black. 3.22x11 16x7 4.27-22! 18x27 5.32x21 26x17 6.34-30 25x34 7.40x9 W+) 2.32x12 21x43 2) 22...23-29? 23.50-44! (to be able to 3.42-38 43x32 4.22-17 11x22 5.33-29 24x33 punish the 19-23 move!) 4-10 (23...19-23 6.34-30 25x34 7.40x9 W+ 24.35-30 24x35 25.33x24 20x29 26.47-41 36x47 27.37-31 47x33 28.39x8) 24.47-42! 8) F. Ivens – M. van IJzendoorn 3-8 25.37-31 36x27 26.32x21 18-23 1.26-21! 24-29! (the game went 1...8-12? 2.21- 27.42-37 23-28 28.37-31 W+ 17 12x21 3.27-22 18x27 4.34-30 25x34 5.40x18 13x22 6.28x26 9-13 7.32x21 16x27 3) 22...23-28! 23.32x23 19x28 24.48-42 8.37-32 W+1) 2.33x24 20x29 3.28-22 15-20 24-29 25.33x24 20x29 26.40-34 29x40 4.32-28 23x41 5.34x3 41-46 6.39-33 and white 27.45x34 with an equal position, as played has an advantage. in K. Thijssen - B. Winkel."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "2) K. Thijssen – J. Arts Black should have played 1...9-14!, introducing the stick move to king with 4-10 35-40 4x11 40x49 26x17 16x7. After 1...9-14! 2.33-28, black waits a move playing 13-18 and takes the king at the next move."
-}
-]
 },
 {
 "type": "board",
@@ -5513,6 +5616,33 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "Analysing – wing control The oldest way of playing is the classical game. Being able to play a strong classical Strategy – Dirod game is a sound fundament for developing your draughts skills. Solutions It is important to have knowledge about tempo classics, weak pieces, wing control, podkowa Cool shots and the Ghestem lock. Solutions cool shots"
+}
+]
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "2) Grand Prix shot 1.15-10! (1.48-43? 25-30! 2.34x25 14-20 3.25x3 23-29 4.3x17 11x42 5.38x47 29x49 B+) 1...14x5 1...4x15 2.27-22 18x27 3.28-22 27x18 4.37-31 26x28 5.33x4 W+ 2.27-22! 18x27 3.36-31 27x36 4.46-41 36x47 E) After 31...9-13 32.41-37 white threatens 5.37-31 26x37 6.32x41 23x43 7.41-37 47x29 with the shot 37-31 44-39 40x9, so he has to 8.34x3 43x34 9.40x20 25x14 10.3x26 W+ play 32...3-9 creating a dangling piece on <9>. Black should have played 31...6-11! 32.41-37 3) A. Kowrizkin 8-12 33.44-39 3-8 and black is completely 1.50-45 28x37 2.48-42 37x48 3.47-41 36x47 safe. The arch lock is compensated by pieces 4.25-20 47x40 5.20x29 23x25 6.45x34 48x30 40 & 45 which aren’t active. 7.35x2 W+"
+}
+]
+},
+{
+"type": "h3",
+"ch": 10,
+"runs": [
+{
+"t": "Diagrammes"
+}
+]
+},
+{
 "type": "board",
 "id": "GOEDEMOED_p0058_d1",
 "ch": 10
@@ -5526,15 +5656,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0058_d3",
 "ch": 10
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "Analysing – wing control The oldest way of playing is the classical game. Being able to play a strong classical Strategy – Dirod game is a sound fundament for developing your draughts skills. Solutions It is important to have knowledge about tempo classics, weak pieces, wing control, podkowa Cool shots and the Ghestem lock. Solutions cool shots"
-}
-]
 },
 {
 "type": "board",
@@ -5697,15 +5818,6 @@ const DATA: ManuelData = {
 "ch": 10
 },
 {
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "2) Grand Prix shot 1.15-10! (1.48-43? 25-30! 2.34x25 14-20 3.25x3 23-29 4.3x17 11x42 5.38x47 29x49 B+) 1...14x5 1...4x15 2.27-22 18x27 3.28-22 27x18 4.37-31 26x28 5.33x4 W+ 2.27-22! 18x27 3.36-31 27x36 4.46-41 36x47 E) After 31...9-13 32.41-37 white threatens 5.37-31 26x37 6.32x41 23x43 7.41-37 47x29 with the shot 37-31 44-39 40x9, so he has to 8.34x3 43x34 9.40x20 25x14 10.3x26 W+ play 32...3-9 creating a dangling piece on <9>. Black should have played 31...6-11! 32.41-37 3) A. Kowrizkin 8-12 33.44-39 3-8 and black is completely 1.50-45 28x37 2.48-42 37x48 3.47-41 36x47 safe. The arch lock is compensated by pieces 4.25-20 47x40 5.20x29 23x25 6.45x34 48x30 40 & 45 which aren’t active. 7.35x2 W+"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0203_d1",
 "ch": 10
@@ -5726,6 +5838,141 @@ const DATA: ManuelData = {
 "runs": [
 {
 "t": "Dérouler la partie"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Try to make diagrams of strategic important moments in this game. You can use 8 or 9 diagrams. Try to explain why you chose these diagrams by commenting on the moves played in the drawn diagrams."
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "W. van der Wijk – K. Thijssen (Semi finals Dutch champ. 2000)"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "1.32-28 17-22 2.28x17 11x22 3.37-32 6-11 4.41-37 12-17 18... 17-22(?) 5.34-30 7-12 6.30-25 1-6 7.46-41 19-23 8.35-30 2-7 The main line is 18...6-11 19.33-28 4-10 9.40-35 14-19 10.25x14 9x20 20.28x19 9-14 21.36-31 14x23 22.27-22 18x36 11.32-28 23x32 12.37x28 10-14 23.29x9 20x40 24.9-4 16-21 25.4-27 11-16 13.44-40 4-10 14.50-44 16-21 26.50-45 8-13 27.27x4 10-14 28.45x34 21-27 15.31-26 11-16 16.30-25 7-11 29.4x31 36x27 30.32x21 16x27 =. We show 17.40-34 19-23 18.28x19 14x23 why attacking <27> isn’t so good. 19.25x14 10x19 20.33-29! 15-20 21.35-30 20-25 22.45-40 21-27 19.44-40 22x31 20.36x27 6-11 23.40-35 22-28 24.30-24 19x30 21.33-28 11-17 22.28x19 4-10 25.35x24 17-21 26.26x17 11x22 27.41-37 16-21 28.38-32! 27x38 With a piece on <20> the Drost gambit is rarely 29.43x32 5-10 30.36-31 21-26 good. Black can better play 22... 18-22 31.42-38 12-17 32.32-27! 6-11 23.27x18 12x14 24.32-28 but white has a 33.38-32 8-12 34.48-43 10-14 sound right wing attack. 35.34-30? 25x34 36.29x40 11-16 37.43-38 17-21 38.47-41 14-19 39.40-35 19x30 40.35x24 3-9 41.44-40 9-14 42.40-35 23-29 43.32x34 21x43 44.49x38 12-17 45.35-30 17-21 46.30-25 22-28 47.41-36 28-32 48.37x28 26x37 49.34-29 21-27 50.28-23 27-32 51.38x27 37-42 52.23x12 42-48 53.39-33 13-18 54.12x23 48-26 55.23-18 26-31 56.27-22 31-26 57.18-13 White resigned."
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Solutions 5. R. Boomstra – B. Provoost Wch rapid 2012 1.26-21!! White profits from the gaps at Combinations centre attack <12 & 13>! 9-13 1...28-32 2.27x38 16x27 3.38-33!! 9-13 4.34- 1) 1.35-30! 24x35 2.45-40 35x33 3.38x29 29 23x34 5.33-28 22x33 6.31x22 18x27 7.44- 23x34 4.32x23 18x29 5.27-21 16x27 6.37-32 39 33x44 8.50x18 W+ 27x38 7.42x4 W+ 22.35-30 24x35 23.34-29 23x34 24.31-26 22x31 25.26x37 16x27 26.36-31 27x36 27.47- 2) 1.28-22? 25-30! 2.34x25 12-18 3.23x12 14- 41 36x38 28.43x1 W+ 19 4.25x23 11-17 5.22x11 16x49 6.27x16 49x27 B+ 6) S. Rijgersberg - R. Boomstra (rapid) 1.29-23! 18x38 2.43x23 19x28 3.39-33 3) 1.38-33? 3-8! 2.33x22 18x27 3.31x22 28x39 4.48-43 39x48 5.31-26 48x31 6.36x20 3.21x32 23-29 4.34x23 13-19 5.25x34 19x48 white breaking through at the right wing. B+ 3...14-20 4.25x14 8-12 5.34x25 23-28 6.22x33 7) F. Tiemensma – A. van Berkel 13-19 7.14x23 12-17 8.21x12 7x47 9.16x7 (missed) 1.43-38 7-12 2.49-44 12-18 3.37-31! 1x12 B+ 27x36 4.38-32 28x48 5.33-29 24x33 6.39x17 48x30 7.35x22 W+ 4) 1... 13-19? 2.37-31 19x28 3.35-30 24x35 4.29-23 18x29 8) J. Makarenkova - K. Overes 4...28x19 5.33-28 22x33 6.31x4 W+ (missed) 1.34-29! 23x34 2.39x30 35x24 5.33x4 W+ 3.32x23 18x29 4.38-33 29x49 5.47-42 49x21 6.26x10 W+ 5) 1.38-32? 4-10! 2.32x23 22-27 3.31x22 17x30 4.34x25 16-21 5.26x19 14x43 B+ Combinations Highland attack"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Good or not? 8) L. Sekongo – G. van Aalten (missed) 1.31-26? 6-11! 2.26x6 23-28 3.32x34 1) Bonadikov – A. Chizhov 24-29 4.34x23 7-11 5.6x17 12x45 B+  1...12-18?? 2.44-40 [ 2.31-26?? 18x27 3.32x12 13-18 4.12x23 24-30 5.35x13 9x49 ] Which move do you play? 2...18x36 3.34-30 25x34 4.40x20 14x25 5.28- 22 17x28 6.32x5 W+ 1) E. Holstvoogd – H. Jansen 1.27-21! 17-22 2)  1.28-23? 17x28!! 2.23x3 24-29 3.34x32 [ After 1...7-12 2.32-27 black has a weak right 3.3x6 29x47 4.6x33 47x20 ] 3...12-17 4.3x21 wing, so white Is better. 16x47 B+ 2.38-33!! 29x36 3.43-38 26x17 4.37-31 36x27 5.32x1 W+ 3)  W. Poot – R. Schippers 1...12-17?!! 2.27-21? 18x27! 3.21x12 8x17 2) 1... 15-20!! 2.33x15 22-28 3.42-37 23-29 4.32x12 13-18! 5.12x23 25-30 6.35x13 9x49 4.32x34 14-20 5.15x24 19x50 B+ B+ 3) R. Clerc – H. Hilberink White could have forced the win: 4)  1.35-30! 24x35 2.33x24 22x31 3.26x37 1.34-30! 14-19 2.30-25 9-13 16-21 2...9-14 3.35-30 24x44 4.33x13 44x33 5.38x27 3...9-13 4.24-19 13x24 5.45-40 35x33 6.38x9 ; 3.25x14 19x10 4.35-30 24x44 5.33x24 44x33 3...23-28 4.38-32 18-23 5.42-38 9-13 6.38-33 ] 6.38x9 W+ 4.37-31 23-28 [ 4...21-26 5.31-27 23-28 6.42- 37 9-13 7.38-33 ] 5.42-37 9-13 6.38-32 18-23 4) 1.25-20!! 15x24 7.31-26 W+ 1...14x25 2.30-24 29x20 3.34-30 25x34 4.40x29 23x34 5.32x25 W+1 5) T. Kooistra – C. Westerveld 2.39-33 28x39 3.32-28 23x41 4.36x47 26x37  1.38-33? 26-31! 2.37x26 17-21 3.26x6 16- 5.34x23 18x29 6.43x23 19x28 7.30x26 W+ 21 4.27x16 13-18 5.23x12 7x47 B+"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "5) J. de Vries – W. Terlouw 6)  1.27-22! 16-21 2.22x11 12-17 3.11x22 1.35-30! 20-24 21-27 4.32x21 23x41 5.22-18 13x22 6.31-27 1...20-25 2.42-38 14-20 3.32-28 23x21 22x31 7.26x46 W+ 4.34x14 20x9 5.26x19 25x34 6.40x29 W+ 2.30-25 24-30 3.40-35 29x40 4.35x24 19x30 7)  1.47-41? 29-33 2.39x28 22x33 3.38x29 5.25x34 40x29 6.32-28 23x21 7.26x10 W+ 23x34 4.30x39 7-11 5.16x7 12x1 6.21x23 19x46 B+ 6) W. Martin – A. van Berkel Black forces the win helped by a sacrifice: 8)  1.34-30! 4-9 [ After 1...29-34 2.40x29 1... 20-24! 2.29x20 25x14 3.34x25 18-23 B+ 23x25 3.27-21 16x27 4.32x23 19x28 white organizes a breakthrough: 5.42-37 8-12 6.38- 7) J. Wiering – J. Okken 33 12-18 7.33x22 18x27 8.43-38 27-31 9.38- 1.25-20! Other moves lose: 1.40-35 14-20 32 31x42 10.48x37 ] 2.40-34! 29x40 3.45x34 2.25x14 19x10 etc. B+; 1.37-32 14-20 2.25x14 15-20 4.34-29! 23x25 5.27-21 16x27 6.32x23 19x10 3.40-35 10-14 etc. B+ 19x28 7.38-33 28-32 8.42-38 32-37 9.38-32 1...14x25 2.39-34 +/- (black has to return the 37x28 10.33x22 14-19 11.26-21 8-12 12.21-16 piece with 22-27) ++/- 8) S. Buurke – J. Algra (missed) 1.38-33!! 29x47 1...29x49 2.39-34 49x35 3.34-30 35x47 4.36- 31 47x36 5.31-26 36x22 6.26x6 W+ 2.39-33 47x20 3.48-42 20x47 4.36-31 47x36 5.31-26 36x22 6.26x6 W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "B) White wins a piece, but black is satisfied, why?"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "6...21-27! After the exchange <29> is isolated. White’s position becomes split. He changes 27-22 Black doesn’t allow white to lock his right wing giving black a clear (centre) advantage. and plays 21-27. The edge piece on <26> remains."
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "18...4-10! Black changes the outpost, taking 4 temps ( = -8 after the exchange) more and controlling Black build a solid centre position with lots of the wings. Pieces 34/35/40/45 are inactive. formations. After 4-10 white has to take a decision how to continue."
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "26...19-24! White has a vulnerable piece on <29> again. With some strong moves white is frozen out, White has occupied <29> but black still black using a chain lock. controls <24>. The next moves are crucial for taking <24> under control."
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Black finishes off the game, white being frozen Black starts the attack he prepared, moving in out completely. the direction of white’s right wing."
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Black now changes at the other wing, trying to 7.24-20 15x24 8.33-28 22x33 9.38x20 get this wing under control as well."
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "White changes and gets an edge piece. This is a theoretical opening that has been played many times before."
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "The attack continues, moving to <29> after 12...19-24 which it is possible to transport more pieces to this wing, as will happen in the next phase of White chooses his strategy. In many games the game. black continued 18-23 after some moves, but black already shows his intentions: getting an initiative at the right flank of the board."
+}
+]
+},
+{
+"type": "h3",
+"ch": 11,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },
@@ -5890,33 +6137,6 @@ const DATA: ManuelData = {
 "ch": 11
 },
 {
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "Try to make diagrams of strategic important moments in this game. You can use 8 or 9 diagrams. Try to explain why you chose these diagrams by commenting on the moves played in the drawn diagrams."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "W. van der Wijk – K. Thijssen (Semi finals Dutch champ. 2000)"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "1.32-28 17-22 2.28x17 11x22 3.37-32 6-11 4.41-37 12-17 18... 17-22(?) 5.34-30 7-12 6.30-25 1-6 7.46-41 19-23 8.35-30 2-7 The main line is 18...6-11 19.33-28 4-10 9.40-35 14-19 10.25x14 9x20 20.28x19 9-14 21.36-31 14x23 22.27-22 18x36 11.32-28 23x32 12.37x28 10-14 23.29x9 20x40 24.9-4 16-21 25.4-27 11-16 13.44-40 4-10 14.50-44 16-21 26.50-45 8-13 27.27x4 10-14 28.45x34 21-27 15.31-26 11-16 16.30-25 7-11 29.4x31 36x27 30.32x21 16x27 =. We show 17.40-34 19-23 18.28x19 14x23 why attacking <27> isn’t so good. 19.25x14 10x19 20.33-29! 15-20 21.35-30 20-25 22.45-40 21-27 19.44-40 22x31 20.36x27 6-11 23.40-35 22-28 24.30-24 19x30 21.33-28 11-17 22.28x19 4-10 25.35x24 17-21 26.26x17 11x22 27.41-37 16-21 28.38-32! 27x38 With a piece on <20> the Drost gambit is rarely 29.43x32 5-10 30.36-31 21-26 good. Black can better play 22... 18-22 31.42-38 12-17 32.32-27! 6-11 23.27x18 12x14 24.32-28 but white has a 33.38-32 8-12 34.48-43 10-14 sound right wing attack. 35.34-30? 25x34 36.29x40 11-16 37.43-38 17-21 38.47-41 14-19 39.40-35 19x30 40.35x24 3-9 41.44-40 9-14 42.40-35 23-29 43.32x34 21x43 44.49x38 12-17 45.35-30 17-21 46.30-25 22-28 47.41-36 28-32 48.37x28 26x37 49.34-29 21-27 50.28-23 27-32 51.38x27 37-42 52.23x12 42-48 53.39-33 13-18 54.12x23 48-26 55.23-18 26-31 56.27-22 31-26 57.18-13 White resigned."
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0157_d1",
 "ch": 11
@@ -5925,33 +6145,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0157_d2",
 "ch": 11
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "Solutions 5. R. Boomstra – B. Provoost Wch rapid 2012 1.26-21!! White profits from the gaps at Combinations centre attack <12 & 13>! 9-13 1...28-32 2.27x38 16x27 3.38-33!! 9-13 4.34- 1) 1.35-30! 24x35 2.45-40 35x33 3.38x29 29 23x34 5.33-28 22x33 6.31x22 18x27 7.44- 23x34 4.32x23 18x29 5.27-21 16x27 6.37-32 39 33x44 8.50x18 W+ 27x38 7.42x4 W+ 22.35-30 24x35 23.34-29 23x34 24.31-26 22x31 25.26x37 16x27 26.36-31 27x36 27.47- 2) 1.28-22? 25-30! 2.34x25 12-18 3.23x12 14- 41 36x38 28.43x1 W+ 19 4.25x23 11-17 5.22x11 16x49 6.27x16 49x27 B+ 6) S. Rijgersberg - R. Boomstra (rapid) 1.29-23! 18x38 2.43x23 19x28 3.39-33 3) 1.38-33? 3-8! 2.33x22 18x27 3.31x22 28x39 4.48-43 39x48 5.31-26 48x31 6.36x20 3.21x32 23-29 4.34x23 13-19 5.25x34 19x48 white breaking through at the right wing. B+ 3...14-20 4.25x14 8-12 5.34x25 23-28 6.22x33 7) F. Tiemensma – A. van Berkel 13-19 7.14x23 12-17 8.21x12 7x47 9.16x7 (missed) 1.43-38 7-12 2.49-44 12-18 3.37-31! 1x12 B+ 27x36 4.38-32 28x48 5.33-29 24x33 6.39x17 48x30 7.35x22 W+ 4) 1... 13-19? 2.37-31 19x28 3.35-30 24x35 4.29-23 18x29 8) J. Makarenkova - K. Overes 4...28x19 5.33-28 22x33 6.31x4 W+ (missed) 1.34-29! 23x34 2.39x30 35x24 5.33x4 W+ 3.32x23 18x29 4.38-33 29x49 5.47-42 49x21 6.26x10 W+ 5) 1.38-32? 4-10! 2.32x23 22-27 3.31x22 17x30 4.34x25 16-21 5.26x19 14x43 B+ Combinations Highland attack"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "Good or not? 8) L. Sekongo – G. van Aalten (missed) 1.31-26? 6-11! 2.26x6 23-28 3.32x34 1) Bonadikov – A. Chizhov 24-29 4.34x23 7-11 5.6x17 12x45 B+  1...12-18?? 2.44-40 [ 2.31-26?? 18x27 3.32x12 13-18 4.12x23 24-30 5.35x13 9x49 ] Which move do you play? 2...18x36 3.34-30 25x34 4.40x20 14x25 5.28- 22 17x28 6.32x5 W+ 1) E. Holstvoogd – H. Jansen 1.27-21! 17-22 2)  1.28-23? 17x28!! 2.23x3 24-29 3.34x32 [ After 1...7-12 2.32-27 black has a weak right 3.3x6 29x47 4.6x33 47x20 ] 3...12-17 4.3x21 wing, so white Is better. 16x47 B+ 2.38-33!! 29x36 3.43-38 26x17 4.37-31 36x27 5.32x1 W+ 3)  W. Poot – R. Schippers 1...12-17?!! 2.27-21? 18x27! 3.21x12 8x17 2) 1... 15-20!! 2.33x15 22-28 3.42-37 23-29 4.32x12 13-18! 5.12x23 25-30 6.35x13 9x49 4.32x34 14-20 5.15x24 19x50 B+ B+ 3) R. Clerc – H. Hilberink White could have forced the win: 4)  1.35-30! 24x35 2.33x24 22x31 3.26x37 1.34-30! 14-19 2.30-25 9-13 16-21 2...9-14 3.35-30 24x44 4.33x13 44x33 5.38x27 3...9-13 4.24-19 13x24 5.45-40 35x33 6.38x9 ; 3.25x14 19x10 4.35-30 24x44 5.33x24 44x33 3...23-28 4.38-32 18-23 5.42-38 9-13 6.38-33 ] 6.38x9 W+ 4.37-31 23-28 [ 4...21-26 5.31-27 23-28 6.42- 37 9-13 7.38-33 ] 5.42-37 9-13 6.38-32 18-23 4) 1.25-20!! 15x24 7.31-26 W+ 1...14x25 2.30-24 29x20 3.34-30 25x34 4.40x29 23x34 5.32x25 W+1 5) T. Kooistra – C. Westerveld 2.39-33 28x39 3.32-28 23x41 4.36x47 26x37  1.38-33? 26-31! 2.37x26 17-21 3.26x6 16- 5.34x23 18x29 6.43x23 19x28 7.30x26 W+ 21 4.27x16 13-18 5.23x12 7x47 B+"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "5) J. de Vries – W. Terlouw 6)  1.27-22! 16-21 2.22x11 12-17 3.11x22 1.35-30! 20-24 21-27 4.32x21 23x41 5.22-18 13x22 6.31-27 1...20-25 2.42-38 14-20 3.32-28 23x21 22x31 7.26x46 W+ 4.34x14 20x9 5.26x19 25x34 6.40x29 W+ 2.30-25 24-30 3.40-35 29x40 4.35x24 19x30 7)  1.47-41? 29-33 2.39x28 22x33 3.38x29 5.25x34 40x29 6.32-28 23x21 7.26x10 W+ 23x34 4.30x39 7-11 5.16x7 12x1 6.21x23 19x46 B+ 6) W. Martin – A. van Berkel Black forces the win helped by a sacrifice: 8)  1.34-30! 4-9 [ After 1...29-34 2.40x29 1... 20-24! 2.29x20 25x14 3.34x25 18-23 B+ 23x25 3.27-21 16x27 4.32x23 19x28 white organizes a breakthrough: 5.42-37 8-12 6.38- 7) J. Wiering – J. Okken 33 12-18 7.33x22 18x27 8.43-38 27-31 9.38- 1.25-20! Other moves lose: 1.40-35 14-20 32 31x42 10.48x37 ] 2.40-34! 29x40 3.45x34 2.25x14 19x10 etc. B+; 1.37-32 14-20 2.25x14 15-20 4.34-29! 23x25 5.27-21 16x27 6.32x23 19x10 3.40-35 10-14 etc. B+ 19x28 7.38-33 28-32 8.42-38 32-37 9.38-32 1...14x25 2.39-34 +/- (black has to return the 37x28 10.33x22 14-19 11.26-21 8-12 12.21-16 piece with 22-27) ++/- 8) S. Buurke – J. Algra (missed) 1.38-33!! 29x47 1...29x49 2.39-34 49x35 3.34-30 35x47 4.36- 31 47x36 5.31-26 36x22 6.26x6 W+ 2.39-33 47x20 3.48-42 20x47 4.36-31 47x36 5.31-26 36x22 6.26x6 W+"
-}
-]
 },
 {
 "type": "board",
@@ -5979,15 +6172,6 @@ const DATA: ManuelData = {
 "ch": 11
 },
 {
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "B) White wins a piece, but black is satisfied, why?"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0188_d1",
 "ch": 11
@@ -6011,33 +6195,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0188_d5",
 "ch": 11
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "6...21-27! After the exchange <29> is isolated. White’s position becomes split. He changes 27-22 Black doesn’t allow white to lock his right wing giving black a clear (centre) advantage. and plays 21-27. The edge piece on <26> remains."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "18...4-10! Black changes the outpost, taking 4 temps ( = -8 after the exchange) more and controlling Black build a solid centre position with lots of the wings. Pieces 34/35/40/45 are inactive. formations. After 4-10 white has to take a decision how to continue."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "26...19-24! White has a vulnerable piece on <29> again. With some strong moves white is frozen out, White has occupied <29> but black still black using a chain lock. controls <24>. The next moves are crucial for taking <24> under control."
-}
-]
 },
 {
 "type": "board",
@@ -6068,42 +6225,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0200_d6",
 "ch": 11
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "Black finishes off the game, white being frozen Black starts the attack he prepared, moving in out completely. the direction of white’s right wing."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "Black now changes at the other wing, trying to 7.24-20 15x24 8.33-28 22x33 9.38x20 get this wing under control as well."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "White changes and gets an edge piece. This is a theoretical opening that has been played many times before."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "The attack continues, moving to <29> after 12...19-24 which it is possible to transport more pieces to this wing, as will happen in the next phase of White chooses his strategy. In many games the game. black continued 18-23 after some moves, but black already shows his intentions: getting an initiative at the right flank of the board."
-}
-]
 },
 {
 "type": "board",
@@ -6141,6 +6262,96 @@ const DATA: ManuelData = {
 "runs": [
 {
 "t": "Attaque au centre"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "After eliminating the outpost on <27> white 29.34-29 18-23? surrounds the black centre attack. Black should have played 29...19-23 30.30-24 11-16 23x34 31.39x30 28x39 32.43x34 9-13 33.34- 33...15-20 34.25x14 19x10 35.30-24 10-14 is 29 etc. also interesting. 30.29x18 12x23 34.30-24 19x30 35.35x24 G) How did white strike now?"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "1.1) 35...4-9 36.49-44 9-14 37.44-40 2-8 38.40-35 14-19 39.48-42 19x30 E. Prosman – T. Stam 40.35x24 17-21 41.26x17 12x21 42.34-30 23x43 43.32x1 ++/- 7) Try to find the best move for black to play! 1.2) 2-8 36.49-43!!"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "We show a line in which white’s strategy succeeds completely: 34.29-24 8-13 (34... 11- 8) Try to judge this position by analysing it. 16 35.38-33 4-9 is a better defence) 35.34-30 (White to move) 13-19 36.24x13 18x9 37.30-24 9-13 38.38-32! 27x38 39.43x32 12-18 40.32-27 4-9 41.49-44 9-14 42.44-40 7-12 43.40-35 11-16 44.48-43 14-19 45.43-38 19x30 46.25x34!"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Black is tactically frozen out, the endgame is easy: 15-20 47.39-33 28x30 48.35x15 23-29 49.15-10 29-34 50.26-21 17x26 51.37-32 26x28 52.10-5 22x31 53.5x39 W+"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "9A) Describe the relevant features of this Try to find a good plan for black, using tactics. position and judge it."
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "A) Why this move? Black suffers from a lack of space. He goes to <32> but all white’s pieces become active. 2... 5-10 3.41-37 6-11 4.30-25 8-12 5.34-30! 36... 28-32 37.38-33 White takes the crucial square for his Black sacrificed a piece with 32-38 and lost. surrounding strategy, <24>, under control. Let’s look at the position after 23-28. 5... 10-14 6.30-24! 11-17 7.38-32 3-8 8.42-38"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Piece 20 is also brought to the beleaguered White is completely surrounded and frozen out. wing, continuing the attack. A nice strategic game from black!"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Black wants to freeze out his opponent, so now he takes the left flank under control. B) Black closes <8 & 10> and will win back the lost piece."
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "45...18-22 C) White can’t play 22.38-33? 16-21!, 22.39- White’s centre is being surrounded. White 33? 23-28! or 22.40-34? 26-31! 23.37x26 23- lacks space to play and he is ‘strangled’ slowly. 29!, and 22.50-45 1-6! doesn’t change the situation. Therefore white can best return the piece in such a way that black gets a piece on <36> while his left wing is locked."
+}
+]
+},
+{
+"type": "h3",
+"ch": 12,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },
@@ -6185,42 +6396,6 @@ const DATA: ManuelData = {
 "ch": 12
 },
 {
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "After eliminating the outpost on <27> white 29.34-29 18-23? surrounds the black centre attack. Black should have played 29...19-23 30.30-24 11-16 23x34 31.39x30 28x39 32.43x34 9-13 33.34- 33...15-20 34.25x14 19x10 35.30-24 10-14 is 29 etc. also interesting. 30.29x18 12x23 34.30-24 19x30 35.35x24 G) How did white strike now?"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "1.1) 35...4-9 36.49-44 9-14 37.44-40 2-8 38.40-35 14-19 39.48-42 19x30 E. Prosman – T. Stam 40.35x24 17-21 41.26x17 12x21 42.34-30 23x43 43.32x1 ++/- 7) Try to find the best move for black to play! 1.2) 2-8 36.49-43!!"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "We show a line in which white’s strategy succeeds completely: 34.29-24 8-13 (34... 11- 8) Try to judge this position by analysing it. 16 35.38-33 4-9 is a better defence) 35.34-30 (White to move) 13-19 36.24x13 18x9 37.30-24 9-13 38.38-32! 27x38 39.43x32 12-18 40.32-27 4-9 41.49-44 9-14 42.44-40 7-12 43.40-35 11-16 44.48-43 14-19 45.43-38 19x30 46.25x34!"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Black is tactically frozen out, the endgame is easy: 15-20 47.39-33 28x30 48.35x15 23-29 49.15-10 29-34 50.26-21 17x26 51.37-32 26x28 52.10-5 22x31 53.5x39 W+"
-}
-]
-},
-{
 "type": "board",
 "id": "GOEDEMOED_p0149_d2",
 "ch": 12
@@ -6234,24 +6409,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0149_d4",
 "ch": 12
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "9A) Describe the relevant features of this Try to find a good plan for black, using tactics. position and judge it."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "A) Why this move? Black suffers from a lack of space. He goes to <32> but all white’s pieces become active. 2... 5-10 3.41-37 6-11 4.30-25 8-12 5.34-30! 36... 28-32 37.38-33 White takes the crucial square for his Black sacrificed a piece with 32-38 and lost. surrounding strategy, <24>, under control. Let’s look at the position after 23-28. 5... 10-14 6.30-24! 11-17 7.38-32 3-8 8.42-38"
-}
-]
 },
 {
 "type": "board",
@@ -6277,33 +6434,6 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "GOEDEMOED_p0150_d5",
 "ch": 12
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Piece 20 is also brought to the beleaguered White is completely surrounded and frozen out. wing, continuing the attack. A nice strategic game from black!"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Black wants to freeze out his opponent, so now he takes the left flank under control. B) Black closes <8 & 10> and will win back the lost piece."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "45...18-22 C) White can’t play 22.38-33? 16-21!, 22.39- White’s centre is being surrounded. White 33? 23-28! or 22.40-34? 26-31! 23.37x26 23- lacks space to play and he is ‘strangled’ slowly. 29!, and 22.50-45 1-6! doesn’t change the situation. Therefore white can best return the piece in such a way that black gets a piece on <36> while his left wing is locked."
-}
-]
 },
 {
 "type": "board",
@@ -6341,6 +6471,15 @@ const DATA: ManuelData = {
 "runs": [
 {
 "t": "Attaque Highland"
+}
+]
+},
+{
+"type": "h3",
+"ch": 13,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },
@@ -6394,6 +6533,15 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "h3",
+"ch": 14,
+"runs": [
+{
+"t": "Diagrammes"
+}
+]
+},
+{
 "type": "board",
 "id": "GOEDEMOED_p0141_d1",
 "ch": 14
@@ -6439,6 +6587,15 @@ const DATA: ManuelData = {
 "runs": [
 {
 "t": "Attaque Roozenburg"
+}
+]
+},
+{
+"type": "h3",
+"ch": 15,
+"runs": [
+{
+"t": "Diagrammes"
 }
 ]
 },

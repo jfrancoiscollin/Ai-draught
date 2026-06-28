@@ -314,18 +314,33 @@ def build_theme(source: str) -> dict:
     blocks: list[dict] = []
     positions: dict[str, dict] = {}
 
+    # Prose that sits before any tagged section (book intro / mis-paginated
+    # front matter) opens a short "Présentation" chapter rather than being lost.
+    intro = [t for p in all_pages if page_theme.get(p) is None
+             for t in prose_by_page.get(p, [])]
+    if intro:
+        chapters.append({"n": 0, "title": "Présentation"})
+        blocks.append({"type": "h1", "ch": 0, "runs": [{"t": SOURCES[source]["book"]}]})
+        for text in intro:
+            for para in _clean_prose(text):
+                blocks.append({"type": "p", "ch": 0, "runs": [{"t": para}]})
+
     for ci, ch in enumerate(tc, start=1):
         theme = ch["theme"]
         diags_of_theme = {(p, n) for (p, n) in ch["diagrams"]}
         chapters.append({"n": ci, "title": theme})
         blocks.append({"type": "h2", "ch": ci, "runs": [{"t": theme}]})
         pages = sorted(p for p in all_pages if page_theme.get(p) == theme)
-        emitted_any = False
+        # Lead with the theme's course text, so every chapter opens on prose
+        # (not a wall of diagrams), then its study positions.
+        had_prose = False
         for page in pages:
             for text in prose_by_page.get(page, []):
                 for para in _clean_prose(text):
                     blocks.append({"type": "p", "ch": ci, "runs": [{"t": para}]})
-                    emitted_any = True
+                    had_prose = True
+        n_diag = 0
+        for page in pages:
             for number in diags_by_page.get(page, []):
                 if (page, number) not in diags_of_theme:
                     continue
@@ -337,9 +352,11 @@ def build_theme(source: str) -> dict:
                     continue
                 pid, pos = made
                 positions[pid] = pos
+                if n_diag == 0:
+                    blocks.append({"type": "h3", "ch": ci, "runs": [{"t": "Diagrammes"}]})
                 blocks.append({"type": "board", "id": pid, "ch": ci})
-                emitted_any = True
-        if not emitted_any:
+                n_diag += 1
+        if not had_prose and n_diag == 0:
             blocks.append({"type": "p", "ch": ci, "runs": [
                 {"t": f"{len(diags_of_theme)} positions d'étude sur ce thème."}]})
 
