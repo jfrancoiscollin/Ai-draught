@@ -29,6 +29,7 @@ Output: ``frontend/src/manuels/data/<slug>.ts`` (one ES module per source) plus
 """
 from __future__ import annotations
 
+import importlib
 import json
 import re
 import sys
@@ -264,12 +265,50 @@ def build_prose(source: str) -> dict:
     }
 
 
+def _prose_by_page(source: str) -> dict[int, list[str]]:
+    """Goedemoed's course text (verbatim English passages) grouped by page, in
+    on-page order. Junk (move-score dumps with no sentence) is dropped."""
+    try:
+        mod = importlib.import_module(
+            f"pedagogy.prose.fixtures.prose_passages_{source.lower()}_course")
+        from strategy.prose_quality import has_prose  # noqa: PLC0415
+    except Exception:  # noqa: BLE001 — no prose shard: fall back to galleries
+        return {}
+    rows = []
+    for p in mod.ALL_PASSAGES:
+        if has_prose(p.text):
+            rows.append((p.page, getattr(p, "char_offset", 0), p.text))
+    by_page: dict[int, list[str]] = {}
+    for page, _off, text in sorted(rows):
+        by_page.setdefault(page, []).append(text)
+    return by_page
+
+
 def build_theme(source: str) -> dict:
-    """Exercise book: one chapter per printed study theme, a gallery of
-    solvable positions (verified solution lines where mined)."""
+    """A Course in Draughts: one chapter per printed study theme. The book's
+    course text is laid out page by page — each page's prose followed by the
+    diagrams printed on it — so it reads as a course, not a bare gallery.
+    Diagrams keep their playable verified line where one was mined."""
     tc = api._theme_chapters(source) or []
     sections = api._load_diagram_sections(source)
     soln = api._solution_index(source)
+    manifest = api._load_diagram_manifest(source)
+    prose_by_page = _prose_by_page(source)
+
+    diags_by_page: dict[int, list[int]] = {}
+    for (page, number) in sorted(manifest):
+        diags_by_page.setdefault(page, []).append(number)
+
+    # Theme per page (only diagram pages are tagged) carried forward, so prose
+    # on a text-only page is attributed to the theme it sits under.
+    all_pages = sorted(set(prose_by_page) | set(diags_by_page))
+    page_theme: dict[int, str] = {}
+    current = None
+    for page in all_pages:
+        t = (sections.get(page) or {}).get("theme")
+        if t:
+            current = t
+        page_theme[page] = current
 
     chapters: list[dict] = []
     blocks: list[dict] = []
@@ -277,23 +316,32 @@ def build_theme(source: str) -> dict:
 
     for ci, ch in enumerate(tc, start=1):
         theme = ch["theme"]
-        diagrams = ch["diagrams"]
+        diags_of_theme = {(p, n) for (p, n) in ch["diagrams"]}
         chapters.append({"n": ci, "title": theme})
         blocks.append({"type": "h2", "ch": ci, "runs": [{"t": theme}]})
-        n_solv = sum(1 for d in diagrams if d in soln)
-        intro = f"{len(diagrams)} positions d'étude sur ce thème"
-        intro += f", dont {n_solv} avec solution vérifiée." if n_solv else "."
-        blocks.append({"type": "p", "ch": ci, "runs": [{"t": intro}]})
-        for (page, number) in diagrams:
-            fen = api._fen_for(source, page, number)
-            if not fen:
-                continue
-            made = _position(source, page, number, fen, sections, soln, ci)
-            if made is None:
-                continue
-            pid, pos = made
-            positions[pid] = pos
-            blocks.append({"type": "board", "id": pid, "ch": ci})
+        pages = sorted(p for p in all_pages if page_theme.get(p) == theme)
+        emitted_any = False
+        for page in pages:
+            for text in prose_by_page.get(page, []):
+                for para in _clean_prose(text):
+                    blocks.append({"type": "p", "ch": ci, "runs": [{"t": para}]})
+                    emitted_any = True
+            for number in diags_by_page.get(page, []):
+                if (page, number) not in diags_of_theme:
+                    continue
+                fen = api._fen_for(source, page, number)
+                if not fen:
+                    continue
+                made = _position(source, page, number, fen, sections, soln, ci)
+                if made is None:
+                    continue
+                pid, pos = made
+                positions[pid] = pos
+                blocks.append({"type": "board", "id": pid, "ch": ci})
+                emitted_any = True
+        if not emitted_any:
+            blocks.append({"type": "p", "ch": ci, "runs": [
+                {"t": f"{len(diags_of_theme)} positions d'étude sur ce thème."}]})
 
     return {
         "book": SOURCES[source]["book"],
