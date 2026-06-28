@@ -176,7 +176,7 @@ function fenToBoard(fen: string): number[] {
   return board
 }
 
-type Tab = 'home' | 'play' | 'live' | 'learning-path' | 'exercise-library' | 'exercises' | 'import-game' | 'opening-builder' | 'game-history' | 'analyze-menu' | 'my-games' | 'strategy' | 'strategy-manual' | 'manuel-interactif' | 'parcours-manuel'
+type Tab = 'home' | 'play' | 'live' | 'learning-path' | 'exercise-library' | 'exercises' | 'import-game' | 'opening-builder' | 'game-history' | 'analyze-menu' | 'my-games' | 'strategy' | 'strategy-manual' | 'manuel-interactif' | 'parcours-manuel' | 'apprendre'
 
 // Map a lesson-prose id (the shared /api/lessons/{id} range) to the interactive
 // reader that should display it, and the chapter to open at. Returns null for
@@ -1237,26 +1237,15 @@ export default function App() {
                   <span className="flex-1 text-lg font-bold text-white text-right">Jouer en ligne</span>
                 </button>
               )}
-              {/* Learning path (guided curriculum) */}
+              {/* Learning hub — a single door to Parcours / Bibliothèque /
+                  Exercices (the 'apprendre' submenu). */}
               <button
-                onClick={() => setTab('learning-path')}
+                onClick={() => setTab('apprendre')}
                 className="group flex flex-row items-center gap-4 bg-gray-800 hover:bg-gray-750 border border-gray-700 hover:border-amber-600 rounded-xl px-4 py-3 transition-all duration-200 cursor-pointer"
               >
                 <img src={iconLearnSrc} alt="" className="flex-shrink-0 group-hover:scale-110 transition-transform duration-200" style={{ width: 64, height: 64, objectFit: 'contain' }} />
-                <span className="flex-1 text-lg font-bold text-white text-right">{language === 'fr' ? 'Parcours' : 'Learning path'}</span>
+                <span className="flex-1 text-lg font-bold text-white text-right">{language === 'fr' ? 'Apprendre' : 'Learn'}</span>
               </button>
-              {/* Interactive theoretical manuals (Sijbrands, Springer, … as
-                  self-contained readers: prose + playable diagrams). */}
-              <button
-                onClick={() => setTab('manuel-interactif')}
-                className="group flex flex-row items-center gap-4 bg-gray-800 hover:bg-gray-750 border border-gray-700 hover:border-amber-600 rounded-xl px-4 py-3 transition-all duration-200 cursor-pointer"
-              >
-                <img src={iconLearnSrc} alt="" className="flex-shrink-0 group-hover:scale-110 transition-transform duration-200" style={{ width: 64, height: 64, objectFit: 'contain' }} />
-                <span className="flex-1 text-lg font-bold text-white text-right">{language === 'fr' ? 'Manuels théoriques' : 'Theory manuals'}</span>
-              </button>
-              {/* The exercise library is no longer a separate home entry:
-                  the Parcours is the single educational doorway and links
-                  into the library from inside. */}
               {/* Analyze menu (Import PDN + Play both sides) */}
               <button
                 onClick={() => setTab('analyze-menu')}
@@ -1264,6 +1253,36 @@ export default function App() {
               >
                 <img src={iconAnalyzeSrc} alt="" className="flex-shrink-0 group-hover:scale-110 transition-transform duration-200" style={{ width: 64, height: 64, objectFit: 'contain' }} />
                 <span className="flex-1 text-lg font-bold text-white text-right">{t('tabImport')}</span>
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* APPRENDRE MENU — single learning hub: guided path, library of books
+            (theory + lesson readers), and theme-sorted exercises. */}
+        {tab === 'apprendre' && (
+          <div className="h-full flex flex-col items-center justify-center px-4 py-4 overflow-y-auto">
+            <div className="flex flex-col gap-3 w-full max-w-lg">
+              <button
+                onClick={() => setTab('learning-path')}
+                className="group flex flex-row items-center gap-4 bg-gray-800 hover:bg-gray-750 border border-gray-700 hover:border-amber-600 rounded-xl px-4 py-3 transition-all duration-200 cursor-pointer"
+              >
+                <img src={iconLearnSrc} alt="" className="flex-shrink-0 group-hover:scale-110 transition-transform duration-200" style={{ width: 64, height: 64, objectFit: 'contain' }} />
+                <span className="flex-1 text-lg font-bold text-white text-right">{language === 'fr' ? 'Parcours' : 'Learning path'}</span>
+              </button>
+              <button
+                onClick={() => setTab('manuel-interactif')}
+                className="group flex flex-row items-center gap-4 bg-gray-800 hover:bg-gray-750 border border-gray-700 hover:border-amber-600 rounded-xl px-4 py-3 transition-all duration-200 cursor-pointer"
+              >
+                <img src={iconLearnSrc} alt="" className="flex-shrink-0 group-hover:scale-110 transition-transform duration-200" style={{ width: 64, height: 64, objectFit: 'contain' }} />
+                <span className="flex-1 text-lg font-bold text-white text-right">{language === 'fr' ? 'Bibliothèque' : 'Library'}</span>
+              </button>
+              <button
+                onClick={() => setTab('exercise-library')}
+                className="group flex flex-row items-center gap-4 bg-gray-800 hover:bg-gray-750 border border-gray-700 hover:border-amber-600 rounded-xl px-4 py-3 transition-all duration-200 cursor-pointer"
+              >
+                <img src={iconLearnSrc} alt="" className="flex-shrink-0 group-hover:scale-110 transition-transform duration-200" style={{ width: 64, height: 64, objectFit: 'contain' }} />
+                <span className="flex-1 text-lg font-bold text-white text-right">{language === 'fr' ? 'Exercices' : 'Exercises'}</span>
               </button>
             </div>
           </div>
@@ -1739,8 +1758,7 @@ export default function App() {
             completed; clicking an exercise deep-links into the solver. */}
         {tab === 'learning-path' && (
           <LearningPathPage
-            onClose={() => setTab('home')}
-            onOpenLibrary={() => setTab('exercise-library')}
+            onClose={() => setTab('apprendre')}
             onOpenModuleReader={(moduleId: string) => {
               setParcoursModuleId(moduleId)
               setTab('parcours-manuel')
@@ -1776,7 +1794,7 @@ export default function App() {
         {/* EXERCISE LIBRARY TAB */}
         {tab === 'exercise-library' && (
           <ExerciseLibraryPage
-            onBack={() => setTab('learning-path')}
+            onBack={() => setTab('apprendre')}
             onSelectBook={(bookId: string) => { resetExerciseState(); setSelectedBookId(bookId); setTab('exercises') }}
             onOpenStrategyManual={(source: string) => {
               // Every corpus source opens the manual reader. Prose books
@@ -1804,16 +1822,17 @@ export default function App() {
             theoretical manuals (prose + playable diagrams), generated by
             backend/strategy/build_manuel_interactif.py. */}
         {tab === 'manuel-interactif' && (
-          <ManuelInteractifPage onClose={() => setTab('home')} />
+          <ManuelInteractifPage onClose={() => setTab('apprendre')} />
         )}
 
         {/* EXERCISES TAB — list only when no exercise active, board shown on selection */}
         {tab === 'exercises' && !exerciseGameState && !lessonOpen && (
           <div className="h-full overflow-y-auto">
             <div className="max-w-2xl mx-auto px-4 py-6">
+              {/* Lessons now live in the Bibliothèque; the exercises view shows
+                  only the exercises (no per-chapter 📖 lesson button). */}
               <ExercisePanel
                 onExerciseLoad={handleExerciseLoad}
-                onLessonOpen={(chapter, fen) => setLessonOpen({ chapter, fen })}
                 currentExerciseId={lastExerciseId}
                 feedback={null}
                 compact={false}

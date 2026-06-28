@@ -14,6 +14,17 @@ import { PARCOURS_MANUELS } from './parcours'
 // A loadable reader entry (theoretical manual or parcours module share a shape).
 type ReaderEntry = ManuelEntry
 
+// The library lists two families of interactive readers: the Dubois lesson
+// books (prose + playable diagrams, "façon jsx") and the masters' theory books.
+const _LESSON_BOOK_IDS = ['manuel_debutant', 'manuel_dubois_combinaisons', 'manuel_dubois_sens_du_jeu']
+const LIBRARY_SECTIONS: { title: string; entries: ReaderEntry[] }[] = [
+  {
+    title: 'Cours & exercices',
+    entries: _LESSON_BOOK_IDS.map(id => PARCOURS_MANUELS[id]).filter(Boolean),
+  },
+  { title: 'Livres théoriques', entries: MANUELS },
+]
+
 interface Props {
   onClose?: () => void
   /** Corpus source code to open directly (case-insensitive), e.g. "SIJBRANDS". */
@@ -83,43 +94,49 @@ export default function ManuelInteractifPage({ onClose, source, parcoursId, init
             >←</button>
           )}
           <h1 style={{ fontFamily: 'Georgia, serif', fontWeight: 500, fontSize: 28, margin: 0 }}>
-            Manuels théoriques
+            Bibliothèque
           </h1>
         </div>
         <p style={{ color: '#9b9485', fontSize: 14, margin: '4px 0 22px' }}>
-          Les cours et recueils des maîtres, en lecture interactive : prose d'origine,
+          Cours et recueils des maîtres en lecture interactive : prose d'origine,
           diagrammes jouables et combinaisons à résoudre.
         </p>
 
         {error && <div style={{ color: '#c07b5e', marginBottom: 16 }}>{error}</div>}
 
-        <div style={{ display: 'grid', gap: 12 }}>
-          {MANUELS.map(entry => (
-            <button
-              key={entry.id}
-              onClick={() => openManuel(entry)}
-              disabled={loading != null}
-              style={{
-                textAlign: 'left', background: '#1f1d25', border: '1px solid #322f3c',
-                borderRadius: 14, padding: '16px 18px', cursor: 'pointer', color: '#ece3d2',
-                display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
-                opacity: loading && loading !== entry.id ? 0.5 : 1,
-              }}
-            >
-              <span>
-                <span style={{ fontFamily: 'Georgia, serif', fontSize: 18, display: 'block' }}>
-                  {entry.book}
-                </span>
-                <span style={{ fontSize: 11, letterSpacing: '.06em', textTransform: 'uppercase', color: '#c9a24a' }}>
-                  {entry.level}
-                </span>
-              </span>
-              <span style={{ color: '#9b9485', fontSize: 20 }}>
-                {loading === entry.id ? '…' : '→'}
-              </span>
-            </button>
-          ))}
-        </div>
+        {LIBRARY_SECTIONS.map(section => (
+          <div key={section.title} style={{ marginBottom: 26 }}>
+            <h2 style={{ fontSize: 12, letterSpacing: '.08em', textTransform: 'uppercase',
+              color: '#c9a24a', margin: '0 0 10px' }}>{section.title}</h2>
+            <div style={{ display: 'grid', gap: 12 }}>
+              {section.entries.map(entry => (
+                <button
+                  key={entry.id}
+                  onClick={() => openManuel(entry)}
+                  disabled={loading != null}
+                  style={{
+                    textAlign: 'left', background: '#1f1d25', border: '1px solid #322f3c',
+                    borderRadius: 14, padding: '16px 18px', cursor: 'pointer', color: '#ece3d2',
+                    display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
+                    opacity: loading && loading !== entry.id ? 0.5 : 1,
+                  }}
+                >
+                  <span>
+                    <span style={{ fontFamily: 'Georgia, serif', fontSize: 18, display: 'block' }}>
+                      {entry.book}
+                    </span>
+                    <span style={{ fontSize: 11, letterSpacing: '.06em', textTransform: 'uppercase', color: '#c9a24a' }}>
+                      {entry.level}
+                    </span>
+                  </span>
+                  <span style={{ color: '#9b9485', fontSize: 20 }}>
+                    {loading === entry.id ? '…' : '→'}
+                  </span>
+                </button>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   )
