@@ -437,8 +437,10 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
           <button className="btn sm" onClick={() => stepBy(-1)} disabled={step <= 0}>◀</button>
           <span className="sc">{step} / {total}</span>
           <button className="btn sm" onClick={() => stepBy(1)} disabled={step >= total}>▶</button>
-          {total > 0 && <button className="btn sm" onClick={() => setRevealed(v => !v)}>{revealed ? 'Masquer' : 'Solution'}</button>}
-          {total > 0 && <button className="btn sm" onClick={toSolve}>Résoudre</button>}
+          {total > 0 && <button className="btn sm" onClick={() => setRevealed(v => !v)}>{revealed ? 'Masquer' : (pos.win != null ? 'Solution' : 'Coups')}</button>}
+          {/* "Résoudre" (guided solve) only for verified exercises; opening /
+              variation lines are just stepped through, not solved. */}
+          {total > 0 && pos.win != null && <button className="btn sm" onClick={toSolve}>Résoudre</button>}
           <button className="btn sm brass" onClick={toPlay}>Jouer</button>
         </div>
       )}

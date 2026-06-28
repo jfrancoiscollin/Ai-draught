@@ -369,9 +369,108 @@ def build_theme(source: str) -> dict:
     }
 
 
+_MOVE_TOKEN = re.compile(r"\b\d{1,2}(?:[-x]\d{1,2})+\b")
+
+
+def _state_from_start(start: dict):
+    board = [ge.EMPTY] * 51
+    for s in start["wm"]:
+        board[s] = ge.WHITE_MAN
+    for s in start["wk"]:
+        board[s] = ge.WHITE_KING
+    for s in start["bm"]:
+        board[s] = ge.BLACK_MAN
+    for s in start["bk"]:
+        board[s] = ge.BLACK_KING
+    return ge.GameState(board=board, turn=start["turn"])
+
+
+def _start_from_state(st) -> dict:
+    out: dict = {"wm": [], "wk": [], "bm": [], "bk": [], "turn": st.turn}
+    for sq in range(1, 51):
+        b = _PIECE_BUCKET.get(st.board[sq])
+        if b:
+            out[b].append(sq)
+    return out
+
+
+def _key(st) -> tuple:
+    return (st.turn, tuple(st.board[1:51]))
+
+
+def _replay_until(start_state, tokens: list[str], target: tuple):
+    """Replay PDN tokens from ``start_state``; return (moves, end_state) the
+    moment the board reaches ``target`` (≥2 plies), else (None, None)."""
+    st = start_state.copy()
+    moves: list[dict] = []
+    for pdn in tokens:
+        path = [int(x) for x in re.split(r"[-x]", pdn) if x]
+        legal = ge.get_legal_moves(st)
+        mv = next((m for m in legal if m.path == path), None)
+        if mv is None:
+            mv = next((m for m in legal if m.path[0] == path[0] and m.path[-1] == path[-1]), None)
+        if mv is None:
+            break
+        f, t = mv.path[0], mv.path[-1]
+        was_king = st.board[f] in (ge.WHITE_KING, ge.BLACK_KING)
+        st = ge.apply_move(st, mv)
+        promoted = (not was_king) and st.board[t] in (ge.WHITE_KING, ge.BLACK_KING)
+        moves.append({"n": pdn, "f": f, "t": t, "c": list(mv.captures),
+                      "path": list(mv.path), "p": bool(promoted)})
+        if len(moves) >= 2 and _key(st) == target:
+            return moves, st
+    return None, None
+
+
+def _attach_replay_lines(data: dict) -> int:
+    """Opening/variation manuals (Keller, Roozenburg…) print a line in the prose
+    and a diagram of the *resulting* position. Make those diagrams steppable:
+    when the prose's moves, replayed from the start (or the previous diagram),
+    reach the diagram, rebuild it as start-position + that move line so the
+    reader can scroll the moves with ◀ ▶ (outside play mode)."""
+    positions = data["positions"]
+    by_ch: dict[int, list[dict]] = {}
+    for b in data["blocks"]:
+        by_ch.setdefault(b["ch"], []).append(b)
+    attached = 0
+    for blocks in by_ch.values():
+        tokens: list[str] = []
+        prev_end = None
+        for b in blocks:
+            if b["type"] in ("p", "h2", "h3", "h4", "quote"):
+                for run in b.get("runs", []):
+                    tokens += [m.group(0) for m in _MOVE_TOKEN.finditer(run.get("t", ""))]
+            elif b["type"] == "board":
+                pos = positions.get(b["id"])
+                if pos is not None:
+                    if not pos["moves"] and tokens:
+                        target = _key(_state_from_start(pos["start"]))
+                        starts = [ge.initial_state()] + ([prev_end] if prev_end else [])
+                        for sstate in starts:
+                            moves, end = _replay_until(sstate, tokens, target)
+                            if moves:
+                                pos["start"] = _start_from_state(sstate)
+                                pos["moves"] = moves
+                                pos["pub"] = " ".join(m["n"] for m in moves)
+                                prev_end = end
+                                attached += 1
+                                break
+                        else:
+                            prev_end = _state_from_start(pos["start"])
+                    else:
+                        prev_end = _state_from_start(pos["start"])
+                tokens = []
+    return attached
+
+
 def build_source(source: str) -> dict:
     kind = SOURCES[source]["kind"]
-    return build_prose(source) if kind == "prose" else build_theme(source)
+    data = build_prose(source) if kind == "prose" else build_theme(source)
+    if kind == "prose":
+        n = _attach_replay_lines(data)
+        if n:
+            print(f"  ({source}: {n} diagrams turned into steppable lines)")
+    return data
 
 
 _HEADER = (
