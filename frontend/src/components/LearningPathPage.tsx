@@ -23,8 +23,6 @@ interface Props {
   onOpenLesson: (chapter: number) => void
   // Open a strategic manual's long-form reading view for a source (e.g. KELLER).
   onOpenManual: (source: string) => void
-  // Open the exercise/manual library (free browsing) — a sub-view of the path.
-  onOpenLibrary: () => void
   // Open a whole module as the interactive reader (lessons = chapters).
   onOpenModuleReader: (moduleId: string) => void
 }
@@ -46,7 +44,7 @@ const ProgressBar: React.FC<{ value: number; total: number; state: ModuleState }
   )
 }
 
-const LearningPathPage: React.FC<Props> = ({ onClose, onOpenExercise, onOpenLesson, onOpenManual, onOpenLibrary, onOpenModuleReader }) => {
+const LearningPathPage: React.FC<Props> = ({ onClose, onOpenExercise, onOpenLesson, onOpenManual, onOpenModuleReader }) => {
   const { language } = useLanguage()
   const { user } = useAuth()
   const isLoggedIn = !!user
@@ -231,26 +229,6 @@ const LearningPathPage: React.FC<Props> = ({ onClose, onOpenExercise, onOpenLess
             : '🔑 Log in to save your progress: without an account, solved exercises are not tracked and later modules stay locked.'}
         </div>
       )}
-
-      {/* Free-browsing library — the old "Apprendre" entry, now a
-          secondary door inside the single educational hub. */}
-      <button
-        onClick={onOpenLibrary}
-        className="group w-full mb-6 flex items-center gap-3 rounded-xl border border-gray-700 bg-gray-800 hover:border-amber-600 hover:bg-gray-750 px-4 py-3 text-left transition-all duration-200 cursor-pointer"
-      >
-        <span className="text-2xl">📚</span>
-        <span className="min-w-0">
-          <span className="block font-semibold text-gray-100">
-            {fr ? 'Bibliothèque' : 'Library'}
-          </span>
-          <span className="block text-xs text-gray-400">
-            {fr
-              ? 'Parcourir librement les manuels et exercices, hors progression guidée.'
-              : 'Freely browse manuals and exercises, outside the guided path.'}
-          </span>
-        </span>
-        <span className="ml-auto text-gray-500 group-hover:text-amber-400">→</span>
-      </button>
 
       {tree.levels.map(level => (
         <div key={level.id} className="mb-8">
