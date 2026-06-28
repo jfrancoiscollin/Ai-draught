@@ -14,9 +14,11 @@ import { PARCOURS_MANUELS } from './parcours'
 // A loadable reader entry (theoretical manual or parcours module share a shape).
 type ReaderEntry = ManuelEntry
 
-// The library lists two families of interactive readers: the Dubois lesson
-// books (prose + playable diagrams, "façon jsx") and the masters' theory books.
-const _LESSON_BOOK_IDS = ['manuel_debutant', 'manuel_dubois_combinaisons', 'manuel_dubois_sens_du_jeu']
+// The library lists two families of interactive readers: the original Dubois
+// lesson books (prose + playable diagrams, "façon jsx") and the masters' theory
+// books. The synthesised "Manuel Débutant" is intentionally excluded — only
+// original books are shown.
+const _LESSON_BOOK_IDS = ['manuel_dubois_combinaisons', 'manuel_dubois_sens_du_jeu']
 const LIBRARY_SECTIONS: { title: string; entries: ReaderEntry[] }[] = [
   {
     title: 'Cours & exercices',
