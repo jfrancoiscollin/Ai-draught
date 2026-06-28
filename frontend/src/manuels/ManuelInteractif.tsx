@@ -184,9 +184,9 @@ const CSS = `
 .dm .sq.light{background:var(--sand)}
 .dm .sq.dark{background:var(--sage)}
 .dm .board.clickable .sq.dark{cursor:pointer}
-.dm .num{position:absolute;left:3px;top:1px;font-size:8px;opacity:.3;font-family:var(--mono);color:#cfe0d2;pointer-events:none}
-.dm .sq.light .num{color:#1d231e;opacity:.34}
-.dm .pc{position:absolute;inset:11%;border-radius:50%;pointer-events:none}
+.dm .num{position:absolute;left:3px;top:1px;font-size:9px;opacity:.9;font-family:var(--mono);color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.8);pointer-events:none;z-index:3}
+.dm .sq.light .num{color:#fff;opacity:.92}
+.dm .pc{position:absolute;inset:19%;border-radius:50%;pointer-events:none}
 .dm .pc.w{background:radial-gradient(circle at 38% 32%,#fbf4e6,#d8caac 78%);box-shadow:inset 0 -3px 6px #b3a589,inset 0 2px 4px #fff,0 2px 5px -2px #000}
 .dm .pc.b{background:radial-gradient(circle at 38% 32%,#3a3742,#131118 78%);box-shadow:inset 0 -3px 6px #000,inset 0 2px 4px #514d5d,0 2px 5px -2px #000;border:1px solid #524e5e}
 .dm .pc.k::after{content:"";position:absolute;inset:24%;border-radius:50%;border:2px solid var(--brass);box-shadow:0 0 6px var(--brass-dim)}
