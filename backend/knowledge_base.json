@@ -29,6 +29,14 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0013_d2",
+          "source": "FINS_DE_PARTIE",
+          "page": 13,
+          "number": 2,
+          "fen": "W:W42,47,K31:B19,28,37",
+          "kind": "pdf"
+        },
+        {
           "id": "SIJBRANDS_p0100_d6",
           "source": "SIJBRANDS",
           "page": 100,
@@ -37,28 +45,20 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0019_d2",
+          "source": "FINS_DE_PARTIE",
+          "page": 19,
+          "number": 2,
+          "fen": "W:W27,K16:B18,28,34",
+          "kind": "pdf"
+        },
+        {
           "id": "SIJBRANDS_p0100_d8",
           "source": "SIJBRANDS",
           "page": 100,
           "number": 8,
           "fen": "W:WK5,43:B21,31,36",
           "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0101_d13",
-          "source": "SIJBRANDS",
-          "page": 101,
-          "number": 13,
-          "fen": "W:WK23,30:B15,25,36",
-          "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0100_d9",
-          "source": "SIJBRANDS",
-          "page": 100,
-          "number": 9,
-          "fen": "W:WK5,22:B21,31,36",
-          "kind": "auto"
         }
       ]
     },
@@ -91,6 +91,14 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0013_d3",
+          "source": "FINS_DE_PARTIE",
+          "page": 13,
+          "number": 3,
+          "fen": "W:W38,K49:B19,39",
+          "kind": "pdf"
+        },
+        {
           "id": "SIJBRANDS_p0101_d15",
           "source": "SIJBRANDS",
           "page": 101,
@@ -99,27 +107,19 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0029_d3",
+          "source": "FINS_DE_PARTIE",
+          "page": 29,
+          "number": 3,
+          "fen": "W:W41,K12:B26,33",
+          "kind": "pdf"
+        },
+        {
           "id": "SIJBRANDS_p0098_d17",
           "source": "SIJBRANDS",
           "page": 98,
           "number": 17,
           "fen": "W:WK4,45:B16,39",
-          "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0098_d18",
-          "source": "SIJBRANDS",
-          "page": 98,
-          "number": 18,
-          "fen": "W:WK5,26:B27,30",
-          "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0106_d15",
-          "source": "SIJBRANDS",
-          "page": 106,
-          "number": 15,
-          "fen": "W:WK3,24:B15,37",
           "kind": "auto"
         }
       ]
@@ -153,6 +153,22 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0003_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 3,
+          "number": 1,
+          "fen": "W:W25,34,35,38,39:B14,15,19,20,24",
+          "kind": "pdf"
+        },
+        {
+          "id": "FINS_DE_PARTIE_p0013_d5",
+          "source": "FINS_DE_PARTIE",
+          "page": 13,
+          "number": 5,
+          "fen": "W:W8:B9,28",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED_p0009_d4",
           "source": "GOEDEMOED",
           "page": 9,
@@ -166,22 +182,6 @@
           "page": 7,
           "number": 5,
           "fen": "W:W22,27,31,32,36,37,38,39,44:B6,11,13,14,16,21,23,24,30",
-          "kind": "auto"
-        },
-        {
-          "id": "KELLER_p0095_d1",
-          "source": "KELLER",
-          "page": 95,
-          "number": 1,
-          "fen": "W:W13,20,31,41,42:B3,5,10,14,15",
-          "kind": "auto"
-        },
-        {
-          "id": "ROOZENBURG_p0034_d1",
-          "source": "ROOZENBURG",
-          "page": 34,
-          "number": 1,
-          "fen": "W:W24,28,29,34,36,37,39,42,43:B1,2,7,8,9,13,15,20,25",
           "kind": "auto"
         }
       ]
@@ -215,6 +215,14 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0013_d1",
+          "source": "FINS_DE_PARTIE",
+          "page": 13,
+          "number": 1,
+          "fen": "W:WK16:B9,28",
+          "kind": "pdf"
+        },
+        {
           "id": "SIJBRANDS_p0095_d2",
           "source": "SIJBRANDS",
           "page": 95,
@@ -223,27 +231,19 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0023_d6",
+          "source": "FINS_DE_PARTIE",
+          "page": 23,
+          "number": 6,
+          "fen": "W:WK30:B12,20",
+          "kind": "pdf"
+        },
+        {
           "id": "SIJBRANDS_p0095_d3",
           "source": "SIJBRANDS",
           "page": 95,
           "number": 3,
           "fen": "W:WK16:B6,30",
-          "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0096_d6",
-          "source": "SIJBRANDS",
-          "page": 96,
-          "number": 6,
-          "fen": "W:WK38:B16,28",
-          "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0099_d2",
-          "source": "SIJBRANDS",
-          "page": 99,
-          "number": 2,
-          "fen": "W:WK34:B13,31",
           "kind": "human"
         }
       ]
@@ -286,28 +286,28 @@
           "kind": "human"
         },
         {
-          "id": "SPRINGER_p0181_d3",
-          "source": "SPRINGER",
-          "page": 181,
-          "number": 3,
-          "fen": "W:WK17,24,25,35:B16,K23",
-          "kind": "auto"
-        },
-        {
-          "id": "GOEDEMOED_p0019_d3",
-          "source": "GOEDEMOED",
-          "page": 19,
-          "number": 3,
-          "fen": "W:WK6:B22,24,27",
-          "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0095_d1",
-          "source": "SIJBRANDS",
-          "page": 95,
+          "id": "FINS_DE_PARTIE_p0007_d1",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
           "number": 1,
-          "fen": "W:WK1:B10,21",
-          "kind": "human"
+          "fen": "W:W9,29,K38:BK33",
+          "kind": "pdf"
+        },
+        {
+          "id": "PERF_SDJ_T1_p0121_d1",
+          "source": "PERF_SDJ_T1",
+          "page": 121,
+          "number": 1,
+          "fen": "W:W18,20,25,32,34,37,38:B11,16,19,21,27,K49",
+          "kind": "pdf"
+        },
+        {
+          "id": "PERF_SDJ_T2_p0009_d3",
+          "source": "PERF_SDJ_T2",
+          "page": 9,
+          "number": 3,
+          "fen": "W:W27,31,36,38,40,48:B16,18,19,22,K6,K15",
+          "kind": "pdf"
         }
       ]
     },
@@ -340,6 +340,14 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0013_d1",
+          "source": "FINS_DE_PARTIE",
+          "page": 13,
+          "number": 1,
+          "fen": "W:WK16:B9,28",
+          "kind": "pdf"
+        },
+        {
           "id": "SIJBRANDS_p0095_d2",
           "source": "SIJBRANDS",
           "page": 95,
@@ -348,27 +356,19 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0023_d6",
+          "source": "FINS_DE_PARTIE",
+          "page": 23,
+          "number": 6,
+          "fen": "W:WK30:B12,20",
+          "kind": "pdf"
+        },
+        {
           "id": "SIJBRANDS_p0095_d3",
           "source": "SIJBRANDS",
           "page": 95,
           "number": 3,
           "fen": "W:WK16:B6,30",
-          "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0096_d6",
-          "source": "SIJBRANDS",
-          "page": 96,
-          "number": 6,
-          "fen": "W:WK38:B16,28",
-          "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0099_d2",
-          "source": "SIJBRANDS",
-          "page": 99,
-          "number": 2,
-          "fen": "W:WK34:B13,31",
           "kind": "human"
         }
       ]
@@ -403,6 +403,14 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0007_d3",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
+          "number": 3,
+          "fen": "W:W24,40,K33:B41",
+          "kind": "pdf"
+        },
+        {
           "id": "SPRINGER_p0254_d4",
           "source": "SPRINGER",
           "page": 254,
@@ -419,20 +427,12 @@
           "kind": "human"
         },
         {
-          "id": "SIJBRANDS_p0100_d8",
-          "source": "SIJBRANDS",
-          "page": 100,
-          "number": 8,
-          "fen": "W:WK5,43:B21,31,36",
-          "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0101_d13",
-          "source": "SIJBRANDS",
-          "page": 101,
-          "number": 13,
-          "fen": "W:WK23,30:B15,25,36",
-          "kind": "human"
+          "id": "FINS_DE_PARTIE_p0013_d2",
+          "source": "FINS_DE_PARTIE",
+          "page": 13,
+          "number": 2,
+          "fen": "W:W42,47,K31:B19,28,37",
+          "kind": "pdf"
         }
       ]
     },
@@ -466,6 +466,14 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0007_d1",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
+          "number": 1,
+          "fen": "W:W9,29,K38:BK33",
+          "kind": "pdf"
+        },
+        {
           "id": "SPRINGER_p0254_d5",
           "source": "SPRINGER",
           "page": 254,
@@ -482,20 +490,12 @@
           "kind": "human"
         },
         {
-          "id": "SIJBRANDS_p0113_d12",
-          "source": "SIJBRANDS",
-          "page": 113,
-          "number": 12,
-          "fen": "W:WK4,11,49:BK2",
-          "kind": "human"
-        },
-        {
-          "id": "SIJBRANDS_p0113_d13",
-          "source": "SIJBRANDS",
-          "page": 113,
-          "number": 13,
-          "fen": "W:W9,36,48:BK15",
-          "kind": "human"
+          "id": "FINS_DE_PARTIE_p0010_d2",
+          "source": "FINS_DE_PARTIE",
+          "page": 10,
+          "number": 2,
+          "fen": "W:W10,35,K36:B16,33",
+          "kind": "pdf"
         }
       ]
     },
@@ -536,6 +536,14 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0007_d3",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
+          "number": 3,
+          "fen": "W:W24,40,K33:B41",
+          "kind": "pdf"
+        },
+        {
           "id": "SPRINGER_p0254_d4",
           "source": "SPRINGER",
           "page": 254,
@@ -550,14 +558,6 @@
           "number": 2,
           "fen": "W:W26,46,48:B13,15,K16,K17,K18,K19",
           "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0095_d1",
-          "source": "SIJBRANDS",
-          "page": 95,
-          "number": 1,
-          "fen": "W:WK1:B10,21",
-          "kind": "human"
         }
       ]
     },
@@ -599,27 +599,27 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0003_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 3,
+          "number": 1,
+          "fen": "W:W25,34,35,38,39:B14,15,19,20,24",
+          "kind": "pdf"
+        },
+        {
+          "id": "FINS_DE_PARTIE_p0007_d1",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
+          "number": 1,
+          "fen": "W:W9,29,K38:BK33",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0007_d5",
           "source": "GOEDEMOED3",
           "page": 7,
           "number": 5,
           "fen": "W:W22,27,31,32,36,37,38,39,44:B6,11,13,14,16,21,23,24,30",
-          "kind": "auto"
-        },
-        {
-          "id": "KELLER_p0095_d1",
-          "source": "KELLER",
-          "page": 95,
-          "number": 1,
-          "fen": "W:W13,20,31,41,42:B3,5,10,14,15",
-          "kind": "auto"
-        },
-        {
-          "id": "ROOZENBURG_p0034_d1",
-          "source": "ROOZENBURG",
-          "page": 34,
-          "number": 1,
-          "fen": "W:W24,28,29,34,36,37,39,42,43:B1,2,7,8,9,13,15,20,25",
           "kind": "auto"
         }
       ]
@@ -661,6 +661,14 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0007_d2",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
+          "number": 2,
+          "fen": "W:W16,K50:B25,K7",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0027_d1",
           "source": "GOEDEMOED3",
           "page": 27,
@@ -669,20 +677,12 @@
           "kind": "auto"
         },
         {
-          "id": "GOEDEMOED_p0019_d1",
-          "source": "GOEDEMOED",
-          "page": 19,
+          "id": "PERF_SDJ_T1_p0007_d1",
+          "source": "PERF_SDJ_T1",
+          "page": 7,
           "number": 1,
-          "fen": "W:W13,26:B6,14,16",
-          "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0054_d1",
-          "source": "SIJBRANDS",
-          "page": 54,
-          "number": 1,
-          "fen": "W:W24,34,43:B4,13,19",
-          "kind": "human"
+          "fen": "W:W27,28,32,37:B16,18,21,26",
+          "kind": "pdf"
         }
       ]
     },
@@ -723,27 +723,27 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0004_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 4,
+          "number": 2,
+          "fen": "W:W25,28,29,30,35,37,39,47:B5,10,14,15,16,17,19,20",
+          "kind": "pdf"
+        },
+        {
+          "id": "FINS_DE_PARTIE_p0007_d2",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
+          "number": 2,
+          "fen": "W:W16,K50:B25,K7",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0011_d8",
           "source": "GOEDEMOED3",
           "page": 11,
           "number": 8,
           "fen": "W:W25,31,32,33,34,39,45,47,50:B2,10,13,14,15,17,18,19,30",
-          "kind": "auto"
-        },
-        {
-          "id": "KELLER_p0095_d1",
-          "source": "KELLER",
-          "page": 95,
-          "number": 1,
-          "fen": "W:W13,20,31,41,42:B3,5,10,14,15",
-          "kind": "auto"
-        },
-        {
-          "id": "ROOZENBURG_p0034_d1",
-          "source": "ROOZENBURG",
-          "page": 34,
-          "number": 1,
-          "fen": "W:W24,28,29,34,36,37,39,42,43:B1,2,7,8,9,13,15,20,25",
           "kind": "auto"
         }
       ]
@@ -796,19 +796,19 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0020_d3",
+          "source": "ENCHAINEMENTS",
+          "page": 20,
+          "number": 3,
+          "fen": "W:W24,26,27,31,32,34,36,37,38,39,40,43,44,45,48,49:B2,3,6,7,8,9,11,12,13,15,16,18,20,22,23,25",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d1",
           "source": "GOEDEMOED3",
           "page": 6,
           "number": 1,
           "fen": "W:W27,28,30,32,33,35,36,37,38,42,44,45,48:B3,8,9,13,14,15,16,18,19,21,23,24,25",
-          "kind": "auto"
-        },
-        {
-          "id": "SPRINGER_p0009_d1",
-          "source": "SPRINGER",
-          "page": 9,
-          "number": 1,
-          "fen": "W:W27,32,33,34,35,37,38,42,43,45,48,50:B4,6,8,9,11,14,15,16,17,18,19,23",
           "kind": "auto"
         }
       ]
@@ -860,19 +860,19 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0063_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 63,
+          "number": 1,
+          "fen": "W:W27,28,31,33,34,35,36,37,38,40,41,42,43,44,45,47,48,49,50:B2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,22,24",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d1",
           "source": "GOEDEMOED3",
           "page": 6,
           "number": 1,
           "fen": "W:W27,28,30,32,33,35,36,37,38,42,44,45,48:B3,8,9,13,14,15,16,18,19,21,23,24,25",
-          "kind": "auto"
-        },
-        {
-          "id": "SPRINGER_p0009_d4",
-          "source": "SPRINGER",
-          "page": 9,
-          "number": 4,
-          "fen": "W:W27,28,30,31,32,33,34,35,36,37,38,42,43:B1,3,7,8,9,11,12,13,16,19,23,24,26",
           "kind": "auto"
         }
       ]
@@ -924,19 +924,19 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0021_d3",
+          "source": "ENCHAINEMENTS",
+          "page": 21,
+          "number": 3,
+          "fen": "W:W25,26,27,31,33,35,36,39,42,44,47,48,49:B3,7,8,9,11,12,16,17,18,19,22,23,24",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d1",
           "source": "GOEDEMOED3",
           "page": 6,
           "number": 1,
           "fen": "W:W27,28,30,32,33,35,36,37,38,42,44,45,48:B3,8,9,13,14,15,16,18,19,21,23,24,25",
-          "kind": "auto"
-        },
-        {
-          "id": "ROOZENBURG_p0069_d1",
-          "source": "ROOZENBURG",
-          "page": 69,
-          "number": 1,
-          "fen": "W:W25,26,28,30,31,32,33,35,36,37,38,40,42,43,45,47,49:B3,5,6,7,9,11,12,13,14,15,17,19,21,22,23,24,27",
           "kind": "auto"
         }
       ]
@@ -1310,12 +1310,12 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED3_p0006_d1",
-          "source": "GOEDEMOED3",
-          "page": 6,
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
           "number": 1,
-          "fen": "W:W27,28,30,32,33,35,36,37,38,42,44,45,48:B3,8,9,13,14,15,16,18,19,21,23,24,25",
-          "kind": "auto"
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         }
       ]
     },
@@ -1365,20 +1365,20 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED3_p0007_d1",
-          "source": "GOEDEMOED3",
-          "page": 7,
+          "id": "ENCHAINEMENTS_p0019_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 19,
           "number": 1,
-          "fen": "W:W22,27,28,31,32,33,36,37,39,40,46:B1,9,11,13,16,17,18,19,20,21,26",
-          "kind": "auto"
+          "fen": "W:W26,27,31,33,34,35,36,37,38,39,44,46,47,48,49:B2,3,6,8,9,11,12,13,15,16,17,18,20,22,24",
+          "kind": "pdf"
         },
         {
-          "id": "SIJBRANDS_p0040_d12",
-          "source": "SIJBRANDS",
-          "page": 40,
-          "number": 12,
-          "fen": "W:W25,26,31,34,35,36,38,41,43,46:B4,12,13,14,17,18,22,23,27,28",
-          "kind": "auto"
+          "id": "FINS_DE_PARTIE_p0010_d5",
+          "source": "FINS_DE_PARTIE",
+          "page": 10,
+          "number": 5,
+          "fen": "W:W25,37,K24,K46:B9,15,26",
+          "kind": "pdf"
         }
       ]
     },
@@ -1743,19 +1743,19 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0009_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 9,
+          "number": 2,
+          "fen": "W:W29,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,20,24,25",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d2",
           "source": "GOEDEMOED3",
           "page": 6,
           "number": 2,
           "fen": "W:W23,24,26,28,29,34,37,38,39,40,42,43,47:B2,3,5,8,12,13,14,15,16,17,22,25,36",
-          "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0024_d5",
-          "source": "SIJBRANDS",
-          "page": 24,
-          "number": 5,
-          "fen": "W:W26,29,32,33,34,35,36,37,38,39,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,12,13,14,15,17,18,19,20,21,22",
           "kind": "auto"
         }
       ]
@@ -2119,19 +2119,19 @@
           "kind": "human"
         },
         {
+          "id": "FINS_DE_PARTIE_p0007_d1",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
+          "number": 1,
+          "fen": "W:W9,29,K38:BK33",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0013_d1",
           "source": "GOEDEMOED3",
           "page": 13,
           "number": 1,
           "fen": "W:W15,28,36,37,38,39,41:B4,13,16,18,26,27,45",
-          "kind": "auto"
-        },
-        {
-          "id": "SPRINGER_p0067_d3",
-          "source": "SPRINGER",
-          "page": 67,
-          "number": 3,
-          "fen": "W:W15,25,30,31,36,38,39,43,46,47,48,49:B3,4,11,12,13,14,17,18,19,22,23,27",
           "kind": "auto"
         }
       ]
@@ -2190,12 +2190,12 @@
           "kind": "human"
         },
         {
-          "id": "KELLER_p0024_d1",
-          "source": "KELLER",
-          "page": 24,
-          "number": 1,
-          "fen": "W:W23,24,27,29,33,34,35,38,39,40,44,47,49:B2,5,7,8,10,11,12,13,14,15,18,20,25,36",
-          "kind": "auto"
+          "id": "FINS_DE_PARTIE_p0007_d3",
+          "source": "FINS_DE_PARTIE",
+          "page": 7,
+          "number": 3,
+          "fen": "W:W24,40,K33:B41",
+          "kind": "pdf"
         }
       ]
     },
@@ -2245,20 +2245,20 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED_p0003_d7",
-          "source": "GOEDEMOED",
-          "page": 3,
-          "number": 7,
-          "fen": "W:W26,27,28,31,32,33,35,36,37,38,39,41,42,44,45,48,49,50:B3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,24",
-          "kind": "auto"
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
+          "number": 1,
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED3_p0018_d2",
-          "source": "GOEDEMOED3",
-          "page": 18,
+          "id": "ENCHAINEMENTS_p0009_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 9,
           "number": 2,
-          "fen": "W:W24,26,29,33,34,36,37,38,39,40,41,42,43,44,45,46,47,48,49:B2,3,4,5,6,7,8,9,11,12,13,14,15,17,18,20,21,22,23",
-          "kind": "auto"
+          "fen": "W:W29,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,20,24,25",
+          "kind": "pdf"
         }
       ]
     },
@@ -2308,20 +2308,20 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED_p0003_d7",
-          "source": "GOEDEMOED",
-          "page": 3,
-          "number": 7,
-          "fen": "W:W26,27,28,31,32,33,35,36,37,38,39,41,42,44,45,48,49,50:B3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,24",
-          "kind": "auto"
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
+          "number": 1,
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED3_p0018_d2",
-          "source": "GOEDEMOED3",
-          "page": 18,
+          "id": "ENCHAINEMENTS_p0009_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 9,
           "number": 2,
-          "fen": "W:W24,26,29,33,34,36,37,38,39,40,41,42,43,44,45,46,47,48,49:B2,3,4,5,6,7,8,9,11,12,13,14,15,17,18,20,21,22,23",
-          "kind": "auto"
+          "fen": "W:W29,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,20,24,25",
+          "kind": "pdf"
         }
       ]
     },
@@ -2362,6 +2362,14 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0063_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 63,
+          "number": 1,
+          "fen": "W:W27,28,31,33,34,35,36,37,38,40,41,42,43,44,45,47,48,49,50:B2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,22,24",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED_p0003_d7",
           "source": "GOEDEMOED",
           "page": 3,
@@ -2375,14 +2383,6 @@
           "page": 32,
           "number": 1,
           "fen": "W:W27,28,33,34,35,36,37,38,39,40,41,42,43,44,45,47,48,49,50:B1,2,3,4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,20",
-          "kind": "auto"
-        },
-        {
-          "id": "ROOZENBURG_p0007_d4",
-          "source": "ROOZENBURG",
-          "page": 7,
-          "number": 4,
-          "fen": "W:W28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,47,48,49:B2,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22",
           "kind": "auto"
         }
       ]
@@ -2433,19 +2433,19 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0028_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 28,
+          "number": 2,
+          "fen": "W:W27,29,32,33,34,35,36,37,38,39,40,42,43,44,45,46,48,49:B1,2,3,4,6,7,8,9,10,11,12,14,15,18,20,24,25,26",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED_p0003_d7",
           "source": "GOEDEMOED",
           "page": 3,
           "number": 7,
           "fen": "W:W26,27,28,31,32,33,35,36,37,38,39,41,42,44,45,48,49,50:B3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,24",
-          "kind": "auto"
-        },
-        {
-          "id": "GOEDEMOED3_p0032_d1",
-          "source": "GOEDEMOED3",
-          "page": 32,
-          "number": 1,
-          "fen": "W:W27,28,33,34,35,36,37,38,39,40,41,42,43,44,45,47,48,49,50:B1,2,3,4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,20",
           "kind": "auto"
         }
       ]
@@ -2496,19 +2496,19 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0012_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 12,
+          "number": 1,
+          "fen": "W:W25,26,27,31,33,36,38,39,43,45,47,48,49,50:B2,3,4,6,8,12,13,15,16,17,18,19,22,23",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d1",
           "source": "GOEDEMOED3",
           "page": 6,
           "number": 1,
           "fen": "W:W27,28,30,32,33,35,36,37,38,42,44,45,48:B3,8,9,13,14,15,16,18,19,21,23,24,25",
-          "kind": "auto"
-        },
-        {
-          "id": "KELLER_p0024_d1",
-          "source": "KELLER",
-          "page": 24,
-          "number": 1,
-          "fen": "W:W23,24,27,29,33,34,35,38,39,40,44,47,49:B2,5,7,8,10,11,12,13,14,15,18,20,25,36",
           "kind": "auto"
         }
       ]
@@ -2551,6 +2551,14 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0049_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 49,
+          "number": 2,
+          "fen": "W:W25,27,31,33,35,36,38,40,41,42,43,44,45,47,48,49:B1,2,3,4,7,8,9,11,12,13,15,16,18,19,20,22",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d4",
           "source": "GOEDEMOED3",
           "page": 6,
@@ -2564,14 +2572,6 @@
           "page": 8,
           "number": 2,
           "fen": "W:W15,22,23,26,29,31,33,34,35,36,38,41,42,43,46,47,48,49:B2,3,4,6,7,8,9,11,12,13,17,18,25,27,28",
-          "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0161_d2",
-          "source": "SIJBRANDS",
-          "page": 161,
-          "number": 2,
-          "fen": "W:W27,29,31,32,34,35,37,38,39,47,48:B2,3,6,13,15,16,19,20,23,26,36",
           "kind": "auto"
         }
       ]
@@ -2630,12 +2630,12 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED3_p0006_d1",
-          "source": "GOEDEMOED3",
-          "page": 6,
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
           "number": 1,
-          "fen": "W:W27,28,30,32,33,35,36,37,38,42,44,45,48:B3,8,9,13,14,15,16,18,19,21,23,24,25",
-          "kind": "auto"
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         }
       ]
     },
@@ -2693,12 +2693,12 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED3_p0007_d1",
-          "source": "GOEDEMOED3",
-          "page": 7,
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
           "number": 1,
-          "fen": "W:W22,27,28,31,32,33,36,37,39,40,46:B1,9,11,13,16,17,18,19,20,21,26",
-          "kind": "auto"
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         }
       ]
     },
@@ -2747,20 +2747,20 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED_p0003_d7",
-          "source": "GOEDEMOED",
-          "page": 3,
-          "number": 7,
-          "fen": "W:W26,27,28,31,32,33,35,36,37,38,39,41,42,44,45,48,49,50:B3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,24",
-          "kind": "auto"
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
+          "number": 1,
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED3_p0018_d2",
-          "source": "GOEDEMOED3",
-          "page": 18,
+          "id": "ENCHAINEMENTS_p0009_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 9,
           "number": 2,
-          "fen": "W:W24,26,29,33,34,36,37,38,39,40,41,42,43,44,45,46,47,48,49:B2,3,4,5,6,7,8,9,11,12,13,14,15,17,18,20,21,22,23",
-          "kind": "auto"
+          "fen": "W:W29,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,20,24,25",
+          "kind": "pdf"
         }
       ]
     },
@@ -2810,20 +2810,20 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED_p0003_d7",
-          "source": "GOEDEMOED",
-          "page": 3,
-          "number": 7,
-          "fen": "W:W26,27,28,31,32,33,35,36,37,38,39,41,42,44,45,48,49,50:B3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,24",
-          "kind": "auto"
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
+          "number": 1,
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED3_p0018_d2",
-          "source": "GOEDEMOED3",
-          "page": 18,
+          "id": "ENCHAINEMENTS_p0009_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 9,
           "number": 2,
-          "fen": "W:W24,26,29,33,34,36,37,38,39,40,41,42,43,44,45,46,47,48,49:B2,3,4,5,6,7,8,9,11,12,13,14,15,17,18,20,21,22,23",
-          "kind": "auto"
+          "fen": "W:W29,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,20,24,25",
+          "kind": "pdf"
         }
       ]
     },
@@ -2873,20 +2873,20 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED_p0003_d7",
-          "source": "GOEDEMOED",
-          "page": 3,
-          "number": 7,
-          "fen": "W:W26,27,28,31,32,33,35,36,37,38,39,41,42,44,45,48,49,50:B3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,24",
-          "kind": "auto"
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
+          "number": 1,
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED3_p0018_d2",
-          "source": "GOEDEMOED3",
-          "page": 18,
+          "id": "ENCHAINEMENTS_p0009_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 9,
           "number": 2,
-          "fen": "W:W24,26,29,33,34,36,37,38,39,40,41,42,43,44,45,46,47,48,49:B2,3,4,5,6,7,8,9,11,12,13,14,15,17,18,20,21,22,23",
-          "kind": "auto"
+          "fen": "W:W29,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,20,24,25",
+          "kind": "pdf"
         }
       ]
     },
@@ -3053,6 +3053,14 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0049_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 49,
+          "number": 2,
+          "fen": "W:W25,27,31,33,35,36,38,40,41,42,43,44,45,47,48,49:B1,2,3,4,7,8,9,11,12,13,15,16,18,19,20,22",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d4",
           "source": "GOEDEMOED3",
           "page": 6,
@@ -3066,14 +3074,6 @@
           "page": 8,
           "number": 2,
           "fen": "W:W15,22,23,26,29,31,33,34,35,36,38,41,42,43,46,47,48,49:B2,3,4,6,7,8,9,11,12,13,17,18,25,27,28",
-          "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0161_d2",
-          "source": "SIJBRANDS",
-          "page": 161,
-          "number": 2,
-          "fen": "W:W27,29,31,32,34,35,37,38,39,47,48:B2,3,6,13,15,16,19,20,23,26,36",
           "kind": "auto"
         }
       ]
@@ -3311,20 +3311,20 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED_p0003_d7",
-          "source": "GOEDEMOED",
-          "page": 3,
-          "number": 7,
-          "fen": "W:W26,27,28,31,32,33,35,36,37,38,39,41,42,44,45,48,49,50:B3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,24",
-          "kind": "auto"
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
+          "number": 1,
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED3_p0018_d2",
-          "source": "GOEDEMOED3",
-          "page": 18,
+          "id": "ENCHAINEMENTS_p0009_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 9,
           "number": 2,
-          "fen": "W:W24,26,29,33,34,36,37,38,39,40,41,42,43,44,45,46,47,48,49:B2,3,4,5,6,7,8,9,11,12,13,14,15,17,18,20,21,22,23",
-          "kind": "auto"
+          "fen": "W:W29,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,20,24,25",
+          "kind": "pdf"
         }
       ]
     },
@@ -3456,20 +3456,20 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED_p0003_d7",
-          "source": "GOEDEMOED",
-          "page": 3,
-          "number": 7,
-          "fen": "W:W26,27,28,31,32,33,35,36,37,38,39,41,42,44,45,48,49,50:B3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,24",
-          "kind": "auto"
+          "id": "COUTTET_p0001_d1",
+          "source": "COUTTET",
+          "page": 1,
+          "number": 1,
+          "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED3_p0018_d2",
-          "source": "GOEDEMOED3",
-          "page": 18,
+          "id": "ENCHAINEMENTS_p0009_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 9,
           "number": 2,
-          "fen": "W:W24,26,29,33,34,36,37,38,39,40,41,42,43,44,45,46,47,48,49:B2,3,4,5,6,7,8,9,11,12,13,14,15,17,18,20,21,22,23",
-          "kind": "auto"
+          "fen": "W:W29,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,20,24,25",
+          "kind": "pdf"
         }
       ]
     },
@@ -3695,12 +3695,12 @@
           "kind": "auto"
         },
         {
-          "id": "SIJBRANDS_p0064_d1",
-          "source": "SIJBRANDS",
-          "page": 64,
-          "number": 1,
-          "fen": "W:W27,32,33,34,35,37,38,39,42,47,48:B2,3,6,9,15,16,19,20,21,23,36",
-          "kind": "auto"
+          "id": "PERF_COMBINAISONS_p0024_d3",
+          "source": "PERF_COMBINAISONS",
+          "page": 24,
+          "number": 3,
+          "fen": "W:W27,28,34,37,38,39,40,43,44,47,50:B3,4,7,8,9,12,14,17,19,24,36",
+          "kind": "pdf"
         }
       ]
     },
@@ -3750,20 +3750,20 @@
           "kind": "auto"
         },
         {
-          "id": "SPRINGER_p0067_d3",
-          "source": "SPRINGER",
-          "page": 67,
-          "number": 3,
-          "fen": "W:W15,25,30,31,36,38,39,43,46,47,48,49:B3,4,11,12,13,14,17,18,19,22,23,27",
-          "kind": "auto"
+          "id": "PERF_COMBINAISONS_p0024_d8",
+          "source": "PERF_COMBINAISONS",
+          "page": 24,
+          "number": 8,
+          "fen": "W:W15,28,31,32,33,34,36,37,38,39,41,42,43,44,45,46,48:B3,4,6,7,8,9,10,11,13,16,17,18,19,21,22,25,26",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED_p0011_d8",
-          "source": "GOEDEMOED",
-          "page": 11,
-          "number": 8,
-          "fen": "W:W15,26,27,30,31,32,36,37,38,39,45:B4,6,7,8,11,12,16,17,18,22,23",
-          "kind": "auto"
+          "id": "PERF_SDJ_T2_p0101_d2",
+          "source": "PERF_SDJ_T2",
+          "page": 101,
+          "number": 2,
+          "fen": "W:W15,27,30,32,33,36,37,38,42,48,50:B4,6,8,9,11,13,14,16,18,19,26",
+          "kind": "pdf"
         }
       ]
     },
@@ -3821,12 +3821,12 @@
           "kind": "human"
         },
         {
-          "id": "GOEDEMOED3_p0006_d1",
-          "source": "GOEDEMOED3",
-          "page": 6,
+          "id": "ENCHAINEMENTS_p0012_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 12,
           "number": 1,
-          "fen": "W:W27,28,30,32,33,35,36,37,38,42,44,45,48:B3,8,9,13,14,15,16,18,19,21,23,24,25",
-          "kind": "auto"
+          "fen": "W:W25,26,27,31,33,36,38,39,43,45,47,48,49,50:B2,3,4,6,8,12,13,15,16,17,18,19,22,23",
+          "kind": "pdf"
         }
       ]
     },
@@ -3981,20 +3981,20 @@
           "kind": "auto"
         },
         {
-          "id": "SPRINGER_p0067_d3",
-          "source": "SPRINGER",
-          "page": 67,
-          "number": 3,
-          "fen": "W:W15,25,30,31,36,38,39,43,46,47,48,49:B3,4,11,12,13,14,17,18,19,22,23,27",
-          "kind": "auto"
+          "id": "PERF_COMBINAISONS_p0024_d8",
+          "source": "PERF_COMBINAISONS",
+          "page": 24,
+          "number": 8,
+          "fen": "W:W15,28,31,32,33,34,36,37,38,39,41,42,43,44,45,46,48:B3,4,6,7,8,9,10,11,13,16,17,18,19,21,22,25,26",
+          "kind": "pdf"
         },
         {
-          "id": "GOEDEMOED_p0011_d8",
-          "source": "GOEDEMOED",
-          "page": 11,
-          "number": 8,
-          "fen": "W:W15,26,27,30,31,32,36,37,38,39,45:B4,6,7,8,11,12,16,17,18,22,23",
-          "kind": "auto"
+          "id": "PERF_SDJ_T2_p0101_d2",
+          "source": "PERF_SDJ_T2",
+          "page": 101,
+          "number": 2,
+          "fen": "W:W15,27,30,32,33,36,37,38,42,48,50:B4,6,8,9,11,13,14,16,18,19,26",
+          "kind": "pdf"
         }
       ]
     },
@@ -4129,19 +4129,19 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0014_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 14,
+          "number": 1,
+          "fen": "W:W28,29,33,34,35,36,37,38,39,42,43,47,49:B3,8,12,13,14,15,16,17,18,20,24,25,26",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d2",
           "source": "GOEDEMOED3",
           "page": 6,
           "number": 2,
           "fen": "W:W23,24,26,28,29,34,37,38,39,40,42,43,47:B2,3,5,8,12,13,14,15,16,17,22,25,36",
-          "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0070_d12",
-          "source": "SIJBRANDS",
-          "page": 70,
-          "number": 12,
-          "fen": "W:W24,25,29,33,34,36,37,38,43,48:B2,6,8,12,13,14,15,16,18,22",
           "kind": "auto"
         }
       ]
@@ -4192,19 +4192,19 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0012_d1",
+          "source": "ENCHAINEMENTS",
+          "page": 12,
+          "number": 1,
+          "fen": "W:W25,26,27,31,33,36,38,39,43,45,47,48,49,50:B2,3,4,6,8,12,13,15,16,17,18,19,22,23",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d1",
           "source": "GOEDEMOED3",
           "page": 6,
           "number": 1,
           "fen": "W:W27,28,30,32,33,35,36,37,38,42,44,45,48:B3,8,9,13,14,15,16,18,19,21,23,24,25",
-          "kind": "auto"
-        },
-        {
-          "id": "KELLER_p0024_d1",
-          "source": "KELLER",
-          "page": 24,
-          "number": 1,
-          "fen": "W:W23,24,27,29,33,34,35,38,39,40,44,47,49:B2,5,7,8,10,11,12,13,14,15,18,20,25,36",
           "kind": "auto"
         }
       ]
@@ -4310,6 +4310,14 @@
           "kind": "human"
         },
         {
+          "id": "ENCHAINEMENTS_p0049_d2",
+          "source": "ENCHAINEMENTS",
+          "page": 49,
+          "number": 2,
+          "fen": "W:W25,27,31,33,35,36,38,40,41,42,43,44,45,47,48,49:B1,2,3,4,7,8,9,11,12,13,15,16,18,19,20,22",
+          "kind": "pdf"
+        },
+        {
           "id": "GOEDEMOED3_p0006_d4",
           "source": "GOEDEMOED3",
           "page": 6,
@@ -4323,14 +4331,6 @@
           "page": 8,
           "number": 2,
           "fen": "W:W15,22,23,26,29,31,33,34,35,36,38,41,42,43,46,47,48,49:B2,3,4,6,7,8,9,11,12,13,17,18,25,27,28",
-          "kind": "auto"
-        },
-        {
-          "id": "SIJBRANDS_p0161_d2",
-          "source": "SIJBRANDS",
-          "page": 161,
-          "number": 2,
-          "fen": "W:W27,29,31,32,34,35,37,38,39,47,48:B2,3,6,13,15,16,19,20,23,26,36",
           "kind": "auto"
         }
       ]

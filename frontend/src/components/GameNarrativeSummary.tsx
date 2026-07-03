@@ -252,6 +252,20 @@ export default function GameNarrativeSummary({
                     « {top.text.slice(0, 160).trim()}… » — {top.source}
                   </p>
                 )}
+                {(rec.readers?.length ?? 0) > 0 && onOpenManual && (
+                  <div className="flex flex-wrap gap-1.5 mt-1.5">
+                    {rec.readers!.map(r => (
+                      <button
+                        key={r.id}
+                        onClick={() => onOpenManual(r.id)}
+                        className="px-1.5 py-0.5 text-[11px] rounded bg-gray-700/60 text-gray-200 hover:bg-amber-700/50 hover:text-amber-100 cursor-pointer"
+                        title={fr ? 'Ouvrir dans la Bibliothèque' : 'Open in the Library'}
+                      >
+                        📖 {r.book}
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
             )
           })}

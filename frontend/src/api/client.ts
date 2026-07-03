@@ -872,6 +872,8 @@ export interface ReadingRecommendation {
   label_en: string
   reason: string
   passages: ReadingRecoPassage[]
+  /** Interactive readers (Bibliothèque entry ids) recommended for this topic. */
+  readers?: { id: string; book: string }[]
 }
 
 export async function getRecommendedReading(

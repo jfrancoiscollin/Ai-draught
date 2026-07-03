@@ -60,6 +60,30 @@ _TACTIC_REASON = {
     "en": "You suffered or missed tactical shots.",
 }
 
+# Topic → interactive readers in the Bibliothèque (id = reader entry id the
+# frontend can open directly). These are the PDF-extracted books, which are
+# not part of the prose-embedding corpus, so they are recommended here by
+# topic rather than retrieved by centroid.
+_TOPIC_READERS = {
+    "ouverture": [
+        {"id": "couttet_ouvertures", "book": "Couttet — Étude des ouvertures"},
+        {"id": "referentiel_systemes", "book": "Dubois — Référentiel des systèmes de jeu"},
+    ],
+    "plans": [
+        {"id": "enchainements", "book": "Grégoire — Les enchaînements"},
+        {"id": "perf_sens_du_jeu_t2", "book": "Dubois — Perfectionnement : le sens du jeu (t.2)"},
+    ],
+    "principes": [
+        {"id": "perf_sens_du_jeu_t1", "book": "Dubois — Perfectionnement : le sens du jeu (t.1)"},
+    ],
+    "pieges": [
+        {"id": "perfectionnement_combinaisons", "book": "Dubois — Perfectionnement : les combinaisons"},
+    ],
+    "finales": [
+        {"id": "fins_de_partie", "book": "Dubois — Apprendre les fins de partie"},
+    ],
+}
+
 
 def _aggregate(verdicts: Iterable[Any], user_side: str) -> dict[str, Any]:
     """Sum the user-side cost per phase, structural-weakness counts and the
@@ -186,5 +210,6 @@ def recommend_reading(
             "label_en": topic.label_en,
             "reason": sig["reason"],
             "passages": passages,
+            "readers": _TOPIC_READERS.get(topic.key, []),
         })
     return out
