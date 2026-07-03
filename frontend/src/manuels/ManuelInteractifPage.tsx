@@ -80,11 +80,15 @@ export default function ManuelInteractifPage({ onClose, source, parcoursId, init
     }
   }
 
-  // Direct-open mode: a specific reader was requested (manual link or module).
+  // Direct-open mode: a specific reader was requested (manual link, curriculum
+  // module, or any library entry id — e.g. a reading recommendation's reader).
   const directId = parcoursId ?? (source ? source.toLowerCase() : null)
+  const libraryEntry = directId
+    ? LIBRARY_SECTIONS.flatMap(s => s.entries).find(e => e.id === directId)
+    : undefined
   const directEntry: ReaderEntry | undefined = parcoursId
-    ? PARCOURS_MANUELS[parcoursId]
-    : (directId ? MANUELS.find(m => m.id === directId) : undefined)
+    ? (PARCOURS_MANUELS[parcoursId] ?? libraryEntry)
+    : (directId ? (MANUELS.find(m => m.id === directId) ?? libraryEntry) : undefined)
   useEffect(() => {
     if (directEntry && (!open || open.entry.id !== directEntry.id)) {
       void openManuel(directEntry)
