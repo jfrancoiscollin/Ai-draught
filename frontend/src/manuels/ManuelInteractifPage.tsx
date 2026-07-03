@@ -19,10 +19,17 @@ type ReaderEntry = ManuelEntry
 // books. The synthesised "Manuel Débutant" is intentionally excluded — only
 // original books are shown.
 const _LESSON_BOOK_IDS = ['manuel_dubois_combinaisons', 'manuel_dubois_sens_du_jeu']
+// Standalone reader extracted straight from the PDF (not a curriculum module).
+const _PERF_COMBI: ReaderEntry = {
+  id: 'perfectionnement_combinaisons',
+  book: 'Dubois — Perfectionnement : les combinaisons',
+  level: 'Avancé',
+  load: () => import('./data/perfectionnement_combinaisons'),
+}
 const LIBRARY_SECTIONS: { title: string; entries: ReaderEntry[] }[] = [
   {
     title: 'Cours & exercices',
-    entries: _LESSON_BOOK_IDS.map(id => PARCOURS_MANUELS[id]).filter(Boolean),
+    entries: [..._LESSON_BOOK_IDS.map(id => PARCOURS_MANUELS[id]).filter(Boolean), _PERF_COMBI],
   },
   { title: 'Livres théoriques', entries: MANUELS },
 ]
