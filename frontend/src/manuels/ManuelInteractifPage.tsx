@@ -38,6 +38,7 @@ const _SYSTEMES: ReaderEntry[] = [
   { id: 'perf_sens_du_jeu_t1', book: 'Dubois — Perfectionnement : le sens du jeu (t.1)', level: 'Perfectionnement', load: () => import('./data/perf_sens_du_jeu_t1') },
   { id: 'perf_sens_du_jeu_t2', book: 'Dubois — Perfectionnement : le sens du jeu (t.2)', level: 'Perfectionnement', load: () => import('./data/perf_sens_du_jeu_t2') },
   { id: 'perf_sens_du_jeu_t3', book: 'Dubois — Perfectionnement : le sens du jeu (t.3)', level: 'Perfectionnement', load: () => import('./data/perf_sens_du_jeu_t3') },
+  { id: 'enchainements', book: 'Grégoire — Les enchaînements', level: 'Stratégie', load: () => import('./data/enchainements') },
 ]
 const LIBRARY_SECTIONS: { title: string; entries: ReaderEntry[] }[] = [
   {
