@@ -32,6 +32,13 @@ const _FINS_DE_PARTIE: ReaderEntry = {
   level: 'Finales',
   load: () => import('./data/fins_de_partie'),
 }
+// Prose theory books (systems + positional perfectionnement), extracted PDF→reader.
+const _SYSTEMES: ReaderEntry[] = [
+  { id: 'referentiel_systemes', book: 'Dubois — Référentiel des systèmes de jeu', level: 'Systèmes', load: () => import('./data/referentiel_systemes') },
+  { id: 'perf_sens_du_jeu_t1', book: 'Dubois — Perfectionnement : le sens du jeu (t.1)', level: 'Perfectionnement', load: () => import('./data/perf_sens_du_jeu_t1') },
+  { id: 'perf_sens_du_jeu_t2', book: 'Dubois — Perfectionnement : le sens du jeu (t.2)', level: 'Perfectionnement', load: () => import('./data/perf_sens_du_jeu_t2') },
+  { id: 'perf_sens_du_jeu_t3', book: 'Dubois — Perfectionnement : le sens du jeu (t.3)', level: 'Perfectionnement', load: () => import('./data/perf_sens_du_jeu_t3') },
+]
 const LIBRARY_SECTIONS: { title: string; entries: ReaderEntry[] }[] = [
   {
     title: 'Cours & exercices',
@@ -40,6 +47,7 @@ const LIBRARY_SECTIONS: { title: string; entries: ReaderEntry[] }[] = [
       _PERF_COMBI, _FINS_DE_PARTIE,
     ],
   },
+  { title: 'Systèmes & perfectionnement', entries: _SYSTEMES },
   { title: 'Livres théoriques', entries: MANUELS },
 ]
 
