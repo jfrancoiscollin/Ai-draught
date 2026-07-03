@@ -26,10 +26,19 @@ const _PERF_COMBI: ReaderEntry = {
   level: 'Avancé',
   load: () => import('./data/perfectionnement_combinaisons'),
 }
+const _FINS_DE_PARTIE: ReaderEntry = {
+  id: 'fins_de_partie',
+  book: 'Dubois — Apprendre les fins de partie',
+  level: 'Finales',
+  load: () => import('./data/fins_de_partie'),
+}
 const LIBRARY_SECTIONS: { title: string; entries: ReaderEntry[] }[] = [
   {
     title: 'Cours & exercices',
-    entries: [..._LESSON_BOOK_IDS.map(id => PARCOURS_MANUELS[id]).filter(Boolean), _PERF_COMBI],
+    entries: [
+      ..._LESSON_BOOK_IDS.map(id => PARCOURS_MANUELS[id]).filter(Boolean),
+      _PERF_COMBI, _FINS_DE_PARTIE,
+    ],
   },
   { title: 'Livres théoriques', entries: MANUELS },
 ]

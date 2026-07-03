@@ -32,11 +32,15 @@ def analyze_board_fen(
     sample_radius: int = 9,
     white_threshold: float = 218.0,
     black_threshold: float = 115.0,
+    detect_kings: bool = False,
+    king_vext_threshold: float = 0.83,
 ) -> str:
     """
     Sample every dark square of the board and classify it as white piece,
     black piece, or empty.  Returns an FEN string like:
         W:W25,32,33:B14,19
+    With ``detect_kings=True`` a stacked disc (a *dame*) is recognised and the
+    square is prefixed ``K`` (e.g. ``W:W25,K33:B14`` — needed for endgame books).
 
     Parameters
     ----------
@@ -47,7 +51,14 @@ def analyze_board_fen(
     sample_radius   half-width of the square sample (r × r pixel patch)
     white_threshold center mean > this → white piece on square
     black_threshold center mean < this → black piece on square
+    detect_kings    classify men vs kings by piece height (Dubois stacked disc)
+    king_vext_threshold  piece vertical extent (fraction of the square) above
+                    which the disc is a king; men ≈ 0.7, kings ≈ 0.9
     """
+    if detect_kings:
+        return _analyze_with_kings(gray, x1, y1, x2, y2, to_move,
+                                   white_threshold, black_threshold, king_vext_threshold)
+
     # Inner board (exclude border lines)
     x1i = x1 + margin_px
     y1i = y1 + margin_px
@@ -85,6 +96,60 @@ def analyze_board_fen(
     return f'{to_move}:W{w_part}:B{b_part}'
 
 
+def _analyze_with_kings(
+    gray: np.ndarray, x1: int, y1: int, x2: int, y2: int, to_move: str,
+    white_threshold: float, black_threshold: float, king_vext: float,
+) -> str:
+    """FEN extraction that also tells men from kings by the disc *height*.
+
+    A Dubois man is a single disc; a *dame* is a stack of discs, so its
+    silhouette is markedly taller. We measure the vertical extent of the
+    high-contrast (fill + outline) pixels in the square's central band and call
+    it a king when that extent exceeds ``king_vext`` of the square.
+    """
+    sq_w = (x2 - x1) / 10.0
+    sq_h = (y2 - y1) / 10.0
+    men_w: List[int] = []
+    men_b: List[int] = []
+    kings_w: List[int] = []
+    kings_b: List[int] = []
+    m = 0.16  # inner margin (skip the grid lines)
+    for row in range(10):
+        for col in range(10):
+            sq = sq_number(row, col)
+            if sq is None:
+                continue
+            cy0 = y1 + row * sq_h
+            cx0 = x1 + col * sq_w
+            iy0, iy1 = int(cy0 + m * sq_h), int(cy0 + (1 - m) * sq_h)
+            ix0, ix1 = int(cx0 + m * sq_w), int(cx0 + (1 - m) * sq_w)
+            inner = gray[iy0:iy1, ix0:ix1].astype(int)
+            h, w = inner.shape
+            if h < 6 or w < 6:
+                continue
+            band = inner[:, int(w * 0.30):int(w * 0.70)]
+            mask = (band > white_threshold) | (band < black_threshold)
+            rows = np.where(mask.mean(axis=1) > 0.15)[0]
+            if len(rows) < 2:
+                continue
+            vext = (rows[-1] - rows[0] + 1) / h
+            if vext < 0.35:  # not a disc, just noise
+                continue
+            bright = float((inner > 210).mean())
+            dark = float((inner < 95).mean())
+            is_white = bright >= dark
+            is_king = vext > king_vext
+            if is_white:
+                (kings_w if is_king else men_w).append(sq)
+            else:
+                (kings_b if is_king else men_b).append(sq)
+
+    def grp(men: List[int], kings: List[int]) -> str:
+        return ','.join([str(s) for s in sorted(men)]
+                        + [f'K{s}' for s in sorted(kings)])
+    return f'{to_move}:W{grp(men_w, kings_w)}:B{grp(men_b, kings_b)}'
+
+
 def validate_fen(fen: str) -> Tuple[bool, str]:
     """
     Basic FEN sanity check.  Returns (ok, reason).
@@ -96,13 +161,14 @@ def validate_fen(fen: str) -> Tuple[bool, str]:
     - At least one piece on each side
     """
     import re
-    m = re.match(r'^([WB]):W([\d,]*):B([\d,]*)$', fen)
+    m = re.match(r'^([WB]):W([K\d,]*):B([K\d,]*)$', fen)
     if not m:
         return False, f'Format mismatch: {fen!r}'
     to_move, w_str, b_str = m.group(1), m.group(2), m.group(3)
 
     def parse_squares(s: str) -> List[int]:
-        return [int(x) for x in s.split(',') if x]
+        # squares may be king-prefixed (e.g. "K33") in endgame extraction
+        return [int(x.lstrip('K')) for x in s.split(',') if x]
 
     white = parse_squares(w_str)
     black = parse_squares(b_str)
