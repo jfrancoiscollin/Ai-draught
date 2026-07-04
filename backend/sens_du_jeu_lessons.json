@@ -40,39 +40,39 @@
     "category": "generalites",
     "diagrams": [
       {
-        "fen": "W:W:B16,17,21",
+        "fen": "W:W26,32:B16,17,21",
         "label": "L’enchaînement latéral"
       },
       {
-        "fen": "W:W:B12,16,17,18,22",
+        "fen": "W:W27,28,31,33:B12,16,17,18,22",
         "label": "L’enchaînement en tenaille"
       },
       {
-        "fen": "W:W25:B14,15,20",
+        "fen": "W:W25,29:B14,15,20",
         "label": "L’enchaînement latéral"
       },
       {
-        "fen": "W:W:B6,16,17",
+        "fen": "W:W26,27:B6,16,17",
         "label": "Le pion arrière"
       },
       {
-        "fen": "W:W:B12,17,18",
+        "fen": "W:W27,28:B12,17,18",
         "label": "Le pion suspendu"
       },
       {
-        "fen": "W:W:B15,24,25",
+        "fen": "W:W34,35:B15,24,25",
         "label": "Le pion arrière"
       },
       {
-        "fen": "W:W16,21:B7,11,12,17",
+        "fen": "W:W16,21,26:B7,11,12,17",
         "label": "Le trèfle immobilisateur"
       },
       {
-        "fen": "W:W36:B17,21,22,27",
+        "fen": "W:W26,31,36:B17,21,22,27",
         "label": "Le trèfle immobilisateur"
       },
       {
-        "fen": "W:W25:B14,15,19,20,24",
+        "fen": "W:W25,30,35:B14,15,19,20,24",
         "label": "Le trèfle immobilisateur"
       },
       {
@@ -96,7 +96,7 @@
         "label": "Diag. 14"
       },
       {
-        "fen": "W:W:B14",
+        "fen": "W:W15:B14",
         "label": "Diag. 15"
       },
       {
