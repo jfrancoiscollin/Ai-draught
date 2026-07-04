@@ -69,6 +69,12 @@ def entries(analyse: Callable[[str], dict[str, Any]]) -> Iterator[dict[str, Any]
         titles = {c["n"]: c["title"] for c in data.get("chapters", [])}
         counter: dict[int, int] = {}
         for pid, pos in data.get("positions", {}).items():
+            # Steppable game-line boards (``<SLUG>_line<k>``) are a reader-only
+            # convenience — their start is a mid-game position reached by a
+            # replayed line, not an extracted diagram. Keep the analysis
+            # material to the actual diagrams.
+            if "_line" in pid:
+                continue
             m = _PAGE_RE.search(pid)
             page = int(m.group(1)) if m else int(pos.get("ch") or 0)
             counter[page] = counter.get(page, 0) + 1

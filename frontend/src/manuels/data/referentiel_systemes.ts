@@ -90,11 +90,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line0",
+"ch": 1
+},
+{
 "type": "p",
 "ch": 1,
 "runs": [
 {
-"t": "17-22 !"
+"t": "Les noirs reforment leur flèche"
 }
 ]
 },
@@ -103,7 +108,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "27. 28x17 11x31"
+"t": "Les noirs s’approprient l’espace"
 }
 ]
 },
@@ -112,70 +117,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "28. 36x27 12-17 29. 33-28 8-12"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "30. 49-43 2-8"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "31. 39-33 7-11 Les noirs reforment leur flèche 6-11-17 32. 43-39 17-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "33. 28x17 11x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "34. 37x26 18-22 Les noirs s’approprient l’espace. 35. 32-27 22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "36. 26x37 13-18"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "37. 38-32 18-22 38. 32-27 22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "39. 37x26 On parvient ainsi à la position du second diagramme dans lequel on voit clairement que le centre blanc a volé en éclat. L’objectif pour les noirs est à présent de parachever le travail en occupant la case 27."
+"t": "On parvient ainsi à la position du second diagramme dans lequel on voit clairement que le centre blanc a volé en éclat. L’objectif pour les noirs est à présent de parachever le travail en occupant la case"
 }
 ]
 },
@@ -190,29 +132,16 @@ const DATA: ManuelData = {
 "ch": 1
 },
 {
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "39… 12-17"
-}
-]
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line1",
+"ch": 1
 },
 {
 "type": "p",
 "ch": 1,
 "runs": [
 {
-"t": "40. 42-38 6-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "41. 40-34 17-22 42. 34-30 22-27 Position du 3e diagramme dans laquelle l’avantage stratégique des noirs est flagrant."
+"t": "Position du 3e diagramme dans laquelle l’avantage stratégique des noirs est flagrant"
 }
 ]
 },
@@ -984,47 +913,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "12-17"
-}
-]
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line2",
+"ch": 3
 },
 {
 "type": "p",
 "ch": 3,
 "runs": [
 {
-"t": "2. 47-41 17-21 3. 41-36 23-29"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "4. 28-22 15-20 ! 5. 36-31 19-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "6. 33-28 29-33 7. 28x8 33x44"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "8. 22x13 44-50 Avec une fin de partie indécise."
+"t": "Avec une fin de partie indécise"
 }
 ]
 },
@@ -1048,11 +946,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line3",
+"ch": 3
+},
+{
 "type": "p",
 "ch": 3,
 "runs": [
 {
-"t": "12-17"
+"t": "La clé"
 }
 ]
 },
@@ -1061,34 +964,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "2. 49-44 17-21 3. 44-40 23-29"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "4. 39-34 ! La clé 4…"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "18-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "5. 27-22 ! La deuxième clé pour verrouiller la position."
+"t": "La deuxième clé pour verrouiller la position"
 }
 ]
 },
@@ -1451,40 +1327,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "15-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "2. 40-34 12-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "3. 34-30 17-21 4. 39-34 3-8"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "5. 28-22 etc."
-}
-]
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line4",
+"ch": 3
 },
 {
 "type": "p",
@@ -1822,11 +1667,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line5",
+"ch": 3
+},
+{
 "type": "p",
 "ch": 3,
 "runs": [
 {
-"t": "24-29"
+"t": "A leur tour, les noirs placent un pion kerkhof. Les blancs ont à présent le choix entre l’attaque, l’enchaînement, l’échange ou un coup neutre comme 35- Le coup le plus approprié à la situation semble ici"
 }
 ]
 },
@@ -1835,16 +1685,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "17. 33x24 20x29 A leur tour, les noirs placent un pion kerkhof. Les blancs ont à présent le choix entre l’attaque, l’enchaînement, l’échange ou un coup neutre comme 35-30. Le coup le plus approprié à la situation semble ici : 18. 40-34 29x40"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "19. 45x34 En jouant de cette manière, les blancs vont pouvoir exercer une pression sur le pion central 23. 19…"
+"t": "En jouant de cette manière, les blancs vont pouvoir exercer une pression sur le pion central"
 }
 ]
 },
@@ -2297,20 +2138,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "2. 40-34 14-20"
-}
-]
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line6",
+"ch": 3
 },
 {
 "type": "p",
 "ch": 3,
 "runs": [
 {
-"t": "3. 45-40 19-24 La formation du marchand de bois est en général tellement attractive que les joueurs n’hésitent pas à l’adopter, même avec 2 pions sur la grande diagonale. Il en résulte une forme de jeu équilibrée dans laquelle les enjeux sont principalement centrés sur l’occupation territoriale, avec une éventuelle intrusion sur la case 23. Les dégagements éventuels sont également à prendre en considération."
+"t": "La formation du marchand de bois est en général tellement attractive que les joueurs n’hésitent pas à l’adopter, même avec 2 pions sur la grande diagonale. Il en résulte une forme de jeu équilibrée dans laquelle les enjeux sont principalement centrés sur l’occupation territoriale, avec une éventuelle intrusion sur la case Les dégagements éventuels sont également à prendre en considération"
 }
 ]
 },
@@ -2358,29 +2195,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "14-20"
-}
-]
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line7",
+"ch": 3
 },
 {
 "type": "p",
 "ch": 3,
 "runs": [
 {
-"t": "2. 46-41 10-14 3. 41-37 5-10"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "4. 47-41 19-23 Attaque à contretemps qui force les blancs à fermer la case 34."
+"t": "Attaque à contretemps qui force les blancs à fermer la case"
 }
 ]
 },
@@ -2394,11 +2218,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line8",
+"ch": 3
+},
+{
 "type": "p",
 "ch": 3,
 "runs": [
 {
-"t": "24-30 !"
+"t": "Sur , l’aspect tactique prend le dessus par ( ) ( ) ( ) ( ) ( )"
 }
 ]
 },
@@ -2407,34 +2236,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "24. 35x24 19x30 25. 33-29 Sur 45-40, l’aspect tactique prend le dessus par (23-29) 33x35 (22-28) 32x23 (18x29) 34x23 (17-21) 26x17 (12x41). 25… 2-7"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "26. 45-40 14-19 27. 40-35 ? 47-41 s’imposait. A présent les noirs combinent par : 27… 17-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "28. 26x28 11-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "29. 35x24 19x30 30. 28x19 13x44"
+"t": "s’imposait. A présent les noirs combinent par"
 }
 ]
 },
@@ -2648,38 +2450,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "15-20"
-}
-]
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line9",
+"ch": 4
 },
 {
 "type": "p",
 "ch": 4,
 "runs": [
 {
-"t": "5. 30-25 10-15 6. 41-37 7-12"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "7. 38-32 1-7 8. 43-38 4-10"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "9. 46-41 Et les noirs n’ont plus de coup utile."
+"t": "Et les noirs n’ont plus de coup utile"
 }
 ]
 },
@@ -3753,11 +3533,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_line10",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "17-22"
+"t": "Après ( ) ( ) les noirs dament par ( ) ( ou )"
 }
 ]
 },
@@ -3766,7 +3551,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "2. 41-36 Après 48-43 (22x31) 32-28 (23x32) 38x36 les noirs dament par (14-20) 25x23 (18x47 ou 18x49) 2…"
+"t": "L’absence de pion noir en 16 évite les coups de la bombe. Après ( ) ( ) ( ) la position des blancs est loin d’être attrayante"
 }
 ]
 },
@@ -3775,61 +3560,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "3. 36x27 7-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "4. 33-28 12-17 ! L’absence de pion noir en 16 évite les coups de la bombe. 5. 37-31 Après 27-21 (8-12) 21-16 (3-9) 16x7 (12x1) la position des blancs est loin d’être attrayante. 5…"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "26x37"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "6. 42x31 17-22 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "7. 28x17 11x22 8. 31-26 22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "9. 26x37 8-12 Les blancs ont à présent une partie difficile à conduire."
+"t": "Les blancs ont à présent une partie difficile à conduire"
 }
 ]
 },
@@ -4749,9 +4480,9 @@ const DATA: ManuelData = {
 "title": "Diagramme p. 11",
 "start": {
 "wm": [
-31,
+27,
+28,
 32,
-33,
 34,
 35,
 36,
@@ -4789,60 +4520,14 @@ const DATA: ManuelData = {
 15,
 16,
 17,
-18,
 19,
-20
+23,
+24
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "33-28",
-"f": 33,
-"t": 28,
-"c": [],
-"path": [
-33,
-28
-],
-"p": false
-},
-{
-"n": "18-23",
-"f": 18,
-"t": 23,
-"c": [],
-"path": [
-18,
-23
-],
-"p": false
-},
-{
-"n": "31-27",
-"f": 31,
-"t": 27,
-"c": [],
-"path": [
-31,
-27
-],
-"p": false
-},
-{
-"n": "20-24",
-"f": 20,
-"t": 24,
-"c": [],
-"path": [
-20,
-24
-],
-"p": false
-}
-],
-"pub": "33-28 18-23 31-27 20-24"
+"moves": []
 },
 "REFERENTIEL_SYSTEMES_p12_0": {
 "id": "REFERENTIEL_SYSTEMES_p12_0",
@@ -5408,20 +5093,18 @@ const DATA: ManuelData = {
 "title": "Diagramme p. 21",
 "start": {
 "wm": [
-31,
+22,
+28,
+30,
 32,
-33,
-34,
 35,
 36,
 37,
 38,
 39,
 40,
-41,
 42,
 43,
-44,
 45,
 46,
 47,
@@ -5432,7 +5115,6 @@ const DATA: ManuelData = {
 "wk": [],
 "bm": [
 1,
-2,
 3,
 4,
 5,
@@ -5440,7 +5122,6 @@ const DATA: ManuelData = {
 7,
 8,
 9,
-10,
 11,
 12,
 13,
@@ -5448,244 +5129,14 @@ const DATA: ManuelData = {
 15,
 16,
 17,
-18,
 19,
-20
+23,
+29
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "33-28",
-"f": 33,
-"t": 28,
-"c": [],
-"path": [
-33,
-28
-],
-"p": false
-},
-{
-"n": "18-23",
-"f": 18,
-"t": 23,
-"c": [],
-"path": [
-18,
-23
-],
-"p": false
-},
-{
-"n": "39-33",
-"f": 39,
-"t": 33,
-"c": [],
-"path": [
-39,
-33
-],
-"p": false
-},
-{
-"n": "12-18",
-"f": 12,
-"t": 18,
-"c": [],
-"path": [
-12,
-18
-],
-"p": false
-},
-{
-"n": "44-39",
-"f": 44,
-"t": 39,
-"c": [],
-"path": [
-44,
-39
-],
-"p": false
-},
-{
-"n": "7-12",
-"f": 7,
-"t": 12,
-"c": [],
-"path": [
-7,
-12
-],
-"p": false
-},
-{
-"n": "31-27",
-"f": 31,
-"t": 27,
-"c": [],
-"path": [
-31,
-27
-],
-"p": false
-},
-{
-"n": "20-24",
-"f": 20,
-"t": 24,
-"c": [],
-"path": [
-20,
-24
-],
-"p": false
-},
-{
-"n": "37-31",
-"f": 37,
-"t": 31,
-"c": [],
-"path": [
-37,
-31
-],
-"p": false
-},
-{
-"n": "14-20",
-"f": 14,
-"t": 20,
-"c": [],
-"path": [
-14,
-20
-],
-"p": false
-},
-{
-"n": "41-37",
-"f": 41,
-"t": 37,
-"c": [],
-"path": [
-41,
-37
-],
-"p": false
-},
-{
-"n": "2-7",
-"f": 2,
-"t": 7,
-"c": [],
-"path": [
-2,
-7
-],
-"p": false
-},
-{
-"n": "27-22",
-"f": 27,
-"t": 22,
-"c": [],
-"path": [
-27,
-22
-],
-"p": false
-},
-{
-"n": "18x27",
-"f": 18,
-"t": 27,
-"c": [
-22
-],
-"path": [
-18,
-27
-],
-"p": false
-},
-{
-"n": "31x22",
-"f": 31,
-"t": 22,
-"c": [
-27
-],
-"path": [
-31,
-22
-],
-"p": false
-},
-{
-"n": "10-14",
-"f": 10,
-"t": 14,
-"c": [],
-"path": [
-10,
-14
-],
-"p": false
-},
-{
-"n": "34-30",
-"f": 34,
-"t": 30,
-"c": [],
-"path": [
-34,
-30
-],
-"p": false
-},
-{
-"n": "24-29",
-"f": 24,
-"t": 29,
-"c": [],
-"path": [
-24,
-29
-],
-"p": false
-},
-{
-"n": "33x24",
-"f": 33,
-"t": 24,
-"c": [
-29
-],
-"path": [
-33,
-24
-],
-"p": false
-},
-{
-"n": "20x29",
-"f": 20,
-"t": 29,
-"c": [
-24
-],
-"path": [
-20,
-29
-],
-"p": false
-}
-],
-"pub": "33-28 18-23 39-33 12-18 44-39 7-12 31-27 20-24 37-31 14-20 41-37 2-7 27-22 18x27 31x22 10-14 34-30 24-29 33x24 20x29"
+"moves": []
 },
 "REFERENTIEL_SYSTEMES_p23_0": {
 "id": "REFERENTIEL_SYSTEMES_p23_0",
@@ -5744,6 +5195,7 @@ const DATA: ManuelData = {
 "title": "Diagramme p. 24",
 "start": {
 "wm": [
+29,
 31,
 32,
 33,
@@ -5758,7 +5210,6 @@ const DATA: ManuelData = {
 42,
 43,
 44,
-45,
 46,
 47,
 48,
@@ -5780,86 +5231,18 @@ const DATA: ManuelData = {
 11,
 12,
 13,
-14,
 15,
 16,
 17,
 18,
-19,
-20
+20,
+24,
+25
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "34-29",
-"f": 34,
-"t": 29,
-"c": [],
-"path": [
-34,
-29
-],
-"p": false
-},
-{
-"n": "20-25",
-"f": 20,
-"t": 25,
-"c": [],
-"path": [
-20,
-25
-],
-"p": false
-},
-{
-"n": "40-34",
-"f": 40,
-"t": 34,
-"c": [],
-"path": [
-40,
-34
-],
-"p": false
-},
-{
-"n": "14-20",
-"f": 14,
-"t": 20,
-"c": [],
-"path": [
-14,
-20
-],
-"p": false
-},
-{
-"n": "45-40",
-"f": 45,
-"t": 40,
-"c": [],
-"path": [
-45,
-40
-],
-"p": false
-},
-{
-"n": "19-24",
-"f": 19,
-"t": 24,
-"c": [],
-"path": [
-19,
-24
-],
-"p": false
-}
-],
-"pub": "34-29 20-25 40-34 14-20 45-40 19-24"
+"moves": []
 },
 "REFERENTIEL_SYSTEMES_p24_1": {
 "id": "REFERENTIEL_SYSTEMES_p24_1",
@@ -6857,13 +6240,12 @@ const DATA: ManuelData = {
 "title": "Diagramme p. 43",
 "start": {
 "wm": [
+25,
+28,
 31,
-32,
 33,
-34,
 35,
 36,
-37,
 38,
 39,
 40,
@@ -6892,113 +6274,18 @@ const DATA: ManuelData = {
 10,
 11,
 12,
-13,
 14,
 15,
 16,
 17,
 18,
 19,
-20
+24
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "32-28",
-"f": 32,
-"t": 28,
-"c": [],
-"path": [
-32,
-28
-],
-"p": false
-},
-{
-"n": "20-24",
-"f": 20,
-"t": 24,
-"c": [],
-"path": [
-20,
-24
-],
-"p": false
-},
-{
-"n": "34-30",
-"f": 34,
-"t": 30,
-"c": [],
-"path": [
-34,
-30
-],
-"p": false
-},
-{
-"n": "18-23",
-"f": 18,
-"t": 23,
-"c": [],
-"path": [
-18,
-23
-],
-"p": false
-},
-{
-"n": "30-25",
-"f": 30,
-"t": 25,
-"c": [],
-"path": [
-30,
-25
-],
-"p": false
-},
-{
-"n": "23x32",
-"f": 23,
-"t": 32,
-"c": [
-28
-],
-"path": [
-23,
-32
-],
-"p": false
-},
-{
-"n": "37x28",
-"f": 37,
-"t": 28,
-"c": [
-32
-],
-"path": [
-37,
-28
-],
-"p": false
-},
-{
-"n": "13-18",
-"f": 13,
-"t": 18,
-"c": [],
-"path": [
-13,
-18
-],
-"p": false
-}
-],
-"pub": "32-28 20-24 34-30 18-23 30-25 23x32 37x28 13-18"
+"moves": []
 },
 "REFERENTIEL_SYSTEMES_p43_1": {
 "id": "REFERENTIEL_SYSTEMES_p43_1",
@@ -7513,6 +6800,1948 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": []
+},
+"REFERENTIEL_SYSTEMES_line0": {
+"id": "REFERENTIEL_SYSTEMES_line0",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+27,
+28,
+32,
+33,
+35,
+36,
+37,
+38,
+39,
+40,
+42,
+45,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+6,
+7,
+8,
+11,
+12,
+13,
+14,
+15,
+17,
+18,
+19,
+20,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "11x31",
+"f": 11,
+"t": 31,
+"c": [
+17,
+27
+],
+"path": [
+11,
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "49-43",
+"f": 49,
+"t": 43,
+"c": [],
+"path": [
+49,
+43
+],
+"p": false
+},
+{
+"n": "2-8",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "11x31",
+"f": 11,
+"t": 31,
+"c": [
+17,
+27
+],
+"path": [
+11,
+22,
+31
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+}
+],
+"pub": "17-22 28x17 11x31 36x27 12-17 33-28 8-12 49-43 2-8 39-33 7-11 43-39 17-22 28x17 11x31 37x26 18-22 32-27 22x31 26x37 13-18 38-32 18-22 32-27 22x31 37x26"
+},
+"REFERENTIEL_SYSTEMES_line1": {
+"id": "REFERENTIEL_SYSTEMES_line1",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+26,
+33,
+35,
+39,
+40,
+42,
+45,
+48
+],
+"wk": [],
+"bm": [
+6,
+8,
+12,
+14,
+15,
+19,
+20,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "22-27",
+"f": 22,
+"t": 27,
+"c": [],
+"path": [
+22,
+27
+],
+"p": false
+}
+],
+"pub": "12-17 42-38 6-11 40-34 17-22 34-30 22-27"
+},
+"REFERENTIEL_SYSTEMES_line2": {
+"id": "REFERENTIEL_SYSTEMES_line2",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+27,
+28,
+32,
+33,
+35,
+37,
+38,
+39,
+47
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "41-36",
+"f": 41,
+"t": 36,
+"c": [],
+"path": [
+41,
+36
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "29-33",
+"f": 29,
+"t": 33,
+"c": [],
+"path": [
+29,
+33
+],
+"p": false
+},
+{
+"n": "28x8",
+"f": 28,
+"t": 8,
+"c": [
+13,
+23
+],
+"path": [
+28,
+19,
+8
+],
+"p": false
+},
+{
+"n": "33x44",
+"f": 33,
+"t": 44,
+"c": [
+39
+],
+"path": [
+33,
+44
+],
+"p": false
+},
+{
+"n": "22x13",
+"f": 22,
+"t": 13,
+"c": [
+18
+],
+"path": [
+22,
+13
+],
+"p": false
+},
+{
+"n": "44-50",
+"f": 44,
+"t": 50,
+"c": [],
+"path": [
+44,
+50
+],
+"p": true
+}
+],
+"pub": "12-17 47-41 17-21 41-36 23-29 28-22 15-20 36-31 19-23 33-28 29-33 28x8 33x44 22x13 44-50"
+},
+"REFERENTIEL_SYSTEMES_line3": {
+"id": "REFERENTIEL_SYSTEMES_line3",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+27,
+28,
+32,
+33,
+35,
+37,
+38,
+39,
+49
+],
+"wk": [],
+"bm": [
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+}
+],
+"pub": "12-17 49-44 17-21 44-40 23-29 39-34 18-23 27-22"
+},
+"REFERENTIEL_SYSTEMES_line4": {
+"id": "REFERENTIEL_SYSTEMES_line4",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+27,
+28,
+32,
+33,
+35,
+37,
+38,
+39,
+40,
+45
+],
+"wk": [],
+"bm": [
+3,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "3-8",
+"f": 3,
+"t": 8,
+"c": [],
+"path": [
+3,
+8
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+}
+],
+"pub": "15-20 40-34 12-17 34-30 17-21 39-34 3-8 28-22"
+},
+"REFERENTIEL_SYSTEMES_line5": {
+"id": "REFERENTIEL_SYSTEMES_line5",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+27,
+28,
+31,
+32,
+33,
+35,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+5,
+6,
+8,
+9,
+10,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+20,
+21,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "29x40",
+"f": 29,
+"t": 40,
+"c": [
+34
+],
+"path": [
+29,
+40
+],
+"p": false
+},
+{
+"n": "45x34",
+"f": 45,
+"t": 34,
+"c": [
+40
+],
+"path": [
+45,
+34
+],
+"p": false
+}
+],
+"pub": "24-29 33x24 20x29 40-34 29x40 45x34"
+},
+"REFERENTIEL_SYSTEMES_line6": {
+"id": "REFERENTIEL_SYSTEMES_line6",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+29,
+31,
+32,
+33,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+22,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+}
+],
+"pub": "40-34 14-20 45-40 19-24"
+},
+"REFERENTIEL_SYSTEMES_line7": {
+"id": "REFERENTIEL_SYSTEMES_line7",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+29,
+31,
+32,
+33,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+22,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "46-41",
+"f": 46,
+"t": 41,
+"c": [],
+"path": [
+46,
+41
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+}
+],
+"pub": "14-20 46-41 10-14 41-37 5-10 47-41 19-23"
+},
+"REFERENTIEL_SYSTEMES_line8": {
+"id": "REFERENTIEL_SYSTEMES_line8",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+26,
+27,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+43,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+6,
+8,
+9,
+11,
+12,
+13,
+14,
+16,
+17,
+18,
+19,
+22,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "2-7",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x28",
+"f": 26,
+"t": 28,
+"c": [
+21,
+22
+],
+"path": [
+26,
+17,
+28
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "13x44",
+"f": 13,
+"t": 44,
+"c": [
+19,
+29,
+39
+],
+"path": [
+13,
+24,
+33,
+44
+],
+"p": false
+}
+],
+"pub": "24-30 35x24 19x30 33-29 2-7 45-40 14-19 40-35 17-21 26x28 11-17 35x24 19x30 28x19 13x44"
+},
+"REFERENTIEL_SYSTEMES_line9": {
+"id": "REFERENTIEL_SYSTEMES_line9",
+"ch": 4,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+27,
+28,
+30,
+31,
+33,
+35,
+36,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+22,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "30-25",
+"f": 30,
+"t": 25,
+"c": [],
+"path": [
+30,
+25
+],
+"p": false
+},
+{
+"n": "10-15",
+"f": 10,
+"t": 15,
+"c": [],
+"path": [
+10,
+15
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "1-7",
+"f": 1,
+"t": 7,
+"c": [],
+"path": [
+1,
+7
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "4-10",
+"f": 4,
+"t": 10,
+"c": [],
+"path": [
+4,
+10
+],
+"p": false
+},
+{
+"n": "46-41",
+"f": 46,
+"t": 41,
+"c": [],
+"path": [
+46,
+41
+],
+"p": false
+}
+],
+"pub": "15-20 30-25 10-15 41-37 7-12 38-32 1-7 43-38 4-10 46-41"
+},
+"REFERENTIEL_SYSTEMES_line10": {
+"id": "REFERENTIEL_SYSTEMES_line10",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+27,
+30,
+32,
+33,
+35,
+37,
+38,
+39,
+41,
+42,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+7,
+8,
+12,
+13,
+14,
+17,
+18,
+19,
+23,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "41-36",
+"f": 41,
+"t": 36,
+"c": [],
+"path": [
+41,
+36
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "42x31",
+"f": 42,
+"t": 31,
+"c": [
+37
+],
+"path": [
+42,
+31
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+}
+],
+"pub": "17-22 41-36 22x31 36x27 7-11 33-28 12-17 37-31 26x37 42x31 17-22 28x17 11x22 31-26 22x31 26x37 8-12"
 }
 }
 }
