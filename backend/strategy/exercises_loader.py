@@ -33,7 +33,12 @@ def _raw() -> list[dict[str, Any]]:
 # *order in which sources were introduced*: each new manual is appended strictly
 # after every earlier one, so it only ever occupies fresh IDs. Within a source,
 # entries stay diagram-id-sorted. Append new sources to the END of this tuple.
-_SOURCE_ORDER = ("KELLER", "SIJBRANDS", "SPRINGER", "GOEDEMOED", "GOEDEMOED3")
+_SOURCE_ORDER = (
+    "KELLER", "SIJBRANDS", "SPRINGER", "GOEDEMOED", "GOEDEMOED3",
+    # PDF-extracted books (2026-07): appended in one batch, fixed order.
+    "PERF_COMBINAISONS", "FINS_DE_PARTIE", "ENCHAINEMENTS", "REFERENTIEL",
+    "PERF_SDJ_T1", "PERF_SDJ_T2", "PERF_SDJ_T3", "COUTTET",
+)
 
 
 def _sort_key(ex: dict[str, Any]) -> tuple:
