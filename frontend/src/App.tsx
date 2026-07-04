@@ -1796,14 +1796,6 @@ export default function App() {
           <ExerciseLibraryPage
             onBack={() => setTab('apprendre')}
             onSelectBook={(bookId: string) => { resetExerciseState(); setSelectedBookId(bookId); setTab('exercises') }}
-            onOpenStrategyManual={(source: string) => {
-              // Every corpus source opens the manual reader. Prose books
-              // (Sijbrands…) render chapters of text + diagrams; diagram-only
-              // exercise books (Goedemoed) render one chapter per study theme.
-              setStrategyManualSource(source)
-              setStrategyManualOrigin('exercise-library')
-              setTab('strategy-manual')
-            }}
           />
         )}
 

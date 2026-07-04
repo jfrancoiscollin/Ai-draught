@@ -61,33 +61,6 @@ const BOOKS: Book[] = [
     emoji: '👑',
     hasExercises: true,
   },
-  {
-    id: 'manuel_intermediaire',
-    title: 'Manuel Intermédiaire',
-    titleEn: 'Intermediate Manual',
-    author: 'Draught Master',
-    category: 'manuel',
-    emoji: '🌿',
-    hasExercises: false,
-  },
-  {
-    id: 'manuel_avance',
-    title: 'Manuel Avancé',
-    titleEn: 'Advanced Manual',
-    author: 'Draught Master',
-    category: 'manuel',
-    emoji: '🌳',
-    hasExercises: false,
-  },
-  {
-    id: 'manuel_expert',
-    title: 'Manuel Expert',
-    titleEn: 'Expert Manual',
-    author: 'Draught Master',
-    category: 'manuel',
-    emoji: '🏆',
-    hasExercises: false,
-  },
 ]
 
 const CATEGORY_LABELS: Record<string, Record<'fr' | 'en', string>> = {
@@ -114,26 +87,12 @@ function ProgressBar({ value, color }: { value: number; color: string }) {
 
 interface ExerciseLibraryPageProps {
   onSelectBook: (bookId: string) => void
-  onOpenStrategyManual: (source: string) => void
   /** Back to the learning path — the library is now a sub-view of the
    *  Parcours (the single educational entry point). */
   onBack?: () => void
 }
 
-// One strategic manual per source — corresponds to the prose corpus
-// indexed in dilf (Sijbrands, Springer, Roozenburg, Keller).  Order
-// matches the historical canon: Sijbrands first (foundational), then
-// Springer (middlegame), Roozenburg (analytical), Keller (modern).
-const STRATEGY_MANUALS: Array<{ source: string; titleFr: string; titleEn: string; author: string; emoji: string }> = [
-  { source: 'SIJBRANDS', titleFr: 'Manuel Sijbrands',  titleEn: 'Sijbrands Manual',  author: 'Ton Sijbrands',  emoji: '♛' },
-  { source: 'SPRINGER',  titleFr: 'Manuel Springer',   titleEn: 'Springer Manual',   author: 'Springer',       emoji: '⚔️' },
-  { source: 'ROOZENBURG', titleFr: 'Manuel Roozenburg', titleEn: 'Roozenburg Manual', author: 'Piet Roozenburg', emoji: '🛡️' },
-  { source: 'KELLER',    titleFr: 'Manuel Keller',     titleEn: 'Keller Manual',     author: 'Keller',         emoji: '🎯' },
-  // Goedemoed (vol. 2 & 3) are exercise books → listed under BOOKS above and
-  // opened in the chapter-structured exercise view, not the prose manual reader.
-]
-
-export default function ExerciseLibraryPage({ onSelectBook, onOpenStrategyManual, onBack }: ExerciseLibraryPageProps) {
+export default function ExerciseLibraryPage({ onSelectBook, onBack }: ExerciseLibraryPageProps) {
   const { t, language } = useLanguage()
   const { user } = useAuth()
   const [stats, setStats] = useState<Record<string, BookStats>>({})
@@ -300,33 +259,6 @@ export default function ExerciseLibraryPage({ onSelectBook, onOpenStrategyManual
             </div>
           )
         })}
-
-        {/* ── Manuels stratégiques : un par source du corpus prose dilf
-             (Sijbrands, Springer, Roozenburg, Keller). Chaque manuel
-             est rendu comme un document pédagogique avec chapitres,
-             passages illustrés (Board) et coups PDN cliquables. ──── */}
-        <div className="mb-8">
-          <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-3 border-b border-gray-700 pb-1">
-            {language === 'en' ? 'Strategic manuals' : 'Manuels stratégiques'}
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {STRATEGY_MANUALS.map(m => (
-              <button
-                key={m.source}
-                onClick={() => onOpenStrategyManual(m.source)}
-                className="group relative flex flex-col items-start gap-2 rounded-xl border bg-gray-800 border-gray-700 hover:border-amber-600 hover:bg-gray-750 cursor-pointer p-5 text-left transition-all duration-200"
-              >
-                <span className="text-3xl">{m.emoji}</span>
-                <div className="min-w-0 w-full">
-                  <p className="font-semibold text-sm leading-snug text-white group-hover:text-amber-400">
-                    {language === 'en' ? m.titleEn : m.titleFr}
-                  </p>
-                  <p className="text-xs text-gray-500 mt-0.5">{m.author}</p>
-                </div>
-              </button>
-            ))}
-          </div>
-        </div>
 
         {/* ── Motifs détectables par l'analyse pédagogique ────────── */}
         <MotifCatalogSection language={language} />
