@@ -45,9 +45,14 @@ export interface Position {
   mot?: Motif[]
 }
 
+export type Schematic =
+  | { variant: 'bands'; top: string; middle: string; bottom: string; wings?: [string, string] }
+  | { variant: 'diagonal'; dir: 'bl-tr' | 'tl-br'; noir: string; blanc: string; band: string }
+
 export type Block =
   | { type: 'board'; id: string; ch: number }
   | { type: 'img'; ch: number; src: string; alt?: string }
+  | { type: 'schematic'; ch: number; spec: Schematic }
   | { type: 'hr'; ch: number }
   | { type: 'h1' | 'h2' | 'h3' | 'h4' | 'quote' | 'p'; ch: number; runs: Run[] }
   | { type: 'ul' | 'ol'; ch: number; items: Run[][] }
@@ -160,6 +165,8 @@ const CSS = `
 .dm .h4{font-size:16px;font-weight:600;color:var(--ivory);margin:20px 0 6px}
 .dm p.par{margin:12px 0;color:#ddd6c9}
 .dm img.fig{display:block;max-width:100%;margin:16px auto;border-radius:8px;background:#fff}
+.dm .schema{width:min(420px,100%);margin:16px auto}
+.dm .schema svg{display:block;width:100%;height:auto}
 .dm .quote{margin:14px 0;padding:10px 16px;border-left:3px solid var(--brass-dim);background:var(--panel);
   border-radius:0 8px 8px 0;color:#cfc8bb;font-size:15px}
 .dm ul.lst,.dm ol.lst{margin:12px 0;padding-left:22px;color:#ddd6c9}
@@ -510,9 +517,106 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
   )
 }
 
+// Territorial schematics (Sens du jeu, ch. « la notion d'espace ») redrawn on
+// our own board: an empty checkerboard (the app's sand/sage squares, theme-aware
+// via CSS vars) overlaid with the zone partition lines and labels. Replaces the
+// coarse PDF crops with a crisp, on-brand rendering.
+function SchematicView({ spec }: { spec: Schematic }): React.ReactElement {
+  const BX = 112, BY = 8, BS = 216, CELL = BS / 10
+  const squares: React.ReactElement[] = []
+  for (let r = 0; r < 10; r++) for (let c = 0; c < 10; c++) {
+    squares.push(<rect key={r * 10 + c} x={BX + c * CELL} y={BY + r * CELL} width={CELL} height={CELL}
+      fill={(r + c) % 2 === 1 ? 'var(--sage)' : 'var(--sand)'} />)
+  }
+  const board = (
+    <>
+      {squares}
+      <rect x={BX} y={BY} width={BS} height={BS} fill="none" stroke="#0c0b10" strokeWidth={1.5} rx={4} />
+    </>
+  )
+  const wrap = (s: string, n = 12): string[] => {
+    const words = s.split(' '); const out: string[] = []; let line = ''
+    for (const w of words) {
+      if (line && (line + ' ' + w).length > n) { out.push(line); line = w }
+      else line = line ? line + ' ' + w : w
+    }
+    if (line) out.push(line)
+    return out
+  }
+  // A boxed label (light text on a translucent dark plate) — legible over the
+  // checker. rot rotates it along a diagonal.
+  const box = (key: string, cx: number, cy: number, text: string, rot = 0) => {
+    const lines = wrap(text, 13); const lh = 14
+    const w = Math.max(...lines.map(l => l.length)) * 7.4 + 16
+    const h = lines.length * lh + 8
+    return (
+      <g key={key} transform={rot ? `rotate(${rot} ${cx} ${cy})` : undefined}>
+        <rect x={cx - w / 2} y={cy - h / 2} width={w} height={h} rx={5}
+          fill="rgba(20,18,25,.85)" stroke="var(--brass-dim)" strokeWidth={1} />
+        <text x={cx} y={cy - h / 2 + 14} textAnchor="middle" fontSize={12} fill="#ece3d2"
+          fontFamily="var(--sans)">
+          {lines.map((l, i) => <tspan key={i} x={cx} dy={i ? lh : 0}>{l}</tspan>)}
+        </text>
+      </g>
+    )
+  }
+  // A free label (no plate) for the outer captions (Camp des Noirs, ailes).
+  const cap = (key: string, x: number, y: number, text: string,
+    anchor: 'start' | 'middle' | 'end' = 'middle') => {
+    const lines = wrap(text, 11)
+    return (
+      <text key={key} x={x} y={y - (lines.length - 1) * 7} textAnchor={anchor} fontSize={12.5}
+        fontWeight={600} fill="#ece3d2" fontFamily="var(--sans)">
+        {lines.map((l, i) => <tspan key={i} x={x} dy={i ? 14 : 0}>{l}</tspan>)}
+      </text>
+    )
+  }
+  const LINE = { stroke: 'var(--brass)', strokeWidth: 1.4, opacity: 0.75 as const }
+  const overlay: React.ReactElement[] = []
+  let H = BY + BS + 10
+  if (spec.variant === 'bands') {
+    const y1 = BY + BS * 0.4, y2 = BY + BS * 0.6
+    overlay.push(<line key="l1" x1={BX} y1={y1} x2={BX + BS} y2={y1} {...LINE} />)
+    overlay.push(<line key="l2" x1={BX} y1={y2} x2={BX + BS} y2={y2} {...LINE} />)
+    if (spec.wings) overlay.push(<line key="lv" x1={BX + BS / 2} y1={BY} x2={BX + BS / 2} y2={BY + BS} {...LINE} />)
+    overlay.push(cap('ct', 54, BY + BS * 0.2, spec.top))
+    overlay.push(cap('cb', 54, BY + BS * 0.8, spec.bottom))
+    overlay.push(box('mid', BX + BS / 2, BY + BS / 2, spec.middle))
+    if (spec.wings) {
+      H = BY + BS + 30
+      overlay.push(cap('wl', BX + BS * 0.25, BY + BS + 22, spec.wings[0]))
+      overlay.push(cap('wr', BX + BS * 0.75, BY + BS + 22, spec.wings[1]))
+    }
+  } else {
+    const btr = spec.dir === 'bl-tr'
+    const p1 = btr ? [BX, BY + BS] : [BX, BY]
+    const p2 = btr ? [BX + BS, BY] : [BX + BS, BY + BS]
+    const nx = btr ? 1 : -1, ny = 1, nl = Math.SQRT1_2, off = BS * 0.12
+    for (const s of [1, -1]) {
+      const dx = s * off * nx * nl, dy = s * off * ny * nl
+      overlay.push(<line key={'d' + s} x1={p1[0] + dx} y1={p1[1] + dy} x2={p2[0] + dx} y2={p2[1] + dy} {...LINE} />)
+    }
+    const noir = btr ? [BX + BS * 0.27, BY + BS * 0.3] : [BX + BS * 0.73, BY + BS * 0.3]
+    const blanc = btr ? [BX + BS * 0.73, BY + BS * 0.72] : [BX + BS * 0.27, BY + BS * 0.72]
+    overlay.push(box('mid', BX + BS / 2, BY + BS / 2, spec.band, btr ? -45 : 45))
+    overlay.push(box('noir', noir[0], noir[1], spec.noir))
+    overlay.push(box('blanc', blanc[0], blanc[1], spec.blanc))
+  }
+  return (
+    <div className="schema">
+      <svg viewBox={`0 0 ${BX + BS + 10} ${H}`} role="img" aria-label={
+        spec.variant === 'bands' ? `${spec.top}, ${spec.middle}, ${spec.bottom}` : `${spec.noir}, ${spec.band}, ${spec.blanc}`}>
+        {board}
+        {overlay}
+      </svg>
+    </div>
+  )
+}
+
 function BlockView({ b, positions }: { b: Block; positions: Record<string, Position> }): React.ReactElement | null {
   if (b.type === 'board') { const p = positions[b.id]; return p ? <BoardCard pos={p} /> : null }
   if (b.type === 'img') return <img className="fig" src={b.src} alt={b.alt || ''} />
+  if (b.type === 'schematic') return <SchematicView spec={b.spec} />
   if (b.type === 'hr') return <hr />
   if (b.type === 'h1') return <div className="h1"><Runs runs={b.runs} /></div>
   if (b.type === 'h2') return <div className="h2"><Runs runs={b.runs} /></div>
