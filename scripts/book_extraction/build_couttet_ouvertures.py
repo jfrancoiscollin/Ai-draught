@@ -31,6 +31,7 @@ _HERE = Path(__file__).resolve().parent
 _ROOT = _HERE.parent.parent
 sys.path.insert(0, str(_ROOT / "backend"))
 import game_engine as ge  # noqa: E402
+from strategy.steppable_lines import insert_steppable_lines  # noqa: E402
 
 PDF = _ROOT / "docs/livres/reference/couttet_etude_des_ouvertures.pdf"
 OUT = _ROOT / "frontend/src/manuels/data/couttet_ouvertures.ts"
@@ -69,17 +70,6 @@ def _replay(tokens: list[str]):
         moves.append({"n": pdn, "f": f, "t": t, "c": list(mv.captures),
                       "path": list(mv.path), "p": False})
     return moves
-
-
-def _pure_notation_tokens(line: str):
-    """Move tokens of a line that is pure notation (numbered main line), or
-    None when the line carries prose (analysis / variations in words)."""
-    toks = [re.sub(r"\s+", "", m.group(0)) for m in _TOK.finditer(line)]
-    if not toks:
-        return None
-    rest = _TOK.sub("", line)
-    rest = re.sub(r"[\d\.\)\(«»\"\s,;:!\?–\-]|etc", "", rest)
-    return toks if len(rest) <= 3 else None
 
 
 def _paras(text: str):
@@ -148,29 +138,18 @@ def main() -> int:
             blocks.append({"type": "board", "id": pid, "ch": ch})
             n_boards += 1
 
-        # Chapter prose + main-line tokens (pure-notation lines only).
-        main_tokens: list[str] = []
+        # Chapter prose: the numbered move-lists are laid out as text here, then
+        # turned into steppable boards by the shared pass below (which supersedes
+        # the old single end-of-line board — the lines now step inline).
         for p in range(pg, min(end_pg, n + 1)):
             body = re.sub(r"^\s*\d+\s*", "", text[p - 1])
             for para in _paras(body):
                 blocks.append({"type": "p", "ch": ch, "runs": [{"t": para}]})
-            for line in text[p - 1].split("\n"):
-                if "«" in line or '"' in line:  # quoted variation lines
-                    continue
-                toks = _pure_notation_tokens(line)
-                if toks:
-                    main_tokens += toks
 
-        moves = _replay(main_tokens)
-        if len(moves) >= 6:
-            st = ge.initial_state()
-            pid = f"COUTTET_d{num}_ligne"
-            positions[pid] = {"id": pid, "ch": ch,
-                              "title": f"Ligne principale ({len(moves)} coups)",
-                              "start": _start_of(st), "moves": moves,
-                              "pub": " ".join(m["n"] for m in moves)}
-            blocks.append({"type": "board", "id": pid, "ch": ch})
-            n_boards += 1
+    # Replace the printed opening lines with steppable boards (◀ ▶), engine-
+    # verified from the initial position or the previous line's end.
+    blocks, n_lines = insert_steppable_lines(blocks, positions, {}, "couttet_ouvertures")
+    n_boards += n_lines
 
     data = {"book": "Couttet — Étude des ouvertures", "level": "Ouvertures",
             "chapters": chapters, "blocks": blocks, "positions": positions}
@@ -179,8 +158,7 @@ def main() -> int:
               "import type { ManuelData } from '../ManuelInteractif'\n\n")
     OUT.write_text(header + f"const DATA: ManuelData = {json.dumps(data, ensure_ascii=False, indent=0)}\n\nexport default DATA\n",
                    encoding="utf-8")
-    n_lines = sum(1 for p in positions.values() if p["id"].endswith("_ligne"))
-    print(f"chapters={len(chapters)} boards={n_boards} (main lines={n_lines}) "
+    print(f"chapters={len(chapters)} boards={n_boards} (steppable lines={n_lines}) "
           f"{OUT.stat().st_size // 1024} KiB -> {OUT.name}")
     return 0
 
