@@ -13,6 +13,12 @@
       "title": "Intermédiaire",
       "subtitle": "Tactique et stratégie : combinaisons en profondeur, structures, débordements et finales des grands manuels.",
       "order": 2
+    },
+    {
+      "id": "avance",
+      "title": "Avancé",
+      "subtitle": "Perfectionnement des maîtres : combinaisons profondes, fins de partie à dames, marchand de bois et grands systèmes modernes.",
+      "order": 3
     }
   ],
   "modules": [
@@ -654,6 +660,23 @@
               "limit": 6
             }
           }
+        },
+        {
+          "id": "int_finales_l3",
+          "title": "Finales à dames",
+          "intro": "Un aperçu des fins de partie à dames — dame contre pions, dame et pions contre dame. Le niveau Avancé les approfondit.",
+          "attach": {
+            "positions": {
+              "source": "FINS_DE_PARTIE",
+              "themes": [
+                "1 dame contre 2 pions",
+                "1 dame et 1 pion contre 2 pions",
+                "1 dame et 1 pion contre 3 pions",
+                "1 dame et 3 pions contre 1 dame et 1"
+              ],
+              "limit": 6
+            }
+          }
         }
       ]
     },
@@ -1061,6 +1084,334 @@
           "attach": {
             "manual": {
               "source": "SPRINGER"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "av_combi_perf",
+      "level": "avance",
+      "order": 1,
+      "title": "Combinaisons de perfectionnement",
+      "subtitle": "Les combinaisons profondes du recueil de perfectionnement.",
+      "goal": "Calculer les combinaisons longues (5-7 temps) du recueil de perfectionnement de Dubois, vérifiées par le moteur.",
+      "prerequisites": [
+        "int_combinaisons"
+      ],
+      "lessons": [
+        {
+          "id": "av_combi_perf_l1",
+          "title": "Trouvez la meilleure suite",
+          "intro": "Des positions de perfectionnement où il faut trouver la meilleure suite — combinaison ou gain positionnel forcé. Lignes recopiées du livre et vérifiées coup par coup par le moteur.",
+          "attach": {
+            "exercises": {
+              "book_id": "manuel_perf_combinaisons",
+              "categories": [
+                "exercices_manuels"
+              ]
+            }
+          }
+        },
+        {
+          "id": "av_combi_perf_l2",
+          "title": "Combinaisons forcées avancées",
+          "intro": "Les combinaisons forcées les plus profondes du recueil : sacrifices en cascade, rafles à retard, envois à dame préparés de loin.",
+          "attach": {
+            "exercises": {
+              "book_id": "manuel_perf_combinaisons",
+              "categories": [
+                "combinaisons_manuels"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "av_fins_de_partie",
+      "level": "avance",
+      "order": 2,
+      "title": "Les fins de partie",
+      "subtitle": "Dame contre pions, finales à comité, la grande diagonale.",
+      "goal": "Maîtriser les fins de partie à dames : dame contre pions, finales à comité et la traversée de la grande diagonale, positions lues avec détection des dames.",
+      "prerequisites": [
+        "int_finales"
+      ],
+      "lessons": [
+        {
+          "id": "av_fins_de_partie_l1",
+          "title": "Dame et pions",
+          "intro": "Les finales où une dame lutte contre des pions, ou dame et pions contre dame et pions. Comptez les temps et cherchez le gain ou la nulle.",
+          "attach": {
+            "positions": {
+              "source": "FINS_DE_PARTIE",
+              "themes": [
+                "1 dame contre 2 pions",
+                "1 dame et 1 pion contre 2 pions",
+                "1 dame et 1 pion contre 3 pions",
+                "1 dame et 3 pions contre 1 dame et 1"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_fins_de_partie_l2",
+          "title": "Les finales à comité",
+          "intro": "Les finales dites « à comité », où plusieurs pions se soutiennent face à la dame. Des positions types à jouer sur le damier.",
+          "attach": {
+            "positions": {
+              "source": "FINS_DE_PARTIE",
+              "themes": [
+                "les finales de type « comité",
+                "les finales du type « comité"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_fins_de_partie_l3",
+          "title": "Pions contre pions et grande diagonale",
+          "intro": "Les finales de pions et la traversée de la grande diagonale — la ressource décisive quand la dame apparaît.",
+          "attach": {
+            "positions": {
+              "source": "FINS_DE_PARTIE",
+              "themes": [
+                "« pions contre pions »",
+                "1 pion contre 1 avec 3 temps d’avance",
+                "la traversée de la grande diagonale"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_fins_de_partie_l4",
+          "title": "Pratiquez les fins de partie",
+          "intro": "Les finales du livre à résoudre : trouvez la manœuvre gagnante (ou salvatrice), vérifiée par le moteur.",
+          "attach": {
+            "exercises": {
+              "book_id": "manuel_fins_de_partie"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "av_marchand_de_bois",
+      "level": "avance",
+      "order": 3,
+      "title": "Le marchand de bois et les enchaînements",
+      "subtitle": "La structure reine du jeu de blocage et ses combinaisons.",
+      "goal": "Comprendre le marchand de bois, le faux marchand de bois et les enchaînements d'aile — structures et combinaisons associées.",
+      "prerequisites": [],
+      "lessons": [
+        {
+          "id": "av_marchand_de_bois_l1",
+          "title": "Le marchand de bois",
+          "intro": "La formation du marchand de bois et ses combinaisons favorables. Étudiez ces positions types tirées des « Enchaînements » de Grégoire.",
+          "attach": {
+            "positions": {
+              "source": "ENCHAINEMENTS",
+              "themes": [
+                "Le marchand de bois",
+                "Comment se dégager du marchand de bois ?",
+                "Les combinaisons favorables du marchand de bois",
+                "Les combinaisons défavorables du marchand de bois",
+                "Le marchand de bois - une partie"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_marchand_de_bois_l2",
+          "title": "Le faux marchand de bois",
+          "intro": "Le faux marchand de bois : ses combinaisons et ses conséquences, à connaître pour l'attaquer ou l'éviter.",
+          "attach": {
+            "positions": {
+              "source": "ENCHAINEMENTS",
+              "themes": [
+                "Le faux marchand de bois",
+                "Les combinaisons du faux marchand de bois",
+                "Les conséquences du faux marchand de bois"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_marchand_de_bois_l3",
+          "title": "Les enchaînements d'aile",
+          "intro": "Les enchaînements de l'aile droite et du centre, et les sorties d'enchaînement — comment nouer et dénouer le jeu.",
+          "attach": {
+            "positions": {
+              "source": "ENCHAINEMENTS",
+              "themes": [
+                "Les enchaînements de l'aile droite",
+                "L'enchaînement du centre gauche",
+                "L'enchaînement de l'aile droite",
+                "Les sorties d'enchaînement"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_marchand_de_bois_l4",
+          "title": "Le marchand de bois approfondi",
+          "intro": "Le marchand de bois et le faux marchand de bois vus par le tome 2 du « Sens du jeu » : nuances positionnelles et plans.",
+          "attach": {
+            "positions": {
+              "source": "PERF_SDJ_T2",
+              "themes": [
+                "Le faux marchand de bois (faux MdB)",
+                "Le marchand de bois (MdB)",
+                "Le marchand de bois incomplet"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_marchand_de_bois_l5",
+          "title": "Pratiquez les enchaînements",
+          "intro": "Les combinaisons d'enchaînement à résoudre, vérifiées par le moteur.",
+          "attach": {
+            "exercises": {
+              "book_id": "manuel_enchainements"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "av_systemes_modernes",
+      "level": "avance",
+      "order": 4,
+      "title": "Les grands systèmes modernes",
+      "subtitle": "Utrecht, Roozenburg, l'offensive contre le pion 27.",
+      "goal": "Parcourir les systèmes de jeu modernes — le système d'Utrecht, le système Roozenburg et l'offensive contre le pion 27 — à travers leurs positions types.",
+      "prerequisites": [],
+      "lessons": [
+        {
+          "id": "av_systemes_modernes_l1",
+          "title": "Le système d'Utrecht",
+          "intro": "Le système d'Utrecht : sa structure et ses plans, en positions types du tome 3 du « Sens du jeu ».",
+          "attach": {
+            "positions": {
+              "source": "PERF_SDJ_T3",
+              "themes": [
+                "Le système d’Utrecht"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_systemes_modernes_l2",
+          "title": "Le système Roozenburg",
+          "intro": "Le système Roozenburg et ses thèmes offensifs, du pré-Roozenburg à la position accomplie.",
+          "attach": {
+            "positions": {
+              "source": "PERF_SDJ_T3",
+              "themes": [
+                "Le système Roozenburg",
+                "Thème offensif en pré-Roozenburg"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_systemes_modernes_l3",
+          "title": "L'offensive contre le pion 27",
+          "intro": "L'offensive contre le pion 27 : comment attaquer cette faiblesse et la structure qui l'entoure.",
+          "attach": {
+            "positions": {
+              "source": "PERF_SDJ_T3",
+              "themes": [
+                "L’offensive contre le pion 27"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_systemes_modernes_l4",
+          "title": "Le référentiel des systèmes",
+          "intro": "Le système classique et la partie Bonnard, positions et combinaisons du référentiel des systèmes de jeu.",
+          "attach": {
+            "exercises": {
+              "book_id": "manuel_referentiel"
+            },
+            "positions": {
+              "source": "REFERENTIEL",
+              "themes": [
+                "Le classique offensif",
+                "Le système classique",
+                "la partie Bonnard"
+              ],
+              "limit": 8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "av_force_du_centre",
+      "level": "avance",
+      "order": 5,
+      "title": "La force du centre",
+      "subtitle": "Le double pion Kerkhof et la domination centrale.",
+      "goal": "Comprendre la force du centre et le double pion Kerkhof — la structure centrale caractéristique du jeu positionnel moderne.",
+      "prerequisites": [],
+      "lessons": [
+        {
+          "id": "av_force_du_centre_l1",
+          "title": "Le double pion Kerkhof",
+          "intro": "Le double pion Kerkhof et l'incursion Kerkhof : la structure centrale la plus étudiée du tome 1 du « Sens du jeu ».",
+          "attach": {
+            "positions": {
+              "source": "PERF_SDJ_T1",
+              "themes": [
+                "L’incursion kerkhof",
+                "Le double pion kerkhof"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_force_du_centre_l2",
+          "title": "La force du centre",
+          "intro": "La force du centre et le centre sur la 6e rangée : comment installer et exploiter une domination centrale.",
+          "attach": {
+            "positions": {
+              "source": "PERF_SDJ_T1",
+              "themes": [
+                "La force du centre",
+                "L’attaque au centre",
+                "Le centre sur la 6e rangée"
+              ],
+              "limit": 8
+            }
+          }
+        },
+        {
+          "id": "av_force_du_centre_l3",
+          "title": "Aspects caractéristiques",
+          "intro": "Les aspects caractéristiques du jeu de centre et l'avancée Ghestem — les motifs récurrents à reconnaître.",
+          "attach": {
+            "positions": {
+              "source": "PERF_SDJ_T1",
+              "themes": [
+                "L’avancée Ghestem",
+                "Aspects caractéristiques"
+              ],
+              "limit": 8
             }
           }
         }

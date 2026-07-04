@@ -16,6 +16,10 @@ const DATA: ManuelData = {
 {
 "n": 2,
 "title": "Finales pratiques"
+},
+{
+"n": 3,
+"title": "Finales à dames"
 }
 ],
 "blocks": [
@@ -200,6 +204,54 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "int_finales_l2_pos11",
 "ch": 2
+},
+{
+"type": "h2",
+"ch": 3,
+"runs": [
+{
+"t": "Finales à dames"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Un aperçu des fins de partie à dames — dame contre pions, dame et pions contre dame. Le niveau Avancé les approfondit."
+}
+]
+},
+{
+"type": "board",
+"id": "int_finales_l3_pos0",
+"ch": 3
+},
+{
+"type": "board",
+"id": "int_finales_l3_pos1",
+"ch": 3
+},
+{
+"type": "board",
+"id": "int_finales_l3_pos2",
+"ch": 3
+},
+{
+"type": "board",
+"id": "int_finales_l3_pos3",
+"ch": 3
+},
+{
+"type": "board",
+"id": "int_finales_l3_pos4",
+"ch": 3
+},
+{
+"type": "board",
+"id": "int_finales_l3_pos5",
+"ch": 3
 }
 ],
 "positions": {
@@ -2557,6 +2609,279 @@ const DATA: ManuelData = {
 },
 "moves": [],
 "theme": "Une dame contre des pions"
+},
+"int_finales_l3_pos0": {
+"id": "int_finales_l3_pos0",
+"ch": 3,
+"title": "1 dame contre 2 pions",
+"start": {
+"wm": [
+24,
+27
+],
+"wk": [
+41
+],
+"bm": [
+15,
+16,
+18
+],
+"bk": [
+21
+],
+"turn": "white"
+},
+"moves": [
+{
+"n": "41-36",
+"f": 41,
+"t": 36,
+"c": [],
+"path": [
+41,
+36
+],
+"p": false
+},
+{
+"n": "21x38x20",
+"f": 21,
+"t": 20,
+"c": [
+24,
+27
+],
+"path": [
+21,
+38,
+20
+],
+"p": false
+},
+{
+"n": "36x9x25",
+"f": 36,
+"t": 25,
+"c": [
+18,
+20
+],
+"path": [
+36,
+9,
+25
+],
+"p": false
+}
+],
+"theme": "1 dame contre 2 pions",
+"pub": "41-36 21x38x20 36x9x25",
+"win": "white"
+},
+"int_finales_l3_pos1": {
+"id": "int_finales_l3_pos1",
+"ch": 3,
+"title": "1 dame contre 2 pions",
+"start": {
+"wm": [
+10,
+35
+],
+"wk": [
+36
+],
+"bm": [
+16,
+33
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "10-4",
+"f": 10,
+"t": 4,
+"c": [],
+"path": [
+10,
+4
+],
+"p": true
+}
+],
+"theme": "1 dame contre 2 pions",
+"pub": "10-4",
+"win": "white"
+},
+"int_finales_l3_pos2": {
+"id": "int_finales_l3_pos2",
+"ch": 3,
+"title": "1 dame contre 2 pions",
+"start": {
+"wm": [
+24,
+47
+],
+"wk": [
+48
+],
+"bm": [
+7,
+15,
+21,
+38
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [],
+"theme": "1 dame contre 2 pions"
+},
+"int_finales_l3_pos3": {
+"id": "int_finales_l3_pos3",
+"ch": 3,
+"title": "1 dame contre 2 pions",
+"start": {
+"wm": [
+24,
+34,
+38,
+39,
+40
+],
+"wk": [
+28
+],
+"bm": [
+15,
+25,
+26
+],
+"bk": [
+47
+],
+"turn": "white"
+},
+"moves": [],
+"theme": "1 dame contre 2 pions"
+},
+"int_finales_l3_pos4": {
+"id": "int_finales_l3_pos4",
+"ch": 3,
+"title": "1 dame contre 2 pions",
+"start": {
+"wm": [
+25,
+37
+],
+"wk": [
+24,
+46
+],
+"bm": [
+9,
+15,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "46x14x3",
+"f": 46,
+"t": 3,
+"c": [
+9,
+37
+],
+"path": [
+46,
+14,
+3
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "24x15",
+"f": 24,
+"t": 15,
+"c": [
+20
+],
+"path": [
+24,
+15
+],
+"p": false
+}
+],
+"theme": "1 dame contre 2 pions",
+"pub": "37-31 26x37 46x14x3 15-20 24x15",
+"win": "white"
+},
+"int_finales_l3_pos5": {
+"id": "int_finales_l3_pos5",
+"ch": 3,
+"title": "1 dame contre 2 pions",
+"start": {
+"wm": [
+39,
+45
+],
+"wk": [
+9
+],
+"bm": [
+6,
+15,
+17,
+24,
+32,
+35
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [],
+"theme": "1 dame contre 2 pions"
 }
 }
 }
