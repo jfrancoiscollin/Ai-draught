@@ -330,6 +330,11 @@ def _diagram_refs(text: str) -> list[int]:
     return out
 
 
+def _norm_label(s: str) -> str:
+    """Normalise a caption for matching a diagram label to a prose line."""
+    return re.sub(r"\s+", " ", (s or "").strip()).lower()
+
+
 def _lesson_blocks(ch: int, proses: list[str], diagrams: list, ex_rows: list[dict],
                    prefix: str) -> tuple[list[dict], dict[str, dict]]:
     """Lay a chapter out as the masters do: prose with each illustrative diagram
@@ -371,7 +376,21 @@ def _lesson_blocks(ch: int, proses: list[str], diagrams: list, ex_rows: list[dic
             positions[pos["id"]] = pos
             blocks.append({"type": "board", "id": pos["id"], "ch": ch})
 
+    # Many diagrams are captioned by a concept the prose repeats verbatim as its
+    # own line ("L'enchaînement latéral", "Le pion arrière"…). Show the board
+    # right there — in caption order for repeated labels — so each labelled
+    # advantage carries its illustration instead of a wall of orphaned captions.
+    label_q: dict[str, list[int]] = {}
+    for i, d in enumerate(diagrams or []):
+        lab = d.get("label") if isinstance(d, dict) else None
+        if lab and dia[i]:
+            label_q.setdefault(_norm_label(lab), []).append(i + 1)
+
     for para in proses:
+        q = label_q.get(_norm_label(para))
+        if q:  # this line is a diagram caption → render the board in its place
+            place(q.pop(0))
+            continue
         blocks.append({"type": "p", "ch": ch, "runs": [{"t": para}]})
         for k in _diagram_refs(para):
             place(k)

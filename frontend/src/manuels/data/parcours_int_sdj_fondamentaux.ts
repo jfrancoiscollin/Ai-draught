@@ -1364,7 +1364,10 @@ const DATA: ManuelData = {
 "ch": 1,
 "title": "L’enchaînement latéral",
 "start": {
-"wm": [],
+"wm": [
+26,
+32
+],
 "wk": [],
 "bm": [
 16,
@@ -1382,7 +1385,12 @@ const DATA: ManuelData = {
 "ch": 1,
 "title": "L’enchaînement en tenaille",
 "start": {
-"wm": [],
+"wm": [
+27,
+28,
+31,
+33
+],
 "wk": [],
 "bm": [
 12,
@@ -1403,7 +1411,8 @@ const DATA: ManuelData = {
 "title": "L’enchaînement latéral",
 "start": {
 "wm": [
-25
+25,
+29
 ],
 "wk": [],
 "bm": [
@@ -1422,7 +1431,10 @@ const DATA: ManuelData = {
 "ch": 1,
 "title": "Le pion arrière",
 "start": {
-"wm": [],
+"wm": [
+26,
+27
+],
 "wk": [],
 "bm": [
 6,
@@ -1440,7 +1452,10 @@ const DATA: ManuelData = {
 "ch": 1,
 "title": "Le pion suspendu",
 "start": {
-"wm": [],
+"wm": [
+27,
+28
+],
 "wk": [],
 "bm": [
 12,
@@ -1458,7 +1473,10 @@ const DATA: ManuelData = {
 "ch": 1,
 "title": "Le pion arrière",
 "start": {
-"wm": [],
+"wm": [
+34,
+35
+],
 "wk": [],
 "bm": [
 15,
@@ -1478,7 +1496,8 @@ const DATA: ManuelData = {
 "start": {
 "wm": [
 16,
-21
+21,
+26
 ],
 "wk": [],
 "bm": [
@@ -1499,6 +1518,8 @@ const DATA: ManuelData = {
 "title": "Le trèfle immobilisateur",
 "start": {
 "wm": [
+26,
+31,
 36
 ],
 "wk": [],
@@ -1520,7 +1541,9 @@ const DATA: ManuelData = {
 "title": "Le trèfle immobilisateur",
 "start": {
 "wm": [
-25
+25,
+30,
+35
 ],
 "wk": [],
 "bm": [
@@ -1635,7 +1658,9 @@ const DATA: ManuelData = {
 "ch": 1,
 "title": "Diag. 15",
 "start": {
-"wm": [],
+"wm": [
+15
+],
 "wk": [],
 "bm": [
 14
