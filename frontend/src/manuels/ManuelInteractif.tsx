@@ -47,6 +47,7 @@ export interface Position {
 
 export type Block =
   | { type: 'board'; id: string; ch: number }
+  | { type: 'img'; ch: number; src: string; alt?: string }
   | { type: 'hr'; ch: number }
   | { type: 'h1' | 'h2' | 'h3' | 'h4' | 'quote' | 'p'; ch: number; runs: Run[] }
   | { type: 'ul' | 'ol'; ch: number; items: Run[][] }
@@ -158,6 +159,7 @@ const CSS = `
 .dm .h3{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--brass);font-weight:600;margin:26px 0 8px}
 .dm .h4{font-size:16px;font-weight:600;color:var(--ivory);margin:20px 0 6px}
 .dm p.par{margin:12px 0;color:#ddd6c9}
+.dm img.fig{display:block;max-width:100%;margin:16px auto;border-radius:8px;background:#fff}
 .dm .quote{margin:14px 0;padding:10px 16px;border-left:3px solid var(--brass-dim);background:var(--panel);
   border-radius:0 8px 8px 0;color:#cfc8bb;font-size:15px}
 .dm ul.lst,.dm ol.lst{margin:12px 0;padding-left:22px;color:#ddd6c9}
@@ -510,6 +512,7 @@ function BoardCard({ pos }: { pos: Position }): React.ReactElement {
 
 function BlockView({ b, positions }: { b: Block; positions: Record<string, Position> }): React.ReactElement | null {
   if (b.type === 'board') { const p = positions[b.id]; return p ? <BoardCard pos={p} /> : null }
+  if (b.type === 'img') return <img className="fig" src={b.src} alt={b.alt || ''} />
   if (b.type === 'hr') return <hr />
   if (b.type === 'h1') return <div className="h1"><Runs runs={b.runs} /></div>
   if (b.type === 'h2') return <div className="h2"><Runs runs={b.runs} /></div>

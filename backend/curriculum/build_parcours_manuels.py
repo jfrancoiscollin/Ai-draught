@@ -463,6 +463,63 @@ _HEADER = (
 )
 
 
+def _insert_schematics(data: dict, path: Path) -> int:
+    """Insert the territorial schematic images (extracted from the PDF by
+    ``scripts/book_extraction/extract_sdj_schematics.py``) into a reader,
+    aligned with the prose: a chapter's first schematic after its intro
+    paragraph, the rest just before each « diagramme ci-dessus » sentence (the
+    diagram those sentences refer to sits above them). These annotated empty
+    boards carry no position, so they cannot be rendered as playable diagrams —
+    the book's own image is shown instead."""
+    if not path.is_file():
+        return 0
+    imgs_by_ch = {int(k): list(v) for k, v in json.loads(path.read_text()).items() if v}
+    if not imgs_by_ch:
+        return 0
+
+    def text(b: dict) -> str:
+        return "".join(r.get("t", "") for r in b.get("runs", []))
+
+    blocks = data["blocks"]
+    out: list[dict] = []
+    inserted = 0
+    i, n = 0, len(blocks)
+    while i < n:
+        ch = blocks[i].get("ch")
+        j = i
+        while j < n and blocks[j].get("ch") == ch:
+            j += 1
+        span = blocks[i:j]
+        imgs = imgs_by_ch.get(ch)
+        if imgs:
+            imgs = list(imgs)
+            first_p = next((k for k, b in enumerate(span) if b.get("type") == "p"), None)
+            ci = [k for k, b in enumerate(span)
+                  if b.get("type") == "p" and "ci-dessus" in text(b).lower()]
+            at: dict[int, list[dict]] = {}
+
+            def img(src: str) -> dict:
+                return {"type": "img", "ch": ch, "src": src, "alt": "Schéma territorial"}
+
+            if first_p is not None:
+                at.setdefault(first_p + 1, []).append(img(imgs.pop(0)))
+            for k in ci:
+                if not imgs:
+                    break
+                at.setdefault(k, []).append(img(imgs.pop(0)))
+            rebuilt: list[dict] = []
+            for k, b in enumerate(span):
+                rebuilt.extend(at.get(k, []))
+                rebuilt.append(b)
+            rebuilt.extend(img(s) for s in imgs)  # leftover
+            inserted += sum(len(v) for v in at.values()) + len(imgs)
+            span = rebuilt
+        out.extend(span)
+        i = j
+    data["blocks"] = out
+    return inserted
+
+
 def _write_module(data: dict, module_id: str) -> dict:
     _FRONTEND_DATA.mkdir(parents=True, exist_ok=True)
     body = json.dumps(data, ensure_ascii=False, indent=0)
@@ -540,6 +597,9 @@ def main(argv: list[str]) -> int:
                                                "SENS_DU_JEU_EXERCISES"), 100)
         sens_book = build_lesson_book("Dubois — Le sens du jeu", "Intermédiaire",
                                       sens_chapters, 100, sens_ex)
+        n_sch = _insert_schematics(sens_book, _BACKEND / "sens_du_jeu_schematics.json")
+        if n_sch:
+            print(f"  (sens du jeu: {n_sch} schémas territoriaux insérés)")
         metas.append(_write_module(sens_book, "manuel_dubois_sens_du_jeu"))
 
         # Débutant manual (chapters 1..16). Needs dilf (fixtures); skip if absent.
