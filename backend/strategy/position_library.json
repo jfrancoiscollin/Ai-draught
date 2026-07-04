@@ -18,8 +18,8 @@
     "REFERENTIEL"
   ],
   "stats": {
-    "total": 5099,
-    "valid": 4740,
+    "total": 5096,
+    "valid": 4737,
     "per_source": {
       "SIJBRANDS": {
         "total": 513,
@@ -70,12 +70,12 @@
         "with_theme": 1043
       },
       "COUTTET": {
-        "total": 27,
-        "valid": 27,
+        "total": 24,
+        "valid": 24,
         "human": 0,
         "auto": 0,
         "no_fen": 0,
-        "with_theme": 27
+        "with_theme": 24
       },
       "ENCHAINEMENTS": {
         "total": 150,
@@ -64642,25 +64642,6 @@
       "valid": true
     },
     {
-      "id": "COUTTET_p0005_d2",
-      "source": "COUTTET",
-      "page": 5,
-      "number": 2,
-      "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-      "kind": "pdf",
-      "section_heading": "5. Variante Fabre par 34-30",
-      "theme": "5. Variante Fabre par 34-30",
-      "side_to_move": "white",
-      "n_white": 20,
-      "n_black": 20,
-      "n_white_kings": 0,
-      "n_black_kings": 0,
-      "n_legal_moves": 9,
-      "has_capture": false,
-      "illegal_men": 0,
-      "valid": true
-    },
-    {
       "id": "COUTTET_p0006_d1",
       "source": "COUTTET",
       "page": 6,
@@ -64684,25 +64665,6 @@
       "source": "COUTTET",
       "page": 7,
       "number": 1,
-      "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-      "kind": "pdf",
-      "section_heading": "7. Partie de l'enchaînement des noirs apres formation du centre",
-      "theme": "7. Partie de l'enchaînement des noirs apres formation du centre",
-      "side_to_move": "white",
-      "n_white": 20,
-      "n_black": 20,
-      "n_white_kings": 0,
-      "n_black_kings": 0,
-      "n_legal_moves": 9,
-      "has_capture": false,
-      "illegal_men": 0,
-      "valid": true
-    },
-    {
-      "id": "COUTTET_p0007_d2",
-      "source": "COUTTET",
-      "page": 7,
-      "number": 2,
       "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
       "kind": "pdf",
       "section_heading": "7. Partie de l'enchaînement des noirs apres formation du centre",
@@ -64988,25 +64950,6 @@
       "source": "COUTTET",
       "page": 23,
       "number": 1,
-      "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-      "kind": "pdf",
-      "section_heading": "23. Partie des 2 pions  « taquins »",
-      "theme": "23. Partie des 2 pions  « taquins »",
-      "side_to_move": "white",
-      "n_white": 20,
-      "n_black": 20,
-      "n_white_kings": 0,
-      "n_black_kings": 0,
-      "n_legal_moves": 9,
-      "has_capture": false,
-      "illegal_men": 0,
-      "valid": true
-    },
-    {
-      "id": "COUTTET_p0023_d2",
-      "source": "COUTTET",
-      "page": 23,
-      "number": 2,
       "fen": "W:W31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50:B1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
       "kind": "pdf",
       "section_heading": "23. Partie des 2 pions  « taquins »",
