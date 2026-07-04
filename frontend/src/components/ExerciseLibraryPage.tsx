@@ -197,7 +197,6 @@ export default function ExerciseLibraryPage({ onSelectBook, onBack }: ExerciseLi
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {books.map(book => {
                   const s = stats[book.id]
-                  const lessonPct = s && s.totalLessons > 0 ? Math.round((s.readLessons / s.totalLessons) * 100) : 0
                   const exercisePct = s && s.totalExercises > 0 ? Math.round((s.solvedExercises / s.totalExercises) * 100) : 0
 
                   return (
@@ -228,15 +227,6 @@ export default function ExerciseLibraryPage({ onSelectBook, onBack }: ExerciseLi
 
                       {book.hasExercises && s && (
                         <div className="w-full flex flex-col gap-1.5 mt-1">
-                          <div className="flex flex-col gap-0.5">
-                            <div className="flex justify-between text-xs">
-                              <span className="text-gray-400">📖 Leçons</span>
-                              <span className={lessonPct === 100 ? 'text-green-400 font-semibold' : 'text-gray-400'}>
-                                {user ? `${s.readLessons}/${s.totalLessons}` : `${s.totalLessons}`}
-                              </span>
-                            </div>
-                            {user && <ProgressBar value={lessonPct} color="bg-green-500" />}
-                          </div>
                           <div className="flex flex-col gap-0.5">
                             <div className="flex justify-between text-xs">
                               <span className="text-gray-400">✓ Exercices</span>
