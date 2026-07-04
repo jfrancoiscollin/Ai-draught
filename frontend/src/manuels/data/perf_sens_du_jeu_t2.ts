@@ -577,31 +577,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "17-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "2. 38-32 12-17 3. 31-26 22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "4. 36x27 etc."
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line0",
+"ch": 1
 },
 {
 "type": "p",
@@ -613,29 +591,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "17-21 ?"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line1",
+"ch": 1
 },
 {
 "type": "p",
 "ch": 1,
 "runs": [
 {
-"t": "2. 38-32 3-8 (21-26) perd le pion par 48-43 (26x28) 47-41 (22x31) 33x24 etc. 3. 39-34 12-17 (21-26) perd le pion par 33-29 (26x28) 29-24 (22x31) 24x33 etc. Après (15-20) 25x14 (19x10), les blancs ont une manœuvre décisive par 31-26 (22x31) 36x27 (10-14) 26x17 (12x21) 33-28 (14-19) 30-25 etc. 4. 31-26 22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "5. 36x27 etc."
+"t": "( ) perd le pion par ( ) ( ) etc. ( ) perd le pion par ( ) ( ) etc. Après ( ) ( ), les blancs ont une manœuvre décisive par ( ) ( ) ( ) ( ) etc"
 }
 ]
 },
@@ -649,40 +614,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "17-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "34. 26x17 12x32 35. 38x27 13-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "36. 34-30 8-12 37. 40-34 20-25"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "38. 29x20 15x24 etc."
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line2",
+"ch": 1
 },
 {
 "type": "board",
@@ -817,74 +751,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "17-22 !"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line3",
+"ch": 1
 },
 {
 "type": "p",
 "ch": 1,
 "runs": [
 {
-"t": "34. 28x17 12x21 35. 38-32 21-27 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "36. 32x21 16x27 La position des blancs est à présent critique car après 41-37 (18- 22) il y a la menace (22-28), et le coup défensif 45-40 cloue l’aile gauche des blancs. 37. 34-30 9-14"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "38. 30x19 14x34 39. 39x30 20-25"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "40. 33-28 25x34 41. 28-22 27-32"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "42. 22-17 32-38"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "43. 43x32 18-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "44. 17x28 34-39 etc."
+"t": "La position des blancs est à présent critique car après (18- 22) il y a la menace ( ), et le coup défensif cloue l’aile gauche des blancs"
 }
 ]
 },
@@ -1375,11 +1251,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line4",
+"ch": 1
+},
+{
 "type": "p",
 "ch": 1,
 "runs": [
 {
-"t": "2. 31-26 22x31 3. 26x37 18-22 Les blancs sont totalement dépassés."
+"t": "Les blancs sont totalement dépassés"
 }
 ]
 },
@@ -1552,38 +1433,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "23-28 !"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line5",
+"ch": 1
 },
 {
 "type": "p",
 "ch": 1,
 "runs": [
 {
-"t": "41. 31-26 22x31 42. 36x27 17-22 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "43. 48-42 22x31 44. 33x22 18x27"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "45. 26x37 11-17 46. 39-33 19-23 ! Les blancs ont abandonné après quelques coups sans importance."
+"t": "Les blancs ont abandonné après quelques coups sans importance"
 }
 ]
 },
@@ -1612,11 +1471,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line6",
+"ch": 1
+},
+{
 "type": "p",
 "ch": 1,
 "runs": [
 {
-"t": "17-22 !"
+"t": "La prise sur le flanc donne toujours plus de flexibilité et évite les éventuels dégagements par 33"
 }
 ]
 },
@@ -1625,7 +1489,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "19. 28x17 12x21 ! La prise sur le flanc donne toujours plus de flexibilité et évite les éventuels dégagements par 33-28. 20. 49-43 7-12"
+"t": "Une sortie du pion qui se présente fréquemment, préférable en priorité à la mise en jeu des pions 2 ou"
 }
 ]
 },
@@ -1634,7 +1498,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "21. 34-30 9-13 22. 30x19 13x24"
+"t": "( ) était également envisageable"
 }
 ]
 },
@@ -1643,7 +1507,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "23. 40-34 3-9 Une sortie du pion qui se présente fréquemment, préférable en priorité à la mise en jeu des pions 2 ou 4. 24. 34-30 9-13"
+"t": "Un coup important. De manière plus machinale, on joue généralement ( ) ( ). Les noirs ont en projet de profiter de leur temps d’avance pour s’accaparer tout l’espace de jeu"
 }
 ]
 },
@@ -1652,7 +1516,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "25. 30x19 13x24"
+"t": "Les jeux sont faits. Les noirs ont dix temps d’avance et sont sur tous les fronts"
 }
 ]
 },
@@ -1661,115 +1525,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "26. 42-38 11-17 (21-27) était également envisageable. 27. 39-34 8-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "28. 34-30 2-8"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "29. 30x19 13x24 30. 38-32 10-14 Un coup important. De manière plus machinale, on joue généralement (21-27) 32x21 (17x26). Les noirs ont en projet de profiter de leur temps d’avance pour s’accaparer tout l’espace de jeu. 31. 43-38 14-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "32. 36-31 6-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "33. 31-26 11-16 34. 41-37 21-27 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "35. 32x21 16x27"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "36. 37-32 17-21 37. 26x17 12x21"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "38. 44-39 8-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "39. 47-41 4-9 40. 41-37 20-25 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "41. 29x20 15x24 ! Les jeux sont faits. Les noirs ont dix temps d’avance et sont sur tous les fronts. 42. 45-40 9-14"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "43. 48-43 18-23 44. 40-34 14-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "45. 37-31 27x36 46. 32-28 23x32"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "47. 38x16 36-41 48. 16-11 41-47 Les noirs ont remporté plus tard la partie."
+"t": "Les noirs ont remporté plus tard la partie"
 }
 ]
 },
@@ -2042,20 +1798,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "2. 40-34 14-20"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line7",
+"ch": 2
 },
 {
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "3. 45-40 19-24 La formation du marchand de bois est en général tellement attractive que les joueurs n’hésitent pas à l’adopter, même avec 2 pions sur la grande diagonale. Il en résulte une forme de jeu équilibrée dans laquelle les enjeux sont principalement centrés sur l’occupation territoriale, avec une éventuelle intrusion sur la case 23. Les dégagements éventuels sont également à prendre en considération."
+"t": "La formation du marchand de bois est en général tellement attractive que les joueurs n’hésitent pas à l’adopter, même avec 2 pions sur la grande diagonale. Il en résulte une forme de jeu équilibrée dans laquelle les enjeux sont principalement centrés sur l’occupation territoriale, avec une éventuelle intrusion sur la case Les dégagements éventuels sont également à prendre en considération"
 }
 ]
 },
@@ -2103,29 +1855,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "14-20"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line8",
+"ch": 2
 },
 {
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "2. 46-41 10-14 3. 41-37 5-10"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "4. 47-41 19-23 Attaque à contretemps qui force les blancs à fermer la case 34."
+"t": "Attaque à contretemps qui force les blancs à fermer la case"
 }
 ]
 },
@@ -2139,11 +1878,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line9",
+"ch": 2
+},
+{
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "24-30 !"
+"t": "Sur , l’aspect tactique prend le dessus par ( ) ( ) ( ) ( ) ( )"
 }
 ]
 },
@@ -2152,52 +1896,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "24. 35x24 19x30 25. 33-29 Sur 45-40, l’aspect tactique prend le dessus par (23-29) 33x35 (22-28) 32x23 (18x29) 34x23 (17-21) 26x17 (12x41). 25…"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "2-7"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "26. 45-40 14-19 27. 40-35 ? 47-41 s’imposait. A présent les noirs combinent par : 27…"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "17-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "28. 26x28 11-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "29. 35x24 19x30 30. 28x19 13x44"
+"t": "s’imposait. A présent les noirs combinent par"
 }
 ]
 },
@@ -2857,11 +2556,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line10",
+"ch": 2
+},
+{
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "21-27 !"
+"t": "Et les blancs sont dans l’impossibilité de se dégager par"
 }
 ]
 },
@@ -2870,25 +2574,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "2. 28-23 13-18 ! Et les blancs sont dans l’impossibilité de se dégager par : 3. 38-32 27x38"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "4. 33x42 24x33 5. 39x28 18x29"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "6. 34x23 Car ils perdent un pion simplement par (25-30) etc."
+"t": "Car ils perdent un pion simplement par ( ) etc"
 }
 ]
 },
@@ -3343,65 +3029,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "9-13"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line11",
+"ch": 2
 },
 {
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "34. 42-37 21-27 35. 31x22 18x27"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "36. 28-23 13-18 37. 48-43 14-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "38. 23x14 20x9 39. 29x20 25x14 Ce double échange met en évidence la faiblesse de l’aile gauche des blancs. La partie s’est poursuivie par : 40. 33-28 9-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "41.39-33 12-17 42. 43-39 18-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "43. 35-30 2-8 44. 30-24 13-18"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "45. 24-20 15x24 etc."
+"t": "Ce double échange met en évidence la faiblesse de l’aile gauche des blancs. La partie s’est poursuivie par"
 }
 ]
 },
@@ -4240,29 +3877,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "7-12"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line12",
+"ch": 2
 },
 {
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "19. 43-38 2-7 20. 38-32 21-26"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "21. 42-38 26x37 22. 32x41 Les blancs se ménagent des temps de réserve. 22…"
+"t": "Les blancs se ménagent des temps de réserve"
 }
 ]
 },
@@ -4634,11 +4258,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line13",
+"ch": 2
+},
+{
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "2-7"
+"t": "Le dégagement ( ) ( ) ( ) donne un jeu parfaitement équilibré"
 }
 ]
 },
@@ -4647,124 +4276,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "21. 43-38 7-12 22. 42-37 6-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "23. 38-32 11-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "24. 49-43 Le dégagement 28-23 (19x28) 33x11 (16x7) 36-31 (24x33) 39x28 donne un jeu parfaitement équilibré. 24…"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "18-22 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "25. 43-38 21-27 ! 26.32x21 17x26"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "27. 28x17 12x21 Les blancs ont de moins en moins de pions en activité. 28. 37-32 ? Un coup logique, mais très probablement perdant. 38-32 est préférable. 28…"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "8-12"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "29. 47-42 12-18 30. 48-43 1-6"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "31. 42-37 18-22 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "32. 32-28 21-27 ! 33. 28x17 26-31"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "34. 37x26 27-32"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "35. 38x27 19-23 36. 29x9 24-30"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "37. 35x24 20x49"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "38. 9x20 49x8 N+"
+"t": "Les blancs ont de moins en moins de pions en activité. ? Un coup logique, mais très probablement perdant. est préférable"
 }
 ]
 },
@@ -4815,49 +4327,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "24-30"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "28. 34x25 15-20 29. 25x14 3-9"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "30. 14x3 29-33 31. 38x29 23x34"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "32. 40x29 18-22 33. 27x9 8-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "34. 9x18 12x34 35. 3x21 16x49 N+"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line14",
+"ch": 2
 },
 {
 "type": "board",
@@ -4964,200 +4436,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "20-25"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line15",
+"ch": 2
 },
 {
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "14. 44-39 25x34"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "15. 39x30 10-14 16. 30-25 14-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "17. 35-30 19-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "18. 33-29 23x34 19. 30x39 13-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "20. 45-40 19-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "21. 49-44 9-14 22. 40-34 3-9"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "23. 34-29 23x34"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "24. 39x30 9-13 25. 44-40 13-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "26. 40-35 19-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "27. 38-33 8-13 28. 42-38 4-10"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "29. 33-29 23x34"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "30. 30x39 14-19 31. 38-33 10-14"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "32. 33-29 19-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "33. 50-44 23x34 34.39x30 13-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "35. 43-38 19-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "36. 44-39 15-20 Sur (14-19), peut suivre 38-33 (2-8 ) 26-21 (17x26) 37-32 (26x46) 30-24 (19x30) 35x24 (46x28) 48-42 (22x31) 33x2. 37. 38-33 14-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "38. 25x14 19x10"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "39. 30-25 23-28 40. 35-30 10-14"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "41. 39-34 28x39"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "42. 34x43 2-8 43. 37-32 16-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "44. 27x16 etc."
+"t": "Sur ( ), peut suivre ( ) ( ) ( ) ( ) ( ) ( ) 33x"
 }
 ]
 },
@@ -5259,47 +4547,16 @@ const DATA: ManuelData = {
 "ch": 2
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "23. 47-41 ? Ton fait remarquer que les blancs peuvent prendre l’avantage par 34-30 ! (25x34) 39x19 (13x24) 44-39 ! car (20-25) 29x20 (18x29) 33x24 (25-30) échoue sur 32-28 etc. dame à 4. 23…"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line16",
+"ch": 2
 },
 {
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "7-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "24. 34-30 25x34 25. 39x19 13x24"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "26. 44-39 20-25 ! 27. 29x20 18x29"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "28. 33x24 25-30 etc."
+"t": "Ton fait remarquer que les blancs peuvent prendre l’avantage par ! ( ) ( ) ! car ( ) ( ) ( ) échoue sur etc. dame à"
 }
 ]
 },
@@ -5322,20 +4579,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "18-22"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line17",
+"ch": 2
 },
 {
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "34. 28x17 12x21 35. 38-32 13-18 Les noirs abandonnent car 43-38, pour éviter le coup de dame, perd le pion après (18-22)."
+"t": "Les noirs abandonnent car , pour éviter le coup de dame, perd le pion après ( )"
 }
 ]
 },
@@ -5639,49 +4892,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "19-23 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "25. 48-43 23x34 26. 39x30 25x34"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "27. 33-28 22x33 28. 38x40 18-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "29. 47-41 13-18 30. 43-39 9-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "31. 42-38 17-22 ! etc."
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line18",
+"ch": 2
 },
 {
 "type": "board",
@@ -6469,74 +5682,16 @@ const DATA: ManuelData = {
 "ch": 2
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "2.5.5 – L’intrusion dans le centre adverse Karen van Lith – Wim van der Kooij (Training 1996) 21e temps – trait aux blancs Cette position illustre bien les problèmes de développement auxquels les blancs peuvent être confrontés. Le coup « naturel » 39-33 serait « horrible » car il mettrait hors-jeu les 4 pions de la petite diagonale 47-42-38-33. Dans la partie, les blancs ont opté pour : 21. 38-33 23-28 ! Une intrusion dans le centre adverse qui coupe le jeu des blancs en deux. 22. 42-38 En jouant ce coup, les blancs prennent de gros risques. En partie officielle, je pense qu’ils auraient préféré la suite désavantageuse 33-29 (16-21) 27x16 (28-32) 37x28 (22x24). 22…"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line19",
+"ch": 2
 },
 {
 "type": "p",
 "ch": 2,
 "runs": [
 {
-"t": "14-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "23. 25x14 9x20"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "24. 47-42 4-9 25. 45-40 9-14"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "26. 40-34 3-9"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "27. 50-45 13-19 28. 45-40 8-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "29. 34-29 28-32"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "30. 37x28 18-23 31. 29x18 12x21 N+"
+"t": "5 – L’intrusion dans le centre adverse Karen van Lith – Wim van der Kooij (Training 1996) 21e temps – trait aux blancs Cette position illustre bien les problèmes de développement auxquels les blancs peuvent être confrontés. Le coup « naturel » serait « horrible » car il mettrait hors-jeu les 4 pions de la petite diagonale - Dans la partie, les blancs ont opté pour : ! Une intrusion dans le centre adverse qui coupe le jeu des blancs en deux. En jouant ce coup, les blancs prennent de gros risques. En partie officielle, je pense qu’ils auraient préféré la suite désavantageuse ( ) ( ) ( )"
 }
 ]
 },
@@ -6853,47 +6008,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "16-21"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line20",
+"ch": 3
 },
 {
 "type": "p",
 "ch": 3,
 "runs": [
 {
-"t": "11. 41-37 10-14"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "12. 31-26 5-10 13. 26x17 12x21"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "14. 28-23 19x28"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "15. 32x23 Un plan de jeu standard pour les blancs lorsque l’échange 26x17 (12x21) s’est produit. 15…"
+"t": "Un plan de jeu standard pour les blancs lorsque l’échange ( ) s’est produit"
 }
 ]
 },
@@ -7052,40 +6176,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "21-27 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "24. 32x21 16x27 25. 34-30 25x34"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "26. 39x19 13x24 27. 40-34 8-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "28. 43-39 3-8 29. 34-30 13-19 N+"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line21",
+"ch": 3
 },
 {
 "type": "p",
@@ -7454,85 +6547,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "11-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "13. 43-39 17-21 14. 50-44 7-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "15. 31-27 1-7 16. 40-34 13-18"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "17. 44-40 18x29 18. 34x23 9-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "19. 40-34 13-18 20. 45-40 18x29"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "21. 34x23 8-13 22. 27-22 12-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "23. 40-34 7-12 24. 30-25 3-9"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "25. 34-30 13-18 26. 22x13 9x29"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "27. 28-22 17x28 28. 32x34 etc."
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line22",
+"ch": 3
 },
 {
 "type": "board",
@@ -8218,49 +7235,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "22-28"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "17. 32x23 19x28 18. 33x22 18x27"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "19. 31x22 24x33 20. 39x28 25-30"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "21. 35x15 14-20 22. 15x24 13-18"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "23. 22x13 8x50"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line23",
+"ch": 3
 },
 {
 "type": "board",
@@ -9658,67 +8635,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "14-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "2. 42-38 20-25 3. 40-34 13-18"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "4. 41-37 12-17 5. 38-32 8-12"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "6. 36-31 17-21 7. 31-27 12-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "8. 43-39 18-23 9. 37-31 26x37"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "10. 32x41 21x32 11. 28x37 17-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "12. 37-31 16-21 13. 31-26 21-27 +"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line24",
+"ch": 5
 },
 {
 "type": "p",
@@ -9862,31 +8781,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "24-29 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "28. 33x24 14-20 29. 27-22 20x40"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "30. 35x44 18x27 31. 31x22 25x34 etc."
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line25",
+"ch": 5
 },
 {
 "type": "p",
@@ -9898,31 +8795,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "24-29"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "34. 33x24 23-29 35. 34x14 9x29"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "36. 30-24 29x20 37. 31-27 8-12 etc."
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line26",
+"ch": 5
 },
 {
 "type": "p",
@@ -10021,11 +8896,16 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line27",
+"ch": 5
+},
+{
 "type": "p",
 "ch": 5,
 "runs": [
 {
-"t": "5.5 – L’enchaînement et le contre jeu sur l’autre aile Se faire enchaîner procure l’avantage de bloquer le jeu sur l’aile droite. Si les perspectives offensives sur l’autre aile sont favorables, cela devient une forme de jeu attrayante. Krivoroek – Ogorodnikov (Cht URSS 1963) 45e temps – trait aux noirs Dans cet exemple, l’occupation de la case 29 est un préalable pour entamer une offensive sur l’aile. 45... 23-29 ! Fixe les pions 38 et 47, tout en libérant quelques pion noirs. 46. 47-42 20-25"
+"t": "5 – L’enchaînement et le contre jeu sur l’autre aile Se faire enchaîner procure l’avantage de bloquer le jeu sur l’aile droite. Si les perspectives offensives sur l’autre aile sont favorables, cela devient une forme de jeu attrayante. Krivoroek – Ogorodnikov (Cht URSS 1963) 45e temps – trait aux noirs Dans cet exemple, l’occupation de la case 29 est un préalable pour entamer une offensive sur l’aile. ! Fixe les pions 38 et 47, tout en libérant quelques pion noirs"
 }
 ]
 },
@@ -10034,34 +8914,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "47. 42-37 ? Les Blancs simplifient la tâche des Noirs. 47... 19-23 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "48. 28x19 13x24 49. 39-33 18-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "50. 44-40 24-30 51. 33x35 23-28"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "52. 32x23 21x41 N+"
+"t": "Les Blancs simplifient la tâche des Noirs"
 }
 ]
 },
@@ -10162,11 +9015,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line28",
+"ch": 5
+},
+{
 "type": "p",
 "ch": 5,
 "runs": [
 {
-"t": "18-22 !"
+"t": "Sur le dégagement ( ) les Noirs restent maîtres du centre"
 }
 ]
 },
@@ -10175,79 +9033,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "42. 27x18 13x22 43. 43-39 Sur le dégagement 33-29 (24x33) 28x39 les Noirs restent maîtres du centre. 43..."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "10-15"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "44. 48-43 7-12 45. 43-38 12-18 ! Les Noirs préparent l’enchaînement du centre. 46. 34-29 22-27 !"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "47. 29x20 15x24"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "48. 39-34 18-23 ! 49. 35-30 24x35"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "50. 33-29 35-40"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "51. 29x18 40x29 52. 38-33 29x38"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "53. 32x43 17-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "54. 26x17 22x11 N+"
+"t": "Les Noirs préparent l’enchaînement du centre"
 }
 ]
 },
@@ -11374,11 +10160,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line29",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "1.1 - Les attaques répétées sur le pion taquin L’intention est d’attaquer le pion taquin adverse en vue de le gagner, parfois même avec un nombre égal d’attaques et de défenses, comme le montre l’exemple suivant : Trait aux blancs (Pion taquin épaulé et soutenu) 3 attaques et 3 défenses sur le pion taquin. Mais les noirs sont loin du centre. Les blancs ont une manœuvre typique de gain de pion : 1. 37-32 11-16"
+"t": "1 - Les attaques répétées sur le pion taquin L’intention est d’attaquer le pion taquin adverse en vue de le gagner, parfois même avec un nombre égal d’attaques et de défenses, comme le montre l’exemple suivant : Trait aux blancs (Pion taquin épaulé et soutenu) 3 attaques et 3 défenses sur le pion taquin. Mais les noirs sont loin du centre. Les blancs ont une manœuvre typique de gain de pion"
 }
 ]
 },
@@ -11387,16 +10178,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "2. 32x21 16x27 3. 42-37 6-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "4. 37-32 11-16 5. 32x21 16x27 Position du diagramme suivant :"
+"t": "Position du diagramme suivant"
 }
 ]
 },
@@ -11829,20 +10611,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "26. 37-32 15-20"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line30",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "27. 32x21 10-15 Les noirs ne peuvent récupérer leur pion par (22-28) 33x22 (18x16) à cause du coup de dame 30-24 (19x39) 40-34 (39x30) 35x4"
+"t": "Les noirs ne peuvent récupérer leur pion par ( ) ( ) à cause du coup de dame ( ) ( )"
 }
 ]
 },
@@ -12929,137 +11707,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "20. 33-29 3-9"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line31",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "21. 37-32 11-16 22. 32x21 16x27"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "23. 42-37 6-11 24. 47-42 2-7"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "25. 37-32 11-16 26. 32x21 16x27"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "27. 42-37 7-11 28. 37-32 11-16"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "29. 32x21 16x27 30. 38-33 23-28"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "31. 29-23 18x38 32. 43x21 20-24"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "33. 49-43 13-18 34. 43-38 9-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "35. 21-16 12-17 36. 38-33 19-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "37. 31-27 22x31 38. 33x11 31-37"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "39. 11-7 37-42 40. 7-1 42-47"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "41. 39-33 47x29"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "42. 44-39 14-20 43. 25x14 10x19"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "44. 40-35 29x40"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "45.45x34 etc. +"
+"t": "etc. +"
 }
 ]
 },
@@ -13373,29 +12030,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "24-29"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line32",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "2. 49-44 29x49 3. 43-39 49x32"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "4.37x6 Une autre idée de combinaison était envisageable après (23-28) 43-39 (18-23), par 25-20 (14x25) 39-33 (28x39) 34x43 (25x34) 43- 39 (34x32) 37x6 (12-18) 31x22 (18x27), mais cela ne donne que la nulle. Le plus remarquable est que les noirs pouvaient prendre l’avantage par un coup inattendu, à savoir (12-17). Ce coup interdit l’attaque 37-32 par le coup de dame (23-28) 32x32 (24-29) 34x23 (19x46). Après (12-17) 43-39 (7-12), les blancs ne peuvent toujours pas attaquer le pion taquin par 37-32 en raison de (22-28) 31x33 (23-29) 34x23 (19x46)"
+"t": "Une autre idée de combinaison était envisageable après ( ) ( ), par ( ) ( ) ( ) 43- 39 ( ) ( ) ( ), mais cela ne donne que la nulle. Le plus remarquable est que les noirs pouvaient prendre l’avantage par un coup inattendu, à savoir ( ). Ce coup interdit l’attaque par le coup de dame ( ) ( ) ( ). Après ( ) ( ), les blancs ne peuvent toujours pas attaquer le pion taquin par en raison de ( ) ( ) ( )"
 }
 ]
 },
@@ -14271,58 +12915,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "19-24"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "2. 40-35 3-8 3. 49-43 6-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "4 .48-42 16-21 5. 28-23 21-26"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "5..42-37 11-17 6.50-44"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "1-7"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "7. 23-19 etc ."
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line33",
+"ch": 7
 },
 {
 "type": "p",
@@ -14334,40 +12929,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "24-30"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "2. 35x24 19x30 3. 34-29"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "9-14"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "4. 38-32 27x38 5. 43x32"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line34",
+"ch": 7
 },
 {
 "type": "board",
@@ -14403,103 +12967,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "13-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "2. 24x13 18x9 3. 41-37 21-27"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "4. 47-42 9-14 5. 42-38 6-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "6. 46-41 8-13 7. 40-34 23-28"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "8. 31-26 12-18 9. 37-31 15-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "10. 38-33 20-25 11. 33-29 2-8"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "12. 50-45 8-12 13. 45-40 12-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "14. 40-35 11-16 15. 29-24 27-32"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "16. 41-37 32x41 17. 36x47 16-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "18. 47-41 28-33 19. 39x28 22x33"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "20.41-37 33-38 N+"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line35",
+"ch": 7
 },
 {
 "type": "p",
@@ -14835,47 +13305,16 @@ const DATA: ManuelData = {
 "ch": 7
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "3.1 - Le schéma de base Trait aux blancs Ce diagramme montre clairement que le salut pour les noirs dépend de l’échange à 22 et des perspectives de jeu sur leur aile droite. 1. 38-33"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line36",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "18-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "2. 27x18 13x22 3. 37-31"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "9-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "4. 39-34 13-18 5. 31-26"
+"t": "1 - Le schéma de base Trait aux blancs Ce diagramme montre clairement que le salut pour les noirs dépend de l’échange à 22 et des perspectives de jeu sur leur aile droite"
 }
 ]
 },
@@ -14943,155 +13382,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "18-22"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line37",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "33. 27x18 13x22 34. 32-27 22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "35. 36x27 Il est important pour les blancs de reprendre le contrôle de la case 27. 35…"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "11-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "36. 37-32 8-12 37. 33-28 9-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "38. 38-33 6-11 39. 42-38 17-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "40. 48-42 11-17 41. 42-37 12-18"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "42. 50-44 4-9 43. 44-39 18-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "44. 27x18 13x22 45. 28-23 19x28"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "46. 32x23 22-27"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "47. 30-24 27-32 48. 37x28 26-31"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "49. 24-19 14-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "50. 15x24 31-36 51. 23-18 36-41"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "52. 19-13 9-14"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "53. 13-8 41-47 54. 8-2 47-41"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "55. 18-12 41x32"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "56. 33-29 17x8 57. 2x37 B+"
+"t": "Il est important pour les blancs de reprendre le contrôle de la case"
 }
 ]
 },
@@ -15237,83 +13537,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "6-11"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line38",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "25. 39-33 11-17 26. 47-42 8-12"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "27. 42-38 17-22 28. 31-26 22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "29. 36x27 12-17 30. 46-41 2-7"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "31. 41-36 7-11 32. 38-32 1-6"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "33. 43-38 9-14 34. 44-39 17-21"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "35. 26x17 11x31 36. 36x27 6-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "37. 33-28 23-29 38. 39-34 18-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "39. 49-43 11-17 40. 30-24 etc +"
+"t": "etc +"
 }
 ]
 },
@@ -15537,11 +13770,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line39",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "14-19"
+"t": "Sur , suit ( ) ( ) ( ) ( )"
 }
 ]
 },
@@ -15550,133 +13788,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "22. 37-32 09-13 23. 44-40 04-09"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "24. 39-34 02-08 25. 43-39 24-30"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "26. 25-20 15x24 27. 34x25 18-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "28. 39-34 09-14 29. 49-43 13-18"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "30. 43-39 17-22 31. 28x17 11x22"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "32. 32-27 22x31 33. 26x37 08-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "34. 38-33 06-11 35. 42-38 11-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "36. 48-43 24-30 37. 33-29 Sur 34-29x29, suit (3-9) 25x34 (17-21) 16x27 (18-23) 29x18 (13x42) 37…"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "17-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "38. 40-35 12-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "39. 35x24 19x30 40. 37-32 07-12"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "41. 38-33 14-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "42. 25x14 17-21 43. 34x25 23x34"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "44. 39x30 13-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "45. 16x27 22x31 46. 14x23 18x49 Partie entière : http://toernooibase.kndb.nl/applet/oerterpapplet2.0/oerterp.php?taal=&kl=46&Id=608&r=1&jr=0&wed= 82616&weda=&zetten=&aav=&view=4"
+"t": "Partie entière : http://toernooibase.kndb.nl/applet/oerterpapplet 0/oerterp.php?taal=&kl=46&Id=608&r=1&jr=0&wed= 82616&weda=&zetten=&aav=&view=4"
 }
 ]
 },
@@ -15690,38 +13802,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "18-23"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line40",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "21. 40-34 13-18 22. 30-25 08-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "23. 34-30 10-15 24. 49-44 02-07"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "25. 50-45 17-22 Les Noirs occupent les 3 cases stratégiques 22, 23 et 24."
+"t": "Les Noirs occupent les 3 cases stratégiques 22, 23 et"
 }
 ]
 },
@@ -15754,11 +13844,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line41",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "18-22"
+"t": "Par ce simple échange, les noirs ont délogé les blancs des cases stratégiques 27 et 28, et pris le contrôle du jeu sur leur aile droite. L’avance de développement des noirs devient flagrante. Une meilleure défense est obtenue après ( ) ( ) etc"
 }
 ]
 },
@@ -15767,52 +13862,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "28. 27x18 13x22 29. 28x17 11x22 Par ce simple échange, les noirs ont délogé les blancs des cases stratégiques 27 et 28, et pris le contrôle du jeu sur leur aile droite. L’avance de développement des noirs devient flagrante. 30. 41-36 Une meilleure défense est obtenue après 42-37 (21-27x27) 34-29 (7-12) 48-43 etc. 30..."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "21-27"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "31. 32x21 16x27"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "32. 49-43 7-12 33. 50-44 9-13"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "34. 33-28 22x33"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "35. 38x29 12-18 Les blancs ont obtenu un avantage territorial conséquent. Partie accessible sur le lien : http://toernooibase.kndb.nl/applet/oerterpapplet2.0/oerterp.php?taal=&kl=23&Id=1654&r=9&jr=0&wed =249307&weda=&zetten=&aav=&view=4&gotoPly="
+"t": "Les blancs ont obtenu un avantage territorial conséquent. Partie accessible sur le lien : http://toernooibase.kndb.nl/applet/oerterpapplet 0/oerterp.php?taal=&kl=23&Id=1654&r=9&jr=0&wed =249307&weda=&zetten=&aav=&view=4&gotoPly="
 }
 ]
 },
@@ -16139,11 +14189,16 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line42",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "17-22"
+"t": "Sur , les noirs ont encore une attaque avec la montée du pion 2 en"
 }
 ]
 },
@@ -16152,43 +14207,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "2. 41-36 22x31 3. 36x27 7-11"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "4. 33-28 11-17 5. 28x19 14x23"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "6. 47-41 17-22 7. 39-33 Sur 41-36, les noirs ont encore une attaque avec la montée du pion 2 en 22. 7…"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "22x31"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "8. 32-28 23x32 9. 38x36 18-22 Et les noirs ont créé un déséquilibre latéral et obtenu de meilleures perspectives dans cette partie de flanc."
+"t": "Et les noirs ont créé un déséquilibre latéral et obtenu de meilleures perspectives dans cette partie de flanc"
 }
 ]
 },
@@ -16202,20 +14221,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "19-23"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line43",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "2. 28x19 14x23 Un accès à la case stratégique 23 tout à fait légitime. 3. 39-33 6-11 Et les noirs peuvent ensuite poursuivre leur offensive par (21- 27x27) immédiatement ou un peu plus tard."
+"t": "Un accès à la case stratégique 23 tout à fait légitime. Et les noirs peuvent ensuite poursuivre leur offensive par (21- ) immédiatement ou un peu plus tard"
 }
 ]
 },
@@ -17000,58 +15015,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "21-27"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "23. 32x21 16x27 24. 38-32 27x38"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "25. 43x32 10-14 26. 34-30 2-7"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "27. 48-43 17-22 28. 28x17 11x22"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "29. 32-27 22x31 30. 26x37 19-23"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "31. 29-24 6-11 32. 30-25 18-22"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line44",
+"ch": 7
 },
 {
 "type": "p",
@@ -17072,22 +15038,9 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "33. 37-32 12-17"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "34. 32-27 22x31 35. 36x27 4-10"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line45",
+"ch": 7
 },
 {
 "type": "p",
@@ -17177,29 +15130,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "24-30"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line46",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "33. 45-40 30-35 34. 38-33 35x44"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "35. 39x50 14-20 36.28-22 ! Diagramme suivant. C’est à partir du moment où les blancs ont l’opportunité de jouer 28-22 qu’ils obtiennent des perspectives favorables."
+"t": "Diagramme suivant. C’est à partir du moment où les blancs ont l’opportunité de jouer qu’ils obtiennent des perspectives favorables"
 }
 ]
 },
@@ -17213,101 +15153,16 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "20-24"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line47",
+"ch": 7
 },
 {
 "type": "p",
 "ch": 7,
 "runs": [
 {
-"t": "37. 33-28 12-18 38. 48-43 24-29"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "39. 50-45 29x40 40. 45x34 3-9"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "41. 43-39 9-14 42. 39-33 14-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "43. 33-29 20-24 44. 29x20 25x14"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "45. 49-44 7-12 46. 34-30 14-20"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "47. 22-17 Le coup de grâce. On mesure ici tout l’intérêt de l’avancée 28-22 au 36e temps. Ce dernier échange donne un temps de réserve supplémentaire et assure le passage à dame. 47…"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "12x21"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "48. 27x16 20-24 49. 30-25 24-29"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "50. 16-11 18-22"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "51. 28x17 19-24 B+"
+"t": "Le coup de grâce. On mesure ici tout l’intérêt de l’avancée au 36e temps. Ce dernier échange donne un temps de réserve supplémentaire et assure le passage à dame"
 }
 ]
 },
@@ -19416,6 +17271,7 @@ const DATA: ManuelData = {
 "title": "Diagramme p. 18",
 "start": {
 "wm": [
+29,
 31,
 32,
 33,
@@ -19430,7 +17286,6 @@ const DATA: ManuelData = {
 42,
 43,
 44,
-45,
 46,
 47,
 48,
@@ -19452,86 +17307,18 @@ const DATA: ManuelData = {
 11,
 12,
 13,
-14,
 15,
 16,
 17,
 18,
-19,
-20
+20,
+24,
+25
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "34-29",
-"f": 34,
-"t": 29,
-"c": [],
-"path": [
-34,
-29
-],
-"p": false
-},
-{
-"n": "20-25",
-"f": 20,
-"t": 25,
-"c": [],
-"path": [
-20,
-25
-],
-"p": false
-},
-{
-"n": "40-34",
-"f": 40,
-"t": 34,
-"c": [],
-"path": [
-40,
-34
-],
-"p": false
-},
-{
-"n": "14-20",
-"f": 14,
-"t": 20,
-"c": [],
-"path": [
-14,
-20
-],
-"p": false
-},
-{
-"n": "45-40",
-"f": 45,
-"t": 40,
-"c": [],
-"path": [
-45,
-40
-],
-"p": false
-},
-{
-"n": "19-24",
-"f": 19,
-"t": 24,
-"c": [],
-"path": [
-19,
-24
-],
-"p": false
-}
-],
-"pub": "34-29 20-25 40-34 14-20 45-40 19-24"
+"moves": []
 },
 "PERF_SENS_DU_JEU_T2_p18_1": {
 "id": "PERF_SENS_DU_JEU_T2_p18_1",
@@ -20947,13 +18734,13 @@ const DATA: ManuelData = {
 "title": "Diagramme p. 32",
 "start": {
 "wm": [
+26,
+29,
 31,
-32,
 33,
 34,
 35,
 36,
-37,
 38,
 39,
 40,
@@ -20962,19 +18749,15 @@ const DATA: ManuelData = {
 43,
 44,
 45,
-46,
 47,
 48,
-49,
-50
+49
 ],
 "wk": [],
 "bm": [
 1,
 2,
 3,
-4,
-5,
 6,
 7,
 8,
@@ -20982,271 +18765,19 @@ const DATA: ManuelData = {
 10,
 11,
 12,
-13,
 14,
 15,
 16,
 17,
 18,
-19,
-20
+20,
+24,
+25
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "34-29",
-"f": 34,
-"t": 29,
-"c": [],
-"path": [
-34,
-29
-],
-"p": false
-},
-{
-"n": "19-23",
-"f": 19,
-"t": 23,
-"c": [],
-"path": [
-19,
-23
-],
-"p": false
-},
-{
-"n": "40-34",
-"f": 40,
-"t": 34,
-"c": [],
-"path": [
-40,
-34
-],
-"p": false
-},
-{
-"n": "14-19",
-"f": 14,
-"t": 19,
-"c": [],
-"path": [
-14,
-19
-],
-"p": false
-},
-{
-"n": "45-40",
-"f": 45,
-"t": 40,
-"c": [],
-"path": [
-45,
-40
-],
-"p": false
-},
-{
-"n": "10-14",
-"f": 10,
-"t": 14,
-"c": [],
-"path": [
-10,
-14
-],
-"p": false
-},
-{
-"n": "50-45",
-"f": 50,
-"t": 45,
-"c": [],
-"path": [
-50,
-45
-],
-"p": false
-},
-{
-"n": "5-10",
-"f": 5,
-"t": 10,
-"c": [],
-"path": [
-5,
-10
-],
-"p": false
-},
-{
-"n": "31-26",
-"f": 31,
-"t": 26,
-"c": [],
-"path": [
-31,
-26
-],
-"p": false
-},
-{
-"n": "20-25",
-"f": 20,
-"t": 25,
-"c": [],
-"path": [
-20,
-25
-],
-"p": false
-},
-{
-"n": "37-31",
-"f": 37,
-"t": 31,
-"c": [],
-"path": [
-37,
-31
-],
-"p": false
-},
-{
-"n": "14-20",
-"f": 14,
-"t": 20,
-"c": [],
-"path": [
-14,
-20
-],
-"p": false
-},
-{
-"n": "41-37",
-"f": 41,
-"t": 37,
-"c": [],
-"path": [
-41,
-37
-],
-"p": false
-},
-{
-"n": "10-14",
-"f": 10,
-"t": 14,
-"c": [],
-"path": [
-10,
-14
-],
-"p": false
-},
-{
-"n": "46-41",
-"f": 46,
-"t": 41,
-"c": [],
-"path": [
-46,
-41
-],
-"p": false
-},
-{
-"n": "4-10",
-"f": 4,
-"t": 10,
-"c": [],
-"path": [
-4,
-10
-],
-"p": false
-},
-{
-"n": "32-28",
-"f": 32,
-"t": 28,
-"c": [],
-"path": [
-32,
-28
-],
-"p": false
-},
-{
-"n": "23x32",
-"f": 23,
-"t": 32,
-"c": [
-28
-],
-"path": [
-23,
-32
-],
-"p": false
-},
-{
-"n": "37x28",
-"f": 37,
-"t": 28,
-"c": [
-32
-],
-"path": [
-37,
-28
-],
-"p": false
-},
-{
-"n": "19-23",
-"f": 19,
-"t": 23,
-"c": [],
-"path": [
-19,
-23
-],
-"p": false
-},
-{
-"n": "28x19",
-"f": 28,
-"t": 19,
-"c": [
-23
-],
-"path": [
-28,
-19
-],
-"p": false
-},
-{
-"n": "13x24",
-"f": 13,
-"t": 24,
-"c": [
-19
-],
-"path": [
-13,
-24
-],
-"p": false
-}
-],
-"pub": "34-29 19-23 40-34 14-19 45-40 10-14 50-45 5-10 31-26 20-25 37-31 14-20 41-37 10-14 46-41 4-10 32-28 23x32 37x28 19-23 28x19 13x24"
+"moves": []
 },
 "PERF_SENS_DU_JEU_T2_p32_1": {
 "id": "PERF_SENS_DU_JEU_T2_p32_1",
@@ -29399,21 +26930,17 @@ const DATA: ManuelData = {
 "title": "Diagramme p. 111",
 "start": {
 "wm": [
-31,
+15,
+25,
+27,
 32,
 33,
-34,
-35,
 36,
 37,
 38,
 39,
-40,
-41,
 42,
-43,
 44,
-45,
 46,
 47,
 48,
@@ -29422,11 +26949,9 @@ const DATA: ManuelData = {
 ],
 "wk": [],
 "bm": [
-1,
 2,
 3,
 4,
-5,
 6,
 7,
 8,
@@ -29435,366 +26960,16 @@ const DATA: ManuelData = {
 11,
 12,
 13,
-14,
-15,
 16,
 17,
 18,
-19,
-20
+26,
+45
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "32-28",
-"f": 32,
-"t": 28,
-"c": [],
-"path": [
-32,
-28
-],
-"p": false
-},
-{
-"n": "19-23",
-"f": 19,
-"t": 23,
-"c": [],
-"path": [
-19,
-23
-],
-"p": false
-},
-{
-"n": "28x19",
-"f": 28,
-"t": 19,
-"c": [
-23
-],
-"path": [
-28,
-19
-],
-"p": false
-},
-{
-"n": "14x23",
-"f": 14,
-"t": 23,
-"c": [
-19
-],
-"path": [
-14,
-23
-],
-"p": false
-},
-{
-"n": "37-32",
-"f": 37,
-"t": 32,
-"c": [],
-"path": [
-37,
-32
-],
-"p": false
-},
-{
-"n": "10-14",
-"f": 10,
-"t": 14,
-"c": [],
-"path": [
-10,
-14
-],
-"p": false
-},
-{
-"n": "35-30",
-"f": 35,
-"t": 30,
-"c": [],
-"path": [
-35,
-30
-],
-"p": false
-},
-{
-"n": "20-25",
-"f": 20,
-"t": 25,
-"c": [],
-"path": [
-20,
-25
-],
-"p": false
-},
-{
-"n": "33-29",
-"f": 33,
-"t": 29,
-"c": [],
-"path": [
-33,
-29
-],
-"p": false
-},
-{
-"n": "5-10",
-"f": 5,
-"t": 10,
-"c": [],
-"path": [
-5,
-10
-],
-"p": false
-},
-{
-"n": "31-27",
-"f": 31,
-"t": 27,
-"c": [],
-"path": [
-31,
-27
-],
-"p": false
-},
-{
-"n": "17-21",
-"f": 17,
-"t": 21,
-"c": [],
-"path": [
-17,
-21
-],
-"p": false
-},
-{
-"n": "38-33",
-"f": 38,
-"t": 33,
-"c": [],
-"path": [
-38,
-33
-],
-"p": false
-},
-{
-"n": "21-26",
-"f": 21,
-"t": 26,
-"c": [],
-"path": [
-21,
-26
-],
-"p": false
-},
-{
-"n": "41-37",
-"f": 41,
-"t": 37,
-"c": [],
-"path": [
-41,
-37
-],
-"p": false
-},
-{
-"n": "11-17",
-"f": 11,
-"t": 17,
-"c": [],
-"path": [
-11,
-17
-],
-"p": false
-},
-{
-"n": "43-38",
-"f": 43,
-"t": 38,
-"c": [],
-"path": [
-43,
-38
-],
-"p": false
-},
-{
-"n": "6-11",
-"f": 6,
-"t": 11,
-"c": [],
-"path": [
-6,
-11
-],
-"p": false
-},
-{
-"n": "40-35",
-"f": 40,
-"t": 35,
-"c": [],
-"path": [
-40,
-35
-],
-"p": false
-},
-{
-"n": "1-6",
-"f": 1,
-"t": 6,
-"c": [],
-"path": [
-1,
-6
-],
-"p": false
-},
-{
-"n": "45-40",
-"f": 45,
-"t": 40,
-"c": [],
-"path": [
-45,
-40
-],
-"p": false
-},
-{
-"n": "14-19",
-"f": 14,
-"t": 19,
-"c": [],
-"path": [
-14,
-19
-],
-"p": false
-},
-{
-"n": "30-24",
-"f": 30,
-"t": 24,
-"c": [],
-"path": [
-30,
-24
-],
-"p": false
-},
-{
-"n": "19x30",
-"f": 19,
-"t": 30,
-"c": [
-24
-],
-"path": [
-19,
-30
-],
-"p": false
-},
-{
-"n": "35x24",
-"f": 35,
-"t": 24,
-"c": [
-30
-],
-"path": [
-35,
-24
-],
-"p": false
-},
-{
-"n": "15-20",
-"f": 15,
-"t": 20,
-"c": [],
-"path": [
-15,
-20
-],
-"p": false
-},
-{
-"n": "24x15",
-"f": 24,
-"t": 15,
-"c": [
-20
-],
-"path": [
-24,
-15
-],
-"p": false
-},
-{
-"n": "25-30",
-"f": 25,
-"t": 30,
-"c": [],
-"path": [
-25,
-30
-],
-"p": false
-},
-{
-"n": "34x25",
-"f": 34,
-"t": 25,
-"c": [
-30
-],
-"path": [
-34,
-25
-],
-"p": false
-},
-{
-"n": "23x45",
-"f": 23,
-"t": 45,
-"c": [
-40,
-29
-],
-"path": [
-23,
-34,
-45
-],
-"p": false
-}
-],
-"pub": "32-28 19-23 28x19 14x23 37-32 10-14 35-30 20-25 33-29 5-10 31-27 17-21 38-33 21-26 41-37 11-17 43-38 6-11 40-35 1-6 45-40 14-19 30-24 19x30 35x24 15-20 24x15 25-30 34x25 23x45"
+"moves": []
 },
 "PERF_SENS_DU_JEU_T2_p111_1": {
 "id": "PERF_SENS_DU_JEU_T2_p111_1",
@@ -29845,21 +27020,17 @@ const DATA: ManuelData = {
 "title": "Diagramme p. 112",
 "start": {
 "wm": [
+15,
+25,
 31,
 32,
 33,
-34,
-35,
 36,
 37,
 38,
 39,
-40,
-41,
-42,
 43,
 44,
-45,
 46,
 47,
 48,
@@ -29873,7 +27044,6 @@ const DATA: ManuelData = {
 3,
 4,
 5,
-6,
 7,
 8,
 9,
@@ -29881,300 +27051,15 @@ const DATA: ManuelData = {
 11,
 12,
 13,
-14,
-15,
 16,
-17,
 18,
-19,
-20
+21,
+45
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "34-29",
-"f": 34,
-"t": 29,
-"c": [],
-"path": [
-34,
-29
-],
-"p": false
-},
-{
-"n": "17-21",
-"f": 17,
-"t": 21,
-"c": [],
-"path": [
-17,
-21
-],
-"p": false
-},
-{
-"n": "40-34",
-"f": 40,
-"t": 34,
-"c": [],
-"path": [
-40,
-34
-],
-"p": false
-},
-{
-"n": "21-26",
-"f": 21,
-"t": 26,
-"c": [],
-"path": [
-21,
-26
-],
-"p": false
-},
-{
-"n": "32-28",
-"f": 32,
-"t": 28,
-"c": [],
-"path": [
-32,
-28
-],
-"p": false
-},
-{
-"n": "16-21",
-"f": 16,
-"t": 21,
-"c": [],
-"path": [
-16,
-21
-],
-"p": false
-},
-{
-"n": "45-40",
-"f": 45,
-"t": 40,
-"c": [],
-"path": [
-45,
-40
-],
-"p": false
-},
-{
-"n": "11-16",
-"f": 11,
-"t": 16,
-"c": [],
-"path": [
-11,
-16
-],
-"p": false
-},
-{
-"n": "37-32",
-"f": 37,
-"t": 32,
-"c": [],
-"path": [
-37,
-32
-],
-"p": false
-},
-{
-"n": "26x37",
-"f": 26,
-"t": 37,
-"c": [
-31
-],
-"path": [
-26,
-37
-],
-"p": false
-},
-{
-"n": "42x31",
-"f": 42,
-"t": 31,
-"c": [
-37
-],
-"path": [
-42,
-31
-],
-"p": false
-},
-{
-"n": "19-23",
-"f": 19,
-"t": 23,
-"c": [],
-"path": [
-19,
-23
-],
-"p": false
-},
-{
-"n": "28x19",
-"f": 28,
-"t": 19,
-"c": [
-23
-],
-"path": [
-28,
-19
-],
-"p": false
-},
-{
-"n": "14x23",
-"f": 14,
-"t": 23,
-"c": [
-19
-],
-"path": [
-14,
-23
-],
-"p": false
-},
-{
-"n": "35-30",
-"f": 35,
-"t": 30,
-"c": [],
-"path": [
-35,
-30
-],
-"p": false
-},
-{
-"n": "6-11",
-"f": 6,
-"t": 11,
-"c": [],
-"path": [
-6,
-11
-],
-"p": false
-},
-{
-"n": "41-37",
-"f": 41,
-"t": 37,
-"c": [],
-"path": [
-41,
-37
-],
-"p": false
-},
-{
-"n": "20-25",
-"f": 20,
-"t": 25,
-"c": [],
-"path": [
-20,
-25
-],
-"p": false
-},
-{
-"n": "30-24",
-"f": 30,
-"t": 24,
-"c": [],
-"path": [
-30,
-24
-],
-"p": false
-},
-{
-"n": "15-20",
-"f": 15,
-"t": 20,
-"c": [],
-"path": [
-15,
-20
-],
-"p": false
-},
-{
-"n": "24x15",
-"f": 24,
-"t": 15,
-"c": [
-20
-],
-"path": [
-24,
-15
-],
-"p": false
-},
-{
-"n": "25-30",
-"f": 25,
-"t": 30,
-"c": [],
-"path": [
-25,
-30
-],
-"p": false
-},
-{
-"n": "34x25",
-"f": 34,
-"t": 25,
-"c": [
-30
-],
-"path": [
-34,
-25
-],
-"p": false
-},
-{
-"n": "23x45",
-"f": 23,
-"t": 45,
-"c": [
-40,
-29
-],
-"path": [
-23,
-34,
-45
-],
-"p": false
-}
-],
-"pub": "34-29 17-21 40-34 21-26 32-28 16-21 45-40 11-16 37-32 26x37 42x31 19-23 28x19 14x23 35-30 6-11 41-37 20-25 30-24 15-20 24x15 25-30 34x25 23x45"
+"moves": []
 },
 "PERF_SENS_DU_JEU_T2_p112_1": {
 "id": "PERF_SENS_DU_JEU_T2_p112_1",
@@ -31051,6 +27936,12738 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": []
+},
+"PERF_SENS_DU_JEU_T2_line0": {
+"id": "PERF_SENS_DU_JEU_T2_line0",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+27,
+31,
+33,
+34,
+36,
+38,
+39,
+43,
+47,
+49
+],
+"wk": [],
+"bm": [
+6,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+22,
+23
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+}
+],
+"pub": "17-21 38-32 12-17 31-26 22x31 36x27"
+},
+"PERF_SENS_DU_JEU_T2_line1": {
+"id": "PERF_SENS_DU_JEU_T2_line1",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+27,
+30,
+31,
+33,
+36,
+38,
+39,
+47,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+12,
+15,
+16,
+17,
+18,
+19,
+22,
+23
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "3-8",
+"f": 3,
+"t": 8,
+"c": [],
+"path": [
+3,
+8
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+}
+],
+"pub": "17-21 38-32 3-8 39-34 12-17 31-26 22x31 36x27"
+},
+"PERF_SENS_DU_JEU_T2_line2": {
+"id": "PERF_SENS_DU_JEU_T2_line2",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+29,
+33,
+34,
+35,
+36,
+38,
+40,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+7,
+8,
+9,
+12,
+13,
+15,
+16,
+17,
+18,
+20,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "12x32",
+"f": 12,
+"t": 32,
+"c": [
+17,
+27
+],
+"path": [
+12,
+21,
+32
+],
+"p": false
+},
+{
+"n": "38x27",
+"f": 38,
+"t": 27,
+"c": [
+32
+],
+"path": [
+38,
+27
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+}
+],
+"pub": "17-21 26x17 12x32 38x27 13-19 34-30 8-12 40-34 20-25 29x20 15x24"
+},
+"PERF_SENS_DU_JEU_T2_line3": {
+"id": "PERF_SENS_DU_JEU_T2_line3",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+29,
+33,
+34,
+35,
+38,
+39,
+41,
+43,
+45,
+47
+],
+"wk": [],
+"bm": [
+8,
+9,
+10,
+12,
+13,
+15,
+16,
+17,
+18,
+20,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "14x34",
+"f": 14,
+"t": 34,
+"c": [
+19,
+29
+],
+"path": [
+14,
+23,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "27-32",
+"f": 27,
+"t": 32,
+"c": [],
+"path": [
+27,
+32
+],
+"p": false
+},
+{
+"n": "22-17",
+"f": 22,
+"t": 17,
+"c": [],
+"path": [
+22,
+17
+],
+"p": false
+},
+{
+"n": "32-38",
+"f": 32,
+"t": 38,
+"c": [],
+"path": [
+32,
+38
+],
+"p": false
+},
+{
+"n": "43x32",
+"f": 43,
+"t": 32,
+"c": [
+38
+],
+"path": [
+43,
+32
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "34-39",
+"f": 34,
+"t": 39,
+"c": [],
+"path": [
+34,
+39
+],
+"p": false
+}
+],
+"pub": "17-22 28x17 12x21 38-32 21-27 32x21 16x27 34-30 9-14 30x19 14x34 39x30 20-25 33-28 25x34 28-22 27-32 22-17 32-38 43x32 18-22 17x28 34-39"
+},
+"PERF_SENS_DU_JEU_T2_line4": {
+"id": "PERF_SENS_DU_JEU_T2_line4",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+27,
+31,
+36
+],
+"wk": [],
+"bm": [
+16,
+18,
+22
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+}
+],
+"pub": "31-26 22x31 26x37 18-22"
+},
+"PERF_SENS_DU_JEU_T2_line5": {
+"id": "PERF_SENS_DU_JEU_T2_line5",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+27,
+31,
+33,
+35,
+36,
+38,
+39,
+43,
+48
+],
+"wk": [],
+"bm": [
+11,
+13,
+14,
+16,
+17,
+18,
+19,
+22,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "48-42",
+"f": 48,
+"t": 42,
+"c": [],
+"path": [
+48,
+42
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+28
+],
+"path": [
+33,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+}
+],
+"pub": "23-28 31-26 22x31 36x27 17-22 48-42 22x31 33x22 18x27 26x37 11-17 39-33 19-23"
+},
+"PERF_SENS_DU_JEU_T2_line6": {
+"id": "PERF_SENS_DU_JEU_T2_line6",
+"ch": 1,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+29,
+33,
+34,
+35,
+36,
+39,
+40,
+41,
+42,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+15,
+17,
+18,
+20,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "49-43",
+"f": 49,
+"t": 43,
+"c": [],
+"path": [
+49,
+43
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "2-8",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "30x19",
+"f": 30,
+"t": 19,
+"c": [
+24
+],
+"path": [
+30,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "4-9",
+"f": 4,
+"t": 9,
+"c": [],
+"path": [
+4,
+9
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "27x36",
+"f": 27,
+"t": 36,
+"c": [
+31
+],
+"path": [
+27,
+36
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "38x16",
+"f": 38,
+"t": 16,
+"c": [
+32,
+21
+],
+"path": [
+38,
+27,
+16
+],
+"p": false
+},
+{
+"n": "36-41",
+"f": 36,
+"t": 41,
+"c": [],
+"path": [
+36,
+41
+],
+"p": false
+},
+{
+"n": "16-11",
+"f": 16,
+"t": 11,
+"c": [],
+"path": [
+16,
+11
+],
+"p": false
+},
+{
+"n": "41-47",
+"f": 41,
+"t": 47,
+"c": [],
+"path": [
+41,
+47
+],
+"p": true
+}
+],
+"pub": "17-22 28x17 12x21 49-43 7-12 34-30 9-13 30x19 13x24 40-34 3-9 34-30 9-13 30x19 13x24 42-38 11-17 39-34 8-13 34-30 2-8 30x19 13x24 38-32 10-14 43-38 14-19 36-31 6-11 31-26 11-16 41-37 21-27 32x21 16x27 37-32 17-21 26x17 12x21 44-39 8-13 47-41 4-9 41-37 20-25 29x20 15x24 45-40 9-14 48-43 18-23 40-34 14-20 37-31 27x36 32-28 23x32 38x16 36-41 16-11 41-47"
+},
+"PERF_SENS_DU_JEU_T2_line7": {
+"id": "PERF_SENS_DU_JEU_T2_line7",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+29,
+31,
+32,
+33,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+22,
+25
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+}
+],
+"pub": "40-34 14-20 45-40 19-24"
+},
+"PERF_SENS_DU_JEU_T2_line8": {
+"id": "PERF_SENS_DU_JEU_T2_line8",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+29,
+31,
+32,
+33,
+35,
+36,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+22,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "46-41",
+"f": 46,
+"t": 41,
+"c": [],
+"path": [
+46,
+41
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+}
+],
+"pub": "14-20 46-41 10-14 41-37 5-10 47-41 19-23"
+},
+"PERF_SENS_DU_JEU_T2_line9": {
+"id": "PERF_SENS_DU_JEU_T2_line9",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+26,
+27,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+43,
+45,
+47,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+6,
+8,
+9,
+11,
+12,
+13,
+14,
+16,
+17,
+18,
+19,
+22,
+23,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "2-7",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x28",
+"f": 26,
+"t": 28,
+"c": [
+21,
+22
+],
+"path": [
+26,
+17,
+28
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "13x44",
+"f": 13,
+"t": 44,
+"c": [
+19,
+29,
+39
+],
+"path": [
+13,
+24,
+33,
+44
+],
+"p": false
+}
+],
+"pub": "24-30 35x24 19x30 33-29 2-7 45-40 14-19 40-35 17-21 26x28 11-17 35x24 19x30 28x19 13x44"
+},
+"PERF_SENS_DU_JEU_T2_line10": {
+"id": "PERF_SENS_DU_JEU_T2_line10",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+29,
+33,
+34,
+35,
+37,
+38,
+39,
+40,
+44,
+47
+],
+"wk": [],
+"bm": [
+1,
+3,
+9,
+12,
+13,
+15,
+16,
+20,
+21,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "33x42",
+"f": 33,
+"t": 42,
+"c": [
+38
+],
+"path": [
+33,
+42
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "39x28",
+"f": 39,
+"t": 28,
+"c": [
+33
+],
+"path": [
+39,
+28
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+}
+],
+"pub": "21-27 28-23 13-18 38-32 27x38 33x42 24x33 39x28 18x29 34x23"
+},
+"PERF_SENS_DU_JEU_T2_line11": {
+"id": "PERF_SENS_DU_JEU_T2_line11",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+29,
+31,
+33,
+34,
+35,
+38,
+39,
+40,
+42,
+44,
+45,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+5,
+9,
+12,
+14,
+15,
+16,
+18,
+20,
+21,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "31x22",
+"f": 31,
+"t": 22,
+"c": [
+27
+],
+"path": [
+31,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "23x14",
+"f": 23,
+"t": 14,
+"c": [
+19
+],
+"path": [
+23,
+14
+],
+"p": false
+},
+{
+"n": "20x9",
+"f": 20,
+"t": 9,
+"c": [
+14
+],
+"path": [
+20,
+9
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "2-8",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+}
+],
+"pub": "9-13 42-37 21-27 31x22 18x27 28-23 13-18 48-43 14-19 23x14 20x9 29x20 25x14 33-28 9-13 39-33 12-17 43-39 18-22 35-30 2-8 30-24 13-18 24-20 15x24"
+},
+"PERF_SENS_DU_JEU_T2_line12": {
+"id": "PERF_SENS_DU_JEU_T2_line12",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+29,
+31,
+33,
+34,
+35,
+36,
+39,
+40,
+42,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+6,
+7,
+8,
+13,
+14,
+15,
+16,
+18,
+19,
+20,
+21,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "2-7",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "21-26",
+"f": 21,
+"t": 26,
+"c": [],
+"path": [
+21,
+26
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "32x41",
+"f": 32,
+"t": 41,
+"c": [
+37
+],
+"path": [
+32,
+41
+],
+"p": false
+}
+],
+"pub": "7-12 43-38 2-7 38-32 21-26 42-38 26x37 32x41"
+},
+"PERF_SENS_DU_JEU_T2_line13": {
+"id": "PERF_SENS_DU_JEU_T2_line13",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+29,
+33,
+34,
+35,
+36,
+39,
+40,
+42,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+6,
+8,
+13,
+14,
+15,
+16,
+18,
+19,
+20,
+21,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "2-7",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "49-43",
+"f": 49,
+"t": 43,
+"c": [],
+"path": [
+49,
+43
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "17x26",
+"f": 17,
+"t": 26,
+"c": [
+21
+],
+"path": [
+17,
+26
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "37x26",
+"f": 37,
+"t": 26,
+"c": [
+31
+],
+"path": [
+37,
+26
+],
+"p": false
+},
+{
+"n": "27-32",
+"f": 27,
+"t": 32,
+"c": [],
+"path": [
+27,
+32
+],
+"p": false
+},
+{
+"n": "38x27",
+"f": 38,
+"t": 27,
+"c": [
+32
+],
+"path": [
+38,
+27
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "29x9",
+"f": 29,
+"t": 9,
+"c": [
+13,
+23
+],
+"path": [
+29,
+18,
+9
+],
+"p": false
+},
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "20x49",
+"f": 20,
+"t": 49,
+"c": [
+24,
+33,
+43
+],
+"path": [
+20,
+29,
+38,
+49
+],
+"p": true
+},
+{
+"n": "9x20",
+"f": 9,
+"t": 20,
+"c": [
+14
+],
+"path": [
+9,
+20
+],
+"p": false
+},
+{
+"n": "49x8",
+"f": 49,
+"t": 8,
+"c": [
+17,
+27
+],
+"path": [
+49,
+21,
+8
+],
+"p": false
+}
+],
+"pub": "2-7 43-38 7-12 42-37 6-11 38-32 11-17 49-43 18-22 43-38 21-27 32x21 17x26 28x17 12x21 37-32 8-12 47-42 12-18 48-43 1-6 42-37 18-22 32-28 21-27 28x17 26-31 37x26 27-32 38x27 19-23 29x9 24-30 35x24 20x49 9x20 49x8"
+},
+"PERF_SENS_DU_JEU_T2_line14": {
+"id": "PERF_SENS_DU_JEU_T2_line14",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+31,
+32,
+34,
+36,
+37,
+38,
+40,
+41,
+42,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+6,
+7,
+8,
+11,
+12,
+13,
+15,
+16,
+17,
+18,
+23,
+24,
+29
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "34x25",
+"f": 34,
+"t": 25,
+"c": [
+30
+],
+"path": [
+34,
+25
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "14x3",
+"f": 14,
+"t": 3,
+"c": [
+9
+],
+"path": [
+14,
+3
+],
+"p": true
+},
+{
+"n": "29-33",
+"f": 29,
+"t": 33,
+"c": [],
+"path": [
+29,
+33
+],
+"p": false
+},
+{
+"n": "38x29",
+"f": 38,
+"t": 29,
+"c": [
+33
+],
+"path": [
+38,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "40x29",
+"f": 40,
+"t": 29,
+"c": [
+34
+],
+"path": [
+40,
+29
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x9",
+"f": 27,
+"t": 9,
+"c": [
+13,
+22
+],
+"path": [
+27,
+18,
+9
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "9x18",
+"f": 9,
+"t": 18,
+"c": [
+13
+],
+"path": [
+9,
+18
+],
+"p": false
+},
+{
+"n": "12x34",
+"f": 12,
+"t": 34,
+"c": [
+18,
+29
+],
+"path": [
+12,
+23,
+34
+],
+"p": false
+},
+{
+"n": "3x21",
+"f": 3,
+"t": 21,
+"c": [
+17
+],
+"path": [
+3,
+21
+],
+"p": false
+},
+{
+"n": "16x49",
+"f": 16,
+"t": 49,
+"c": [
+32,
+43,
+21
+],
+"path": [
+16,
+27,
+38,
+49
+],
+"p": true
+}
+],
+"pub": "24-30 34x25 15-20 25x14 3-9 14x3 29-33 38x29 23x34 40x29 18-22 27x9 8-13 9x18 12x34 3x21 16x49"
+},
+"PERF_SENS_DU_JEU_T2_line15": {
+"id": "PERF_SENS_DU_JEU_T2_line15",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+30,
+31,
+33,
+35,
+36,
+37,
+38,
+41,
+42,
+43,
+44,
+45,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+15,
+16,
+17,
+18,
+20,
+22
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "30-25",
+"f": 30,
+"t": 25,
+"c": [],
+"path": [
+30,
+25
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "30x39",
+"f": 30,
+"t": 39,
+"c": [
+34
+],
+"path": [
+30,
+39
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "4-10",
+"f": 4,
+"t": 10,
+"c": [],
+"path": [
+4,
+10
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "30x39",
+"f": 30,
+"t": 39,
+"c": [
+34
+],
+"path": [
+30,
+39
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "19x10",
+"f": 19,
+"t": 10,
+"c": [
+14
+],
+"path": [
+19,
+10
+],
+"p": false
+},
+{
+"n": "30-25",
+"f": 30,
+"t": 25,
+"c": [],
+"path": [
+30,
+25
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "28x39",
+"f": 28,
+"t": 39,
+"c": [
+33
+],
+"path": [
+28,
+39
+],
+"p": false
+},
+{
+"n": "34x43",
+"f": 34,
+"t": 43,
+"c": [
+39
+],
+"path": [
+34,
+43
+],
+"p": false
+},
+{
+"n": "2-8",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+}
+],
+"pub": "20-25 44-39 25x34 39x30 10-14 30-25 14-19 35-30 19-23 33-29 23x34 30x39 13-19 45-40 19-23 49-44 9-14 40-34 3-9 34-29 23x34 39x30 9-13 44-40 13-19 40-35 19-23 38-33 8-13 42-38 4-10 33-29 23x34 30x39 14-19 38-33 10-14 33-29 19-23 50-44 23x34 39x30 13-19 43-38 19-23 44-39 15-20 38-33 14-19 25x14 19x10 30-25 23-28 35-30 10-14 39-34 28x39 34x43 2-8 37-32 16-21 27x16"
+},
+"PERF_SENS_DU_JEU_T2_line16": {
+"id": "PERF_SENS_DU_JEU_T2_line16",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+23,
+27,
+29,
+31,
+32,
+33,
+34,
+35,
+37,
+38,
+39,
+40,
+43,
+44,
+45,
+47,
+49
+],
+"wk": [],
+"bm": [
+1,
+7,
+8,
+9,
+10,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+20,
+21,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "39x19",
+"f": 39,
+"t": 19,
+"c": [
+24,
+34
+],
+"path": [
+39,
+30,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "25-30",
+"f": 25,
+"t": 30,
+"c": [],
+"path": [
+25,
+30
+],
+"p": false
+}
+],
+"pub": "47-41 7-11 34-30 25x34 39x19 13x24 44-39 20-25 29x20 18x29 33x24 25-30"
+},
+"PERF_SENS_DU_JEU_T2_line17": {
+"id": "PERF_SENS_DU_JEU_T2_line17",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+29,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+43,
+45,
+48
+],
+"wk": [],
+"bm": [
+2,
+8,
+10,
+12,
+13,
+14,
+15,
+16,
+18,
+20,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+}
+],
+"pub": "18-22 28x17 12x21 38-32 13-18"
+},
+"PERF_SENS_DU_JEU_T2_line18": {
+"id": "PERF_SENS_DU_JEU_T2_line18",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+29,
+31,
+32,
+33,
+35,
+36,
+37,
+38,
+39,
+42,
+44,
+47,
+48
+],
+"wk": [],
+"bm": [
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+16,
+17,
+18,
+19,
+22,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "38x40",
+"f": 38,
+"t": 40,
+"c": [
+33,
+34
+],
+"path": [
+38,
+29,
+40
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+}
+],
+"pub": "19-23 48-43 23x34 39x30 25x34 33-28 22x33 38x40 18-23 47-41 13-18 43-39 9-13 42-38 17-22"
+},
+"PERF_SENS_DU_JEU_T2_line19": {
+"id": "PERF_SENS_DU_JEU_T2_line19",
+"ch": 2,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+26,
+27,
+31,
+36,
+37,
+38,
+39,
+41,
+42,
+43,
+44,
+45,
+47,
+48,
+50
+],
+"wk": [],
+"bm": [
+3,
+4,
+6,
+7,
+8,
+9,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+22,
+23
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "9x20",
+"f": 9,
+"t": 20,
+"c": [
+14
+],
+"path": [
+9,
+20
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "4-9",
+"f": 4,
+"t": 9,
+"c": [],
+"path": [
+4,
+9
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "50-45",
+"f": 50,
+"t": 45,
+"c": [],
+"path": [
+50,
+45
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "28-32",
+"f": 28,
+"t": 32,
+"c": [],
+"path": [
+28,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+23
+],
+"path": [
+29,
+18
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+18,
+27,
+28
+],
+"path": [
+12,
+23,
+32,
+21
+],
+"p": false
+}
+],
+"pub": "38-33 23-28 42-38 14-20 25x14 9x20 47-42 4-9 45-40 9-14 40-34 3-9 50-45 13-19 45-40 8-13 34-29 28-32 37x28 18-23 29x18 12x21"
+},
+"PERF_SENS_DU_JEU_T2_line20": {
+"id": "PERF_SENS_DU_JEU_T2_line20",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+29,
+31,
+32,
+33,
+34,
+35,
+36,
+38,
+39,
+40,
+41,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+16,
+19,
+20,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+23
+],
+"path": [
+19,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+}
+],
+"pub": "16-21 41-37 10-14 31-26 5-10 26x17 12x21 28-23 19x28 32x23"
+},
+"PERF_SENS_DU_JEU_T2_line21": {
+"id": "PERF_SENS_DU_JEU_T2_line21",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+23,
+29,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+43,
+44,
+45,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+8,
+9,
+10,
+13,
+14,
+16,
+20,
+21,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "39x19",
+"f": 39,
+"t": 19,
+"c": [
+24,
+34
+],
+"path": [
+39,
+30,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "3-8",
+"f": 3,
+"t": 8,
+"c": [],
+"path": [
+3,
+8
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+}
+],
+"pub": "21-27 32x21 16x27 34-30 25x34 39x19 13x24 40-34 8-13 43-39 3-8 34-30 13-19"
+},
+"PERF_SENS_DU_JEU_T2_line22": {
+"id": "PERF_SENS_DU_JEU_T2_line22",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+23,
+28,
+30,
+31,
+32,
+33,
+35,
+36,
+37,
+38,
+40,
+42,
+43,
+45,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+16,
+19,
+20,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "1-7",
+"f": 1,
+"t": 7,
+"c": [],
+"path": [
+1,
+7
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "18x29",
+"f": 18,
+"t": 29,
+"c": [
+23
+],
+"path": [
+18,
+29
+],
+"p": false
+},
+{
+"n": "34x23",
+"f": 34,
+"t": 23,
+"c": [
+29
+],
+"path": [
+34,
+23
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "30-25",
+"f": 30,
+"t": 25,
+"c": [],
+"path": [
+30,
+25
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "22x13",
+"f": 22,
+"t": 13,
+"c": [
+18
+],
+"path": [
+22,
+13
+],
+"p": false
+},
+{
+"n": "9x29",
+"f": 9,
+"t": 29,
+"c": [
+13,
+23
+],
+"path": [
+9,
+18,
+29
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+},
+{
+"n": "17x28",
+"f": 17,
+"t": 28,
+"c": [
+22
+],
+"path": [
+17,
+28
+],
+"p": false
+},
+{
+"n": "32x34",
+"f": 32,
+"t": 34,
+"c": [
+28,
+29
+],
+"path": [
+32,
+23,
+34
+],
+"p": false
+}
+],
+"pub": "11-17 43-39 17-21 50-44 7-11 31-27 1-7 40-34 13-18 44-40 18x29 34x23 9-13 40-34 13-18 45-40 18x29 34x23 8-13 27-22 12-17 40-34 7-12 30-25 3-9 34-30 13-18 22x13 9x29 28-22 17x28 32x34"
+},
+"PERF_SENS_DU_JEU_T2_line23": {
+"id": "PERF_SENS_DU_JEU_T2_line23",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+29,
+31,
+32,
+33,
+34,
+35,
+36,
+39,
+40,
+41,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+4,
+6,
+8,
+9,
+10,
+12,
+13,
+14,
+16,
+18,
+19,
+20,
+22,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "22-28",
+"f": 22,
+"t": 28,
+"c": [],
+"path": [
+22,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+23
+],
+"path": [
+19,
+28
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+28
+],
+"path": [
+33,
+22
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "31x22",
+"f": 31,
+"t": 22,
+"c": [
+27
+],
+"path": [
+31,
+22
+],
+"p": false
+},
+{
+"n": "24x33",
+"f": 24,
+"t": 33,
+"c": [
+29
+],
+"path": [
+24,
+33
+],
+"p": false
+},
+{
+"n": "39x28",
+"f": 39,
+"t": 28,
+"c": [
+33
+],
+"path": [
+39,
+28
+],
+"p": false
+},
+{
+"n": "25-30",
+"f": 25,
+"t": 30,
+"c": [],
+"path": [
+25,
+30
+],
+"p": false
+},
+{
+"n": "35x15",
+"f": 35,
+"t": 15,
+"c": [
+20,
+30
+],
+"path": [
+35,
+24,
+15
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "22x13",
+"f": 22,
+"t": 13,
+"c": [
+18
+],
+"path": [
+22,
+13
+],
+"p": false
+},
+{
+"n": "8x50",
+"f": 8,
+"t": 50,
+"c": [
+24,
+34,
+44,
+13
+],
+"path": [
+8,
+19,
+30,
+39,
+50
+],
+"p": true
+}
+],
+"pub": "22-28 32x23 19x28 33x22 18x27 31x22 24x33 39x28 25-30 35x15 14-20 15x24 13-18 22x13 8x50"
+},
+"PERF_SENS_DU_JEU_T2_line24": {
+"id": "PERF_SENS_DU_JEU_T2_line24",
+"ch": 5,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+30,
+33,
+35,
+36,
+40,
+41,
+42,
+43
+],
+"wk": [],
+"bm": [
+3,
+8,
+12,
+13,
+14,
+16,
+19,
+24,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "32x41",
+"f": 32,
+"t": 41,
+"c": [
+37
+],
+"path": [
+32,
+41
+],
+"p": false
+},
+{
+"n": "21x32",
+"f": 21,
+"t": 32,
+"c": [
+27
+],
+"path": [
+21,
+32
+],
+"p": false
+},
+{
+"n": "28x37",
+"f": 28,
+"t": 37,
+"c": [
+32
+],
+"path": [
+28,
+37
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+}
+],
+"pub": "14-20 42-38 20-25 40-34 13-18 41-37 12-17 38-32 8-12 36-31 17-21 31-27 12-17 43-39 18-23 37-31 26x37 32x41 21x32 28x37 17-22 37-31 16-21 31-26 21-27"
+},
+"PERF_SENS_DU_JEU_T2_line25": {
+"id": "PERF_SENS_DU_JEU_T2_line25",
+"ch": 5,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+27,
+28,
+30,
+31,
+32,
+33,
+34,
+35,
+36,
+38,
+42,
+43,
+46,
+48
+],
+"wk": [],
+"bm": [
+2,
+6,
+8,
+11,
+12,
+13,
+14,
+15,
+16,
+18,
+19,
+21,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "27-22",
+"f": 27,
+"t": 22,
+"c": [],
+"path": [
+27,
+22
+],
+"p": false
+},
+{
+"n": "20x40",
+"f": 20,
+"t": 40,
+"c": [
+24,
+34
+],
+"path": [
+20,
+29,
+40
+],
+"p": false
+},
+{
+"n": "35x44",
+"f": 35,
+"t": 44,
+"c": [
+40
+],
+"path": [
+35,
+44
+],
+"p": false
+},
+{
+"n": "18x27",
+"f": 18,
+"t": 27,
+"c": [
+22
+],
+"path": [
+18,
+27
+],
+"p": false
+},
+{
+"n": "31x22",
+"f": 31,
+"t": 22,
+"c": [
+27
+],
+"path": [
+31,
+22
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+}
+],
+"pub": "24-29 33x24 14-20 27-22 20x40 35x44 18x27 31x22 25x34"
+},
+"PERF_SENS_DU_JEU_T2_line26": {
+"id": "PERF_SENS_DU_JEU_T2_line26",
+"ch": 5,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+22,
+28,
+30,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+42
+],
+"wk": [],
+"bm": [
+3,
+7,
+8,
+9,
+11,
+13,
+15,
+19,
+23,
+24,
+25,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "34x14",
+"f": 34,
+"t": 14,
+"c": [
+19,
+29
+],
+"path": [
+34,
+23,
+14
+],
+"p": false
+},
+{
+"n": "9x29",
+"f": 9,
+"t": 29,
+"c": [
+24,
+14
+],
+"path": [
+9,
+20,
+29
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+}
+],
+"pub": "24-29 33x24 23-29 34x14 9x29 30-24 29x20 31-27 8-12"
+},
+"PERF_SENS_DU_JEU_T2_line27": {
+"id": "PERF_SENS_DU_JEU_T2_line27",
+"ch": 5,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+27,
+28,
+32,
+38,
+39,
+44,
+47,
+49
+],
+"wk": [],
+"bm": [
+8,
+13,
+16,
+17,
+18,
+19,
+20,
+21,
+23
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "13x24",
+"f": 13,
+"t": 24,
+"c": [
+19
+],
+"path": [
+13,
+24
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "33x35",
+"f": 33,
+"t": 35,
+"c": [
+29,
+30
+],
+"path": [
+33,
+24,
+35
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+},
+{
+"n": "21x41",
+"f": 21,
+"t": 41,
+"c": [
+27,
+37
+],
+"path": [
+21,
+32,
+41
+],
+"p": false
+}
+],
+"pub": "23-29 47-42 20-25 42-37 19-23 28x19 13x24 39-33 18-23 44-40 24-30 33x35 23-28 32x23 21x41"
+},
+"PERF_SENS_DU_JEU_T2_line28": {
+"id": "PERF_SENS_DU_JEU_T2_line28",
+"ch": 5,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+26,
+27,
+28,
+32,
+33,
+34,
+35,
+43,
+48,
+49
+],
+"wk": [],
+"bm": [
+7,
+9,
+10,
+13,
+14,
+16,
+17,
+18,
+19,
+21,
+24
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "10-15",
+"f": 10,
+"t": 15,
+"c": [],
+"path": [
+10,
+15
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "22-27",
+"f": 22,
+"t": 27,
+"c": [],
+"path": [
+22,
+27
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "35-40",
+"f": 35,
+"t": 40,
+"c": [],
+"path": [
+35,
+40
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+23
+],
+"path": [
+29,
+18
+],
+"p": false
+},
+{
+"n": "40x29",
+"f": 40,
+"t": 29,
+"c": [
+34
+],
+"path": [
+40,
+29
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "29x38",
+"f": 29,
+"t": 38,
+"c": [
+33
+],
+"path": [
+29,
+38
+],
+"p": false
+},
+{
+"n": "32x43",
+"f": 32,
+"t": 43,
+"c": [
+38
+],
+"path": [
+32,
+43
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "22x11",
+"f": 22,
+"t": 11,
+"c": [
+17
+],
+"path": [
+22,
+11
+],
+"p": false
+}
+],
+"pub": "18-22 27x18 13x22 43-39 10-15 48-43 7-12 43-38 12-18 34-29 22-27 29x20 15x24 39-34 18-23 35-30 24x35 33-29 35-40 29x18 40x29 38-33 29x38 32x43 17-22 26x17 22x11"
+},
+"PERF_SENS_DU_JEU_T2_line29": {
+"id": "PERF_SENS_DU_JEU_T2_line29",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+26,
+31,
+33,
+34,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+47,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+5,
+6,
+10,
+11,
+12,
+13,
+14,
+15,
+18,
+19,
+20,
+22,
+23,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+}
+],
+"pub": "37-32 11-16 32x21 16x27 42-37 6-11 37-32 11-16 32x21 16x27"
+},
+"PERF_SENS_DU_JEU_T2_line30": {
+"id": "PERF_SENS_DU_JEU_T2_line30",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+26,
+29,
+31,
+36,
+37,
+38,
+39,
+42,
+43,
+44,
+45,
+47,
+49
+],
+"wk": [],
+"bm": [
+2,
+4,
+7,
+9,
+10,
+11,
+12,
+14,
+15,
+18,
+19,
+22,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "10-15",
+"f": 10,
+"t": 15,
+"c": [],
+"path": [
+10,
+15
+],
+"p": false
+}
+],
+"pub": "37-32 15-20 32x21 10-15"
+},
+"PERF_SENS_DU_JEU_T2_line31": {
+"id": "PERF_SENS_DU_JEU_T2_line31",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+26,
+31,
+33,
+34,
+36,
+37,
+38,
+39,
+40,
+42,
+43,
+44,
+45,
+47,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+5,
+6,
+10,
+11,
+12,
+13,
+14,
+15,
+18,
+19,
+20,
+22,
+23,
+27
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "2-7",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "29-23",
+"f": 29,
+"t": 23,
+"c": [],
+"path": [
+29,
+23
+],
+"p": false
+},
+{
+"n": "18x38",
+"f": 18,
+"t": 38,
+"c": [
+33,
+23
+],
+"path": [
+18,
+29,
+38
+],
+"p": false
+},
+{
+"n": "43x21",
+"f": 43,
+"t": 21,
+"c": [
+27,
+38
+],
+"path": [
+43,
+32,
+21
+],
+"p": false
+},
+{
+"n": "20-24",
+"f": 20,
+"t": 24,
+"c": [],
+"path": [
+20,
+24
+],
+"p": false
+},
+{
+"n": "49-43",
+"f": 49,
+"t": 43,
+"c": [],
+"path": [
+49,
+43
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "21-16",
+"f": 21,
+"t": 16,
+"c": [],
+"path": [
+21,
+16
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "33x11",
+"f": 33,
+"t": 11,
+"c": [
+17,
+28
+],
+"path": [
+33,
+22,
+11
+],
+"p": false
+},
+{
+"n": "31-37",
+"f": 31,
+"t": 37,
+"c": [],
+"path": [
+31,
+37
+],
+"p": false
+},
+{
+"n": "11-7",
+"f": 11,
+"t": 7,
+"c": [],
+"path": [
+11,
+7
+],
+"p": false
+},
+{
+"n": "37-42",
+"f": 37,
+"t": 42,
+"c": [],
+"path": [
+37,
+42
+],
+"p": false
+},
+{
+"n": "7-1",
+"f": 7,
+"t": 1,
+"c": [],
+"path": [
+7,
+1
+],
+"p": true
+},
+{
+"n": "42-47",
+"f": 42,
+"t": 47,
+"c": [],
+"path": [
+42,
+47
+],
+"p": true
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "47x29",
+"f": 47,
+"t": 29,
+"c": [
+33
+],
+"path": [
+47,
+29
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "10x19",
+"f": 10,
+"t": 19,
+"c": [
+14
+],
+"path": [
+10,
+19
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "29x40",
+"f": 29,
+"t": 40,
+"c": [
+34
+],
+"path": [
+29,
+40
+],
+"p": false
+},
+{
+"n": "45x34",
+"f": 45,
+"t": 34,
+"c": [
+40
+],
+"path": [
+45,
+34
+],
+"p": false
+}
+],
+"pub": "33-29 3-9 37-32 11-16 32x21 16x27 42-37 6-11 47-42 2-7 37-32 11-16 32x21 16x27 42-37 7-11 37-32 11-16 32x21 16x27 38-33 23-28 29-23 18x38 43x21 20-24 49-43 13-18 43-38 9-13 21-16 12-17 38-33 19-23 31-27 22x31 33x11 31-37 11-7 37-42 7-1 42-47 39-33 47x29 44-39 14-20 25x14 10x19 40-35 29x40 45x34"
+},
+"PERF_SENS_DU_JEU_T2_line32": {
+"id": "PERF_SENS_DU_JEU_T2_line32",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+25,
+26,
+30,
+31,
+34,
+35,
+36,
+37,
+38,
+41,
+43,
+49
+],
+"wk": [],
+"bm": [
+7,
+11,
+12,
+13,
+14,
+15,
+18,
+19,
+22,
+23,
+24,
+27
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "29x49",
+"f": 29,
+"t": 49,
+"c": [
+34,
+44
+],
+"path": [
+29,
+40,
+49
+],
+"p": true
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "49x32",
+"f": 49,
+"t": 32,
+"c": [
+38
+],
+"path": [
+49,
+32
+],
+"p": false
+},
+{
+"n": "37x6",
+"f": 37,
+"t": 6,
+"c": [
+32,
+11,
+22
+],
+"path": [
+37,
+28,
+17,
+6
+],
+"p": false
+}
+],
+"pub": "24-29 49-44 29x49 43-39 49x32 37x6"
+},
+"PERF_SENS_DU_JEU_T2_line33": {
+"id": "PERF_SENS_DU_JEU_T2_line33",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+33,
+34,
+36,
+39,
+40,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+3,
+6,
+9,
+13,
+15,
+16,
+19,
+25,
+27
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "3-8",
+"f": 3,
+"t": 8,
+"c": [],
+"path": [
+3,
+8
+],
+"p": false
+},
+{
+"n": "49-43",
+"f": 49,
+"t": 43,
+"c": [],
+"path": [
+49,
+43
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "48-42",
+"f": 48,
+"t": 42,
+"c": [],
+"path": [
+48,
+42
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "21-26",
+"f": 21,
+"t": 26,
+"c": [],
+"path": [
+21,
+26
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-7",
+"f": 1,
+"t": 7,
+"c": [],
+"path": [
+1,
+7
+],
+"p": false
+},
+{
+"n": "23-19",
+"f": 23,
+"t": 19,
+"c": [],
+"path": [
+23,
+19
+],
+"p": false
+}
+],
+"pub": "19-24 40-35 3-8 49-43 6-11 48-42 16-21 28-23 21-26 50-44 1-7 23-19"
+},
+"PERF_SENS_DU_JEU_T2_line34": {
+"id": "PERF_SENS_DU_JEU_T2_line34",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+28,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+43,
+49,
+50
+],
+"wk": [],
+"bm": [
+3,
+6,
+9,
+11,
+12,
+13,
+15,
+19,
+24,
+25,
+27
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "43x32",
+"f": 43,
+"t": 32,
+"c": [
+38
+],
+"path": [
+43,
+32
+],
+"p": false
+}
+],
+"pub": "24-30 35x24 19x30 34-29 9-14 38-32 27x38 43x32"
+},
+"PERF_SENS_DU_JEU_T2_line35": {
+"id": "PERF_SENS_DU_JEU_T2_line35",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+24,
+30,
+31,
+36,
+39,
+40,
+41,
+46,
+47,
+50
+],
+"wk": [],
+"bm": [
+2,
+6,
+8,
+12,
+13,
+15,
+18,
+21,
+22,
+23
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "24x13",
+"f": 24,
+"t": 13,
+"c": [
+19
+],
+"path": [
+24,
+13
+],
+"p": false
+},
+{
+"n": "18x9",
+"f": 18,
+"t": 9,
+"c": [
+13
+],
+"path": [
+18,
+9
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "46-41",
+"f": 46,
+"t": 41,
+"c": [],
+"path": [
+46,
+41
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "15-20",
+"f": 15,
+"t": 20,
+"c": [],
+"path": [
+15,
+20
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "2-8",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "50-45",
+"f": 50,
+"t": 45,
+"c": [],
+"path": [
+50,
+45
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "27-32",
+"f": 27,
+"t": 32,
+"c": [],
+"path": [
+27,
+32
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "32x41",
+"f": 32,
+"t": 41,
+"c": [
+37
+],
+"path": [
+32,
+41
+],
+"p": false
+},
+{
+"n": "36x47",
+"f": 36,
+"t": 47,
+"c": [
+41
+],
+"path": [
+36,
+47
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "28-33",
+"f": 28,
+"t": 33,
+"c": [],
+"path": [
+28,
+33
+],
+"p": false
+},
+{
+"n": "39x28",
+"f": 39,
+"t": 28,
+"c": [
+33
+],
+"path": [
+39,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "33-38",
+"f": 33,
+"t": 38,
+"c": [],
+"path": [
+33,
+38
+],
+"p": false
+}
+],
+"pub": "13-19 24x13 18x9 41-37 21-27 47-42 9-14 42-38 6-11 46-41 8-13 40-34 23-28 31-26 12-18 37-31 15-20 38-33 20-25 33-29 2-8 50-45 8-12 45-40 12-17 40-35 11-16 29-24 27-32 41-37 32x41 36x47 16-21 47-41 28-33 39x28 22x33 41-37 33-38"
+},
+"PERF_SENS_DU_JEU_T2_line36": {
+"id": "PERF_SENS_DU_JEU_T2_line36",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+15,
+27,
+28,
+30,
+32,
+37,
+38,
+39,
+47
+],
+"wk": [],
+"bm": [
+4,
+9,
+13,
+14,
+16,
+17,
+18,
+19,
+21
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+}
+],
+"pub": "38-33 18-22 27x18 13x22 37-31 9-13 39-34 13-18 31-26"
+},
+"PERF_SENS_DU_JEU_T2_line37": {
+"id": "PERF_SENS_DU_JEU_T2_line37",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+15,
+27,
+30,
+32,
+33,
+36,
+37,
+38,
+42,
+48,
+50
+],
+"wk": [],
+"bm": [
+4,
+6,
+8,
+9,
+11,
+13,
+14,
+16,
+18,
+19,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "48-42",
+"f": 48,
+"t": 42,
+"c": [],
+"path": [
+48,
+42
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "4-9",
+"f": 4,
+"t": 9,
+"c": [],
+"path": [
+4,
+9
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "19x28",
+"f": 19,
+"t": 28,
+"c": [
+23
+],
+"path": [
+19,
+28
+],
+"p": false
+},
+{
+"n": "32x23",
+"f": 32,
+"t": 23,
+"c": [
+28
+],
+"path": [
+32,
+23
+],
+"p": false
+},
+{
+"n": "22-27",
+"f": 22,
+"t": 27,
+"c": [],
+"path": [
+22,
+27
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "27-32",
+"f": 27,
+"t": 32,
+"c": [],
+"path": [
+27,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "26-31",
+"f": 26,
+"t": 31,
+"c": [],
+"path": [
+26,
+31
+],
+"p": false
+},
+{
+"n": "24-19",
+"f": 24,
+"t": 19,
+"c": [],
+"path": [
+24,
+19
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "31-36",
+"f": 31,
+"t": 36,
+"c": [],
+"path": [
+31,
+36
+],
+"p": false
+},
+{
+"n": "23-18",
+"f": 23,
+"t": 18,
+"c": [],
+"path": [
+23,
+18
+],
+"p": false
+},
+{
+"n": "36-41",
+"f": 36,
+"t": 41,
+"c": [],
+"path": [
+36,
+41
+],
+"p": false
+},
+{
+"n": "19-13",
+"f": 19,
+"t": 13,
+"c": [],
+"path": [
+19,
+13
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "13-8",
+"f": 13,
+"t": 8,
+"c": [],
+"path": [
+13,
+8
+],
+"p": false
+},
+{
+"n": "41-47",
+"f": 41,
+"t": 47,
+"c": [],
+"path": [
+41,
+47
+],
+"p": true
+},
+{
+"n": "8-2",
+"f": 8,
+"t": 2,
+"c": [],
+"path": [
+8,
+2
+],
+"p": true
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "18-12",
+"f": 18,
+"t": 12,
+"c": [],
+"path": [
+18,
+12
+],
+"p": false
+},
+{
+"n": "41x32",
+"f": 41,
+"t": 32,
+"c": [
+24,
+28,
+38,
+39
+],
+"path": [
+41,
+19,
+30,
+43,
+32
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17x8",
+"f": 17,
+"t": 8,
+"c": [
+12
+],
+"path": [
+17,
+8
+],
+"p": false
+},
+{
+"n": "2x37",
+"f": 2,
+"t": 37,
+"c": [
+8,
+32
+],
+"path": [
+2,
+19,
+37
+],
+"p": false
+}
+],
+"pub": "18-22 27x18 13x22 32-27 22x31 36x27 11-17 37-32 8-12 33-28 9-13 38-33 6-11 42-38 17-21 48-42 11-17 42-37 12-18 50-44 4-9 44-39 18-22 27x18 13x22 28-23 19x28 32x23 22-27 30-24 27-32 37x28 26-31 24-19 14-20 15x24 31-36 23-18 36-41 19-13 9-14 13-8 41-47 8-2 47-41 18-12 41x32 33-29 17x8 2x37"
+},
+"PERF_SENS_DU_JEU_T2_line38": {
+"id": "PERF_SENS_DU_JEU_T2_line38",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+15,
+27,
+30,
+31,
+36,
+39,
+40,
+43,
+44,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+8,
+9,
+13,
+16,
+18,
+19,
+23
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "46-41",
+"f": 46,
+"t": 41,
+"c": [],
+"path": [
+46,
+41
+],
+"p": false
+},
+{
+"n": "2-7",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+},
+{
+"n": "41-36",
+"f": 41,
+"t": 36,
+"c": [],
+"path": [
+41,
+36
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "11x31",
+"f": 11,
+"t": 31,
+"c": [
+17,
+27
+],
+"path": [
+11,
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "49-43",
+"f": 49,
+"t": 43,
+"c": [],
+"path": [
+49,
+43
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+}
+],
+"pub": "6-11 39-33 11-17 47-42 8-12 42-38 17-22 31-26 22x31 36x27 12-17 46-41 2-7 41-36 7-11 38-32 1-6 43-38 9-14 44-39 17-21 26x17 11x31 36x27 6-11 33-28 23-29 39-34 18-23 49-43 11-17 30-24"
+},
+"PERF_SENS_DU_JEU_T2_line39": {
+"id": "PERF_SENS_DU_JEU_T2_line39",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+16,
+25,
+26,
+28,
+37,
+38,
+39,
+42,
+43,
+44,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+7,
+9,
+11,
+12,
+14,
+15,
+17,
+18,
+24,
+36
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "09-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "04-09",
+"f": 4,
+"t": 9,
+"c": [],
+"path": [
+4,
+9
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "02-08",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "25-20",
+"f": 25,
+"t": 20,
+"c": [],
+"path": [
+25,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "34x25",
+"f": 34,
+"t": 25,
+"c": [
+30
+],
+"path": [
+34,
+25
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "39-34",
+"f": 39,
+"t": 34,
+"c": [],
+"path": [
+39,
+34
+],
+"p": false
+},
+{
+"n": "09-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "49-43",
+"f": 49,
+"t": 43,
+"c": [],
+"path": [
+49,
+43
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "08-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "06-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "07-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "34x25",
+"f": 34,
+"t": 25,
+"c": [
+30
+],
+"path": [
+34,
+25
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "18x49",
+"f": 18,
+"t": 49,
+"c": [
+33,
+43,
+23
+],
+"path": [
+18,
+29,
+38,
+49
+],
+"p": true
+}
+],
+"pub": "14-19 37-32 09-13 44-40 04-09 39-34 02-08 43-39 24-30 25-20 15x24 34x25 18-23 39-34 09-14 49-43 13-18 43-39 17-22 28x17 11x22 32-27 22x31 26x37 08-13 38-33 06-11 42-38 11-17 48-43 24-30 33-29 17-22 40-35 12-17 35x24 19x30 37-32 07-12 38-33 14-20 25x14 17-21 34x25 23x34 39x30 13-19 16x27 22x31 14x23 18x49"
+},
+"PERF_SENS_DU_JEU_T2_line40": {
+"id": "PERF_SENS_DU_JEU_T2_line40",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+6,
+30,
+33,
+35,
+37,
+38,
+40,
+41,
+42,
+43,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+8,
+9,
+10,
+13,
+14,
+17,
+18,
+19,
+24,
+26,
+36
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "30-25",
+"f": 30,
+"t": 25,
+"c": [],
+"path": [
+30,
+25
+],
+"p": false
+},
+{
+"n": "08-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "10-15",
+"f": 10,
+"t": 15,
+"c": [],
+"path": [
+10,
+15
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "02-07",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+},
+{
+"n": "50-45",
+"f": 50,
+"t": 45,
+"c": [],
+"path": [
+50,
+45
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+}
+],
+"pub": "18-23 40-34 13-18 30-25 08-13 34-30 10-15 49-44 02-07 50-45 17-22"
+},
+"PERF_SENS_DU_JEU_T2_line41": {
+"id": "PERF_SENS_DU_JEU_T2_line41",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+15,
+27,
+28,
+32,
+33,
+34,
+38,
+39,
+41,
+42,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+3,
+4,
+6,
+7,
+9,
+11,
+13,
+14,
+16,
+18,
+19,
+21,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "27x18",
+"f": 27,
+"t": 18,
+"c": [
+22
+],
+"path": [
+27,
+18
+],
+"p": false
+},
+{
+"n": "13x22",
+"f": 13,
+"t": 22,
+"c": [
+18
+],
+"path": [
+13,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "41-36",
+"f": 41,
+"t": 36,
+"c": [],
+"path": [
+41,
+36
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "49-43",
+"f": 49,
+"t": 43,
+"c": [],
+"path": [
+49,
+43
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "22x33",
+"f": 22,
+"t": 33,
+"c": [
+28
+],
+"path": [
+22,
+33
+],
+"p": false
+},
+{
+"n": "38x29",
+"f": 38,
+"t": 29,
+"c": [
+33
+],
+"path": [
+38,
+29
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+}
+],
+"pub": "18-22 27x18 13x22 28x17 11x22 41-36 21-27 32x21 16x27 49-43 7-12 50-44 9-13 33-28 22x33 38x29 12-18"
+},
+"PERF_SENS_DU_JEU_T2_line42": {
+"id": "PERF_SENS_DU_JEU_T2_line42",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+15,
+27,
+30,
+32,
+33,
+35,
+37,
+38,
+39,
+41,
+42,
+43,
+44,
+47
+],
+"wk": [],
+"bm": [
+2,
+4,
+7,
+8,
+9,
+10,
+12,
+13,
+14,
+16,
+17,
+18,
+23,
+26
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "41-36",
+"f": 41,
+"t": 36,
+"c": [],
+"path": [
+41,
+36
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "47-41",
+"f": 47,
+"t": 41,
+"c": [],
+"path": [
+47,
+41
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "23x32",
+"f": 23,
+"t": 32,
+"c": [
+28
+],
+"path": [
+23,
+32
+],
+"p": false
+},
+{
+"n": "38x36",
+"f": 38,
+"t": 36,
+"c": [
+32,
+31
+],
+"path": [
+38,
+27,
+36
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+}
+],
+"pub": "17-22 41-36 22x31 36x27 7-11 33-28 11-17 28x19 14x23 47-41 17-22 39-33 22x31 32-28 23x32 38x36 18-22"
+},
+"PERF_SENS_DU_JEU_T2_line43": {
+"id": "PERF_SENS_DU_JEU_T2_line43",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+15,
+28,
+32,
+35,
+36,
+37,
+38,
+39,
+42,
+43,
+44,
+45,
+48
+],
+"wk": [],
+"bm": [
+3,
+4,
+6,
+8,
+9,
+10,
+12,
+13,
+14,
+16,
+18,
+19,
+21
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+}
+],
+"pub": "19-23 28x19 14x23 39-33 6-11"
+},
+"PERF_SENS_DU_JEU_T2_line44": {
+"id": "PERF_SENS_DU_JEU_T2_line44",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+15,
+26,
+28,
+29,
+32,
+33,
+34,
+36,
+38,
+43,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+8,
+10,
+11,
+12,
+13,
+16,
+17,
+18,
+19,
+21,
+45
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "16x27",
+"f": 16,
+"t": 27,
+"c": [
+21
+],
+"path": [
+16,
+27
+],
+"p": false
+},
+{
+"n": "38-32",
+"f": 38,
+"t": 32,
+"c": [],
+"path": [
+38,
+32
+],
+"p": false
+},
+{
+"n": "27x38",
+"f": 27,
+"t": 38,
+"c": [
+32
+],
+"path": [
+27,
+38
+],
+"p": false
+},
+{
+"n": "43x32",
+"f": 43,
+"t": 32,
+"c": [
+38
+],
+"path": [
+43,
+32
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "2-7",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "26x37",
+"f": 26,
+"t": 37,
+"c": [
+31
+],
+"path": [
+26,
+37
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "30-25",
+"f": 30,
+"t": 25,
+"c": [],
+"path": [
+30,
+25
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+}
+],
+"pub": "21-27 32x21 16x27 38-32 27x38 43x32 10-14 34-30 2-7 48-43 17-22 28x17 11x22 32-27 22x31 26x37 19-23 29-24 6-11 30-25 18-22"
+},
+"PERF_SENS_DU_JEU_T2_line45": {
+"id": "PERF_SENS_DU_JEU_T2_line45",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+15,
+24,
+25,
+33,
+36,
+37,
+43,
+46,
+47,
+49,
+50
+],
+"wk": [],
+"bm": [
+3,
+4,
+7,
+8,
+11,
+12,
+13,
+14,
+22,
+23,
+45
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "4-10",
+"f": 4,
+"t": 10,
+"c": [],
+"path": [
+4,
+10
+],
+"p": false
+}
+],
+"pub": "37-32 12-17 32-27 22x31 36x27 4-10"
+},
+"PERF_SENS_DU_JEU_T2_line46": {
+"id": "PERF_SENS_DU_JEU_T2_line46",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+6,
+27,
+28,
+32,
+34,
+37,
+38,
+39,
+45,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+3,
+7,
+12,
+13,
+14,
+19,
+23,
+24,
+25,
+26,
+36
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "24-30",
+"f": 24,
+"t": 30,
+"c": [],
+"path": [
+24,
+30
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "30-35",
+"f": 30,
+"t": 35,
+"c": [],
+"path": [
+30,
+35
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "35x44",
+"f": 35,
+"t": 44,
+"c": [
+40
+],
+"path": [
+35,
+44
+],
+"p": false
+},
+{
+"n": "39x50",
+"f": 39,
+"t": 50,
+"c": [
+44
+],
+"path": [
+39,
+50
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "28-22",
+"f": 28,
+"t": 22,
+"c": [],
+"path": [
+28,
+22
+],
+"p": false
+}
+],
+"pub": "24-30 45-40 30-35 38-33 35x44 39x50 14-20 28-22"
+},
+"PERF_SENS_DU_JEU_T2_line47": {
+"id": "PERF_SENS_DU_JEU_T2_line47",
+"ch": 7,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
+6,
+22,
+27,
+32,
+33,
+34,
+37,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+3,
+7,
+12,
+13,
+19,
+20,
+23,
+25,
+26,
+36
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "20-24",
+"f": 20,
+"t": 24,
+"c": [],
+"path": [
+20,
+24
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "50-45",
+"f": 50,
+"t": 45,
+"c": [],
+"path": [
+50,
+45
+],
+"p": false
+},
+{
+"n": "29x40",
+"f": 29,
+"t": 40,
+"c": [
+34
+],
+"path": [
+29,
+40
+],
+"p": false
+},
+{
+"n": "45x34",
+"f": 45,
+"t": 34,
+"c": [
+40
+],
+"path": [
+45,
+34
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "20-24",
+"f": 20,
+"t": 24,
+"c": [],
+"path": [
+20,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "22-17",
+"f": 22,
+"t": 17,
+"c": [],
+"path": [
+22,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "20-24",
+"f": 20,
+"t": 24,
+"c": [],
+"path": [
+20,
+24
+],
+"p": false
+},
+{
+"n": "30-25",
+"f": 30,
+"t": 25,
+"c": [],
+"path": [
+30,
+25
+],
+"p": false
+},
+{
+"n": "24-29",
+"f": 24,
+"t": 29,
+"c": [],
+"path": [
+24,
+29
+],
+"p": false
+},
+{
+"n": "16-11",
+"f": 16,
+"t": 11,
+"c": [],
+"path": [
+16,
+11
+],
+"p": false
+},
+{
+"n": "18-22",
+"f": 18,
+"t": 22,
+"c": [],
+"path": [
+18,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+}
+],
+"pub": "20-24 33-28 12-18 48-43 24-29 50-45 29x40 45x34 3-9 43-39 9-14 39-33 14-20 33-29 20-24 29x20 25x14 49-44 7-12 34-30 14-20 22-17 12x21 27x16 20-24 30-25 24-29 16-11 18-22 28x17 19-24"
 }
 }
 }
