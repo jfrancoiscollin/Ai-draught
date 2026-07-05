@@ -1,9 +1,6 @@
 import React, { useState, useCallback, useMemo, useEffect, useRef } from 'react'
 import Board from './components/Board'
-import type { Arrow, BoardTheme } from './components/Board'
-import AnalysisPanel, { MoveAnnotationsTable } from './components/AnalysisPanel'
-import AnalysisText from './components/AnalysisText'
-import TipExamples from './components/TipExamples'
+import type { BoardTheme } from './components/Board'
 import GameControls, { type PlayerSide } from './components/GameControls'
 import MoveList from './components/MoveList'
 import ExercisePanel from './components/ExercisePanel'
@@ -14,9 +11,8 @@ import ImportGamePanel from './components/ImportGamePanel'
 import OpeningCacheBuilder from './components/OpeningCacheBuilder'
 import MyGamesPanel from './components/MyGamesPanel'
 import ExerciseVerificationPanel from './components/ExerciseVerificationPanel'
-import OpeningExplorer from './components/OpeningExplorer'
-import LearnFromMistakes from './components/LearnFromMistakes'
 import PedagogyPanel from './components/PedagogyPanel'
+import GameNarrativeSummary from './components/GameNarrativeSummary'
 import LivePlayPanel from './components/LivePlayPanel'
 import LiveGameScreen from './components/LiveGameScreen'
 import ChallengeToast from './components/ChallengeToast'
@@ -43,7 +39,6 @@ import { useAuth } from './contexts/AuthContext'
 import {
   newGame,
   makeMove,
-  analyzePosition,
   checkExercise,
   getExercise,
   getExerciseLegalMovesAtStep,
@@ -51,16 +46,10 @@ import {
   resignGame,
   getAiMove,
   getReadLessons,
-  saveGameAnnotations,
   analyzeGamePedagogy,
 } from './api/client'
-import type { PdnPosition, PedagogyAnalysis } from './api/client'
+import type { PedagogyAnalysis } from './api/client'
 import { getScanEngine, matchHubMove } from './lib/scanEngine'
-import {
-  annotateGame, computeStats,
-  type MoveAnnotation, type GameStats,
-  VERDICT_SYMBOL, VERDICT_COLOR,
-} from './lib/gameAnnotations'
 import {
   EMPTY, WHITE_MAN, WHITE_KING, BLACK_MAN, BLACK_KING,
   sqToRowCol, rcToSq,
@@ -68,19 +57,11 @@ import {
 import type {
   GameStateResponse,
   MoveData,
-  AnalysisResponse,
   ExerciseCheckResponse,
   GameDetailResponse,
 } from './types'
 import { useLanguage } from './i18n/LanguageContext'
 import { playMoveSound } from './utils/sound'
-
-function getInitialBoard(): number[] {
-  const board = new Array(51).fill(0) // EMPTY = 0
-  for (let sq = 1; sq <= 20; sq++) board[sq] = 3  // BLACK_MAN
-  for (let sq = 31; sq <= 50; sq++) board[sq] = 1  // WHITE_MAN
-  return board
-}
 
 function applyMoveLocally(board: number[], move: MoveData): number[] {
   const newBoard = [...board]
@@ -251,11 +232,7 @@ export default function App() {
   const [selectedSquare, setSelectedSquare] = useState<number | null>(null)
   const [moveHistory, setMoveHistory] = useState<MoveData[]>([])
   const [aiDepth, setAiDepth] = useState(6)
-  const [analysis, setAnalysis] = useState<AnalysisResponse | null>(null)
-  const [analysisLoading, setAnalysisLoading] = useState(false)
   const [toastMsg, setToastMsg] = useState<string | null>(null)
-  const [bestMoveArrow, setBestMoveArrow] = useState<Arrow | null>(null)
-  const [explorerArrows, setExplorerArrows] = useState<Arrow[]>([])
   const [showExplorer, setShowExplorer] = useState<boolean>(() => {
     try { return localStorage.getItem('showExplorer') !== 'false' } catch { return true }
   })
@@ -274,8 +251,6 @@ export default function App() {
   const [boardTheme, setBoardTheme] = useState<BoardTheme>(() => {
     try { return (localStorage.getItem('boardTheme') as BoardTheme) ?? 'classic' } catch { return 'classic' }
   })
-  const [analysisExpanded, setAnalysisExpanded] = useState(false)
-  const [fullSpeaking, setFullSpeaking] = useState(false)
   const [replayingPosition, setReplayingPosition] = useState<{ board: number[], label: string } | null>(null)
   const [captureAnimBoard, setCaptureAnimBoard] = useState<number[] | null>(null)
   const captureAnimTimers = useRef<ReturnType<typeof setTimeout>[]>([])
@@ -321,16 +296,8 @@ export default function App() {
   const [readChapters, setReadChapters] = useState<Set<number>>(new Set())
   const [resultFlash, setResultFlash] = useState<string | null>(null)
 
-  // ── Game annotation (coup par coup) ──────────────────────────
-  const [fenHistory, setFenHistory] = useState<string[]>([])
-  const [playAnnotations, setPlayAnnotations] = useState<MoveAnnotation[]>([])
-  const [playGameStats, setPlayGameStats] = useState<GameStats | null>(null)
-  const [playAnnotating, setPlayAnnotating] = useState(false)
-  const [playAnnotationProgress, setPlayAnnotationProgress] = useState(0)
-  const [playAnnotationTotal, setPlayAnnotationTotal] = useState(0)
-  const playAnnotationAbortRef = useRef<AbortController | null>(null)
-  const [playLastCacheHits, setPlayLastCacheHits] = useState<{ hits: number; total: number } | null>(null)
-  const [playPanelMode, setPlayPanelMode] = useState<'game' | 'learn'>('game')
+  // FEN trail of the current game (kept for eval/last-move bookkeeping).
+  const [, setFenHistory] = useState<string[]>([])
 
   // Pedagogy (dilf) post-game analysis
   const [pedagogyAnalysis, setPedagogyAnalysis] = useState<PedagogyAnalysis | null>(null)
@@ -361,24 +328,6 @@ export default function App() {
 
   const showToast = (msg: string) => setToastMsg(msg)
 
-  function buildPdnPositions(fens: string[], moves: MoveData[]): PdnPosition[] {
-    if (!fens.length) return []
-    const positions: PdnPosition[] = [{ fen: fens[0], notation: '', move_number: 0, color: 'white' }]
-    for (let i = 0; i < moves.length && i + 1 < fens.length; i++) {
-      const m = moves[i]
-      const notation = m.captures.length > 0
-        ? m.path.join('x')
-        : `${m.path[0]}-${m.path[m.path.length - 1]}`
-      positions.push({
-        fen: fens[i + 1],
-        notation,
-        move_number: Math.floor(i / 2) + 1,
-        color: i % 2 === 0 ? 'white' : 'black',
-      })
-    }
-    return positions
-  }
-
   const resetExerciseState = useCallback(() => {
     setExerciseGameState(null)
     setExerciseSolved(false)
@@ -399,15 +348,8 @@ export default function App() {
       setGameState(state)
       setSelectedSquare(null)
       setMoveHistory([])
-      setAnalysis(null)
-      setAnalysisExpanded(false)
       setReplayingPosition(null)
       setFenHistory([state.fen])
-      setPlayAnnotations([])
-      setPlayGameStats(null)
-      setPlayLastCacheHits(null)
-      setPlayPanelMode('game')
-      setExplorerArrows([])
       setPedagogyAnalysis(null)
       setPedagogyLoading(false)
       setPedagogyError(null)
@@ -469,7 +411,6 @@ export default function App() {
   const toggleExplorer = (v: boolean) => {
     setShowExplorer(v)
     try { localStorage.setItem('showExplorer', String(v)) } catch { /* ignore */ }
-    if (!v) setExplorerArrows([])
   }
 
   const changeExplorerMaxMoves = (n: number) => {
@@ -477,15 +418,9 @@ export default function App() {
     try { localStorage.setItem('explorerMaxMoves', String(n)) } catch { /* ignore */ }
   }
 
-  // fen passed to OpeningExplorer: null if disabled, no moves yet, or past max depth
-  const explorerFen = showExplorer && moveHistory.length > 0 && moveHistory.length <= explorerMaxMoves
-    ? (gameState?.fen ?? null)
-    : null
-
   const handleMove = useCallback(async (move: MoveData) => {
     if (!gameState || gameState.result || isAiThinking) return
     setSelectedSquare(null)
-    setBestMoveArrow(null)
     setIsAiThinking(true)
 
     // For multi-hop captures animate each jump; otherwise play sound immediately.
@@ -668,120 +603,12 @@ export default function App() {
       setGameState(state)
       setMoveHistory(prev => prev.slice(0, state.move_count))
       setSelectedSquare(null)
-      setAnalysis(null)
-      setAnalysisExpanded(false)
     } catch {
       showToast('Impossible d\'annuler le coup.')
     } finally {
       setIsAiThinking(false)
     }
   }, [gameState, isAiThinking])
-
-  const handleBestMoveQuick = useCallback(async (): Promise<string[] | null> => {
-    if (!gameState) return null
-    setBestMoveArrow(null)
-    try {
-      const engine = getScanEngine()
-      let hubMove: string | null = await engine.getMove(gameState.fen, 1500)
-      if (!hubMove) {
-        // Fallback: server Scan
-        const move = await getAiMove(gameState.game_id, aiDepth)
-        if (!move) return []
-        hubMove = move.captures.length > 0
-          ? move.path.join('x')
-          : `${move.path[0]}-${move.path[move.path.length - 1]}`
-      }
-      if (!hubMove) return []
-      // Set arrow on board
-      const sep = hubMove.includes('x') ? 'x' : '-'
-      const parts = hubMove.split(sep).map(Number)
-      if (parts.length >= 2) setBestMoveArrow({ from: parts[0], to: parts[parts.length - 1] })
-      return [hubMove]
-    } catch {
-      return null
-    }
-  }, [gameState, aiDepth])
-
-  const handleFullTextSpeak = useCallback(() => {
-    if (!analysis) return
-    if (fullSpeaking) {
-      window.speechSynthesis?.cancel()
-      setFullSpeaking(false)
-      return
-    }
-    window.speechSynthesis?.cancel()
-    const utt = new SpeechSynthesisUtterance(analysis.analysis)
-    utt.lang = language === 'en' ? 'en-GB' : 'fr-FR'
-    utt.rate = 0.9
-    utt.onend = () => setFullSpeaking(false)
-    utt.onerror = () => setFullSpeaking(false)
-    setFullSpeaking(true)
-    window.speechSynthesis?.speak(utt)
-  }, [analysis, language, fullSpeaking])
-
-  const handleAnalyze = useCallback(async (question?: string, mode?: string): Promise<AnalysisResponse | null> => {
-    if (!gameState) return null
-    setAnalysisLoading(true)
-    try {
-      const result = await analyzePosition(gameState.game_id, question, language, mode || 'position', aiDepth)
-      setAnalysis(result)
-      setAnalysisExpanded(true)
-      setReplayingPosition(null)
-      if (mode === 'full_game' && result.move_annotations?.length && user) {
-        saveGameAnnotations(gameState.game_id, result.move_annotations).catch(() => {})
-      }
-      return result
-    } catch (e: unknown) {
-      const err = e as { response?: { data?: { detail?: string } } }
-      showToast(`${t('errorAnalysis')}${err?.response?.data?.detail || 'Erreur inconnue'}`)
-      return null
-    } finally {
-      setAnalysisLoading(false)
-    }
-  }, [gameState, language, aiDepth, t, user])
-
-  const handleAnnotatePlayedGame = useCallback(async () => {
-    if (!fenHistory.length || !moveHistory.length) return
-    const positions = buildPdnPositions(fenHistory, moveHistory)
-    if (positions.length < 2) return
-
-    playAnnotationAbortRef.current?.abort()
-    const ctrl = new AbortController()
-    playAnnotationAbortRef.current = ctrl
-
-    setPlayAnnotating(true)
-    setPlayAnnotations([])
-    setPlayGameStats(null)
-    setPlayAnnotationProgress(0)
-    setPlayAnnotationTotal(positions.length)
-
-    try {
-      const { annotations: anns, cacheHits } = await annotateGame(
-        positions,
-        500,
-        (done, total) => {
-          setPlayAnnotationProgress(done)
-          setPlayAnnotationTotal(total)
-        },
-        ctrl.signal,
-      )
-      if (!ctrl.signal.aborted) {
-        setPlayAnnotations(anns)
-        setPlayGameStats(computeStats(anns))
-        setPlayLastCacheHits({ hits: cacheHits, total: positions.length })
-      }
-    } finally {
-      setPlayAnnotating(false)
-    }
-  }, [fenHistory, moveHistory])
-
-  const handleLearnPlayedGame = useCallback(() => {
-    if (playGameStats !== null) {
-      setPlayPanelMode('learn')
-    } else {
-      handleAnnotatePlayedGame()
-    }
-  }, [playGameStats, handleAnnotatePlayedGame])
 
   const [lastExerciseId, setLastExerciseId] = useState<number | null>(null)
 
@@ -993,34 +820,6 @@ export default function App() {
     }
   }, [gameState?.game_id, humanColor, language, pedagogyLoading])
 
-  // Reconstruct all board positions from move history for replay
-  const boardPositions = useMemo(() => {
-    const positions: number[][] = [getInitialBoard()]
-    for (const move of moveHistory) {
-      positions.push(applyMoveLocally(positions[positions.length - 1], move))
-    }
-    return positions
-  }, [moveHistory])
-
-  const moveMap = useMemo(() => {
-    const map = new Map<string, number>()
-    moveHistory.forEach((move, i) => {
-      const isCapture = move.captures.length > 0
-      const fullPdn = isCapture ? move.path.join('x') : `${move.path[0]}-${move.path[move.path.length - 1]}`
-      const shortPdn = `${move.path[0]}${isCapture ? 'x' : '-'}${move.path[move.path.length - 1]}`
-      if (!map.has(fullPdn)) map.set(fullPdn, i)
-      if (!map.has(shortPdn)) map.set(shortPdn, i)
-    })
-    return map
-  }, [moveHistory])
-
-  const handleAnalysisMoveClick = useCallback((pdn: string) => {
-    const idx = moveMap.get(pdn)
-    if (idx !== undefined) {
-      setReplayingPosition({ board: boardPositions[idx + 1], label: pdn })
-    }
-  }, [moveMap, boardPositions])
-
   const currentBoard = gameState?.board || new Array(51).fill(EMPTY)
   const displayBoard = captureAnimBoard ?? replayingPosition?.board ?? currentBoard
   const boardDisabled = !!replayingPosition || !gameState || !!gameState.result || isAiThinking || (gameState?.turn !== humanColor && !bothSides)
@@ -1040,70 +839,38 @@ export default function App() {
 
 
 
-  const playAnnotationPanel = (playAnnotating || playGameStats || playLastCacheHits) ? (
-    <div className="flex flex-col gap-2">
-      {playAnnotating && (
-        <div className="bg-gray-800 rounded-lg px-3 py-2 flex flex-col gap-1.5">
-          <div className="flex items-center justify-between text-xs">
-            <span className="text-blue-400">
-              {playAnnotationProgress === 0 && playAnnotationTotal > 0 ? '⚡ Analyse serveur…' : 'Analyse en cours…'}
-            </span>
-            <span className="text-gray-400">{playAnnotationProgress}/{playAnnotationTotal}</span>
-          </div>
-          {playAnnotationTotal > 0 && (
-            <div className="w-full bg-gray-700 rounded-full h-1.5">
-              <div
-                className="bg-blue-500 h-1.5 rounded-full transition-all"
-                style={{ width: `${(playAnnotationProgress / playAnnotationTotal) * 100}%` }}
-              />
-            </div>
-          )}
-        </div>
-      )}
-      {playLastCacheHits && !playAnnotating && (
-        <div className="text-xs text-center text-gray-500">
-          {playLastCacheHits.hits > 0
-            ? `⚡ ${playLastCacheHits.hits}/${playLastCacheHits.total} positions depuis le cache`
-            : `Cache : 0/${playLastCacheHits.total}`}
-        </div>
-      )}
-      {playGameStats && !playAnnotating && (
-        <div className="grid grid-cols-2 gap-px bg-gray-800 rounded-lg overflow-hidden text-xs">
-          {(['white', 'black'] as const).map(color => {
-            const acpl = color === 'white' ? playGameStats.whiteAcpl : playGameStats.blackAcpl
-            const counts = color === 'white' ? playGameStats.whiteCounts : playGameStats.blackCounts
-            return (
-              <div key={color} className="bg-gray-950 px-3 py-2 flex flex-col gap-1">
-                <span>{color === 'white' ? '⬜ Blancs' : '⬛ Noirs'}</span>
-                <div className="flex items-center gap-1">
-                  <span className="text-gray-500">Moy.</span>
-                  <span className="font-mono font-bold text-gray-200">{acpl} cp</span>
-                </div>
-                <div className="flex gap-2">
-                  {counts.blunder > 0 && <span className="font-bold" style={{ color: VERDICT_COLOR.blunder }}>{counts.blunder}??</span>}
-                  {counts.mistake > 0 && <span className="font-bold" style={{ color: VERDICT_COLOR.mistake }}>{counts.mistake}?</span>}
-                  {counts.inaccuracy > 0 && <span className="font-bold" style={{ color: VERDICT_COLOR.inaccuracy }}>{counts.inaccuracy}?!</span>}
-                  {counts.blunder + counts.mistake + counts.inaccuracy === 0 && <span className="text-green-500">Parfait ✓</span>}
-                </div>
-              </div>
-            )
-          })}
-        </div>
+  // Post-game analysis under the board: a single « Analyser » action (the
+  // PedagogyPanel button) that reproduces the historical-game analysis —
+  // accuracy summary + the narrative story with detected motifs, persistent
+  // weaknesses and recommended reading (GameNarrativeSummary), exactly as the
+  // history/import view shows it.
+  const pedagogyPanel = gameState?.result ? (
+    <div className="flex flex-col gap-3">
+      <PedagogyPanel
+        gameId={gameState.game_id}
+        analysis={pedagogyAnalysis}
+        loading={pedagogyLoading}
+        userSide={humanColor}
+        lang={language}
+        onAnalyze={handleAnalyzePedagogy}
+        error={pedagogyError}
+        onMotifClick={setMotifDetailSlug}
+      />
+      {pedagogyAnalysis && (
+        <GameNarrativeSummary
+          gameId={gameState.game_id}
+          lang={language}
+          onMotifClick={setMotifDetailSlug}
+          onWeaknessClick={setSpokenSquares}
+          onOpenLesson={(chapter) => setNarrativeLessonChapter(chapter)}
+          onOpenManual={(source) => {
+            setStrategyManualSource(source)
+            setStrategyManualOrigin('play')
+            setTab('strategy-manual')
+          }}
+        />
       )}
     </div>
-  ) : null
-
-  const pedagogyPanel = gameState?.result ? (
-    <PedagogyPanel
-      gameId={gameState.game_id}
-      analysis={pedagogyAnalysis}
-      loading={pedagogyLoading}
-      userSide={humanColor}
-      lang={language}
-      onAnalyze={handleAnalyzePedagogy}
-      error={pedagogyError}
-      onMotifClick={setMotifDetailSlug}
-    />
   ) : null
 
   return (
@@ -1389,17 +1156,6 @@ export default function App() {
                 }}
               />
             )}
-            {/* Learn from mistakes full-screen overlay */}
-            {!motifDetailSlug && playPanelMode === 'learn' && playAnnotations.length > 0 && (
-              <LearnFromMistakes
-                positions={buildPdnPositions(fenHistory, moveHistory)}
-                annotations={playAnnotations}
-                playerColor={bothSides ? null : 'white'}
-                onClose={() => setPlayPanelMode('game')}
-              />
-            )}
-            {playPanelMode === 'game' && (
-              <>
             {/* Result flash overlay */}
             {resultFlash && (
               <div style={{
@@ -1422,214 +1178,26 @@ export default function App() {
                 </div>
               </div>
             )}
-            {/* ── MOBILE (hidden on lg+) ── */}
-            <div className="lg:hidden h-full flex flex-col">
-              {analysisExpanded ? (
-                <>
-                  {/* Top (fixed): small board right + compact panel left */}
-                  <div
-                    className="flex-shrink-0 grid gap-2 px-2 pt-2"
-                    style={{ gridTemplateColumns: 'minmax(0,1fr) min(42vw, 200px)' }}
-                  >
-                    <div style={{ gridColumn: '1', gridRow: '1' }} className="min-w-0">
-                      <AnalysisPanel
-                        gameId={gameState?.game_id || null}
-                        onAnalyze={handleAnalyze}
-                        onBestMove={handleBestMoveQuick}
-                        analysis={analysis}
-                        loading={analysisLoading}
-                        onHighlightSquare={setSpokenSquares}
-                        expanded={true}
-                        onCollapse={() => setAnalysisExpanded(false)}
-                        aiThinking={isAiThinking}
-                        onMoveClick={handleAnalysisMoveClick}
-                        onAnnotate={handleAnnotatePlayedGame}
-                        onLearn={handleLearnPlayedGame}
-                        annotating={playAnnotating}
-                      />
-                    </div>
-                    <div
-                      style={{ gridColumn: '2', gridRow: '1', width: 'min(42vw, 200px)' }}
-                      className="flex flex-col items-center"
-                    >
-                      <div style={{ display: 'flex', gap: 4, width: '100%', alignItems: 'stretch' }}>
-                      <Board
-                        board={displayBoard}
-                        legalMoves={legalMoves}
-                        onMove={handleMove}
-                        selectedSquare={selectedSquare}
-                        onSelectSquare={handleSelectSquare}
-                        disabled={boardDisabled}
-                        lastMove={gameState?.last_move}
-                        spokenSquares={spokenSquares}
-                        arrows={bestMoveArrow ? [bestMoveArrow, ...explorerArrows] : explorerArrows}
-                        flipped={!bothSides && humanColor === 'black'}
-                        theme={boardTheme}
-                      />
-                      <EvalBar fen={isAiThinking ? null : (gameState?.fen ?? null)} />
-                      </div>
-                      {gameState && (
-                        <div style={{ alignSelf: 'stretch', marginTop: '6px', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                          <button onClick={handleUndo} disabled={isAiThinking || !moveHistory.length || !!gameState.result}
-                            title={t('undoMove')}
-                            className="flex-1 font-semibold bg-amber-700 hover:bg-amber-600 text-white disabled:opacity-30 disabled:cursor-not-allowed px-2 py-1 rounded-lg transition-colors text-base"
-                          >←</button>
-                          <button onClick={handleResign} disabled={isAiThinking || !!gameState.result}
-                            title={t('resign')}
-                            className="flex-1 font-semibold bg-gray-700 hover:bg-gray-600 text-white disabled:opacity-30 disabled:cursor-not-allowed px-2 py-1 rounded-lg transition-colors text-base"
-                          >🏳️</button>
-                          {moveHistory.length > 0 && (
-                            <span style={{ fontWeight: 600, fontSize: '0.8rem' }}
-                              className={pieceDiff > 0 ? 'text-green-400' : pieceDiff < 0 ? 'text-red-400' : 'text-gray-400'}>
-                              {pieceDiff > 0 ? `+${pieceDiff}` : pieceDiff === 0 ? '=' : `${pieceDiff}`}
-                            </span>
-                          )}
-                        </div>
-                      )}
-                      {replayingPosition && (
-                        <div className="flex items-center gap-2 mt-1 bg-amber-900/40 border border-amber-700/60 rounded px-2 py-1 text-xs">
-                          <span className="text-amber-300 font-mono font-semibold">📍 {replayingPosition.label}</span>
-                          <button onClick={() => setReplayingPosition(null)} className="ml-auto text-gray-400 hover:text-white">✕</button>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                  {/* Bottom (scrollable): full analysis text + move list */}
-                  <div className="flex-1 overflow-y-auto overscroll-contain pb-4 px-2 pt-2 flex flex-col gap-2">
-                    {analysis && (
-                      <div className="panel">
-                        <div className="flex items-center justify-between mb-2">
-                          <span className="text-xs text-gray-400 uppercase font-semibold">{t('fullAnalysis')}</span>
-                          <button onClick={handleFullTextSpeak}
-                            className={`flex items-center gap-1 px-2 py-0.5 rounded text-xs transition-colors ${fullSpeaking ? 'bg-red-700 hover:bg-red-600 text-white' : 'bg-gray-700 hover:bg-gray-600 text-gray-300'}`}>
-                            <span>{fullSpeaking ? '⏹' : '🔊'}</span>
-                            <span>{fullSpeaking ? t('stopReading') : t('readAloud')}</span>
-                          </button>
-                        </div>
-                        <AnalysisText
-                          text={analysis.analysis}
-                          onMoveClick={handleAnalysisMoveClick}
-                          className="text-gray-200 leading-relaxed text-sm whitespace-pre-wrap"
-                        />
-                      </div>
-                    )}
-                    {analysis?.move_annotations && analysis.move_annotations.length > 0 && (
-                      <div className="panel">
-                        <div className="text-xs text-gray-400 uppercase font-semibold mb-2">
-                          {language === 'fr' ? 'Analyse coup par coup' : 'Move-by-move analysis'}
-                        </div>
-                        <MoveAnnotationsTable annotations={analysis.move_annotations} language={language} />
-                      </div>
-                    )}
-                    <MoveList moves={moveHistory} currentMoveIndex={moveHistory.length - 1} />
-                    <OpeningExplorer fen={explorerFen} onArrows={setExplorerArrows} />
-                    {playAnnotationPanel}
-                    {pedagogyPanel}
-                  </div>
-                </>
-              ) : (
-                <>
-                  {/* Board full width */}
-                  <div className="flex-shrink-0 flex flex-col items-center px-2 pt-2" style={{ width: '100%', maxWidth: '560px', alignSelf: 'center' }}>
-                    <div style={{ display: 'flex', gap: 4, width: '100%', alignItems: 'stretch' }}>
-                    <Board
-                      board={displayBoard}
-                      legalMoves={legalMoves}
-                      onMove={handleMove}
-                      selectedSquare={selectedSquare}
-                      onSelectSquare={handleSelectSquare}
-                      disabled={boardDisabled}
-                      lastMove={gameState?.last_move}
-                      spokenSquares={spokenSquares}
-                      arrows={bestMoveArrow ? [bestMoveArrow, ...explorerArrows] : explorerArrows}
-                      flipped={!bothSides && humanColor === 'black'}
-                      theme={boardTheme}
-                    />
-                    <EvalBar fen={isAiThinking ? null : (gameState?.fen ?? null)} />
-                    </div>
-                    {gameState && (
-                      <div style={{ alignSelf: 'stretch', marginTop: '8px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <button onClick={handleUndo} disabled={isAiThinking || !moveHistory.length || !!gameState.result}
-                          title={t('undoMove')} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}
-                          className="text-sm font-semibold bg-amber-700 hover:bg-amber-600 text-white disabled:opacity-30 disabled:cursor-not-allowed px-3 py-1.5 rounded-lg transition-colors">
-                          <span>←</span><span>{t('undoMove')}</span>
-                        </button>
-                        <button onClick={handleResign} disabled={isAiThinking || !!gameState.result}
-                          title={t('resign')} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}
-                          className="text-sm font-semibold bg-gray-700 hover:bg-gray-600 text-white disabled:opacity-30 disabled:cursor-not-allowed px-3 py-1.5 rounded-lg transition-colors">
-                          <span>🏳️</span><span>{t('resign')}</span>
-                        </button>
-                        {moveHistory.length > 0 && (
-                          <span style={{ marginLeft: 'auto', fontWeight: 600, fontSize: '0.9rem' }}
-                            className={pieceDiff > 0 ? 'text-green-400' : pieceDiff < 0 ? 'text-red-400' : 'text-gray-400'}>
-                            {pieceDiff > 0 ? `+${pieceDiff}` : pieceDiff === 0 ? '=' : `${pieceDiff}`}
-                          </span>
-                        )}
-                      </div>
-                    )}
-                    {gameState && <p style={{ alignSelf: 'flex-start' }} className="mt-1 text-xs text-gray-500">{t('whitePerspective')}</p>}
-                    {replayingPosition && (
-                      <div className="flex items-center gap-2 mt-1 w-full bg-amber-900/40 border border-amber-700/60 rounded px-2 py-1 text-xs">
-                        <span className="text-amber-300 font-mono font-semibold">📍 {replayingPosition.label}</span>
-                        <button onClick={() => setReplayingPosition(null)} className="ml-auto text-gray-400 hover:text-white">✕</button>
-                      </div>
-                    )}
-                  </div>
-                  {/* Scrollable right panel */}
-                  <div className="flex-1 overflow-y-auto overscroll-contain pb-4 min-w-0">
-                    <div className="flex flex-col gap-3 px-2 py-3">
-                      <AnalysisPanel
-                        gameId={gameState?.game_id || null}
-                        onAnalyze={handleAnalyze}
-                        onBestMove={handleBestMoveQuick}
-                        analysis={analysis}
-                        loading={analysisLoading}
-                        onHighlightSquare={setSpokenSquares}
-                        expanded={false}
-                        onCollapse={() => setAnalysisExpanded(false)}
-                        aiThinking={isAiThinking}
-                        onMoveClick={handleAnalysisMoveClick}
-                        onAnnotate={handleAnnotatePlayedGame}
-                        onLearn={handleLearnPlayedGame}
-                        annotating={playAnnotating}
-                      />
-                      <OpeningExplorer fen={explorerFen} onArrows={setExplorerArrows} />
-                      <MoveList moves={moveHistory} currentMoveIndex={moveHistory.length - 1} />
-                      {playAnnotationPanel}
-                      {pedagogyPanel}
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
-
-            {/* ── DESKTOP (hidden below lg) ── */}
-            <div
-              className={analysisExpanded
-                ? 'hidden lg:grid gap-3 max-w-7xl mx-auto px-4 py-4 pb-6'
-                : 'hidden lg:flex lg:flex-row lg:gap-6 lg:max-w-7xl lg:mx-auto lg:px-4 lg:py-4'
-              }
-              style={analysisExpanded ? { gridTemplateColumns: '1fr min(46%, 280px)' } : {}}
-            >
-              {/* Board */}
-              <div
-                className={analysisExpanded ? 'self-start sticky top-0 flex flex-col items-center' : 'flex-shrink-0 flex flex-col items-center'}
-                style={analysisExpanded ? { gridColumn: '2', gridRow: '1 / span 10' } : { width: '100%', maxWidth: '560px' }}
-              >
+            {/* Damier + analyse post-partie. Sous le damier, un seul
+                bouton « Analyser » (panneau pédagogique) qui reproduit
+                l'analyse de l'historique : résumé narratif, motifs, faiblesses
+                et lectures recommandées. */}
+            <div className="h-full flex flex-col lg:flex-row lg:gap-6 lg:max-w-7xl lg:mx-auto lg:px-4 lg:py-4 overflow-hidden">
+              <div className="flex-shrink-0 flex flex-col items-center px-2 pt-2" style={{ width: '100%', maxWidth: '560px', alignSelf: 'center' }}>
                 <div style={{ display: 'flex', gap: 4, width: '100%', alignItems: 'stretch' }}>
-                <Board
-                  board={displayBoard}
-                  legalMoves={legalMoves}
-                  onMove={handleMove}
-                  selectedSquare={selectedSquare}
-                  onSelectSquare={handleSelectSquare}
-                  disabled={boardDisabled}
-                  lastMove={gameState?.last_move}
-                  spokenSquares={spokenSquares}
-                  flipped={!bothSides && humanColor === 'black'}
-                  theme={boardTheme}
-                />
-                <EvalBar fen={isAiThinking ? null : (gameState?.fen ?? null)} />
+                  <Board
+                    board={displayBoard}
+                    legalMoves={legalMoves}
+                    onMove={handleMove}
+                    selectedSquare={selectedSquare}
+                    onSelectSquare={handleSelectSquare}
+                    disabled={boardDisabled}
+                    lastMove={gameState?.last_move}
+                    spokenSquares={spokenSquares}
+                    flipped={!bothSides && humanColor === 'black'}
+                    theme={boardTheme}
+                  />
+                  <EvalBar fen={isAiThinking ? null : (gameState?.fen ?? null)} />
                 </div>
                 {gameState && (
                   <div style={{ alignSelf: 'stretch', marginTop: '8px', display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -1652,104 +1220,20 @@ export default function App() {
                   </div>
                 )}
                 {gameState && <p style={{ alignSelf: 'flex-start' }} className="mt-1 text-xs text-gray-500">{t('whitePerspective')}</p>}
-                    {replayingPosition && (
-                      <div className="flex items-center gap-2 mt-1 w-full bg-amber-900/40 border border-amber-700/60 rounded px-2 py-1 text-xs">
-                        <span className="text-amber-300 font-mono font-semibold">📍 {replayingPosition.label}</span>
-                        <button onClick={() => setReplayingPosition(null)} className="ml-auto text-gray-400 hover:text-white">✕</button>
-                      </div>
-                    )}
+                {replayingPosition && (
+                  <div className="flex items-center gap-2 mt-1 w-full bg-amber-900/40 border border-amber-700/60 rounded px-2 py-1 text-xs">
+                    <span className="text-amber-300 font-mono font-semibold">📍 {replayingPosition.label}</span>
+                    <button onClick={() => setReplayingPosition(null)} className="ml-auto text-gray-400 hover:text-white">✕</button>
+                  </div>
+                )}
               </div>
-
-              {/* Analysis panel */}
-              {analysisExpanded ? (
-                <div style={{ gridColumn: '1', gridRow: '1' }} className="min-w-0">
-                  <AnalysisPanel
-                    gameId={gameState?.game_id || null}
-                    onAnalyze={handleAnalyze}
-                    onBestMove={handleBestMoveQuick}
-                    analysis={analysis}
-                    loading={analysisLoading}
-                    onHighlightSquare={setSpokenSquares}
-                    expanded={true}
-                    onCollapse={() => setAnalysisExpanded(false)}
-                    aiThinking={isAiThinking}
-                    onMoveClick={handleAnalysisMoveClick}
-                    onAnnotate={handleAnnotatePlayedGame}
-                    onLearn={handleLearnPlayedGame}
-                    annotating={playAnnotating}
-                  />
-                </div>
-              ) : (
-                <div className="flex-1 overflow-y-auto overscroll-contain pb-4 min-w-0">
-                  <div className="flex flex-col gap-3">
-                    <AnalysisPanel
-                      gameId={gameState?.game_id || null}
-                      onAnalyze={handleAnalyze}
-                      onBestMove={handleBestMoveQuick}
-                      analysis={analysis}
-                      loading={analysisLoading}
-                      onHighlightSquare={setSpokenSquares}
-                      expanded={false}
-                      onCollapse={() => setAnalysisExpanded(false)}
-                      aiThinking={isAiThinking}
-                      onMoveClick={handleAnalysisMoveClick}
-                      onAnnotate={handleAnnotatePlayedGame}
-                      onLearn={handleLearnPlayedGame}
-                      annotating={playAnnotating}
-                    />
-                    {/* GameControls lives in the ⚙️ settings sheet only. */}
-                    <OpeningExplorer fen={explorerFen} onArrows={setExplorerArrows} />
-                    <MoveList moves={moveHistory} currentMoveIndex={moveHistory.length - 1} />
-                    {playAnnotationPanel}
-                    {pedagogyPanel}
-                  </div>
-                </div>
-              )}
-
-              {/* Full analysis text (expanded only) */}
-              {analysisExpanded && analysis && (
-                <div style={{ gridColumn: '1', gridRow: '2' }} className="min-w-0">
-                  <div className="panel">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs text-gray-400 uppercase font-semibold">{t('fullAnalysis')}</span>
-                      <button onClick={handleFullTextSpeak}
-                        className={`flex items-center gap-1 px-2 py-0.5 rounded text-xs transition-colors ${fullSpeaking ? 'bg-red-700 hover:bg-red-600 text-white' : 'bg-gray-700 hover:bg-gray-600 text-gray-300'}`}>
-                        <span>{fullSpeaking ? '⏹' : '🔊'}</span>
-                        <span>{fullSpeaking ? t('stopReading') : t('readAloud')}</span>
-                      </button>
-                    </div>
-                    <AnalysisText text={analysis.analysis} onMoveClick={handleAnalysisMoveClick} className="text-gray-200 leading-relaxed text-sm whitespace-pre-wrap" />
-                  </div>
-                  {analysis.book_tip && (
-                    <div className="panel mt-3">
-                      <TipExamples tip={analysis.book_tip} lang={language} />
-                    </div>
-                  )}
-                  {analysis.move_annotations && analysis.move_annotations.length > 0 && (
-                    <div className="panel mt-3">
-                      <div className="text-xs text-gray-400 uppercase font-semibold mb-2">
-                        {language === 'fr' ? 'Analyse coup par coup' : 'Move-by-move analysis'}
-                      </div>
-                      <MoveAnnotationsTable annotations={analysis.move_annotations} language={language} />
-                    </div>
-                  )}
-                </div>
-              )}
-
-              {/* Move list */}
-              {analysisExpanded && (
-                <div style={{ gridColumn: '1', gridRow: '3' }} className="min-w-0">
-                  <OpeningExplorer fen={explorerFen} onArrows={setExplorerArrows} />
+              <div className="flex-1 overflow-y-auto overscroll-contain pb-4 min-w-0 px-2 pt-3 lg:pt-0">
+                <div className="flex flex-col gap-3">
                   <MoveList moves={moveHistory} currentMoveIndex={moveHistory.length - 1} />
-                  {playAnnotationPanel}
                   {pedagogyPanel}
                 </div>
-              )}
-
-              {/* GameControls lives in the ⚙️ settings sheet only. */}
+              </div>
             </div>
-              </>
-            )}
           </>
         )}
 
