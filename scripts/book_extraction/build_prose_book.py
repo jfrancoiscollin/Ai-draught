@@ -95,6 +95,89 @@ def _paras(text: str) -> list[str]:
 
 
 
+# --- diagram repositioning (put each board where the prose refers to it) ----
+_ORD = {"premier": 1, "première": 1, "deuxième": 2, "second": 2, "seconde": 2,
+        "troisième": 3, "quatrième": 4, "cinquième": 5, "sixième": 6, "septième": 7,
+        "huitième": 8, "neuvième": 9, "dixième": 10}
+_REF_RE = re.compile(
+    r"(premier|première|deuxième|second[e]?|troisième|quatrième|cinquième|"
+    r"sixième|septième|huitième|neuvième|dixième)\s+diagramme"
+    r"|diagramme\s+(?:n[°o]\s*)?(\d+)|\(?\s*diag\.?\s*(\d+)\s*\)?"
+    r"|(\d+)(?:er|e|ème)\s+diagramme", re.IGNORECASE)
+_DEICTIC_RE = re.compile(r"diagramme\s+(?:ci-dessous|ci-contre|suivant)"
+                         r"|(?:ci-dessous|ci-contre|ci-après)", re.IGNORECASE)
+
+
+def _diagram_indices(text: str) -> list[int]:
+    """1-based diagram indices explicitly named in a paragraph (ordinals and
+    numbers), in order."""
+    out: list[int] = []
+    for m in _REF_RE.finditer(text):
+        if m.group(1):
+            k = _ORD.get(m.group(1).lower())
+        else:
+            k = int(m.group(2) or m.group(3) or m.group(4))
+        if k:
+            out.append(k)
+    return out
+
+
+def _reposition_diagrams(blocks: list[dict]) -> int:
+    """Move each diagram to the paragraph that refers to it (« le 3e diagramme »,
+    « diagramme 5 », « le diagramme ci-dessous ») instead of leaving it at the
+    end of its page. A named reference targets that diagram by index; a deictic
+    reference takes the next not-yet-shown diagram. Diagrams no paragraph refers
+    to keep their original position. Operates per chapter, in place; returns the
+    number of diagrams moved."""
+    moved_total = 0
+    # group indices by chapter (contiguous)
+    i, n = 0, len(blocks)
+    result: list[dict] = []
+    while i < n:
+        ch = blocks[i].get("ch")
+        j = i
+        while j < n and blocks[j].get("ch") == ch:
+            j += 1
+        span = blocks[i:j]
+        boards = [b for b in span if b["type"] == "board"]
+        # decide an anchor paragraph-index for boards that are referenced
+        target_after: dict[int, list[int]] = {}  # para position in span -> [board idx]
+        assigned: set[int] = set()
+        deictic_ptr = 0
+        for pi, b in enumerate(span):
+            if b["type"] != "p":
+                continue
+            txt = "".join(r.get("t", "") for r in b.get("runs", []))
+            for k in _diagram_indices(txt):
+                if 1 <= k <= len(boards) and (k - 1) not in assigned:
+                    assigned.add(k - 1)
+                    target_after.setdefault(pi, []).append(k - 1)
+            if _DEICTIC_RE.search(txt):
+                while deictic_ptr < len(boards) and deictic_ptr in assigned:
+                    deictic_ptr += 1
+                if deictic_ptr < len(boards):
+                    assigned.add(deictic_ptr)
+                    target_after.setdefault(pi, []).append(deictic_ptr)
+                    deictic_ptr += 1
+        moved_total += len(assigned)
+        # rebuild: emit non-board blocks; skip moved boards at their old spot;
+        # after an anchor paragraph, emit its target boards. Unmoved boards stay.
+        board_seq = -1
+        for pi, b in enumerate(span):
+            if b["type"] == "board":
+                board_seq += 1
+                if board_seq in assigned:
+                    continue  # relocated below its reference
+                result.append(b)
+            else:
+                result.append(b)
+                for bidx in target_after.get(pi, []):
+                    result.append(boards[bidx])
+        i = j
+    blocks[:] = result
+    return moved_total
+
+
 def _multi_detect(g):
     """Union of border-line detections across a size range, deduped — catches
     both the 2-across base diagrams and the smaller 3-across game diagrams."""
@@ -174,7 +257,9 @@ def build(cfg: dict) -> dict:
             if ok:
                 anchors_by_ch.setdefault(ch, []).extend(anchor_states(fen))
 
+    n_moved = _reposition_diagrams(blocks)
     blocks, n_lines = insert_steppable_lines(blocks, positions, anchors_by_ch, cfg["slug"])
+    print(f"    ({cfg['slug']}: {n_moved} diagrammes replacés à leur renvoi)")
     return {"book": cfg["book"], "level": cfg["level"], "chapters": chapters,
             "blocks": blocks, "positions": positions}, n_diag, n_lines
 

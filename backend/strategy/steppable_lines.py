@@ -70,9 +70,16 @@ def _plies(text: str) -> list[str]:
     return plies
 
 
+_EMPTY_GROUP = re.compile(r"[(\[]\s*[)\]]")
+
+
 def _prose_residual(text: str) -> str:
-    """The commentary left once move numbers and move tokens are removed."""
+    """The commentary left once move numbers and move tokens are removed. The
+    parentheses that wrapped a variation move are dropped with it, so no empty
+    « ( ) » is left behind."""
     r = _MOVE_TOKEN.sub(" ", _SEG.sub(" ", text))
+    r = _EMPTY_GROUP.sub(" ", r)
+    r = _EMPTY_GROUP.sub(" ", r)  # nested "((x))" → "( )" → ""
     r = _MULTISPACE.sub(" ", r).strip(" .!?,;:—–-")
     return r if len(_PUNCT.sub("", r)) > 3 else ""
 

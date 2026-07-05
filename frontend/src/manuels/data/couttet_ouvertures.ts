@@ -3724,7 +3724,7 @@ const DATA: ManuelData = {
 "ch": 16,
 "runs": [
 {
-"t": "Ici préconisé par M. Dambrun peut s'envisager aussi. Exemple : ( ) avec dégagement facile de l'aile gauche des blancs si ( ou ). — Dans cette variante, les noirs peuvent toutefois compliquer la partie en temporisant par , , etc. (Diag. 87) Cet enchaînement immédiat ne présente un intérêt particulier que lorsque l'on veut continuer par au lieu de comme dans l'enchaînement classique"
+"t": "Ici préconisé par M. Dambrun peut s'envisager aussi. Exemple : avec dégagement facile de l'aile gauche des blancs si ( ou ). — Dans cette variante, les noirs peuvent toutefois compliquer la partie en temporisant par , , etc. (Diag. 87) Cet enchaînement immédiat ne présente un intérêt particulier que lorsque l'on veut continuer par au lieu de comme dans l'enchaînement classique"
 }
 ]
 },

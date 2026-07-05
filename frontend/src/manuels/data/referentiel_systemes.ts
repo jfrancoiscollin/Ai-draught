@@ -82,6 +82,11 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
+"id": "REFERENTIEL_SYSTEMES_p6_0",
+"ch": 1
+},
+{
+"type": "board",
 "id": "REFERENTIEL_SYSTEMES_line0",
 "ch": 1
 },
@@ -114,11 +119,6 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "REFERENTIEL_SYSTEMES_p6_0",
-"ch": 1
-},
-{
-"type": "board",
 "id": "REFERENTIEL_SYSTEMES_p6_1",
 "ch": 1
 },
@@ -135,6 +135,11 @@ const DATA: ManuelData = {
 "t": "Position du 3e diagramme dans laquelle l’avantage stratégique des noirs est flagrant"
 }
 ]
+},
+{
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p7_0",
+"ch": 1
 },
 {
 "type": "p",
@@ -279,11 +284,6 @@ const DATA: ManuelData = {
 "t": "30. 29x20 15x24"
 }
 ]
-},
-{
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p7_0",
-"ch": 1
 },
 {
 "type": "board",
@@ -435,6 +435,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p9_0",
+"ch": 2
+},
+{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -532,11 +537,6 @@ const DATA: ManuelData = {
 "t": "38. 31-27 Troisième diagramme. Tout est en place."
 }
 ]
-},
-{
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p9_0",
-"ch": 2
 },
 {
 "type": "p",
@@ -791,11 +791,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p11_0",
-"ch": 3
-},
-{
 "type": "p",
 "ch": 3,
 "runs": [
@@ -803,6 +798,11 @@ const DATA: ManuelData = {
 "t": "3.2 – Les temps de réserve En système classique fermé, en présence de positions à peu près symétriques, les temps de réserve jouent un rôle important. Trait aux blancs Mais de quoi s’agit-il exactement ? Selon les développements choisis, ce sont tantôt les blancs et tantôt les noirs qui ont le dernier temps et forcent l’adversaire à sacrifier un pion le premier. Ce sacrifice peut être provisoire ou définitif, et peut avoir ou non une compensation positionnelle. Examinons le diagramme ci-contre pour mieux comprendre : Première variante : 1. 45-40 12-17"
 }
 ]
+},
+{
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p11_0",
+"ch": 3
 },
 {
 "type": "p",
@@ -916,16 +916,6 @@ const DATA: ManuelData = {
 "t": "Avec une fin de partie indécise"
 }
 ]
-},
-{
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p12_0",
-"ch": 3
-},
-{
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p12_1",
-"ch": 3
 },
 {
 "type": "p",
@@ -1362,6 +1352,11 @@ const DATA: ManuelData = {
 "t": "La formation du triangle est souvent utilisée pour conduire des actions contre le centre adverse. Elle est aussi connue sous le nom de « Oostblok ». Les deux principales manœuvres sont présentées à partir du diagramme suivant :"
 }
 ]
+},
+{
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p12_0",
+"ch": 3
 },
 {
 "type": "p",
@@ -1830,6 +1825,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p12_1",
+"ch": 3
+},
+{
 "type": "p",
 "ch": 3,
 "runs": [
@@ -2218,7 +2218,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Sur , l’aspect tactique prend le dessus par ( ) ( ) ( ) ( ) ( )"
+"t": "Sur , l’aspect tactique prend le dessus par"
 }
 ]
 },
@@ -2583,6 +2583,11 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p29_0",
+"ch": 5
+},
+{
 "type": "p",
 "ch": 5,
 "runs": [
@@ -2719,11 +2724,6 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "REFERENTIEL_SYSTEMES_p29_0",
-"ch": 5
-},
-{
-"type": "board",
 "id": "REFERENTIEL_SYSTEMES_p29_1",
 "ch": 5
 },
@@ -2755,6 +2755,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p32_1",
+"ch": 6
+},
+{
 "type": "p",
 "ch": 6,
 "runs": [
@@ -2762,6 +2767,11 @@ const DATA: ManuelData = {
 "t": "Ces 2 autres formes d’enchaînement de l’aile gauche se présentent assez rarement, mais elles ne sont pas dénuées d’intérêt, surtout celle du 1er diagramme qui peut se révéler utile en partie de flanc."
 }
 ]
+},
+{
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p32_0",
+"ch": 6
 },
 {
 "type": "p",
@@ -2942,16 +2952,6 @@ const DATA: ManuelData = {
 "t": "2. 42x31 8-12 Sur (14-20), les blancs s’engouffrent dans le camp adverse par 22-18 ! 3. 34-29 Et il n’est plus vraiment question d’encerclement car : A - (19-24x24) 22-18 etc. B- (12-18) 31-26 et 27-21 au coup suivant C – (14-20) 29-23 et les noirs sont à la peine pour opposer un jeu constructif."
 }
 ]
-},
-{
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p32_0",
-"ch": 6
-},
-{
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p32_1",
-"ch": 6
 },
 {
 "type": "p",
@@ -3251,21 +3251,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p35_0",
-"ch": 7
-},
-{
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p35_1",
-"ch": 7
-},
-{
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p35_2",
-"ch": 7
-},
-{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -3291,6 +3276,16 @@ const DATA: ManuelData = {
 "t": "Le premier diagramme est la situation la plus répandue. Le plan de jeu consiste à profiter de la mauvaise configuration des pions noirs sur leur aile droite Les formes de jeu qui résultent des second et troisième diagrammes sont plus délicates à traiter et nécessitent une connaissance particulière de la stratégie à adopter"
 }
 ]
+},
+{
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p35_0",
+"ch": 7
+},
+{
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p35_2",
+"ch": 7
 },
 {
 "type": "p",
@@ -3374,11 +3369,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p37_0",
-"ch": 7
-},
-{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -3451,11 +3441,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "REFERENTIEL_SYSTEMES_p38_0",
-"ch": 7
-},
-{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -3525,6 +3510,11 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
+"id": "REFERENTIEL_SYSTEMES_p35_1",
+"ch": 7
+},
+{
+"type": "board",
 "id": "REFERENTIEL_SYSTEMES_line10",
 "ch": 7
 },
@@ -3533,7 +3523,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Après ( ) ( ) les noirs dament par ( ) ( ou )"
+"t": "Après les noirs dament par ( ou )"
 }
 ]
 },
@@ -3542,7 +3532,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "L’absence de pion noir en 16 évite les coups de la bombe. Après ( ) ( ) ( ) la position des blancs est loin d’être attrayante"
+"t": "L’absence de pion noir en 16 évite les coups de la bombe. Après la position des blancs est loin d’être attrayante"
 }
 ]
 },
@@ -3602,6 +3592,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p37_0",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -3618,6 +3613,11 @@ const DATA: ManuelData = {
 "t": "Le diagramme ci-contre illustre cette position des noirs en forme de « fer à cheval » entourant le centre adverse."
 }
 ]
+},
+{
+"type": "board",
+"id": "REFERENTIEL_SYSTEMES_p38_0",
+"ch": 7
 },
 {
 "type": "p",
