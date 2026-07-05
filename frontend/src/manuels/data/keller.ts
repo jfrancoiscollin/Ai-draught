@@ -142,9 +142,14 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "PRESENTATION 1 – LES FONDATIONS Le système KELLER occupe une place à part dans l'univers du jeu de dames. Dès les premiers coups, les deux camps sont engagés dans une partie de flanc dans laquelle s'opposent stratégie d'encerclement et suprématie du centre. Plus précisément, le système KELLER orthodoxe est introduit par la série de coups suivante: 1. 33-29 17-22 2. 39-33 11-17 3. 44-39 6-11 4. 50-44 1-6 5. 31-26 16-21"
+"t": "PRESENTATION 1 – LES FONDATIONS Le système KELLER occupe une place à part dans l'univers du jeu de dames. Dès les premiers coups, les deux camps sont engagés dans une partie de flanc dans laquelle s'opposent stratégie d'encerclement et suprématie du centre. Plus précisément, le système KELLER orthodoxe est introduit par la série de coups suivante"
 }
 ]
+},
+{
+"type": "board",
+"id": "KELLER_game0",
+"ch": 1
 },
 {
 "type": "board",
@@ -161,9 +166,14 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "Le dernier coup des noirs (16-21) caractérise la variante Keller. Les blancs sont à présent menacés de l'échange (21-27) 32x21 (22-28) 33x22 (18x16) qui les laisserait avec un pion de bande à 26 et une aile droite disposée de manière peu harmonieuse. La partie se poursuit donc le plus souvent par: 6. 32-28 19-23 7. 28x19 14x23 8. 35-30 10-14 9. 30-24"
+"t": "Le dernier coup des noirs (16-21) caractérise la variante Keller. Les blancs sont à présent menacés de l'échange (21-27) 32x21 (22-28) 33x22 (18x16) qui les laisserait avec un pion de bande à 26 et une aile droite disposée de manière peu harmonieuse. La partie se poursuit donc le plus souvent par"
 }
 ]
+},
+{
+"type": "board",
+"id": "KELLER_game1",
+"ch": 1
 },
 {
 "type": "p",
@@ -197,7 +207,21 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "A - la stratégie d'encerclement Ce que l'on entend par encerclement, c'est un enveloppement du centre adverse massif avec un contrôle des ailes. La partie suivante l'illustre parfaitement: Partie WIERSMA – GOUDT (Interclubs Pays Bas 1973) 1. 33-29 17-22 2. 39-33 11-17 3. 44-39 6-11 4. 50-44 1-6 5. 31-26 16-21 6. 32-28 19-23 7. 28x19 14x23 8. 35-30 10-14 9. 30-24 21-27 10. 37-31 23-28 11. 42-37 5-10 12. 40-35 20-25"
+"t": "A - la stratégie d'encerclement Ce que l'on entend par encerclement, c'est un enveloppement du centre adverse massif avec un contrôle des ailes. La partie suivante l'illustre parfaitement: Partie WIERSMA – GOUDT (Interclubs Pays Bas 1973)"
+}
+]
+},
+{
+"type": "board",
+"id": "KELLER_game2",
+"ch": 1
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "Ce coup est très intéressant pour la suite de la partie mais il est réputé moins fort que (28-32) 37x28 (18-23) 28x19 (14x23) 29x18 (20x40) 45x34 (12x23) etc. En effet, le coup logique de fermeture (14-20) est sanctionné par 24-19! (13x24) 29-23! (28x19) [sur (18x29) B+1p] 38-32 (27x29) 34x5 etc"
 }
 ]
 },
@@ -206,7 +230,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "Ce coup est très intéressant pour la suite de la partie mais il est réputé moins fort que (28-32) 37x28 (18-23) 28x19 (14x23) 29x18 (20x40) 45x34 (12x23) etc. 13. 44-40! 11-16 En effet, le coup logique de fermeture (14-20) est sanctionné par 24-19! (13x24) 29-23! (28x19) [sur (18x29) B+1p] 38-32 (27x29) 34x5 etc. 14. 24-20 15x24 15. 29x20"
+"t": "Par ce dernier échange, les blancs s'ouvrent le jeu sur leur aile droite et entament l'encerclement du centre adverse. Les noirs ont peu de coups jouables : Sur (13-19) les blancs dament par 34-30 (25x34) 40x29 (14x25) 38-32 (27x38) 43x5 Sur (10-15) les blancs gagnent un pion par 47-42 (15x24) 37-32 (28x37) 41x21 (16x27) 34-30 (25x34) 39x10 (4x15) 33-28 (22x33) 31x11 (6x17) 38x29 Sur (17-21) ou (14-19) suit un coup direct par 38- (16-21) est totalement antipositionnel. Il ne reste donc aux noirs que (6-11) ou (7-11). Le coup joué dans la partie (6-11) sera lourd de conséquence pour le développement de l'aile droite des noirs. (7-11), en vue de pionner ultérieurement par (17-21) est certainement préférable. Sur (13-19) les blancs pourraient damer par 35-30 (25x23) 40-35 (14x25) 33-29 (23x34) 39x30 (25x34) 38-32 (27x38) 43x Sur (13-19) les blancs ont un gain de pion par 37-32 (28x37) 41x21 (16x27) 34-30 (25x34) 39x30 (14x34) 33-28 (22x42) 31x24 suivi de 47x38 et de l'attaque du pion Sur (14-19) les blancs dament par 37-32 (28x37) 41x21 (16x27) 34-29 (23x34) 39x30 (25x34) 15- 10 (4x15) 33-28 (22x33) 31x"
 }
 ]
 },
@@ -215,7 +239,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "Par ce dernier échange, les blancs s'ouvrent le jeu sur leur aile droite et entament l'encerclement du centre adverse. 15... 6-11 Les noirs ont peu de coups jouables : Sur (13-19) les blancs dament par 34-30 (25x34) 40x29 (14x25) 38-32 (27x38) 43x5 Sur (10-15) les blancs gagnent un pion par 47-42 (15x24) 37-32 (28x37) 41x21 (16x27) 34-30 (25x34) 39x10 (4x15) 33-28 (22x33) 31x11 (6x17) 38x29 Sur (17-21) ou (14-19) suit un coup direct par 38-32. (16-21) est totalement antipositionnel. Il ne reste donc aux noirs que (6-11) ou (7-11). Le coup joué dans la partie (6-11) sera lourd de conséquence pour le développement de l'aile droite des noirs. (7-11), en vue de pionner ultérieurement par (17-21) est certainement préférable. 16. 34-29 10-15 Sur (13-19) les blancs pourraient damer par 35-30 (25x23) 40-35 (14x25) 33-29 (23x34) 39x30 (25x34) 38-32 (27x38) 43x5. 17. 40-34 15x24 18. 29x20 18-23 Sur (13-19) les blancs ont un gain de pion par 37-32 (28x37) 41x21 (16x27) 34-30 (25x34) 39x30 (14x34) 33-28 (22x42) 31x24 suivi de 47x38 et de l'attaque du pion 34. 19. 47-42 13-18 20. 20-15 8-13 Sur (14-19) les blancs dament par 37-32 (28x37) 41x21 (16x27) 34-29 (23x34) 39x30 (25x34) 15- 10 (4x15) 33-28 (22x33) 31x4."
+"t": "Un coup fondamental dans la stratégie des blancs. Dans une chronique de l'époque, Freek GORDIJN résumait parfaitement cette situation en commentant: \"ainsi, les blancs se glissent le long du bloc central massif des noirs et vont progressivement le rendre inoffensif\". Sur (14-19), les blancs ont un coup de dame spectaculaire par 39-33 (28x30) 35x24 (19x30) 49-44 (23x34) 26-21 (17x26) 15- 10 (4x15) 43-39 (34x32) 37x19 (26x37) 42x Sur (13-19), suit une combinaison plus simple par 39-33 (28x30) 35x13 (23x34) 26-21 (17x26) 43- 39 (34x32) 37x6 (26x37) 41x21 (16x27) 13x"
 }
 ]
 },
@@ -224,16 +248,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "21. 33-29 Un coup fondamental dans la stratégie des blancs. Dans une chronique de l'époque, Freek GORDIJN résumait parfaitement cette situation en commentant: \"ainsi, les blancs se glissent le long du bloc central massif des noirs et vont progressivement le rendre inoffensif\". 21... 3-8 Sur (14-19), les blancs ont un coup de dame spectaculaire par 39-33 (28x30) 35x24 (19x30) 49-44 (23x34) 26-21 (17x26) 15- 10 (4x15) 43-39 (34x32) 37x19 (26x37) 42x4. Sur (13-19), suit une combinaison plus simple par 39-33 (28x30) 35x13 (23x34) 26-21 (17x26) 43- 39 (34x32) 37x6 (26x37) 41x21 (16x27) 13x31. 22. 38-33 16-21 23. 42-38 13-19"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "24. 29-24! 19x30 25. 35x24 L'occupation de la case 24 est un autre aspect essentiel de la stratégie d'encerclement des blancs. Elle permet à la fois de limiter les coups sur l'aile gauche des noirs et de procurer des temps de réserve supplémentaires aux blancs sur leur aile droite. 25... 14-19 26. 24x13 8x19 27. 45-40 9-14 28. 40-35 2-8 29. 33-29! Les blancs achèvent leur encerclement. 29... 27-32 Les noirs préfèrent sacrifier pour éviter l’asphyxie complète. 30. 38x16 28-32 31. 37x28 22x24 32. 34-30 25x34 33. 39x30 Et les blancs, avec un pion de plus, ont par la suite gagné la partie."
+"t": "L'occupation de la case 24 est un autre aspect essentiel de la stratégie d'encerclement des blancs. Elle permet à la fois de limiter les coups sur l'aile gauche des noirs et de procurer des temps de réserve supplémentaires aux blancs sur leur aile droite. Les blancs achèvent leur encerclement. Les noirs préfèrent sacrifier pour éviter l’asphyxie complète. Et les blancs, avec un pion de plus, ont par la suite gagné la partie"
 }
 ]
 },
@@ -252,7 +267,21 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "B - La stratégie du centre Dans la partie précédente, nous avons vu que l'encerclement des blancs a été facilité par le coup des noirs (6-11) au 15e temps. Lorsque l'encerclement échoue, la position qui en résulte peut se révéler particulièrement catastrophique comme nous allons le constater dans la partie suivante: Partie DIBMAN – GOICHMAN (tournoi de Minsk 1983) 1. 33-29 17-22 2. 39-33 11-17 3. 44-39 6-11 4. 50-44 1-6 5. 31-26 16-21 6. 32-28 19-23 7. 28x19 14x23 8. 35-30 10-14 9. 30-24 23-28 Les noirs peuvent jouer ce coup sans crainte de 38-32 car après (5-10) 32x23 suit (22-28)! 33x22 [sur 23x32 (18-23) gagne un pion] (17x30) 34x25 et les noirs ont le centre. 10. 40-35 20-25 11. 24-20 15x24 12. 29x20 On retrouve ici le point de départ de l'encerclement 12... 14-19 13. 20-15 5-10 14. 37-31 10-14 15. 34-29 19-23 16. 44-40 23x34 17. 40x29 14-19 18. 45-40 19-23 19. 40-34 21-27"
+"t": "B - La stratégie du centre Dans la partie précédente, nous avons vu que l'encerclement des blancs a été facilité par le coup des noirs (6-11) au 15e temps. Lorsque l'encerclement échoue, la position qui en résulte peut se révéler particulièrement catastrophique comme nous allons le constater dans la partie suivante: Partie DIBMAN – GOICHMAN (tournoi de Minsk 1983) Les noirs peuvent jouer ce coup sans crainte de 38-32 car après (5-10) 32x23 suit (22-28)! 33x22 [sur 23x32 (18-23) gagne un pion] (17x30) 34x25 et les noirs ont le centre. On retrouve ici le point de départ de l'encerclement"
+}
+]
+},
+{
+"type": "board",
+"id": "KELLER_game3",
+"ch": 1
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "Le plan se déroule comme dans la partie précédente mais les noirs ont ici toutes leurs bases et de plus la possibilité de contre-attaquer sur leur aile droite par"
 }
 ]
 },
@@ -261,16 +290,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "20. 29-24 Le plan se déroule comme dans la partie précédente mais les noirs ont ici toutes leurs bases et de plus la possibilité de contre-attaquer sur leur aile droite par: 20... 17-21! 21. 26x17 12x21 22. 34-30 25x34 23. 39x30 28x39 24. 43x34"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "A leur tour, les blancs réagissent sur l'autre aile en échangeant le pion 25 et en dégageant ainsi leur aile droite. 24... 23-28 Un coup pratiquement forcé mais fort pour éviter la menace 15- 10 et 24-20. Sur (13-19) 24x13 (8x19), les blancs joueraient 38-33! (9-13) [pare 34-29, 15-10 et 33-28] 31-26 (11-17) avec un enchaînement favorable. 25. 24-20 9-14 26. 20x9 3x14 27. 34-29 7-12 28. 42-37 11-16 29. 48-43 27-32! Un coup de boutoir remarquablement efficace pour affaiblir la position des blancs. 30. 38x27 21x32 31. 47-42 13-19 32. 29-24 6-11 33. 24x13 8x19 34. 30-25 19-24! Progressivement, les noirs prennent le contrôle de toutes les cases stratégiques. 35. 31-26 11-17 36. 37-31 2-8 37. 41-37 32x41 38. 46x37 Finalement, les blancs n'ont d'autre solution que d'échanger le pion 32. La position qui en résulte est évidemment très favorable aux noirs. 38... 18-23 39. 42-38 16-21 40. 43-39 21-27 41. 49-44 8-13 42. 44-40 13-19 43. 39-33 28x39 44. 37-32 14-20 45. 32x21 22-28 46. 25x14 19x10 47. 21-16 Sur 38-33 les noirs dameraient par (17-22) 33x44 (24-30) 35x24 (23-29) 24x33 (28x50) 47... 23-29 49. 31-27 28-33 Les blancs abandonnent"
+"t": "A leur tour, les blancs réagissent sur l'autre aile en échangeant le pion 25 et en dégageant ainsi leur aile droite. Un coup pratiquement forcé mais fort pour éviter la menace 15- 10 et 24- Sur (13-19) 24x13 (8x19), les blancs joueraient 38-33! (9-13) [pare 34-29, 15-10 et 33-28] 31-26 (11-17) avec un enchaînement favorable. Un coup de boutoir remarquablement efficace pour affaiblir la position des blancs. Progressivement, les noirs prennent le contrôle de toutes les cases stratégiques. Finalement, les blancs n'ont d'autre solution que d'échanger le pion La position qui en résulte est évidemment très favorable aux noirs. Sur 38-33 les noirs dameraient par (17-22) 33x44 (24-30) 35x24 (23-29) 24x33 (28x50) Les blancs abandonnent"
 }
 ]
 },
@@ -840,9 +860,14 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "1 - L'ATTAQUE DU PION CENTRAL L'attaque du pion central est assez rarement un plan de jeu concluant, la principale raison en étant donnée par l'exemple suivant: 1. 33-29 17-22 2. 39-33 11-17 3. 44-39 6-11 4. 50-44 1-6 5. 31-26 16-21 6. 32-28 19-23 7. 28x19 14x23 8. 35-30 10-14 9. 30-24 23-28"
+"t": "1 - L'ATTAQUE DU PION CENTRAL L'attaque du pion central est assez rarement un plan de jeu concluant, la principale raison en étant donnée par l'exemple suivant"
 }
 ]
+},
+{
+"type": "board",
+"id": "KELLER_game4",
+"ch": 7
 },
 {
 "type": "p",
@@ -2145,16 +2170,21 @@ const DATA: ManuelData = {
 "ch": 17,
 "runs": [
 {
-"t": "1 - LES VARIANTES AVEC 9... (21-27) 1. 33-29 17-22 2. 39-33 11-17 3. 44-39 6-11 4. 50-44 1-6 5. 31-26 16-21 6. 32-28 19-23 7. 28x19 14x23 8. 35-30 10-14 9. 30-24 Ces neufs premiers coups caractérisent le système Keller orthodoxe."
+"t": "1 - LES VARIANTES AVEC (21-27) Ces neufs premiers coups caractérisent le système Keller orthodoxe"
 }
 ]
+},
+{
+"type": "board",
+"id": "KELLER_game5",
+"ch": 17
 },
 {
 "type": "p",
 "ch": 17,
 "runs": [
 {
-"t": "diagramme d’analyse « a » Dans une partie entre Sijbrands et Korkhov au tournoi KSH 1971, les noirs avaient poursuivi par 9... (14-19) et après 37-32 (19x30) 34x14 (9x20) 32-28! (23x34) 40x29 les blancs avaient obtenu une forte position centrale. L'intention plus déterminée par 9... (22-28) 33x22 (17x28) 26x17 (11x22) n'a jamais été sérieusement prise en compte par les Grands-Maîtres. La partie commentée n°6 entre DYBMAN et REVOUNIETS rend compte de la forme de jeu particulière qui découle de cette variante. En fait, seuls les coups (21-27), (23-28) et (5-10) ont jusqu'à présent revêtu un intérêt tout particulier. Dans ce paragraphe, notre attention se porte plus précisément sur : 9... 21-27 C'est un coup qui parait très solide, mais l'histoire des débuts lui a pourtant réservé un rôle de second plan, 9... (23-28) l'ayant très rapidement supplanté. La variante la plus intéressante après (21-27) conduit à la position fondamentale n°1. Ce développement est traité avec le coup 9... (23-28). Les autres expériences qui ont été tentées méritent d'être relatées:"
+"t": "diagramme d’analyse « a » Dans une partie entre Sijbrands et Korkhov au tournoi KSH 1971, les noirs avaient poursuivi par (14-19) et après 37-32 (19x30) 34x14 (9x20) 32-28! (23x34) 40x29 les blancs avaient obtenu une forte position centrale. L'intention plus déterminée par (22-28) 33x22 (17x28) 26x17 (11x22) n'a jamais été sérieusement prise en compte par les Grands-Maîtres. La partie commentée n°6 entre DYBMAN et REVOUNIETS rend compte de la forme de jeu particulière qui découle de cette variante. En fait, seuls les coups (21-27), (23-28) et (5-10) ont jusqu'à présent revêtu un intérêt tout particulier. Dans ce paragraphe, notre attention se porte plus précisément sur : C'est un coup qui parait très solide, mais l'histoire des débuts lui a pourtant réservé un rôle de second plan, (23-28) l'ayant très rapidement supplanté. La variante la plus intéressante après (21-27) conduit à la position fondamentale n° Ce développement est traité avec le coup (23-28). Les autres expériences qui ont été tentées méritent d'être relatées"
 }
 ]
 },
@@ -2484,9 +2514,14 @@ const DATA: ManuelData = {
 "ch": 19,
 "runs": [
 {
-"t": "3 - LA VARIANTE 29-24x24 Toute la problématique pour les blancs, dans le début Keller, est de se procurer de l'espace sur leur aile droite. La variante néo-Boom est très intéressante de ce point de vue. Une autre recherche antérieure à cette variante a conduit les blancs vers le développement suivant: 1. 33-29 17-22 2. 39-33 11-17 3. 44-39 6-11 4. 50-44 1-6 5. 31-26 16-21 6. 32-28 19-23 7. 28x19 14x23 8. 29-24 20x29 9. 33x24"
+"t": "3 - LA VARIANTE 29-24x24 Toute la problématique pour les blancs, dans le début Keller, est de se procurer de l'espace sur leur aile droite. La variante néo-Boom est très intéressante de ce point de vue. Une autre recherche antérieure à cette variante a conduit les blancs vers le développement suivant"
 }
 ]
+},
+{
+"type": "board",
+"id": "KELLER_game6",
+"ch": 19
 },
 {
 "type": "board",
@@ -2866,9 +2901,14 @@ const DATA: ManuelData = {
 "ch": 24,
 "runs": [
 {
-"t": "Cette partie eut à l'époque un véritable retentissement et prit une importance considérable dans l'engouement pour le système KELLER dans les années 70. Le superbe gambit du 27e temps, découvert à l'analyse par le joueur russe MAKROVITCH contribua plus tard à en faire une partie d'anthologie. 1. 33-29 17-22 2 . 39-33 11-17 3. 44-39 6-11 4 . 50-44 1-6 5. 31-26 16-21 6 . 32-28 19-23 7. 28x19 14x23 8 . 35-30 10-14 9. 30-24 23-28 10. 37-31 5-10 11. 42-37 21-27 12. 48-42? La crainte de l'échange après 40-35 par (28-32) et (18-23) conduit les blancs à commettre une faute. 12... 20-25 13. 40-35 L'échange à 20 par 24-20 (15x24) 29x20 est une hérésie positionnelle en l'absence de pion à 48 et sans possibilité d'échanger par 37-32. 13... 14-20 14. 35-30 9-14? Il était préférable de jouer (10-14) en vue de la variante 44-40 (11-16) 38-32 (27x38) 43x23 (6-11)! et les noirs ont un avantage important car 31-27 (22x31) 36x27 est interdit par (14-19) puis (18-23) etc. Après (10-14) les blancs étaient contraints de jouer 45-40 (11-16) 24-19 (13x35) 29-24 (20x29) 34x21 (16x27) 33-28 (22x33) 31x11 (6x17) 39x28 avec une position plus intéressante pour les noirs. 15. 44-40 3-9 16. 40-35 28-32 forcé 17. 37x28 18-23 18. 28x19 14x23 19. 29x18 20x40 20. 45x34 12x23 21. 42-37 8-12 Le dégagement par (22-28) 31x22 (23-29) 34x32 (25x34) 39x30 (17x48) etc. fut joué par Andreiko dans sa partie contre Varkevisser lors de la rencontre Pays-Bas URSS 1972 22. 30-24! 13-18 23. 33-29! Sur 34-30 (25x34) 39x30 suivrait (9-14) avec un jeu puissant pour les noirs. 23... 9-13 24. 38-33 Les blancs se forment pour pouvoir reprendre l'initiative au centre par 37-32. 24... 11-16 25. 47-42 Sur 37-32 (27x38) 43x32 les noirs s'assurent l'avantage par (6-11)!. Ce coup menace (25-30) 34x25 (23x43) 49x38 (22-27) 31x22 (17x39) et les blancs ne peuvent parer par: a - 31-27 (22x31) 36x27 car suit (25-30) 34x25 (23x43) 49x38 (13-19) 24x22 (17x39). b - 32-27 car suit (25-30) 34x25 (23x43) 49x38 (16-21) 27x16 (22-27) 31x22 (17x39). Il ne reste aux blancs que 35-30 qui les laisse avec une position catastrophique."
+"t": "Cette partie eut à l'époque un véritable retentissement et prit une importance considérable dans l'engouement pour le système KELLER dans les années Le superbe gambit du 27e temps, découvert à l'analyse par le joueur russe MAKROVITCH contribua plus tard à en faire une partie d'anthologie. La crainte de l'échange après 40-35 par (28-32) et (18-23) conduit les blancs à commettre une faute. L'échange à 20 par 24-20 (15x24) 29x20 est une hérésie positionnelle en l'absence de pion à 48 et sans possibilité d'échanger par 37- Il était préférable de jouer (10-14) en vue de la variante 44-40 (11-16) 38-32 (27x38) 43x23 (6-11)! et les noirs ont un avantage important car 31-27 (22x31) 36x27 est interdit par (14-19) puis (18-23) etc. Après (10-14) les blancs étaient contraints de jouer 45-40 (11-16) 24-19 (13x35) 29-24 (20x29) 34x21 (16x27) 33-28 (22x33) 31x11 (6x17) 39x28 avec une position plus intéressante pour les noirs. forcé Le dégagement par (22-28) 31x22 (23-29) 34x32 (25x34) 39x30 (17x48) etc. fut joué par Andreiko dans sa partie contre Varkevisser lors de la rencontre Pays-Bas URSS 1972 Sur 34-30 (25x34) 39x30 suivrait (9-14) avec un jeu puissant pour les noirs. Les blancs se forment pour pouvoir reprendre l'initiative au centre par 37- Sur 37-32 (27x38) 43x32 les noirs s'assurent l'avantage par (6-11)!. Ce coup menace (25-30) 34x25 (23x43) 49x38 (22-27) 31x22 (17x39) et les blancs ne peuvent parer par: a - 31-27 (22x31) 36x27 car suit (25-30) 34x25 (23x43) 49x38 (13-19) 24x22 (17x39). b - 32-27 car suit (25-30) 34x25 (23x43) 49x38 (16-21) 27x16 (22-27) 31x22 (17x39). Il ne reste aux blancs que 35-30 qui les laisse avec une position catastrophique"
 }
 ]
+},
+{
+"type": "board",
+"id": "KELLER_game7",
+"ch": 24
 },
 {
 "type": "h2",
@@ -3012,9 +3052,14 @@ const DATA: ManuelData = {
 "ch": 28,
 "runs": [
 {
-"t": "Partie n°5 : WIERSMA - BUURKE (1979) 1. 33-29 17-22 2. 39-33 11-17 3. 44-39 6-11 4. 50-44 1-6 5. 32-28 16-21 6. 31-26 19-23 7. 28x19 14x23 8. 35-30 10-14 9. 30-24 23-28 10. 40-35 20-25 11. 24-20 15x24 12. 29x20 14-19 13. 20-15 11-16 14. 44-40 5-10 15. 37-31 7-11 16. 42-37 10-14 17. 47-42 21-27 18. 49-44 2-7? Un coup bien compréhensible pour préparer l'échange (17-21) mais qui laisse un long forcing pour les blancs."
+"t": "Partie n°5 : WIERSMA - BUURKE (1979) Un coup bien compréhensible pour préparer l'échange (17-21) mais qui laisse un long forcing pour les blancs"
 }
 ]
+},
+{
+"type": "board",
+"id": "KELLER_game8",
+"ch": 28
 },
 {
 "type": "board",
@@ -3123,7 +3168,8 @@ const DATA: ManuelData = {
 "title": "Diagramme 1 — p. 6",
 "start": {
 "wm": [
-31,
+26,
+29,
 32,
 33,
 34,
@@ -3141,12 +3187,10 @@ const DATA: ManuelData = {
 46,
 47,
 48,
-49,
-50
+49
 ],
 "wk": [],
 "bm": [
-1,
 2,
 3,
 4,
@@ -3161,128 +3205,17 @@ const DATA: ManuelData = {
 13,
 14,
 15,
-16,
 17,
 18,
 19,
-20
+20,
+21,
+22
 ],
 "bk": [],
 "turn": "white"
 },
-"moves": [
-{
-"n": "33-29",
-"f": 33,
-"t": 29,
-"c": [],
-"path": [
-33,
-29
-],
-"p": false
-},
-{
-"n": "17-22",
-"f": 17,
-"t": 22,
-"c": [],
-"path": [
-17,
-22
-],
-"p": false
-},
-{
-"n": "39-33",
-"f": 39,
-"t": 33,
-"c": [],
-"path": [
-39,
-33
-],
-"p": false
-},
-{
-"n": "11-17",
-"f": 11,
-"t": 17,
-"c": [],
-"path": [
-11,
-17
-],
-"p": false
-},
-{
-"n": "44-39",
-"f": 44,
-"t": 39,
-"c": [],
-"path": [
-44,
-39
-],
-"p": false
-},
-{
-"n": "6-11",
-"f": 6,
-"t": 11,
-"c": [],
-"path": [
-6,
-11
-],
-"p": false
-},
-{
-"n": "50-44",
-"f": 50,
-"t": 44,
-"c": [],
-"path": [
-50,
-44
-],
-"p": false
-},
-{
-"n": "1-6",
-"f": 1,
-"t": 6,
-"c": [],
-"path": [
-1,
-6
-],
-"p": false
-},
-{
-"n": "31-26",
-"f": 31,
-"t": 26,
-"c": [],
-"path": [
-31,
-26
-],
-"p": false
-},
-{
-"n": "16-21",
-"f": 16,
-"t": 21,
-"c": [],
-"path": [
-16,
-21
-],
-"p": false
-}
-],
-"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 31-26 16-21"
+"moves": []
 },
 "KELLER_p0006_d2": {
 "id": "KELLER_p0006_d2",
@@ -8720,6 +8653,4125 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": []
+},
+"KELLER_game0": {
+"id": "KELLER_game0",
+"ch": 1,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+}
+],
+"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 31-26 16-21"
+},
+"KELLER_game1": {
+"id": "KELLER_game1",
+"ch": 1,
+"title": "La partie",
+"start": {
+"wm": [
+26,
+29,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+17,
+18,
+19,
+20,
+21,
+22
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+}
+],
+"pub": "32-28 19-23 28x19 14x23 35-30 10-14 30-24"
+},
+"KELLER_game2": {
+"id": "KELLER_game2",
+"ch": 1,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "10-15",
+"f": 10,
+"t": 15,
+"c": [],
+"path": [
+10,
+15
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "20-15",
+"f": 20,
+"t": 15,
+"c": [],
+"path": [
+20,
+15
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "3-8",
+"f": 3,
+"t": 8,
+"c": [],
+"path": [
+3,
+8
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "24x13",
+"f": 24,
+"t": 13,
+"c": [
+19
+],
+"path": [
+24,
+13
+],
+"p": false
+},
+{
+"n": "8x19",
+"f": 8,
+"t": 19,
+"c": [
+13
+],
+"path": [
+8,
+19
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "2-8",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "27-32",
+"f": 27,
+"t": 32,
+"c": [],
+"path": [
+27,
+32
+],
+"p": false
+},
+{
+"n": "38x16",
+"f": 38,
+"t": 16,
+"c": [
+32,
+21
+],
+"path": [
+38,
+27,
+16
+],
+"p": false
+},
+{
+"n": "28-32",
+"f": 28,
+"t": 32,
+"c": [],
+"path": [
+28,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "22x24",
+"f": 22,
+"t": 24,
+"c": [
+28,
+29
+],
+"path": [
+22,
+33,
+24
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+}
+],
+"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 31-26 16-21 32-28 19-23 28x19 14x23 35-30 10-14 30-24 21-27 37-31 23-28 42-37 5-10 40-35 20-25 44-40 11-16 24-20 15x24 29x20 6-11 34-29 10-15 40-34 15x24 29x20 18-23 47-42 13-18 20-15 8-13 33-29 3-8 38-33 16-21 42-38 13-19 29-24 19x30 35x24 14-19 24x13 8x19 45-40 9-14 40-35 2-8 33-29 27-32 38x16 28-32 37x28 22x24 34-30 25x34 39x30"
+},
+"KELLER_game3": {
+"id": "KELLER_game3",
+"ch": 1,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "20-15",
+"f": 20,
+"t": 15,
+"c": [],
+"path": [
+20,
+15
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "23x34",
+"f": 23,
+"t": 34,
+"c": [
+29
+],
+"path": [
+23,
+34
+],
+"p": false
+},
+{
+"n": "40x29",
+"f": 40,
+"t": 29,
+"c": [
+34
+],
+"path": [
+40,
+29
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "26x17",
+"f": 26,
+"t": 17,
+"c": [
+21
+],
+"path": [
+26,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "34-30",
+"f": 34,
+"t": 30,
+"c": [],
+"path": [
+34,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+},
+{
+"n": "39x30",
+"f": 39,
+"t": 30,
+"c": [
+34
+],
+"path": [
+39,
+30
+],
+"p": false
+},
+{
+"n": "28x39",
+"f": 28,
+"t": 39,
+"c": [
+33
+],
+"path": [
+28,
+39
+],
+"p": false
+},
+{
+"n": "43x34",
+"f": 43,
+"t": 34,
+"c": [
+39
+],
+"path": [
+43,
+34
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "20x9",
+"f": 20,
+"t": 9,
+"c": [
+14
+],
+"path": [
+20,
+9
+],
+"p": false
+},
+{
+"n": "3x14",
+"f": 3,
+"t": 14,
+"c": [
+9
+],
+"path": [
+3,
+14
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "27-32",
+"f": 27,
+"t": 32,
+"c": [],
+"path": [
+27,
+32
+],
+"p": false
+},
+{
+"n": "38x27",
+"f": 38,
+"t": 27,
+"c": [
+32
+],
+"path": [
+38,
+27
+],
+"p": false
+},
+{
+"n": "21x32",
+"f": 21,
+"t": 32,
+"c": [
+27
+],
+"path": [
+21,
+32
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "24x13",
+"f": 24,
+"t": 13,
+"c": [
+19
+],
+"path": [
+24,
+13
+],
+"p": false
+},
+{
+"n": "8x19",
+"f": 8,
+"t": 19,
+"c": [
+13
+],
+"path": [
+8,
+19
+],
+"p": false
+},
+{
+"n": "30-25",
+"f": 30,
+"t": 25,
+"c": [],
+"path": [
+30,
+25
+],
+"p": false
+},
+{
+"n": "19-24",
+"f": 19,
+"t": 24,
+"c": [],
+"path": [
+19,
+24
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "2-8",
+"f": 2,
+"t": 8,
+"c": [],
+"path": [
+2,
+8
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "32x41",
+"f": 32,
+"t": 41,
+"c": [
+37
+],
+"path": [
+32,
+41
+],
+"p": false
+},
+{
+"n": "46x37",
+"f": 46,
+"t": 37,
+"c": [
+41
+],
+"path": [
+46,
+37
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "43-39",
+"f": 43,
+"t": 39,
+"c": [],
+"path": [
+43,
+39
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "28x39",
+"f": 28,
+"t": 39,
+"c": [
+33
+],
+"path": [
+28,
+39
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "32x21",
+"f": 32,
+"t": 21,
+"c": [
+27
+],
+"path": [
+32,
+21
+],
+"p": false
+},
+{
+"n": "22-28",
+"f": 22,
+"t": 28,
+"c": [],
+"path": [
+22,
+28
+],
+"p": false
+},
+{
+"n": "25x14",
+"f": 25,
+"t": 14,
+"c": [
+20
+],
+"path": [
+25,
+14
+],
+"p": false
+},
+{
+"n": "19x10",
+"f": 19,
+"t": 10,
+"c": [
+14
+],
+"path": [
+19,
+10
+],
+"p": false
+},
+{
+"n": "21-16",
+"f": 21,
+"t": 16,
+"c": [],
+"path": [
+21,
+16
+],
+"p": false
+},
+{
+"n": "23-29",
+"f": 23,
+"t": 29,
+"c": [],
+"path": [
+23,
+29
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "28-33",
+"f": 28,
+"t": 33,
+"c": [],
+"path": [
+28,
+33
+],
+"p": false
+}
+],
+"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 31-26 16-21 32-28 19-23 28x19 14x23 35-30 10-14 30-24 23-28 40-35 20-25 24-20 15x24 29x20 14-19 20-15 5-10 37-31 10-14 34-29 19-23 44-40 23x34 40x29 14-19 45-40 19-23 40-34 21-27 29-24 17-21 26x17 12x21 34-30 25x34 39x30 28x39 43x34 23-28 24-20 9-14 20x9 3x14 34-29 7-12 42-37 11-16 48-43 27-32 38x27 21x32 47-42 13-19 29-24 6-11 24x13 8x19 30-25 19-24 31-26 11-17 37-31 2-8 41-37 32x41 46x37 18-23 42-38 16-21 43-39 21-27 49-44 8-13 44-40 13-19 39-33 28x39 37-32 14-20 32x21 22-28 25x14 19x10 21-16 23-29 31-27 28-33"
+},
+"KELLER_game4": {
+"id": "KELLER_game4",
+"ch": 7,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+}
+],
+"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 31-26 16-21 32-28 19-23 28x19 14x23 35-30 10-14 30-24 23-28"
+},
+"KELLER_game5": {
+"id": "KELLER_game5",
+"ch": 17,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+}
+],
+"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 31-26 16-21 32-28 19-23 28x19 14x23 35-30 10-14 30-24 21-27"
+},
+"KELLER_game6": {
+"id": "KELLER_game6",
+"ch": 19,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "29-24",
+"f": 29,
+"t": 24,
+"c": [],
+"path": [
+29,
+24
+],
+"p": false
+},
+{
+"n": "20x29",
+"f": 20,
+"t": 29,
+"c": [
+24
+],
+"path": [
+20,
+29
+],
+"p": false
+},
+{
+"n": "33x24",
+"f": 33,
+"t": 24,
+"c": [
+29
+],
+"path": [
+33,
+24
+],
+"p": false
+}
+],
+"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 31-26 16-21 32-28 19-23 28x19 14x23 29-24 20x29 33x24"
+},
+"KELLER_game7": {
+"id": "KELLER_game7",
+"ch": 24,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "48-42",
+"f": 48,
+"t": 42,
+"c": [],
+"path": [
+48,
+42
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "28-32",
+"f": 28,
+"t": 32,
+"c": [],
+"path": [
+28,
+32
+],
+"p": false
+},
+{
+"n": "37x28",
+"f": 37,
+"t": 28,
+"c": [
+32
+],
+"path": [
+37,
+28
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "29x18",
+"f": 29,
+"t": 18,
+"c": [
+23
+],
+"path": [
+29,
+18
+],
+"p": false
+},
+{
+"n": "20x40",
+"f": 20,
+"t": 40,
+"c": [
+24,
+34
+],
+"path": [
+20,
+29,
+40
+],
+"p": false
+},
+{
+"n": "45x34",
+"f": 45,
+"t": 34,
+"c": [
+40
+],
+"path": [
+45,
+34
+],
+"p": false
+},
+{
+"n": "12x23",
+"f": 12,
+"t": 23,
+"c": [
+18
+],
+"path": [
+12,
+23
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+}
+],
+"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 31-26 16-21 32-28 19-23 28x19 14x23 35-30 10-14 30-24 23-28 37-31 5-10 42-37 21-27 48-42 20-25 40-35 14-20 35-30 9-14 44-40 3-9 40-35 28-32 37x28 18-23 28x19 14x23 29x18 20x40 45x34 12x23 42-37 8-12 30-24 13-18 33-29 9-13 38-33 11-16 47-42"
+},
+"KELLER_game8": {
+"id": "KELLER_game8",
+"ch": 28,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "23-28",
+"f": 23,
+"t": 28,
+"c": [],
+"path": [
+23,
+28
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "24-20",
+"f": 24,
+"t": 20,
+"c": [],
+"path": [
+24,
+20
+],
+"p": false
+},
+{
+"n": "15x24",
+"f": 15,
+"t": 24,
+"c": [
+20
+],
+"path": [
+15,
+24
+],
+"p": false
+},
+{
+"n": "29x20",
+"f": 29,
+"t": 20,
+"c": [
+24
+],
+"path": [
+29,
+20
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "20-15",
+"f": 20,
+"t": 15,
+"c": [],
+"path": [
+20,
+15
+],
+"p": false
+},
+{
+"n": "11-16",
+"f": 11,
+"t": 16,
+"c": [],
+"path": [
+11,
+16
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "37-31",
+"f": 37,
+"t": 31,
+"c": [],
+"path": [
+37,
+31
+],
+"p": false
+},
+{
+"n": "7-11",
+"f": 7,
+"t": 11,
+"c": [],
+"path": [
+7,
+11
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "21-27",
+"f": 21,
+"t": 27,
+"c": [],
+"path": [
+21,
+27
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+},
+{
+"n": "2-7",
+"f": 2,
+"t": 7,
+"c": [],
+"path": [
+2,
+7
+],
+"p": false
+}
+],
+"pub": "33-29 17-22 39-33 11-17 44-39 6-11 50-44 1-6 32-28 16-21 31-26 19-23 28x19 14x23 35-30 10-14 30-24 23-28 40-35 20-25 24-20 15x24 29x20 14-19 20-15 11-16 44-40 5-10 37-31 7-11 42-37 10-14 47-42 21-27 49-44 2-7"
 }
 }
 }

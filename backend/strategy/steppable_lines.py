@@ -178,3 +178,100 @@ def insert_steppable_lines(blocks, positions, anchors_by_ch=None, slug=""):
         out.append(b)
         i += 1
     return out, k
+
+
+# --- games embedded inside prose paragraphs (the strategy manuals) ----------
+# Keller/Sijbrands/… print a game *inside* the running prose: the main line is
+# numbered and bare ("1. 33-29 17-22 2. 39-33 11-17 …"), the variations are
+# parenthesised ("(28-32) 37x28 (18-23)…") and commentary is interleaved. We
+# read only the main line (the bare move tokens that immediately follow each
+# move number, stopping at the first non-move word so variations and prose are
+# excluded), replay it from the initial position, and swap the notation for a
+# steppable board — leaving the commentary and variations in place.
+_MIN_GAME = 6
+_PLY_TRIM = "!?.,;:"
+
+
+def _norm_ply(w: str) -> str:
+    return w.strip(_PLY_TRIM)
+
+
+def _main_plies(text: str) -> list[str]:
+    out: list[str] = []
+    for seg in _SEG.split(text)[1:]:
+        for w in seg.split():
+            p = _norm_ply(w)
+            if _PLY.match(p):
+                out.append(p)
+            else:
+                break
+    return out
+
+
+def _para_has_game(text: str) -> bool:
+    return bool(_SEG.search(text)) and bool(_main_plies(text))
+
+
+def _strip_main_line(text: str) -> str:
+    """Remove the main-line move numbers and their bare moves, keeping the
+    surrounding commentary and the parenthesised variations."""
+    segs = _SEG.split(text)
+    parts = [segs[0]]
+    for seg in segs[1:]:
+        words = seg.split()
+        i = 0
+        while i < len(words) and _PLY.match(_norm_ply(words[i])):
+            i += 1
+        parts.append(" ".join(words[i:]))
+    return _MULTISPACE.sub(" ", " ".join(parts)).strip(" .,;:")
+
+
+def insert_embedded_games(blocks, positions, slug=""):
+    """Replace the main line of a game printed inside prose with a steppable
+    board, keeping the commentary. Only converts when the whole extracted main
+    line replays legally from the initial position (or the previous game's end),
+    so nothing is invented. Returns (new_blocks, n_games)."""
+    out, i, n, k = [], 0, len(blocks), 0
+    cur_ch, prev_end = None, None
+    while i < n:
+        b = blocks[i]
+        ch = b.get("ch")
+        if ch != cur_ch:
+            cur_ch, prev_end = ch, None
+        if b.get("type") == "p" and _para_has_game(_text_of(b)):
+            j = i
+            while (j < n and blocks[j].get("ch") == ch and blocks[j].get("type") == "p"
+                   and _para_has_game(_text_of(blocks[j]))):
+                j += 1
+            group = blocks[i:j]
+            plies = [p for bb in group for p in _main_plies(_text_of(bb))]
+            best, anchor = None, None
+            for a in ([prev_end] if prev_end is not None else []) + [ge.initial_state()]:
+                mv, end, used = _replay_line(a, plies)
+                if used == len(plies) and used >= _MIN_GAME:
+                    best, anchor = (mv, end), a
+                    break
+            if best:
+                mv, end = best
+                pid = f"{slug.upper()}_game{k}"
+                k += 1
+                positions[pid] = {"id": pid, "ch": ch, "title": "La partie",
+                                  "start": _state_to_start(anchor), "moves": mv,
+                                  "pub": " ".join(m["n"] for m in mv)}
+                stripped = [_strip_main_line(_text_of(bb)) for bb in group]
+                if stripped[0]:
+                    out.append({"type": "p", "ch": ch, "runs": [{"t": stripped[0]}]})
+                out.append({"type": "board", "id": pid, "ch": ch})
+                for s in stripped[1:]:
+                    if s:
+                        out.append({"type": "p", "ch": ch, "runs": [{"t": s}]})
+                prev_end = end
+                i = j
+                continue
+            prev_end = None
+            out.extend(group)
+            i = j
+            continue
+        out.append(b)
+        i += 1
+    return out, k

@@ -560,9 +560,14 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "LE JEU EN DEFENSE Présentation Les 3 points faibles de l'attaque sur lesquels on peut raisonnablement axer un plan de jeu en défense sont : - l'avant-poste 24 - le pion 27 - la case damante 48 L'action sur l'avant poste 24 existe avant et après l'attaque du pion central suivie du deux pour deux 12x14. La pression sur ce pion permet au défenseur d'envisager soit le gain du pion soit le passage sur l'aile droite de l'attaquant. L'action sur le pion 27 est préférable en système ROOZENBURG ouvert, lorsque les noirs, en défense, n'occupent pas la case 20. Ce plan de jeu est alors connu sous le nom de système DROST. Les menaces de coups de dame à 48 sont associées au développement de l'aile droite du défenseur. La ligne de jeu en défense doit être déterminée au plus tôt. La perte d'un temps pour exploiter l'un des points névralgiques de l'attaquant compromet les chances du défenseur. L'exemple suivant se présente en début ROOZENBURG orthodoxe : 1. 33-29 19-23 2. 35-30 20-25 3. 40-35 14-20 4. 44-40 10-14 5. 50-44 14-19 6. 30-24 19x30 7. 35x24 17-22 8. 31-27 22x31 9. 36x27"
+"t": "LE JEU EN DEFENSE Présentation Les 3 points faibles de l'attaque sur lesquels on peut raisonnablement axer un plan de jeu en défense sont : - l'avant-poste 24 - le pion 27 - la case damante 48 L'action sur l'avant poste 24 existe avant et après l'attaque du pion central suivie du deux pour deux 12x La pression sur ce pion permet au défenseur d'envisager soit le gain du pion soit le passage sur l'aile droite de l'attaquant. L'action sur le pion 27 est préférable en système ROOZENBURG ouvert, lorsque les noirs, en défense, n'occupent pas la case Ce plan de jeu est alors connu sous le nom de système DROST. Les menaces de coups de dame à 48 sont associées au développement de l'aile droite du défenseur. La ligne de jeu en défense doit être déterminée au plus tôt. La perte d'un temps pour exploiter l'un des points névralgiques de l'attaquant compromet les chances du défenseur. L'exemple suivant se présente en début ROOZENBURG orthodoxe"
 }
 ]
+},
+{
+"type": "board",
+"id": "ROOZENBURG_game0",
+"ch": 3
 },
 {
 "type": "board",
@@ -574,9 +579,14 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Si les noirs souhaitent exercer une pression sur l'avant-poste 24, ils doivent immédiatement jouer sur leur aile gauche. - (9-14) livre un dégagement favorable aux blancs par 24-19. - (4-10) affaiblit prématurément la case damante 4. 9… 5-10 La montée 5-10-14-19 permet d'affaiblir la défense du pion 24 sans compromettre les formations de base 1-2-7-12. 10. 40-35 Retarde le plan des noirs. 10… 11-17 11. 38-33 9-14 12. 42-38 3-9 Les noirs ont soigneusement préparé l'attaque du pion 24. On peut imaginer par exemple 44-40 (14- 19) 47-42 (19x30) 35x24 (10-14) 41-36? (14-19) 40-35 (19x30) 35x24 (4-10)! et on voit mal comment les blancs peuvent s'opposer à une nouvelle attaque du pion 24 suivi de (18-22) avec passage ultérieur sur l'aile droite des blancs."
+"t": "Si les noirs souhaitent exercer une pression sur l'avant-poste 24, ils doivent immédiatement jouer sur leur aile gauche. - (9-14) livre un dégagement favorable aux blancs par 24- - (4-10) affaiblit prématurément la case damante La montée 5-10-14-19 permet d'affaiblir la défense du pion 24 sans compromettre les formations de base 1-2-7- Retarde le plan des noirs. Les noirs ont soigneusement préparé l'attaque du pion On peut imaginer par exemple 44-40 (14- 19) 47-42 (19x30) 35x24 (10-14) 41-36? (14-19) 40-35 (19x30) 35x24 (4-10)! et on voit mal comment les blancs peuvent s'opposer à une nouvelle attaque du pion 24 suivi de (18-22) avec passage ultérieur sur l'aile droite des blancs"
 }
 ]
+},
+{
+"type": "board",
+"id": "ROOZENBURG_game1",
+"ch": 3
 },
 {
 "type": "p",
@@ -656,9 +666,14 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Cette position s'obtient après le début : 1. 33-29 19-23 2. 35-30 20-25 3. 40-35 14-20 4. 44-40 10-14 5. 50-44 14-19 6. 30-24 19x30 7. 35x24 17-22 8. 31-27 22x31 9. 36x27 5-10 10. 38-33?! Le dernier coup des blancs permet aux noirs d'immobiliser l'aile droite des blancs par : 10… 10-14 11. 42-38 Sur 40-35 suit le gain de pion par (16-21) 27x16 (25-30) 34x25 (23x34) 39x30 (20x27). Sur 43-38 peut suivre (14-19) 40-35 (19x30) 35x24 (25-30) 34x14 (23x43) 48x39 (9x29) 33x24 et les blancs se retrouvent avec un pion taquin isolé. 11… 14-19 12. 40-35 19x30 13. 35x24 4-10 Sur (9-14) les blancs se dégagent par 27-22. 14. 45-40 10-14 15. 47-42 Sur 33-28 suit (14-19) sans crainte de 27-22 (19x30) 28x19 (13x31) 22x4 car après (31-36) les noirs reprendront la dame avec un pion de plus. Sur 40-35 peut suivre (23-28) 33x22a 18-23) 29x18 (20x40) etc. Var. a : 32x23 (14-19) 23x14 (18-23) 29x18 (13x42) 48x37 (20x40). Sur 48-42 les blancs peuvent amener une variante de gambit par (14-19) 40-35 (19x30) 35x24 (11- 17) 41-36 (6-11) 36-31 (1-6) 46-41 (17-22)a 31-26 (22x31) 33-28 avec un dénouement incertain. Var. a : sur (17-21) 41-36 (21-26) ce sont les blancs qui ont le dernier temps par 47-41. 15… 14-19 16. 40-35 19x30 17. 35x24"
+"t": "Cette position s'obtient après le début : Le dernier coup des blancs permet aux noirs d'immobiliser l'aile droite des blancs par : Sur 40-35 suit le gain de pion par (16-21) 27x16 (25-30) 34x25 (23x34) 39x30 (20x27). Sur 43-38 peut suivre (14-19) 40-35 (19x30) 35x24 (25-30) 34x14 (23x43) 48x39 (9x29) 33x24 et les blancs se retrouvent avec un pion taquin isolé. Sur (9-14) les blancs se dégagent par 27- Sur 33-28 suit (14-19) sans crainte de 27-22 (19x30) 28x19 (13x31) 22x4 car après (31-36) les noirs reprendront la dame avec un pion de plus. Sur 40-35 peut suivre (23-28) 33x22a 18-23) 29x18 (20x40) etc. Var. a : 32x23 (14-19) 23x14 (18-23) 29x18 (13x42) 48x37 (20x40). Sur 48-42 les blancs peuvent amener une variante de gambit par (14-19) 40-35 (19x30) 35x24 (11- 17) 41-36 (6-11) 36-31 (1-6) 46-41 (17-22)a 31-26 (22x31) 33-28 avec un dénouement incertain. Var. a : sur (17-21) 41-36 (21-26) ce sont les blancs qui ont le dernier temps par 47-"
 }
 ]
+},
+{
+"type": "board",
+"id": "ROOZENBURG_game2",
+"ch": 3
 },
 {
 "type": "p",
@@ -1110,16 +1125,21 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "Partie n°3 : Johan de Boer – Jean Simonata Rencontre France - Pays-Bas 77 Thème : l'attaque de l'avant-poste 24 1. 33-29 19-23 2. 35-30 20-25 3. 40-35 17-22 Coup anormal car il permet 32-28 (22x24) 30x28. 4. 31-27 22x31 5. 36x27 14-20 6. 44-40 10-14 7. 50-44 14-19 8. 30-24 19x30 9. 35x24 5-10 10. 40-35 Sur 38-33 les noirs peuvent forcer l'immobilisation de l'aile droite blanche. 10… 11-17 11. 38-33 9-14 12. 42-38 3-9"
+"t": "Partie n°3 : Johan de Boer – Jean Simonata Rencontre France - Pays-Bas 77 Thème : l'attaque de l'avant-poste 24 Coup anormal car il permet 32-28 (22x24) 30x Sur 38-33 les noirs peuvent forcer l'immobilisation de l'aile droite blanche"
 }
 ]
+},
+{
+"type": "board",
+"id": "ROOZENBURG_game3",
+"ch": 4
 },
 {
 "type": "p",
 "ch": 4,
 "runs": [
 {
-"t": "Achève la préparation pour l'attaque de l'avant poste 24. 13. 44-40 14-19 14. 41-36 19x30 15. 35x24 10-14 16. 40-35 14-19 17. 45-40 19x30 18. 35x24 4-10 19. 49-44"
+"t": "Achève la préparation pour l'attaque de l'avant poste"
 }
 ]
 },
@@ -1493,9 +1513,14 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Partie n°3 : Anatoly Gantvarg - Viacheslav Shchegolev Interclub 1978 Cette partie BONNARD fut à l'époque largement analysée par Anatoli GANTWARG ainsi que par SIJBRANDS. De ces analyses, je n'ai retenu que ce qui me paraît reproductible dans d'autres parties du même genre, à savoir les manœuvres rendues possibles sur l'aile gauche lorsque le pion 48 n'a pas encore été joué. 1. 32-28 19-23 2. 28x19 14x23 3. 37-32 10-14 4. 35-30 20-25 5. 33-29 5-10 6. 40-35 17-21 7. 31-27 11-17 8. 38-33 6-11 9. 45-40 1-6 10. 50-45 14-20 11. 30-24 9-14 12. 41-37 3-9 13. 35-30 21-26 14. 43-38 Sur 33-28 (14-19)? combinaison par 27-22 (18x38) 29x18 (12x41) 46x37 (20x29) 34x1. Sur 33-28 (17-21) 28x19 (14x23) peut suivre 39-33 car après (13-19)? 24x22 (12-17) 29x18 (17x50), les blancs poursuivent par 27-22 (50x17) 18-12 (7x18) 30-24 (20x29) 34x5. 14. 14-19"
+"t": "Partie n°3 : Anatoly Gantvarg - Viacheslav Shchegolev Interclub 1978 Cette partie BONNARD fut à l'époque largement analysée par Anatoli GANTWARG ainsi que par SIJBRANDS. De ces analyses, je n'ai retenu que ce qui me paraît reproductible dans d'autres parties du même genre, à savoir les manœuvres rendues possibles sur l'aile gauche lorsque le pion 48 n'a pas encore été joué. Sur 33-28 (14-19)? combinaison par 27-22 (18x38) 29x18 (12x41) 46x37 (20x29) 34x Sur 33-28 (17-21) 28x19 (14x23) peut suivre 39-33 car après (13-19)? 24x22 (12-17) 29x18 (17x50), les blancs poursuivent par 27-22 (50x17) 18-12 (7x18) 30-24 (20x29) 34x"
 }
 ]
+},
+{
+"type": "board",
+"id": "ROOZENBURG_game4",
+"ch": 5
 },
 {
 "type": "board",
@@ -1562,9 +1587,14 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Partie n°5 : Andreas Kuyken – Ton Sijbrands Second Turkstratoernoi 1966 Cette partie est intéressante à deux niveaux. C'est non seulement un nouvel exemple instructif du maniement des pions de l'aile droite pour le joueur en défense, mais c'est également un régal de voir comment des combinaisons en 8 ou 10 temps surviennent naturellement au cours du jeu. 1. 32-28 19-23 2. 28x19 14x23 3. 31-27 10-14 4. 35-30 20-25 5. 40-35 13-19 6. 33-29 8-13 7. 44-40 14-20 8. 30-24 19x30 9. 35x24 5-10 10. 50-44 9-14 11. 40-35 14-19 12. 35-30 10-14 13. 38-33 3-9 14. 44-40 17-21! 15. 37-32 Sur 42-38? gain de pion par (21x32) 38x27 [37x28 (23x32) 38x27 (18-23] (23-28) 33x22 (18-23) 29x18 (20x29) 34x23 (19x17) (*). 15… 11-17 16. 43-38 6-11 Après (21-26)?! 41-37 les noirs ont un coup de dame qui ne donne que l'égalité par (16-21) 27x16 (17-21) 16x27 (23-28) 33x22 [32x23? (19x28) 33x22 (18-23) 29x18 (20x29) 34x23 (25x21) ] (26-31) 37x26 (18-23) 29x18 (20x29) 34x23 (25x43) 48x39 (19x48) 49-43 (12x23) 47-41 (*). 17. 48-43 21-26 18. 42-37"
+"t": "Partie n°5 : Andreas Kuyken – Ton Sijbrands Second Turkstratoernoi 1966 Cette partie est intéressante à deux niveaux. C'est non seulement un nouvel exemple instructif du maniement des pions de l'aile droite pour le joueur en défense, mais c'est également un régal de voir comment des combinaisons en 8 ou 10 temps surviennent naturellement au cours du jeu. Sur 42-38? gain de pion par (21x32) 38x27 [37x28 (23x32) 38x27 (18-23] (23-28) 33x22 (18-23) 29x18 (20x29) 34x23 (19x17) (*). Après (21-26)?! 41-37 les noirs ont un coup de dame qui ne donne que l'égalité par (16-21) 27x16 (17-21) 16x27 (23-28) 33x22 [32x23? (19x28) 33x22 (18-23) 29x18 (20x29) 34x23 (25x21) ] (26-31) 37x26 (18-23) 29x18 (20x29) 34x23 (25x43) 48x39 (19x48) 49-43 (12x23) 47-41 (*)"
 }
 ]
+},
+{
+"type": "board",
+"id": "ROOZENBURG_game5",
+"ch": 5
 },
 {
 "type": "board",
@@ -5240,6 +5270,2123 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": []
+},
+"ROOZENBURG_game0": {
+"id": "ROOZENBURG_game0",
+"ch": 3,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+}
+],
+"pub": "33-29 19-23 35-30 20-25 40-35 14-20 44-40 10-14 50-44 14-19 30-24 19x30 35x24 17-22 31-27 22x31 36x27"
+},
+"ROOZENBURG_game1": {
+"id": "ROOZENBURG_game1",
+"ch": 3,
+"title": "La partie",
+"start": {
+"wm": [
+24,
+27,
+29,
+32,
+34,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+11,
+12,
+13,
+15,
+16,
+18,
+20,
+23,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+}
+],
+"pub": "5-10 40-35 11-17 38-33 9-14 42-38 3-9"
+},
+"ROOZENBURG_game2": {
+"id": "ROOZENBURG_game2",
+"ch": 3,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "4-10",
+"f": 4,
+"t": 10,
+"c": [],
+"path": [
+4,
+10
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+}
+],
+"pub": "33-29 19-23 35-30 20-25 40-35 14-20 44-40 10-14 50-44 14-19 30-24 19x30 35x24 17-22 31-27 22x31 36x27 5-10 38-33 10-14 42-38 14-19 40-35 19x30 35x24 4-10 45-40 10-14 47-42 14-19 40-35 19x30 35x24"
+},
+"ROOZENBURG_game3": {
+"id": "ROOZENBURG_game3",
+"ch": 4,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "22x31",
+"f": 22,
+"t": 31,
+"c": [
+27
+],
+"path": [
+22,
+31
+],
+"p": false
+},
+{
+"n": "36x27",
+"f": 36,
+"t": 27,
+"c": [
+31
+],
+"path": [
+36,
+27
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "41-36",
+"f": 41,
+"t": 36,
+"c": [],
+"path": [
+41,
+36
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "4-10",
+"f": 4,
+"t": 10,
+"c": [],
+"path": [
+4,
+10
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+}
+],
+"pub": "33-29 19-23 35-30 20-25 40-35 17-22 31-27 22x31 36x27 14-20 44-40 10-14 50-44 14-19 30-24 19x30 35x24 5-10 40-35 11-17 38-33 9-14 42-38 3-9 44-40 14-19 41-36 19x30 35x24 10-14 40-35 14-19 45-40 19x30 35x24 4-10 49-44"
+},
+"ROOZENBURG_game4": {
+"id": "ROOZENBURG_game4",
+"ch": 5,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "50-45",
+"f": 50,
+"t": 45,
+"c": [],
+"path": [
+50,
+45
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "21-26",
+"f": 21,
+"t": 26,
+"c": [],
+"path": [
+21,
+26
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+}
+],
+"pub": "32-28 19-23 28x19 14x23 37-32 10-14 35-30 20-25 33-29 5-10 40-35 17-21 31-27 11-17 38-33 6-11 45-40 1-6 50-45 14-20 30-24 9-14 41-37 3-9 35-30 21-26 43-38 14-19"
+},
+"ROOZENBURG_game5": {
+"id": "ROOZENBURG_game5",
+"ch": 5,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "20-25",
+"f": 20,
+"t": 25,
+"c": [],
+"path": [
+20,
+25
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "13-19",
+"f": 13,
+"t": 19,
+"c": [],
+"path": [
+13,
+19
+],
+"p": false
+},
+{
+"n": "33-29",
+"f": 33,
+"t": 29,
+"c": [],
+"path": [
+33,
+29
+],
+"p": false
+},
+{
+"n": "8-13",
+"f": 8,
+"t": 13,
+"c": [],
+"path": [
+8,
+13
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "14-20",
+"f": 14,
+"t": 20,
+"c": [],
+"path": [
+14,
+20
+],
+"p": false
+},
+{
+"n": "30-24",
+"f": 30,
+"t": 24,
+"c": [],
+"path": [
+30,
+24
+],
+"p": false
+},
+{
+"n": "19x30",
+"f": 19,
+"t": 30,
+"c": [
+24
+],
+"path": [
+19,
+30
+],
+"p": false
+},
+{
+"n": "35x24",
+"f": 35,
+"t": 24,
+"c": [
+30
+],
+"path": [
+35,
+24
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "50-44",
+"f": 50,
+"t": 44,
+"c": [],
+"path": [
+50,
+44
+],
+"p": false
+},
+{
+"n": "9-14",
+"f": 9,
+"t": 14,
+"c": [],
+"path": [
+9,
+14
+],
+"p": false
+},
+{
+"n": "40-35",
+"f": 40,
+"t": 35,
+"c": [],
+"path": [
+40,
+35
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "44-40",
+"f": 44,
+"t": 40,
+"c": [],
+"path": [
+44,
+40
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "43-38",
+"f": 43,
+"t": 38,
+"c": [],
+"path": [
+43,
+38
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "48-43",
+"f": 48,
+"t": 43,
+"c": [],
+"path": [
+48,
+43
+],
+"p": false
+},
+{
+"n": "21-26",
+"f": 21,
+"t": 26,
+"c": [],
+"path": [
+21,
+26
+],
+"p": false
+},
+{
+"n": "42-37",
+"f": 42,
+"t": 37,
+"c": [],
+"path": [
+42,
+37
+],
+"p": false
+}
+],
+"pub": "32-28 19-23 28x19 14x23 31-27 10-14 35-30 20-25 40-35 13-19 33-29 8-13 44-40 14-20 30-24 19x30 35x24 5-10 50-44 9-14 40-35 14-19 35-30 10-14 38-33 3-9 44-40 17-21 37-32 11-17 43-38 6-11 48-43 21-26 42-37"
 }
 }
 }
