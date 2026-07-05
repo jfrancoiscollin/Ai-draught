@@ -235,7 +235,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "........................................ Si les blancs jouent maintenant 7.40-34, les noirs vont gagner d’une manière positionnelle Mais le trait était aux noirs, ceux-ci jouent par maintenant un bon coup 7... 17-22 8.34-30 14-19 avec une jolie position finale. ´Voyez ´vous bien cette position finale? 1... 17-22 Si les blancs jouent maintenant 7.38-32, les noirs vont gagner avec 7... 23-29 8.33-28 18- Les blancs sont forcés de jouer comme suit: 22!"
+"t": "Si les blancs jouent maintenant 7.40-34, les noirs vont gagner d’une manière positionnelle Mais le trait était aux noirs, ceux-ci jouent par maintenant un bon coup 7... 17-22 8.34-30 14-19 avec une jolie position finale. ´Voyez ´vous bien cette position finale? 1... 17-22 Si les blancs jouent maintenant 7.38-32, les noirs vont gagner avec 7... 23-29 8.33-28 18- Les blancs sont forcés de jouer comme suit: 22!"
 }
 ]
 },
@@ -271,7 +271,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "........................................ ........................................ ........................................ ........................................ La position blanche possède énormément de ........................................ formations. A cause de ces formations, beaucoup de coups sont interdits pour les noirs: Fragment C T. Sijbrands – A. Andreiko 3... 12-17? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+"t": "La position blanche possède énormément de formations. A cause de ces formations, beaucoup de coups sont interdits pour les noirs: Fragment C T. Sijbrands – A. Andreiko 3... 12-17? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
 }
 ]
 },
@@ -289,7 +289,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "C’est pourquoi Andreiko a joué comme suit: Les noirs se voient confrontés à de très grands problèmes. Andreiko a joué le coup bizarre 3... 7-11 4.39-34! 13-19 5.34-30! 5... 18-23 et vous comprendrez sans doute ce que Sijbrands a fait. Mais pourquoi Andreiko n’a-t-il Et dessinez cette position dans le diagramme pas joué autre chose? Voyez-vous par exemple ce vide. que les blancs feront sur 5... 9-13 6.33-29! 14-20.... ?"
+"t": "C’est pourquoi Andreiko a joué comme suit: Les noirs se voient confrontés à de très grands problèmes. Andreiko a joué le coup bizarre 3... 7-11 4.39-34! 13-19 5.34-30! 5... 18-23 et vous comprendrez sans doute ce que Sijbrands a fait. Mais pourquoi Andreiko n’a-t-il Et dessinez cette position dans le diagramme pas joué autre chose? Voyez-vous par exemple ce vide. que les blancs feront sur 5... 9-13 6.33-29! 14-20 ?"
 }
 ]
 },
@@ -307,7 +307,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "2) Il y a une partie que nous avons vue il y a Le diagramme 5.1 sort d’une partie entre un petit moment, qui, par contre, Harm Wiersma et Pieter Bergsma. La position ressemble à celle du diagramme 5.1. du diagramme 5.1 est différente de la plupart C’était quelle partie? Et, évidemment, des diagrammes que nous avons déjà regardés pourquoi ces parties se ressemblent? A vous de répondre aux deux questions suivantes: ........................................ ........................................"
+"t": "2) Il y a une partie que nous avons vue il y a Le diagramme 5.1 sort d’une partie entre un petit moment, qui, par contre, Harm Wiersma et Pieter Bergsma. La position ressemble à celle du diagramme 5.1. du diagramme 5.1 est différente de la plupart C’était quelle partie? Et, évidemment, des diagrammes que nous avons déjà regardés pourquoi ces parties se ressemblent? A vous de répondre aux deux questions suivantes:"
 }
 ]
 },
@@ -541,7 +541,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Ce coup semble logique mais n’est pas Fragment A tellement fort. Voyez-vous pourquoi? I. Kouperman – E. Merins ........................................ DIAGRAMME 2.1 ........................................"
+"t": "Ce coup semble logique mais n’est pas Fragment A tellement fort. Voyez-vous pourquoi? I. Kouperman – E. Merins DIAGRAMME 2.1"
 }
 ]
 },
@@ -559,7 +559,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Vous voyez ici les caractéristiques de l’attaque ........................................ Hoogland : les blancs ont un avant-poste en 22 et ils occupent en même temps la case 29. Pour Fragment B la défense des noirs, il n’y a guère de I. Kouperman – A. Andreiko possibilités judicieuses. A moins que vous puissiez insérer un petit coup. Car quelle est la DIAGRAMME 2.2 suite après l’horrible 1.48-43?? Mis à part 1... 12-18"
+"t": "Vous voyez ici les caractéristiques de l’attaque Hoogland : les blancs ont un avant-poste en 22 et ils occupent en même temps la case 29. Pour Fragment B la défense des noirs, il n’y a guère de I. Kouperman – A. Andreiko possibilités judicieuses. A moins que vous puissiez insérer un petit coup. Car quelle est la DIAGRAMME 2.2 suite après l’horrible 1.48-43?? Mis à part 1... 12-18"
 }
 ]
 },
@@ -568,7 +568,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Est-ce que vous pensez que c’est un coup fort? Ou voyez-vous une autre tactique? Dans cette position, vous voyez que les blancs possèdent un centre solide et ils ont une aile ........................................ gauche puissante. En outre, ils ont une avance de pas moins de huit temps. Les blancs vont ........................................ s’orienter maintenant vers la case ouverte 1, un point faible dans la position noire. 2.34-29 7-11 1.31-27! 25-30 2.5"
+"t": "Est-ce que vous pensez que c’est un coup fort? Ou voyez-vous une autre tactique? Dans cette position, vous voyez que les blancs possèdent un centre solide et ils ont une aile gauche puissante. En outre, ils ont une avance de pas moins de huit temps. Les blancs vont s’orienter maintenant vers la case ouverte 1, un point faible dans la position noire. 2.34-29 7-11 1.31-27! 25-30 2.5"
 }
 ]
 },
@@ -577,7 +577,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "........................................ Les blancs ont une avance de six temps et il est inutile de craindre l’encerclement de leur 2.35x24 19x30 3.36-31 ! avant-poste par 3... 12-18. Pourquoi?"
+"t": "Les blancs ont une avance de six temps et il est inutile de craindre l’encerclement de leur 2.35x24 19x30 3.36-31 ! avant-poste par 3... 12-18. Pourquoi?"
 }
 ]
 },
@@ -591,7 +591,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Qu’est-ce ce qui menace maintenant et est-ce ........................................ que les noirs disposent encore d’une défense? 3... 20-24 4.29x20 25x14 5.44-39 2-8 ........................................ Dessinez la position dans le diagramme 2.4 Fragment C A. Andreiko – H. Jansen 1972 DIAGRAMME 2.4 DIAGRAMME 2.3"
+"t": "Qu’est-ce ce qui menace maintenant et est-ce que les noirs disposent encore d’une défense? 3... 20-24 4.29x20 25x14 5.44-39 2-8 Dessinez la position dans le diagramme 2.4 Fragment C A. Andreiko – H. Jansen 1972 DIAGRAMME 2.4 DIAGRAMME 2.3"
 }
 ]
 },
@@ -600,7 +600,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Comment les blancs vont forcer le gain Dans cette position aussi, vous allez voir que la maintenant? case ouverte 1 représente la cible pour les blancs. Dans le fragment précédent, Andreiko ........................................ était la victime et dans cet exemple il frappe lui-même, un détail amusant. Cela montre ........................................ bien que vous pouvez apprendre d’une défaite!"
+"t": "Comment les blancs vont forcer le gain Dans cette position aussi, vous allez voir que la maintenant? case ouverte 1 représente la cible pour les blancs. Dans le fragment précédent, Andreiko était la victime et dans cet exemple il frappe lui-même, un détail amusant. Cela montre bien que vous pouvez apprendre d’une défaite!"
 }
 ]
 },
@@ -687,7 +687,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Fragment A H. Grotenhuis ten Harkel – R. Boulonois 1993 Les blancs menacent maintenant d’une petite combinaison. Laquelle? DIAGRAMME 3.1 ........................................"
+"t": "Fragment A H. Grotenhuis ten Harkel – R. Boulonois 1993 Les blancs menacent maintenant d’une petite combinaison. Laquelle? DIAGRAMME 3.1"
 }
 ]
 },
@@ -705,7 +705,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "........................................ Dans le diagramme 3.1, vous voyez que les noirs veulent encercler l’attaque blanche: ils 4... 20-25 5.42-38 14-20 6.38-33 7-12 occupent les cases 26 et 35 et ils contrôlent les ailes. Les deux pyramides ne sont pas très Dessinez la position dans le diagramme vide 3.2 importantes, mais au point de vue optique, ce n’est pas mal. Surtout la pyramide sur l’aile DIAGRAMME 3.2 droite est douteuse. Les pions en 6, 11 et 17 semblent un peu superflus ici. Comme les noirs contrôlent les ailes, les blancs sont obligés de manœuvrer donc dans le centre, où la case 29 joue de nouveau un grand rôle: la flèche 40/34/29."
+"t": "Dans le diagramme 3.1, vous voyez que les noirs veulent encercler l’attaque blanche: ils 4... 20-25 5.42-38 14-20 6.38-33 7-12 occupent les cases 26 et 35 et ils contrôlent les ailes. Les deux pyramides ne sont pas très Dessinez la position dans le diagramme vide 3.2 importantes, mais au point de vue optique, ce n’est pas mal. Surtout la pyramide sur l’aile DIAGRAMME 3.2 droite est douteuse. Les pions en 6, 11 et 17 semblent un peu superflus ici. Comme les noirs contrôlent les ailes, les blancs sont obligés de manœuvrer donc dans le centre, où la case 29 joue de nouveau un grand rôle: la flèche 40/34/29."
 }
 ]
 },
@@ -714,7 +714,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "1.29-23! 9-14 2.23-18 Avez-vous l’idée de l’intention des noirs? Les noirs sont forcés de faire un temps défavorable. Car 2... 19-24? est injouable. ........................................ Voyez-vous pourquoi? 7.29-23! 12-18 ........................................ Un coup malin des blancs, car les noirs ne peuvent 2... 2-7 3.18x9 4x13 4.33-29! pas prendre avec 8.23x12? Pourquoi pas?"
+"t": "1.29-23! 9-14 2.23-18 Avez-vous l’idée de l’intention des noirs? Les noirs sont forcés de faire un temps défavorable. Car 2... 19-24? est injouable. Voyez-vous pourquoi? 7.29-23! 12-18 Un coup malin des blancs, car les noirs ne peuvent 2... 2-7 3.18x9 4x13 4.33-29! pas prendre avec 8.23x12? Pourquoi pas?"
 }
 ]
 },
@@ -741,7 +741,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Voyez-vous à quoi les blancs doivent faire attention? Ou quelle est l’intention des noirs? Vous voyez que les diagrammes 3.1 et 3.5 se ressemblent en gros. Ce que vous venez de lire ........................................ dans le texte accompagnant le fragment A , est valable aussi pour ce fragment B. Faites de ........................................ nouveau attention au jeu des blancs!"
+"t": "Voyez-vous à quoi les blancs doivent faire attention? Ou quelle est l’intention des noirs? Vous voyez que les diagrammes 3.1 et 3.5 se ressemblent en gros. Ce que vous venez de lire dans le texte accompagnant le fragment A , est valable aussi pour ce fragment B. Faites de nouveau attention au jeu des blancs!"
 }
 ]
 },
@@ -750,7 +750,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Est-ce que les noirs ne peuvent pas exécuter Le joueur des noirs ne fait pas l’effort d’encercler maintenant une combinaison? Ou est-ce que l’attaque blanche avec 8-12-18. les blancs ont regardé plus loin? Pourquoi, pensez-vous, cette tactique n’a pas de sens? ........................................ ........................................ ........................................ ........................................ 11... 8-12 12.42-38 14-20 13.39-33 20-24 14.29x20 25x14 15.33-29! 3.29-23! 20-25 4.34-29 14-20"
+"t": "Est-ce que les noirs ne peuvent pas exécuter Le joueur des noirs ne fait pas l’effort d’encercler maintenant une combinaison? Ou est-ce que l’attaque blanche avec 8-12-18. les blancs ont regardé plus loin? Pourquoi, pensez-vous, cette tactique n’a pas de sens? 11... 8-12 12.42-38 14-20 13.39-33 20-24 14.29x20 25x14 15.33-29! 3.29-23! 20-25 4.34-29 14-20"
 }
 ]
 },
@@ -922,7 +922,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Il arrive que les joueurs moins doués sont ........................................ tellement contents qu’ils aient pu décrocher le ........................................ match nul contre des joueurs beaucoup plus forts qu’eux-mêmes, qu’ils ne se rendent pas ........................................ compte qu’ils auraient pu gagner."
+"t": "Il arrive que les joueurs moins doués sont tellement contents qu’ils aient pu décrocher le match nul contre des joueurs beaucoup plus forts qu’eux-mêmes, qu’ils ne se rendent pas compte qu’ils auraient pu gagner."
 }
 ]
 },
@@ -1004,7 +1004,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Dans cette position, une attaque directe du pion 22 n’a pas de sens: 1... 12-18 2.41-37 18x27 3.37-31 8-12 4.31x22 12-18. Et qu’est-ce Les noirs ont obtenu ce qu’ils veulent: le pion que les blancs peuvent jouer maintenant? 22 est immobile et l’attaque ouverte s’est transformée en une attaque fermée. En ........................................ construisant le blocage 13/19/24 en face de 33/28/22, l’aile blanche ne peut pas venir en En général, nous pouvons dire qu’il est difficile aide à l’avant-poste en 22. Savez-vous de s’approcher directement de la flèche pourquoi? 33/28/22. C’est pourquoi, les noirs essaient d’inciter les ........................................ blancs à s’installer en 27. 5.34-29 10-15 6.29x20 15x24 7.40-34 6-11! 1... 16-21! 2.41-37 21-26 Ce coup empêche 8.34-29. De quelle manière? Qu’est-ce qui menace maintenant? ........................................"
+"t": "Dans cette position, une attaque directe du pion 22 n’a pas de sens: 1... 12-18 2.41-37 18x27 3.37-31 8-12 4.31x22 12-18. Et qu’est-ce Les noirs ont obtenu ce qu’ils veulent: le pion que les blancs peuvent jouer maintenant? 22 est immobile et l’attaque ouverte s’est transformée en une attaque fermée. En construisant le blocage 13/19/24 en face de 33/28/22, l’aile blanche ne peut pas venir en En général, nous pouvons dire qu’il est difficile aide à l’avant-poste en 22. Savez-vous de s’approcher directement de la flèche pourquoi? 33/28/22. C’est pourquoi, les noirs essaient d’inciter les blancs à s’installer en 27. 5.34-29 10-15 6.29x20 15x24 7.40-34 6-11! 1... 16-21! 2.41-37 21-26 Ce coup empêche 8.34-29. De quelle manière? Qu’est-ce qui menace maintenant?"
 }
 ]
 },
@@ -1040,7 +1040,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Dans le diagramme 6.4, vous voyez que l’aile Le blocage 13/19/24 en face de 33/28/22 est de droite des blancs est quelque peu affaiblie, ou, nouveau un fait. Qu’est-ce qui menace en d’autres termes, il y a (trop) peu de pions. maintenant, aussi bien du point de vue combinatoire (petit coup) que du point de vue tactique? DIAGRAMME 6.4 ........................................"
+"t": "Dans le diagramme 6.4, vous voyez que l’aile Le blocage 13/19/24 en face de 33/28/22 est de droite des blancs est quelque peu affaiblie, ou, nouveau un fait. Qu’est-ce qui menace en d’autres termes, il y a (trop) peu de pions. maintenant, aussi bien du point de vue combinatoire (petit coup) que du point de vue tactique? DIAGRAMME 6.4"
 }
 ]
 },
@@ -1058,7 +1058,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Pensez-vous que les blancs auraient pu faire Avez-vous une idée de l’objectif de ce coup? autre chose? Motivez votre réponse! N’indiquez pas seulement le déroulement, mais aussi la tactique derrière ce déroulement. ........................................ ........................................ ........................................ ........................................ 7... 7-12 8.31-26 4-10 9.32-27 12-18! 10.45-40 8-12 Et après 1... 8-12 les blancs jouent 2.30-25 17- 22 (sinon, ils jouent 3.27-21 16x27 4.32x21) Et pas 10... 19-23? à cause de . . . . . . . . . . . . . . . 3.27-21 16x27 4.32x21 12-17 5.21x12 18x7 et maintenant les blancs peuvent forcer le gain. Dessinez la position après 10... 8-12 dans le Voyez-vous comment? diagramme 6.6 ........................................ DIAGRAMME 6.6 1... 4-9 2.40-34! 29x40 3.45x34"
+"t": "Pensez-vous que les blancs auraient pu faire Avez-vous une idée de l’objectif de ce coup? autre chose? Motivez votre réponse! N’indiquez pas seulement le déroulement, mais aussi la tactique derrière ce déroulement. 7... 7-12 8.31-26 4-10 9.32-27 12-18! 10.45-40 8-12 Et après 1... 8-12 les blancs jouent 2.30-25 17- 22 (sinon, ils jouent 3.27-21 16x27 4.32x21) Et pas 10... 19-23? à cause de . . . . . . . . . . . . . . . 3.27-21 16x27 4.32x21 12-17 5.21x12 18x7 et maintenant les blancs peuvent forcer le gain. Dessinez la position après 10... 8-12 dans le Voyez-vous comment? diagramme 6.6 DIAGRAMME 6.6 1... 4-9 2.40-34! 29x40 3.45x34"
 }
 ]
 },
@@ -1076,7 +1076,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Dans la partie les blancs ont joué 11.40-34 ........................................ Comment les noirs vont gagner par la suite? Mais il y a encore mieux. Après 3... 15-20 les ........................................ blancs placent un gambit, un sacrifice à long terme. Comment, et qu’est-ce qu’ils veulent Fragment C atteindre? V. Sjtsjogoljev – I. Kouperman ........................................ DIAGRAMME 6.7 ........................................"
+"t": "Dans la partie les blancs ont joué 11.40-34 Comment les noirs vont gagner par la suite? Mais il y a encore mieux. Après 3... 15-20 les blancs placent un gambit, un sacrifice à long terme. Comment, et qu’est-ce qu’ils veulent Fragment C atteindre? V. Sjtsjogoljev – I. Kouperman DIAGRAMME 6.7"
 }
 ]
 },
@@ -1099,7 +1099,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "L’avant-poste en 22 est attaqué maintenant de l’autre côté. 1... 19-23 2.28x19 14x23 6.43-39 17x28 7.38-33 8-12 8.33x22 12-17 9.42-38 17x28 10.29-24 Comment, pensez-vous, les blancs peuvent défendre maintenant leur pion en 22? Sur Vous aurez remarqué que les blancs ne peuvent 3.33-28 suit évidemment 12-18, et sur un coup pas attaquer le pion encore une fois: 10.38-33? avec un des pions de base suit 3... 12-18 4.32- 26-31! 11.37x26 28-32 12.27x38 35-40 etc. Pire 27 23-28. Les blancs ont encore une défense est 11.33x22 31x 42 12.47x38 35-40! avec 3.36-31 12-18 4.31-27 7-12 5.50-45 et sur 5... 12-17 suit maintenant 6.33-28 9-14 7.28x19 10... 9-14 11.36-31 3-8 14x23 8.49-44 17x28 9.27-21! 26x17 10.34-29 23x34 11.32x21. D’ailleurs, c’est une finesse Sur 11.38-33 suit maintenant 11... 9-14 12.33x22 importante! Au lieu de 5... 12-17 le meilleur 14-20 coup dans cette variante pour les noirs est 9-14 11.... 9-14 12.36-31 3-8 avec des perspectives intéressantes de gain. Dans la partie, les blancs n’ont pas pu Si vous êtes sur le point de gagner, il ne faut pas surmonter les problèmes. permettre à l’adversaire l’occasion de s’échapper. Et les noirs respectent cette règle. Car sur 12... 3.33-29? 12-18 4.32-27 7-12 5.48-43 12-17 14-20? les blancs peuvent bien jouer 13.34-29 23x34 14.39x30 20x29 15.27-21 26x17 16.38-32 Voir diagramme 25. et les noirs peuvent repartir de zéro."
+"t": "L’avant-poste en 22 est attaqué maintenant de l’autre côté. 1... 19-23 2.28x19 14x23 6.43-39 17x28 7.38-33 8-12 8.33x22 12-17 9.42-38 17x28 10.29-24 Comment, pensez-vous, les blancs peuvent défendre maintenant leur pion en 22? Sur Vous aurez remarqué que les blancs ne peuvent 3.33-28 suit évidemment 12-18, et sur un coup pas attaquer le pion encore une fois: 10.38-33? avec un des pions de base suit 3... 12-18 4.32- 26-31! 11.37x26 28-32 12.27x38 35-40 etc. Pire 27 23-28. Les blancs ont encore une défense est 11.33x22 31x 42 12.47x38 35-40! avec 3.36-31 12-18 4.31-27 7-12 5.50-45 et sur 5... 12-17 suit maintenant 6.33-28 9-14 7.28x19 10... 9-14 11.36-31 3-8 14x23 8.49-44 17x28 9.27-21! 26x17 10.34-29 23x34 11.32x21. D’ailleurs, c’est une finesse Sur 11.38-33 suit maintenant 11... 9-14 12.33x22 importante! Au lieu de 5... 12-17 le meilleur 14-20 coup dans cette variante pour les noirs est 9-14 11 9-14 12.36-31 3-8 avec des perspectives intéressantes de gain. Dans la partie, les blancs n’ont pas pu Si vous êtes sur le point de gagner, il ne faut pas surmonter les problèmes. permettre à l’adversaire l’occasion de s’échapper. Et les noirs respectent cette règle. Car sur 12... 3.33-29? 12-18 4.32-27 7-12 5.48-43 12-17 14-20? les blancs peuvent bien jouer 13.34-29 23x34 14.39x30 20x29 15.27-21 26x17 16.38-32 Voir diagramme 25. et les noirs peuvent repartir de zéro."
 }
 ]
 },
@@ -1470,7 +1470,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Le centre blanc n’a pas l’air très solide. De plus, sa répartition de pions n’est pas idéale: trop de pions sur l’aile droite. La position des noirs n’est pas encore impressionnante, mais En ce moment, les blancs sacrifient un pion cela va vite changer. Le joueur des blancs pense avec 41.23-19 et ils perdent par la suite. qu’il ne peut pas contrôler la case 27. Il va Comme les grands maîtres n’ont pas l’habitude soutenir 23 en occupant 24. de sacrifier des pions comme ça, c’est à vous de trouver pourquoi Kaplan sacrifie un pion avec 37.40-35 21-27 41.23-19 Cette pénétration en 27 ne semble pas ........................................ vraiment dangereuse. ........................................ 38.43-38 7-12 39.35-30 Ce n’est pas le meilleur coup pour les blancs, ........................................ que joueriez-vous?"
+"t": "Le centre blanc n’a pas l’air très solide. De plus, sa répartition de pions n’est pas idéale: trop de pions sur l’aile droite. La position des noirs n’est pas encore impressionnante, mais En ce moment, les blancs sacrifient un pion cela va vite changer. Le joueur des blancs pense avec 41.23-19 et ils perdent par la suite. qu’il ne peut pas contrôler la case 27. Il va Comme les grands maîtres n’ont pas l’habitude soutenir 23 en occupant 24. de sacrifier des pions comme ça, c’est à vous de trouver pourquoi Kaplan sacrifie un pion avec 37.40-35 21-27 41.23-19 Cette pénétration en 27 ne semble pas vraiment dangereuse. 38.43-38 7-12 39.35-30 Ce n’est pas le meilleur coup pour les blancs, que joueriez-vous?"
 }
 ]
 },
@@ -1479,7 +1479,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "........................................ Fragment B I. Kitzner – O. Levins 1968 Il est difficile de voir que les noirs vont gagner maintenant. DIAGRAMME 3.3"
+"t": "Fragment B I. Kitzner – O. Levins 1968 Il est difficile de voir que les noirs vont gagner maintenant. DIAGRAMME 3.3"
 }
 ]
 },
@@ -1488,7 +1488,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Le bloc du centre est assez solide dans cette DIAGRAMME 3.4 position. Par contre, les noirs n’ont besoin que de peu de pions pour contrôler ce bloc. L’aile droite des noirs se trouve dans une position attaquante. De surcroît, les blancs ne disposent plus de 24 et 27. Il va de soi que les noirs ne peuvent plus jamais récupérer la case 27 et la conquête de la case 24 prendra beaucoup de temps: 43-39, 49- 44-40, 35-30-24. Dans la partie les blancs jouent selon cette tactique, mais l’attaque des noirs de Est-ce que vous pouvez indiquer la suite l’autre côté est beaucoup plus rapide. probable si le drapeau des blancs n’était pas tombé? 37… 21-26 38.32x21 16x27 39.43-39 ........................................ 37-32? ou 38-32? ........................................ ........................................ ........................................ ........................................ Parmi les parties se trouvent encore deux 39... 2-7 40.49-44 7-11 41.37-32 11-16 42.32x21 exemples intéressants de l’encerclement de 23 16x27 (28): A. Schotanus - T. Sijbrands 1988 et W. de Jong - N. van Hal 1964. Et le drapeau des blancs tombe. Dessinez la position dans le diagramme vide."
+"t": "Le bloc du centre est assez solide dans cette DIAGRAMME 3.4 position. Par contre, les noirs n’ont besoin que de peu de pions pour contrôler ce bloc. L’aile droite des noirs se trouve dans une position attaquante. De surcroît, les blancs ne disposent plus de 24 et 27. Il va de soi que les noirs ne peuvent plus jamais récupérer la case 27 et la conquête de la case 24 prendra beaucoup de temps: 43-39, 49- 44-40, 35-30-24. Dans la partie les blancs jouent selon cette tactique, mais l’attaque des noirs de Est-ce que vous pouvez indiquer la suite l’autre côté est beaucoup plus rapide. probable si le drapeau des blancs n’était pas tombé? 37… 21-26 38.32x21 16x27 39.43-39 37-32? ou 38-32? Parmi les parties se trouvent encore deux 39... 2-7 40.49-44 7-11 41.37-32 11-16 42.32x21 exemples intéressants de l’encerclement de 23 16x27 (28): A. Schotanus - T. Sijbrands 1988 et W. de Jong - N. van Hal 1964. Et le drapeau des blancs tombe. Dessinez la position dans le diagramme vide."
 }
 ]
 },
@@ -1547,7 +1547,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "........................................ Ce coup n’est pas fautif, mais les noirs avaient encore mieux. Avez-vous une idée? 41... 24-30 42.41-37 2-7 43.37-32 20-24 44.29x9 18x36 ........................................"
+"t": "Ce coup n’est pas fautif, mais les noirs avaient encore mieux. Avez-vous une idée? 41... 24-30 42.41-37 2-7 43.37-32 20-24 44.29x9 18x36"
 }
 ]
 },
@@ -1565,7 +1565,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Fragment B Pourquoi est-ce que 39-33 n’est pas meilleur? V. Budreiko - A. Schwarzman 1990 .......................................... Dans ce deuxième fragment, vous assistez de nouveau à une partie de Schwarzman. Encore 41.14-19! 42.23x14 9x20 Schwarzman, pensez-vous peut-être. Ce n’est certainement pas par hasard. La plupart des L’aile droite des blancs a été complètement grands maîtres produisent, de temps en temps, paralysée. une victoire intéressante dans un encerclement. Vous en avez vu quelques-unes de Wiersma. 43.39-33 16-21 44.32-28 22-27 45.28-23 13·18! Schwarzman le fait sans cesse: il est un véritable 46.23x12 17x8 encercleur, de haut niveau. Surtout dans l’encerclement d’une attaque de flanc, il est Dessinez cette position dans le diagramme vide. souvent génial. DIAGRAMME 4.4 DIAGRAMME 4.5"
+"t": "Fragment B Pourquoi est-ce que 39-33 n’est pas meilleur? V. Budreiko - A. Schwarzman 1990 Dans ce deuxième fragment, vous assistez de nouveau à une partie de Schwarzman. Encore 41.14-19! 42.23x14 9x20 Schwarzman, pensez-vous peut-être. Ce n’est certainement pas par hasard. La plupart des L’aile droite des blancs a été complètement grands maîtres produisent, de temps en temps, paralysée. une victoire intéressante dans un encerclement. Vous en avez vu quelques-unes de Wiersma. 43.39-33 16-21 44.32-28 22-27 45.28-23 13·18! Schwarzman le fait sans cesse: il est un véritable 46.23x12 17x8 encercleur, de haut niveau. Surtout dans l’encerclement d’une attaque de flanc, il est Dessinez cette position dans le diagramme vide. souvent génial. DIAGRAMME 4.4 DIAGRAMME 4.5"
 }
 ]
 },
@@ -1574,7 +1574,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "La position après 40.44-39 Ceci perd un pion, mais voyez-vous une meilleure possibilité pour les blancs? Que pensez-vous des pions blancs en 35 et en 45? Exactement, ce sont des pions sous-développés ........................................ laids. Observez comment Schwarzman met à profit ce désavantage des blancs. 47.3-9 48.19-14 9-13 40.18-22! 41.28-23 Et les noirs arrachent les deux points."
+"t": "La position après 40.44-39 Ceci perd un pion, mais voyez-vous une meilleure possibilité pour les blancs? Que pensez-vous des pions blancs en 35 et en 45? Exactement, ce sont des pions sous-développés laids. Observez comment Schwarzman met à profit ce désavantage des blancs. 47.3-9 48.19-14 9-13 40.18-22! 41.28-23 Et les noirs arrachent les deux points."
 }
 ]
 },
@@ -1610,7 +1610,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Après 38.10-15. Voyez-vous encore une autre possibilité pour les noirs? Dans cette position, les blancs ont une avance ........................................ de dix temps. Dans cette forme d’encerclement, il arrive plus souvent que l’encercleur possède 46.27x18 23x12 47.32-28 une avance de développement. La position des noirs n’a pas l’air d’être si mauvaise, mais ils Et l’attaque blanche suffit pour la victoire. manquent le contrôle sur la case 24. C’est toujours une condition importante pour un Fragment B encerclement avantageux de 23. Cela permet T. Willems – H. Bouwhuis 1984 aux blancs d’occuper 29 et plus tard 24. L’avance de développement favorise Dans le deuxième fragment, un encerclement l’encerclement de 23. Dans la partie, de flanc passe à un encerclement du centre. l’ex-champion du monde démarre Cela n’arrive pas souvent, mais c’est une idée à l’encerclement avec retenir. 39.33-29 DIAGRAMME 5.3"
+"t": "Après 38.10-15. Voyez-vous encore une autre possibilité pour les noirs? Dans cette position, les blancs ont une avance de dix temps. Dans cette forme d’encerclement, il arrive plus souvent que l’encercleur possède 46.27x18 23x12 47.32-28 une avance de développement. La position des noirs n’a pas l’air d’être si mauvaise, mais ils Et l’attaque blanche suffit pour la victoire. manquent le contrôle sur la case 24. C’est toujours une condition importante pour un Fragment B encerclement avantageux de 23. Cela permet T. Willems – H. Bouwhuis 1984 aux blancs d’occuper 29 et plus tard 24. L’avance de développement favorise Dans le deuxième fragment, un encerclement l’encerclement de 23. Dans la partie, de flanc passe à un encerclement du centre. l’ex-champion du monde démarre Cela n’arrive pas souvent, mais c’est une idée à l’encerclement avec retenir. 39.33-29 DIAGRAMME 5.3"
 }
 ]
 },
@@ -1619,7 +1619,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Ce dernier coup est forcé. Après 31.43-39 42.25x14 9x20 3.35-30 20-25 Si vous oubliez un instant 35 et 45, les blancs Pourquoi pas 13-19? ont une position d’attaque intéressante. L’aile droite des noirs est configurée d’une manière ........................................ active, mais il est difficile de voir comment les noirs doivent poursuivre l’encerclement de 44.30-24 l’attaque de flanc. Sur 31.2-7, 4-9 ou 8-13 suit 32.37-31! avec gain aux blancs. Cependant, les On voit l’apparition d’une sorte de formation noirs exécutent une tactique complètement Roozenburg. Voilà donc une manière différente. d’encercler 23! Dessinez la position dans le diagramme vide."
+"t": "Ce dernier coup est forcé. Après 31.43-39 42.25x14 9x20 3.35-30 20-25 Si vous oubliez un instant 35 et 45, les blancs Pourquoi pas 13-19? ont une position d’attaque intéressante. L’aile droite des noirs est configurée d’une manière active, mais il est difficile de voir comment les noirs doivent poursuivre l’encerclement de 44.30-24 l’attaque de flanc. Sur 31.2-7, 4-9 ou 8-13 suit 32.37-31! avec gain aux blancs. Cependant, les On voit l’apparition d’une sorte de formation noirs exécutent une tactique complètement Roozenburg. Voilà donc une manière différente. d’encercler 23! Dessinez la position dans le diagramme vide."
 }
 ]
 },
@@ -1804,7 +1804,7 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "Une question courte et claire: donnez les trois Ce fragment est issu d’une partie entre deux coups blancs d’Andreiko. femmes qui jouent très fort! Les deux ont été championnes du monde. Malheureusement, ......................................... Michailovskaya est décédée jeune. Votre tâche: comment Altchul, jouant avec les blancs, a De la même partie d’Andreiko. Vous réussi à encercler le centre noir? Quelques reconnaissez déjà beaucoup. astuces: pensez encore au pion noir du centre et pensez au coup caractéristique d’encerclement. DIAGRAMME 3.2 ........................................."
+"t": "Une question courte et claire: donnez les trois Ce fragment est issu d’une partie entre deux coups blancs d’Andreiko. femmes qui jouent très fort! Les deux ont été championnes du monde. Malheureusement, Michailovskaya est décédée jeune. Votre tâche: comment Altchul, jouant avec les blancs, a De la même partie d’Andreiko. Vous réussi à encercler le centre noir? Quelques reconnaissez déjà beaucoup. astuces: pensez encore au pion noir du centre et pensez au coup caractéristique d’encerclement. DIAGRAMME 3.2"
 }
 ]
 },
@@ -1822,7 +1822,7 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "Et est-ce que vous pouvez deviner la suite, à peu près, de la partie? Voici une position entre le multiple champion du monde Kouperman et le Hollandais ......................................... Buurke. Vous constatez certainement ce qui suit: ......................................... Les noirs ont occupé le centre avec le pion en 23. Le centre des noirs est assez solide, bien qu’il y ait un trou à la case 18. Les blancs ont déjà occupé les cases 30, 34, 35. Le coup connu 33-29 est donc possible."
+"t": "Et est-ce que vous pouvez deviner la suite, à peu près, de la partie? Voici une position entre le multiple champion du monde Kouperman et le Hollandais Buurke. Vous constatez certainement ce qui suit: Les noirs ont occupé le centre avec le pion en 23. Le centre des noirs est assez solide, bien qu’il y ait un trou à la case 18. Les blancs ont déjà occupé les cases 30, 34, 35. Le coup connu 33-29 est donc possible."
 }
 ]
 },
@@ -1831,7 +1831,7 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "Cependant, Kouperman ne joue pas V. Kaplan – A. Andreiko immédiatement 33-29. La première question: pourquoi y renonce-t-il? Encore un fragment de l’ex-champion du monde décédé Andreiko. Celui-ci maîtrisait ......................................... l’art d’encercler le centre de ses adversaires. Dans le diagramme 3.5 il joue, avec les noirs, ......................................... contre Kaplan. Andreiko réussit à bloquer le centre minuscule des blancs autour du pion 28. La deuxième question: de quelle manière Kouperman a-t-il donc lancé l’encerclement?"
+"t": "Cependant, Kouperman ne joue pas V. Kaplan – A. Andreiko immédiatement 33-29. La première question: pourquoi y renonce-t-il? Encore un fragment de l’ex-champion du monde décédé Andreiko. Celui-ci maîtrisait l’art d’encercler le centre de ses adversaires. Dans le diagramme 3.5 il joue, avec les noirs, contre Kaplan. Andreiko réussit à bloquer le centre minuscule des blancs autour du pion 28. La deuxième question: de quelle manière Kouperman a-t-il donc lancé l’encerclement?"
 }
 ]
 },
@@ -1849,7 +1849,7 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "......................................... Voici la question : quels sont les deux premiers coups d’Andreiko avec les noirs? Evidemment, vous pouvez essayer d’imaginer la suite de la partie."
+"t": "Voici la question : quels sont les deux premiers coups d’Andreiko avec les noirs? Evidemment, vous pouvez essayer d’imaginer la suite de la partie."
 }
 ]
 },
@@ -1948,7 +1948,7 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "......................................... Et cette fois vous allez certainement vous Fragment C demander si cet exercice est à sa place ici. Puisqu’il n’y a pas encore de pions dans le DIAGRAMME 5.3 centre qui peuvent être encerclés? Mais remarquons d’abord que cette position provient d’une partie entre Krajenbrink et Kouperman datant de 1993. Dans le diagramme 3.4 vous avez vu que Kouperman sait encercler lui-même, mais parfois il est encerclé, lui aussi. Votre tâche: vous ne faites pas moins de sept coups avec les blancs! Lesquels? Il faut qu’ils Une position connue dans le faux marchand soient réalistes. Et ils doivent être joués dans le de bois. Au fond, un faux marchand de bois but d’encercler! Il doit être possible de les avec deux pions sur la grande diagonale, n’est deviner. Inventez donc sept coups et dessinez pas si bon. Du moins, c’est la théorie. Mais les ensuite la position dans le diagramme vide 5.5 règles de la théorie ne correspondent pas toujours avec la pratique de la partie. DIAGRAMME 5.5 Roozenburg arrive à décrocher une victoire intéressante contre le Belge Oscar Verpoest. Est-ce que vous pouvez deviner pourquoi cette position se trouve dans cet exercice? Est-ce que vous avez une idée comment Roozenburg a réussi à encercler le centre de Verpoest de la manière que nous sommes en train d’apprendre?"
+"t": "Et cette fois vous allez certainement vous Fragment C demander si cet exercice est à sa place ici. Puisqu’il n’y a pas encore de pions dans le DIAGRAMME 5.3 centre qui peuvent être encerclés? Mais remarquons d’abord que cette position provient d’une partie entre Krajenbrink et Kouperman datant de 1993. Dans le diagramme 3.4 vous avez vu que Kouperman sait encercler lui-même, mais parfois il est encerclé, lui aussi. Votre tâche: vous ne faites pas moins de sept coups avec les blancs! Lesquels? Il faut qu’ils Une position connue dans le faux marchand soient réalistes. Et ils doivent être joués dans le de bois. Au fond, un faux marchand de bois but d’encercler! Il doit être possible de les avec deux pions sur la grande diagonale, n’est deviner. Inventez donc sept coups et dessinez pas si bon. Du moins, c’est la théorie. Mais les ensuite la position dans le diagramme vide 5.5 règles de la théorie ne correspondent pas toujours avec la pratique de la partie. DIAGRAMME 5.5 Roozenburg arrive à décrocher une victoire intéressante contre le Belge Oscar Verpoest. Est-ce que vous pouvez deviner pourquoi cette position se trouve dans cet exercice? Est-ce que vous avez une idée comment Roozenburg a réussi à encercler le centre de Verpoest de la manière que nous sommes en train d’apprendre?"
 }
 ]
 },
@@ -1975,7 +1975,7 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "Comment les blancs peuvent peut-être Fragment F encercler le centre noir à partir de cette position? Les noirs peuvent, s’ils veulent, Cette position est le résultat de l’ouverture collaborer. suivante, connue au point de vue théorique: 1.32-28 19-23 2.28x19 14x23 3.37-32 10-14 4.41- ......................................... 37 5-10 5.46-41 14-19 6.35-30 20-25 7.40-35 ........................................."
+"t": "Comment les blancs peuvent peut-être Fragment F encercler le centre noir à partir de cette position? Les noirs peuvent, s’ils veulent, Cette position est le résultat de l’ouverture collaborer. suivante, connue au point de vue théorique: 1.32-28 19-23 2.28x19 14x23 3.37-32 10-14 4.41- 37 5-10 5.46-41 14-19 6.35-30 20-25 7.40-35"
 }
 ]
 },
@@ -2242,7 +2242,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "......................................... Le quinzième coup des blancs implique une décision importante. Une décision avec des ......................................... avantages et des désavantages. Un avantage peut être qu’il soit possible maintenant de vite ......................................... protéger l’avant-poste en 24. Ce pion en 35 ........................................."
+"t": "Le quinzième coup des blancs implique une décision importante. Une décision avec des avantages et des désavantages. Un avantage peut être qu’il soit possible maintenant de vite protéger l’avant-poste en 24. Ce pion en 35"
 }
 ]
 },
@@ -2260,7 +2260,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "A quelle position de référence vous fait penser Sauriez-vous indiquer une différence entre cette position? cette position blanche et les positions de référence que vous avez vues? Est-ce que ces ......................................... différences sont avantageuses pour les blancs dans le diagramme 3.2? Les noirs jouent un pionnage fort: 21-27, 32x21 16x27. ......................................... Est-ce que vous vous rappelez quelle est, le plus souvent, l’intention de ce pionnage? ........................................."
+"t": "A quelle position de référence vous fait penser Sauriez-vous indiquer une différence entre cette position? cette position blanche et les positions de référence que vous avez vues? Est-ce que ces différences sont avantageuses pour les blancs dans le diagramme 3.2? Les noirs jouent un pionnage fort: 21-27, 32x21 16x27. Est-ce que vous vous rappelez quelle est, le plus souvent, l’intention de ce pionnage?"
 }
 ]
 },
@@ -2269,7 +2269,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Les blancs ont joué, après ce pionnage, le coup Les blancs peuvent gagner par une erroné 37-32? Quelle est la combinaison type, combinaison brillante! surprenante, que les noirs ont exécutée alors? ......................................... ........................................."
+"t": "Les blancs ont joué, après ce pionnage, le coup Les blancs peuvent gagner par une erroné 37-32? Quelle est la combinaison type, combinaison brillante! surprenante, que les noirs ont exécutée alors?"
 }
 ]
 },
@@ -2287,7 +2287,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Néanmoins: il y a une combinaison pour les Les blancs se trouvent au début d’une attaque blancs! de flanc. Avec le coup 30-24, cela y est. 29-23 ....................................... est un autre coup d’attaque."
+"t": "Néanmoins: il y a une combinaison pour les Les blancs se trouvent au début d’une attaque blancs! de flanc. Avec le coup 30-24, cela y est. 29-23 est un autre coup d’attaque."
 }
 ]
 },
@@ -2296,7 +2296,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "....................................... Mais les blancs font un autre coup: 49-43. Pourquoi les blancs font-ils ce coup? Fragment D ....................................... DIAGRAMME 3.4 ......................................."
+"t": "Mais les blancs font un autre coup: 49-43. Pourquoi les blancs font-ils ce coup? Fragment D DIAGRAMME 3.4"
 }
 ]
 },
@@ -2314,7 +2314,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Evidemment, vous voyez tout de suite que les blancs ne peuvent jouer qu’un seul coup. Vous Vous essayez de prévoir loin. Vous essayez devinez la question: lequel? L’autre question: d’être un grand stratège. Donc: quelle est la comprenez-vous la différence avec le position que vous souhaitez, plus tard, avec les diagramme 3.2? noirs? Quelle est votre position de référence? Dessinez cette position dans le diagramme 3.7 ....................................... ......................................."
+"t": "Evidemment, vous voyez tout de suite que les blancs ne peuvent jouer qu’un seul coup. Vous Vous essayez de prévoir loin. Vous essayez devinez la question: lequel? L’autre question: d’être un grand stratège. Donc: quelle est la comprenez-vous la différence avec le position que vous souhaitez, plus tard, avec les diagramme 3.2? noirs? Quelle est votre position de référence? Dessinez cette position dans le diagramme 3.7"
 }
 ]
 },
@@ -2323,7 +2323,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "5.5 Jouer un encerclement de flanc Par contre, c’est éducatif: vous éprouvez l’attaque De nouvelles personnes, de nouvelles idées, bref: tout ce qui est nouveau est souvent comme une douche froide et la prochaine fois difficile à comprendre. Pourquoi? Vous ne les vous ferez tout pour que cela ne vous arrive pas encore une fois. C’est pourquoi il vaut mieux connassez pas, vous ne les avez jamais vues, vous n’y comprenez rien et c’est pourquoi vous d’expérimenter une nouvelle tactique dans une vous retrouvez désorientés. C’est pourquoi, partie d’entraînement, ou dans une partie blitz votre premier encerclement de flanc peut ou dans une partie sans grande importance. Vous voyez souvent que deux joueurs jouent des tourner en un échec affreux: votre adversaire s’empare de toutes les cases d’attaque et en parties blitz comme ça, à la maison ou au club. C’est amusant et captivant. Mais ce qui est peut- plus, des cases du centre. Dans le diagramme vous voyez ce cauchemar. être encore plus amusant et plus captivant, et éducatif, c’est que vous allez jouer (en blitz) jusqu’au bout une certaine position. Par exemple, DIAGRAMME 8 vous pouvez essayer de jouer tout le temps un encerclement de flanc dans une partie blitz. Vous pouvez tomber d’accord par exemple avec votre adversaire sur une ouverture que vous allez jouer. De cette manière, vous vous entraînez d’une manière ciblée. C’est ainsi que votre compréhension de l’encerclement de flanc évolue. Plus vous comprenez, plus c’est amusant. Et plus vous Dans cette position, l’encerclement de flanc a comprenez, plus la perspective augmente de échoué complètement......Mais: cela peut gagner un jour dans un encerclement de flanc arriver la première fois. dans une partie officielle. Vous allez jouer un encerclement de flanc contre votre entraîneur."
+"t": "5.5 Jouer un encerclement de flanc Par contre, c’est éducatif: vous éprouvez l’attaque De nouvelles personnes, de nouvelles idées, bref: tout ce qui est nouveau est souvent comme une douche froide et la prochaine fois difficile à comprendre. Pourquoi? Vous ne les vous ferez tout pour que cela ne vous arrive pas encore une fois. C’est pourquoi il vaut mieux connassez pas, vous ne les avez jamais vues, vous n’y comprenez rien et c’est pourquoi vous d’expérimenter une nouvelle tactique dans une vous retrouvez désorientés. C’est pourquoi, partie d’entraînement, ou dans une partie blitz votre premier encerclement de flanc peut ou dans une partie sans grande importance. Vous voyez souvent que deux joueurs jouent des tourner en un échec affreux: votre adversaire s’empare de toutes les cases d’attaque et en parties blitz comme ça, à la maison ou au club. C’est amusant et captivant. Mais ce qui est peut- plus, des cases du centre. Dans le diagramme vous voyez ce cauchemar. être encore plus amusant et plus captivant, et éducatif, c’est que vous allez jouer (en blitz) jusqu’au bout une certaine position. Par exemple, DIAGRAMME 8 vous pouvez essayer de jouer tout le temps un encerclement de flanc dans une partie blitz. Vous pouvez tomber d’accord par exemple avec votre adversaire sur une ouverture que vous allez jouer. De cette manière, vous vous entraînez d’une manière ciblée. C’est ainsi que votre compréhension de l’encerclement de flanc évolue. Plus vous comprenez, plus c’est amusant. Et plus vous Dans cette position, l’encerclement de flanc a comprenez, plus la perspective augmente de échoué complètement Mais: cela peut gagner un jour dans un encerclement de flanc arriver la première fois. dans une partie officielle. Vous allez jouer un encerclement de flanc contre votre entraîneur."
 }
 ]
 },
@@ -2355,7 +2355,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Exercice 5 Calculer d’une façon créative DIAGRAMME 4.1 On vous présente une position d’une partie entre Andreiko et Manchin avec la tâche suivante : le trait est aux noirs et inventez quelques variantes avec une combinaison! La combinaison peut être exécutée aussi bien par les blancs que par les noirs. Vous pouvez donc composer une variante qui contient une combinaison. ....................................... Mais tout doit se faire mentalement. A la fin, nous allons contrôler toutes les variantes et ....................................... nous allons choisir la variante la plus ....................................... intéressante et amusante. ....................................... Il s’agit du diagramme 5.1 avec un ....................................... encerclement net pour Andreiko. ......................................."
+"t": "Exercice 5 Calculer d’une façon créative DIAGRAMME 4.1 On vous présente une position d’une partie entre Andreiko et Manchin avec la tâche suivante : le trait est aux noirs et inventez quelques variantes avec une combinaison! La combinaison peut être exécutée aussi bien par les blancs que par les noirs. Vous pouvez donc composer une variante qui contient une combinaison. Mais tout doit se faire mentalement. A la fin, nous allons contrôler toutes les variantes et nous allons choisir la variante la plus intéressante et amusante. Il s’agit du diagramme 5.1 avec un encerclement net pour Andreiko."
 }
 ]
 },
@@ -2525,7 +2525,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "1) Quelle position les blancs vont-ils ....................................... construire après le trois pour trois pour ....................................... sortir du marchand de bois? Dessinez la position dans le diagramme 1.2 ....................................... 2) Et les noirs, quelle position vont-ils construire après ce trois pour trois? ....................................... 3) Kats et Krajenbrink ont pensé la même ....................................... chose? Quelles sont leurs pensées?"
+"t": "1) Quelle position les blancs vont-ils construire après le trois pour trois pour sortir du marchand de bois? Dessinez la position dans le diagramme 1.2 2) Et les noirs, quelle position vont-ils construire après ce trois pour trois? 3) Kats et Krajenbrink ont pensé la même chose? Quelles sont leurs pensées?"
 }
 ]
 },
@@ -2543,7 +2543,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "2) De quelle manière vous allez construire la position pour les blancs aussi bien que pour les noirs? Cette position est issue 1) Quelle couleur a l’avantage et pourquoi? d’une partie entre Gantvarg, avec les blancs, et Andreiko. ....................................... ....................................... ....................................... ....................................... ....................................... ....................................... ......................................."
+"t": "2) De quelle manière vous allez construire la position pour les blancs aussi bien que pour les noirs? Cette position est issue 1) Quelle couleur a l’avantage et pourquoi? d’une partie entre Gantvarg, avec les blancs, et Andreiko."
 }
 ]
 },
@@ -2561,7 +2561,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "Résumons ce que nous sommes en train de faire. o Il semble que c’est stupide de suivre des o Nous regardons des tactiques de règles.....et c’est le cas aussi! Mais parfois, il construction dans des positions ouvertes. faut apprendre certaines choses de cette o Nous essayons de comprendre les avantages manière. Il vaut mieux d’essayer d’abord et les désavantages des tactiques différentes de comprendre les avantages de la position de construction. de base. Ensuite, nous pourrons inventer o Nous essayons de prévoir une position les désavantages. future. o De cette manière, nous essayons de vous o Vous mémorisez une certaine position. Cette donner un peu de clarté dans les immenses construction se termine en une position que possibilités de tactiques de construction. nous pourrions appeler une position de base. o Dans ce stade, il ne s’agit pas de variantes Puisque cette position ressemble beaucoup à longues et complexes. la position initiale!"
+"t": "Résumons ce que nous sommes en train de faire. o Il semble que c’est stupide de suivre des o Nous regardons des tactiques de règles et c’est le cas aussi! Mais parfois, il construction dans des positions ouvertes. faut apprendre certaines choses de cette o Nous essayons de comprendre les avantages manière. Il vaut mieux d’essayer d’abord et les désavantages des tactiques différentes de comprendre les avantages de la position de construction. de base. Ensuite, nous pourrons inventer o Nous essayons de prévoir une position les désavantages. future. o De cette manière, nous essayons de vous o Vous mémorisez une certaine position. Cette donner un peu de clarté dans les immenses construction se termine en une position que possibilités de tactiques de construction. nous pourrions appeler une position de base. o Dans ce stade, il ne s’agit pas de variantes Puisque cette position ressemble beaucoup à longues et complexes. la position initiale!"
 }
 ]
 },
@@ -2570,7 +2570,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "Jugez les tactiques suivantes des blancs dans le diagramme 3.1. Expliquez nettement pourquoi vous choisissez telle ou telle tactique. Votre explication compte! DIAGRAMME 3.1 ....................................... ......................................."
+"t": "Jugez les tactiques suivantes des blancs dans le diagramme 3.1. Expliquez nettement pourquoi vous choisissez telle ou telle tactique. Votre explication compte! DIAGRAMME 3.1"
 }
 ]
 },
@@ -2579,7 +2579,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "C. Les blancs construisent très vite la flèche 45/40/34. Ils ont l’intention de démolir le classique si les noirs veulent occuper, en plus, la case 24. Que pensez-vous de cette A. Les blancs jouent vite dans la direction d’une idée? position classique avec les coups 15.31-27 ....................................... 16.37-32 et 17.33-28. Qu’en pensez-vous? ....................................... ....................................... ....................................... ....................................... D. Les blancs ne font qu’attendre et jouent ....................................... 15.43-38 16.37-32 17.46-41 18.41- B. Les blancs veulent une attaque de flanc et ils 37.19.49-43 20.47-41 21.41-36. Que commencent à construire à droite, pour pensez-vous de cette tactique et pourquoi? préparer la mise d’un pion ‘taquin’ en 24: ....................................... 15.34-29 23x34 16.39x30. Que pensez-vous de cette tactique? ......................................."
+"t": "C. Les blancs construisent très vite la flèche 45/40/34. Ils ont l’intention de démolir le classique si les noirs veulent occuper, en plus, la case 24. Que pensez-vous de cette A. Les blancs jouent vite dans la direction d’une idée? position classique avec les coups 15.31-27 16.37-32 et 17.33-28. Qu’en pensez-vous? D. Les blancs ne font qu’attendre et jouent 15.43-38 16.37-32 17.46-41 18.41- B. Les blancs veulent une attaque de flanc et ils 37.19.49-43 20.47-41 21.41-36. Que commencent à construire à droite, pour pensez-vous de cette tactique et pourquoi? préparer la mise d’un pion ‘taquin’ en 24: 15.34-29 23x34 16.39x30. Que pensez-vous de cette tactique?"
 }
 ]
 },
@@ -2826,7 +2826,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": ".......................................................................... .......................................................................... .......................................................................... .......................................................................... .......................................................................... .......................................................................... Il reste encore une pyramide : la pyramide droite du diagramme 14. On pourra « habiller » aussi cette pyramide. Les Russes ont la tendance (aussi) de donner des diagrammes avec seulement des pions blancs. Dans un livre de Buzjinski et Sjaus, il y a par exemple le diagramme 7.1, voir exercice 7."
+"t": "Il reste encore une pyramide : la pyramide droite du diagramme 14. On pourra « habiller » aussi cette pyramide. Les Russes ont la tendance (aussi) de donner des diagrammes avec seulement des pions blancs. Dans un livre de Buzjinski et Sjaus, il y a par exemple le diagramme 7.1, voir exercice 7."
 }
 ]
 },
@@ -2835,7 +2835,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "DIAGRAMME 7.1 ....................................... ....................................... ....................................... ....................................... ....................................... ....................................... Inventez une série d’avantages pour les blancs du diagramme 7.1. Vous essayez de découvrir, ....................................... à titre individuel, autant d’avantages possibles!"
+"t": "DIAGRAMME 7.1 Inventez une série d’avantages pour les blancs du diagramme 7.1. Vous essayez de découvrir, à titre individuel, autant d’avantages possibles!"
 }
 ]
 },
@@ -2940,7 +2940,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "Pour commencer, les blancs ont une avance de L’ouverture suivante précède la position du six temps. Quelle est la construction que diagramme. Essayez de suivre ce déroulement Sijbrands a choisie et pourquoi n’a-t-il pas à l’aveugle. choisi une autre construction? 1.33-29 19-24 2.39-33 14-19 3.44-39 20-25 ....................................... 4.29x20 25x14 5.50-44 18-23 6.32-28 23x32 ....................................... 7.37x28 12-18 8.41-37 7-12 9.37-32 1-7 10.46-41 19-23 11.28x19 14x23 12.34-29 ....................................... 23x34 13.40x29 10-14 14.41-37 18-23 15.29x18 12x23. ....................................... Jusqu’ici un déroulement normal entre un joueur qui aspire à gagner (Wiersma!) et un joueur qui se contente de match nul (Germain!). Maintenant le choix d’une tactique pour les blancs. C’est difficile! Faites un choix parmi les tactiques suivantes et donnez vos arguments pour ce choix. Essayez donc aussi de deviner le choix de Wiersma!"
+"t": "Pour commencer, les blancs ont une avance de L’ouverture suivante précède la position du six temps. Quelle est la construction que diagramme. Essayez de suivre ce déroulement Sijbrands a choisie et pourquoi n’a-t-il pas à l’aveugle. choisi une autre construction? 1.33-29 19-24 2.39-33 14-19 3.44-39 20-25 4.29x20 25x14 5.50-44 18-23 6.32-28 23x32 7.37x28 12-18 8.41-37 7-12 9.37-32 1-7 10.46-41 19-23 11.28x19 14x23 12.34-29 23x34 13.40x29 10-14 14.41-37 18-23 15.29x18 12x23. Jusqu’ici un déroulement normal entre un joueur qui aspire à gagner (Wiersma!) et un joueur qui se contente de match nul (Germain!). Maintenant le choix d’une tactique pour les blancs. C’est difficile! Faites un choix parmi les tactiques suivantes et donnez vos arguments pour ce choix. Essayez donc aussi de deviner le choix de Wiersma!"
 }
 ]
 },
@@ -2958,7 +2958,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "....................................... ....................................... ....................................... ....................................... Comment Chizhov va-t-il construire sa position noire? Choisissez l’ordre de coups qui Fragment C est, d’après vous, le plus précis! La position du diagramme 8.3 provient d’une ....................................... partie intéressante H. Wiersma - J. van den Borst du tournoi Fair-Play de Brunssum 1992. ......................................."
+"t": "Comment Chizhov va-t-il construire sa position noire? Choisissez l’ordre de coups qui Fragment C est, d’après vous, le plus précis! La position du diagramme 8.3 provient d’une partie intéressante H. Wiersma - J. van den Borst du tournoi Fair-Play de Brunssum 1992."
 }
 ]
 },
@@ -2994,7 +2994,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "Qu’est-ce ce que Koyfman, avec les noirs, joue Qu’est-ce que Koyfman, avec les noirs, joue ici? maintenant? Quelle tactique a-t-il choisie? C’est difficile à deviner. Nous connaissons Choisissez parmi les possibilités suivantes et maintenant, à peu près, les tactiques différentes. donnez vos arguments! Mais à quel moment faut-il choisir quelle A. La construction dans la direction de la tactique? Quelle tactique convient le mieux? position de base avec 20.9-13 et 21.4-9. Vous avez le choix entre les possibilités B. Le coup 20.18-23 pour affaiblir le centre suivantes: blanc. C. Le pionnage en arrière 20.18-22. A. Un encerclement de 28. D. L’occupation de la case 24 avec 20.20-24. B. La tactique du pionnage avec 17.18-22 E. La construction avec 20.8-13 21.2-8 22.4-10 ....................................... 18.12x21. C. La pyramide de gauche avec 17.19-24 18.13- ....................................... 19 19.9-13 et 20.4-9. D. La pyramide du milieu avec 17.4-10 18.19-23 ....................................... 19.14x23 20.10-14 21.13-19 22.8-13. ....................................... ....................................... ....................................... ....................................... ......................................."
+"t": "Qu’est-ce ce que Koyfman, avec les noirs, joue Qu’est-ce que Koyfman, avec les noirs, joue ici? maintenant? Quelle tactique a-t-il choisie? C’est difficile à deviner. Nous connaissons Choisissez parmi les possibilités suivantes et maintenant, à peu près, les tactiques différentes. donnez vos arguments! Mais à quel moment faut-il choisir quelle A. La construction dans la direction de la tactique? Quelle tactique convient le mieux? position de base avec 20.9-13 et 21.4-9. Vous avez le choix entre les possibilités B. Le coup 20.18-23 pour affaiblir le centre suivantes: blanc. C. Le pionnage en arrière 20.18-22. A. Un encerclement de 28. D. L’occupation de la case 24 avec 20.20-24. B. La tactique du pionnage avec 17.18-22 E. La construction avec 20.8-13 21.2-8 22.4-10 18.12x21. C. La pyramide de gauche avec 17.19-24 18.13- 19 19.9-13 et 20.4-9. D. La pyramide du milieu avec 17.4-10 18.19-23 19.14x23 20.10-14 21.13-19 22.8-13."
 }
 ]
 },
@@ -3263,7 +3263,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Comment les noirs peuvent se libérer 9... 7-12 maintenant de l’enchaînement de l’aile droite? Une alternative est 9... 24-29 10.33x24 20x29 ....................................... mais après 11.46-41 les noirs doivent se garder de ....................................... faire le coup erroné 11... 17-22? Pourquoi?"
+"t": "Comment les noirs peuvent se libérer 9... 7-12 maintenant de l’enchaînement de l’aile droite? Une alternative est 9... 24-29 10.33x24 20x29 mais après 11.46-41 les noirs doivent se garder de faire le coup erroné 11... 17-22? Pourquoi?"
 }
 ]
 },
@@ -3272,7 +3272,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "....................................... 6... 1-7 7.36-31 20-24 ....................................... De quelle manière les noirs menacent de se libérer maintenant? 10.46-41 2-7"
+"t": "6... 1-7 7.36-31 20-24 De quelle manière les noirs menacent de se libérer maintenant? 10.46-41 2-7"
 }
 ]
 },
@@ -3281,7 +3281,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Thème 7 Qu’est-ce que vous préférez jouer avec les noirs? 17.28x19 13x24 18.44-39 20-25 Motivez votre choix! Dessinez la position dans le diagramme vide 4.4. ....................................... DIAGRAMME 4.4 ....................................... ......................................."
+"t": "Thème 7 Qu’est-ce que vous préférez jouer avec les noirs? 17.28x19 13x24 18.44-39 20-25 Motivez votre choix! Dessinez la position dans le diagramme vide 4.4. DIAGRAMME 4.4"
 }
 ]
 },
@@ -3308,7 +3308,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Les noirs doivent prendre de cette manière, car Au bout d’une courte phase de construction, sur 16... 20x29? les blancs forcent le gain les positions s’entremêlent. A part de la quasiment tout de suite. Donnez les premiers tactique dans la partie, les blancs disposent coups pour les blancs. encore d’une autre bonne tactique. Laquelle? ....................................... ....................................... ....................................... ......................................."
+"t": "Les noirs doivent prendre de cette manière, car Au bout d’une courte phase de construction, sur 16... 20x29? les blancs forcent le gain les positions s’entremêlent. A part de la quasiment tout de suite. Donnez les premiers tactique dans la partie, les blancs disposent coups pour les blancs. encore d’une autre bonne tactique. Laquelle?"
 }
 ]
 },
@@ -3326,7 +3326,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "L’enchaînement de l’aile droite Où est-ce que les noirs auraient pu jouer Dans la partie, les noirs ont opté maintenant autrement? pour 27... 18-23. Comment les blancs peuvent gagner après ce coup? ....................................... ....................................... ....................................... ....................................... 27.33-28 Mais quel autre choix avaient les noirs? Est-ce qu’ils avaient encore un autre coup? Dessinez la position dans le diagramme vide 4.6 ....................................... DIAGRAMME 4.6 ....................................... ....................................... ......................................."
+"t": "L’enchaînement de l’aile droite Où est-ce que les noirs auraient pu jouer Dans la partie, les noirs ont opté maintenant autrement? pour 27... 18-23. Comment les blancs peuvent gagner après ce coup? 27.33-28 Mais quel autre choix avaient les noirs? Est-ce qu’ils avaient encore un autre coup? Dessinez la position dans le diagramme vide 4.6 DIAGRAMME 4.6"
 }
 ]
 },
@@ -3385,7 +3385,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Ce pionnage fort bloque complètement le centre blanc. De surcroît, les blancs ne peuvent pas jouer sur leur aile gauche. Pourquoi pas? ....................................... ......................................."
+"t": "Ce pionnage fort bloque complètement le centre blanc. De surcroît, les blancs ne peuvent pas jouer sur leur aile gauche. Pourquoi pas?"
 }
 ]
 },
@@ -3394,7 +3394,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "En se référant à la position du diagramme 8, il Pourquoi est-ce que ce coup est tellement fort? faut bien observer ce fragment. A partir de l’ouverture le joueur des blancs s’est fait ....................................... enchaîner sur son aile droite. Regardons ....................................... comment les noirs s’y prennent. Ils suivent une tactique claire. Dessinez la position dans le diagramme vide 5.2."
+"t": "En se référant à la position du diagramme 8, il Pourquoi est-ce que ce coup est tellement fort? faut bien observer ce fragment. A partir de l’ouverture le joueur des blancs s’est fait enchaîner sur son aile droite. Regardons comment les noirs s’y prennent. Ils suivent une tactique claire. Dessinez la position dans le diagramme vide 5.2."
 }
 ]
 },
@@ -3403,7 +3403,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Qu’est-ce que les blancs doivent faire? Sur Dessinez la position dans le diagramme vide 5.3. 4.50-44 les noirs forcent le gain. Comment? Est-ce que vous reconnaissez la position de référence? Dessinez la position dans le diagramme ....................................... 5.4 ....................................... DIAGRAMME 5.3 et DIAGRAMME 5.4 Et sur 3.36-31 la fin s’annonce également vite. Donnez une variante gagnante et claire pour les noirs. ....................................... ....................................... ......................................."
+"t": "Qu’est-ce que les blancs doivent faire? Sur Dessinez la position dans le diagramme vide 5.3. 4.50-44 les noirs forcent le gain. Comment? Est-ce que vous reconnaissez la position de référence? Dessinez la position dans le diagramme 5.4 DIAGRAMME 5.3 et DIAGRAMME 5.4 Et sur 3.36-31 la fin s’annonce également vite. Donnez une variante gagnante et claire pour les noirs."
 }
 ]
 },
@@ -3525,7 +3525,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "L’enchaînement de l’aile droite 7... 24-29 Les noirs continuent à empêcher 15.38-33 15.39-33 8-13 16.33-28 13-19 Dans ce genre de positions, ce coup représente une manière connue pour développer l’aile gauche. Voir diagramme 16 Surtout dans le but de se procurer quelque liberté DIAGRAMME 16 de manœuvre de ce côté. ...................................... 8.33x24 20x29 9.39-33"
+"t": "L’enchaînement de l’aile droite 7... 24-29 Les noirs continuent à empêcher 15.38-33 15.39-33 8-13 16.33-28 13-19 Dans ce genre de positions, ce coup représente une manière connue pour développer l’aile gauche. Voir diagramme 16 Surtout dans le but de se procurer quelque liberté DIAGRAMME 16 de manœuvre de ce côté. 8.33x24 20x29 9.39-33"
 }
 ]
 },
@@ -3552,7 +3552,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Exercice 7 Un exercice d’analyse DIAGRAMME 7.1 ...................................... ...................................... ...................................... ...................................... ...................................... Après le coup joué 3.31-26, les noirs peuvent prendre l’enchaînement de l’aile droite. Est-ce ...................................... une bonne idée ou pas? Contrôlez tous les ...................................... coups des blancs. Quelle est l’intention des noirs? Que pensez-vous de cette position? 7.15"
+"t": "Exercice 7 Un exercice d’analyse DIAGRAMME 7.1 Après le coup joué 3.31-26, les noirs peuvent prendre l’enchaînement de l’aile droite. Est-ce une bonne idée ou pas? Contrôlez tous les coups des blancs. Quelle est l’intention des noirs? Que pensez-vous de cette position? 7.15"
 }
 ]
 },
@@ -3851,7 +3851,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Ci-dessus, vous avez vu trois tactiques. Quelle ...................................... tactique choisiriez-vous? Donc: c’est à vous de ...................................... décider, aussi bien pour les blancs que pour les noirs. L’une n’est pas ´simplement’ meilleure que ...................................... l’autre. Comme souvent, c’est plutôt une question de goût. Donc encore une fois: quelle tactique ...................................... trouvez-vous chanceuse? Il ne suffit donc pas de ...................................... dire: tactique 1, 2 ou trois. Il importe d’indiquer pourquoi, pourquoi et pourquoi. Une réponse ...................................... comme « tactique amusante » n’est pas une réponse valide."
+"t": "Ci-dessus, vous avez vu trois tactiques. Quelle tactique choisiriez-vous? Donc: c’est à vous de décider, aussi bien pour les blancs que pour les noirs. L’une n’est pas ´simplement’ meilleure que l’autre. Comme souvent, c’est plutôt une question de goût. Donc encore une fois: quelle tactique trouvez-vous chanceuse? Il ne suffit donc pas de dire: tactique 1, 2 ou trois. Il importe d’indiquer pourquoi, pourquoi et pourquoi. Une réponse comme « tactique amusante » n’est pas une réponse valide."
 }
 ]
 },
@@ -4048,7 +4048,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "L’astuce du coup 15.33-28 est le blocage de la DIAGRAMME 4.1 partie gauche du damier. Les blancs aussi bien que les noirs ne peuvent guère y avancer. Car 15... 18- 22 est plutôt faible. Pourquoi? Il est amusant de rassembler, rejouer et examiner des parties, mais il faut comprendre aussi pourquoi vous jouez certains coups. Ou pourquoi vous ne les jouez pas. Pourquoi est-ce que les noirs ne jouent donc pas 15... 18-22 dans le diagramme 4.1? Et que pensez-vous de la tactique 1-6, 2-8 et 17-22 dans le ....................................... but de se libérer? ......................................."
+"t": "L’astuce du coup 15.33-28 est le blocage de la DIAGRAMME 4.1 partie gauche du damier. Les blancs aussi bien que les noirs ne peuvent guère y avancer. Car 15... 18- 22 est plutôt faible. Pourquoi? Il est amusant de rassembler, rejouer et examiner des parties, mais il faut comprendre aussi pourquoi vous jouez certains coups. Ou pourquoi vous ne les jouez pas. Pourquoi est-ce que les noirs ne jouent donc pas 15... 18-22 dans le diagramme 4.1? Et que pensez-vous de la tactique 1-6, 2-8 et 17-22 dans le but de se libérer?"
 }
 ]
 },
@@ -4057,7 +4057,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "........................................................................................... A cause des pions en 16, 26 et 28, les noirs manquent de liberté de manœuvre sur leur aile droite. Mais il ne faut pas oublier la chose suivante: au même moment, les blancs bloquent aussi leur propre aile gauche. A part le pionnage 37-31 ils n’y ont plus d’autre coup. Dans cette tactique le pion à bande en 16 joue un rôle prépondérant! Avez-vous une idée? Réfléchissez calmement sur ce sujet. Plus loin dans ce thème vous verrez pourquoi."
+"t": "A cause des pions en 16, 26 et 28, les noirs manquent de liberté de manœuvre sur leur aile droite. Mais il ne faut pas oublier la chose suivante: au même moment, les blancs bloquent aussi leur propre aile gauche. A part le pionnage 37-31 ils n’y ont plus d’autre coup. Dans cette tactique le pion à bande en 16 joue un rôle prépondérant! Avez-vous une idée? Réfléchissez calmement sur ce sujet. Plus loin dans ce thème vous verrez pourquoi."
 }
 ]
 },
@@ -4139,7 +4139,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Quel est le meilleur coup, d’après vous, sur ...................................... 20... 20-25 21.34-29 23x34 22.40x20 15x24, ...................................... voir diagramme 6.1. En gros, nous pouvons dire que les blancs ont le choix entre deux ...................................... tactiques. Lesquelles? Et quelle tactique choisiriez-vous? En analysant la position vous ...................................... devriez trouver la réponse. ...................................... DIAGRAMME 6.1 ...................................... ...................................... ...................................... ......................................"
+"t": "Quel est le meilleur coup, d’après vous, sur 20... 20-25 21.34-29 23x34 22.40x20 15x24, voir diagramme 6.1. En gros, nous pouvons dire que les blancs ont le choix entre deux tactiques. Lesquelles? Et quelle tactique choisiriez-vous? En analysant la position vous devriez trouver la réponse. DIAGRAMME 6.1"
 }
 ]
 },
@@ -4218,7 +4218,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Si vous voyez la position après 11... 2x11 pour Et quelle sera la tactique des blancs à long la première fois, cela peut vous paraître un peu terme? bizarre. Voir diagramme 7.1. ...................................... DIAGRAMME 7.1 ...................................... ...................................... ...................................... ...................................... ......................................"
+"t": "Si vous voyez la position après 11... 2x11 pour Et quelle sera la tactique des blancs à long la première fois, cela peut vous paraître un peu terme? bizarre. Voir diagramme 7.1. DIAGRAMME 7.1"
 }
 ]
 },
@@ -4237,7 +4237,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Que pensez-vous de cette position? « Un peu ...................................... bizarre « ne suffit donc pas. Nous attendons une réponse plus élaborée des élèves qui fréquentent l’école de jeu de dames."
+"t": "Que pensez-vous de cette position? « Un peu bizarre « ne suffit donc pas. Nous attendons une réponse plus élaborée des élèves qui fréquentent l’école de jeu de dames."
 }
 ]
 },
@@ -4255,7 +4255,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Voir diagramme 8.1 DIAGRAMME 8.1 ...................................... ...................................... ...................................... ...................................... ...................................... ...................................... Regardez bien le diagramme 8.1. Vous voyez que les blancs veulent bloquer la partie gauche ...................................... du damier. Mais est-ce possible? Que pensez- vous de la tactique blanche? Et comment est-ce ...................................... que les noirs doivent continuer? Essayez de trouver une réponse à ces questions."
+"t": "Voir diagramme 8.1 DIAGRAMME 8.1 Regardez bien le diagramme 8.1. Vous voyez que les blancs veulent bloquer la partie gauche du damier. Mais est-ce possible? Que pensez- vous de la tactique blanche? Et comment est-ce que les noirs doivent continuer? Essayez de trouver une réponse à ces questions."
 }
 ]
 },
@@ -4332,7 +4332,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "...................................... ...................................... On peut atteindre cette position de différentes manières. Qu’est ce que vous jouez maintenant Comme nous avons dit avant, les noirs ont, à après 19... 17-22? cause de leur aile droite faible, peu de ...................................... possibilités de rompre le classique fermé. Il est logique que les noirs préfèrent éviter cette ...................................... situation."
+"t": "On peut atteindre cette position de différentes manières. Qu’est ce que vous jouez maintenant Comme nous avons dit avant, les noirs ont, à après 19... 17-22? cause de leur aile droite faible, peu de possibilités de rompre le classique fermé. Il est logique que les noirs préfèrent éviter cette situation."
 }
 ]
 },
@@ -4350,7 +4350,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "...................................... Nous considérons cette réponse comme la plus solide pour les noirs. Qu’est-ce qui menace ...................................... maintenant? Dans le diagramme 9.3 il faut faire attention à la ...................................... tournure amusante suivante, qui a figuré dans la partie N. Michanski - T. Brouwers ......................................"
+"t": "Nous considérons cette réponse comme la plus solide pour les noirs. Qu’est-ce qui menace maintenant? Dans le diagramme 9.3 il faut faire attention à la tournure amusante suivante, qui a figuré dans la partie N. Michanski - T. Brouwers"
 }
 ]
 },
@@ -4368,7 +4368,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "...................................... ...................................... ...................................... ...................................... ...................................... Comment continueriez-vous avec les noirs dans le diagramme 9.5? Donnez les deux Après ce petit détour, nous retournons au premiers coups. diagramme 9.3 que vous venez de remplir. ...................................... ......................................"
+"t": "Comment continueriez-vous avec les noirs dans le diagramme 9.5? Donnez les deux Après ce petit détour, nous retournons au premiers coups. diagramme 9.3 que vous venez de remplir."
 }
 ]
 },
@@ -4695,7 +4695,7 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "Quelle est la meilleure suite pour les noirs dans ...................................... le diagramme 1.1? Est-ce qu’ils peuvent encore annuler? Analysez cette position. ......................................"
+"t": "Quelle est la meilleure suite pour les noirs dans le diagramme 1.1? Est-ce qu’ils peuvent encore annuler? Analysez cette position."
 }
 ]
 },
@@ -4713,7 +4713,7 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "Exercice 3 DIAGRAMME 3.1 ...................................... ...................................... ...................................... ...................................... ...................................... Dans le diagramme 3.1 les noirs occupent la grande diagonale. Les blancs essaient d’aller à ...................................... dame avec leur pion 25. De quelle manière les ...................................... blancs peuvent conquérir la grande diagonale? Il y a même deux systèmes de gain ici. Quelle ...................................... position gagnante est-ce que les blancs vont construire après le passage à dame avec le pion ...................................... 25?"
+"t": "Exercice 3 DIAGRAMME 3.1 Dans le diagramme 3.1 les noirs occupent la grande diagonale. Les blancs essaient d’aller à dame avec leur pion 25. De quelle manière les blancs peuvent conquérir la grande diagonale? Il y a même deux systèmes de gain ici. Quelle position gagnante est-ce que les blancs vont construire après le passage à dame avec le pion 25?"
 }
 ]
 },
@@ -4899,7 +4899,7 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "Un autre exemple où l’échange de dames joue Cette position se présente après 58.10-32. Ici, les un grand rôle s’est présenté dans une partie noirs peuvent causer des ennuis graves pour les entre Ton Sijbrands et Erwin van Hierden, blancs. Les noirs peuvent contrer la montée des 1995. pions blancs en jouant d’une manière active avec leur dame. Ils peuvent menacer de l’échange des DIAGRAMME 9.1 dames et ils peuvent profiter de l’opposition 16/26. Il est difficile de dire si le résultat est vraiment match nul, car cela exige une analyse plus élaborée. Dans le diagramme 9.1: quel est le meilleur coup pour les noirs? ......................................... ........................................."
+"t": "Un autre exemple où l’échange de dames joue Cette position se présente après 58.10-32. Ici, les un grand rôle s’est présenté dans une partie noirs peuvent causer des ennuis graves pour les entre Ton Sijbrands et Erwin van Hierden, blancs. Les noirs peuvent contrer la montée des 1995. pions blancs en jouant d’une manière active avec leur dame. Ils peuvent menacer de l’échange des DIAGRAMME 9.1 dames et ils peuvent profiter de l’opposition 16/26. Il est difficile de dire si le résultat est vraiment match nul, car cela exige une analyse plus élaborée. Dans le diagramme 9.1: quel est le meilleur coup pour les noirs?"
 }
 ]
 },
@@ -4908,7 +4908,7 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "Voici la suite, à partir du diagramme 9.1: Après le coup joué par les noirs 60... 6-1, les 58... 3-17? 59.32-28! 17-6* 60.35-30 6-1. blancs peuvent construire en deux coups une position gagnante. Alors il n’est plus possible de pionner le pion en 26. DIAGRAMME 10.1 Quels sont les coups à jouer par les blancs pour gagner? ......................................... ......................................... ........................................."
+"t": "Voici la suite, à partir du diagramme 9.1: Après le coup joué par les noirs 60... 6-1, les 58... 3-17? 59.32-28! 17-6* 60.35-30 6-1. blancs peuvent construire en deux coups une position gagnante. Alors il n’est plus possible de pionner le pion en 26. DIAGRAMME 10.1 Quels sont les coups à jouer par les blancs pour gagner?"
 }
 ]
 },
@@ -4917,7 +4917,7 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "DIAGRAMME 11.1 Après, la nulle semble inévitable.. 62.28-41 18- 22! 63.33-29. Comment est-ce que les noirs forcent le match nul dans le diagramme 11.1? ......................................... ......................................... ......................................... Ton Sijbrands, lui aussi, a raté ce gain et voici la suite de la partie: ......................................... 61.30-25? 1-18! Van Hierden a saisi sa dernière chance en occupant la diagonale 4-36. 9.8"
+"t": "DIAGRAMME 11.1 Après, la nulle semble inévitable.. 62.28-41 18- 22! 63.33-29. Comment est-ce que les noirs forcent le match nul dans le diagramme 11.1? Ton Sijbrands, lui aussi, a raté ce gain et voici la suite de la partie: 61.30-25? 1-18! Van Hierden a saisi sa dernière chance en occupant la diagonale 4-36. 9.8"
 }
 ]
 },
@@ -4935,7 +4935,7 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "Les noirs viennent de jouer leur Les noirs croient annuler la Il paraît que les noirs peuvent dame vers 21 et ont pensé partie avec 10-4.... annuler avec 49-35... annuler ainsi la partie... Alors, les blancs gagnent d’une manière brillante! ........................ ........................ ........................ ........................ ....................... ........................ ........................ ....................... ........................ ........................ ......................."
+"t": "Les noirs viennent de jouer leur Les noirs croient annuler la Il paraît que les noirs peuvent dame vers 21 et ont pensé partie avec 10-4 annuler avec 49-35... annuler ainsi la partie... Alors, les blancs gagnent d’une manière brillante!"
 }
 ]
 },
@@ -5039,7 +5039,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "(1) Cette thèse s’applique à la cadence d’autrefois: 50 coups en deux heures, ensuite (6) Imaginez la situation suivante: vous jouez une 25 coups à l’heure. L’adversaire de Jesper est partie très importante. Votre adversaire est en en grand zeitnot. Une minute seulement pour zeitnot, mais il a confiance en votre notation. Est- 20 coups. Jesper décide d’aller jouer très vite et ce que vous iriez noter les coups d’une manière d’actionner encore plus vite la pendule. erronée? Autrement dit: il essaie de faire perdre son adversaire au temps. ....................................... Qu’en pensez-vous? Sportif ou antisportif? (7) Un membre de votre club joue très bien dans ....................................... un tournoi. Vos résultats sont moins bons. Vous devez jouer contre lui. Qu’est-ce que vous faites? (2) Jesper s’habitue à gêner la concentration . . .son de . . .adversaire . . . . . . . . .de . . .toutes . . . . . sortes . . . . . de . . .manières. ........ ....................................... Il fait beaucoup de bruit en mangeant des pommes. Il tousse tout le temps. Il fait les cent pas derrière son adversaire sans lever les pieds. (8) Vous êtes en tête d’un tournoi important. Si Et cela n’est pas encore tout! Sportif ou pas? vous gagnez, vous serez champion des Pays-Bas des juniors. Vous serez qualifié alors pour la ....................................... participation au championnat du monde en Mongolie. On écrit sur vous dans les journaux. ....................................... L’école vous accordera un congé. Mais à condition (3) Si Jesper déteste son adversaire, il ne lui que vous gagniez votre partie. La veille de la serre pas la main avant le début de la partie. dernière ronde, votre adversaire vous appelle et S’il perd, il s’en va tout simplement sans vous dit: « Bof, cette dernière partie n’est pas féliciter son adversaire avec la victoire. importante pour moi, dans le classement j’ai une Qu’en pensez-vous? position modeste...J’ai un peu d’ennuis financiers, si tu me donnes cent euros, je veux bien perdre contre ....................................... toi, personne ne le saura » Qu’est ce que vous faites?"
+"t": "(1) Cette thèse s’applique à la cadence d’autrefois: 50 coups en deux heures, ensuite (6) Imaginez la situation suivante: vous jouez une 25 coups à l’heure. L’adversaire de Jesper est partie très importante. Votre adversaire est en en grand zeitnot. Une minute seulement pour zeitnot, mais il a confiance en votre notation. Est- 20 coups. Jesper décide d’aller jouer très vite et ce que vous iriez noter les coups d’une manière d’actionner encore plus vite la pendule. erronée? Autrement dit: il essaie de faire perdre son adversaire au temps. Qu’en pensez-vous? Sportif ou antisportif? (7) Un membre de votre club joue très bien dans un tournoi. Vos résultats sont moins bons. Vous devez jouer contre lui. Qu’est-ce que vous faites? (2) Jesper s’habitue à gêner la concentration . . .son de . . .adversaire . . . . . . . . .de . . .toutes . . . . . sortes . . . . . de . . .manières. Il fait beaucoup de bruit en mangeant des pommes. Il tousse tout le temps. Il fait les cent pas derrière son adversaire sans lever les pieds. (8) Vous êtes en tête d’un tournoi important. Si Et cela n’est pas encore tout! Sportif ou pas? vous gagnez, vous serez champion des Pays-Bas des juniors. Vous serez qualifié alors pour la participation au championnat du monde en Mongolie. On écrit sur vous dans les journaux. L’école vous accordera un congé. Mais à condition (3) Si Jesper déteste son adversaire, il ne lui que vous gagniez votre partie. La veille de la serre pas la main avant le début de la partie. dernière ronde, votre adversaire vous appelle et S’il perd, il s’en va tout simplement sans vous dit: « Bof, cette dernière partie n’est pas féliciter son adversaire avec la victoire. importante pour moi, dans le classement j’ai une Qu’en pensez-vous? position modeste...J’ai un peu d’ennuis financiers, si tu me donnes cent euros, je veux bien perdre contre toi, personne ne le saura » Qu’est ce que vous faites?"
 }
 ]
 },
@@ -5048,7 +5048,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "....................................... (9) Jesper et Erwin n’ont pas beaucoup envie de (4) Jesper déteste si ses adversaires parlent jouer. Ils jouent deux coups chacun et concluent entre eux pendant la partie. Qu’en pensez- match nul. Sportif ou pas? (Remarque du vous? traducteur: pour mettre fin à ce genre d’actions, les fédérations ont introduit la règle de 40 ....................................... coups: chaque joueur est obligé de faire 40 coups, sinon, l’égalité ne compte pas, le résultat sera zéro point pour les deux joueurs) (5) Il y a des joueurs qui prennent intentionnellement d’une manière erronée lors ....................................... du zeitnot de l’adversaire. C’est ainsi qu’ils veulent confondre leur adversaire et gagner du (10) Continuer à jouer avec trois dames contre temps. une dame. Sportif ou antisportif? Qu’en pensez- Qu’en pensez-vous? Sportif ou antisportif? vous? ....................................... ......................................."
+"t": "(9) Jesper et Erwin n’ont pas beaucoup envie de (4) Jesper déteste si ses adversaires parlent jouer. Ils jouent deux coups chacun et concluent entre eux pendant la partie. Qu’en pensez- match nul. Sportif ou pas? (Remarque du vous? traducteur: pour mettre fin à ce genre d’actions, les fédérations ont introduit la règle de 40 coups: chaque joueur est obligé de faire 40 coups, sinon, l’égalité ne compte pas, le résultat sera zéro point pour les deux joueurs) (5) Il y a des joueurs qui prennent intentionnellement d’une manière erronée lors du zeitnot de l’adversaire. C’est ainsi qu’ils veulent confondre leur adversaire et gagner du (10) Continuer à jouer avec trois dames contre temps. une dame. Sportif ou antisportif? Qu’en pensez- Qu’en pensez-vous? Sportif ou antisportif? vous?"
 }
 ]
 },
@@ -5057,7 +5057,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "Est-ce que vous pouvez donner un exemple de ....................................... votre propre carrière? Avez-vous eu l’expérience d’un comportement antisportif? ......................................."
+"t": "Est-ce que vous pouvez donner un exemple de votre propre carrière? Avez-vous eu l’expérience d’un comportement antisportif?"
 }
 ]
 },
@@ -5120,7 +5120,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "Groupe 1 Groupe 2 Groupe 3 comporte les parties comporte les parties comporte les parties ........................... ........................... ........................... ........................... ........................... ........................... ........................... ........................... ........................... ........................... ........................... ..........................."
+"t": "Groupe 1 Groupe 2 Groupe 3 comporte les parties comporte les parties comporte les parties"
 }
 ]
 },
@@ -5138,7 +5138,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "(3) Chizhov joue selon une tactique visée. Dans l’ouverture il choisit déjà souvent sa tactique. Pouvez- vous dire quelque chose sur ses ouvertures en combinaison avec sa tactique? Donc: vous avez trois groupes de parties. Qu’est ce que Chizhov fait pour arriver dans un tel groupe? Groupe 1 Groupe 2 Groupe 3 Ouverture – tactique Ouverture – tactique Ouverture – tactique ........................... ........................... ........................... ........................... ........................... ........................... ........................... ........................... ........................... ........................... ........................... ..........................."
+"t": "(3) Chizhov joue selon une tactique visée. Dans l’ouverture il choisit déjà souvent sa tactique. Pouvez- vous dire quelque chose sur ses ouvertures en combinaison avec sa tactique? Donc: vous avez trois groupes de parties. Qu’est ce que Chizhov fait pour arriver dans un tel groupe? Groupe 1 Groupe 2 Groupe 3 Ouverture – tactique Ouverture – tactique Ouverture – tactique"
 }
 ]
 },
@@ -5165,7 +5165,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "Diagramme 5.1 R. Lechinski - A. Chizhov, Ch L’Union Soviétique 1984. ...................................... Vous avez une chance sur deux de deviner ce que Chizhov a joué maintenant. Essayez ...................................... d’expliquer pourquoi! ...................................... ...................................... Cela devient prédictif... La position du ...................................... diagramme 5.3 s’est produite dans le même match contre Valneris. Qu’est-ce que Chizhov, ...................................... avec les noirs, a joué et de nouveau une chance sur deux. Et expliquer s’il vous plaît. Dans le diagramme 5.2, Chizhov joue avec les blancs une partie contre G. Valneris, ils ...................................... s’affrontent dans un match pour décrocher le titre mondial en 1991. De nouveau, vous avez ...................................... une chance sur deux pour deviner ce que Chizhov a joué. Et expliquez s’il vous plaît. ......................................"
+"t": "Diagramme 5.1 R. Lechinski - A. Chizhov, Ch L’Union Soviétique 1984. Vous avez une chance sur deux de deviner ce que Chizhov a joué maintenant. Essayez d’expliquer pourquoi! Cela devient prédictif... La position du diagramme 5.3 s’est produite dans le même match contre Valneris. Qu’est-ce que Chizhov, avec les noirs, a joué et de nouveau une chance sur deux. Et expliquer s’il vous plaît. Dans le diagramme 5.2, Chizhov joue avec les blancs une partie contre G. Valneris, ils s’affrontent dans un match pour décrocher le titre mondial en 1991. De nouveau, vous avez une chance sur deux pour deviner ce que Chizhov a joué. Et expliquez s’il vous plaît."
 }
 ]
 },
@@ -5174,7 +5174,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "La position du diagramme 5.4 s’est présentée Essayez de dessiner la position, que vous après l’ouverture suivante entre A. Chizhov et voiyez maintenant, dans le diagramme vide T. Delmotte, CM Toulon 1992: 1.32-28 17-22 5.5. Si vous y êtes arrivés, voici la question: 2.28x17 12x21 3.31-26 7-12 4.26x17 12x21 qu’est-ce que les noirs jouent maintenant et 5.37-31 1-7. pourquoi? Quel coup est-ce que Chizhov (avec les blancs) joue maintenant et pourquoi? Est-ce que vous ...................................... aimez cette tactique? ...................................... ...................................... ...................................... ...................................... La position du diagramme 5.6 s’est présentée ...................................... dans la partie A. Chizhov - W. Kolesnik, Championnat L’Union Soviétique 1989. La Essayez de rejouer l’ouverture suivante à question: quelle est la tactique que Chizhov va l’aveugle et dessinez-la dans le diagramme vide suivre maintenant? Il se peut que vous puissiez 5.5A. Il s’agit d’une partie entre Mac. N’Diaye deviner pas mal de coups de Chizhov. et A. Chizhov, CM Paramaribo 1988. Voici le déroulement de l’ouverture: ...................................... 1.32-28 17-22 2.28x17 12x21 3.34-29 7-12 4.40-34 11-17 5.45-40 6-11 6.33-28 19-23 ...................................... 7.28x19 13x33 8.39x28 9-13 9.37-32 14-19 ...................................... 10.44-39 10-14 11.41-37 5-10 12.39-33 4-9 13.47-41 1-6 14.49-44 21-26 15.44-39."
+"t": "La position du diagramme 5.4 s’est présentée Essayez de dessiner la position, que vous après l’ouverture suivante entre A. Chizhov et voiyez maintenant, dans le diagramme vide T. Delmotte, CM Toulon 1992: 1.32-28 17-22 5.5. Si vous y êtes arrivés, voici la question: 2.28x17 12x21 3.31-26 7-12 4.26x17 12x21 qu’est-ce que les noirs jouent maintenant et 5.37-31 1-7. pourquoi? Quel coup est-ce que Chizhov (avec les blancs) joue maintenant et pourquoi? Est-ce que vous aimez cette tactique? La position du diagramme 5.6 s’est présentée dans la partie A. Chizhov - W. Kolesnik, Championnat L’Union Soviétique 1989. La Essayez de rejouer l’ouverture suivante à question: quelle est la tactique que Chizhov va l’aveugle et dessinez-la dans le diagramme vide suivre maintenant? Il se peut que vous puissiez 5.5A. Il s’agit d’une partie entre Mac. N’Diaye deviner pas mal de coups de Chizhov. et A. Chizhov, CM Paramaribo 1988. Voici le déroulement de l’ouverture: 1.32-28 17-22 2.28x17 12x21 3.34-29 7-12 4.40-34 11-17 5.45-40 6-11 6.33-28 19-23 7.28x19 13x33 8.39x28 9-13 9.37-32 14-19 10.44-39 10-14 11.41-37 5-10 12.39-33 4-9 13.47-41 1-6 14.49-44 21-26 15.44-39."
 }
 ]
 },
@@ -5201,7 +5201,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "Apparemment une question très facile au ...................................... diagramme 5.9: Avec quelle couleur est-ce que ...................................... Chizhov joue? Cependant, Chizhov joue avec les noirs contre A. Van Leeuwen, Hierden ...................................... 1991! Il est amusant de voir que Van Leeuwen joue la batterie de Chizhov contre Chizhov lui- Par rapport au diagramme 5.11, pour conclure, même! Au point de vue tactique cela peut être voici une question très facile. La position s’est malin. Quand même, Van Leeuwen n’avait produite après 1.32-28 17-22 2.28x17 11x22 aucune chance et il a perdu. La cause en est, dans la partie A. Chizhov - J. Krajenbrink, entre autres, que le pion en 7 est mieux placé match international Pays-Bas - Union en 7 qu’en 11. En connaissez-vous la raison? Soviétique en 1988."
+"t": "Apparemment une question très facile au diagramme 5.9: Avec quelle couleur est-ce que Chizhov joue? Cependant, Chizhov joue avec les noirs contre A. Van Leeuwen, Hierden 1991! Il est amusant de voir que Van Leeuwen joue la batterie de Chizhov contre Chizhov lui- Par rapport au diagramme 5.11, pour conclure, même! Au point de vue tactique cela peut être voici une question très facile. La position s’est malin. Quand même, Van Leeuwen n’avait produite après 1.32-28 17-22 2.28x17 11x22 aucune chance et il a perdu. La cause en est, dans la partie A. Chizhov - J. Krajenbrink, entre autres, que le pion en 7 est mieux placé match international Pays-Bas - Union en 7 qu’en 11. En connaissez-vous la raison? Soviétique en 1988."
 }
 ]
 },
@@ -5210,7 +5210,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "...................................... Le joueur des noirs est très surpris par le coup des blancs. Le joueur des noirs ne s’y attend ...................................... pas. Pourquoi pas? Le joueur des noirs n’était ...................................... pas très au courant du jeu de Chizhov. Si vous étiez les conducteurs des noirs, vous ne seriez Dans le diagramme 5.10 E. Vatutin joue, avec pas surpris par le coup des blancs, car qu’est-ce les blancs, contre Chizhov; il joue 21.34-29! que Chizhov joue maintenant? Et pourquoi? Chizhov réagit avec 21... 17-22. Comprenez- vous pourquoi il est difficile de construire, à ...................................... gauche, la formation connue? ...................................... ......................................"
+"t": "Le joueur des noirs est très surpris par le coup des blancs. Le joueur des noirs ne s’y attend pas. Pourquoi pas? Le joueur des noirs n’était pas très au courant du jeu de Chizhov. Si vous étiez les conducteurs des noirs, vous ne seriez Dans le diagramme 5.10 E. Vatutin joue, avec pas surpris par le coup des blancs, car qu’est-ce les blancs, contre Chizhov; il joue 21.34-29! que Chizhov joue maintenant? Et pourquoi? Chizhov réagit avec 21... 17-22. Comprenez- vous pourquoi il est difficile de construire, à gauche, la formation connue?"
 }
 ]
 },
@@ -5228,7 +5228,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "Il y a des moments pendant la partie où la Quelle est votre attitude par rapport à votre concentration menace de s’affaiblir. Vous adversaire? Globalement, il y a deux pense zavoir une position gagnante, mais possibilités: la première: vous avez beaucoup alors...Vous avez été sous pression longtemps d’attention pour votre adversaire. La et vous pensez pouvoir décrocher le match nul, deuxième: vous n’avez aucune attention pour mais alors.... votre adversaire. Le meilleur sera sans aucun doute: un mélange des deux."
+"t": "Il y a des moments pendant la partie où la Quelle est votre attitude par rapport à votre concentration menace de s’affaiblir. Vous adversaire? Globalement, il y a deux pense zavoir une position gagnante, mais possibilités: la première: vous avez beaucoup alors...Vous avez été sous pression longtemps d’attention pour votre adversaire. La et vous pensez pouvoir décrocher le match nul, deuxième: vous n’avez aucune attention pour mais alors votre adversaire. Le meilleur sera sans aucun doute: un mélange des deux."
 }
 ]
 },

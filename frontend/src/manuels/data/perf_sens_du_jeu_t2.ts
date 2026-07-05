@@ -12769,7 +12769,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "8. 40-34 10-15 diagramme suivant Le scénario est habituel ; les blancs exercent une pression simultanée sur les pions 24 et 27. Le dernier coup des noirs est justifié car après (20-25), 37-31 (12-18) 31x22 (18x27) 28-23 ! les noirs ont des problèmes. 9. 34-30 Ce n’est pas le meilleur coup. Le gain par les pièces semble possible après 37-31 (12-18) 31x22 (18x27) 42-37 (8-12) 37-32 ! (20-25) [ après (11-16) 32x21) 16x27) 34-30 est décisif] 32x21 (25- 30) 34x25 (24-29) 33x24 (15-20) 25x3 (13-18) 3x17 (11x44). 9.... 24-29"
+"t": "8. 40-34 10-15 diagramme suivant Le scénario est habituel ; les blancs exercent une pression simultanée sur les pions 24 et 27. Le dernier coup des noirs est justifié car après (20-25), 37-31 (12-18) 31x22 (18x27) 28-23 ! les noirs ont des problèmes. 9. 34-30 Ce n’est pas le meilleur coup. Le gain par les pièces semble possible après 37-31 (12-18) 31x22 (18x27) 42-37 (8-12) 37-32 ! (20-25) [ après (11-16) 32x21) 16x27) 34-30 est décisif] 32x21 (25- 30) 34x25 (24-29) 33x24 (15-20) 25x3 (13-18) 3x17 (11x44). 9 24-29"
 }
 ]
 },

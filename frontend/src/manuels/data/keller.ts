@@ -2286,7 +2286,7 @@ const DATA: ManuelData = {
 "ch": 17,
 "runs": [
 {
-"t": "b - variante 14-20 21... 14-20 22. 34-29! 23x34 23. 32-28 20x29 24. 33x24 22x33 25. 38x40 25x34 26. 40x29 10-14 27. 31x22 17x28 28. 26x17 11x22 29. 43-38 et le pion 28 est indéfendable c - variante (14-19) 21... 14-19 22. 33-29 8-12 23. 29x18 12x23 24. 34-29 46-41 est interdit par le coup de dame (13-18) et (22-28) 24.... 23x34 26. 32-28 22x33 27. 38x40 25x34 28. 40x29 10-14 29. 31x22 17x28 30. 26x17 11x22 31. 43-38 13-19! 32. 24x13 8x19 Avec avantage aux noirs."
+"t": "b - variante 14-20 21... 14-20 22. 34-29! 23x34 23. 32-28 20x29 24. 33x24 22x33 25. 38x40 25x34 26. 40x29 10-14 27. 31x22 17x28 28. 26x17 11x22 29. 43-38 et le pion 28 est indéfendable c - variante (14-19) 21... 14-19 22. 33-29 8-12 23. 29x18 12x23 24. 34-29 46-41 est interdit par le coup de dame (13-18) et (22-28) 24 23x34 26. 32-28 22x33 27. 38x40 25x34 28. 40x29 10-14 29. 31x22 17x28 30. 26x17 11x22 31. 43-38 13-19! 32. 24x13 8x19 Avec avantage aux noirs."
 }
 ]
 },
