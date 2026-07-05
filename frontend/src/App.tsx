@@ -2,7 +2,6 @@ import React, { useState, useCallback, useMemo, useEffect, useRef } from 'react'
 import Board from './components/Board'
 import type { BoardTheme } from './components/Board'
 import GameControls, { type PlayerSide } from './components/GameControls'
-import MoveList from './components/MoveList'
 import ExercisePanel from './components/ExercisePanel'
 import ExerciseLibraryPage from './components/ExerciseLibraryPage'
 import LearningPathPage from './components/LearningPathPage'
@@ -1182,8 +1181,17 @@ export default function App() {
                 bouton « Analyser » (panneau pédagogique) qui reproduit
                 l'analyse de l'historique : résumé narratif, motifs, faiblesses
                 et lectures recommandées. */}
-            <div className="h-full flex flex-col lg:flex-row lg:gap-6 lg:max-w-7xl lg:mx-auto lg:px-4 lg:py-4 overflow-hidden">
-              <div className="flex-shrink-0 flex flex-col items-center px-2 pt-2" style={{ width: '100%', maxWidth: '560px', alignSelf: 'center' }}>
+            <div className={`h-full flex overflow-hidden lg:gap-6 lg:max-w-7xl lg:mx-auto lg:px-4 lg:py-4 lg:flex-row ${pedagogyAnalysis ? 'flex-row gap-2' : 'flex-col'}`}>
+              {/* Once the analysis has run the board shrinks to the compact
+                  two-column format used by the imported-game analysis view
+                  (≈55 % width, capped at 280 px) so the pedagogy summary gets
+                  the room; before that it stays full-size for playing. */}
+              <div
+                className="flex-shrink-0 flex flex-col items-center px-2 pt-2"
+                style={pedagogyAnalysis
+                  ? { width: '55%', maxWidth: 280 }
+                  : { width: '100%', maxWidth: '560px', alignSelf: 'center' }}
+              >
                 <div style={{ display: 'flex', gap: 4, width: '100%', alignItems: 'stretch' }}>
                   <Board
                     board={displayBoard}
@@ -1200,7 +1208,7 @@ export default function App() {
                   <EvalBar fen={isAiThinking ? null : (gameState?.fen ?? null)} />
                 </div>
                 {gameState && (
-                  <div style={{ alignSelf: 'stretch', marginTop: '8px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <div style={{ alignSelf: 'stretch', marginTop: '8px', display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
                     <button onClick={handleUndo} disabled={isAiThinking || !moveHistory.length || !!gameState.result}
                       title={t('undoMove')} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}
                       className="text-sm font-semibold bg-amber-700 hover:bg-amber-600 text-white disabled:opacity-30 disabled:cursor-not-allowed px-3 py-1.5 rounded-lg transition-colors">
@@ -1229,7 +1237,6 @@ export default function App() {
               </div>
               <div className="flex-1 overflow-y-auto overscroll-contain pb-4 min-w-0 px-2 pt-3 lg:pt-0">
                 <div className="flex flex-col gap-3">
-                  <MoveList moves={moveHistory} currentMoveIndex={moveHistory.length - 1} />
                   {pedagogyPanel}
                 </div>
               </div>
