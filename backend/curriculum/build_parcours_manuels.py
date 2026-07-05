@@ -411,6 +411,246 @@ def _lesson_blocks(ch: int, proses: list[str], diagrams: list, ex_rows: list[dic
     return blocks, positions
 
 
+# --- markdown-authored lesson books (Débutant) ------------------------------
+# The Débutant manual is authored in Markdown with authoring scaffolding the
+# reader must never see: Scan-validation tables, ``published_notation`` /
+# ``final_move.path`` / ``concept`` / ``claude_notes`` cross-references, and
+# fixture ids (``BEG_CHnn_mmm``). We parse the Markdown into real reader blocks
+# (headings, quotes, lists, bold runs), drop the scaffolding, and drop each
+# fixture board in place where its id is cited in the prose — so nothing looks
+# like raw Markdown and nothing is invented (boards come from the fixtures).
+_MD_HTML_COMMENT = re.compile(r"<!--.*?-->", re.S)
+_MD_FIXREF = re.compile(r"BEG_CH\d{2}_\d{3}")
+_MD_CODE = re.compile(r"`([^`]*)`")
+_MD_BOLD = re.compile(r"\*\*(.+?)\*\*")
+_MD_HEADING = re.compile(r"(#{2,4})\s+(.*)")
+_MD_LIST = re.compile(r"^(?:[-*]|\d+\.)\s+(.*)")
+_MD_ORDERED = re.compile(r"^\d+\.\s+")
+_MD_SCAFFOLD_TOKENS = ("published_notation", "final_move", "claude_notes", "concept")
+# A parenthetical whose content is an authoring cross-reference — drop it whole,
+# tolerating one level of nested parentheses (e.g. `(15x31)` cited inside it).
+_MD_SCAFFOLD_PAREN = re.compile(
+    r"\(\s*(?:cf\.?\s*)?`?(?:final_move|concept|claude_notes)\b"
+    r"(?:[^()]|\([^()]*\))*\)", re.I)
+# Recurring authoring boilerplate about the Scan-validation process.
+_MD_SCAFFOLD_SENTENCE = re.compile(
+    r"Toutes les fixtures sont.*?profondeur d['’]analyse\.?", re.I)
+# A whole sentence is an authoring note when it mentions the engine pipeline,
+# the source-of-truth JSON, or an editor flag — drop it, keep the rest.
+_MD_META_SENT = re.compile(
+    r"(?:scan_analysis|\bPV\b|moteur Scan|source de vérité|"
+    r"reconstructible par le module|verified\b|scan/scan)", re.I)
+_MD_SCAFFOLD_CODE = re.compile(
+    r"`(?:final_move|concept|claude_notes|published_notation)[^`]*`", re.I)
+_MD_SEE = re.compile(r"\b(?:Voir(?:\s+aussi)?|[Cc]f\.?)\s*:\s*")
+
+
+def _md_runs(text: str) -> list[dict]:
+    """Inline runs honouring **bold** (back-ticks already stripped)."""
+    runs: list[dict] = []
+    i = 0
+    for m in _MD_BOLD.finditer(text):
+        if m.start() > i:
+            runs.append({"t": text[i:m.start()]})
+        runs.append({"b": 1, "t": m.group(1)})
+        i = m.end()
+    if i < len(text):
+        runs.append({"t": text[i:]})
+    runs = [r for r in runs if r.get("t")]
+    return runs or [{"t": text}]
+
+
+def _md_clean(text: str) -> tuple[str, list[str]]:
+    """Strip authoring scaffolding from a line; return (clean_text, fixture_refs
+    cited in it). Refs are returned before removal so the board can be placed."""
+    refs = _MD_FIXREF.findall(text)
+    # Drop whole authoring-note sentences first (boundaries still intact).
+    text = " ".join(s for s in re.split(r"(?<=[.!?])\s+", text)
+                    if not _MD_META_SENT.search(s))
+    text = _MD_SCAFFOLD_SENTENCE.sub("", text)
+    text = _MD_SCAFFOLD_PAREN.sub("", text)
+    # bare (non-parenthesised) `final_move.path …` span + its trailing
+    # "N captures (…)" detail — authoring notes the board already conveys.
+    text = re.sub(r"`final_move[^`]*`\s*,?\s*(?:\d+\s+captures?[^.\n)]*\)?)?",
+                  "", text, flags=re.I)
+    text = re.sub(r"`published_notation`", "Notation", text)  # keep as a label
+    text = _MD_SCAFFOLD_CODE.sub("", text)
+    text = _MD_FIXREF.sub("", text)
+    text = _MD_CODE.sub(lambda m: m.group(1), text)  # keep inner text of `code`
+    text = text.replace("`", "")                     # any unmatched back-tick
+    # References to the underlying data structure (fixture / explanation /
+    # concept / coquille correction ids) — authoring vocabulary, not reader text.
+    text = re.sub(r"(?:,\s*)?(?:selon|cf|d['’]apr[eè]s)\s+(?:l['’]|le\s+|la\s+)?"
+                  r"(?:explanation|concept)\s+de la fixture", "", text, flags=re.I)
+    text = re.sub(r"\b(?:L['’]|Le\s+|La\s+)?(?:explanation|concept)\s+de la fixture",
+                  "La combinaison", text, flags=re.I)
+    text = re.sub(r"\ble\s+de la fixture\b", "la combinaison", text, flags=re.I)
+    text = re.sub(r"\s*\bde la fixture\b", "", text, flags=re.I)
+    text = re.sub(r"\bfixtures\b", "combinaisons", text, flags=re.I)
+    text = re.sub(r"\bfixture\b", "combinaison", text, flags=re.I)
+    text = re.sub(r"(?:,|—|–|-)?\s*coquille(?:\s+PDF)?(?:\s+corrig\w+)?", "", text, flags=re.I)
+    text = re.sub(r"\s*(?:cf\s+)?\bR0\d\d\b(?:\s+et\s+R0\d\d)*", "", text, flags=re.I)
+    text = _MD_SEE.sub("", text)                     # "Voir <ref> :" leftovers
+    text = re.sub(r"[,;—–-]?\s*cf\.?\s*\)", ")", text, flags=re.I)  # ", cf )" dangling
+    text = re.sub(r"\(\s*[),]", lambda m: m.group(0)[-1], text)  # "( ," / "()"
+    text = re.sub(r"\(\s*(?:à|to|–|—|-|,)?\s*\)", "", text)  # "(à )" from removed refs
+    text = re.sub(r"\(\s*\)", "", text)
+    text = _MULTISPACE.sub(" ", _WS.sub(" ", text))
+    text = re.sub(r"\.\s*,", ".", text)              # "19. , 4" → "19."
+    text = re.sub(r"\s+([,.;:!?»])", r"\1", text)
+    text = re.sub(r"([«(])\s+", r"\1", text)
+    return text.strip(" —–:;,."), refs
+
+
+def _md_has_content(text: str) -> bool:
+    return len(re.sub(r"[^0-9A-Za-zÀ-ÿ]", "", text)) > 1
+
+
+def _debutant_blocks(ch: int, text: str, diagrams: list, ex_rows: list[dict],
+                     prefix: str) -> tuple[list[dict], dict[str, dict]]:
+    ex_by_fen: dict[tuple, dict] = {}
+    for ex in ex_rows:
+        ex_by_fen.setdefault(_norm_fen(ex["initial_fen"]), ex)
+    used: set[tuple] = set()
+
+    board_by_ref: dict[str, dict] = {}
+    order: list[str] = []
+    for i, d in enumerate(diagrams or []):
+        if not isinstance(d, dict):
+            continue
+        fen, ref = d.get("fen"), (d.get("ref") or d.get("label"))
+        if not fen or not ref:
+            continue
+        pid = f"{prefix}_d{i}"
+        key = _norm_fen(fen)
+        match = ex_by_fen.get(key)
+        if match:
+            used.add(key)
+            made = _board_from_exercise(pid, ch, match, match.get("name") or "Position",
+                                        match.get("category") or "")
+        else:
+            made = _board_from_position(pid, ch, fen, "Position", None)
+        if made:
+            board_by_ref[ref] = made
+            order.append(ref)
+
+    blocks: list[dict] = []
+    positions: dict[str, dict] = {}
+    placed: set[str] = set()
+
+    def place(ref: str) -> None:
+        if ref in board_by_ref and ref not in placed:
+            placed.add(ref)
+            pos = board_by_ref[ref]
+            positions[pos["id"]] = pos
+            blocks.append({"type": "board", "id": pos["id"], "ch": ch})
+
+    lines = _MD_HTML_COMMENT.sub("", text).split("\n")
+    n = len(lines)
+    para: list[str] = []
+
+    def flush() -> None:
+        if not para:
+            return
+        raw = " ".join(para).strip()
+        para.clear()
+        if (not raw or "🔴" in raw or raw.startswith("**Validation Scan**")
+                or "Divergence Scan" in raw or "rédacteur" in raw):
+            return
+        clean, refs = _md_clean(raw)
+        if clean and _md_has_content(clean):
+            blocks.append({"type": "p", "ch": ch, "runs": _md_runs(clean)})
+        for r in refs:
+            place(r)
+
+    i = 0
+    while i < n:
+        s = lines[i].strip()
+        if not s:
+            flush()
+            i += 1
+            continue
+        m = _MD_HEADING.match(s)
+        if m:
+            flush()
+            tag = {2: "h2", 3: "h3", 4: "h4"}[len(m.group(1))]
+            htext, refs = _md_clean(m.group(2))
+            if htext:
+                blocks.append({"type": tag, "ch": ch, "runs": _md_runs(htext)})
+            for r in refs:
+                place(r)
+            i += 1
+            continue
+        if re.match(r"^(?:-{3,}|\*{3,})$", s):  # horizontal rule → drop
+            flush()
+            i += 1
+            continue
+        if s.startswith("|"):  # tables here are Scan-validation scaffolding → drop
+            flush()
+            while i < n and lines[i].strip().startswith("|"):
+                i += 1
+            continue
+        if s.startswith(">"):
+            flush()
+            q: list[str] = []
+            while i < n and lines[i].strip().startswith(">"):
+                q.append(re.sub(r"^\s*>\s?", "", lines[i]))
+                i += 1
+            qtext = " ".join(x.strip() for x in q).strip()
+            if not any(tok in qtext for tok in _MD_SCAFFOLD_TOKENS):
+                clean, refs = _md_clean(qtext)
+                if clean and _md_has_content(clean):
+                    blocks.append({"type": "quote", "ch": ch, "runs": _md_runs(clean)})
+                for r in refs:
+                    place(r)
+            continue
+        if _MD_LIST.match(s):
+            flush()
+            ordered = bool(_MD_ORDERED.match(s))
+            item_texts: list[str] = []
+            while i < n:
+                t = lines[i].strip()
+                mm = _MD_LIST.match(t)
+                if mm:
+                    item_texts.append(mm.group(1))
+                elif not t or _MD_HEADING.match(t) or t[:1] in ("|", ">"):
+                    break
+                elif item_texts:  # continuation line of the current item
+                    item_texts[-1] += " " + t
+                else:
+                    break
+                i += 1
+            items: list[list[dict]] = []
+            list_refs: list[str] = []
+            for it_text in item_texts:
+                clean, refs = _md_clean(it_text)
+                if clean and _md_has_content(clean):
+                    items.append(_md_runs(clean))
+                list_refs.extend(refs)
+            if items:
+                blocks.append({"type": "ol" if ordered else "ul", "ch": ch, "items": items})
+            for r in list_refs:  # boards after their list, not before it
+                place(r)
+            continue
+        para.append(s)
+        i += 1
+    flush()
+
+    for ref in order:  # any board the prose never cited → after the text
+        place(ref)
+    rem = [ex for ex in ex_rows if _norm_fen(ex["initial_fen"]) not in used]
+    if rem:
+        blocks.append({"type": "h3", "ch": ch, "runs": [{"t": "Exercices"}]})
+        for j, ex in enumerate(rem):
+            pid = f"{prefix}_x{j}"
+            made = _board_from_exercise(pid, ch, ex, ex.get("name") or "Exercice",
+                                        ex.get("category") or "")
+            if made:
+                positions[made["id"]] = made
+                blocks.append({"type": "board", "id": made["id"], "ch": ch})
+    return blocks, positions
+
+
 def build_combinaisons_book(lessons_json: dict, combi_by_ch: dict) -> dict:
     """The full Dubois 'Apprendre les combinaisons' book as one reader: its 41
     chapters (lessons.json) each with prose + the chapter's worked combinations
@@ -453,11 +693,13 @@ def _ex_by_chapter(rows: list[dict], id_offset: int) -> dict[int, list[dict]]:
 
 
 def build_lesson_book(book: str, level: str, chapters_dict: dict, id_offset: int,
-                      ex_by_n: dict[int, list[dict]]) -> dict:
+                      ex_by_n: dict[int, list[dict]], markdown: bool = False) -> dict:
     """A lesson-prose book (Débutant, Sens du jeu) as one reader: each chapter's
     prose with its illustrative diagrams inlined where the text refers to them,
     then the remaining practice exercises. Chapter ids are mapped to friendly
-    numbers via ``id_offset`` (Débutant 0, Sens du jeu 100)."""
+    numbers via ``id_offset`` (Débutant 0, Sens du jeu 100). ``markdown=True``
+    parses Markdown-authored chapters (Débutant) into structured blocks and
+    strips authoring scaffolding instead of dumping the prose verbatim."""
     chapters: list[dict] = []
     blocks: list[dict] = []
     positions: dict[str, dict] = {}
@@ -466,9 +708,14 @@ def build_lesson_book(book: str, level: str, chapters_dict: dict, id_offset: int
         entry = chapters_dict[idStr]
         chapters.append({"n": n, "title": entry.get("title") or f"Chapitre {n}"})
         blocks.append({"type": "h2", "ch": n, "runs": [{"t": entry.get("title") or f"Chapitre {n}"}]})
-        b, p = _lesson_blocks(n, _paras(entry.get("text", "")),
-                              entry.get("diagrams") or [], ex_by_n.get(n, []),
-                              prefix=idStr)
+        if markdown:
+            b, p = _debutant_blocks(n, entry.get("text", ""),
+                                    entry.get("diagrams") or [], ex_by_n.get(n, []),
+                                    prefix=idStr)
+        else:
+            b, p = _lesson_blocks(n, _paras(entry.get("text", "")),
+                                  entry.get("diagrams") or [], ex_by_n.get(n, []),
+                                  prefix=idStr)
         blocks.extend(b)
         positions.update(p)
     return {"book": book, "level": level, "chapters": chapters,
@@ -628,7 +875,7 @@ def main(argv: list[str]) -> int:
             deb_chapters = load_debutant_chapters()
             deb_ex = _ex_by_chapter(all_debutant_exercises(), 0)
             deb_book = build_lesson_book("Manuel Débutant", "Débutant",
-                                         deb_chapters, 0, deb_ex)
+                                         deb_chapters, 0, deb_ex, markdown=True)
             metas.append(_write_module(deb_book, "manuel_debutant"))
         except Exception as e:  # noqa: BLE001
             print(f"  (skipped manuel_debutant: {e})")
