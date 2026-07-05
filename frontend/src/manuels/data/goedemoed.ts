@@ -1164,7 +1164,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "5A) Piece <49> should defend the outpost. D) 30.34-30 25x32 31.37x19 13x24 32.33-28 Moreover, square 44 must be occupied if white 22x33 33.31x2 W+ goes to centre-square <28>, to eliminate shots with 16-21 6-11 13x.... E) 30.33-29! Now 3-9 is punished by 29-23 28x19* 38-32 27x29 34x3, while 12-17 is met by the same kind of shot. If black plays 30...11-17 31.29-23! 28x19 32.34-30 25x32 33.37x28 22x33 34.31x2 W+ follows."
+"t": "5A) Piece <49> should defend the outpost. D) 30.34-30 25x32 31.37x19 13x24 32.33-28 Moreover, square 44 must be occupied if white 22x33 33.31x2 W+ goes to centre-square <28>, to eliminate shots with 16-21 6-11 13x E) 30.33-29! Now 3-9 is punished by 29-23 28x19* 38-32 27x29 34x3, while 12-17 is met by the same kind of shot. If black plays 30...11-17 31.29-23! 28x19 32.34-30 25x32 33.37x28 22x33 34.31x2 W+ follows."
 }
 ]
 },

@@ -78,12 +78,17 @@ def _fen_to_start(fen: str):
     return out
 
 
+_DOT_LEADER = re.compile(r"\s*\.{4,}\s*")  # OCR of table-of-contents dot leaders
+_JUNK_PARA = re.compile(r"^[\s.·•\-–—]*$")
+
+
 def _paras(text: str) -> list[str]:
     text = (text or "").replace("\r", "")
     out = []
     for para in re.split(r"\n[ \t]*\n", text):
         j = _MULTISPACE.sub(" ", _WS.sub(" ", para).strip())
-        if j:
+        j = _MULTISPACE.sub(" ", _DOT_LEADER.sub(" ", j)).strip()
+        if j and not _JUNK_PARA.match(j) and not j.lower().startswith("table des matières"):
             out.append(j)
     return out
 

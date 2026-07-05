@@ -514,7 +514,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Mettez vite la position initiale sur le damier et jouez avec nous: 1.32-28 18-23 2.37-32? Une erreur! Les noirs peuvent gagner maintenant pas moins de deux pions, par le coup de mazette. Nous avons mis aussi cette position dans le diagramme. Avant de continuer la lecture, vous pouvez essayer de trouver vous-mêmes la solution de cette combinaison. C’est bien amusant. Nous révélons seulement le premier coup. 2. .....23-29! Réfléchissez un moment..."
+"t": "Mettez vite la position initiale sur le damier et jouez avec nous: 1.32-28 18-23 2.37-32? Une erreur! Les noirs peuvent gagner maintenant pas moins de deux pions, par le coup de mazette. Nous avons mis aussi cette position dans le diagramme. Avant de continuer la lecture, vous pouvez essayer de trouver vous-mêmes la solution de cette combinaison. C’est bien amusant. Nous révélons seulement le premier coup. 2. 23-29! Réfléchissez un moment..."
 }
 ]
 },
@@ -559,7 +559,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "a De nouveau les blancs ont commis une erreur. Et cette fois aussi, les noirs en profitent en exécutant une combinaison d’ouverture intéressante. Essayez de la trouver et notez-la! ............................................................."
+"t": "a De nouveau les blancs ont commis une erreur. Et cette fois aussi, les noirs en profitent en exécutant une combinaison d’ouverture intéressante. Essayez de la trouver et notez-la!"
 }
 ]
 },
@@ -573,7 +573,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "b Si les noirs essaient de gagner par 3....23-29 4.34x23 16-21 5.27x16 17-22, les blancs auront une possibilité d’échapper à la perte d’un pion. Cherchez sur le damier comment cela se passe!"
+"t": "b Si les noirs essaient de gagner par 3 23-29 4.34x23 16-21 5.27x16 17-22, les blancs auront une possibilité d’échapper à la perte d’un pion. Cherchez sur le damier comment cela se passe!"
 }
 ]
 },
@@ -632,7 +632,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Notez: Parmi ces six combinaisons j’en ai vu ....tout de suite de façon correcte. Attention: Vous pouvez répéter ce dernier exercice aussi souvent que vous voulez. Chaque fois que vous inventez un coup, il faut essayer de prévoir la position dans quelques coups. Il est possible d’exercer cette compétence en dessinant cette position dans un diagramme et de vérifier tout de suite si vous l’avez vu de façon correcte!"
+"t": "Notez: Parmi ces six combinaisons j’en ai vu tout de suite de façon correcte. Attention: Vous pouvez répéter ce dernier exercice aussi souvent que vous voulez. Chaque fois que vous inventez un coup, il faut essayer de prévoir la position dans quelques coups. Il est possible d’exercer cette compétence en dessinant cette position dans un diagramme et de vérifier tout de suite si vous l’avez vu de façon correcte!"
 }
 ]
 },
@@ -659,7 +659,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Leçon 3 De la magie Alors écoutez, êtes-vous magicien? Pas encore? Alors, nous allons vous l’apprendre vite. Un peu de magie, c’est très pratique pour exécuter des combinaisons. Regarde le DIAGRAMME 1 DIAGRAMME 1 Le joueur des blancs est au trait et il fait un vœu. Il se dit: ‘Je voudrais qu’il n’y ait pas de pion sur la case 13’. Il joue 1.24-19 13x24 et voilà, plus de pion sur 13.... Il fait un deuxième vœu: ‘Et maintenant j’aimerais mettre un pion noir sur la case 28’. Il joue 2.37-31 et hop, le voilà déjà: 26x28. Tous les voeux ont été exaucés et les blancs font une rafle: 3.33x4!"
+"t": "Leçon 3 De la magie Alors écoutez, êtes-vous magicien? Pas encore? Alors, nous allons vous l’apprendre vite. Un peu de magie, c’est très pratique pour exécuter des combinaisons. Regarde le DIAGRAMME 1 DIAGRAMME 1 Le joueur des blancs est au trait et il fait un vœu. Il se dit: ‘Je voudrais qu’il n’y ait pas de pion sur la case 13’. Il joue 1.24-19 13x24 et voilà, plus de pion sur 13 Il fait un deuxième vœu: ‘Et maintenant j’aimerais mettre un pion noir sur la case 28’. Il joue 2.37-31 et hop, le voilà déjà: 26x28. Tous les voeux ont été exaucés et les blancs font une rafle: 3.33x4!"
 }
 ]
 },
@@ -678,7 +678,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Exécuter une combinaison ressemble ainsi un peu à la magie. Tandis que tout le monde pense que tout est sous contrôle, vous réalisez soudain une combinaison intéressante. Vous enlevez un pion par ici, Vous transférez un pion par là et .... voilà ...vous prenez presque tous les pions. Seulement, il faut savoir découvrir ces combinaisons dans vos propres parties. Comment le faire? C’est simple: il faut bien chercher. Car:"
+"t": "Exécuter une combinaison ressemble ainsi un peu à la magie. Tandis que tout le monde pense que tout est sous contrôle, vous réalisez soudain une combinaison intéressante. Vous enlevez un pion par ici, Vous transférez un pion par là et voilà ...vous prenez presque tous les pions. Seulement, il faut savoir découvrir ces combinaisons dans vos propres parties. Comment le faire? C’est simple: il faut bien chercher. Car:"
 }
 ]
 },
@@ -948,7 +948,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Leçon 5 Le contre-temps DIAGRAMME 1 Regardez le DIAGRAMME 1. Dans cette position les blancs gagnent par une combinaison. Vous ne la voyez pas? Normal, il n’y a encore rien de grave. Les blancs jouent d’abord un contre-temps: 1. 33-28! Après cette attaque les noirs sont obligés de s’en aller: 1....23-29 et puis les blancs frappent par 2.28- 22! 17x28 3.32x34."
+"t": "Leçon 5 Le contre-temps DIAGRAMME 1 Regardez le DIAGRAMME 1. Dans cette position les blancs gagnent par une combinaison. Vous ne la voyez pas? Normal, il n’y a encore rien de grave. Les blancs jouent d’abord un contre-temps: 1. 33-28! Après cette attaque les noirs sont obligés de s’en aller: 1 23-29 et puis les blancs frappent par 2.28- 22! 17x28 3.32x34."
 }
 ]
 },
@@ -1429,7 +1429,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Leçon 8 Le temps de repos DIAGRAMME 1 Attention! Voici quelque chose de très spécial. Dans le DIAGRAMME 1 vous voyez une position pas très intéressante. Tous les deux ont encore trois pions et vous avez l’impression que le résultat sera match nul. Voilà que le joueur des blancs joue un coup. Vous nous suivez? 1.37-31. Un coup calme. Le trait est aux noirs....Le trait est aux noirs! Vous voyez ce qui se passe? Ils peuvent avancer leur pion sur la case 7 dans les deux directions. Mais quoi que les noirs fassent, les blancs poursuivent dans les deux cas d’une manière gagnante: 2. 33-28 23x32 3.31-27 32x21 et 4.26x6 ou 26x8 Le coup 1.37-31 est un coup de repos intéressant du joueur des blancs. Il ne menace nulle part, mais il a positionné ses pions de telle manière qu’il peut frapper après n’importe quelle réponse des noirs. Bien souvent les damistes sont très surpris quand une telle chose leur arrive. Ce n’est pas étonnant, car ils ne s’attendent guère à un tel coup tranquille."
+"t": "Leçon 8 Le temps de repos DIAGRAMME 1 Attention! Voici quelque chose de très spécial. Dans le DIAGRAMME 1 vous voyez une position pas très intéressante. Tous les deux ont encore trois pions et vous avez l’impression que le résultat sera match nul. Voilà que le joueur des blancs joue un coup. Vous nous suivez? 1.37-31. Un coup calme. Le trait est aux noirs Le trait est aux noirs! Vous voyez ce qui se passe? Ils peuvent avancer leur pion sur la case 7 dans les deux directions. Mais quoi que les noirs fassent, les blancs poursuivent dans les deux cas d’une manière gagnante: 2. 33-28 23x32 3.31-27 32x21 et 4.26x6 ou 26x8 Le coup 1.37-31 est un coup de repos intéressant du joueur des blancs. Il ne menace nulle part, mais il a positionné ses pions de telle manière qu’il peut frapper après n’importe quelle réponse des noirs. Bien souvent les damistes sont très surpris quand une telle chose leur arrive. Ce n’est pas étonnant, car ils ne s’attendent guère à un tel coup tranquille."
 }
 ]
 },
@@ -1966,7 +1966,7 @@ const DATA: ManuelData = {
 "ch": 12,
 "runs": [
 {
-"t": "DIAGRAMME 1 Connaissez-vous le proverbe « Tout ce qui brille n’est pas d’or « ? Cela veut dire que quelque chose peut avoir l’air séduisant, alors qu’en réalité il faut se méfier. Il y a cela aussi de temps en temps par rapport aux combinaisons. Regardez bien le DIAGRAMME 1. Les noirs viennent de jouer 11-17 et ce coup semble une grosse erreur. Le joueur des blancs pense ´quel abruti’ et il joue immédiatement 1. 28-22 17x28 2. 32x14. Mais zut alors! Les blancs se sont faits avoir ! A leur tour les noirs exécutent maintenant une combinaison: 2. ....13-19! 3.14x23 18x47 et les blancs ont fait une drôle de tête ! Le coup 11-17 avait l’air d’une erreur. Mais au fond ce coup était très malin de la part des noirs. C’était un piège. Les noirs ont tendu un piège et les blancs sont tombés dedans, les yeux ouverts. Essayez toujours de voir un peu plus loin avant d’exécuter une combinaison. Il se peut que votre adversaire vous tende un piège. Qui sait."
+"t": "DIAGRAMME 1 Connaissez-vous le proverbe « Tout ce qui brille n’est pas d’or « ? Cela veut dire que quelque chose peut avoir l’air séduisant, alors qu’en réalité il faut se méfier. Il y a cela aussi de temps en temps par rapport aux combinaisons. Regardez bien le DIAGRAMME 1. Les noirs viennent de jouer 11-17 et ce coup semble une grosse erreur. Le joueur des blancs pense ´quel abruti’ et il joue immédiatement 1. 28-22 17x28 2. 32x14. Mais zut alors! Les blancs se sont faits avoir ! A leur tour les noirs exécutent maintenant une combinaison: 2. 13-19! 3.14x23 18x47 et les blancs ont fait une drôle de tête ! Le coup 11-17 avait l’air d’une erreur. Mais au fond ce coup était très malin de la part des noirs. C’était un piège. Les noirs ont tendu un piège et les blancs sont tombés dedans, les yeux ouverts. Essayez toujours de voir un peu plus loin avant d’exécuter une combinaison. Il se peut que votre adversaire vous tende un piège. Qui sait."
 }
 ]
 },
@@ -2206,7 +2206,7 @@ const DATA: ManuelData = {
 "ch": 14,
 "runs": [
 {
-"t": "Leçon 14 Le gambit DIAGRAMME 1 Ce qui est amusant avec un gambit, c’est que vous avez l’impression que vous commettez une erreur grave en donnant un pion. Et vous gagnez quand même! Le joueur des noirs dans le DIAGRAMME 1 est content de sa position. Il a construit une position en yet il menace d’exécuter une combinaison.....mais les blancs ne se laissent pas intimider et observent toutes les possibilités. Ils découvrent un endroit faible dans la position noire: après un gambit il est possible d’attaquer le pion sur 24. Les blancs jouent: 1. 32-28!! 23x32 2.34-29! Que faire? Qu’ils jouent n’importe quel coup, les noirs perdront toujours deux pions. En plus, les blancs atteindront bientôt la ligne de promotion. Voyez-vous que les pions noirs en haut à gauche sont trop loins pour secourir les autres? Ils n’ont aucun intérêt pour les noirs. Il est plus judicieux de regrouper les pions de sorte qu’ils pourront être utiles les uns aux autres dans des moments difficiles. . Exercice 1"
+"t": "Leçon 14 Le gambit DIAGRAMME 1 Ce qui est amusant avec un gambit, c’est que vous avez l’impression que vous commettez une erreur grave en donnant un pion. Et vous gagnez quand même! Le joueur des noirs dans le DIAGRAMME 1 est content de sa position. Il a construit une position en yet il menace d’exécuter une combinaison mais les blancs ne se laissent pas intimider et observent toutes les possibilités. Ils découvrent un endroit faible dans la position noire: après un gambit il est possible d’attaquer le pion sur 24. Les blancs jouent: 1. 32-28!! 23x32 2.34-29! Que faire? Qu’ils jouent n’importe quel coup, les noirs perdront toujours deux pions. En plus, les blancs atteindront bientôt la ligne de promotion. Voyez-vous que les pions noirs en haut à gauche sont trop loins pour secourir les autres? Ils n’ont aucun intérêt pour les noirs. Il est plus judicieux de regrouper les pions de sorte qu’ils pourront être utiles les uns aux autres dans des moments difficiles. . Exercice 1"
 }
 ]
 },
@@ -2249,7 +2249,7 @@ const DATA: ManuelData = {
 "ch": 14,
 "runs": [
 {
-"t": "DIAGRAMME 5 Vous allez regarder le DIAGRAMME 5. Vous nous suivez? Les blancs pourraient construire une position en yen jouant 1.39-34. La conséquence de ce coup, c’est le risque de donner un pion pour en reprendre trois. Les damistes disent: un pour trois. Mais après ce coup les noirs seront en difficulté. Ils jouent tout simplement 1.....20-25 2.29x20 25x14 et après ce pionnage il n’y a pas de souci, pour l’instant. Nous remettons la position. Regardons encore une fois. Vous vous doutez de sacrifier un pion? Ce coup sera 1.29-23!!18x29 et ensuite les blancs jouent le coup d’attaque 2.39-34! Cette fois il n’y a pas d’échappatoire pour les noirs. Ils perdront au moins un pion."
+"t": "DIAGRAMME 5 Vous allez regarder le DIAGRAMME 5. Vous nous suivez? Les blancs pourraient construire une position en yen jouant 1.39-34. La conséquence de ce coup, c’est le risque de donner un pion pour en reprendre trois. Les damistes disent: un pour trois. Mais après ce coup les noirs seront en difficulté. Ils jouent tout simplement 1 20-25 2.29x20 25x14 et après ce pionnage il n’y a pas de souci, pour l’instant. Nous remettons la position. Regardons encore une fois. Vous vous doutez de sacrifier un pion? Ce coup sera 1.29-23!!18x29 et ensuite les blancs jouent le coup d’attaque 2.39-34! Cette fois il n’y a pas d’échappatoire pour les noirs. Ils perdront au moins un pion."
 }
 ]
 },
@@ -2306,7 +2306,7 @@ const DATA: ManuelData = {
 "ch": 14,
 "runs": [
 {
-"t": "Un autre exemple. DIAGRAMME 13 Vous voyez pas mal de trous dans la position des noirs dans le DIAGRAMME 13. Avec un pion blanc sur 32 (qui manque en ce moment!) il y a un petit chemin de rafle vers la case 1 et vers la case 3. Observez comment les blancs en profitent. Ils jouent 1.26-21!! 27x16 2.38-32! Pour les noirs ce coup est terrible. Que doivent-ils faire? Les blancs menacent d’exécuter une rafle vers la dame de deux manières. Cela s’appelle une double menace. Fermer la case 23 ne sert à rien. Car après 2....18-23 ou 2....19-23 les blancs enlèvent au milieu le pion en jouant 3.34-29. Et s’en aller avec 2...28-33 n’est pas possible non plus; dans ce cas les blancs en prennent trois. La situation est désespérante. Les noirs vont perdre inévitablement."
+"t": "Un autre exemple. DIAGRAMME 13 Vous voyez pas mal de trous dans la position des noirs dans le DIAGRAMME 13. Avec un pion blanc sur 32 (qui manque en ce moment!) il y a un petit chemin de rafle vers la case 1 et vers la case 3. Observez comment les blancs en profitent. Ils jouent 1.26-21!! 27x16 2.38-32! Pour les noirs ce coup est terrible. Que doivent-ils faire? Les blancs menacent d’exécuter une rafle vers la dame de deux manières. Cela s’appelle une double menace. Fermer la case 23 ne sert à rien. Car après 2 18-23 ou 2 19-23 les blancs enlèvent au milieu le pion en jouant 3.34-29. Et s’en aller avec 2...28-33 n’est pas possible non plus; dans ce cas les blancs en prennent trois. La situation est désespérante. Les noirs vont perdre inévitablement."
 }
 ]
 },
@@ -2413,7 +2413,7 @@ const DATA: ManuelData = {
 "ch": 15,
 "runs": [
 {
-"t": "Exercice 1 Qu’est-ce que vous joueriez si vous aviez le trait avec les noirs dans le diagramme 1? ............................................................. DIAGRAMME 2 Exercice 2 Nous vous présentons quatre positions à résoudre. Vous voyez peut- être la solution des deux premières sans faire un gros effort. Pour les deux autres vous aurez peut-être besoin d’un damier pour tout découvrir."
+"t": "Exercice 1 Qu’est-ce que vous joueriez si vous aviez le trait avec les noirs dans le diagramme 1? DIAGRAMME 2 Exercice 2 Nous vous présentons quatre positions à résoudre. Vous voyez peut- être la solution des deux premières sans faire un gros effort. Pour les deux autres vous aurez peut-être besoin d’un damier pour tout découvrir."
 }
 ]
 },
@@ -2496,7 +2496,7 @@ const DATA: ManuelData = {
 "ch": 16,
 "runs": [
 {
-"t": "Leçon 16 Une attaque à un endroit sensible DIAGRAMME 1 Dans le jeu de dames il faut souvent prévoir quelques coups. « Si je fais ce coup-là, alors lui, il joue là et puis je peux.... », telles peuvent être nos pensées quand nous jouons aux dames. Dans le DIAGRAMME 1 le coup d’attaque 1.28-22 a l’air anodin à première vue. Cela semble un pionnage ordinaire. Mais quand vous voyez, en pensée, un peu plus loin...ah! L’attaque a un effet radical! Voyez- vous ce qui va se passer maintenant?"
+"t": "Leçon 16 Une attaque à un endroit sensible DIAGRAMME 1 Dans le jeu de dames il faut souvent prévoir quelques coups. « Si je fais ce coup-là, alors lui, il joue là et puis je peux », telles peuvent être nos pensées quand nous jouons aux dames. Dans le DIAGRAMME 1 le coup d’attaque 1.28-22 a l’air anodin à première vue. Cela semble un pionnage ordinaire. Mais quand vous voyez, en pensée, un peu plus loin...ah! L’attaque a un effet radical! Voyez- vous ce qui va se passer maintenant?"
 }
 ]
 },
@@ -2548,7 +2548,7 @@ const DATA: ManuelData = {
 "ch": 16,
 "runs": [
 {
-"t": "Le DIAGRAMME 5 ressemble un peu à notre exemple précédent. Seulement, maintenant il y a un pion sur la case 17 qui bloque le pion sur 28. Cependant, il est possible d’atteindre l’endroit sensible sur la case 13. Vous le réalisez en donnant un pion: 26-21!! 17x26 2.28-22! Et quoi que les noirs fassent, ils perdront au moins un pion. Faites quand même attention au coup 2.....26-31. Si les noirs jouent ce coup-là, les noirs prendront d’abord 37x26 bien sûr!"
+"t": "Le DIAGRAMME 5 ressemble un peu à notre exemple précédent. Seulement, maintenant il y a un pion sur la case 17 qui bloque le pion sur 28. Cependant, il est possible d’atteindre l’endroit sensible sur la case 13. Vous le réalisez en donnant un pion: 26-21!! 17x26 2.28-22! Et quoi que les noirs fassent, ils perdront au moins un pion. Faites quand même attention au coup 2 26-31. Si les noirs jouent ce coup-là, les noirs prendront d’abord 37x26 bien sûr!"
 }
 ]
 },
@@ -2557,7 +2557,7 @@ const DATA: ManuelData = {
 "ch": 16,
 "runs": [
 {
-"t": "Auriez-vous vu cette victoire aussi dans une partie officielle? Qu’en pensez- vous? Dans ces circonstances, il est plus difficile, parce qu’il faut faire attention à tant d’autres choses. Et ....nous n’allons pas vous avertir quand il y a un gambit intéressant. Le mieux sera de détecter les points faibles dans la position ennemie."
+"t": "Auriez-vous vu cette victoire aussi dans une partie officielle? Qu’en pensez- vous? Dans ces circonstances, il est plus difficile, parce qu’il faut faire attention à tant d’autres choses. Et nous n’allons pas vous avertir quand il y a un gambit intéressant. Le mieux sera de détecter les points faibles dans la position ennemie."
 }
 ]
 },
@@ -2643,7 +2643,7 @@ const DATA: ManuelData = {
 "ch": 16,
 "runs": [
 {
-"t": "Sauriez-vous trouver vous-mêmes la solution des positions suivantes? Eh....il faut calculer à l’avance bien sûr. Faites-le comme suit:"
+"t": "Sauriez-vous trouver vous-mêmes la solution des positions suivantes? Eh il faut calculer à l’avance bien sûr. Faites-le comme suit:"
 }
 ]
 },
@@ -2824,7 +2824,7 @@ const DATA: ManuelData = {
 "ch": 17,
 "runs": [
 {
-"t": "Vous savez quoi? Vous continuez simplement un peu la partie. Cherchez un adversaire.Tirez à pile ou face celui qui joue avec les blancs. Et c’est parti. Nous sommes curieux de savoir quel est le résultat. Et ....les blancs ont le droit de bien réfléchir sur leur premier coup!"
+"t": "Vous savez quoi? Vous continuez simplement un peu la partie. Cherchez un adversaire.Tirez à pile ou face celui qui joue avec les blancs. Et c’est parti. Nous sommes curieux de savoir quel est le résultat. Et les blancs ont le droit de bien réfléchir sur leur premier coup!"
 }
 ]
 },
@@ -3111,7 +3111,7 @@ const DATA: ManuelData = {
 "ch": 20,
 "runs": [
 {
-"t": "Leçon 20 Apprendre de vos erreurs Nous sommes déjà arrivés presque à mi-chemin de cette série de leçons. Vous en savez maintenant beaucoup sur la combinaison. Cela vaut aussi pour l’attaque et la défense des pions. Mais savoir ....et appliquer vos connaissances sont deux choses différentes. Dans votre partie vous pouvez commettre pas mal d’erreurs. Et après vous pouvez dire: « Ah! Que c’est idiot que je n’aie pas vu ça »."
+"t": "Leçon 20 Apprendre de vos erreurs Nous sommes déjà arrivés presque à mi-chemin de cette série de leçons. Vous en savez maintenant beaucoup sur la combinaison. Cela vaut aussi pour l’attaque et la défense des pions. Mais savoir et appliquer vos connaissances sont deux choses différentes. Dans votre partie vous pouvez commettre pas mal d’erreurs. Et après vous pouvez dire: « Ah! Que c’est idiot que je n’aie pas vu ça »."
 }
 ]
 },
@@ -3129,7 +3129,7 @@ const DATA: ManuelData = {
 "ch": 20,
 "runs": [
 {
-"t": "Cherchez toujours pendant la partie des actions solides. La combinaison - l’attaque - le blocage - aller à dame - vous vous en souvenez? Essayez aussi de découvrir des pionnages et des gambits surprenants. Pour vous-mêmes.... et pour votre adversaire."
+"t": "Cherchez toujours pendant la partie des actions solides. La combinaison - l’attaque - le blocage - aller à dame - vous vous en souvenez? Essayez aussi de découvrir des pionnages et des gambits surprenants. Pour vous-mêmes et pour votre adversaire."
 }
 ]
 },
@@ -3174,7 +3174,7 @@ const DATA: ManuelData = {
 "ch": 20,
 "runs": [
 {
-"t": "Alexandre Schwarzman, un jeune Russe de 25 ans, grand-maître, et un des favoris pour le titre mondial. En face de lui se trouve un vieillard qui a dépassé les 70 ans. Mais ne vous trompez pas. Ce monsieur a été champion du monde six fois! Il s’appelle Iser Kouperman, un ex-Russe qui habite aux États-Unis. Alexandre compte bien remporter la partie et joue d’une manière fanatique, tandis que Iser pionne beaucoup et semble se contenter d’un match nul. Quand nous DIAGRAMME 1 jetons un coup d’œil sur la pendule, nous voyons que l’aiguille d’Alexandre est presqu’en haut. Son drapeau est sur le point de tomber, selon la langue des damistes. Kouperman a encore beaucoup de temps et il s’en sert pour réfléchir sur son coup prochain. Attention, Kouperman va jouer. Vous nous suivez? Regardez le DIAGRAMME 1. Il joue 1.37-31 et appuie vite sur la pendule. Schwarzman réfléchit un moment et il décide qu’il peut attaquer le pion sur 31 avec 21-26. Les blancs seront obligés évidemment de jouer 33-28 et les noirs peuvent continuer. 1....21-26 2.42-37!! Kouperman joue extrêmement vite et il appuie tout de suite sur la pendule. Quel coup bizarre! Là, à gauche les pions blancs et noirs sont regroupés. Cela ressemble à des travaux de tressage. Mais Alexandre n’a pas le temps d’admirer tout cela, il doit jouer immédiatement, sinon il perd à la pendule. 2.20-24? Maintenant Kouperman prend son temps. Il se met en arrière sur sa chaise, observe pendant un moment son adversaire et il respire profondément et joue ...27-22!! Un coup surprenant. Les noirs doivent prendre deux pions: 2...36x18 3.37-31 26x28 4.33x4. Et un peu plus tard le jeune Russe abandonne."
+"t": "Alexandre Schwarzman, un jeune Russe de 25 ans, grand-maître, et un des favoris pour le titre mondial. En face de lui se trouve un vieillard qui a dépassé les 70 ans. Mais ne vous trompez pas. Ce monsieur a été champion du monde six fois! Il s’appelle Iser Kouperman, un ex-Russe qui habite aux États-Unis. Alexandre compte bien remporter la partie et joue d’une manière fanatique, tandis que Iser pionne beaucoup et semble se contenter d’un match nul. Quand nous DIAGRAMME 1 jetons un coup d’œil sur la pendule, nous voyons que l’aiguille d’Alexandre est presqu’en haut. Son drapeau est sur le point de tomber, selon la langue des damistes. Kouperman a encore beaucoup de temps et il s’en sert pour réfléchir sur son coup prochain. Attention, Kouperman va jouer. Vous nous suivez? Regardez le DIAGRAMME 1. Il joue 1.37-31 et appuie vite sur la pendule. Schwarzman réfléchit un moment et il décide qu’il peut attaquer le pion sur 31 avec 21-26. Les blancs seront obligés évidemment de jouer 33-28 et les noirs peuvent continuer. 1 21-26 2.42-37!! Kouperman joue extrêmement vite et il appuie tout de suite sur la pendule. Quel coup bizarre! Là, à gauche les pions blancs et noirs sont regroupés. Cela ressemble à des travaux de tressage. Mais Alexandre n’a pas le temps d’admirer tout cela, il doit jouer immédiatement, sinon il perd à la pendule. 2.20-24? Maintenant Kouperman prend son temps. Il se met en arrière sur sa chaise, observe pendant un moment son adversaire et il respire profondément et joue ...27-22!! Un coup surprenant. Les noirs doivent prendre deux pions: 2...36x18 3.37-31 26x28 4.33x4. Et un peu plus tard le jeune Russe abandonne."
 }
 ]
 },
@@ -3183,7 +3183,7 @@ const DATA: ManuelData = {
 "ch": 20,
 "runs": [
 {
-"t": "a. Quel est le nom de la combinaison ´type ´ par laquelle Kouperman a gagné? ..............................................................."
+"t": "a. Quel est le nom de la combinaison ´type ´ par laquelle Kouperman a gagné?"
 }
 ]
 },
@@ -3192,7 +3192,7 @@ const DATA: ManuelData = {
 "ch": 20,
 "runs": [
 {
-"t": "b. Après 2.42-37 les blancs menacent avec la combinaison que Schwarzman n’a pas vue venir. Les blancs menacent aussi d’une autre action forte. Quelle est cette action et comment les noirs peuvent-ils se défendre contre cette action selon vous? ..............................................................."
+"t": "b. Après 2.42-37 les blancs menacent avec la combinaison que Schwarzman n’a pas vue venir. Les blancs menacent aussi d’une autre action forte. Quelle est cette action et comment les noirs peuvent-ils se défendre contre cette action selon vous?"
 }
 ]
 },
@@ -3201,7 +3201,7 @@ const DATA: ManuelData = {
 "ch": 20,
 "runs": [
 {
-"t": "c. Pourquoi Kuperman a-t-il joué si vite 2.42-37? Il disposait encore de beaucoup de temps quand même? ..............................................................."
+"t": "c. Pourquoi Kuperman a-t-il joué si vite 2.42-37? Il disposait encore de beaucoup de temps quand même?"
 }
 ]
 },
@@ -3210,7 +3210,7 @@ const DATA: ManuelData = {
 "ch": 20,
 "runs": [
 {
-"t": "d. Est-ce que le coup 2....20-24 est une grosse erreur de la part d’Alexandre? Pourquoi oui, pourquoi non? ..............................................................."
+"t": "d. Est-ce que le coup 2 20-24 est une grosse erreur de la part d’Alexandre? Pourquoi oui, pourquoi non?"
 }
 ]
 },
@@ -3384,7 +3384,7 @@ const DATA: ManuelData = {
 "ch": 21,
 "runs": [
 {
-"t": "DIAGRAMME 6 Là aussi,,,, dans le DIAGRAMME 6 les blancs découvrent un petit chemin vers la rangée adverse. Cette fois sur l’aile gauche: 1.28-22!! Une attaque. Les noirs n’ont pas le choix: 1.... 18-23* 2.22-17! Vous le voyez: les pions 7 et 16 sont en difficulté. Quel que soit le coup que les noirs jouent, au prochain coup les blancs glissent entre ces deux pions pour aller à la rangée damante: 3.17-11! 7-12* 4.11-6 et les noirs sont désemparés."
+"t": "DIAGRAMME 6 Là aussi,,,, dans le DIAGRAMME 6 les blancs découvrent un petit chemin vers la rangée adverse. Cette fois sur l’aile gauche: 1.28-22!! Une attaque. Les noirs n’ont pas le choix: 1 18-23* 2.22-17! Vous le voyez: les pions 7 et 16 sont en difficulté. Quel que soit le coup que les noirs jouent, au prochain coup les blancs glissent entre ces deux pions pour aller à la rangée damante: 3.17-11! 7-12* 4.11-6 et les noirs sont désemparés."
 }
 ]
 },
@@ -3652,7 +3652,7 @@ const DATA: ManuelData = {
 "ch": 23,
 "runs": [
 {
-"t": "Combien de pions faut-il investir dans le débordement après le coup 11- 17? Aucun. Cela ne coûte rien! Si les noirs veulent jeter en arrière le pion sur 11 avec le coup 12-17, cela leur coûtera deux pions. Et après 5. ....27-31 les blancs jouent simplement 6.39-33! 31x42 7.38x47."
+"t": "Combien de pions faut-il investir dans le débordement après le coup 11- 17? Aucun. Cela ne coûte rien! Si les noirs veulent jeter en arrière le pion sur 11 avec le coup 12-17, cela leur coûtera deux pions. Et après 5. 27-31 les blancs jouent simplement 6.39-33! 31x42 7.38x47."
 }
 ]
 },
@@ -3714,7 +3714,7 @@ const DATA: ManuelData = {
 "ch": 23,
 "runs": [
 {
-"t": "............................................................. 2b Exécutez encore une fois la combinaison en pensée. Notez ensuite la position qui reste dans le vide DIAGRAMME 4."
+"t": "2b Exécutez encore une fois la combinaison en pensée. Notez ensuite la position qui reste dans le vide DIAGRAMME 4."
 }
 ]
 },
@@ -3750,7 +3750,7 @@ const DATA: ManuelData = {
 "ch": 24,
 "runs": [
 {
-"t": "Leçon 24 Toutes sortes d’actions de débordement L’attaque, le pionnage, les gambits....voilà des astuces pour percer les lignes ennemies. Savez-vous ce qu’il faut faire dans vos propres parties? DIAGRAMME 1 Essayez de détecter les points faibles dans la défense de votre adversaire. «A quel endroit y a-t-il le moins de pions »? « Est-ce que je peux passer à travers des mailles du filet quelque part? » « Ou est-ce que je peux enlever les pions qui gênent le passage en pionnant, par un gambit ou par une combinaison? »"
+"t": "Leçon 24 Toutes sortes d’actions de débordement L’attaque, le pionnage, les gambits voilà des astuces pour percer les lignes ennemies. Savez-vous ce qu’il faut faire dans vos propres parties? DIAGRAMME 1 Essayez de détecter les points faibles dans la défense de votre adversaire. «A quel endroit y a-t-il le moins de pions »? « Est-ce que je peux passer à travers des mailles du filet quelque part? » « Ou est-ce que je peux enlever les pions qui gênent le passage en pionnant, par un gambit ou par une combinaison? »"
 }
 ]
 },
@@ -3792,7 +3792,7 @@ const DATA: ManuelData = {
 "ch": 24,
 "runs": [
 {
-"t": "A vous maintenant de découvrir comment les blancs peuvent gagner dans le DIAGRAMME 2. DIAGRAMME 3 ............................................................."
+"t": "A vous maintenant de découvrir comment les blancs peuvent gagner dans le DIAGRAMME 2. DIAGRAMME 3"
 }
 ]
 },
@@ -3801,7 +3801,7 @@ const DATA: ManuelData = {
 "ch": 24,
 "runs": [
 {
-"t": "Une action de débordement peut prendre quelques coups, ce n’est pas grave. Dans le DIAGRAMME 3 les blancs s’approchent pas à pas de leur but. Cela commence par un pionnage : 1.27-22! 18x27 2.32x21. C’est malin de la part des blancs, car maintenant les noirs ne peuvent plus pionner en arrière avec 6-11. Regardez si vous voyez apparaître déjà la menace de débordement.... Bientôt les blancs vont pionner encore une fois: 3.21-17 12x21 4.26x17 et puis vous voyez la naissance d’un petit chemin pour le pion sur 16. Les noirs le voient arriver avec tristesse. Ils ne peuvent pas déplacer le pion sur 12 (pourquoi pas?) et les autres pions sont trop loins pour les secourir. Ce n’est qu’avec 8-13-18 qu’ils peuvent se défendre encore un peu."
+"t": "Une action de débordement peut prendre quelques coups, ce n’est pas grave. Dans le DIAGRAMME 3 les blancs s’approchent pas à pas de leur but. Cela commence par un pionnage : 1.27-22! 18x27 2.32x21. C’est malin de la part des blancs, car maintenant les noirs ne peuvent plus pionner en arrière avec 6-11. Regardez si vous voyez apparaître déjà la menace de débordement Bientôt les blancs vont pionner encore une fois: 3.21-17 12x21 4.26x17 et puis vous voyez la naissance d’un petit chemin pour le pion sur 16. Les noirs le voient arriver avec tristesse. Ils ne peuvent pas déplacer le pion sur 12 (pourquoi pas?) et les autres pions sont trop loins pour les secourir. Ce n’est qu’avec 8-13-18 qu’ils peuvent se défendre encore un peu."
 }
 ]
 },
@@ -3838,7 +3838,7 @@ const DATA: ManuelData = {
 "ch": 24,
 "runs": [
 {
-"t": "Nous allons compliquer les choses. Dans le DIAGRAMME 6 le damier est encore rempli de beaucoup de pions et la défense des noirs a l’air solide. Suivez bien comment les blancs dénoncent le point vulnérable DIAGRAMME 6 dans la position: 1.32-28!! 23x32 2.37x28. Voilà déjà la menace. Si les noirs ne font rien, les blancs joueront 3.28-33! (prise majoritaire) et ils déborderont vers la case 10. Ils peuvent différer un instant le débordement en jouant 2. ...18-23. Mais les blancs ont accroché et ils ne lâchent plus. Ils attrapent la prise avec 3.42-37 23x32 4.37x28! De nouveau menace 28-23. Cette fois c’est imparable. Les noirs acceptent leur sort. Ils jouent 4....17-21 5.38-23! 19x39 6.30x10 9-14 (en l’occurrence le meilleur coup) 7.10x19 13x24 9.43x34. Les noirs ont un pion de moins et ils vont perdre aussi le pion sur 24. Suivez-nous: 8....8-13 9.38-33 et le pion 24 est pris après DIAGRAMME 7 l’attaque avec10.34-29!"
+"t": "Nous allons compliquer les choses. Dans le DIAGRAMME 6 le damier est encore rempli de beaucoup de pions et la défense des noirs a l’air solide. Suivez bien comment les blancs dénoncent le point vulnérable DIAGRAMME 6 dans la position: 1.32-28!! 23x32 2.37x28. Voilà déjà la menace. Si les noirs ne font rien, les blancs joueront 3.28-33! (prise majoritaire) et ils déborderont vers la case 10. Ils peuvent différer un instant le débordement en jouant 2. ...18-23. Mais les blancs ont accroché et ils ne lâchent plus. Ils attrapent la prise avec 3.42-37 23x32 4.37x28! De nouveau menace 28-23. Cette fois c’est imparable. Les noirs acceptent leur sort. Ils jouent 4 17-21 5.38-23! 19x39 6.30x10 9-14 (en l’occurrence le meilleur coup) 7.10x19 13x24 9.43x34. Les noirs ont un pion de moins et ils vont perdre aussi le pion sur 24. Suivez-nous: 8 8-13 9.38-33 et le pion 24 est pris après DIAGRAMME 7 l’attaque avec10.34-29!"
 }
 ]
 },
@@ -3911,7 +3911,7 @@ const DATA: ManuelData = {
 "ch": 25,
 "runs": [
 {
-"t": "DIAGRAMME 1 Nous avons déjà parlé de la conquête d’un avant-poste en l’attaquant plusieurs fois de suite. Vous ne pouvez pas appliquer cette tactique dans le DIAGRAMME 1. Bien sûr, vous pouvez attaquer deux fois le pion sur 27, mais vous pouvez également défendre ce pion deux fois. Tout va bien donc? Il faut examiner cette situation. Mettez la position sur le damier et suivez- nous: 1.37-32 11-16 2. 32x21 16x27 3.41-37 7-11 4.37-32 11-16 5.32x21 16x27. Eh bien, ça y est. Le pion sur 27 est toujours là. Mais à cause de la défense de cet avant-poste, les forces à l’aile droite des noirs sont complètement épuisées. Le pion se trouve isolé. A l’aide de quelques pionnages, les blancs débordent: 6.38-32 27x38 7.43x32 18-23 8.31-27! Après 8.26-21 22-28 les noirs déborderaient aussi. 8....22x31 9.36x27 et après ce pionnage le pion 26 avance tranquillement vers une dame."
+"t": "DIAGRAMME 1 Nous avons déjà parlé de la conquête d’un avant-poste en l’attaquant plusieurs fois de suite. Vous ne pouvez pas appliquer cette tactique dans le DIAGRAMME 1. Bien sûr, vous pouvez attaquer deux fois le pion sur 27, mais vous pouvez également défendre ce pion deux fois. Tout va bien donc? Il faut examiner cette situation. Mettez la position sur le damier et suivez- nous: 1.37-32 11-16 2. 32x21 16x27 3.41-37 7-11 4.37-32 11-16 5.32x21 16x27. Eh bien, ça y est. Le pion sur 27 est toujours là. Mais à cause de la défense de cet avant-poste, les forces à l’aile droite des noirs sont complètement épuisées. Le pion se trouve isolé. A l’aide de quelques pionnages, les blancs débordent: 6.38-32 27x38 7.43x32 18-23 8.31-27! Après 8.26-21 22-28 les noirs déborderaient aussi. 8 22x31 9.36x27 et après ce pionnage le pion 26 avance tranquillement vers une dame."
 }
 ]
 },
@@ -4262,7 +4262,7 @@ const DATA: ManuelData = {
 "ch": 28,
 "runs": [
 {
-"t": "Trois pions .........% .........% ..............% DIAGRAMME 4 Une dame dans une position avec un grand nombre de pions"
+"t": "Trois pions % % % DIAGRAMME 4 Une dame dans une position avec un grand nombre de pions"
 }
 ]
 },
@@ -4830,7 +4830,7 @@ const DATA: ManuelData = {
 "ch": 31,
 "runs": [
 {
-"t": "Dans le DIAGRAMME 1 il faut essayer de chasser les pions vers la bande pour les y bloquer. Jouez avec nous: 1.1-23 10-15. Ok, le voilà à la bande. Au suivant: 2.23-32 21-26. Cela y est aussi. Et maintenant? Ce serait amusant si vous pouviez mettre la dame sur la case 42, ce serait vite fait. Mais non, ce n’est pas possible. Non, il faudra ´lâcher’ un peu un des pions de bande. Regardez, vous le faites comme suit: 3.32-37! 15-20 4.37-42! « Allez, toi, retour à la bande « dit la dame blanche. 4....20-25 5.42-48 Cela y est. Notre dame a un oeil sur les deux pions. Les noirs ont beau sacrifier un pion, cela ne sert à rien. Ils vont perdre."
+"t": "Dans le DIAGRAMME 1 il faut essayer de chasser les pions vers la bande pour les y bloquer. Jouez avec nous: 1.1-23 10-15. Ok, le voilà à la bande. Au suivant: 2.23-32 21-26. Cela y est aussi. Et maintenant? Ce serait amusant si vous pouviez mettre la dame sur la case 42, ce serait vite fait. Mais non, ce n’est pas possible. Non, il faudra ´lâcher’ un peu un des pions de bande. Regardez, vous le faites comme suit: 3.32-37! 15-20 4.37-42! « Allez, toi, retour à la bande « dit la dame blanche. 4 20-25 5.42-48 Cela y est. Notre dame a un oeil sur les deux pions. Les noirs ont beau sacrifier un pion, cela ne sert à rien. Ils vont perdre."
 }
 ]
 },
@@ -4905,7 +4905,7 @@ const DATA: ManuelData = {
 "ch": 31,
 "runs": [
 {
-"t": "C’était simple. Mais passons maintenant au DIAGRAMME 10. Là, il faut DIAGRAMME 10 chercher une autre tactique. Vous nous suivez? 1.7-2! 13-18 2.2-7! Les blancs chassent le pion inférieur. Leur intention est de les mettre ensemble sur une ligne: 2.... 18-22. Les blancs obtiennent ce qu’ils veulent. Les deux pions se trouvent sur la ligne 6-50. Comment continuer? Peut-être avec 3.7-11...? Raté. Après ce coup le résultat sera l’égalité. Essayez de le voir et remettez ensuite la position correcte.... Non, les blancs jouent 3.7-16!! Ça, c’est un coup malin pour attendre. Les noirs ont le choix. Après 3. ...22-28 ils seront bloqués: 4.16-43!. Et après 3.... 33-39 les blancs attaquent de nouveau en arrière: 4.16-11! 22-27* 5.11x44 27-32 6.44-33! 32-37 7.33-47! Gagné."
+"t": "C’était simple. Mais passons maintenant au DIAGRAMME 10. Là, il faut DIAGRAMME 10 chercher une autre tactique. Vous nous suivez? 1.7-2! 13-18 2.2-7! Les blancs chassent le pion inférieur. Leur intention est de les mettre ensemble sur une ligne: 2 18-22. Les blancs obtiennent ce qu’ils veulent. Les deux pions se trouvent sur la ligne 6-50. Comment continuer? Peut-être avec 3.7-11...? Raté. Après ce coup le résultat sera l’égalité. Essayez de le voir et remettez ensuite la position correcte Non, les blancs jouent 3.7-16!! Ça, c’est un coup malin pour attendre. Les noirs ont le choix. Après 3. ...22-28 ils seront bloqués: 4.16-43!. Et après 3 33-39 les blancs attaquent de nouveau en arrière: 4.16-11! 22-27* 5.11x44 27-32 6.44-33! 32-37 7.33-47! Gagné."
 }
 ]
 },
@@ -5096,7 +5096,7 @@ const DATA: ManuelData = {
 "ch": 32,
 "runs": [
 {
-"t": "Dans la fin de partie il faut jouer méticuleusement. Beaucoup de fins de partie ne contiennent qu’une solution gagnante, qui peut être assez DIAGRAMME 14 élaborée si votre adversaire se défend très bien. Maintenant une fin de partie difficile où la combinaison joue un grand rôle. Si le joueur des noirs réfléchit bien, il peut échapper à l’opposition. Mais dans ce cas le joueur des blancs aura une autre surprise! Le premier coup est 1.35-30! Le joueur des noirs réfléchit: « Si j’avance mon pion avancé, les blancs feront 30-24 et je suis mort. Donc, je ne fais pas cela. Qu’est-ce qui se passe si je joue 4-10? Zut, pas correct non plus. Ils joueront 47-41 alors. De nouveau opposition double. Je n’ai donc qu’un seul coup jouable: 4-9 » La partie continue comme suit: 1... 4-9* 2.30-24 9-13*. Vous examinez vous-mêmes comment les noirs vont perdre après tous les autres coups? 3.24-20. La possibilité d’opposition a disparu et les blancs se décident à aller à dame aussi vite que possible. Les noirs en pensent la DIAGRAMME 15 même chose. 3.... 13-19 4.20-15 5.19-24 5.15-10 24-29 6.10-5! Bien joué. Après la promotion à dame sur la case 4, les noirs laissent prendre le pion sur 31 et l’autre pion court à dame via la case 39. Nous sommes arrivés au DIAGRAMME 15. En ce moment apparaît la première combinaison. Car si les noirs jouent ici 6.... 29-33? les blancs donnent inopinément leur dame:7.5-37! 31x42 8.47x29. Attention maintenant. Essayez de le voir sans toucher aux pions. Les blancs ne peuvent pas arrêter le pion sur 34 en mettant leur dame sur la case 28. Pourquoi pas? Parce que les noirs font un gambit avec 31- 37! et ils jouent ensuite 34-39. Match nul. Vous avez vu? Puis nous allons voir comment les blancs transforment la position quand même en victoire après 6...29-34.: 7.5-23!! 34-39 8.23-28!! 39-43 9.28-37! 31x42 10.47x49. Deux contre-coups, suivis par une combinaison. 8.15"
+"t": "Dans la fin de partie il faut jouer méticuleusement. Beaucoup de fins de partie ne contiennent qu’une solution gagnante, qui peut être assez DIAGRAMME 14 élaborée si votre adversaire se défend très bien. Maintenant une fin de partie difficile où la combinaison joue un grand rôle. Si le joueur des noirs réfléchit bien, il peut échapper à l’opposition. Mais dans ce cas le joueur des blancs aura une autre surprise! Le premier coup est 1.35-30! Le joueur des noirs réfléchit: « Si j’avance mon pion avancé, les blancs feront 30-24 et je suis mort. Donc, je ne fais pas cela. Qu’est-ce qui se passe si je joue 4-10? Zut, pas correct non plus. Ils joueront 47-41 alors. De nouveau opposition double. Je n’ai donc qu’un seul coup jouable: 4-9 » La partie continue comme suit: 1... 4-9* 2.30-24 9-13*. Vous examinez vous-mêmes comment les noirs vont perdre après tous les autres coups? 3.24-20. La possibilité d’opposition a disparu et les blancs se décident à aller à dame aussi vite que possible. Les noirs en pensent la DIAGRAMME 15 même chose. 3 13-19 4.20-15 5.19-24 5.15-10 24-29 6.10-5! Bien joué. Après la promotion à dame sur la case 4, les noirs laissent prendre le pion sur 31 et l’autre pion court à dame via la case 39. Nous sommes arrivés au DIAGRAMME 15. En ce moment apparaît la première combinaison. Car si les noirs jouent ici 6 29-33? les blancs donnent inopinément leur dame:7.5-37! 31x42 8.47x29. Attention maintenant. Essayez de le voir sans toucher aux pions. Les blancs ne peuvent pas arrêter le pion sur 34 en mettant leur dame sur la case 28. Pourquoi pas? Parce que les noirs font un gambit avec 31- 37! et ils jouent ensuite 34-39. Match nul. Vous avez vu? Puis nous allons voir comment les blancs transforment la position quand même en victoire après 6...29-34.: 7.5-23!! 34-39 8.23-28!! 39-43 9.28-37! 31x42 10.47x49. Deux contre-coups, suivis par une combinaison. 8.15"
 }
 ]
 },
@@ -5219,7 +5219,7 @@ const DATA: ManuelData = {
 "ch": 33,
 "runs": [
 {
-"t": "DIAGRAMME 1 Si vous ne pouvez plus empêcher que l’autre aille à dame, vous pourrez capturer tout de suite la dame que l’adversaire vient d’obtenir. Premier exemple: dans le DIAGRAMME 1 les blancs arrivent trop tard pour bloquer les noirs derrière la grande diagonale. Mais à l’aile droite les pions sont bien positionnés en crochet. Attention: 1.14-10 31-37 2.10-5 37-42 3.5-28! Les noirs ont le choix. Après 3....42-47 c’est simple: 4.28-33! 47x40 5.45x34...et c’est la fin de la dame. Et après 3...42-48? Dans ce cas les blancs jouent 4.28- 39! et regardez ce qui est amusant: quelle que soit la case vers laquelle les noirs déplacent leur dame, elle est toujours capturée!"
+"t": "DIAGRAMME 1 Si vous ne pouvez plus empêcher que l’autre aille à dame, vous pourrez capturer tout de suite la dame que l’adversaire vient d’obtenir. Premier exemple: dans le DIAGRAMME 1 les blancs arrivent trop tard pour bloquer les noirs derrière la grande diagonale. Mais à l’aile droite les pions sont bien positionnés en crochet. Attention: 1.14-10 31-37 2.10-5 37-42 3.5-28! Les noirs ont le choix. Après 3 42-47 c’est simple: 4.28-33! 47x40 5.45x34...et c’est la fin de la dame. Et après 3...42-48? Dans ce cas les blancs jouent 4.28- 39! et regardez ce qui est amusant: quelle que soit la case vers laquelle les noirs déplacent leur dame, elle est toujours capturée!"
 }
 ]
 },
@@ -5237,7 +5237,7 @@ const DATA: ManuelData = {
 "ch": 33,
 "runs": [
 {
-"t": "DIAGRAMME 8 Dans le DIAGRAMME 8 les blancs se servent d’une autre méthode pour désamorcer la dame noire: 1.9-4! Les noirs sont bien obligés de jouer 1. ...34-39, sinon ils seront bloqués au coin. Et voici la suite: 2....4-22! 39-43 3.22-31! Le comité d’accueil est déjà prêt. Après 3...43- 48 les blancs jouent 4.31-26! et après 3...43-49 ils font 4.31-27! Vous comprenez maintenant pourquoi les blancs viennent de damer sur la case 4? Mais après 1.9-3 les blancs peuvent gagner aussi. Essayez-le..."
+"t": "DIAGRAMME 8 Dans le DIAGRAMME 8 les blancs se servent d’une autre méthode pour désamorcer la dame noire: 1.9-4! Les noirs sont bien obligés de jouer 1. ...34-39, sinon ils seront bloqués au coin. Et voici la suite: 2 4-22! 39-43 3.22-31! Le comité d’accueil est déjà prêt. Après 3...43- 48 les blancs jouent 4.31-26! et après 3...43-49 ils font 4.31-27! Vous comprenez maintenant pourquoi les blancs viennent de damer sur la case 4? Mais après 1.9-3 les blancs peuvent gagner aussi. Essayez-le..."
 }
 ]
 },
@@ -5860,7 +5860,7 @@ const DATA: ManuelData = {
 "ch": 36,
 "runs": [
 {
-"t": "............................................................ DIAGRAMME 5 2b Inventez ensemble une situation dans laquelle il est sportif (à juste titre) de proposer l’égalité. Inventez aussi une situation dans laquelle il est antisportif (à tort) de proposer l’égalité. Vous pouvez aussi inventer une position."
+"t": "DIAGRAMME 5 2b Inventez ensemble une situation dans laquelle il est sportif (à juste titre) de proposer l’égalité. Inventez aussi une situation dans laquelle il est antisportif (à tort) de proposer l’égalité. Vous pouvez aussi inventer une position."
 }
 ]
 },
@@ -6041,7 +6041,7 @@ const DATA: ManuelData = {
 "ch": 37,
 "runs": [
 {
-"t": "C’est très réussi de la part des blancs! Après 1.43-39 il ne reste pas d’autre solution pour les noirs que d’entrer dans la lunette: 1.... 32-38 et après 42-37! 38x29 3.37-32! Vous voyez une position du cours Wiersma que vous reconnaîtrez peut-être. Les noirs sont bloqués. Ils peuvent encore se débattre un peu: 3... 29-34 4.39x30 23-29 5.32-28! et après c’est fini pour eux."
+"t": "C’est très réussi de la part des blancs! Après 1.43-39 il ne reste pas d’autre solution pour les noirs que d’entrer dans la lunette: 1 32-38 et après 42-37! 38x29 3.37-32! Vous voyez une position du cours Wiersma que vous reconnaîtrez peut-être. Les noirs sont bloqués. Ils peuvent encore se débattre un peu: 3... 29-34 4.39x30 23-29 5.32-28! et après c’est fini pour eux."
 }
 ]
 },
@@ -6216,7 +6216,7 @@ const DATA: ManuelData = {
 "ch": 38,
 "runs": [
 {
-"t": "Voici un exercice amusant. Dans les diagrammes suivants la position des blancs n’est pas tout à fait complète. Il y a encore quelques pions à côté du damier. A vous d’essayer de les mettre de telle manière que tous les pions seront bloqués! Prenez le damier et mettez-vous à résoudre les puzzles mais .....Attention! Parfois il y a plusieurs manières de bloquer les pions noirs. Vérifiez après chaque question dans les réponses si vous l’avez fait correctement. Prenez un crayon et une gomme!"
+"t": "Voici un exercice amusant. Dans les diagrammes suivants la position des blancs n’est pas tout à fait complète. Il y a encore quelques pions à côté du damier. A vous d’essayer de les mettre de telle manière que tous les pions seront bloqués! Prenez le damier et mettez-vous à résoudre les puzzles mais Attention! Parfois il y a plusieurs manières de bloquer les pions noirs. Vérifiez après chaque question dans les réponses si vous l’avez fait correctement. Prenez un crayon et une gomme!"
 }
 ]
 },
@@ -6637,7 +6637,7 @@ const DATA: ManuelData = {
 "ch": 40,
 "runs": [
 {
-"t": "2a Les experts de jeu de dames ont jugé que le 25e coup de Erna Wanders était un coup très fort, parce que les pions en 15, 20, 24, 25 et 30 sont enfermés. Dans le DIAGRAMME 3 vous voyez ces cinq pions. La question: en quelles cases les blancs doivent-ils avoir des pions pour contrôler ces cinq bouts de bois? DIAGRAMME 3 ............................................................"
+"t": "2a Les experts de jeu de dames ont jugé que le 25e coup de Erna Wanders était un coup très fort, parce que les pions en 15, 20, 24, 25 et 30 sont enfermés. Dans le DIAGRAMME 3 vous voyez ces cinq pions. La question: en quelles cases les blancs doivent-ils avoir des pions pour contrôler ces cinq bouts de bois? DIAGRAMME 3"
 }
 ]
 },
@@ -8345,7 +8345,7 @@ const DATA: ManuelData = {
 "ch": 67,
 "runs": [
 {
-"t": "Leçon 30 Exercice 1 Diagramme 2 1.43-38! 33x42 2.48x37 16-21 3.37-31 21-26 4.31-27. Si vous ne faites pas le pionnage, vous allez perdre. Diagramme 3 Ça n’a pas l’air terrible. Les noirs profitent de l’opposition. Après 1.49-44, perdriez irrévocablement. Heureusement, vous pouvez faire coopérer les pions blancs: 1.49-43! 9-13 2.43-38 13-18 3.38-32 et les noirs doivent renoncer à l’opposition, car après 3 ...18-22? vous gagnez par 4.32-27 22x31 5.26x37. Diagramme 4 Les blancs arrêtent d’abord le pion 33: 1.48-43. Les noirs peuvent se mettre en opposition maintenant par 1 ...11-17. Donc .....pionner! 2.43-38 33x42 3.47x38 et les blancs gagnent. Ainsi après 1 ...11-16 ils gagnent par un pionnage. Diagramme 5 Ici le pionnage est impossible. Après 1.32-27? 22x31 2.26x37 2-7! les noirs se mettent en opposition. C’est pourquoi le meilleur coup est 1.26-21! Si les noirs entrent dans la lunette avec 1 ...22-27, le résultat sera match nul après 2.21-17 27x38 3.17-11; de même après 2.22-27 et 32-28. S’ils jouent 1 ...2-7? Vous pouvez même gagner cette fin de partie! Essayez. Diagramme 6 Le pionnage est perdant: 1.44-40 35x44 2.50x39 14-19! Mais 1.50-45 est gagnant! Il y a deux variantes: A. 1 ...14-19 2.44-39! 19-24 3.39-34! 35-40 4.34-30 24x35 5.45x34. B. 1 ...14-20 2.45-40! (car 2.44-39 20-25! qui finit en match nul) et au coup suivant 3.40-34. Diagramme 7 Les blancs ont le choix entre trois coups. Deux sont perdants: 1.33-28? 13- 18! et les noirs gagnent par opposition double. De même 1.25-20? finira mal pour les blancs. La route vers le match nul commence par 1.33-29! Le coup 1 ...13-19 est impossible pour les noirs à cause du pionnage 2.29-24! 19x30 3.25x34."
+"t": "Leçon 30 Exercice 1 Diagramme 2 1.43-38! 33x42 2.48x37 16-21 3.37-31 21-26 4.31-27. Si vous ne faites pas le pionnage, vous allez perdre. Diagramme 3 Ça n’a pas l’air terrible. Les noirs profitent de l’opposition. Après 1.49-44, perdriez irrévocablement. Heureusement, vous pouvez faire coopérer les pions blancs: 1.49-43! 9-13 2.43-38 13-18 3.38-32 et les noirs doivent renoncer à l’opposition, car après 3 ...18-22? vous gagnez par 4.32-27 22x31 5.26x37. Diagramme 4 Les blancs arrêtent d’abord le pion 33: 1.48-43. Les noirs peuvent se mettre en opposition maintenant par 1 ...11-17. Donc pionner! 2.43-38 33x42 3.47x38 et les blancs gagnent. Ainsi après 1 ...11-16 ils gagnent par un pionnage. Diagramme 5 Ici le pionnage est impossible. Après 1.32-27? 22x31 2.26x37 2-7! les noirs se mettent en opposition. C’est pourquoi le meilleur coup est 1.26-21! Si les noirs entrent dans la lunette avec 1 ...22-27, le résultat sera match nul après 2.21-17 27x38 3.17-11; de même après 2.22-27 et 32-28. S’ils jouent 1 ...2-7? Vous pouvez même gagner cette fin de partie! Essayez. Diagramme 6 Le pionnage est perdant: 1.44-40 35x44 2.50x39 14-19! Mais 1.50-45 est gagnant! Il y a deux variantes: A. 1 ...14-19 2.44-39! 19-24 3.39-34! 35-40 4.34-30 24x35 5.45x34. B. 1 ...14-20 2.45-40! (car 2.44-39 20-25! qui finit en match nul) et au coup suivant 3.40-34. Diagramme 7 Les blancs ont le choix entre trois coups. Deux sont perdants: 1.33-28? 13- 18! et les noirs gagnent par opposition double. De même 1.25-20? finira mal pour les blancs. La route vers le match nul commence par 1.33-29! Le coup 1 ...13-19 est impossible pour les noirs à cause du pionnage 2.29-24! 19x30 3.25x34."
 }
 ]
 },
@@ -8715,7 +8715,7 @@ const DATA: ManuelData = {
 "ch": 73,
 "runs": [
 {
-"t": "Exercice 2 2a Les blancs ne peuvent pas éviter que les noirs sacrifient un pion aux coups suivants avec 18-22 et 22-27 et qu’ils avancent ensuite pour obtenir une dame forte. Si les noirs trouvent ensuite les meilleurs coups, les blancs ne peuvent plus gagner la fin de partie. Mais.....les blancs, logiquement, vont faire le maximum pour sortir vainqueurs du combat, notamment s’ils se doutent que leur adversaire puisse commettre une (petite) erreur."
+"t": "Exercice 2 2a Les blancs ne peuvent pas éviter que les noirs sacrifient un pion aux coups suivants avec 18-22 et 22-27 et qu’ils avancent ensuite pour obtenir une dame forte. Si les noirs trouvent ensuite les meilleurs coups, les blancs ne peuvent plus gagner la fin de partie. Mais les blancs, logiquement, vont faire le maximum pour sortir vainqueurs du combat, notamment s’ils se doutent que leur adversaire puisse commettre une (petite) erreur."
 }
 ]
 },
@@ -8801,7 +8801,7 @@ const DATA: ManuelData = {
 "ch": 74,
 "runs": [
 {
-"t": "Exercice 3 Au fond il faut pouvoir faire les actions suivantes les yeux fermés, car elles interviennent dans chaque partie de dames. L’attaque - menacer de prendre...Une attaque est surtout avantageuse si l’autre n’est plus capable de se défendre de manière efficace. Dans le DIAGRAMME 16 nous vous montrons un autre exemple. En attaquant sans cesse, les blancs gagnent un pion. Regardez: 1.38-33 12- 17 2.33x22 17x28 3.43-38 et maintenant les variantes suivantes: 3 ...11-17 (ou 11-16) 4.31-27! et les noirs ne peuvent rien faire contre l’attaque 5.27-22 (ou 5.38-32). 3 ...3-8 4.38-33 8-12 5.33x22 12-17 6.48-42 17x28 7.42-38! et le gain d’un pion est inévitable. Voyez-vous d’ailleurs ce que les blancs peuvent faire maintenant après 7 ...11-17 non seulement 8.31-27 mais aussi immédiatement 8.38-33? Après 8 ...17-22 les blancs poursuivent avec l’attaque par derrière 9.33-29! et après 8 ...17-21 9.33x22 21-27 10.22-17! cela se passe bien. Mais .... les noirs ne jouent pas 8 ...17-22 mais 8 ...6-11 et annulent la partie!"
+"t": "Exercice 3 Au fond il faut pouvoir faire les actions suivantes les yeux fermés, car elles interviennent dans chaque partie de dames. L’attaque - menacer de prendre...Une attaque est surtout avantageuse si l’autre n’est plus capable de se défendre de manière efficace. Dans le DIAGRAMME 16 nous vous montrons un autre exemple. En attaquant sans cesse, les blancs gagnent un pion. Regardez: 1.38-33 12- 17 2.33x22 17x28 3.43-38 et maintenant les variantes suivantes: 3 ...11-17 (ou 11-16) 4.31-27! et les noirs ne peuvent rien faire contre l’attaque 5.27-22 (ou 5.38-32). 3 ...3-8 4.38-33 8-12 5.33x22 12-17 6.48-42 17x28 7.42-38! et le gain d’un pion est inévitable. Voyez-vous d’ailleurs ce que les blancs peuvent faire maintenant après 7 ...11-17 non seulement 8.31-27 mais aussi immédiatement 8.38-33? Après 8 ...17-22 les blancs poursuivent avec l’attaque par derrière 9.33-29! et après 8 ...17-21 9.33x22 21-27 10.22-17! cela se passe bien. Mais les noirs ne jouent pas 8 ...17-22 mais 8 ...6-11 et annulent la partie!"
 }
 ]
 },
@@ -9137,7 +9137,7 @@ const DATA: ManuelData = {
 "ch": 77,
 "runs": [
 {
-"t": "Les solutions du coup de la bombe Diagramme 7 Celui-ci va tout seul: 1.27-21 16x27 2.32x21 23x41. Cette prise majoritaire et la rafle suivante des blancs sont les caractéristiques du coup de la bombe. 3.12x14 9x20 4.47x36 et les blancs ont gagné un pion. Diagramme 8 Celui-ci aussi va tout seul....d’une manière erronée! Au moins si les blancs font 1.27-21?: 1 ...16x27 2.32x12 23x43...Eh oui, continuer à prendre avec le pion 12 n’est pas possible à cause du coup vers dame. Les blancs n’ont donc pas mieux que 3.48x39 8x17 et les noirs gagnent un pion. Diagramme 9 Avez-vous vu la série de coups suivante à partir du damier ou du diagramme? Ce serait super. Essayez de toute façon de la voir sans toucher aux pions... 1.35-30! 24x35 2.25-20 14x25. C’était la préparation, maintenant le coup de la bombe: 3.27-21! 16x27 4.32x12 23x41 5.12x3! 41-46 ou? 6.38-32! 46x44 7.49x40! 35x44 8.50x39. Les blancs ont un pion de moins, mais ils disposent d’une sacrée dame."
+"t": "Les solutions du coup de la bombe Diagramme 7 Celui-ci va tout seul: 1.27-21 16x27 2.32x21 23x41. Cette prise majoritaire et la rafle suivante des blancs sont les caractéristiques du coup de la bombe. 3.12x14 9x20 4.47x36 et les blancs ont gagné un pion. Diagramme 8 Celui-ci aussi va tout seul d’une manière erronée! Au moins si les blancs font 1.27-21?: 1 ...16x27 2.32x12 23x43...Eh oui, continuer à prendre avec le pion 12 n’est pas possible à cause du coup vers dame. Les blancs n’ont donc pas mieux que 3.48x39 8x17 et les noirs gagnent un pion. Diagramme 9 Avez-vous vu la série de coups suivante à partir du damier ou du diagramme? Ce serait super. Essayez de toute façon de la voir sans toucher aux pions... 1.35-30! 24x35 2.25-20 14x25. C’était la préparation, maintenant le coup de la bombe: 3.27-21! 16x27 4.32x12 23x41 5.12x3! 41-46 ou? 6.38-32! 46x44 7.49x40! 35x44 8.50x39. Les blancs ont un pion de moins, mais ils disposent d’une sacrée dame."
 }
 ]
 },

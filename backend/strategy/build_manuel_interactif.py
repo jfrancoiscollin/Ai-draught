@@ -149,19 +149,23 @@ def _reconstruct_moves(initial_fen: str, pdn_moves: list[str]) -> list[dict]:
 
 _WS = re.compile(r"[ \t]*\n[ \t]*")
 _MULTISPACE = re.compile(r"[ \t]{2,}")
+_DOT_LEADER = re.compile(r"\s*\.{4,}\s*")  # OCR of table-of-contents dot leaders
+_JUNK_PARA = re.compile(r"^[\s.·•\-–—]*$")
 
 
 def _clean_prose(text: str) -> list[str]:
     """Split an OCR'd passage into display paragraphs. Blank lines separate
-    paragraphs; single newlines (pdftotext column wraps) become spaces. Text is
-    kept verbatim otherwise (anti-hallucination: we never rewrite the masters)."""
+    paragraphs; single newlines (pdftotext column wraps) become spaces. Dotted
+    table-of-contents leaders that leaked into the prose are collapsed and pure
+    leader/heading lines dropped. Text is otherwise kept verbatim
+    (anti-hallucination: we never rewrite the masters)."""
     text = text.replace("\r", "")
     paras = re.split(r"\n[ \t]*\n", text)
     out: list[str] = []
     for para in paras:
         joined = _WS.sub(" ", para).strip()
-        joined = _MULTISPACE.sub(" ", joined)
-        if joined:
+        joined = _MULTISPACE.sub(" ", _DOT_LEADER.sub(" ", joined)).strip()
+        if joined and not _JUNK_PARA.match(joined) and not joined.lower().startswith("table des matières"):
             out.append(joined)
     return out
 
