@@ -2794,16 +2794,21 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "Le diagramme 12 montre la configuration la 1.32-28 17-22 plus fréquente comme construction élaborée Les noirs commencent par la construction de de la position de base: tout simplement 32-28, la batterie sur leur aile droite, avec l’intention 37-32 et 42-37, ou un autre ordre de coups. Un de lancer éventuellement une attaque de flanc. bloc soudé avec assez de formations et par exemple la possibilité d’avancer plus loin avec 2.28x17 12x21 3.34-29 7-12 28-23. Il est encore plus favorable si cette pyramide du milieu est appuyée de gauche et Les blancs veulent le jeu de flanc et s’installent de droite: à gauche un pion en 27 et à droite sur la case de flanc. par exemple en 29. Ainsi, vous pouvez « habiller » la pyramide... 4.40-34 11-17 5.45-40 6-11"
+"t": "Le diagramme 12 montre la configuration la plus fréquente comme construction élaborée Les noirs commencent par la construction de de la position de base: tout simplement 32-28, la batterie sur leur aile droite, avec l’intention 37-32 et 42-37, ou un autre ordre de coups. Un de lancer éventuellement une attaque de flanc. bloc soudé avec assez de formations et par exemple la possibilité d’avancer plus loin avec 28- Il est encore plus favorable si cette pyramide du milieu est appuyée de gauche et Les blancs veulent le jeu de flanc et s’installent de droite: à gauche un pion en 27 et à droite sur la case de flanc. par exemple en Ainsi, vous pouvez « habiller » la pyramide"
 }
 ]
+},
+{
+"type": "board",
+"id": "SPRINGER_game0",
+"ch": 6
 },
 {
 "type": "p",
 "ch": 6,
 "runs": [
 {
-"t": "Certains parmi vous reconnaîtront la pyramide Voilà l’achèvement de la batterie noire. Entre- de gauche dans le diagramme 13. De nos jours, temps, les blancs jouent calmement dans le les damistes y ont attribué le nom de Chizhov: centre. la batterie Chizhov! Quelques avantages: soudé, riche en formations, possibilité 6.33-28 19-23 7.28x19 13x33 8.39x28 9-13 d’avancer vers la case cimetière. Voici un 9.44-39 14-19 10.38-33 10-14 11.42-38 5-10 exemple dans le style caractéristique de 12.50-45 1-6 13.47-42 21-26 14.49-44 Chizhov. Voir diagramme 6.1 de l’exercice 6. G. Jansen - A. Chizhov, Hierden 1991"
+"t": "Certains parmi vous reconnaîtront la pyramide Voilà l’achèvement de la batterie noire. Entre- de gauche dans le diagramme De nos jours, temps, les blancs jouent calmement dans le les damistes y ont attribué le nom de Chizhov: centre. la batterie Chizhov! Quelques avantages: soudé, riche en formations, possibilité d’avancer vers la case cimetière. Voici un exemple dans le style caractéristique de Chizhov. Voir diagramme 1 de l’exercice G. Jansen - A. Chizhov, Hierden 1991"
 }
 ]
 },
@@ -3778,9 +3783,14 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Voici une variante populaire dans cette ouverture: Vous pouvez imaginer que cette variante d’ouverture pourra mener à un jeu captivant. 1.32-28 17-22 2.28x17 11x22 3.37-32 12-17 Ce qui est amusant, c’est que les deux joueurs 4.31-26 6-11 5.36-31 8-12 6.32-27 16-21 devront se débrouiller, à partir de ce moment, 7.27x16 22-28 8.33x22 18x36 9.41-37 par leurs propres moyens. Un autre aspect aussi important est à noter: les blancs aussi Voir diagramme 1 bien que les noirs ont des perspectives intéressantes: comme nous avons déjà dit, cette Dans un thème précédent vous avez lu une variante d’ouverture est particulièrement note explicative accompagnant ces coups populaire. La conséquence en est qu’il existe d’ouverture. On voit maintenant un mode de un large éventail d’expérience de cette jeu avec des pions à bande en 16 et 26, et un ouverture, ce qui facilite de trouver un chemin pion noir en 36. dans le jungle."
+"t": "Voici une variante populaire dans cette ouverture: Vous pouvez imaginer que cette variante d’ouverture pourra mener à un jeu captivant. Ce qui est amusant, c’est que les deux joueurs devront se débrouiller, à partir de ce moment, par leurs propres moyens. Un autre aspect aussi important est à noter: les blancs aussi Voir diagramme 1 bien que les noirs ont des perspectives intéressantes: comme nous avons déjà dit, cette Dans un thème précédent vous avez lu une variante d’ouverture est particulièrement note explicative accompagnant ces coups populaire. La conséquence en est qu’il existe d’ouverture. On voit maintenant un mode de un large éventail d’expérience de cette jeu avec des pions à bande en 16 et 26, et un ouverture, ce qui facilite de trouver un chemin pion noir en dans le jungle"
 }
 ]
+},
+{
+"type": "board",
+"id": "SPRINGER_game1",
+"ch": 8
 },
 {
 "type": "p",
@@ -9544,9 +9554,14 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "L’ouverture § Les noirs se trouvent aussi en 24. Les noirs L’ouverture est une ouverture classique semi- ont donc occupé les deux cases classiques. ouverte connue: 1.31-27 19-23 2.33-28 17-21 § Plusieurs pions sur l’aile gauche des noirs 3.28x19 14x23 4.38-33 21-26 et vous voyez la ont déjà disparu. position du diagramme. Il importe que les blancs Et ce qui est très important: les blancs peuvent se trouvent en 27, mais pas en 28. Il est très s’installer maintenant en 29 par le pionnage 33- important que les noirs se trouvent en 23. Les 29, 24x33 et 38x29. blancs ont besoin de ce pion pour leur tactique. Les blancs vont encercler ce pion. Pour conclure: Le milieu de partie avancé les blancs ne touchent pas à leur aile gauche. Les Le classique semi-ouvert s’est transformé en une blancs ne jouent que sur leur aile droite. C’est formation Roozenburg! Le premier pas était que que les blancs vont réduire le nombre de pions les blancs ont occupé la case 29 à l’aide de la de l’aile gauche des noirs. Et les noirs ne peuvent formation 42/38/33. Le pas suivant était pas renforcer cette aile gauche, parce que 13-19 l’occupation de la case 24. Conséquence: un vrai n’est pas possible à cause de simplement 37-31 Roozenburg et les blancs menacent donc le pion avec le gain d’un pion pour les blancs. 23 qui s’y trouve déjà depuis le début. La belle stratégie! Cela, c’est vraiment prévoir les choses! Le milieu de partie Les caractéristiques de la position sont, en La position de référence grande partie, toujours les mêmes. La formation Roozenburg est toujours pareille. Il § Les blancs se trouvent en 27 et pas en 28. y a seulement moins de pions sur le damier. Si le § Les blancs possèdent une aile surchargée. trait est aux blancs, le pion en 23 sera mangé. § Les blancs n’ont joué que sur leur aile Mais aussi si le trait est aux noirs, les blancs droite. n’auront pas vraiment de problème pour gagner § Les noirs se trouvent encore en 23. cette partie. Ce qui suit est nouveau: § Les blancs ont construit 35/34/30. § Les blancs ont préparé la formation 42/38/33."
+"t": "L’ouverture § Les noirs se trouvent aussi en Les noirs L’ouverture est une ouverture classique semi- ont donc occupé les deux cases classiques. ouverte connue: § Plusieurs pions sur l’aile gauche des noirs et vous voyez la ont déjà disparu. position du diagramme. Il importe que les blancs Et ce qui est très important: les blancs peuvent se trouvent en 27, mais pas en Il est très s’installer maintenant en 29 par le pionnage 33- important que les noirs se trouvent en Les 29, 24x33 et 38x blancs ont besoin de ce pion pour leur tactique. Les blancs vont encercler ce pion. Pour conclure: Le milieu de partie avancé les blancs ne touchent pas à leur aile gauche. Les Le classique semi-ouvert s’est transformé en une blancs ne jouent que sur leur aile droite. C’est formation Roozenburg! Le premier pas était que que les blancs vont réduire le nombre de pions les blancs ont occupé la case 29 à l’aide de la de l’aile gauche des noirs. Et les noirs ne peuvent formation 42/38/ Le pas suivant était pas renforcer cette aile gauche, parce que 13-19 l’occupation de la case Conséquence: un vrai n’est pas possible à cause de simplement 37-31 Roozenburg et les blancs menacent donc le pion avec le gain d’un pion pour les blancs. 23 qui s’y trouve déjà depuis le début. La belle stratégie! Cela, c’est vraiment prévoir les choses! Le milieu de partie Les caractéristiques de la position sont, en La position de référence grande partie, toujours les mêmes. La formation Roozenburg est toujours pareille. Il § Les blancs se trouvent en 27 et pas en y a seulement moins de pions sur le damier. Si le § Les blancs possèdent une aile surchargée. trait est aux blancs, le pion en 23 sera mangé. § Les blancs n’ont joué que sur leur aile Mais aussi si le trait est aux noirs, les blancs droite. n’auront pas vraiment de problème pour gagner § Les noirs se trouvent encore en cette partie. Ce qui suit est nouveau: § Les blancs ont construit 35/34/ § Les blancs ont préparé la formation 42/38/"
 }
 ]
+},
+{
+"type": "board",
+"id": "SPRINGER_game2",
+"ch": 10
 },
 {
 "type": "p",
@@ -9562,9 +9577,14 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "L’ouverture La fin du milieu de partie La position du premier diagramme est issue La caractéristique principale est maintenant d’une ouverture classique tout à fait normale: également pareille! 1.33-28 18-23 2.39-33 12-18 3.44-39 7-12 Il y a maintenant cette différence avec la 4.31-27 20-24. Cette position est vraiment position précédente que les deux couleurs ont classique: les blancs possèdent 27 et 28 et les pris une case de bande. Les deux joueurs noirs 24 et 23. possèdent aussi la formation Olympique. La La grande différence avec le classique semi- combinaison la plus connue, le coup royal, ouvert est donc que les blancs possèdent reste possible. maintenant la case 28. Dans le classique semi- ouvert, le pion en 33 peut être déplacé dans La position de référence deux directions! Dans le classique semi- Dans le classique, les coups qui vous restent, ouvert, les blancs peuvent diriger le pion 33 sont toujours très importants. Vous voyez que aussi vers 29 et même la formation les deux joueurs sont coincés Roozenburg deviendra ensuite une option. considérablement tous les deux. Vous voyez aussi que les blancs possèdent toujours 27 et Le milieu de partie 28, et les noirs 24 et 23. Quelle différence avec La caractéristique principale est restée la le classique semi-ouvert qui s’est transformé même: les blancs et les noirs possèdent en une formation Roozenburg! toujours les cases classiques. Les deux couleurs La plupart du temps, le classique ne change ont réussi à développer leur position. Les deux pas. ailes gauches ont été bien activées. Voyez-vous d’ailleurs que la position est presque symétrique?"
+"t": "L’ouverture La fin du milieu de partie La position du premier diagramme est issue La caractéristique principale est maintenant d’une ouverture classique tout à fait normale: également pareille! Il y a maintenant cette différence avec la 20- Cette position est vraiment position précédente que les deux couleurs ont classique: les blancs possèdent 27 et 28 et les pris une case de bande. Les deux joueurs noirs 24 et possèdent aussi la formation Olympique. La La grande différence avec le classique semi- combinaison la plus connue, le coup royal, ouvert est donc que les blancs possèdent reste possible. maintenant la case Dans le classique semi- ouvert, le pion en 33 peut être déplacé dans La position de référence deux directions! Dans le classique semi- Dans le classique, les coups qui vous restent, ouvert, les blancs peuvent diriger le pion 33 sont toujours très importants. Vous voyez que aussi vers 29 et même la formation les deux joueurs sont coincés Roozenburg deviendra ensuite une option. considérablement tous les deux. Vous voyez aussi que les blancs possèdent toujours 27 et Le milieu de partie 28, et les noirs 24 et Quelle différence avec La caractéristique principale est restée la le classique semi-ouvert qui s’est transformé même: les blancs et les noirs possèdent en une formation Roozenburg! toujours les cases classiques. Les deux couleurs La plupart du temps, le classique ne change ont réussi à développer leur position. Les deux pas. ailes gauches ont été bien activées. Voyez-vous d’ailleurs que la position est presque symétrique?"
 }
 ]
+},
+{
+"type": "board",
+"id": "SPRINGER_game3",
+"ch": 10
 },
 {
 "type": "p",
@@ -38519,6 +38539,911 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": []
+},
+"SPRINGER_game0": {
+"id": "SPRINGER_game0",
+"ch": 6,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "12x21",
+"f": 12,
+"t": 21,
+"c": [
+17
+],
+"path": [
+12,
+21
+],
+"p": false
+},
+{
+"n": "34-29",
+"f": 34,
+"t": 29,
+"c": [],
+"path": [
+34,
+29
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "40-34",
+"f": 40,
+"t": 34,
+"c": [],
+"path": [
+40,
+34
+],
+"p": false
+},
+{
+"n": "11-17",
+"f": 11,
+"t": 17,
+"c": [],
+"path": [
+11,
+17
+],
+"p": false
+},
+{
+"n": "45-40",
+"f": 45,
+"t": 40,
+"c": [],
+"path": [
+45,
+40
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "13x33",
+"f": 13,
+"t": 33,
+"c": [
+19,
+29
+],
+"path": [
+13,
+24,
+33
+],
+"p": false
+},
+{
+"n": "39x28",
+"f": 39,
+"t": 28,
+"c": [
+33
+],
+"path": [
+39,
+28
+],
+"p": false
+},
+{
+"n": "9-13",
+"f": 9,
+"t": 13,
+"c": [],
+"path": [
+9,
+13
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "14-19",
+"f": 14,
+"t": 19,
+"c": [],
+"path": [
+14,
+19
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "10-14",
+"f": 10,
+"t": 14,
+"c": [],
+"path": [
+10,
+14
+],
+"p": false
+},
+{
+"n": "42-38",
+"f": 42,
+"t": 38,
+"c": [],
+"path": [
+42,
+38
+],
+"p": false
+},
+{
+"n": "5-10",
+"f": 5,
+"t": 10,
+"c": [],
+"path": [
+5,
+10
+],
+"p": false
+},
+{
+"n": "50-45",
+"f": 50,
+"t": 45,
+"c": [],
+"path": [
+50,
+45
+],
+"p": false
+},
+{
+"n": "1-6",
+"f": 1,
+"t": 6,
+"c": [],
+"path": [
+1,
+6
+],
+"p": false
+},
+{
+"n": "47-42",
+"f": 47,
+"t": 42,
+"c": [],
+"path": [
+47,
+42
+],
+"p": false
+},
+{
+"n": "21-26",
+"f": 21,
+"t": 26,
+"c": [],
+"path": [
+21,
+26
+],
+"p": false
+},
+{
+"n": "49-44",
+"f": 49,
+"t": 44,
+"c": [],
+"path": [
+49,
+44
+],
+"p": false
+}
+],
+"pub": "32-28 17-22 28x17 12x21 34-29 7-12 40-34 11-17 45-40 6-11 33-28 19-23 28x19 13x33 39x28 9-13 44-39 14-19 38-33 10-14 42-38 5-10 50-45 1-6 47-42 21-26 49-44"
+},
+"SPRINGER_game1": {
+"id": "SPRINGER_game1",
+"ch": 8,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "32-28",
+"f": 32,
+"t": 28,
+"c": [],
+"path": [
+32,
+28
+],
+"p": false
+},
+{
+"n": "17-22",
+"f": 17,
+"t": 22,
+"c": [],
+"path": [
+17,
+22
+],
+"p": false
+},
+{
+"n": "28x17",
+"f": 28,
+"t": 17,
+"c": [
+22
+],
+"path": [
+28,
+17
+],
+"p": false
+},
+{
+"n": "11x22",
+"f": 11,
+"t": 22,
+"c": [
+17
+],
+"path": [
+11,
+22
+],
+"p": false
+},
+{
+"n": "37-32",
+"f": 37,
+"t": 32,
+"c": [],
+"path": [
+37,
+32
+],
+"p": false
+},
+{
+"n": "12-17",
+"f": 12,
+"t": 17,
+"c": [],
+"path": [
+12,
+17
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "6-11",
+"f": 6,
+"t": 11,
+"c": [],
+"path": [
+6,
+11
+],
+"p": false
+},
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "8-12",
+"f": 8,
+"t": 12,
+"c": [],
+"path": [
+8,
+12
+],
+"p": false
+},
+{
+"n": "32-27",
+"f": 32,
+"t": 27,
+"c": [],
+"path": [
+32,
+27
+],
+"p": false
+},
+{
+"n": "16-21",
+"f": 16,
+"t": 21,
+"c": [],
+"path": [
+16,
+21
+],
+"p": false
+},
+{
+"n": "27x16",
+"f": 27,
+"t": 16,
+"c": [
+21
+],
+"path": [
+27,
+16
+],
+"p": false
+},
+{
+"n": "22-28",
+"f": 22,
+"t": 28,
+"c": [],
+"path": [
+22,
+28
+],
+"p": false
+},
+{
+"n": "33x22",
+"f": 33,
+"t": 22,
+"c": [
+28
+],
+"path": [
+33,
+22
+],
+"p": false
+},
+{
+"n": "18x36",
+"f": 18,
+"t": 36,
+"c": [
+22,
+31
+],
+"path": [
+18,
+27,
+36
+],
+"p": false
+},
+{
+"n": "41-37",
+"f": 41,
+"t": 37,
+"c": [],
+"path": [
+41,
+37
+],
+"p": false
+}
+],
+"pub": "32-28 17-22 28x17 11x22 37-32 12-17 31-26 6-11 36-31 8-12 32-27 16-21 27x16 22-28 33x22 18x36 41-37"
+},
+"SPRINGER_game2": {
+"id": "SPRINGER_game2",
+"ch": 10,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+},
+{
+"n": "19-23",
+"f": 19,
+"t": 23,
+"c": [],
+"path": [
+19,
+23
+],
+"p": false
+},
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "17-21",
+"f": 17,
+"t": 21,
+"c": [],
+"path": [
+17,
+21
+],
+"p": false
+},
+{
+"n": "28x19",
+"f": 28,
+"t": 19,
+"c": [
+23
+],
+"path": [
+28,
+19
+],
+"p": false
+},
+{
+"n": "14x23",
+"f": 14,
+"t": 23,
+"c": [
+19
+],
+"path": [
+14,
+23
+],
+"p": false
+},
+{
+"n": "38-33",
+"f": 38,
+"t": 33,
+"c": [],
+"path": [
+38,
+33
+],
+"p": false
+},
+{
+"n": "21-26",
+"f": 21,
+"t": 26,
+"c": [],
+"path": [
+21,
+26
+],
+"p": false
+}
+],
+"pub": "31-27 19-23 33-28 17-21 28x19 14x23 38-33 21-26"
+},
+"SPRINGER_game3": {
+"id": "SPRINGER_game3",
+"ch": 10,
+"title": "La partie",
+"start": {
+"wm": [
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50
+],
+"wk": [],
+"bm": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33-28",
+"f": 33,
+"t": 28,
+"c": [],
+"path": [
+33,
+28
+],
+"p": false
+},
+{
+"n": "18-23",
+"f": 18,
+"t": 23,
+"c": [],
+"path": [
+18,
+23
+],
+"p": false
+},
+{
+"n": "39-33",
+"f": 39,
+"t": 33,
+"c": [],
+"path": [
+39,
+33
+],
+"p": false
+},
+{
+"n": "12-18",
+"f": 12,
+"t": 18,
+"c": [],
+"path": [
+12,
+18
+],
+"p": false
+},
+{
+"n": "44-39",
+"f": 44,
+"t": 39,
+"c": [],
+"path": [
+44,
+39
+],
+"p": false
+},
+{
+"n": "7-12",
+"f": 7,
+"t": 12,
+"c": [],
+"path": [
+7,
+12
+],
+"p": false
+},
+{
+"n": "31-27",
+"f": 31,
+"t": 27,
+"c": [],
+"path": [
+31,
+27
+],
+"p": false
+}
+],
+"pub": "33-28 18-23 39-33 12-18 44-39 7-12 31-27"
 }
 }
 }
