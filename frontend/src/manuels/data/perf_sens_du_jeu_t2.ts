@@ -72,6 +72,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p6_0",
+"ch": 1
+},
+{
 "type": "p",
 "ch": 1,
 "runs": [
@@ -79,6 +84,11 @@ const DATA: ManuelData = {
 "t": "On voit nettement dans la position du premier diagramme que la formation du faux Marchand de Bois ne confère pas d’avantage car elle n’immobilise que 3 pions adverses. En outre, un simple pion supplémentaire pour les noirs à la case 17, comme dans le diagramme n°2, force les blancs à rompre la formation par 31-26. L’intérêt du Faux Marchand de Bois réside dans sa flexibilité. Mais la formation du faux Marchand de Bois est insuffisante en elle-même pour parler d’avantage. Il s’agit plus précisément d’une formation transitoire qui permet souvent de transformer le jeu avantageusement. Les 3 schémas les plus connus sont les suivants :"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p6_1",
+"ch": 1
 },
 {
 "type": "p",
@@ -100,12 +110,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p6_0",
-"ch": 1
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p6_1",
+"id": "PERF_SENS_DU_JEU_T2_p7_0",
 "ch": 1
 },
 {
@@ -116,6 +121,11 @@ const DATA: ManuelData = {
 "t": "Le faux marchand de bois prend de l’importance lorsque l’on parvient à l’associer à l’avant-poste 24 comme le montre le diagramme suivant : Gaoussou Sidibe – Samba Niang Championnat du Sénégal 1993 48e temps - trait aux blancs Dans cette situation bien dépouillée, l’avant-poste 24 permet de maintenir le faux marchand de bois. 48. 43-38 ! 8-12 Après 48... (17-21) 49. 38-32 (21-26) les blancs bénéficient du collage 50. 24-19 (26x28) 51. 19x10 (22x31) 52. 36x27 etc. 49. 39-33 17-21"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p7_1",
+"ch": 1
 },
 {
 "type": "p",
@@ -143,6 +153,11 @@ const DATA: ManuelData = {
 "t": "Le faux marchand perd toute sa valeur lorsque le camp adverse parvient à s’imposer au centre en occupant de manière durable simultanément les 2 cases 23 et 24. Le diagramme suivant en est un exemple manifeste : J. van Vliet – Rob Clerc NLD-chJ rayon West, 26-02-1972 44e temps – trait aux blancs 44. 31-26 L’occupation territoriale des noirs ne laisse guère le choix. Après 44. 48-43 (8-13) 45. 40-34 les noirs poursuivent leur extension par (24-30) 46. 35x24 (19x30) Après 44. 40-34 (8-13) 45. 34-30 les noirs peuvent investir le centre par (23-28). 44..."
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p8_0",
+"ch": 1
 },
 {
 "type": "p",
@@ -179,16 +194,6 @@ const DATA: ManuelData = {
 "t": "Ce sont à présent tous ces thèmes que nous allons détailler :"
 }
 ]
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p7_0",
-"ch": 1
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p7_1",
-"ch": 1
 },
 {
 "type": "p",
@@ -342,16 +347,6 @@ const DATA: ManuelData = {
 "t": "49. 36x27 etc."
 }
 ]
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p8_0",
-"ch": 1
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p8_1",
-"ch": 1
 },
 {
 "type": "board",
@@ -600,7 +595,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "( ) perd le pion par ( ) ( ) etc. ( ) perd le pion par ( ) ( ) etc. Après ( ) ( ), les blancs ont une manœuvre décisive par ( ) ( ) ( ) ( ) etc"
+"t": "perd le pion par etc. perd le pion par etc. Après , les blancs ont une manœuvre décisive par etc"
 }
 ]
 },
@@ -760,7 +755,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "La position des blancs est à présent critique car après (18- 22) il y a la menace ( ), et le coup défensif cloue l’aile gauche des blancs"
+"t": "La position des blancs est à présent critique car après (18- 22) il y a la menace , et le coup défensif cloue l’aile gauche des blancs"
 }
 ]
 },
@@ -1498,7 +1493,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "( ) était également envisageable"
+"t": "était également envisageable"
 }
 ]
 },
@@ -1507,7 +1502,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "Un coup important. De manière plus machinale, on joue généralement ( ) ( ). Les noirs ont en projet de profiter de leur temps d’avance pour s’accaparer tout l’espace de jeu"
+"t": "Un coup important. De manière plus machinale, on joue généralement . Les noirs ont en projet de profiter de leur temps d’avance pour s’accaparer tout l’espace de jeu"
 }
 ]
 },
@@ -1675,6 +1670,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p8_1",
+"ch": 1
+},
+{
 "type": "p",
 "ch": 1,
 "runs": [
@@ -1821,31 +1821,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p18_0",
-"ch": 2
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p18_1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p18_2",
-"ch": 2
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p18_3",
-"ch": 2
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p18_4",
-"ch": 2
-},
-{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -1887,7 +1862,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Sur , l’aspect tactique prend le dessus par ( ) ( ) ( ) ( ) ( )"
+"t": "Sur , l’aspect tactique prend le dessus par"
 }
 ]
 },
@@ -1908,11 +1883,6 @@ const DATA: ManuelData = {
 "t": "La forte position centrale des noirs leur offre la possibilité d’investir avantageusement la case 28 : 1… 23-28 ! Les coups des blancs sont alors extrêmement limités."
 }
 ]
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p19_0",
-"ch": 2
 },
 {
 "type": "board",
@@ -1943,6 +1913,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p18_0",
+"ch": 2
+},
+{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -1952,6 +1927,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p18_1",
+"ch": 2
+},
+{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -1959,6 +1939,11 @@ const DATA: ManuelData = {
 "t": "Dans le diagramme suivant, les blancs prennent l’avantage par : 1. 32-28 ! 32-27 permettrait aux noirs de jouer soit (23-28) avec la menace (28-32), soit (17-21) 26x28 (23x21) avec un dégagement immédiat. 1…"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p18_2",
+"ch": 2
 },
 {
 "type": "p",
@@ -2289,6 +2274,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p18_3",
+"ch": 2
+},
+{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -2574,7 +2564,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Car ils perdent un pion simplement par ( ) etc"
+"t": "Car ils perdent un pion simplement par etc"
 }
 ]
 },
@@ -2605,6 +2595,11 @@ const DATA: ManuelData = {
 "t": "Le marchand de bois avec 2 pions en 5 et 14 présente quelques spécificités que nous allons détailler ci-après :"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p18_4",
+"ch": 2
 },
 {
 "type": "p",
@@ -2915,6 +2910,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p29_0",
+"ch": 2
+},
+{
 "type": "p",
 "ch": 2,
 "runs": [
@@ -2967,6 +2967,11 @@ const DATA: ManuelData = {
 "t": "38. 47-42 diagramme 38…"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p31_2",
+"ch": 2
 },
 {
 "type": "p",
@@ -3204,11 +3209,6 @@ const DATA: ManuelData = {
 "t": "Les 2 pions noirs sur la grande diagonale permettent d’interdire le retour vers le centre par 37-32 à cause de la combinaison simple (18-23) 29x27 (24-29) etc. On note également que 38-32 n’est pas possible à cause de (18- 23) et (24-30). Ces deux combinaisons sont bien souvent au cœur de la stratégie des noirs."
 }
 ]
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p29_0",
-"ch": 2
 },
 {
 "type": "board",
@@ -3517,11 +3517,6 @@ const DATA: ManuelData = {
 {
 "type": "board",
 "id": "PERF_SENS_DU_JEU_T2_p31_1",
-"ch": 2
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p31_2",
 "ch": 2
 },
 {
@@ -4267,7 +4262,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Le dégagement ( ) ( ) ( ) donne un jeu parfaitement équilibré"
+"t": "Le dégagement donne un jeu parfaitement équilibré"
 }
 ]
 },
@@ -4445,7 +4440,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Sur ( ), peut suivre ( ) ( ) ( ) ( ) ( ) ( ) 33x"
+"t": "Sur , peut suivre 33x"
 }
 ]
 },
@@ -4533,6 +4528,11 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p19_0",
+"ch": 2
+},
+{
+"type": "board",
 "id": "PERF_SENS_DU_JEU_T2_p38_0",
 "ch": 2
 },
@@ -4556,7 +4556,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Ton fait remarquer que les blancs peuvent prendre l’avantage par ! ( ) ( ) ! car ( ) ( ) ( ) échoue sur etc. dame à"
+"t": "Ton fait remarquer que les blancs peuvent prendre l’avantage par ! ! car échoue sur etc. dame à"
 }
 ]
 },
@@ -4588,7 +4588,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Les noirs abandonnent car , pour éviter le coup de dame, perd le pion après ( )"
+"t": "Les noirs abandonnent car , pour éviter le coup de dame, perd le pion après"
 }
 ]
 },
@@ -5691,7 +5691,7 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "5 – L’intrusion dans le centre adverse Karen van Lith – Wim van der Kooij (Training 1996) 21e temps – trait aux blancs Cette position illustre bien les problèmes de développement auxquels les blancs peuvent être confrontés. Le coup « naturel » serait « horrible » car il mettrait hors-jeu les 4 pions de la petite diagonale - Dans la partie, les blancs ont opté pour : ! Une intrusion dans le centre adverse qui coupe le jeu des blancs en deux. En jouant ce coup, les blancs prennent de gros risques. En partie officielle, je pense qu’ils auraient préféré la suite désavantageuse ( ) ( ) ( )"
+"t": "5 – L’intrusion dans le centre adverse Karen van Lith – Wim van der Kooij (Training 1996) 21e temps – trait aux blancs Cette position illustre bien les problèmes de développement auxquels les blancs peuvent être confrontés. Le coup « naturel » serait « horrible » car il mettrait hors-jeu les 4 pions de la petite diagonale - Dans la partie, les blancs ont opté pour : ! Une intrusion dans le centre adverse qui coupe le jeu des blancs en deux. En jouant ce coup, les blancs prennent de gros risques. En partie officielle, je pense qu’ils auraient préféré la suite désavantageuse"
 }
 ]
 },
@@ -6017,7 +6017,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Un plan de jeu standard pour les blancs lorsque l’échange ( ) s’est produit"
+"t": "Un plan de jeu standard pour les blancs lorsque l’échange s’est produit"
 }
 ]
 },
@@ -6110,11 +6110,6 @@ const DATA: ManuelData = {
 "t": "26. 47-41 9-13 ( !)"
 }
 ]
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p48_0",
-"ch": 3
 },
 {
 "type": "board",
@@ -7181,40 +7176,14 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "13-18"
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p48_0",
+"ch": 3
 },
 {
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "26. 22x13 10-15 27. 36-31 3-9"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "28. 35-30 9x29 29. 31-26 24x35"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "30. 33x13 8x19 etc."
-}
-]
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line23",
+"ch": 3
 },
 {
 "type": "p",
@@ -7236,7 +7205,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line23",
+"id": "PERF_SENS_DU_JEU_T2_line24",
 "ch": 3
 },
 {
@@ -7374,11 +7343,6 @@ const DATA: ManuelData = {
 "t": "50. 42-38 30-34 51. 28-23 etc."
 }
 ]
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p54_0",
-"ch": 4
 },
 {
 "type": "board",
@@ -7761,6 +7725,11 @@ const DATA: ManuelData = {
 "t": "5. 44-39 5-10 On parvient à la position du diagramme suivant où les blancs semblent manquer de temps."
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p54_0",
+"ch": 4
 },
 {
 "type": "p",
@@ -8593,6 +8562,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p64_0",
+"ch": 5
+},
+{
 "type": "p",
 "ch": 5,
 "runs": [
@@ -8612,16 +8586,6 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p64_0",
-"ch": 5
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p64_1",
-"ch": 5
-},
-{
-"type": "board",
 "id": "PERF_SENS_DU_JEU_T2_p64_2",
 "ch": 5
 },
@@ -8636,7 +8600,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line24",
+"id": "PERF_SENS_DU_JEU_T2_line25",
 "ch": 5
 },
 {
@@ -8782,7 +8746,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line25",
+"id": "PERF_SENS_DU_JEU_T2_line26",
 "ch": 5
 },
 {
@@ -8796,7 +8760,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line26",
+"id": "PERF_SENS_DU_JEU_T2_line27",
 "ch": 5
 },
 {
@@ -8897,7 +8861,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line27",
+"id": "PERF_SENS_DU_JEU_T2_line28",
 "ch": 5
 },
 {
@@ -8992,6 +8956,11 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p64_1",
+"ch": 5
+},
+{
+"type": "board",
 "id": "PERF_SENS_DU_JEU_T2_p67_0",
 "ch": 5
 },
@@ -9016,7 +8985,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line28",
+"id": "PERF_SENS_DU_JEU_T2_line29",
 "ch": 5
 },
 {
@@ -9024,7 +8993,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Sur le dégagement ( ) les Noirs restent maîtres du centre"
+"t": "Sur le dégagement les Noirs restent maîtres du centre"
 }
 ]
 },
@@ -9370,11 +9339,6 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p70_0",
-"ch": 6
-},
-{
-"type": "board",
 "id": "PERF_SENS_DU_JEU_T2_p70_1",
 "ch": 6
 },
@@ -9405,6 +9369,11 @@ const DATA: ManuelData = {
 "t": "Trait aux noirs De manière assez paradoxale le centre mou 27-28-32-33 associé à l’EAD, est le foyer de nombreuses combinaisons, comme l’atteste le diagramme ci-contre : A – (17-21) ou (17-22x21) livre un coup de dame direct par 27-22 (18x29) 34x3 B – (18-23) livre le même type de combinaison par 27-21 (16x29) 37-31 (23x32) 34x3 (25x34) 40x20. C – (9-14) livre un autre genre de combinaison, un peu plus caché, par 27-22 (18x29) 34x23 (25x34) 40x7. Dans la position du diagramme, les noirs ont une ressource en jouant (19-23) 28x19 (17-22) etc. Trait aux noirs Les noirs sont menacés de 27-22 (18x29) 34x14 (25x34) 40x20 (15x24) 14-10 etc. L’avancée au centre pat (18-23) est interdite par le coup de talon 28-22 (17x39) 34x43 (25x34) 40x9 Il reste donc : 1…"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p70_0",
+"ch": 6
 },
 {
 "type": "p",
@@ -9764,21 +9733,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p75_0",
-"ch": 7
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p75_1",
-"ch": 7
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p75_2",
-"ch": 7
-},
-{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -9968,21 +9922,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p76_0",
-"ch": 7
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p76_1",
-"ch": 7
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p76_2",
-"ch": 7
-},
-{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -10118,21 +10057,6 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p77_0",
-"ch": 7
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p77_1",
-"ch": 7
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p77_2",
-"ch": 7
-},
-{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -10161,7 +10085,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line29",
+"id": "PERF_SENS_DU_JEU_T2_line30",
 "ch": 7
 },
 {
@@ -10181,6 +10105,11 @@ const DATA: ManuelData = {
 "t": "Position du diagramme suivant"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p75_0",
+"ch": 7
 },
 {
 "type": "p",
@@ -10226,16 +10155,6 @@ const DATA: ManuelData = {
 "t": "6. 38-33 Le moment crucial. Les noirs sont menacés de 33-28 et ils ne peuvent avancer à 32 en raison de la petite combinaison 25-20 (14x25) 35-30 (25x34) 43-39 (34x43) 49x7."
 }
 ]
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p80_0",
-"ch": 7
-},
-{
-"type": "board",
-"id": "PERF_SENS_DU_JEU_T2_p80_1",
-"ch": 7
 },
 {
 "type": "board",
@@ -10297,6 +10216,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p75_1",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -10349,6 +10273,11 @@ const DATA: ManuelData = {
 "t": "6. 48-42 18-23 Position du diagramme suivant."
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p75_2",
+"ch": 7
 },
 {
 "type": "p",
@@ -10477,6 +10406,11 @@ const DATA: ManuelData = {
 "t": "Position du diagramme ci-contre."
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p76_0",
+"ch": 7
 },
 {
 "type": "p",
@@ -10612,7 +10546,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line30",
+"id": "PERF_SENS_DU_JEU_T2_line31",
 "ch": 7
 },
 {
@@ -10620,7 +10554,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Les noirs ne peuvent récupérer leur pion par ( ) ( ) à cause du coup de dame ( ) ( )"
+"t": "Les noirs ne peuvent récupérer leur pion par à cause du coup de dame"
 }
 ]
 },
@@ -10705,6 +10639,11 @@ const DATA: ManuelData = {
 "t": "9. 35-30 10-14 10. 30-24 23-28 Position du diagramme ci-contre. Les noirs ont consolidé leur position car 38-32 (27x38) 43x23 livre une contre combinaison par (22-27) 31x13 (8x40)."
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p76_1",
+"ch": 7
 },
 {
 "type": "board",
@@ -11708,7 +11647,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line31",
+"id": "PERF_SENS_DU_JEU_T2_line32",
 "ch": 7
 },
 {
@@ -12031,7 +11970,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line32",
+"id": "PERF_SENS_DU_JEU_T2_line33",
 "ch": 7
 },
 {
@@ -12039,7 +11978,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Une autre idée de combinaison était envisageable après ( ) ( ), par ( ) ( ) ( ) 43- 39 ( ) ( ) ( ), mais cela ne donne que la nulle. Le plus remarquable est que les noirs pouvaient prendre l’avantage par un coup inattendu, à savoir ( ). Ce coup interdit l’attaque par le coup de dame ( ) ( ) ( ). Après ( ) ( ), les blancs ne peuvent toujours pas attaquer le pion taquin par en raison de ( ) ( ) ( )"
+"t": "Une autre idée de combinaison était envisageable après , par 43- 39 , mais cela ne donne que la nulle. Le plus remarquable est que les noirs pouvaient prendre l’avantage par un coup inattendu, à savoir . Ce coup interdit l’attaque par le coup de dame . Après , les blancs ne peuvent toujours pas attaquer le pion taquin par en raison de"
 }
 ]
 },
@@ -12774,6 +12713,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p76_2",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -12916,7 +12860,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line33",
+"id": "PERF_SENS_DU_JEU_T2_line34",
 "ch": 7
 },
 {
@@ -12930,7 +12874,12 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line34",
+"id": "PERF_SENS_DU_JEU_T2_p77_0",
+"ch": 7
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_line35",
 "ch": 7
 },
 {
@@ -12968,7 +12917,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line35",
+"id": "PERF_SENS_DU_JEU_T2_line36",
 "ch": 7
 },
 {
@@ -13306,7 +13255,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line36",
+"id": "PERF_SENS_DU_JEU_T2_line37",
 "ch": 7
 },
 {
@@ -13383,7 +13332,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line37",
+"id": "PERF_SENS_DU_JEU_T2_line38",
 "ch": 7
 },
 {
@@ -13538,7 +13487,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line38",
+"id": "PERF_SENS_DU_JEU_T2_line39",
 "ch": 7
 },
 {
@@ -13636,6 +13585,11 @@ const DATA: ManuelData = {
 "t": "34. 39-34 19-24 Position du diagramme ci-contre Les noirs occupent à nouveau la case stratégique 24. Ce ne sera que momentané. 35. 37-31 26x37"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p77_1",
+"ch": 7
 },
 {
 "type": "p",
@@ -13771,7 +13725,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line39",
+"id": "PERF_SENS_DU_JEU_T2_line40",
 "ch": 7
 },
 {
@@ -13779,7 +13733,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Sur , suit ( ) ( ) ( ) ( )"
+"t": "Sur , suit"
 }
 ]
 },
@@ -13803,7 +13757,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line40",
+"id": "PERF_SENS_DU_JEU_T2_line41",
 "ch": 7
 },
 {
@@ -13845,7 +13799,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line41",
+"id": "PERF_SENS_DU_JEU_T2_line42",
 "ch": 7
 },
 {
@@ -13853,7 +13807,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Par ce simple échange, les noirs ont délogé les blancs des cases stratégiques 27 et 28, et pris le contrôle du jeu sur leur aile droite. L’avance de développement des noirs devient flagrante. Une meilleure défense est obtenue après ( ) ( ) etc"
+"t": "Par ce simple échange, les noirs ont délogé les blancs des cases stratégiques 27 et 28, et pris le contrôle du jeu sur leur aile droite. L’avance de développement des noirs devient flagrante. Une meilleure défense est obtenue après etc"
 }
 ]
 },
@@ -14190,7 +14144,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line42",
+"id": "PERF_SENS_DU_JEU_T2_line43",
 "ch": 7
 },
 {
@@ -14222,7 +14176,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line43",
+"id": "PERF_SENS_DU_JEU_T2_line44",
 "ch": 7
 },
 {
@@ -15016,7 +14970,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line44",
+"id": "PERF_SENS_DU_JEU_T2_line45",
 "ch": 7
 },
 {
@@ -15029,6 +14983,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p77_2",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -15039,7 +14998,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line45",
+"id": "PERF_SENS_DU_JEU_T2_line46",
 "ch": 7
 },
 {
@@ -15083,6 +15042,11 @@ const DATA: ManuelData = {
 "t": "Evgeni Vatutin – Teake Kooistra NLD-chT Ereklasse, 2008 27e temps – trait aux blancs On considère généralement que les pions 26 et 36 ont plus d’emprise sur le jeu que le pion isolé à 6. Les blancs ont pourtant un moyen pratique d’inverser ce jugement en entrant en classique. C’est ce que nous allons voir dans la position ci-contre : 27. 32-27 Profite de la case vide en 18 pour interdire l’attaque (26-31) par 39-34 (31x22) 33-29 (24x33) 38x27. 27…"
 }
 ]
+},
+{
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p80_0",
+"ch": 7
 },
 {
 "type": "p",
@@ -15131,7 +15095,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line46",
+"id": "PERF_SENS_DU_JEU_T2_line47",
 "ch": 7
 },
 {
@@ -15144,6 +15108,11 @@ const DATA: ManuelData = {
 ]
 },
 {
+"type": "board",
+"id": "PERF_SENS_DU_JEU_T2_p80_1",
+"ch": 7
+},
+{
 "type": "p",
 "ch": 7,
 "runs": [
@@ -15154,7 +15123,7 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "PERF_SENS_DU_JEU_T2_line47",
+"id": "PERF_SENS_DU_JEU_T2_line48",
 "ch": 7
 },
 {
@@ -33924,6 +33893,184 @@ const DATA: ManuelData = {
 "title": "Séquence de la partie",
 "start": {
 "wm": [
+22,
+23,
+28,
+33,
+35,
+36,
+38,
+39,
+40,
+43,
+44,
+45,
+48
+],
+"wk": [],
+"bm": [
+2,
+3,
+4,
+6,
+8,
+10,
+12,
+13,
+14,
+19,
+20,
+24,
+25
+],
+"bk": [],
+"turn": "black"
+},
+"moves": [
+{
+"n": "13-18",
+"f": 13,
+"t": 18,
+"c": [],
+"path": [
+13,
+18
+],
+"p": false
+},
+{
+"n": "22x13",
+"f": 22,
+"t": 13,
+"c": [
+18
+],
+"path": [
+22,
+13
+],
+"p": false
+},
+{
+"n": "10-15",
+"f": 10,
+"t": 15,
+"c": [],
+"path": [
+10,
+15
+],
+"p": false
+},
+{
+"n": "36-31",
+"f": 36,
+"t": 31,
+"c": [],
+"path": [
+36,
+31
+],
+"p": false
+},
+{
+"n": "3-9",
+"f": 3,
+"t": 9,
+"c": [],
+"path": [
+3,
+9
+],
+"p": false
+},
+{
+"n": "35-30",
+"f": 35,
+"t": 30,
+"c": [],
+"path": [
+35,
+30
+],
+"p": false
+},
+{
+"n": "9x29",
+"f": 9,
+"t": 29,
+"c": [
+13,
+23
+],
+"path": [
+9,
+18,
+29
+],
+"p": false
+},
+{
+"n": "31-26",
+"f": 31,
+"t": 26,
+"c": [],
+"path": [
+31,
+26
+],
+"p": false
+},
+{
+"n": "24x35",
+"f": 24,
+"t": 35,
+"c": [
+30
+],
+"path": [
+24,
+35
+],
+"p": false
+},
+{
+"n": "33x13",
+"f": 33,
+"t": 13,
+"c": [
+19,
+29
+],
+"path": [
+33,
+24,
+13
+],
+"p": false
+},
+{
+"n": "8x19",
+"f": 8,
+"t": 19,
+"c": [
+13
+],
+"path": [
+8,
+19
+],
+"p": false
+}
+],
+"pub": "13-18 22x13 10-15 36-31 3-9 35-30 9x29 31-26 24x35 33x13 8x19"
+},
+"PERF_SENS_DU_JEU_T2_line24": {
+"id": "PERF_SENS_DU_JEU_T2_line24",
+"ch": 3,
+"title": "Séquence de la partie",
+"start": {
+"wm": [
 26,
 29,
 31,
@@ -34164,8 +34311,8 @@ const DATA: ManuelData = {
 ],
 "pub": "22-28 32x23 19x28 33x22 18x27 31x22 24x33 39x28 25-30 35x15 14-20 15x24 13-18 22x13 8x50"
 },
-"PERF_SENS_DU_JEU_T2_line24": {
-"id": "PERF_SENS_DU_JEU_T2_line24",
+"PERF_SENS_DU_JEU_T2_line25": {
+"id": "PERF_SENS_DU_JEU_T2_line25",
 "ch": 5,
 "title": "Séquence de la partie",
 "start": {
@@ -34482,8 +34629,8 @@ const DATA: ManuelData = {
 ],
 "pub": "14-20 42-38 20-25 40-34 13-18 41-37 12-17 38-32 8-12 36-31 17-21 31-27 12-17 43-39 18-23 37-31 26x37 32x41 21x32 28x37 17-22 37-31 16-21 31-26 21-27"
 },
-"PERF_SENS_DU_JEU_T2_line25": {
-"id": "PERF_SENS_DU_JEU_T2_line25",
+"PERF_SENS_DU_JEU_T2_line26": {
+"id": "PERF_SENS_DU_JEU_T2_line26",
 "ch": 5,
 "title": "Séquence de la partie",
 "start": {
@@ -34640,8 +34787,8 @@ const DATA: ManuelData = {
 ],
 "pub": "24-29 33x24 14-20 27-22 20x40 35x44 18x27 31x22 25x34"
 },
-"PERF_SENS_DU_JEU_T2_line26": {
-"id": "PERF_SENS_DU_JEU_T2_line26",
+"PERF_SENS_DU_JEU_T2_line27": {
+"id": "PERF_SENS_DU_JEU_T2_line27",
 "ch": 5,
 "title": "Séquence de la partie",
 "start": {
@@ -34792,8 +34939,8 @@ const DATA: ManuelData = {
 ],
 "pub": "24-29 33x24 23-29 34x14 9x29 30-24 29x20 31-27 8-12"
 },
-"PERF_SENS_DU_JEU_T2_line27": {
-"id": "PERF_SENS_DU_JEU_T2_line27",
+"PERF_SENS_DU_JEU_T2_line28": {
+"id": "PERF_SENS_DU_JEU_T2_line28",
 "ch": 5,
 "title": "Séquence de la partie",
 "start": {
@@ -35006,8 +35153,8 @@ const DATA: ManuelData = {
 ],
 "pub": "23-29 47-42 20-25 42-37 19-23 28x19 13x24 39-33 18-23 44-40 24-30 33x35 23-28 32x23 21x41"
 },
-"PERF_SENS_DU_JEU_T2_line28": {
-"id": "PERF_SENS_DU_JEU_T2_line28",
+"PERF_SENS_DU_JEU_T2_line29": {
+"id": "PERF_SENS_DU_JEU_T2_line29",
 "ch": 5,
 "title": "Séquence de la partie",
 "start": {
@@ -35364,8 +35511,8 @@ const DATA: ManuelData = {
 ],
 "pub": "18-22 27x18 13x22 43-39 10-15 48-43 7-12 43-38 12-18 34-29 22-27 29x20 15x24 39-34 18-23 35-30 24x35 33-29 35-40 29x18 40x29 38-33 29x38 32x43 17-22 26x17 22x11"
 },
-"PERF_SENS_DU_JEU_T2_line29": {
-"id": "PERF_SENS_DU_JEU_T2_line29",
+"PERF_SENS_DU_JEU_T2_line30": {
+"id": "PERF_SENS_DU_JEU_T2_line30",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -35531,8 +35678,8 @@ const DATA: ManuelData = {
 ],
 "pub": "37-32 11-16 32x21 16x27 42-37 6-11 37-32 11-16 32x21 16x27"
 },
-"PERF_SENS_DU_JEU_T2_line30": {
-"id": "PERF_SENS_DU_JEU_T2_line30",
+"PERF_SENS_DU_JEU_T2_line31": {
+"id": "PERF_SENS_DU_JEU_T2_line31",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -35620,8 +35767,8 @@ const DATA: ManuelData = {
 ],
 "pub": "37-32 15-20 32x21 10-15"
 },
-"PERF_SENS_DU_JEU_T2_line31": {
-"id": "PERF_SENS_DU_JEU_T2_line31",
+"PERF_SENS_DU_JEU_T2_line32": {
+"id": "PERF_SENS_DU_JEU_T2_line32",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -36266,8 +36413,8 @@ const DATA: ManuelData = {
 ],
 "pub": "33-29 3-9 37-32 11-16 32x21 16x27 42-37 6-11 47-42 2-7 37-32 11-16 32x21 16x27 42-37 7-11 37-32 11-16 32x21 16x27 38-33 23-28 29-23 18x38 43x21 20-24 49-43 13-18 43-38 9-13 21-16 12-17 38-33 19-23 31-27 22x31 33x11 31-37 11-7 37-42 7-1 42-47 39-33 47x29 44-39 14-20 25x14 10x19 40-35 29x40 45x34"
 },
-"PERF_SENS_DU_JEU_T2_line32": {
-"id": "PERF_SENS_DU_JEU_T2_line32",
+"PERF_SENS_DU_JEU_T2_line33": {
+"id": "PERF_SENS_DU_JEU_T2_line33",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -36385,8 +36532,8 @@ const DATA: ManuelData = {
 ],
 "pub": "24-29 49-44 29x49 43-39 49x32 37x6"
 },
-"PERF_SENS_DU_JEU_T2_line33": {
-"id": "PERF_SENS_DU_JEU_T2_line33",
+"PERF_SENS_DU_JEU_T2_line34": {
+"id": "PERF_SENS_DU_JEU_T2_line34",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -36554,8 +36701,8 @@ const DATA: ManuelData = {
 ],
 "pub": "19-24 40-35 3-8 49-43 6-11 48-42 16-21 28-23 21-26 50-44 1-7 23-19"
 },
-"PERF_SENS_DU_JEU_T2_line34": {
-"id": "PERF_SENS_DU_JEU_T2_line34",
+"PERF_SENS_DU_JEU_T2_line35": {
+"id": "PERF_SENS_DU_JEU_T2_line35",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -36689,8 +36836,8 @@ const DATA: ManuelData = {
 ],
 "pub": "24-30 35x24 19x30 34-29 9-14 38-32 27x38 43x32"
 },
-"PERF_SENS_DU_JEU_T2_line35": {
-"id": "PERF_SENS_DU_JEU_T2_line35",
+"PERF_SENS_DU_JEU_T2_line36": {
+"id": "PERF_SENS_DU_JEU_T2_line36",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -37167,8 +37314,8 @@ const DATA: ManuelData = {
 ],
 "pub": "13-19 24x13 18x9 41-37 21-27 47-42 9-14 42-38 6-11 46-41 8-13 40-34 23-28 31-26 12-18 37-31 15-20 38-33 20-25 33-29 2-8 50-45 8-12 45-40 12-17 40-35 11-16 29-24 27-32 41-37 32x41 36x47 16-21 47-41 28-33 39x28 22x33 41-37 33-38"
 },
-"PERF_SENS_DU_JEU_T2_line36": {
-"id": "PERF_SENS_DU_JEU_T2_line36",
+"PERF_SENS_DU_JEU_T2_line37": {
+"id": "PERF_SENS_DU_JEU_T2_line37",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -37305,8 +37452,8 @@ const DATA: ManuelData = {
 ],
 "pub": "38-33 18-22 27x18 13x22 37-31 9-13 39-34 13-18 31-26"
 },
-"PERF_SENS_DU_JEU_T2_line37": {
-"id": "PERF_SENS_DU_JEU_T2_line37",
+"PERF_SENS_DU_JEU_T2_line38": {
+"id": "PERF_SENS_DU_JEU_T2_line38",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -37928,8 +38075,8 @@ const DATA: ManuelData = {
 ],
 "pub": "18-22 27x18 13x22 32-27 22x31 36x27 11-17 37-32 8-12 33-28 9-13 38-33 6-11 42-38 17-21 48-42 11-17 42-37 12-18 50-44 4-9 44-39 18-22 27x18 13x22 28-23 19x28 32x23 22-27 30-24 27-32 37x28 26-31 24-19 14-20 15x24 31-36 23-18 36-41 19-13 9-14 13-8 41-47 8-2 47-41 18-12 41x32 33-29 17x8 2x37"
 },
-"PERF_SENS_DU_JEU_T2_line38": {
-"id": "PERF_SENS_DU_JEU_T2_line38",
+"PERF_SENS_DU_JEU_T2_line39": {
+"id": "PERF_SENS_DU_JEU_T2_line39",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -38335,8 +38482,8 @@ const DATA: ManuelData = {
 ],
 "pub": "6-11 39-33 11-17 47-42 8-12 42-38 17-22 31-26 22x31 36x27 12-17 46-41 2-7 41-36 7-11 38-32 1-6 43-38 9-14 44-39 17-21 26x17 11x31 36x27 6-11 33-28 23-29 39-34 18-23 49-43 11-17 30-24"
 },
-"PERF_SENS_DU_JEU_T2_line39": {
-"id": "PERF_SENS_DU_JEU_T2_line39",
+"PERF_SENS_DU_JEU_T2_line40": {
+"id": "PERF_SENS_DU_JEU_T2_line40",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -38977,8 +39124,8 @@ const DATA: ManuelData = {
 ],
 "pub": "14-19 37-32 09-13 44-40 04-09 39-34 02-08 43-39 24-30 25-20 15x24 34x25 18-23 39-34 09-14 49-43 13-18 43-39 17-22 28x17 11x22 32-27 22x31 26x37 08-13 38-33 06-11 42-38 11-17 48-43 24-30 33-29 17-22 40-35 12-17 35x24 19x30 37-32 07-12 38-33 14-20 25x14 17-21 34x25 23x34 39x30 13-19 16x27 22x31 14x23 18x49"
 },
-"PERF_SENS_DU_JEU_T2_line40": {
-"id": "PERF_SENS_DU_JEU_T2_line40",
+"PERF_SENS_DU_JEU_T2_line41": {
+"id": "PERF_SENS_DU_JEU_T2_line41",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -39143,8 +39290,8 @@ const DATA: ManuelData = {
 ],
 "pub": "18-23 40-34 13-18 30-25 08-13 34-30 10-15 49-44 02-07 50-45 17-22"
 },
-"PERF_SENS_DU_JEU_T2_line41": {
-"id": "PERF_SENS_DU_JEU_T2_line41",
+"PERF_SENS_DU_JEU_T2_line42": {
+"id": "PERF_SENS_DU_JEU_T2_line42",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -39389,8 +39536,8 @@ const DATA: ManuelData = {
 ],
 "pub": "18-22 27x18 13x22 28x17 11x22 41-36 21-27 32x21 16x27 49-43 7-12 50-44 9-13 33-28 22x33 38x29 12-18"
 },
-"PERF_SENS_DU_JEU_T2_line42": {
-"id": "PERF_SENS_DU_JEU_T2_line42",
+"PERF_SENS_DU_JEU_T2_line43": {
+"id": "PERF_SENS_DU_JEU_T2_line43",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -39637,8 +39784,8 @@ const DATA: ManuelData = {
 ],
 "pub": "17-22 41-36 22x31 36x27 7-11 33-28 11-17 28x19 14x23 47-41 17-22 39-33 22x31 32-28 23x32 38x36 18-22"
 },
-"PERF_SENS_DU_JEU_T2_line43": {
-"id": "PERF_SENS_DU_JEU_T2_line43",
+"PERF_SENS_DU_JEU_T2_line44": {
+"id": "PERF_SENS_DU_JEU_T2_line44",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -39739,8 +39886,8 @@ const DATA: ManuelData = {
 ],
 "pub": "19-23 28x19 14x23 39-33 6-11"
 },
-"PERF_SENS_DU_JEU_T2_line44": {
-"id": "PERF_SENS_DU_JEU_T2_line44",
+"PERF_SENS_DU_JEU_T2_line45": {
+"id": "PERF_SENS_DU_JEU_T2_line45",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -40033,8 +40180,8 @@ const DATA: ManuelData = {
 ],
 "pub": "21-27 32x21 16x27 38-32 27x38 43x32 10-14 34-30 2-7 48-43 17-22 28x17 11x22 32-27 22x31 26x37 19-23 29-24 6-11 30-25 18-22"
 },
-"PERF_SENS_DU_JEU_T2_line45": {
-"id": "PERF_SENS_DU_JEU_T2_line45",
+"PERF_SENS_DU_JEU_T2_line46": {
+"id": "PERF_SENS_DU_JEU_T2_line46",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -40142,8 +40289,8 @@ const DATA: ManuelData = {
 ],
 "pub": "37-32 12-17 32-27 22x31 36x27 4-10"
 },
-"PERF_SENS_DU_JEU_T2_line46": {
-"id": "PERF_SENS_DU_JEU_T2_line46",
+"PERF_SENS_DU_JEU_T2_line47": {
+"id": "PERF_SENS_DU_JEU_T2_line47",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
@@ -40275,8 +40422,8 @@ const DATA: ManuelData = {
 ],
 "pub": "24-30 45-40 30-35 38-33 35x44 39x50 14-20 28-22"
 },
-"PERF_SENS_DU_JEU_T2_line47": {
-"id": "PERF_SENS_DU_JEU_T2_line47",
+"PERF_SENS_DU_JEU_T2_line48": {
+"id": "PERF_SENS_DU_JEU_T2_line48",
 "ch": 7,
 "title": "Séquence de la partie",
 "start": {
