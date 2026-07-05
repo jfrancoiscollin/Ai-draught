@@ -85,7 +85,35 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "Le damier international comporte **100 cases** (10×10), dont seules les **50 cases sombres** sont utilisées. Ces 50 cases sont numérotées de **1 à 50** de gauche à droite et de haut en bas, **depuis le côté noir** (haut du diagramme)."
+"t": "Le damier international comporte "
+},
+{
+"b": 1,
+"t": "100 cases"
+},
+{
+"t": " (10×10), dont seules les "
+},
+{
+"b": 1,
+"t": "50 cases sombres"
+},
+{
+"t": " sont utilisées. Ces 50 cases sont numérotées de "
+},
+{
+"b": 1,
+"t": "1 à 50"
+},
+{
+"t": " de gauche à droite et de haut en bas, "
+},
+{
+"b": 1,
+"t": "depuis le côté noir"
+},
+{
+"t": " (haut du diagramme)"
 }
 ]
 },
@@ -94,79 +122,7 @@ const DATA: ManuelData = {
 "ch": 1,
 "runs": [
 {
-"t": "Voir `BEG_CH01_001` (position initiale standard) : les noirs occupent les cases 1 à 20, les blancs les cases 31 à 50. Les rangées 21-30 sont vides. Le trait est aux blancs."
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "Voir `BEG_CH01_002` (position après le premier coup blanc `32-28`) : le pion blanc de la case 32 a glissé sur la case 28, et c'est maintenant aux noirs de jouer."
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "### Notation des coups"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "- **Coup simple** (déplacement non capturant) : `cd-cf` où `cd` est la case de départ et `cf` la case finale. Exemple : `32-28` signifie « le pion en 32 se déplace en 28 ». - **Coup de capture (rafle)** : `cd×cf` où `cd` est la case de départ et `cf` la case d'arrivée. Les cases intermédiaires et les pièces capturées ne sont pas explicitement notées — elles se déduisent géométriquement. Exemple : `32×16` signifie « le pion 32 effectue une rafle qui le mène en case 16 ». Selon la position, cette rafle peut capturer un, deux, trois pions ou plus. - **Parenthèses autour d'un coup** : indique que c'est l'**adversaire** qui joue ce coup-là. Convention systématique chez Dubois. - **Le trait** : indiqué par `W` (blanc) ou `B` (noir) en tête d'une notation FEN."
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "### Notation FEN"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "La notation FEN dames a la forme :"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "``` <trait>:W<cases blancs>:B<cases noirs> ```"
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "Les dames sont préfixées d'un `K`. Exemple : `W:W31,32,K40:B7,K12,18` signifie « trait aux blancs ; pions blancs en 31 et 32, dame blanche en 40 ; pion noir en 7, dame noire en 12, pion noir en 18 »."
-}
-]
-},
-{
-"type": "p",
-"ch": 1,
-"runs": [
-{
-"t": "---"
+"t": "Voir (position initiale standard): les noirs occupent les cases 1 à 20, les blancs les cases 31 à 50. Les rangées 21-30 sont vides. Le trait est aux blancs"
 }
 ]
 },
@@ -176,9 +132,112 @@ const DATA: ManuelData = {
 "ch": 1
 },
 {
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "Voir (position après le premier coup blanc 32-28): le pion blanc de la case 32 a glissé sur la case 28, et c'est maintenant aux noirs de jouer"
+}
+]
+},
+{
 "type": "board",
 "id": "1_d1",
 "ch": 1
+},
+{
+"type": "h3",
+"ch": 1,
+"runs": [
+{
+"t": "Notation des coups"
+}
+]
+},
+{
+"type": "ul",
+"ch": 1,
+"items": [
+[
+{
+"b": 1,
+"t": "Coup simple"
+},
+{
+"t": " (déplacement non capturant): cd-cf où cd est la case de départ et cf la case finale. Exemple: 32-28 signifie «le pion en 32 se déplace en 28»"
+}
+],
+[
+{
+"b": 1,
+"t": "Coup de capture (rafle)"
+},
+{
+"t": ": cd×cf où cd est la case de départ et cf la case d'arrivée. Les cases intermédiaires et les pièces capturées ne sont pas explicitement notées — elles se déduisent géométriquement. Exemple: 32×16 signifie «le pion 32 effectue une rafle qui le mène en case 16». Selon la position, cette rafle peut capturer un, deux, trois pions ou plus"
+}
+],
+[
+{
+"b": 1,
+"t": "Parenthèses autour d'un coup"
+},
+{
+"t": ": indique que c'est l'"
+},
+{
+"b": 1,
+"t": "adversaire"
+},
+{
+"t": " qui joue ce coup-là. Convention systématique chez Dubois"
+}
+],
+[
+{
+"b": 1,
+"t": "Le trait"
+},
+{
+"t": ": indiqué par W (blanc) ou B (noir) en tête d'une notation FEN"
+}
+]
+]
+},
+{
+"type": "h3",
+"ch": 1,
+"runs": [
+{
+"t": "Notation FEN"
+}
+]
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "La notation FEN dames a la forme"
+}
+]
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "<trait>:W<cases blancs>:B<cases noirs>"
+}
+]
+},
+{
+"type": "p",
+"ch": 1,
+"runs": [
+{
+"t": "Les dames sont préfixées d'un K. Exemple: W:W31,32,K40:B7,K12,18 signifie «trait aux blancs; pions blancs en 31 et 32, dame blanche en 40; pion noir en 7, dame noire en 12, pion noir en 18»"
+}
+]
 },
 {
 "type": "h2",
@@ -190,11 +249,11 @@ const DATA: ManuelData = {
 ]
 },
 {
-"type": "p",
+"type": "h3",
 "ch": 2,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: prise_max_ratee -->"
+"t": "2.1. Déplacement des pions"
 }
 ]
 },
@@ -203,7 +262,21 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "### 2.1. Déplacement des pions"
+"t": "Un pion se déplace "
+},
+{
+"b": 1,
+"t": "d'une case"
+},
+{
+"t": " en diagonale, "
+},
+{
+"b": 1,
+"t": "vers l'avant uniquement"
+},
+{
+"t": " (vers le camp adverse). Pour un pion blanc, «vers l'avant» signifie vers les cases de numéros plus petits; pour un pion noir, vers les cases de numéros plus grands"
 }
 ]
 },
@@ -212,241 +285,21 @@ const DATA: ManuelData = {
 "ch": 2,
 "runs": [
 {
-"t": "Un pion se déplace **d'une case** en diagonale, **vers l'avant uniquement** (vers le camp adverse). Pour un pion blanc, « vers l'avant » signifie vers les cases de numéros plus petits ; pour un pion noir, vers les cases de numéros plus grands."
-}
-]
+"t": "le pion blanc en case 35 (à l'angle droit du damier) ne peut se déplacer qu'"
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_001` : le pion blanc en case 35 (à l'angle droit du damier) ne peut se déplacer qu'**en 30** — c'est sa seule case diagonale vers l'avant disponible, le bord droit du plateau bloque toute autre option. Voir aussi `BEG_CH02_002` : le pion blanc en 22 ne peut **pas** reculer en 27 ou 28 librement ; ses seuls coups légaux sont 22-17 et 22-18 (vers l'avant)."
-}
-]
+"b": 1,
+"t": "en 30"
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "### 2.2. Capture (prise simple)"
-}
-]
+"t": " — c'est sa seule case diagonale vers l'avant disponible, le bord droit du plateau bloque toute autre option. le pion blanc en 22 ne peut "
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Un pion **capture en sautant** par-dessus un pion adverse adjacent en diagonale, à condition que la case derrière (le « champ d'atterrissage ») soit **vide**. La capture peut se faire **en avant comme en arrière** (contrairement au déplacement normal). Le pion capturé est retiré du damier **à la fin de la séquence de prise**, pas pendant."
-}
-]
+"b": 1,
+"t": "pas"
 },
 {
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_003` : le pion blanc 31 saute par-dessus le pion noir 27 et atterrit en 22 (notation `31×22`). Voir aussi `BEG_CH02_004` pour illustrer la **capture vers l'arrière** : le pion blanc 22 saute le noir 27 vers l'arrière et atterrit en 31 (notation `22×31`) — ce qui serait interdit pour un coup simple."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "### 2.3. Rafle (capture multiple)"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Si après avoir capturé un pion, le pion captureur peut **immédiatement en capturer un autre** (en sautant à nouveau), il **doit** le faire. Il peut ainsi enchaîner plusieurs sauts dans la même séquence. C'est ce qu'on appelle une **rafle**."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_005` : le pion blanc 31 saute le noir 27 (atterrit en 22), puis enchaîne en sautant le noir 17 pour atterrir en 11. Notation `31×11`, deux pions noirs capturés en une seule séquence."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "### 2.4. Prise obligatoire"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Quand un pion ou une dame **peut capturer**, la capture est **obligatoire**. Le joueur ne peut pas refuser de prendre. C'est l'une des règles les plus distinctives du jeu de dames international."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_006` : le pion blanc 31 ne peut pas jouer 31-26 (coup simple) parce que la prise `31×22` du noir 27 est disponible — il doit prendre, même s'il préférerait jouer ailleurs."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "### 2.5. Prise maximale (règle du nombre)"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Quand **plusieurs captures** sont possibles, le joueur doit choisir celle qui **capture le maximum de pièces**. Si deux rafles capturent le même nombre de pièces, le joueur choisit librement (sauf cas spéciaux documentés dans la règlementation FMJD)."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_007` : depuis la position W{31, 38} B{23, 27, 33}, le blanc a deux captures possibles — `31×22` ne prend qu'un seul pion (le 27), tandis que `38×18` prend deux pions (33 et 23). La rafle `38×18` est **obligatoire** car elle capture le plus."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "### 2.6. Promotion en dame"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Un pion qui atteint la **dernière rangée adverse** (cases 1-5 pour les blancs, 46-50 pour les noirs) **promeut en dame**. La promotion a lieu uniquement si le pion **s'arrête** sur la dernière rangée. Si une rafle fait traverser la dernière rangée sans s'y arrêter, **il n'y a pas promotion** — c'est la fameuse règle du « non-soufflage de la dame »."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_008` : le pion blanc 6 joue `6-1` et devient dame en arrivant sur la première rangée."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "### 2.7. La dame — déplacement et capture"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "La **dame** se déplace **librement** le long d'une diagonale, sur **autant de cases libres** qu'elle veut (similaire au fou aux échecs). Pour capturer, elle saute par-dessus un pion adverse sur sa diagonale et peut **atterrir sur n'importe quelle case libre derrière**."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_009` : la dame blanche en 32 peut glisser sur n'importe quelle case libre des 4 diagonales qui la traversent. Voir `BEG_CH02_010` : la dame blanche en 46 saute le pion noir 23 et choisit sa case d'atterrissage parmi celles libres après lui sur la diagonale."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "### 2.8. Non-soufflage (les captures restent jusqu'à la fin de la rafle)"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Les pions capturés au cours d'une rafle **restent sur le plateau** jusqu'à ce que la rafle soit complètement terminée. Conséquence : le même pion ne peut pas être capturé deux fois dans une rafle, et la trajectoire peut s'en trouver bloquée."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_011` : la position W{23} B{18, 19, 28, 29} illustre cette règle — le blanc 23 ne peut pas faire de boucle qui re-saute un pion déjà capturé, ce qui limite ses trajectoires possibles."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "### 2.9. Règle des 50 coups (nullité)"
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Si pendant **50 coups** consécutifs aucun pion n'est capturé ni promu, la partie est déclarée **nulle**. Cette règle empêche les parties qui pourraient tourner indéfiniment."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "Voir `BEG_CH02_012` : finale dame contre dame (W_king{28} vs B_king{23}) — sans intervention extérieure, ces deux dames pourraient se poursuivre indéfiniment. La règle des 50 coups conclut la partie en nulle."
-}
-]
-},
-{
-"type": "p",
-"ch": 2,
-"runs": [
-{
-"t": "---"
+"t": " reculer en 27 ou 28 librement; ses seuls coups légaux sont 22-17 et 22-18 (vers l'avant)"
 }
 ]
 },
@@ -461,6 +314,68 @@ const DATA: ManuelData = {
 "ch": 2
 },
 {
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "2.2. Capture (prise simple)"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "Un pion "
+},
+{
+"b": 1,
+"t": "capture en sautant"
+},
+{
+"t": " par-dessus un pion adverse adjacent en diagonale, à condition que la case derrière (le «champ d'atterrissage») soit "
+},
+{
+"b": 1,
+"t": "vide"
+},
+{
+"t": ". La capture peut se faire "
+},
+{
+"b": 1,
+"t": "en avant comme en arrière"
+},
+{
+"t": " (contrairement au déplacement normal). Le pion capturé est retiré du damier "
+},
+{
+"b": 1,
+"t": "à la fin de la séquence de prise"
+},
+{
+"t": ", pas pendant"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "le pion blanc 31 saute par-dessus le pion noir 27 et atterrit en 22 (notation 31×22). Voir aussi pour illustrer la "
+},
+{
+"b": 1,
+"t": "capture vers l'arrière"
+},
+{
+"t": ": le pion blanc 22 saute le noir 27 vers l'arrière et atterrit en 31 (notation 22×31) — ce qui serait interdit pour un coup simple"
+}
+]
+},
+{
 "type": "board",
 "id": "2_d2",
 "ch": 2
@@ -471,9 +386,95 @@ const DATA: ManuelData = {
 "ch": 2
 },
 {
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "2.3. Rafle (capture multiple)"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "Si après avoir capturé un pion, le pion captureur peut "
+},
+{
+"b": 1,
+"t": "immédiatement en capturer un autre"
+},
+{
+"t": " (en sautant à nouveau), il "
+},
+{
+"b": 1,
+"t": "doit"
+},
+{
+"t": " le faire. Il peut ainsi enchaîner plusieurs sauts dans la même séquence. C'est ce qu'on appelle une "
+},
+{
+"b": 1,
+"t": "rafle"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "le pion blanc 31 saute le noir 27 (atterrit en 22), puis enchaîne en sautant le noir 17 pour atterrir en 11. Notation 31×11, deux pions noirs capturés en une seule séquence"
+}
+]
+},
+{
 "type": "board",
 "id": "2_d4",
 "ch": 2
+},
+{
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "2.4. Prise obligatoire"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "Quand un pion ou une dame "
+},
+{
+"b": 1,
+"t": "peut capturer"
+},
+{
+"t": ", la capture est "
+},
+{
+"b": 1,
+"t": "obligatoire"
+},
+{
+"t": ". Le joueur ne peut pas refuser de prendre. C'est l'une des règles les plus distinctives du jeu de dames international"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "le pion blanc 31 ne peut pas jouer 31-26 (coup simple) parce que la prise 31×22 du noir 27 est disponible — il doit prendre, même s'il préférerait jouer ailleurs"
+}
+]
 },
 {
 "type": "board",
@@ -481,14 +482,169 @@ const DATA: ManuelData = {
 "ch": 2
 },
 {
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "2.5. Prise maximale (règle du nombre)"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "Quand "
+},
+{
+"b": 1,
+"t": "plusieurs captures"
+},
+{
+"t": " sont possibles, le joueur doit choisir celle qui "
+},
+{
+"b": 1,
+"t": "capture le maximum de pièces"
+},
+{
+"t": ". Si deux rafles capturent le même nombre de pièces, le joueur choisit librement (sauf cas spéciaux documentés dans la règlementation FMJD)"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "depuis la position W{31, 38} B{23, 27, 33}, le blanc a deux captures possibles — 31×22 ne prend qu'un seul pion (le 27), tandis que 38×18 prend deux pions (33 et 23). La rafle 38×18 est "
+},
+{
+"b": 1,
+"t": "obligatoire"
+},
+{
+"t": " car elle capture le plus"
+}
+]
+},
+{
 "type": "board",
 "id": "2_d6",
 "ch": 2
 },
 {
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "2.6. Promotion en dame"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "Un pion qui atteint la "
+},
+{
+"b": 1,
+"t": "dernière rangée adverse"
+},
+{
+"t": " (cases 1-5 pour les blancs, 46-50 pour les noirs) "
+},
+{
+"b": 1,
+"t": "promeut en dame"
+},
+{
+"t": ". La promotion a lieu uniquement si le pion "
+},
+{
+"b": 1,
+"t": "s'arrête"
+},
+{
+"t": " sur la dernière rangée. Si une rafle fait traverser la dernière rangée sans s'y arrêter, "
+},
+{
+"b": 1,
+"t": "il n'y a pas promotion"
+},
+{
+"t": " — c'est la fameuse règle du «non-soufflage de la dame»"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "le pion blanc 6 joue 6-1 et devient dame en arrivant sur la première rangée"
+}
+]
+},
+{
 "type": "board",
 "id": "2_d7",
 "ch": 2
+},
+{
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "2.7. La dame — déplacement et capture"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "La "
+},
+{
+"b": 1,
+"t": "dame"
+},
+{
+"t": " se déplace "
+},
+{
+"b": 1,
+"t": "librement"
+},
+{
+"t": " le long d'une diagonale, sur "
+},
+{
+"b": 1,
+"t": "autant de cases libres"
+},
+{
+"t": " qu'elle veut (similaire au fou aux échecs). Pour capturer, elle saute par-dessus un pion adverse sur sa diagonale et peut "
+},
+{
+"b": 1,
+"t": "atterrir sur n'importe quelle case libre derrière"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "la dame blanche en 32 peut glisser sur n'importe quelle case libre des 4 diagonales qui la traversent. la dame blanche en 46 saute le pion noir 23 et choisit sa case d'atterrissage parmi celles libres après lui sur la diagonale"
+}
+]
 },
 {
 "type": "board",
@@ -501,9 +657,84 @@ const DATA: ManuelData = {
 "ch": 2
 },
 {
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "2.8. Non-soufflage (les captures restent jusqu'à la fin de la rafle)"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "Les pions capturés au cours d'une rafle "
+},
+{
+"b": 1,
+"t": "restent sur le plateau"
+},
+{
+"t": " jusqu'à ce que la rafle soit complètement terminée. Conséquence: le même pion ne peut pas être capturé deux fois dans une rafle, et la trajectoire peut s'en trouver bloquée"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "la position W{23} B{18, 19, 28, 29} illustre cette règle — le blanc 23 ne peut pas faire de boucle qui re-saute un pion déjà capturé, ce qui limite ses trajectoires possibles"
+}
+]
+},
+{
 "type": "board",
 "id": "2_d10",
 "ch": 2
+},
+{
+"type": "h3",
+"ch": 2,
+"runs": [
+{
+"t": "2.9. Règle des 50 coups (nullité)"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "Si pendant "
+},
+{
+"b": 1,
+"t": "50 coups"
+},
+{
+"t": " consécutifs aucun pion n'est capturé ni promu, la partie est déclarée "
+},
+{
+"b": 1,
+"t": "nulle"
+},
+{
+"t": ". Cette règle empêche les parties qui pourraient tourner indéfiniment"
+}
+]
+},
+{
+"type": "p",
+"ch": 2,
+"runs": [
+{
+"t": "finale dame contre dame (W_king{28} vs B_king{23}) — sans intervention extérieure, ces deux dames pourraient se poursuivre indéfiniment. La règle des 50 coups conclut la partie en nulle"
+}
+]
 },
 {
 "type": "board",
@@ -524,7 +755,21 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Une **combinaison** est un enchaînement forcé de coups qui aboutit à un gain matériel ou positionnel. Les combinaisons les plus simples se font en **trois demi-coups** : un sacrifice blanc, une prise forcée noire, puis une rafle blanche."
+"t": "Une "
+},
+{
+"b": 1,
+"t": "combinaison"
+},
+{
+"t": " est un enchaînement forcé de coups qui aboutit à un gain matériel ou positionnel. Les combinaisons les plus simples se font en "
+},
+{
+"b": 1,
+"t": "trois demi-coups"
+},
+{
+"t": ": un sacrifice blanc, une prise forcée noire, puis une rafle blanche"
 }
 ]
 },
@@ -533,7 +778,34 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Le schéma générique est :"
+"t": "Le schéma générique est"
+}
+]
+},
+{
+"type": "quote",
+"ch": 3,
+"runs": [
+{
+"b": 1,
+"t": "1."
+},
+{
+"t": " Le blanc sacrifie un (ou plusieurs) pion. "
+},
+{
+"b": 1,
+"t": "2."
+},
+{
+"t": " Le noir doit prendre (prise obligatoire). "
+},
+{
+"b": 1,
+"t": "3."
+},
+{
+"t": " Le blanc effectue une rafle qui capture autant ou plus de pions, avec en bonus un avantage positionnel décisif"
 }
 ]
 },
@@ -542,7 +814,37 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "> **1.** Le blanc sacrifie un (ou plusieurs) pion. > **2.** Le noir doit prendre (prise obligatoire). > **3.** Le blanc effectue une rafle qui capture autant ou plus de > pions, avec en bonus un avantage positionnel décisif."
+"t": "Les 10 exercices de ce chapitre sont les D1 à D10 de la page 6 du livre *Apprentissage Combinaisons* de Dubois. Ils illustrent trois mécanismes fondamentaux: la "
+},
+{
+"b": 1,
+"t": "prise majoritaire"
+},
+{
+"t": ", le "
+},
+{
+"b": 1,
+"t": "collage"
+},
+{
+"t": ", et le "
+},
+{
+"b": 1,
+"t": "coup de Mazette"
+},
+{
+"t": ". Une éval +99 signale un gain forcé annoncé par Scan, pas une avance matérielle littérale — convention détaillée au §7.3"
+}
+]
+},
+{
+"type": "h3",
+"ch": 3,
+"runs": [
+{
+"t": "3.1. La prise majoritaire"
 }
 ]
 },
@@ -551,7 +853,14 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "Les 10 exercices de ce chapitre sont les D1 à D10 de la page 6 du livre *Apprentissage Combinaisons* de Dubois. Ils illustrent trois mécanismes fondamentaux : la **prise majoritaire**, le **collage**, et le **coup de Mazette**. Toutes les fixtures sont `verified=true` au moteur Scan (cf `scan/scan_analysis_debutant.json`) ; chaque sous-section se clôt par un tableau **Validation Scan** donnant le premier coup recommandé, l'évaluation finale et la profondeur d'analyse. Une éval `+99` signale un gain forcé annoncé par Scan, pas une avance matérielle littérale — convention détaillée au §7.3."
+"t": "C'est le mécanisme de base. Le sacrifice blanc force le noir à effectuer une "
+},
+{
+"b": 1,
+"t": "prise multiple"
+},
+{
+"t": " (plusieurs pions à la fois) par la règle du nombre, ce qui dégarnit son camp et ouvre la voie à une rafle blanche encore plus longue"
 }
 ]
 },
@@ -560,214 +869,7 @@ const DATA: ManuelData = {
 "ch": 3,
 "runs": [
 {
-"t": "### 3.1. La prise majoritaire"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "C'est le mécanisme de base. Le sacrifice blanc force le noir à effectuer une **prise multiple** (plusieurs pions à la fois) par la règle du nombre, ce qui dégarnit son camp et ouvre la voie à une rafle blanche encore plus longue."
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "Exemple canonique — `BEG_CH03_001` (Dubois D1) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `26-21 (17×28) 43×3`"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "Le sacrifice blanc `26-21` est gobé par le noir 17 qui doit prendre par la règle de prise majoritaire (3 pions capturés). La rafle blanche finale `43×3` traverse la grande diagonale jusqu'à la promotion, capturant les pions 38, 28, 19 et 9 (cf `final_move.captures` de la fixture)."
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH03_001` | `26-21` | +99.97 | 99 | — | | `BEG_CH03_003` | `33-29` | +99.77 | 34 | — | | `BEG_CH03_005` | `37-31` | +99.85 | 99 | — | | `BEG_CH03_006` | `34-29` | +99.81 | 68 | — | | `BEG_CH03_008` | `33-29` | +99.85 | 99 | — | | `BEG_CH03_009` | `44-39` | +99.87 | 99 | — | | `BEG_CH03_010` | `34-30` | +5.97 | 32 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les variantes additionnelles : `BEG_CH03_003` `33-29 (23×21) 26×10`, `BEG_CH03_005` `37-31 (27×20) 25×5`, `BEG_CH03_006` `34-29 (25×32) 29×38`, `BEG_CH03_008` `33-29 (24×31) 36×20` (sacrifice à 3 pions), `BEG_CH03_009` `44-39 (25×43) 48×10`, `BEG_CH03_010` `34-30 (23×32) 30×37`."
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "### 3.2. Le collage"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "Mécanisme plus subtil : quand le noir attaque **deux pions blancs**, un blanc se sacrifie sur la case-clé de l'attaque, forçant le noir à une prise majoritaire qui ouvre la rafle blanche."
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "Exemple — `BEG_CH03_004` (Dubois D4) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `34-29 (23×21) 29×7`"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "Le sacrifice `34-29` transforme la menace adverse (configuration de départ documentée par `claude_notes` de la fixture) en combinaison gagnante ; la rafle finale `29×7` capture 4 pions noirs et atteint la promotion en case 7 (cf `final_move.captures` = 12, 13, 14, 24)."
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH03_004` | `34-29` | +99.81 | 71 | — | | `BEG_CH03_007` | `33-29` | +5.62 | 30 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "`published_notation` Dubois pour `BEG_CH03_007` : `33-29 (17×37) 29×18` (collage canonique sur attaque à 2 pions)."
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "### 3.3. Le coup de Mazette"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "Premier des **coups nommés** rencontrés dans ce manuel : un sacrifice central qui contraint l'adversaire à une prise, ouvrant une rafle sur la grande diagonale."
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "Exemple — `BEG_CH03_002` (Dubois D2) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `28-22 (17×28) 32×5`"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "Le sacrifice `28-22` force le noir 17 à prendre par `17×28`. La rafle blanche finale `32×5` capture 3 pions noirs (10, 19, 28 — cf `final_move.captures`) et atteint la promotion en case 5 sur la grande diagonale."
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH03_002` | `28-22` | +99.97 | 99 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 3,
-"runs": [
-{
-"t": "---"
+"t": "Exemple canonique — (Dubois D1)"
 }
 ]
 },
@@ -775,6 +877,24 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "3_d0",
 "ch": 3
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Le sacrifice blanc 26-21 est gobé par le noir 17 qui doit prendre par la règle de prise majoritaire (3 pions capturés). La rafle blanche finale 43×3 traverse la grande diagonale jusqu'à la promotion, capturant les pions 38, 28, 19 et 9"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Notation Dubois pour les variantes additionnelles: 33-29 (23×21) 26×10, 37-31 (27×20) 25×5, 34-29 (25×32) 29×38, 33-29 (24×31) 36×20 (sacrifice à 3 pions), 44-39 (25×43) 48×10, 34-30 (23×32) 30×37"
+}
+]
 },
 {
 "type": "board",
@@ -807,9 +927,61 @@ const DATA: ManuelData = {
 "ch": 3
 },
 {
+"type": "h3",
+"ch": 3,
+"runs": [
+{
+"t": "3.2. Le collage"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Mécanisme plus subtil: quand le noir attaque "
+},
+{
+"b": 1,
+"t": "deux pions blancs"
+},
+{
+"t": ", un blanc se sacrifie sur la case-clé de l'attaque, forçant le noir à une prise majoritaire qui ouvre la rafle blanche"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Exemple — (Dubois D4)"
+}
+]
+},
+{
 "type": "board",
 "id": "3_d7",
 "ch": 3
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Le sacrifice 34-29 transforme la menace adverse (configuration de départ documentée par) en combinaison gagnante; la rafle finale 29×7 capture 4 pions noirs et atteint la promotion en case 7"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Notation Dubois pour: 33-29 (17×37) 29×18 (collage canonique sur attaque à 2 pions)"
+}
+]
 },
 {
 "type": "board",
@@ -817,9 +989,52 @@ const DATA: ManuelData = {
 "ch": 3
 },
 {
+"type": "h3",
+"ch": 3,
+"runs": [
+{
+"t": "3.3. Le coup de Mazette"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Premier des "
+},
+{
+"b": 1,
+"t": "coups nommés"
+},
+{
+"t": " rencontrés dans ce manuel: un sacrifice central qui contraint l'adversaire à une prise, ouvrant une rafle sur la grande diagonale"
+}
+]
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Exemple — (Dubois D2)"
+}
+]
+},
+{
 "type": "board",
 "id": "3_d9",
 "ch": 3
+},
+{
+"type": "p",
+"ch": 3,
+"runs": [
+{
+"t": "Le sacrifice 28-22 force le noir 17 à prendre par 17×28. La rafle blanche finale 32×5 capture 3 pions noirs (10, 19, 28 ) et atteint la promotion en case 5 sur la grande diagonale"
+}
+]
 },
 {
 "type": "h2",
@@ -835,7 +1050,21 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: envoi_a_dame, coup_turc -->"
+"t": "Le "
+},
+{
+"b": 1,
+"t": "collage"
+},
+{
+"t": " introduit au chapitre 3 (§3.2) prend toute sa puissance quand il est combiné à un "
+},
+{
+"b": 1,
+"t": "envoi à dame"
+},
+{
+"t": ": on sacrifie un pion qui arrive à la dernière rangée et se promeut, puis on récupère une dame adverse qu'on capture avec avantage. C'est l'une des combinaisons les plus spectaculaires du répertoire"
 }
 ]
 },
@@ -844,7 +1073,16 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "Le **collage** introduit au chapitre 3 (§3.2) prend toute sa puissance quand il est combiné à un **envoi à dame** : on sacrifie un pion qui arrive à la dernière rangée et se promeut, puis on récupère une dame adverse qu'on capture avec avantage. C'est l'une des combinaisons les plus spectaculaires du répertoire."
+"t": "Les 11 exercices viennent des chapitres 6 et 7 de Dubois (pages 20-25)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 4,
+"runs": [
+{
+"t": "4.1. Le collage en 3 temps (exemple introductif)"
 }
 ]
 },
@@ -853,7 +1091,7 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "Les 11 exercices viennent des chapitres 6 et 7 de Dubois (pages 20-25). Toutes les fixtures sont `verified=true` au moteur Scan (cf `scan/scan_analysis_debutant.json`) ; chaque sous-section se clôt par un tableau **Validation Scan** donnant le premier coup recommandé, l'évaluation finale et la profondeur d'analyse."
+"t": "L'exemple narratif du chapitre montre la structure CONTACT-PRISE-COLLAGE- PRISE-RAFLE qui définit le collage"
 }
 ]
 },
@@ -862,349 +1100,7 @@ const DATA: ManuelData = {
 "ch": 4,
 "runs": [
 {
-"t": "### 4.1. Le collage en 3 temps (exemple introductif)"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "L'exemple narratif du chapitre montre la structure CONTACT-PRISE-COLLAGE- PRISE-RAFLE qui définit le collage."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Exemple — `BEG_CH04_001` (Dubois ch6 intro) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `37-31 (26x17) 39-34 (21x43) 34x5`"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Premier sacrifice `37-31`, prise forcée noire, puis le second sacrifice `39-34` (le « collage » proprement dit) crée le point d'appui exploité par la rafle `34×5` (cf `final_move.path = 34→23→12→3→14→5`, captures 8, 9, 10, 18, 29 — `claude_notes` mentionne un coup turc par 14)."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH04_001` | `37-31` | +13.72 | 28 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "### 4.2. Prise majoritaire et collage classique"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Plusieurs exercices de Dubois ch6 illustrent la prise majoritaire ou le collage en 3 temps sans envoi à dame."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les fixtures de cette section : - `BEG_CH04_002` (ch6 D1, prise majoritaire) : `25-20 (15x31) 36x20` (cf `claude_notes` : Dubois imprime `(15x21)`, vraie notation `(15x31)` — coquille R004) - `BEG_CH04_003` (ch6 D4, gambit à 2 pions) : `27-21 (16x18) 28-23` (combinaison atypique, `final_move=None`) - `BEG_CH04_004` (ch6 D6, collage classique) : `32-27 (21x23) 34-29 (17x39) 29x16` - `BEG_CH04_008` (ch7 D2, collage à 4 pions) : `29-23 (26x30) 23x1`"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH04_002` | `25-20` | +3.50 | 31 | — | | `BEG_CH04_003` | `27-21` | +4.23 | 31 | — | | `BEG_CH04_004` | `32-27` | +5.33 | 30 | — | | `BEG_CH04_008` | `29-23` | +99.77 | 28 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "### 4.3. Collage avec élimination préalable / coup royal"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Certains collages demandent d'éliminer d'abord un pion gêneur."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Exemple — `BEG_CH04_005` (Dubois ch6 D7) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `29-24 (22x33) 32-28 (19x39) 28x6`"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Le premier sacrifice `29-24` est suivi de la prise noire, puis le collage `32-28` ouvre la rafle `28×6` (cf `final_move.path = 28→19→8→17→6`, captures 11, 12, 13, 23)."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Le **coup royal** est une variante célèbre de collage avec rafle aboutissant en case 7. Exemple — `BEG_CH04_006` (Dubois ch6 D9) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `27-22 (18x27) 32x21 (23x34) 40x7`"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "`final_move.path = 40→29→20→9→18→7` avec 5 captures (12, 13, 14, 24, 34 — cf `claude_notes` : motif tactique nommé, détecteur dédié dans `pedagogy/motifs/coup_royal.py`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH04_005` | `29-24` | +4.55 | 27 | — | | `BEG_CH04_006` | `27-22` | +99.83 | 99 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "### 4.4. Envois à dame combinés au collage"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Le mécanisme typique : un pion se sacrifie sur la dernière rangée, promeut en dame, et la dame est ensuite ramenée par un nouveau sacrifice pour servir de cible à la rafle finale."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Exemple — `BEG_CH04_007` (Dubois ch6 D10, Rustenburg-van Dartelen 1934) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `38-32 (27x49) 34-30 (49x24) 29x7`"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Le sacrifice `38-32` force le noir à promouvoir en dame (`27x49`), puis le collage `34-30` ramène la dame sur la diagonale par `(49x24)` où la rafle blanche `29×7` la capture (`final_move=None` car le module pion- only ne reconstruit pas les rafles de dame, cf `claude_notes` et R007)."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les variantes additionnelles : - `BEG_CH04_009` (ch7 D5, triple mécanisme — `final_move=None`) : `28-23 (19x48) 17-12 (48x19) 12x1`"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH04_007` | `38-32` | +8.16 | 28 | — | | `BEG_CH04_009` | `28-23` | +99.91 | 99 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "### 4.5. Combinaisons longues à plusieurs phases (coup de mazette)"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Certaines combinaisons enchaînent plusieurs collages successifs avant la rafle finale."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Exemple — `BEG_CH04_010` (Dubois ch7 D8) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `34-29 (23x25) 27-22 (17x28) 32x3`"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "Deux sacrifices `34-29` puis `27-22` enchaînés forcent chacun une prise majoritaire noire, puis la rafle `32×3` capture 3 pions et promeut en dame (cf `final_move.path = 32→23→14→3`, captures 9, 19, 28 ; `claude_notes` : coquille PDF `31x3` corrigée en `32x3`, R006)."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "`published_notation` Dubois pour `BEG_CH04_011` (ch7 D9, variante symétrique) : `28-22 (18x36) 24-19 (14x23) 29x27`."
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH04_010` | `34-29` | +99.81 | 99 | — | | `BEG_CH04_011` | `28-22` | +5.09 | 30 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 4,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch6 intro)"
 }
 ]
 },
@@ -1212,6 +1108,68 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "4_d0",
 "ch": 4
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Premier sacrifice 37-31, prise forcée noire, puis le second sacrifice 39-34 (le «collage» proprement dit) crée le point d'appui exploité par la rafle 34×5"
+}
+]
+},
+{
+"type": "h3",
+"ch": 4,
+"runs": [
+{
+"t": "4.2. Prise majoritaire et collage classique"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Plusieurs exercices de Dubois ch6 illustrent la prise majoritaire ou le collage en 3 temps sans envoi à dame"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Notation Dubois pour les combinaisons de cette section"
+}
+]
+},
+{
+"type": "ul",
+"ch": 4,
+"items": [
+[
+{
+"t": "(ch6 D1, prise majoritaire): 25-20 (15x31) 36x20"
+}
+],
+[
+{
+"t": "(ch6 D4, gambit à 2 pions): 27-21 (16x18) 28-23 (combinaison atypique, )"
+}
+],
+[
+{
+"t": "(ch6 D6, collage classique): 32-27 (21x23) 34-29 (17x39) 29x16"
+}
+],
+[
+{
+"t": "(ch7 D2, collage à 4 pions): 29-23 (26x30) 23x1"
+}
+]
+]
 },
 {
 "type": "board",
@@ -1234,9 +1192,61 @@ const DATA: ManuelData = {
 "ch": 4
 },
 {
+"type": "h3",
+"ch": 4,
+"runs": [
+{
+"t": "4.3. Collage avec élimination préalable / coup royal"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Certains collages demandent d'éliminer d'abord un pion gêneur"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Exemple — (Dubois ch6 D7)"
+}
+]
+},
+{
 "type": "board",
 "id": "4_d5",
 "ch": 4
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Le premier sacrifice 29-24 est suivi de la prise noire, puis le collage 32-28 ouvre la rafle 28×6"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Le "
+},
+{
+"b": 1,
+"t": "coup royal"
+},
+{
+"t": " est une variante célèbre de collage avec rafle aboutissant en case 7. Exemple — (Dubois ch6 D9)"
+}
+]
 },
 {
 "type": "board",
@@ -1244,9 +1254,74 @@ const DATA: ManuelData = {
 "ch": 4
 },
 {
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "avec 5 captures (12, 13, 14, 24, 34 — motif tactique nommé, détecteur dédié dans pedagogy/motifs/coup_royal.py)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 4,
+"runs": [
+{
+"t": "4.4. Envois à dame combinés au collage"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Le mécanisme typique: un pion se sacrifie sur la dernière rangée, promeut en dame, et la dame est ensuite ramenée par un nouveau sacrifice pour servir de cible à la rafle finale"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Exemple — (Dubois ch6 D10, Rustenburg-van Dartelen 1934)"
+}
+]
+},
+{
 "type": "board",
 "id": "4_d7",
 "ch": 4
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Le sacrifice 38-32 force le noir à promouvoir en dame (27x49), puis le collage 34-30 ramène la dame sur la diagonale par (49x24) où la rafle blanche 29×7 la capture"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Notation Dubois pour les variantes additionnelles"
+}
+]
+},
+{
+"type": "ul",
+"ch": 4,
+"items": [
+[
+{
+"t": "(ch7 D5, triple mécanisme — ): 28-23 (19x48) 17-12 (48x19) 12x1"
+}
+]
+]
 },
 {
 "type": "board",
@@ -1254,9 +1329,54 @@ const DATA: ManuelData = {
 "ch": 4
 },
 {
+"type": "h3",
+"ch": 4,
+"runs": [
+{
+"t": "4.5. Combinaisons longues à plusieurs phases (coup de mazette)"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Certaines combinaisons enchaînent plusieurs collages successifs avant la rafle finale"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Exemple — (Dubois ch7 D8)"
+}
+]
+},
+{
 "type": "board",
 "id": "4_d9",
 "ch": 4
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Deux sacrifices 34-29 puis 27-22 enchaînés forcent chacun une prise majoritaire noire, puis la rafle 32×3 capture 3 pions et promeut en dame"
+}
+]
+},
+{
+"type": "p",
+"ch": 4,
+"runs": [
+{
+"t": "Notation Dubois pour (ch7 D9, variante symétrique): 28-22 (18x36) 24-19 (14x23) 29x27"
+}
+]
 },
 {
 "type": "board",
@@ -1277,7 +1397,14 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: envoi_a_dame -->"
+"t": "L'"
+},
+{
+"b": 1,
+"t": "envoi à dame"
+},
+{
+"t": " est la promotion *volontaire* d'un pion par sacrifice. On accepte de donner un pion (qui se promeut), pour exploiter la dame nouvellement créée — ou pour piéger la dame adverse qu'on récupère ensuite"
 }
 ]
 },
@@ -1286,7 +1413,16 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "L'**envoi à dame** est la promotion *volontaire* d'un pion par sacrifice. On accepte de donner un pion (qui se promeut), pour exploiter la dame nouvellement créée — ou pour piéger la dame adverse qu'on récupère ensuite."
+"t": "Ce chapitre approfondit le mécanisme déjà rencontré au chapitre 4, avec 10 exercices issus du chapitre 4 de Dubois (pages 14-16). Les combinaisons contenant une rafle de dame ont (limitation du module pion-only)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 5,
+"runs": [
+{
+"t": "5.1. Envois à dame narratifs (3 et 5 temps)"
 }
 ]
 },
@@ -1295,7 +1431,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "Ce chapitre approfondit le mécanisme déjà rencontré au chapitre 4, avec 10 exercices issus du chapitre 4 de Dubois (pages 14-16). Les fixtures contenant une rafle de dame ont `final_move=None` (limitation R007 du module pion-only)."
+"t": "Les deux exemples narratifs du chapitre 4 Dubois montrent les schémas de base"
 }
 ]
 },
@@ -1304,304 +1440,7 @@ const DATA: ManuelData = {
 "ch": 5,
 "runs": [
 {
-"t": "### 5.1. Envois à dame narratifs (3 et 5 temps)"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Les deux exemples narratifs du chapitre 4 Dubois montrent les schémas de base."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Exemple — `BEG_CH05_001` (Dubois ch4 intro, 3 temps) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `36-31 (26x46) 42-37 (46x39) 43x5`"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Le sacrifice `36-31` force le noir à promouvoir en dame en 46, puis `42-37` ramène la dame sur la diagonale (`46x39`) où la rafle blanche `43×5` la capture (cf `claude_notes` : `final_move=None`, R007)."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Exemple — `BEG_CH05_002` (Dubois ch4 intro 2, 5 temps en 3 phases) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `33-29 (24x33) 38x18 (13x22) 37-31 (26x48) 40-35 (48x30) 35x4`"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "`explanation` de la fixture distingue trois phases : élimination (`33-29 (24x33) 38x18 (13x22)`), envoi à dame (`37-31 (26x48) 40-35 (48x30)`), rafle finale (`35x4`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH05_001` | `36-31` | +5.11 | 22 | — | | `BEG_CH05_002` | `33-29` | +99.79 | 87 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "### 5.2. Prises majoritaires consolidantes (D1, D2, D3, D5, D7)"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Dubois mêle dans ce chapitre des exercices de prise majoritaire qui consolident les acquis sans envoi à dame."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Exemple — `BEG_CH05_003` (Dubois ch4 D1, coup royal sous sa forme la plus simple) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `33-28 (23x34) 40x7`"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Sacrifice `33-28`, prise majoritaire noire forcée (3 pions), rafle `40×7` (cf `final_move.path = 40→29→20→9→18→7`, 5 captures incluant 34 — forme canonique du coup royal)."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les variantes additionnelles : - `BEG_CH05_004` (ch4 D2, Salomé-Nimbi 2015) : `27-21 (26x30) 35x2` - `BEG_CH05_005` (ch4 D3, rafle longue à 6 captures) : `32-27 (22x44) 49x7` - `BEG_CH05_006` (ch4 D5, coup royal variante) : `33-29 (23x32) 37x10` - `BEG_CH05_007` (ch4 D7) : `33-29 (24x31) 37x10`"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH05_003` | `33-28` | +99.89 | 99 | — | | `BEG_CH05_004` | `27-21` | +4.22 | 29 | — | | `BEG_CH05_005` | `32-27` | +8.96 | 28 | — | | `BEG_CH05_006` | `33-29` | +99.91 | 99 | — | | `BEG_CH05_007` | `33-29` | +99.87 | 99 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "### 5.3. Envois à dame côté blanc (D8)"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Exemple — `BEG_CH05_008` (Dubois ch4 D8) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `37-31 (26x48) 47-42 (48x22) 28x10`"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Le sacrifice `37-31` force le noir à promouvoir en 48, puis `47-42` ramène la dame en 22 (`48x22`) où la rafle blanche `28×10` la capture (`final_move=None` car la rafle de dame `(48x22)` n'est pas reconstructible par le module pion-only — cf `claude_notes`, R007)."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH05_008` | `37-31` | +6.44 | 29 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "### 5.4. Envois à dame côté noir (D9, D10 — parties historiques)"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Trait aux noirs : le blanc est envoyé à dame, puis ramené, puis capturé par une rafle noire."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Exemple — `BEG_CH05_009` (Dubois ch4 D9, Navarro-Roozenburg 1956) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(13-19) 24x4 (11-16) 4x27 (21x45)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "Premier sacrifice noir `(13-19)`, le blanc 24 doit prendre et promeut en 4 (rafle `24x4`), puis `(11-16)` force la dame blanche à reprendre en 27 (`4x27`), enfin la rafle noire `(21x45)` capture la dame (cf `claude_notes` : `final_move=None`, rafle de dame `4x27`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "`published_notation` Dubois pour `BEG_CH05_010` (ch4 D10, Bakker-Ivens 1976) : `(14-19) 23x5 (4-10) 5x8 (3x45)`."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "🔴 **Divergences Scan flaggées (cosmétiques)** — Pour `BEG_CH05_009` et `BEG_CH05_010`, la `published_notation` commence par un coup entre parenthèses (`(13-19)`, `(14-19)`) alors que le PV Scan le donne en clair (`13-19`, `14-19`). Les parenthèses signalent simplement que le trait est aux noirs dans la convention Dubois — pas une vraie divergence tactique."
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH05_009` | `13-19` | +2.14 | 25 | 🔴 | | `BEG_CH05_010` | `14-19` | +3.17 | 25 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 5,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch4 intro, 3 temps)"
 }
 ]
 },
@@ -1611,14 +1450,112 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Le sacrifice 36-31 force le noir à promouvoir en dame en 46, puis 42-37 ramène la dame sur la diagonale (46x39) où la rafle blanche 43×5 la capture"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Exemple — (Dubois ch4 intro 2, 5 temps en 3 phases)"
+}
+]
+},
+{
 "type": "board",
 "id": "5_d1",
 "ch": 5
 },
 {
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "La combinaison distingue trois phases: élimination (33-29 (24x33) 38x18 (13x22)), envoi à dame (37-31 (26x48) 40-35 (48x30)), rafle finale (35x4)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 5,
+"runs": [
+{
+"t": "5.2. Prises majoritaires consolidantes (D1, D2, D3, D5, D7)"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Dubois mêle dans ce chapitre des exercices de prise majoritaire qui consolident les acquis sans envoi à dame"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Exemple — (Dubois ch4 D1, coup royal sous sa forme la plus simple)"
+}
+]
+},
+{
 "type": "board",
 "id": "5_d2",
 "ch": 5
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Sacrifice 33-28, prise majoritaire noire forcée (3 pions), rafle 40×7"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Notation Dubois pour les variantes additionnelles"
+}
+]
+},
+{
+"type": "ul",
+"ch": 5,
+"items": [
+[
+{
+"t": "(ch4 D2, Salomé-Nimbi 2015): 27-21 (26x30) 35x2"
+}
+],
+[
+{
+"t": "(ch4 D3, rafle longue à 6 captures): 32-27 (22x44) 49x7"
+}
+],
+[
+{
+"t": "(ch4 D5, coup royal variante): 33-29 (23x32) 37x10"
+}
+],
+[
+{
+"t": "(ch4 D7): 33-29 (24x31) 37x10"
+}
+]
+]
 },
 {
 "type": "board",
@@ -1641,14 +1578,77 @@ const DATA: ManuelData = {
 "ch": 5
 },
 {
+"type": "h3",
+"ch": 5,
+"runs": [
+{
+"t": "5.3. Envois à dame côté blanc (D8)"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Exemple — (Dubois ch4 D8)"
+}
+]
+},
+{
 "type": "board",
 "id": "5_d7",
 "ch": 5
 },
 {
+"type": "h3",
+"ch": 5,
+"runs": [
+{
+"t": "5.4. Envois à dame côté noir (D9, D10 — parties historiques)"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Trait aux noirs: le blanc est envoyé à dame, puis ramené, puis capturé par une rafle noire"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Exemple — (Dubois ch4 D9, Navarro-Roozenburg 1956)"
+}
+]
+},
+{
 "type": "board",
 "id": "5_d8",
 "ch": 5
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Premier sacrifice noir (13-19), le blanc 24 doit prendre et promeut en 4 (rafle 24x4), puis (11-16) force la dame blanche à reprendre en 27 (4x27), enfin la rafle noire (21x45) capture la dame"
+}
+]
+},
+{
+"type": "p",
+"ch": 5,
+"runs": [
+{
+"t": "Notation Dubois pour (ch4 D10, Bakker-Ivens 1976): (14-19) 23x5 (4-10) 5x8 (3x45)"
+}
+]
 },
 {
 "type": "board",
@@ -1669,7 +1669,14 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "<!-- pedagogy-weaknesses: isolated, backward -->"
+"t": "Jusqu'à présent, nous avons cherché les combinaisons en partant de la "
+},
+{
+"b": 1,
+"t": "rafle finale"
+},
+{
+"t": ": «où peut atterrir une rafle? quelles cases-clés faut-il atteindre?». Cette méthode est efficace mais incomplète"
 }
 ]
 },
@@ -1678,7 +1685,21 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "Jusqu'à présent, nous avons cherché les combinaisons en partant de la **rafle finale** : « où peut atterrir une rafle ? quelles cases-clés faut-il atteindre ? ». Cette méthode est efficace mais incomplète."
+"t": "Une approche complémentaire consiste à identifier les "
+},
+{
+"b": 1,
+"t": "points de contact"
+},
+{
+"t": " entre pions blancs et noirs adverses (les cases où deux pions se touchent en diagonale), puis à "
+},
+{
+"b": 1,
+"t": "imaginer mentalement chaque sacrifice possible"
+},
+{
+"t": " à partir de ces points, sans chercher d'abord l'issue. Cette méthode révèle des combinaisons que la recherche «par la rafle» manque"
 }
 ]
 },
@@ -1687,286 +1708,7 @@ const DATA: ManuelData = {
 "ch": 6,
 "runs": [
 {
-"t": "Une approche complémentaire consiste à identifier les **points de contact** entre pions blancs et noirs adverses (les cases où deux pions se touchent en diagonale), puis à **imaginer mentalement chaque sacrifice possible** à partir de ces points, sans chercher d'abord l'issue. Cette méthode révèle des combinaisons que la recherche « par la rafle » manque."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Les 11 exercices viennent du chapitre 5 de Dubois (pages 17-19), avec trois parties historiques notables (`BEG_CH06_007`, `BEG_CH06_009`, `BEG_CH06_010`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "### 6.1. L'exemple introductif"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Exemple — `BEG_CH06_001` (Dubois ch5 intro) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `31-27 (22x24) 34-30 (25x34) 39x6`"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Le `concept` de la fixture détaille la méthode : Dubois identifie 4 points de contact (34-30, 29-23, 37-32, 31-27), et c'est l'exploration du point inattendu `31-27` qui révèle une prise majoritaire à 4 pions ouvrant la rafle `39×6` (cf `final_move.path = 39→30→19→8→17→6`, 5 captures dont 34). Sans l'analyse systématique, le coup ne se trouve pas."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH06_001` | `31-27` | +2.99 | 24 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "### 6.2. Le coup Philippe (préview du chapitre 16)"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Exemple — `BEG_CH06_002` (Dubois ch5 D1, forme la plus épurée du coup Philippe) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `34-30 (25x34) 40x7`"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Trois pions blancs contre trois pions noirs, sacrifice central `34-30`, rafle `40×7` (cf `final_move.path = 40→29→18→7`, captures 12, 23, 34). Le coup Philippe sera détaillé au chapitre 16."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH06_002` | `34-30` | +99.97 | 99 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "### 6.3. Application aux mécanismes connus"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "La méthode des points de contact permet de redécouvrir les mécanismes appris précédemment."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les fixtures de cette section : - `BEG_CH06_003` (ch5 D2, prise majoritaire) : `27-21 (17x39) 43x3` (rafle 4 captures, `final_move.path = 43→34→23→14→3`) - `BEG_CH06_004` (ch5 D3, collage) : `26-21 (25x32) 21x3` (rafle avec coup turc par 23, captures 9, 17, 18, 19) - `BEG_CH06_005` (ch5 D4, gambit) : `26-21 (27x16) 38-32` (combinaison qui se termine par coup simple, `final_move=None`) - `BEG_CH06_006` (ch5 D5, rafle longue) : `17-12 (7x29) 44x2` (rafle de 6 captures sur 7 cases, `final_move.path = 44→33→24→15→4→13→2`)"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH06_003` | `27-21` | +87.35 | 31 | — | | `BEG_CH06_004` | `26-21` | +6.51 | 27 | — | | `BEG_CH06_005` | `26-21` | +3.42 | 33 | — | | `BEG_CH06_006` | `17-12` | +99.97 | 99 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "### 6.4. Parties historiques et rafles « cachées »"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Trois parties illustrent la méthode appliquée à des positions complexes."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Exemple — `BEG_CH06_007` (Dubois ch5 D6, Laporta-Mostovoy 1970, trait aux noirs) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(17-21) 26x10 (4x35)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Sacrifice noir `(17-21)`, le blanc 26 prend (rafle de 3 pions 21, 16, 7 selon `explanation` de la fixture), puis rafle noire finale `(4x35)` sur la grande diagonale (`final_move.path = 4→15→24→33→44→35`, 5 captures)."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les variantes additionnelles : - `BEG_CH06_008` (ch5 D7, 4 points de contact) : `35-30 (24x44) 33x13 (18x9) 27x49` (combinaison à 5 demi-coups) - `BEG_CH06_009` (ch5 D8, Bergsma-de Vries 1961) : `33-29 (24x22) 34-30 (25x34) 40x16` - `BEG_CH06_011` (ch5 D10, point d'appui alternatif) : `23-19 (14x32) 44-40 (35x33) 29x9` (rafle 6 captures, coup turc par 18)"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "Exemple emblématique — `BEG_CH06_010` (Dubois ch5 D9, Leclercq-Weiss 1903, trait aux noirs) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(14-20) 23x25 (26-31) 36x7 (1x41)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "La rafle finale `(1x41)` semble bloquée par le pion blanc 36, mais le coup intermédiaire `(26-31) 36x7` fait disparaître ce pion 36 — exemple emblématique de rafle « cachée » révélée par les points de contact (cf `claude_notes`, `final_move.path = 1→12→23→32→41`, captures 7, 18, 28, 37)."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "🔴 **Divergences Scan flaggées (cosmétiques)** — Pour `BEG_CH06_007` et `BEG_CH06_010`, la `published_notation` commence par un coup entre parenthèses (`(17-21)`, `(14-20)`) alors que le PV Scan le donne en clair. Convention Dubois : parens = trait aux noirs."
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH06_007` | `17-21` | +2.29 | 30 | 🔴 | | `BEG_CH06_008` | `35-30` | +99.79 | 99 | — | | `BEG_CH06_009` | `33-29` | +1.18 | 24 | — | | `BEG_CH06_010` | `14-20` | +8.41 | 32 | 🔴 | | `BEG_CH06_011` | `23-19` | +99.83 | 89 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 6,
-"runs": [
-{
-"t": "---"
+"t": "Les 11 exercices viennent du chapitre 5 de Dubois (pages 17-19), avec trois parties historiques notables,, )"
 }
 ]
 },
@@ -1986,14 +1728,121 @@ const DATA: ManuelData = {
 "ch": 6
 },
 {
+"type": "h3",
+"ch": 6,
+"runs": [
+{
+"t": "6.1. L'exemple introductif"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Exemple — (Dubois ch5 intro)"
+}
+]
+},
+{
 "type": "board",
 "id": "6_d3",
 "ch": 6
 },
 {
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "la combinaison détaille la méthode: Dubois identifie 4 points de contact (34-30, 29-23, 37-32, 31-27), et c'est l'exploration du point inattendu 31-27 qui révèle une prise majoritaire à 4 pions ouvrant la rafle 39×6. Sans l'analyse systématique, le coup ne se trouve pas"
+}
+]
+},
+{
+"type": "h3",
+"ch": 6,
+"runs": [
+{
+"t": "6.2. Le coup Philippe (préview du chapitre 16)"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Exemple — (Dubois ch5 D1, forme la plus épurée du coup Philippe)"
+}
+]
+},
+{
 "type": "board",
 "id": "6_d4",
 "ch": 6
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Trois pions blancs contre trois pions noirs, sacrifice central 34-30, rafle 40×7. Le coup Philippe sera détaillé au chapitre 16"
+}
+]
+},
+{
+"type": "h3",
+"ch": 6,
+"runs": [
+{
+"t": "6.3. Application aux mécanismes connus"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "La méthode des points de contact permet de redécouvrir les mécanismes appris précédemment"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Notation Dubois pour les combinaisons de cette section"
+}
+]
+},
+{
+"type": "ul",
+"ch": 6,
+"items": [
+[
+{
+"t": "(ch5 D2, prise majoritaire): 27-21 (17x39) 43x3 (rafle 4 captures, )"
+}
+],
+[
+{
+"t": "(ch5 D3, collage): 26-21 (25x32) 21x3 (rafle avec coup turc par 23, captures 9, 17, 18, 19)"
+}
+],
+[
+{
+"t": "(ch5 D4, gambit): 26-21 (27x16) 38-32 (combinaison qui se termine par coup simple, )"
+}
+],
+[
+{
+"t": "(ch5 D5, rafle longue): 17-12 (7x29) 44x2 (rafle de 6 captures sur 7 cases, )"
+}
+]
+]
 },
 {
 "type": "board",
@@ -2016,6 +1865,72 @@ const DATA: ManuelData = {
 "ch": 6
 },
 {
+"type": "h3",
+"ch": 6,
+"runs": [
+{
+"t": "6.4. Parties historiques et rafles «cachées»"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Trois parties illustrent la méthode appliquée à des positions complexes"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Exemple — (Dubois ch5 D6, Laporta-Mostovoy 1970, trait aux noirs)"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Sacrifice noir (17-21), le blanc 26 prend (rafle de 3 pions 21, 16, 7 ), puis rafle noire finale (4x35) sur la grande diagonale"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Notation Dubois pour les variantes additionnelles"
+}
+]
+},
+{
+"type": "ul",
+"ch": 6,
+"items": [
+[
+{
+"t": "(ch5 D7, 4 points de contact): 35-30 (24x44) 33x13 (18x9) 27x49 (combinaison à 5 demi-coups)"
+}
+],
+[
+{
+"t": "(ch5 D8, Bergsma-de Vries 1961): 33-29 (24x22) 34-30 (25x34) 40x16"
+}
+],
+[
+{
+"t": "(ch5 D10, point d'appui alternatif): 23-19 (14x32) 44-40 (35x33) 29x9 (rafle 6 captures, coup turc par 18)"
+}
+]
+]
+},
+{
 "type": "board",
 "id": "6_d9",
 "ch": 6
@@ -2024,6 +1939,24 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "6_d10",
 "ch": 6
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "Exemple emblématique — (Dubois ch5 D9, Leclercq-Weiss 1903, trait aux noirs)"
+}
+]
+},
+{
+"type": "p",
+"ch": 6,
+"runs": [
+{
+"t": "La rafle finale (1x41) semble bloquée par le pion blanc 36, mais le coup intermédiaire (26-31) 36x7 fait disparaître ce pion 36 — exemple emblématique de rafle «cachée» révélée par les points de contact"
+}
+]
 },
 {
 "type": "h2",
@@ -2039,7 +1972,32 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: sacrifice --> <!-- pedagogy-weaknesses: holes -->"
+"t": "Un "
+},
+{
+"b": 1,
+"t": "temps de repos"
+},
+{
+"t": " est l'opportunité de jouer "
+},
+{
+"b": 1,
+"t": "un coup supplémentaire"
+},
+{
+"t": " sans que l'adversaire puisse répliquer librement — parce qu'il est obligé de capturer (prise obligatoire). Ces temps de repos sont créés quand l'adversaire "
+},
+{
+"b": 1,
+"t": "attaque"
+},
+{
+"t": " un de mes pions: je suis obligé de défendre ou de laisser prendre, mais entre temps "
+},
+{
+"b": 1,
+"t": "j'ai un coup gratuit"
 }
 ]
 },
@@ -2048,205 +2006,7 @@ const DATA: ManuelData = {
 "ch": 7,
 "runs": [
 {
-"t": "Un **temps de repos** est l'opportunité de jouer **un coup supplémentaire** sans que l'adversaire puisse répliquer librement — parce qu'il est obligé de capturer (prise obligatoire). Ces temps de repos sont créés quand l'adversaire **attaque** un de mes pions : je suis obligé de défendre ou de laisser prendre, mais entre temps **j'ai un coup gratuit**."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "Les 12 exercices (`BEG_CH07_001` à `BEG_CH07_012`) montrent comment exploiter ces temps de repos. Chaque exercice ci-dessous est annoté à partir de la **variante principale (PV) calculée par le moteur Scan** (`scan/scan_analysis_debutant.json`) — c'est la source de vérité tactique. Quand la `published_notation` du livre diverge du PV Scan, c'est le PV qui fait foi, le livre est traité comme suspect."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "### 7.1. Cascade de temps de repos (`BEG_CH07_001`)"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "> **Position de départ** (trait aux blancs) > Pions blancs : 27, 28, 30, 32, 35, 38, 40, 42, 43, 45. > Pions noirs : 3, 8, 13, 15, 16, 17, 18, 19, 24, 25. > Menace immédiate : le pion noir 25 attaque le pion blanc 30 > (atterrissage en 34)."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "L'attaque noire `(25×34)` est inévitable. Plutôt que défendre, les blancs encaissent la prise — chaque demi-coup adverse devient une prise forcée qui leur offre un coup libre."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "**PV Scan** (profondeur 30, éval +6.34, blancs gagnants) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "> `42-37 (25×34×30) 40×20 (15×24) 28-22 (17×28) 32×14 …`"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "Lecture : `42-37` lance le mécanisme. Les noirs *doivent* capturer (25×34×30 — rafle qui prend les pions 30 puis 34). Les blancs reprennent en rafle (40×20×24×34), puis enchaînent jusqu'à `32×14`. La position résultante est nettement gagnante pour les blancs."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "🔴 **À vérifier (rédacteur humain)** — l'ancienne formulation disait que la chaîne contenait **« trois temps de repos consécutifs »**. Le PV Scan en montre effectivement plusieurs ; compter rigoureusement ces temps de repos à la main pour valider le nombre cité."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "### 7.2. Combinaison forcée (`BEG_CH07_002`)"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "> **Position de départ** (trait aux blancs) > Pions blancs : 23, 27, 29, 35, 39, 42, 48. > Pions noirs : 6, 8, 12, 14, 19, 25, 26. > Menace immédiate : le pion noir 19 attaque le pion blanc 23 > (atterrissage en 28)."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "**PV Scan** (profondeur 37, éval +89.65 → gain quasi-forcé pour les blancs) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "> `42-37 (19×28×23) 29-23 (28×19×23) 37-31 …`"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "Lecture : `42-37` provoque la rafle obligatoire `19×28×23` (les noirs prennent simultanément 28 et 23). Les blancs réinjectent immédiatement `29-23`, ce qui force la deuxième rafle obligatoire `28×19×23`. Le coup `37-31` qui suit verrouille un avantage matériel décisif."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "> 🔴 **À VÉRIFIER (cadrage §zéro-invention)** — La > `published_notation` historique de cette fixture > (`42-37 (19x28) 29-23 (28x19) 37-31 (26x37) 48-42 (37x48) 39-34 > (48x30) 35x2`) est **incohérente** : elle prétend qu'un envoi à > dame `39-34` puis `(48x30)` puis `35x2` est jouable, mais le > pion blanc 35 a déjà quitté le plateau à ce moment. Le PV Scan > ci-dessus est plus court (5 plies) et solide ; il **remplace** > la solution publiée. Cette entrée peut sortir de > `A_VERIFIER_MOTEUR.md §1` une fois validée par relecture > humaine."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "### 7.3. Catalogue Dubois ch. 8 (`BEG_CH07_003` à `BEG_CH07_012`)"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "Dix combinaisons illustrant la création et l'exploitation de temps de repos par une attaque. Le tableau ci-dessous donne l'éval Scan finale (positive = avantage blanc), la profondeur d'analyse atteinte, et le premier coup du PV. La **variante principale complète** est disponible dans `scan/scan_analysis_debutant.json`."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "| Fixture | Titre Dubois | Premier coup PV | Éval | Profondeur | |---------|--------------|-----------------|------|-----------| | `BEG_CH07_003` | D1 | `14-20` | +8.56 | 30 | | `BEG_CH07_004` | D2 | `27-21` | +1.73 | 27 | | `BEG_CH07_005` | D3 | `27-22` | +90.67 | 28 | | `BEG_CH07_006` | D4 | `28-22` | +7.63 | 26 | | `BEG_CH07_007` | D5 — Attaque et point d'appui mobile | `26-21` | +99.73 | 34 | | `BEG_CH07_008` | D6 | `17-22` | +2.05 | 22 | | `BEG_CH07_009` | D7 (envoi à dame) | `28-23` | +1.10 | 27 | | `BEG_CH07_010` | D8 | `39-34` | +1.52 | 25 | | `BEG_CH07_011` | D9 | `13-18` | +3.74 | 23 | | `BEG_CH07_012` | D10 (`ad lib`) | `32-27` | +99.73 | 28 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "🔴 **À vérifier (rédacteur humain)** — la colonne « Titre Dubois » ci-dessus est reprise du champ `title` des fixtures (saisie pré-cadrage zéro-invention). Vérifier la correspondance avec l'édition Dubois papier ; corriger les titres si nécessaire."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "🔴 **Divergences flaggées par Scan (cf `notes` du JSON)** — `BEG_CH07_003`, `BEG_CH07_008`, `BEG_CH07_011` : la `published_notation` commence par un coup entre parenthèses (`(14-20)`, `(17-22)`, `(13-18)`) alors que le PV Scan le donne en clair. C'est probablement un artefact de transcription (parens = coup adverse dans la convention Dubois) — pas une vraie divergence tactique, mais à confirmer."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "### 7.4. Particularités"
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "- `BEG_CH07_002` et `BEG_CH07_009` contiennent un **envoi à dame** — `final_move=None`. - `BEG_CH07_012` (Dubois ch. 8 D10) introduit la notation `(ad lib)` : l'adversaire a plusieurs captures forcées équivalentes. Voir résolution R008 dans `RESOLUTIONS_debutant.md`."
-}
-]
-},
-{
-"type": "p",
-"ch": 7,
-"runs": [
-{
-"t": "---"
+"t": "Les 12 exercices montrent comment exploiter ces temps de repos"
 }
 ]
 },
@@ -2261,13 +2021,154 @@ const DATA: ManuelData = {
 "ch": 7
 },
 {
+"type": "h3",
+"ch": 7,
+"runs": [
+{
+"t": "7.1. Cascade de temps de repos )"
+}
+]
+},
+{
+"type": "quote",
+"ch": 7,
+"runs": [
+{
+"b": 1,
+"t": "Position de départ"
+},
+{
+"t": " (trait aux blancs) Pions blancs: 27, 28, 30, 32, 35, 38, 40, 42, 43, 45. Pions noirs: 3, 8, 13, 15, 16, 17, 18, 19, 24, 25. Menace immédiate: le pion noir 25 attaque le pion blanc 30 (atterrissage en 34)"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "L'attaque noire (25×34) est inévitable. Plutôt que défendre, les blancs encaissent la prise — chaque demi-coup adverse devient une prise forcée qui leur offre un coup libre"
+}
+]
+},
+{
+"type": "quote",
+"ch": 7,
+"runs": [
+{
+"t": "42-37 (25×34×30) 40×20 (15×24) 28-22 (17×28) 32×14 …"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "Lecture: 42-37 lance le mécanisme. Les noirs *doivent* capturer (25×34×30 — rafle qui prend les pions 30 puis 34). Les blancs reprennent en rafle (40×20×24×34), puis enchaînent jusqu'à 32×14. La position résultante est nettement gagnante pour les blancs"
+}
+]
+},
+{
+"type": "h3",
+"ch": 7,
+"runs": [
+{
+"t": "7.2. Combinaison forcée )"
+}
+]
+},
+{
 "type": "board",
 "id": "7_d2",
 "ch": 7
 },
 {
+"type": "quote",
+"ch": 7,
+"runs": [
+{
+"b": 1,
+"t": "Position de départ"
+},
+{
+"t": " (trait aux blancs) Pions blancs: 23, 27, 29, 35, 39, 42, 48. Pions noirs: 6, 8, 12, 14, 19, 25, 26. Menace immédiate: le pion noir 19 attaque le pion blanc 23 (atterrissage en 28)"
+}
+]
+},
+{
+"type": "quote",
+"ch": 7,
+"runs": [
+{
+"t": "42-37 (19×28×23) 29-23 (28×19×23) 37-31 …"
+}
+]
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "Lecture: 42-37 provoque la rafle obligatoire 19×28×23 (les noirs prennent simultanément 28 et 23). Les blancs réinjectent immédiatement 29-23, ce qui force la deuxième rafle obligatoire 28×19×23. Le coup 37-31 qui suit verrouille un avantage matériel décisif"
+}
+]
+},
+{
+"type": "h3",
+"ch": 7,
+"runs": [
+{
+"t": "7.3. Catalogue Dubois ch. 8"
+}
+]
+},
+{
 "type": "board",
 "id": "7_d3",
+"ch": 7
+},
+{
+"type": "p",
+"ch": 7,
+"runs": [
+{
+"t": "Dix combinaisons illustrant la création et l'exploitation de temps de repos par une attaque"
+}
+]
+},
+{
+"type": "h3",
+"ch": 7,
+"runs": [
+{
+"t": "7.4. Particularités"
+}
+]
+},
+{
+"type": "ul",
+"ch": 7,
+"items": [
+[
+{
+"t": "et contiennent un "
+},
+{
+"b": 1,
+"t": "envoi à dame"
+}
+],
+[
+{
+"t": "(Dubois ch. 8 D10) introduit la notation (ad lib): l'adversaire a plusieurs captures forcées équivalentes. Voir résolution dans RESOLUTIONS_debutant.md"
+}
+]
+]
+},
+{
+"type": "board",
+"id": "7_d9",
 "ch": 7
 },
 {
@@ -2297,11 +2198,6 @@ const DATA: ManuelData = {
 },
 {
 "type": "board",
-"id": "7_d9",
-"ch": 7
-},
-{
-"type": "board",
 "id": "7_d10",
 "ch": 7
 },
@@ -2324,7 +2220,21 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: sacrifice --> <!-- pedagogy-weaknesses: holes, outposts -->"
+"t": "Quand l'adversaire n'attaque rien, on peut "
+},
+{
+"b": 1,
+"t": "créer artificiellement"
+},
+{
+"t": " un temps de repos en "
+},
+{
+"b": 1,
+"t": "sacrifiant un pion"
+},
+{
+"t": " qui force une prise. Cette technique étend le champ des combinaisons à des positions «silencieuses» où aucune menace n'est apparente"
 }
 ]
 },
@@ -2333,7 +2243,43 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Quand l'adversaire n'attaque rien, on peut **créer artificiellement** un temps de repos en **sacrifiant un pion** qui force une prise. Cette technique étend le champ des combinaisons à des positions « silencieuses » où aucune menace n'est apparente."
+"t": "Les 12 exercices (2 narratifs + 10 du chapitre 9 Dubois, pages 29-31) illustrent la méthode systématique en 3 phases"
+}
+]
+},
+{
+"type": "quote",
+"ch": 8,
+"runs": [
+{
+"b": 1,
+"t": "Phase 1"
+},
+{
+"t": ": créer un temps de repos par un sacrifice qui force une prise. "
+},
+{
+"b": 1,
+"t": "Phase 2"
+},
+{
+"t": ": profiter du temps de repos pour un coup préparatoire. "
+},
+{
+"b": 1,
+"t": "Phase 3"
+},
+{
+"t": ": dérouler les prises et la rafle finale"
+}
+]
+},
+{
+"type": "h3",
+"ch": 8,
+"runs": [
+{
+"t": "8.1. Exemples narratifs (création en 2 sacrifices, puis méthode en 3 phases)"
 }
 ]
 },
@@ -2342,295 +2288,7 @@ const DATA: ManuelData = {
 "ch": 8,
 "runs": [
 {
-"t": "Les 12 exercices (2 narratifs + 10 du chapitre 9 Dubois, pages 29-31) illustrent la méthode systématique en 3 phases :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "> **Phase 1** : créer un temps de repos par un sacrifice qui force une > prise. > **Phase 2** : profiter du temps de repos pour un coup préparatoire. > **Phase 3** : dérouler les prises et la rafle finale."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "### 8.1. Exemples narratifs (création en 2 sacrifices, puis méthode en 3 phases)"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Exemple — `BEG_CH08_001` (Dubois ch9 intro 1) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `37-31 (26x28) 38-33 (21x32) 33x4`"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Deux sacrifices successifs (`37-31` puis `38-33`) créent les temps de repos. Rafle finale `33×4` (`final_move.path = 33→22→13→4`, 3 captures 9, 18, 28)."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Exemple — `BEG_CH08_002` (Dubois ch9 intro 2, méthode en 3 phases) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `32-28 (23x21) 34-29 (18x27) 29x7`"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Phase 1 : `32-28` crée le temps de repos. Phase 2 : `34-29` exploite la prise forcée. Phase 3 : rafle finale `29×7` (cf `final_move.path = 29→20→9→18→7`, 4 captures 12, 13, 14, 24)."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH08_001` | `37-31` | +5.94 | 31 | — | | `BEG_CH08_002` | `32-28` | +6.80 | 29 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "### 8.2. Parties historiques"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Plusieurs parties illustrent la création artificielle de temps de repos."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Exemple — `BEG_CH08_003` (Dubois ch9 D1, Linssen-Bandstra 1982) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `28-23 (19x28) 30x6`"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Une seule rafle (`30×6`) fonctionne ; le sacrifice `28-23` fait sauter le pion 19 (cf `concept` de la fixture). `final_move.path = 30→19→8→17→6`, 4 captures (11, 12, 13, 24)."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les variantes additionnelles : - `BEG_CH08_004` (ch9 D2, prise majoritaire) : `33-29 (35x22) 29x29` (rafle qui revient sur sa case de départ — coup turc, cf `claude_notes`) - `BEG_CH08_005` (ch9 D3, Loenen-Hengefeld 1990) : `33-29 (24x22) 32-27 (35x24) 27x9` - `BEG_CH08_007` (ch9 D5, Schippers-Barten 2012) : `34-30 (23x25) 27-21 (17x37) 41x5` - `BEG_CH08_009` (ch9 D7) : `22-17 (11x31) 34-29 (16x27) 29x7` - `BEG_CH08_010` (ch9 D8) : `26-21 (17x28) 38-33 (22x31) 33x15` - `BEG_CH08_012` (ch9 D10) : `28-23 (19x17) 27-22 (17x28) 32x3`"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Exemple notable — `BEG_CH08_006` (Dubois ch9 D4, Badal-Kemperman 1994, trait aux noirs, rafle rare `24x11`) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(15-20) 28x17 (29-34) 40x29 (24x11)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "La rafle noire finale `(24×11)` est très rare (cf `concept` de la fixture : « démontre la valeur de la recherche systématique »). `final_move.path = 24→33→42→31→22→11`, 5 captures."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Exemple — `BEG_CH08_008` (Dubois ch9 D6, van Leeuwen-de Jong 1968, trait aux noirs) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(3-9) 26x17 (23-29) 34x12 (7x47)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "Le point d'appui de la rafle est en 7 (cf `concept`). Rafle finale noire `(7×47)` (`final_move.path = 7→18→27→38→47`, 4 captures 12, 22, 32, 42)."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "🔴 **Divergences Scan flaggées (cosmétiques)** — Pour `BEG_CH08_006` et `BEG_CH08_008`, la `published_notation` commence par un coup entre parenthèses (`(15-20)`, `(3-9)`) alors que le PV Scan le donne en clair — convention Dubois pour trait aux noirs."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH08_003` | `28-23` | +5.11 | 31 | — | | `BEG_CH08_004` | `33-29` | +6.99 | 29 | — | | `BEG_CH08_005` | `33-29` | +88.58 | 30 | — | | `BEG_CH08_006` | `15-20` | +1.85 | 34 | 🔴 | | `BEG_CH08_007` | `34-30` | +3.82 | 22 | — | | `BEG_CH08_008` | `3-9` | +5.42 | 24 | 🔴 | | `BEG_CH08_009` | `22-17` | +91.67 | 33 | — | | `BEG_CH08_010` | `26-21` | +2.77 | 27 | — | | `BEG_CH08_012` | `28-23` | +99.79 | 28 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "### 8.3. Préview : le coup de Talon"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "`BEG_CH08_011` (Dubois ch9 D9, Toet-Luteijn 1977) est un **coup de Talon** — coup nommé qui sera détaillé au chapitre 15."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `24-20 (15x42) 37x48 (26x37) 41x3`"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "La formation blanche 31-36-37-41-46 est caractéristique du coup de Talon (cf `claude_notes`). Rafle finale `41×3` (`final_move.path = 41→32→23→14→3`, 4 captures 9, 19, 28, 37)."
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH08_011` | `24-20` | +10.26 | 30 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 8,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch9 intro 1)"
 }
 ]
 },
@@ -2640,14 +2298,122 @@ const DATA: ManuelData = {
 "ch": 8
 },
 {
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Deux sacrifices successifs (37-31 puis 38-33) créent les temps de repos. Rafle finale 33×4"
+}
+]
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Exemple — (Dubois ch9 intro 2, méthode en 3 phases)"
+}
+]
+},
+{
 "type": "board",
 "id": "8_d1",
 "ch": 8
 },
 {
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Phase 1: 32-28 crée le temps de repos. Phase 2: 34-29 exploite la prise forcée. Phase 3: rafle finale 29×7"
+}
+]
+},
+{
+"type": "h3",
+"ch": 8,
+"runs": [
+{
+"t": "8.2. Parties historiques"
+}
+]
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Plusieurs parties illustrent la création artificielle de temps de repos"
+}
+]
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Exemple — (Dubois ch9 D1, Linssen-Bandstra 1982)"
+}
+]
+},
+{
 "type": "board",
 "id": "8_d2",
 "ch": 8
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Une seule rafle (30×6) fonctionne; le sacrifice 28-23 fait sauter le pion 19"
+}
+]
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Notation Dubois pour les variantes additionnelles"
+}
+]
+},
+{
+"type": "ul",
+"ch": 8,
+"items": [
+[
+{
+"t": "(ch9 D2, prise majoritaire): 33-29 (35x22) 29x29 (rafle qui revient sur sa case de départ — coup turc)"
+}
+],
+[
+{
+"t": "(ch9 D3, Loenen-Hengefeld 1990): 33-29 (24x22) 32-27 (35x24) 27x9"
+}
+],
+[
+{
+"t": "(ch9 D5, Schippers-Barten 2012): 34-30 (23x25) 27-21 (17x37) 41x5"
+}
+],
+[
+{
+"t": "(ch9 D7): 22-17 (11x31) 34-29 (16x27) 29x7"
+}
+],
+[
+{
+"t": "(ch9 D8): 26-21 (17x28) 38-33 (22x31) 33x15"
+}
+],
+[
+{
+"t": "(ch9 D10): 28-23 (19x17) 27-22 (17x28) 32x3"
+}
+]
+]
 },
 {
 "type": "board",
@@ -2680,9 +2446,36 @@ const DATA: ManuelData = {
 "ch": 8
 },
 {
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Exemple notable — (Dubois ch9 D4, Badal-Kemperman 1994, trait aux noirs, rafle rare 24x11)"
+}
+]
+},
+{
 "type": "board",
 "id": "8_d9",
 "ch": 8
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "La rafle noire finale (24×11) est très rare"
+}
+]
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Exemple — (Dubois ch9 D6, van Leeuwen-de Jong 1968, trait aux noirs)"
+}
+]
 },
 {
 "type": "board",
@@ -2690,9 +2483,52 @@ const DATA: ManuelData = {
 "ch": 8
 },
 {
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "Le point d'appui de la rafle est en 7. Rafle finale noire (7×47)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 8,
+"runs": [
+{
+"t": "8.3. Préview: le coup de Talon"
+}
+]
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "(Dubois ch9 D9, Toet-Luteijn 1977) est un "
+},
+{
+"b": 1,
+"t": "coup de Talon"
+},
+{
+"t": " — coup nommé qui sera détaillé au chapitre 15"
+}
+]
+},
+{
 "type": "board",
 "id": "8_d11",
 "ch": 8
+},
+{
+"type": "p",
+"ch": 8,
+"runs": [
+{
+"t": "La formation blanche 31-36-37-41-46 est caractéristique du coup de Talon. Rafle finale 41×3"
+}
+]
 },
 {
 "type": "h2",
@@ -2708,7 +2544,28 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: coup_express -->"
+"t": "Le "
+},
+{
+"b": 1,
+"t": "coup de l'Express"
+},
+{
+"t": " est le premier des "
+},
+{
+"b": 1,
+"t": "coups nommés"
+},
+{
+"t": " — des mécanismes combinatoires fréquents auxquels la tradition damiste a donné un nom propre. Il se reconnaît à un schéma très caractéristique: "
+},
+{
+"b": 1,
+"t": "quatre sacrifices consécutifs"
+},
+{
+"t": " qui acheminent les pions adverses par paires successives, suivis d'une rafle finale typique 33×2 ou 33×4"
 }
 ]
 },
@@ -2717,7 +2574,16 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "Le **coup de l'Express** est le premier des **coups nommés** — des mécanismes combinatoires fréquents auxquels la tradition damiste a donné un nom propre. Il se reconnaît à un schéma très caractéristique : **quatre sacrifices consécutifs** qui acheminent les pions adverses par paires successives, suivis d'une rafle finale typique `33×2` ou `33×4`."
+"t": "Les 12 exercices viennent du chapitre 13 de Dubois (pages 42-44)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 9,
+"runs": [
+{
+"t": "9.1. La forme canonique"
 }
 ]
 },
@@ -2726,205 +2592,7 @@ const DATA: ManuelData = {
 "ch": 9,
 "runs": [
 {
-"t": "Les 12 exercices viennent du chapitre 13 de Dubois (pages 42-44)."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "### 9.1. La forme canonique"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Exemple — `BEG_CH09_001` (Dubois ch13 narratif) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `37-31 (26x37) 27-21 (16x27) 28-22 (27x18) 38-32 (37x28) 33x2`"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Quatre sacrifices consécutifs, puis le pion blanc 33 parcourt la grande diagonale jusqu'à 2 (cf `final_move.path = 33→22→13→2`, captures 8, 18, 28 — promotion en dame). La signature visuelle est reconnaissable."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "`BEG_CH09_002` (`published_notation` : `33x2`) est la position finale illustrative qui montre l'aboutissement de la rafle (cf `claude_notes` : « pas de combinaison à jouer »). 🔴 Le PV Scan note la rafle en forme détaillée `33×2×8×18×28` — c'est la même rafle annotée plus en détail, pas une divergence tactique."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH09_001` | `37-31` | +99.87 | 99 | — | | `BEG_CH09_002` | `33×2×8×18×28` | +99.95 | 99 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "### 9.2. Variantes du coup de l'Express côté blanc"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les fixtures côté blanc : - `BEG_CH09_003` (ch13 D1) : `34-29 (23x32) 31-27 (32x21) 26x10` - `BEG_CH09_007` (ch13 D5, coquille PDF corrigée — cf R009 et `claude_notes`) : `32-27 (23x21) 38-32 (29x40) 45x3` - `BEG_CH09_008` (ch13 D6) : `32-27 (31x22) 24-20 (15x33) 39x10` - `BEG_CH09_009` (ch13 D7) : `29-23 (18x29) 33x24 (22x31) 36x9` - `BEG_CH09_010` (ch13 D8) : `34-29 (23x34) 39x30 (28x37) 41x3` - `BEG_CH09_011` (ch13 D9, schéma canonique) : `24-19 (13x24) 29x20 (15x24) 37-31 (26x28) 33x2` - `BEG_CH09_012` (ch13 D10, rafle `33×4`) : `29-24 (20x18) 37-31 (26x37) 38-32 (37x28) 33x4`"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "`BEG_CH09_007` mérite une note pédagogique : la coquille PDF d'origine (`43-38` au lieu de `38-32`) faisait jouer un pion blanc 43 sur la case 38 déjà occupée par un autre blanc. La résolution R009 retient qu'un même chiffre (ici `38`) peut être ambigu entre case de départ et case d'arrivée — la validation par recherche exhaustive est indispensable."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH09_003` | `34-29` | +99.77 | 35 | — | | `BEG_CH09_007` | `32-27` | +3.94 | 28 | — | | `BEG_CH09_008` | `32-27` | +99.79 | 26 | — | | `BEG_CH09_009` | `29-23` | +5.61 | 32 | — | | `BEG_CH09_010` | `34-29` | +8.63 | 27 | — | | `BEG_CH09_011` | `24-19` | +11.05 | 33 | — | | `BEG_CH09_012` | `29-24` | +4.08 | 27 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "### 9.3. Coup de l'Express côté noir (parties historiques)"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Trois parties historiques où c'est le noir qui exécute l'express."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "`published_notation` Dubois : - `BEG_CH09_004` (ch13 D2, Grotenhuis ten Harkel-Stokkel 1977, trait aux noirs) : `(17-22) 28x17 (19x28) 33x13 (24x11)` - `BEG_CH09_005` (ch13 D3, Perot-Mostovoy 1968, trait aux noirs) : `(23-29) 33x15 (17-21) 16x27 (22x44)` - `BEG_CH09_006` (ch13 D4, Ketelaars-Kalsbeek 1997, trait aux noirs) : `(27-31) 36x29 (19-24) 30x10 (4x35)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "🔴 **Divergences Scan flaggées** — Pour ces trois fixtures, le PV Scan ne commence **pas** par le coup noir publié, mais par un coup blanc préliminaire : - `BEG_CH09_004` : `published_notation` commence par `(17-22)`, Scan PV par `27-21` (éval −4.30, profondeur 31 — Scan évalue la position côté blanc avant le sacrifice noir). - `BEG_CH09_005` : `published_notation` commence par `(23-29)`, Scan PV par `39-34` (éval −6.71, profondeur 28). - `BEG_CH09_006` : `published_notation` commence par `(27-31)`, Scan PV par `41-37` (éval −3.24, profondeur 26)."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Dans ces trois cas, l'évaluation Scan **négative** indique que les noirs sont gagnants (le moteur regarde la position du point de vue du joueur au trait, et c'est aux noirs de jouer). Le PV complet est disponible dans `scan_analysis_debutant.json` — le coup noir publié reste correct, Scan en propose un précédent que les blancs joueraient pour minimiser les dégâts."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH09_004` | `27-21` | -4.30 | 31 | 🔴 | | `BEG_CH09_005` | `39-34` | -6.71 | 28 | 🔴 | | `BEG_CH09_006` | `41-37` | -3.24 | 26 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "### 9.4. Coquille PDF identifiée et résolue (rappel)"
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "Voir §9.2 et `BEG_CH09_007` : coquille PDF (`43-38` → `38-32`) corrigée par recherche exhaustive (R009). La résolution est documentée dans `RESOLUTIONS_debutant.md`."
-}
-]
-},
-{
-"type": "p",
-"ch": 9,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch13 narratif)"
 }
 ]
 },
@@ -2934,9 +2602,72 @@ const DATA: ManuelData = {
 "ch": 9
 },
 {
-"type": "board",
-"id": "9_d1",
-"ch": 9
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Quatre sacrifices consécutifs, puis le pion blanc 33 parcourt la grande diagonale jusqu'à 2. La signature visuelle est reconnaissable"
+}
+]
+},
+{
+"type": "h3",
+"ch": 9,
+"runs": [
+{
+"t": "9.2. Variantes du coup de l'Express côté blanc"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Notation Dubois pour les combinaisons côté blanc"
+}
+]
+},
+{
+"type": "ul",
+"ch": 9,
+"items": [
+[
+{
+"t": "(ch13 D1): 34-29 (23x32) 31-27 (32x21) 26x10"
+}
+],
+[
+{
+"t": "(ch13 D5 — et ): 32-27 (23x21) 38-32 (29x40) 45x3"
+}
+],
+[
+{
+"t": "(ch13 D6): 32-27 (31x22) 24-20 (15x33) 39x10"
+}
+],
+[
+{
+"t": "(ch13 D7): 29-23 (18x29) 33x24 (22x31) 36x9"
+}
+],
+[
+{
+"t": "(ch13 D8): 34-29 (23x34) 39x30 (28x37) 41x3"
+}
+],
+[
+{
+"t": "(ch13 D9, schéma canonique): 24-19 (13x24) 29x20 (15x24) 37-31 (26x28) 33x2"
+}
+],
+[
+{
+"t": "(ch13 D10, rafle 33×4): 29-24 (20x18) 37-31 (26x37) 38-32 (37x28) 33x4"
+}
+]
+]
 },
 {
 "type": "board",
@@ -2974,6 +2705,63 @@ const DATA: ManuelData = {
 "ch": 9
 },
 {
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "mérite une note pédagogique: la d'origine (43-38 au lieu de 38-32) faisait jouer un pion blanc 43 sur la case 38 déjà occupée par un autre blanc. La résolution retient qu'un même chiffre (ici 38) peut être ambigu entre case de départ et case d'arrivée — la validation par recherche exhaustive est indispensable"
+}
+]
+},
+{
+"type": "h3",
+"ch": 9,
+"runs": [
+{
+"t": "9.3. Coup de l'Express côté noir (parties historiques)"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Trois parties historiques où c'est le noir qui exécute l'express"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Notation Dubois"
+}
+]
+},
+{
+"type": "ul",
+"ch": 9,
+"items": [
+[
+{
+"t": "(ch13 D2, Grotenhuis ten Harkel-Stokkel 1977, trait aux noirs): (17-22) 28x17 (19x28) 33x13 (24x11)"
+}
+],
+[
+{
+"t": "(ch13 D3, Perot-Mostovoy 1968, trait aux noirs): (23-29) 33x15 (17-21) 16x27 (22x44)"
+}
+],
+[
+{
+"t": "(ch13 D4, Ketelaars-Kalsbeek 1997, trait aux noirs): (27-31) 36x29 (19-24) 30x10 (4x35)"
+}
+]
+]
+},
+{
 "type": "board",
 "id": "9_d9",
 "ch": 9
@@ -2986,6 +2774,45 @@ const DATA: ManuelData = {
 {
 "type": "board",
 "id": "9_d11",
+"ch": 9
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Dans ces trois cas, l'évaluation Scan "
+},
+{
+"b": 1,
+"t": "négative"
+},
+{
+"t": " indique que les noirs sont gagnants (le moteur regarde la position du point de vue du joueur au trait, et c'est aux noirs de jouer)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 9,
+"runs": [
+{
+"t": "9.4. identifiée et résolue (rappel)"
+}
+]
+},
+{
+"type": "p",
+"ch": 9,
+"runs": [
+{
+"t": "Voir §9.2 et: (43-38 → 38-32) corrigée par recherche exhaustive ). La résolution est documentée dans RESOLUTIONS_debutant.md"
+}
+]
+},
+{
+"type": "board",
+"id": "9_d1",
 "ch": 9
 },
 {
@@ -3002,7 +2829,25 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "Le **coup de Ricochet** est caractérisé par une rafle qui **revient sur sa case de départ** (ou très proche) après avoir traversé une zone clé. C'est une variante du coup de l'Express qui exploite mieux l'**aile gauche encombrée**."
+"t": "Le "
+},
+{
+"b": 1,
+"t": "coup de Ricochet"
+},
+{
+"t": " est caractérisé par une rafle qui "
+},
+{
+"b": 1,
+"t": "revient sur sa case de départ"
+},
+{
+"t": " (ou très proche) après avoir traversé une zone clé. C'est une variante du coup de l'Express qui exploite mieux l'"
+},
+{
+"b": 1,
+"t": "aile gauche encombrée"
 }
 ]
 },
@@ -3011,7 +2856,16 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "Les 12 exercices viennent du chapitre 14 de Dubois (pages 45-47)."
+"t": "Les 12 exercices viennent du chapitre 14 de Dubois (pages 45-47)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 10,
+"runs": [
+{
+"t": "10.1. Schéma de base"
 }
 ]
 },
@@ -3020,295 +2874,7 @@ const DATA: ManuelData = {
 "ch": 10,
 "runs": [
 {
-"t": "### 10.1. Schéma de base"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "Exemple — `BEG_CH10_001` (Dubois ch14 narratif) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `34-30 (25x34) 40x18 (13x22) 28x26`"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "Sacrifices `34-30` puis `40×18`, puis le pion blanc 28 ricoche sur la case 26 où le pion noir était initialement (cf `final_move.path = 28→17→26`, captures 21 et 22). Schéma canonique."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH10_001` | `34-30` | +99.81 | 99 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "### 10.2. Application en partie (combinaison longue)"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "Exemple — `BEG_CH10_002` (Dubois ch14 narratif appliqué) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `27-22 (18x27) 31x22 12-18 46-41 (18x27) 34-30 (25x34) 40x18 (13x22) 28x26`"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "Combinaison à 6 demi-coups (cf `explanation` de la fixture) : sacrifice préliminaire `27-22 (18x27) 31x22`, réponse noire forcée `12-18`, coup silencieux blanc `46-41`, puis schéma standard du ricochet (`final_move=None` à cause de la notation à plusieurs phases — `claude_notes`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée** — Pour `BEG_CH10_002`, Scan recommande `31-26` comme premier coup (éval +0.56, profondeur 25), là où la `published_notation` Dubois commence par `27-22`. Le manuel s'appuie sur la combinaison Dubois pour l'enseignement du ricochet ; le PV Scan court (avec `31-26`) est dans `scan_analysis_debutant.json` et peut être étudié séparément."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH10_002` | `31-26` | +0.56 | 25 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "### 10.3. Coups de dame et combinaisons classiques (D1 à D6, D9)"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les fixtures de cette section : - `BEG_CH10_003` (ch14 D1, coup de dame en 5) : `28-22 (17x30) 40-34 (24x42) 34x5` - `BEG_CH10_004` (ch14 D2, coup de dame en 4) : `29-24 (20x27) 49-44 (22x33) 31x4` - `BEG_CH10_005` (ch14 D3, combinaison ultra classique) : `28-22 (17x28) 27-21 (16x38) 42x24` - `BEG_CH10_006` (ch14 D4, Kloot-Kuipers 1939) : `37-31 (26x39) 40-34 (39x30) 35x4` - `BEG_CH10_007` (ch14 D5, coup de dame en 1) : `37-31 (36x27) 29-23 (18x38) 43x1` - `BEG_CH10_008` (ch14 D6, coquille PDF corrigée — R010, cf `claude_notes`) : `27-21 (17x28) 40-34 (30x39) 44x2` - `BEG_CH10_011` (ch14 D9, coup de dame à 4 via ricochet) : `35-30 (24x35) 26-21 (17x37) 41x23 (18x29) 33x4`"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "`BEG_CH10_008` mérite une note pédagogique : la coquille d'origine (`37-31 (26x28)`) cumulait une triple inversion typographique (37↔27, 31↔21, 26↔17), corrigée par recherche exhaustive (R010)."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH10_003` | `28-22` | +2.12 | 24 | — | | `BEG_CH10_004` | `29-24` | +1.17 | 26 | — | | `BEG_CH10_005` | `28-22` | +1.35 | 25 | — | | `BEG_CH10_006` | `37-31` | +1.30 | 25 | — | | `BEG_CH10_007` | `37-31` | +7.13 | 25 | — | | `BEG_CH10_008` | `27-21` | +99.79 | 42 | — | | `BEG_CH10_011` | `35-30` | +0.81 | 25 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "### 10.4. Préview : le coup Napoléon"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "`BEG_CH10_009` (Dubois ch14 D7) introduit le **coup Napoléon** — détaillé au chapitre 13."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `28-22 (17x28) 27-21 (16x27) 31x24`"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "`final_move.path = 31→22→33→24` avec 3 captures (27, 28, 29 — cf `claude_notes`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH10_009` | `28-22` | +1.88 | 27 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "### 10.5. Ricochets dissimulés (parties historiques noires)"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "Deux parties historiques où c'est le noir qui exécute le ricochet — les combinaisons sont très longues (7 demi-coups)."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "`published_notation` Dubois : - `BEG_CH10_010` (ch14 D8, Coenen-van Ingen 1990, trait aux noirs) : `(23-28) 22x11 (28x39) 34x43 (25x34) 40x29 (24x22)` (cf `final_move.path = 24→33→42→31→22`, 4 captures) - `BEG_CH10_012` (ch14 D10, Le Goff-Molimard 1909, trait aux noirs) : `(15-20) 29x27 (20x29) 34x23 (19x28) 32x23 (21x45)` (rafle cachée dont `final_move.path = 21→32→43→34→45`)"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "🔴 **Divergences Scan flaggées (cosmétiques)** — Pour `BEG_CH10_010` et `BEG_CH10_012`, la `published_notation` commence par un coup entre parenthèses (`(23-28)`, `(15-20)`) alors que le PV Scan le donne en clair — convention Dubois trait aux noirs."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH10_010` | `23-28` | +5.11 | 27 | 🔴 | | `BEG_CH10_012` | `15-20` | +7.17 | 23 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "### 10.6. Coquille PDF identifiée et résolue (rappel)"
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "Voir §10.3 et `BEG_CH10_008` : triple inversion typographique (37↔27, 31↔21, 26↔17) corrigée par recherche exhaustive (R010)."
-}
-]
-},
-{
-"type": "p",
-"ch": 10,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch14 narratif)"
 }
 ]
 },
@@ -3318,9 +2884,104 @@ const DATA: ManuelData = {
 "ch": 10
 },
 {
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "Sacrifices 34-30 puis 40×18, puis le pion blanc 28 ricoche sur la case 26 où le pion noir était initialement. Schéma canonique"
+}
+]
+},
+{
+"type": "h3",
+"ch": 10,
+"runs": [
+{
+"t": "10.2. Application en partie (combinaison longue)"
+}
+]
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "Exemple — (Dubois ch14 narratif appliqué)"
+}
+]
+},
+{
 "type": "board",
 "id": "10_d1",
 "ch": 10
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "Combinaison à 6 demi-coups ): sacrifice préliminaire 27-22 (18x27) 31x22, réponse noire forcée 12-18, coup silencieux blanc 46-41, puis schéma standard du ricochet"
+}
+]
+},
+{
+"type": "h3",
+"ch": 10,
+"runs": [
+{
+"t": "10.3. Coups de dame et combinaisons classiques (D1 à D6, D9)"
+}
+]
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "Notation Dubois pour les combinaisons de cette section"
+}
+]
+},
+{
+"type": "ul",
+"ch": 10,
+"items": [
+[
+{
+"t": "(ch14 D1, coup de dame en 5): 28-22 (17x30) 40-34 (24x42) 34x5"
+}
+],
+[
+{
+"t": "(ch14 D2, coup de dame en 4): 29-24 (20x27) 49-44 (22x33) 31x4"
+}
+],
+[
+{
+"t": "(ch14 D3, combinaison ultra classique): 28-22 (17x28) 27-21 (16x38) 42x24"
+}
+],
+[
+{
+"t": "(ch14 D4, Kloot-Kuipers 1939): 37-31 (26x39) 40-34 (39x30) 35x4"
+}
+],
+[
+{
+"t": "(ch14 D5, coup de dame en 1): 37-31 (36x27) 29-23 (18x38) 43x1"
+}
+],
+[
+{
+"t": "(ch14 D6 —): 27-21 (17x28) 40-34 (30x39) 44x2"
+}
+],
+[
+{
+"t": "(ch14 D9, coup de dame à 4 via ricochet): 35-30 (24x35) 26-21 (17x37) 41x23 (18x29) 33x4"
+}
+]
+]
 },
 {
 "type": "board",
@@ -3358,9 +3019,95 @@ const DATA: ManuelData = {
 "ch": 10
 },
 {
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "mérite une note pédagogique: la d'origine (37-31 (26x28)) cumulait une triple inversion typographique (37↔27, 31↔21, 26↔17), corrigée par recherche exhaustive )"
+}
+]
+},
+{
+"type": "h3",
+"ch": 10,
+"runs": [
+{
+"t": "10.4. Préview: le coup Napoléon"
+}
+]
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "(Dubois ch14 D7) introduit le "
+},
+{
+"b": 1,
+"t": "coup Napoléon"
+},
+{
+"t": " — détaillé au chapitre 13"
+}
+]
+},
+{
 "type": "board",
 "id": "10_d9",
 "ch": 10
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "avec 3 captures (27, 28, 29 )"
+}
+]
+},
+{
+"type": "h3",
+"ch": 10,
+"runs": [
+{
+"t": "10.5. Ricochets dissimulés (parties historiques noires)"
+}
+]
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "Deux parties historiques où c'est le noir qui exécute le ricochet — les combinaisons sont très longues (7 demi-coups)"
+}
+]
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "Notation Dubois"
+}
+]
+},
+{
+"type": "ul",
+"ch": 10,
+"items": [
+[
+{
+"t": "(ch14 D8, Coenen-van Ingen 1990, trait aux noirs): (23-28) 22x11 (28x39) 34x43 (25x34) 40x29 (24x22)"
+}
+],
+[
+{
+"t": "(ch14 D10, Le Goff-Molimard 1909, trait aux noirs): (15-20) 29x27 (20x29) 34x23 (19x28) 32x23 (21x45) (rafle cachée dont )"
+}
+]
+]
 },
 {
 "type": "board",
@@ -3371,6 +3118,24 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "10_d11",
 "ch": 10
+},
+{
+"type": "h3",
+"ch": 10,
+"runs": [
+{
+"t": "10.6. identifiée et résolue (rappel)"
+}
+]
+},
+{
+"type": "p",
+"ch": 10,
+"runs": [
+{
+"t": "Voir §10.3 et: triple inversion typographique (37↔27, 31↔21, 26↔17) corrigée par recherche exhaustive )"
+}
+]
 },
 {
 "type": "h2",
@@ -3386,7 +3151,28 @@ const DATA: ManuelData = {
 "ch": 11,
 "runs": [
 {
-"t": "Le **coup de Rappel** exploite une rafle adverse qui **descend trop bas** (souvent jusqu'en case 39 pour les noirs). Un nouveau sacrifice **force le pion à remonter** (« rappel ») où il est capturé définitivement par la rafle finale."
+"t": "Le "
+},
+{
+"b": 1,
+"t": "coup de Rappel"
+},
+{
+"t": " exploite une rafle adverse qui "
+},
+{
+"b": 1,
+"t": "descend trop bas"
+},
+{
+"t": " (souvent jusqu'en case 39 pour les noirs). Un nouveau sacrifice "
+},
+{
+"b": 1,
+"t": "force le pion à remonter"
+},
+{
+"t": " («rappel») où il est capturé définitivement par la rafle finale"
 }
 ]
 },
@@ -3395,7 +3181,16 @@ const DATA: ManuelData = {
 "ch": 11,
 "runs": [
 {
-"t": "Les 12 exercices viennent du chapitre 15 de Dubois (pages 48-50)."
+"t": "Les 12 exercices viennent du chapitre 15 de Dubois (pages 48-50)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 11,
+"runs": [
+{
+"t": "11.1. Les trois schémas narratifs"
 }
 ]
 },
@@ -3404,214 +3199,7 @@ const DATA: ManuelData = {
 "ch": 11,
 "runs": [
 {
-"t": "### 11.1. Les trois schémas narratifs"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "Exemple — `BEG_CH11_001` (Dubois ch15 schéma 1) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `28-23 (19x39) 38-33 (39x28) 32x3`"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "Le sacrifice `28-23` est pris par `(19×39)` — le pion noir descend trop bas. Le rappel `38-33` force le pion 39 à remonter (`39×28`), puis la rafle `32×3` conclut (cf `final_move.path = 32→23→12→3`, captures 8, 18, 28)."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les autres schémas narratifs : - `BEG_CH11_002` (schéma 2, rafle finale en 4) : `30-24 (19x39) 40-34 (39x30) 35x4` - `BEG_CH11_003` (schéma 3, rappel via case 32) : `28-22 (17x37) 38-32 (37x28) 33x4`"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH11_001` | `28-23` | +99.95 | 99 | — | | `BEG_CH11_002` | `30-24` | +99.95 | 99 | — | | `BEG_CH11_003` | `28-22` | +99.95 | 99 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "### 11.2. Rappels côté blanc (D1 à D4, D7)"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les fixtures de cette section : - `BEG_CH11_004` (ch15 D1, rafle finissant en 7 via pion de base 49) : `32-28 (23x34) 44-40 (35x44) 49x7` - `BEG_CH11_005` (ch15 D2, acheminer un pion noir en 22) : `22-17 (11x31) 32-27 (31x22) 28x10` - `BEG_CH11_006` (ch15 D3) : `34-30 (35x42) 43-38 (42x33) 39x6` - `BEG_CH11_007` (ch15 D4, combinaison + fin de partie) : `24-20 (14x23) 32-28 (23x32) 37x19` - `BEG_CH11_010` (ch15 D7, Rapopport-Gertsenzon 1963, 4 demi-coups) : `38-32 (28x37) 25-20 (15x33) 34-29 (33x24) 30x6`"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée** — Pour `BEG_CH11_005`, la `published_notation` Dubois commence par `22-17` (sacrifice immédiat sur la trajectoire de rappel), tandis que Scan préfère `37-31` (éval +10.58, profondeur 29) comme premier coup. Le PV complet est dans `scan_analysis_debutant.json` ; la solution Dubois reste enseignable en tant que mécanisme de rappel, mais Scan trouve une voie plus efficace."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH11_004` | `32-28` | +99.79 | 27 | — | | `BEG_CH11_005` | `37-31` | +10.58 | 29 | 🔴 | | `BEG_CH11_006` | `34-30` | +99.75 | 30 | — | | `BEG_CH11_007` | `24-20` | +99.67 | 28 | — | | `BEG_CH11_010` | `38-32` | +8.67 | 27 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "### 11.3. Préview : le coup de la Trappe"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "`BEG_CH11_008` (Dubois ch15 D5, Michiels-Marini 1986) et `BEG_CH11_009` (Dubois ch15 D6) sont des **coups de la Trappe** — détaillés au chapitre 14."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "`published_notation` Dubois : - `BEG_CH11_008` : `44-39 (35x44) 32-28 (23x34) 50x10` - `BEG_CH11_009` : `38-32 (30x39) 27-22 (18x29) 44x2`"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH11_008` | `44-39` | +4.87 | 26 | — | | `BEG_CH11_009` | `38-32` | +99.81 | 32 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "### 11.4. Rappels côté noir (parties historiques, 7 demi-coups)"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "Deux parties historiques où c'est le noir qui exécute le rappel sur 7 demi-coups."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "`published_notation` Dubois : - `BEG_CH11_011` (ch15 D8, van Aalten-Clerc 1976, coup de dame à 50, trait aux noirs) : `(23-28) 32x23 (22-28) 23x32 (13-19) 24x22 (17x50)` (cf `final_move.path = 17→28→39→50`, captures 22, 33, 44) - `BEG_CH11_012` (ch15 D9, rafle en 44, trait aux noirs) : `(22-27) 21x32 (18-22) 29x27 (7-11) 16x18 (13x44)` (cf `final_move.path = 13→22→31→42→33→44`, 5 captures)"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "🔴 **Divergences Scan flaggées (cosmétiques)** — Pour `BEG_CH11_011` et `BEG_CH11_012`, la `published_notation` commence par un coup entre parenthèses (`(23-28)`, `(22-27)`) alors que le PV Scan le donne en clair — convention Dubois trait aux noirs."
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH11_011` | `23-28` | +1.47 | 25 | 🔴 | | `BEG_CH11_012` | `22-27` | +7.02 | 27 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 11,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch15 schéma 1)"
 }
 ]
 },
@@ -3619,6 +3207,40 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "11_d0",
 "ch": 11
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Le sacrifice 28-23 est pris par (19×39) — le pion noir descend trop bas. Le rappel 38-33 force le pion 39 à remonter (39×28), puis la rafle 32×3 conclut"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Notation Dubois pour les autres schémas narratifs"
+}
+]
+},
+{
+"type": "ul",
+"ch": 11,
+"items": [
+[
+{
+"t": "(schéma 2, rafle finale en 4): 30-24 (19x39) 40-34 (39x30) 35x4"
+}
+],
+[
+{
+"t": "(schéma 3, rappel via case 32): 28-22 (17x37) 38-32 (37x28) 33x4"
+}
+]
+]
 },
 {
 "type": "board",
@@ -3629,6 +3251,55 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "11_d2",
 "ch": 11
+},
+{
+"type": "h3",
+"ch": 11,
+"runs": [
+{
+"t": "11.2. Rappels côté blanc (D1 à D4, D7)"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Notation Dubois pour les combinaisons de cette section"
+}
+]
+},
+{
+"type": "ul",
+"ch": 11,
+"items": [
+[
+{
+"t": "(ch15 D1, rafle finissant en 7 via pion de base 49): 32-28 (23x34) 44-40 (35x44) 49x7"
+}
+],
+[
+{
+"t": "(ch15 D2, acheminer un pion noir en 22): 22-17 (11x31) 32-27 (31x22) 28x10"
+}
+],
+[
+{
+"t": "(ch15 D3): 34-30 (35x42) 43-38 (42x33) 39x6"
+}
+],
+[
+{
+"t": "(ch15 D4, combinaison + fin de partie): 24-20 (14x23) 32-28 (23x32) 37x19"
+}
+],
+[
+{
+"t": "(ch15 D7, Rapopport-Gertsenzon 1963, 4 demi-coups): 38-32 (28x37) 25-20 (15x33) 34-29 (33x24) 30x6"
+}
+]
+]
 },
 {
 "type": "board",
@@ -3656,6 +3327,31 @@ const DATA: ManuelData = {
 "ch": 11
 },
 {
+"type": "h3",
+"ch": 11,
+"runs": [
+{
+"t": "11.3. Préview: le coup de la Trappe"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "(Dubois ch15 D5, Michiels-Marini 1986) et (Dubois ch15 D6) sont des "
+},
+{
+"b": 1,
+"t": "coups de la Trappe"
+},
+{
+"t": " — détaillés au chapitre 14"
+}
+]
+},
+{
 "type": "board",
 "id": "11_d8",
 "ch": 11
@@ -3664,6 +3360,74 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "11_d9",
 "ch": 11
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Notation Dubois"
+}
+]
+},
+{
+"type": "ul",
+"ch": 11,
+"items": [
+[
+{
+"t": "44-39 (35x44) 32-28 (23x34) 50x10"
+}
+],
+[
+{
+"t": "38-32 (30x39) 27-22 (18x29) 44x2"
+}
+]
+]
+},
+{
+"type": "h3",
+"ch": 11,
+"runs": [
+{
+"t": "11.4. Rappels côté noir (parties historiques, 7 demi-coups)"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Deux parties historiques où c'est le noir qui exécute le rappel sur 7 demi-coups"
+}
+]
+},
+{
+"type": "p",
+"ch": 11,
+"runs": [
+{
+"t": "Notation Dubois"
+}
+]
+},
+{
+"type": "ul",
+"ch": 11,
+"items": [
+[
+{
+"t": "(ch15 D8, van Aalten-Clerc 1976, coup de dame à 50, trait aux noirs): (23-28) 32x23 (22-28) 23x32 (13-19) 24x22 (17x50)"
+}
+],
+[
+{
+"t": "(ch15 D9, rafle en 44, trait aux noirs): (22-27) 21x32 (18-22) 29x27 (7-11) 16x18 (13x44)"
+}
+]
+]
 },
 {
 "type": "board",
@@ -3689,7 +3453,25 @@ const DATA: ManuelData = {
 "ch": 12,
 "runs": [
 {
-"t": "Le **coup Renversé** est un mécanisme moins courant mais utile car il **se marie facilement avec d'autres coups nommés** : coups de mazette, coups Philippe, coups de Ricochet. Il inclut une variante notable, le **coup de chevron**."
+"t": "Le "
+},
+{
+"b": 1,
+"t": "coup Renversé"
+},
+{
+"t": " est un mécanisme moins courant mais utile car il "
+},
+{
+"b": 1,
+"t": "se marie facilement avec d'autres coups nommés"
+},
+{
+"t": ": coups de mazette, coups Philippe, coups de Ricochet. Il inclut une variante notable, le "
+},
+{
+"b": 1,
+"t": "coup de chevron"
 }
 ]
 },
@@ -3698,7 +3480,16 @@ const DATA: ManuelData = {
 "ch": 12,
 "runs": [
 {
-"t": "Les 10 exercices viennent du chapitre 16 de Dubois (pages 51-53)."
+"t": "Les 10 exercices viennent du chapitre 16 de Dubois (pages 51-53)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 12,
+"runs": [
+{
+"t": "12.1. Coup renversé pur (D6 — forme canonique)"
 }
 ]
 },
@@ -3707,268 +3498,7 @@ const DATA: ManuelData = {
 "ch": 12,
 "runs": [
 {
-"t": "### 12.1. Coup renversé pur (D6 — forme canonique)"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Exemple — `BEG_CH12_006` (Dubois ch16 D6) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `33-29 (23x34) 39x30 (25x34) 27-21 (26x28) 32x25`"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Quatre demi-coups préparatoires, puis rafle finale `32×25` qui arrive en case de bord proche du départ — c'est la signature du coup renversé (cf `final_move.path = 32→23→14→25`, 3 captures 19, 20, 28)."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les variantes côté blanc : - `BEG_CH12_001` (ch16 D1, rafle en 4) : `35-30 (24x35) 26-21 (17x28) 33x4` - `BEG_CH12_003` (ch16 D3, coup de dame à 2) : `25-20 (24x15) 37-31 (26x30) 35x2` - `BEG_CH12_007` (ch16 D7, avec temps de repos) : `28-22 (19x30) 29-24 (30x19) 27-21 (26x28) 32x3` - `BEG_CH12_010` (ch16 D10, combinaison fulgurante en 5 demi-coups) : `28-22 (17x37) 47-41 (21x43) 39x48 (19x28) 41x5`"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH12_001` | `35-30` | +6.09 | 26 | — | | `BEG_CH12_003` | `25-20` | +7.12 | 29 | — | | `BEG_CH12_006` | `33-29` | +2.36 | 30 | — | | `BEG_CH12_007` | `28-22` | +6.89 | 27 | — | | `BEG_CH12_010` | `28-22` | +99.81 | 41 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "### 12.2. Le coup de chevron (D2 — Datel-Schwarzman 1977)"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Exemple — `BEG_CH12_002` (Dubois ch16 D2, trait aux noirs) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(19-23) 28x19 (17x28) 32x12 (21x25)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Variante du renversé connue sous le nom de **coup de chevron** à cause de la forme de la rafle finale `(21×25)` (cf `claude_notes` et `final_move.path = 21→32→43→34→25`, 4 captures 27, 30, 38, 39)."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée (cosmétique)** — Pour `BEG_CH12_002`, la `published_notation` commence par `(19-23)` entre parenthèses (trait aux noirs) alors que le PV Scan le donne en clair (`19-23`, éval +2.61, profondeur 24)."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH12_002` | `19-23` | +2.61 | 24 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "### 12.3. Combinaisons avec parties historiques (D4, D5)"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "`published_notation` Dubois : - `BEG_CH12_004` (ch16 D4, Gordijn-den Hartogh 1952, exploitation pion de bande 35) : `34-30 (35x24) 33-28 (22x33) 38x18` - `BEG_CH12_005` (ch16 D5, Clasquin-van Es 1981, préview coup de la Trappe) : `28-22 (18x38) 24-20 (15x24) 29x27`"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH12_004` | `34-30` | +1.94 | 26 | — | | `BEG_CH12_005` | `28-22` | +6.14 | 26 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "### 12.4. Coup parallèle et coup renversé + envoi à dame (D8, D9)"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Exemple — `BEG_CH12_008` (Dubois ch16 D8, Bergsma-Spoelstra 1952) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `26-21 (17x28) 29-23 (18x29) 39-33 43x5`"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Mécanisme connu sous le nom de **coup parallèle**. Contient la notation `(ad lib)` au niveau des captures forcées — `final_move=None` à cause des branches multiples (cf `claude_notes` et R008)."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée** — Pour `BEG_CH12_008`, Scan recommande `39-33` comme premier coup (éval +0.25, profondeur 21), là où la `published_notation` Dubois commence par `26-21`. Cette substitution de premier coup change l'ordre des sacrifices ; le PV complet est dans `scan_analysis_debutant.json`. La forme Dubois reste enseignable mais Scan trouve une voie alternative."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Exemple — `BEG_CH12_009` (Dubois ch16 D9, Spoelstra-Bergsma 1972, trait aux noirs, coup renversé + envoi à dame) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(15-20) 24x15 (4-10) 15x4 (18-22) 4x27 (21x45)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "Le blanc 24 est envoyé à dame en 4 (`24x15` puis `15x4`), ramené par `(18-22)` en 27 (`4x27`), et capturé par la rafle noire `(21×45)` (`final_move=None`, R007)."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée (cosmétique)** — Pour `BEG_CH12_009`, la `published_notation` commence par `(15-20)` (trait aux noirs)."
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH12_008` | `39-33` | +0.25 | 21 | 🔴 | | `BEG_CH12_009` | `15-20` | +0.97 | 23 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 12,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch16 D6)"
 }
 ]
 },
@@ -3976,6 +3506,50 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "12_d0",
 "ch": 12
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Quatre demi-coups préparatoires, puis rafle finale 32×25 qui arrive en case de bord proche du départ — c'est la signature du coup renversé"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Notation Dubois pour les variantes côté blanc"
+}
+]
+},
+{
+"type": "ul",
+"ch": 12,
+"items": [
+[
+{
+"t": "(ch16 D1, rafle en 4): 35-30 (24x35) 26-21 (17x28) 33x4"
+}
+],
+[
+{
+"t": "(ch16 D3, coup de dame à 2): 25-20 (24x15) 37-31 (26x30) 35x2"
+}
+],
+[
+{
+"t": "(ch16 D7, avec temps de repos): 28-22 (19x30) 29-24 (30x19) 27-21 (26x28) 32x3"
+}
+],
+[
+{
+"t": "(ch16 D10, combinaison fulgurante en 5 demi-coups): 28-22 (17x37) 47-41 (21x43) 39x48 (19x28) 41x5"
+}
+]
+]
 },
 {
 "type": "board",
@@ -3998,9 +3572,77 @@ const DATA: ManuelData = {
 "ch": 12
 },
 {
+"type": "h3",
+"ch": 12,
+"runs": [
+{
+"t": "12.2. Le coup de chevron (D2 — Datel-Schwarzman 1977)"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Exemple — (Dubois ch16 D2, trait aux noirs)"
+}
+]
+},
+{
 "type": "board",
 "id": "12_d5",
 "ch": 12
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Variante du renversé connue sous le nom de "
+},
+{
+"b": 1,
+"t": "coup de chevron"
+},
+{
+"t": " à cause de la forme de la rafle finale (21×25)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 12,
+"runs": [
+{
+"t": "12.3. Combinaisons avec parties historiques (D4, D5)"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Notation Dubois"
+}
+]
+},
+{
+"type": "ul",
+"ch": 12,
+"items": [
+[
+{
+"t": "(ch16 D4, Gordijn-den Hartogh 1952, exploitation pion de bande 35): 34-30 (35x24) 33-28 (22x33) 38x18"
+}
+],
+[
+{
+"t": "(ch16 D5, Clasquin-van Es 1981, préview coup de la Trappe): 28-22 (18x38) 24-20 (15x24) 29x27"
+}
+]
+]
 },
 {
 "type": "board",
@@ -4013,14 +3655,66 @@ const DATA: ManuelData = {
 "ch": 12
 },
 {
+"type": "h3",
+"ch": 12,
+"runs": [
+{
+"t": "12.4. Coup parallèle et coup renversé + envoi à dame (D8, D9)"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Exemple — (Dubois ch16 D8, Bergsma-Spoelstra 1952)"
+}
+]
+},
+{
 "type": "board",
 "id": "12_d8",
 "ch": 12
 },
 {
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Mécanisme connu sous le nom de "
+},
+{
+"b": 1,
+"t": "coup parallèle"
+},
+{
+"t": ". Contient la notation (ad lib) au niveau des captures forcées — à cause des branches multiples"
+}
+]
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Exemple — (Dubois ch16 D9, Spoelstra-Bergsma 1972, trait aux noirs, coup renversé + envoi à dame)"
+}
+]
+},
+{
 "type": "board",
 "id": "12_d9",
 "ch": 12
+},
+{
+"type": "p",
+"ch": 12,
+"runs": [
+{
+"t": "Le blanc 24 est envoyé à dame en 4 (24x15 puis 15x4), ramené par (18-22) en 27 (4x27), et capturé par la rafle noire (21×45)"
+}
+]
 },
 {
 "type": "h2",
@@ -4036,7 +3730,21 @@ const DATA: ManuelData = {
 "ch": 13,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: coup_napoleon -->"
+"t": "Le "
+},
+{
+"b": 1,
+"t": "coup Napoléon"
+},
+{
+"t": " est un coup en "
+},
+{
+"b": 1,
+"t": "4 sacrifices"
+},
+{
+"t": " débouchant sur une rafle longue typique 31×4, 39×8, 40×16 (selon la diagonale utilisée). Sa forme la plus pure est montrée dans le D9 Dubois"
 }
 ]
 },
@@ -4045,7 +3753,16 @@ const DATA: ManuelData = {
 "ch": 13,
 "runs": [
 {
-"t": "Le **coup Napoléon** est un coup en **4 sacrifices** débouchant sur une rafle longue typique `31×4`, `39×8`, `40×16` (selon la diagonale utilisée). Sa forme la plus pure est montrée dans le D9 Dubois."
+"t": "Les 10 exercices viennent du chapitre 17 de Dubois (pages 54-56)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 13,
+"runs": [
+{
+"t": "13.1. Le coup Napoléon pur (D9)"
 }
 ]
 },
@@ -4054,313 +3771,7 @@ const DATA: ManuelData = {
 "ch": 13,
 "runs": [
 {
-"t": "Les 10 exercices viennent du chapitre 17 de Dubois (pages 54-56)."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "### 13.1. Le coup Napoléon pur (D9)"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Exemple — `BEG_CH13_009` (Dubois ch17 D9) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `27-22 (18x29) 28-22 (17x28) 26-21 (16x27) 31x4`"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "« Un pur coup Napoléon » selon Dubois (cf `claude_notes`). Quatre sacrifices consécutifs ouvrent la trajectoire de la rafle finale `31×4` (cf `final_move.path = 31→22→33→24→15→4`, 5 captures : 10, 20, 27, 28, 29 — promotion en dame)."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH13_009` | `27-22` | +6.61 | 27 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "### 13.2. Variantes côté blanc (D5, D6, D7, D8, D10)"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "`published_notation` Dubois : - `BEG_CH13_005` (ch17 D5, Haijtink-Scholte Lubberink 1994) : `38-32 (27x38) 23-18 (13x22) 24-19 (14x23) 29x7` - `BEG_CH13_006` (ch17 D6, van Leijen-Schunselaar 1971, combine rappel et Napoléon) : `23-19 (14x34) 33-29 (34x23) 25-20 (15x24) 30x19` - `BEG_CH13_007` (ch17 D7, rafle `39×8`) : `22-18 (13x31) 32-28 (23x32) 34-29 (24x33) 39x8` - `BEG_CH13_008` (ch17 D8, Kolodiev-Weytsman 1973, rafle `40×16`) : `32-28 (23x32) 24-19 (13x33) 34-30 (25x34) 40x16` - `BEG_CH13_010` (ch17 D10, Papinski-Lewandowski 1979, rafle `48×6`) : `34-30 (25x34) 28-22 (17x28) 32x23 (21x43) 48x6`"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH13_005` | `38-32` | +6.43 | 26 | — | | `BEG_CH13_006` | `23-19` | +1.29 | 25 | — | | `BEG_CH13_007` | `22-18` | +99.77 | 29 | — | | `BEG_CH13_008` | `32-28` | +87.72 | 32 | — | | `BEG_CH13_010` | `34-30` | +9.56 | 25 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "### 13.3. Envoi à dame surprenant (D1) et coup de l'Express embarqué (D4)"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Exemple — `BEG_CH13_001` (Dubois ch17 D1) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `38-33 (29x49) 31-27 (49x24) 27x18`"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Envoi à dame du noir suivi du rappel `31-27` (`final_move=None`, R007 — rafle de dame `49x24`, cf `claude_notes`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Exemple — `BEG_CH13_004` (Dubois ch17 D4, coquille PDF corrigée — R011) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `28-22 (27x18) 37-31 (26x28) 33x4`"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Coup de l'Express embarqué dans le chapitre Napoléon (cf `concept`). La coquille d'origine inversait les opérandes (`(18x27)` au lieu de `(27x18)`) — la résolution R011 retient un nouveau type de coquille (inversion départ↔arrivée)."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH13_001` | `38-33` | +6.06 | 28 | — | | `BEG_CH13_004` | `28-22` | +5.62 | 32 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "### 13.4. Coups Napoléon côté noir (parties historiques, D2, D3)"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Deux parties où c'est le noir qui exécute le Napoléon."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Exemple — `BEG_CH13_002` (Dubois ch17 D2, Bom-van Dijk 1963, trait aux noirs) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(23-28) 16x27 (17-22) 34x32 (22x44)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Combinaison finissant en 44 (`final_move.path = 22→31→42→33→44`, captures 27, 37, 38, 39)."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée** — Pour `BEG_CH13_002`, le PV Scan commence par `13-18` (éval +0.41, profondeur 28) là où la `published_notation` Dubois commence par `(23-28)`. Cette substitution de premier coup change le sacrifice initial ; le PV complet est dans `scan_analysis_debutant.json`. La forme Dubois reste enseignable pour le mécanisme Napoléon côté noir, mais Scan trouve une voie où les blancs anticipent."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Exemple — `BEG_CH13_003` (Dubois ch17 D3, Baerends-Stoop 1984, coup de dame en 46, trait aux noirs) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(24-30) 34x23 (22-27) 31x13 (8x46)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "`final_move.path = 8→19→28→37→46`, 4 captures (13, 23, 32, 41)."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée (cosmétique)** — Pour `BEG_CH13_003`, la `published_notation` commence par `(24-30)` entre parenthèses (trait aux noirs)."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH13_002` | `13-18` | +0.41 | 28 | 🔴 | | `BEG_CH13_003` | `24-30` | -0.26 | 23 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "### 13.5. Coquille PDF identifiée et résolue (rappel)"
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "Voir §13.3 et `BEG_CH13_004` : coquille par inversion départ↔arrivée (`(18x27)` → `(27x18)`) corrigée par recherche exhaustive (R011)."
-}
-]
-},
-{
-"type": "p",
-"ch": 13,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch17 D9)"
 }
 ]
 },
@@ -4368,6 +3779,64 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "13_d0",
 "ch": 13
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "«Un pur coup Napoléon» selon Dubois. Quatre sacrifices consécutifs ouvrent la trajectoire de la rafle finale 31×4"
+}
+]
+},
+{
+"type": "h3",
+"ch": 13,
+"runs": [
+{
+"t": "13.2. Variantes côté blanc (D5, D6, D7, D8, D10)"
+}
+]
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Notation Dubois"
+}
+]
+},
+{
+"type": "ul",
+"ch": 13,
+"items": [
+[
+{
+"t": "(ch17 D5, Haijtink-Scholte Lubberink 1994): 38-32 (27x38) 23-18 (13x22) 24-19 (14x23) 29x7"
+}
+],
+[
+{
+"t": "(ch17 D6, van Leijen-Schunselaar 1971, combine rappel et Napoléon): 23-19 (14x34) 33-29 (34x23) 25-20 (15x24) 30x19"
+}
+],
+[
+{
+"t": "(ch17 D7, rafle 39×8): 22-18 (13x31) 32-28 (23x32) 34-29 (24x33) 39x8"
+}
+],
+[
+{
+"t": "(ch17 D8, Kolodiev-Weytsman 1973, rafle 40×16): 32-28 (23x32) 24-19 (13x33) 34-30 (25x34) 40x16"
+}
+],
+[
+{
+"t": "(ch17 D10, Papinski-Lewandowski 1979, rafle 48×6): 34-30 (25x34) 28-22 (17x28) 32x23 (21x43) 48x6"
+}
+]
+]
 },
 {
 "type": "board",
@@ -4395,9 +3864,45 @@ const DATA: ManuelData = {
 "ch": 13
 },
 {
+"type": "h3",
+"ch": 13,
+"runs": [
+{
+"t": "13.3. Envoi à dame surprenant (D1) et coup de l'Express embarqué (D4)"
+}
+]
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Exemple — (Dubois ch17 D1)"
+}
+]
+},
+{
 "type": "board",
 "id": "13_d6",
 "ch": 13
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Envoi à dame du noir suivi du rappel 31-27"
+}
+]
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Exemple — (Dubois ch17 D4 —)"
+}
+]
 },
 {
 "type": "board",
@@ -4405,14 +3910,86 @@ const DATA: ManuelData = {
 "ch": 13
 },
 {
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Coup de l'Express embarqué dans le chapitre Napoléon. La d'origine inversait les opérandes ((18x27) au lieu de (27x18)) — la résolution retient un nouveau type de (inversion départ↔arrivée)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 13,
+"runs": [
+{
+"t": "13.4. Coups Napoléon côté noir (parties historiques, D2, D3)"
+}
+]
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Deux parties où c'est le noir qui exécute le Napoléon"
+}
+]
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Exemple — (Dubois ch17 D2, Bom-van Dijk 1963, trait aux noirs)"
+}
+]
+},
+{
 "type": "board",
 "id": "13_d8",
 "ch": 13
 },
 {
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Combinaison finissant en 44"
+}
+]
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Exemple — (Dubois ch17 D3, Baerends-Stoop 1984, coup de dame en 46, trait aux noirs)"
+}
+]
+},
+{
 "type": "board",
 "id": "13_d9",
 "ch": 13
+},
+{
+"type": "h3",
+"ch": 13,
+"runs": [
+{
+"t": "13.5. identifiée et résolue (rappel)"
+}
+]
+},
+{
+"type": "p",
+"ch": 13,
+"runs": [
+{
+"t": "Voir §13.3 et: par inversion départ↔arrivée ((18x27) → (27x18)) corrigée par recherche exhaustive )"
+}
+]
 },
 {
 "type": "h2",
@@ -4428,7 +4005,35 @@ const DATA: ManuelData = {
 "ch": 14,
 "runs": [
 {
-"t": "Le **coup de la Trappe** est un mécanisme sophistiqué : un sacrifice préliminaire **piège** un pion adverse dans une position où sa capture forcée par un sacrifice subséquent **ouvre** la rafle finale. La trappe est souvent **invisible** pour les joueurs peu entraînés — d'où son nom."
+"t": "Le "
+},
+{
+"b": 1,
+"t": "coup de la Trappe"
+},
+{
+"t": " est un mécanisme sophistiqué: un sacrifice préliminaire "
+},
+{
+"b": 1,
+"t": "piège"
+},
+{
+"t": " un pion adverse dans une position où sa capture forcée par un sacrifice subséquent "
+},
+{
+"b": 1,
+"t": "ouvre"
+},
+{
+"t": " la rafle finale. La trappe est souvent "
+},
+{
+"b": 1,
+"t": "invisible"
+},
+{
+"t": " pour les joueurs peu entraînés — d'où son nom"
 }
 ]
 },
@@ -4437,7 +4042,16 @@ const DATA: ManuelData = {
 "ch": 14,
 "runs": [
 {
-"t": "Les 10 exercices viennent du chapitre 18 de Dubois (pages 57-59)."
+"t": "Les 10 exercices viennent du chapitre 18 de Dubois (pages 57-59)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 14,
+"runs": [
+{
+"t": "14.1. Pur coup de la Trappe (D6)"
 }
 ]
 },
@@ -4446,277 +4060,7 @@ const DATA: ManuelData = {
 "ch": 14,
 "runs": [
 {
-"t": "### 14.1. Pur coup de la Trappe (D6)"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "Exemple — `BEG_CH14_006` (Dubois ch18 D6, forme canonique) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `31-27 (22x31) 26-21 (16x27) 37x26 (28x37) 42x4`"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "Quatre demi-coups préparatoires, puis rafle finale `42×4` (cf `final_move.path = 42→31→22→13→4`, 4 captures 9, 18, 27, 37). Forme canonique du coup de la Trappe (cf `claude_notes`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH14_006` | `31-27` | +11.25 | 27 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "### 14.2. Coups de la Trappe côté blanc (D1, D2, D3, D9)"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "`published_notation` Dubois : - `BEG_CH14_001` (ch18 D1, rafle `30×6`) : `26-21 (17x26) 32-27 (22x24) 30x6` - `BEG_CH14_002` (ch18 D2, révision du coup de Rappel) : `28-23 (19x39) 38-33 (39x28) 32x14` - `BEG_CH14_003` (ch18 D3, rafle finale en 9) : `28-23 (17x19) 33-28 (24x31) 36x9` - `BEG_CH14_009` (ch18 D9, van Dijk, mécanisme inattendu) : `28-22 (18x36) 34-30 (25x23) 33-28 (23x32) 38x9`"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH14_001` | `26-21` | +2.38 | 27 | — | | `BEG_CH14_002` | `28-23` | +10.05 | 32 | — | | `BEG_CH14_003` | `28-23` | +89.51 | 33 | — | | `BEG_CH14_009` | `28-22` | +99.75 | 26 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "### 14.3. Combinaisons longues à 7 demi-coups (D4, D5, D8)"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "Plusieurs parties historiques dépassent les 5 demi-coups habituels."
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "Exemple — `BEG_CH14_004` (Dubois ch18 D4, Kocken-Doomernik 1971, trait aux noirs) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(16-21) 27x7 (18x27) 7x20 (8-12) 32x21 (23x45)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "Trappe noire à 7 demi-coups (cf `claude_notes`, `final_move.path = 23→32→43→34→45`, captures 28, 38, 39, 40)."
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les autres parties : - `BEG_CH14_005` (ch18 D5, Hoogland-van den Broek 1912, coup de dame à 4) : `28-23 (19x39) 30x19 (13x33) 38x29 (39x30) 35x4` - `BEG_CH14_008` (ch18 D8, Bronstring-Holstvoogd 2005, trait aux noirs, 7 demi-coups) : `(20-24) 29x9 (16-21) 27x7 (18x27) 9x18 (1x43)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "🔴 **Divergences Scan flaggées (cosmétiques)** — Pour `BEG_CH14_004` et `BEG_CH14_008`, la `published_notation` commence par un coup entre parenthèses (`(16-21)`, `(20-24)`) alors que le PV Scan le donne en clair — convention Dubois trait aux noirs."
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH14_004` | `16-21` | +2.78 | 30 | 🔴 | | `BEG_CH14_005` | `28-23` | +5.47 | 27 | — | | `BEG_CH14_008` | `20-24` | +7.20 | 32 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "### 14.4. Autres parties historiques (D7, D10)"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "Exemple — `BEG_CH14_007` (Dubois ch18 D7, Maertzdorf-Alofs 1997) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `29-24 (20x38) 39-34 (22x33) 27-21 (17x28) 43x5`"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "Coup de dame à 5 par trappe (cases vides 37, 38 — cf `concept`). `final_move.path = 43→32→23→14→5`, 4 captures."
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée** — Pour `BEG_CH14_007`, Scan recommande `43-38` comme premier coup (éval −0.05, profondeur 23), là où la `published_notation` Dubois commence par `29-24`. Cette substitution de premier coup propose une voie alternative — l'éval Scan proche de zéro indique que la position est très équilibrée. Le PV complet est dans `scan_analysis_debutant.json`. Le mécanisme Dubois reste enseignable mais le verdict objectif est nettement plus tempéré."
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "Exemple — `BEG_CH14_010` (Dubois ch18 D10, Kats-Agafonov 1965, trait aux noirs, envoi à dame + ricochet) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(14-20) 23x3 (17-21) 3x17 (21x34) 40x29 (24x11)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "`final_move=None` à cause de la rafle de dame `(3x17)` (cf `claude_notes`, R007)."
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée (cosmétique)** — Pour `BEG_CH14_010`, `(14-20)` entre parenthèses (trait aux noirs)."
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH14_007` | `43-38` | -0.05 | 23 | 🔴 | | `BEG_CH14_010` | `14-20` | +6.49 | 31 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 14,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch18 D6, forme canonique)"
 }
 ]
 },
@@ -4724,6 +4068,59 @@ const DATA: ManuelData = {
 "type": "board",
 "id": "14_d0",
 "ch": 14
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Quatre demi-coups préparatoires, puis rafle finale 42×4. Forme canonique du coup de la Trappe"
+}
+]
+},
+{
+"type": "h3",
+"ch": 14,
+"runs": [
+{
+"t": "14.2. Coups de la Trappe côté blanc (D1, D2, D3, D9)"
+}
+]
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Notation Dubois"
+}
+]
+},
+{
+"type": "ul",
+"ch": 14,
+"items": [
+[
+{
+"t": "(ch18 D1, rafle 30×6): 26-21 (17x26) 32-27 (22x24) 30x6"
+}
+],
+[
+{
+"t": "(ch18 D2, révision du coup de Rappel): 28-23 (19x39) 38-33 (39x28) 32x14"
+}
+],
+[
+{
+"t": "(ch18 D3, rafle finale en 9): 28-23 (17x19) 33-28 (24x31) 36x9"
+}
+],
+[
+{
+"t": "(ch18 D9, van Dijk, mécanisme inattendu): 28-22 (18x36) 34-30 (25x23) 33-28 (23x32) 38x9"
+}
+]
+]
 },
 {
 "type": "board",
@@ -4746,9 +4143,70 @@ const DATA: ManuelData = {
 "ch": 14
 },
 {
+"type": "h3",
+"ch": 14,
+"runs": [
+{
+"t": "14.3. Combinaisons longues à 7 demi-coups (D4, D5, D8)"
+}
+]
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Plusieurs parties historiques dépassent les 5 demi-coups habituels"
+}
+]
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Exemple — (Dubois ch18 D4, Kocken-Doomernik 1971, trait aux noirs)"
+}
+]
+},
+{
 "type": "board",
 "id": "14_d5",
 "ch": 14
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Trappe noire à 7 demi-coups"
+}
+]
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Notation Dubois pour les autres parties"
+}
+]
+},
+{
+"type": "ul",
+"ch": 14,
+"items": [
+[
+{
+"t": "(ch18 D5, Hoogland-van den Broek 1912, coup de dame à 4): 28-23 (19x39) 30x19 (13x33) 38x29 (39x30) 35x4"
+}
+],
+[
+{
+"t": "(ch18 D8, Bronstring-Holstvoogd 2005, trait aux noirs, 7 demi-coups): (20-24) 29x9 (16-21) 27x7 (18x27) 9x18 (1x43)"
+}
+]
+]
 },
 {
 "type": "board",
@@ -4761,14 +4219,59 @@ const DATA: ManuelData = {
 "ch": 14
 },
 {
+"type": "h3",
+"ch": 14,
+"runs": [
+{
+"t": "14.4. Autres parties historiques (D7, D10)"
+}
+]
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Exemple — (Dubois ch18 D7, Maertzdorf-Alofs 1997)"
+}
+]
+},
+{
 "type": "board",
 "id": "14_d8",
 "ch": 14
 },
 {
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Coup de dame à 5 par trappe (cases vides 37, 38 )"
+}
+]
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "Exemple — (Dubois ch18 D10, Kats-Agafonov 1965, trait aux noirs, envoi à dame + ricochet)"
+}
+]
+},
+{
 "type": "board",
 "id": "14_d9",
 "ch": 14
+},
+{
+"type": "p",
+"ch": 14,
+"runs": [
+{
+"t": "à cause de la rafle de dame (3x17)"
+}
+]
 },
 {
 "type": "h2",
@@ -4784,7 +4287,21 @@ const DATA: ManuelData = {
 "ch": 15,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: coup_de_talon -->"
+"t": "Le "
+},
+{
+"b": 1,
+"t": "coup de Talon"
+},
+{
+"t": " est un mécanisme surprenant qui "
+},
+{
+"b": 1,
+"t": "ne dévoile le point d'appui de la rafle qu'au dernier moment"
+},
+{
+"t": ". Une formation particulière (souvent 31-36-37-41-46 pour les blancs) cache la véritable case de départ jusqu'à la fin"
 }
 ]
 },
@@ -4793,7 +4310,16 @@ const DATA: ManuelData = {
 "ch": 15,
 "runs": [
 {
-"t": "Le **coup de Talon** est un mécanisme surprenant qui **ne dévoile le point d'appui de la rafle qu'au dernier moment**. Une formation particulière (souvent 31-36-37-41-46 pour les blancs) cache la véritable case de départ jusqu'à la fin."
+"t": "Les 10 exercices viennent du chapitre 19 de Dubois (pages 60-62)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 15,
+"runs": [
+{
+"t": "15.1. Coups de Talon purs (D4, D5)"
 }
 ]
 },
@@ -4802,304 +4328,7 @@ const DATA: ManuelData = {
 "ch": 15,
 "runs": [
 {
-"t": "Les 10 exercices viennent du chapitre 19 de Dubois (pages 60-62)."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "### 15.1. Coups de Talon purs (D4, D5)"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "Exemple — `BEG_CH15_004` (Dubois ch19 D4, coup de dame à 3 par talon pur) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `34-29 (23x43) 33-29 (24x33) 28x48 (17x28) 32x3`"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "`final_move.path = 32→23→12→3`, 3 captures (8, 18, 28). Forme canonique (cf `claude_notes`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "Exemple — `BEG_CH15_005` (Dubois ch19 D5, coup de dame à 1, symétrique du D4) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `32-28 (23x43) 33-28 (22x33) 29x49 (20x29) 34x1`"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée** — Pour `BEG_CH15_004`, Scan recommande `33-29` comme premier coup (éval +92.04, profondeur 28), là où la `published_notation` Dubois commence par `34-29`. C'est une substitution de premier coup ; les deux variantes mènent au même mécanisme de talon, mais Scan privilégie la séquence `33-29` puis `34-29`. Le PV complet est dans `scan_analysis_debutant.json`."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH15_004` | `33-29` | +92.04 | 28 | 🔴 | | `BEG_CH15_005` | `32-28` | +9.70 | 30 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "### 15.2. Coups de Talon côté blanc (D1, D2, D9)"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "`BEG_CH15_001` (Dubois ch19 D1) : coup de mazette dans le coup de Talon."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `28-23 (19x19) 27-22 (17x28) 32x5`"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "La notation Dubois imprime `(19x19)` — probable typo PDF que `claude_notes` confirme. La reconstruction a néanmoins réussi (`final_move.path = 32→23→14→5`, captures 10, 19, 28)."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les variantes additionnelles : - `BEG_CH15_002` (ch19 D2, rafle en 7) : `34-30 (25x32) 33-28 (22x33) 29x7` - `BEG_CH15_009` (ch19 D9, pur coup de la Trappe) : `37-31 (36x27) 38-33 (27x38) 24-20 (15x24) 29x7` - `BEG_CH15_010` (ch19 D10, de Jongh-Bizot 1927) : `35-30 (24x33) 42-37 (33x42) 31-26 (42x31) 26x10`"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH15_001` | `28-23` | +1.57 | 25 | — | | `BEG_CH15_002` | `34-30` | +3.60 | 28 | — | | `BEG_CH15_009` | `37-31` | +4.88 | 28 | — | | `BEG_CH15_010` | `35-30` | +4.47 | 25 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "### 15.3. Combinaisons à 7 demi-coups (parties historiques)"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "Trois parties historiques à 7 demi-coups montrent le coup de Talon dans sa forme la plus complexe."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "Exemple — `BEG_CH15_003` (Dubois ch19 D3, Lewkowicz-Blokland 1998) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `27-21 (16x38) 33x42 (24x33) 44-40 (35x44) 50x8`"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "`final_move.path = 50→39→28→19→8`, 4 captures (13, 23, 33, 44)."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée** — Pour `BEG_CH15_003`, Scan recommande `27-22` comme premier coup (éval +8.77, profondeur 29), là où la `published_notation` Dubois commence par `27-21`. Cette substitution de premier coup remplace le sacrifice initial par un autre adjacent ; le PV complet est dans `scan_analysis_debutant.json`. Le mécanisme Dubois reste enseignable pour le coup de Talon."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "`published_notation` Dubois pour `BEG_CH15_006` (ch19 D6, Vatutin-Steijlen 2007, Talon + Trappe) : `44-39 (35x44) 23-18 (12x34) 50x10 (15x4) 21x1`"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "Exemple — `BEG_CH15_007` (Dubois ch19 D7, Wiering-Sier 2008, trait aux noirs, 7 demi-coups) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(7-12) 16x7 (19-23) 28x8 (17x28) 8x17 (1x41)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "Trappe cachée (cf `claude_notes`, `final_move.path = 1→12→21→32→41`, captures 7, 17, 27, 37)."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "`published_notation` Dubois pour `BEG_CH15_008` (ch19 D8, Depaepe-Groenendijk 2014, trait aux noirs, 7 demi-coups) : `(7-12) 16x7 (14-20) 25x14 (19x10) 30x17 (1x41)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "🔴 **Divergences Scan flaggées (cosmétiques)** — Pour `BEG_CH15_007` et `BEG_CH15_008`, la `published_notation` commence par `(7-12)` (trait aux noirs)."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH15_003` | `27-22` | +8.77 | 29 | 🔴 | | `BEG_CH15_006` | `44-39` | +6.94 | 31 | — | | `BEG_CH15_007` | `7-12` | +99.83 | 99 | 🔴 | | `BEG_CH15_008` | `7-12` | +2.33 | 28 | 🔴 |"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "### 15.4. Note sur D1"
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "`BEG_CH15_001` (Dubois D1) contient une coquille typographique dans le PDF (`(19x19)` au lieu d'une notation valide — cf `claude_notes`). La reconstruction a néanmoins réussi en interprétant la suite logique de la position."
-}
-]
-},
-{
-"type": "p",
-"ch": 15,
-"runs": [
-{
-"t": "---"
+"t": "Exemple — (Dubois ch19 D4, coup de dame à 3 par talon pur)"
 }
 ]
 },
@@ -5109,14 +4338,89 @@ const DATA: ManuelData = {
 "ch": 15
 },
 {
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Forme canonique"
+}
+]
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Exemple — (Dubois ch19 D5, coup de dame à 1, symétrique du D4)"
+}
+]
+},
+{
 "type": "board",
 "id": "15_d1",
 "ch": 15
 },
 {
+"type": "h3",
+"ch": 15,
+"runs": [
+{
+"t": "15.2. Coups de Talon côté blanc (D1, D2, D9)"
+}
+]
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "(Dubois ch19 D1): coup de mazette dans le coup de Talon"
+}
+]
+},
+{
 "type": "board",
 "id": "15_d2",
 "ch": 15
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "La notation Dubois imprime (19x19) — probable typo PDF que confirme. La reconstruction a néanmoins réussi"
+}
+]
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Notation Dubois pour les variantes additionnelles"
+}
+]
+},
+{
+"type": "ul",
+"ch": 15,
+"items": [
+[
+{
+"t": "(ch19 D2, rafle en 7): 34-30 (25x32) 33-28 (22x33) 29x7"
+}
+],
+[
+{
+"t": "(ch19 D9, pur coup de la Trappe): 37-31 (36x27) 38-33 (27x38) 24-20 (15x24) 29x7"
+}
+],
+[
+{
+"t": "(ch19 D10, de Jongh-Bizot 1927): 35-30 (24x33) 42-37 (33x42) 31-26 (42x31) 26x10"
+}
+]
+]
 },
 {
 "type": "board",
@@ -5134,9 +4438,45 @@ const DATA: ManuelData = {
 "ch": 15
 },
 {
+"type": "h3",
+"ch": 15,
+"runs": [
+{
+"t": "15.3. Combinaisons à 7 demi-coups (parties historiques)"
+}
+]
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Trois parties historiques à 7 demi-coups montrent le coup de Talon dans sa forme la plus complexe"
+}
+]
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Exemple — (Dubois ch19 D3, Lewkowicz-Blokland 1998)"
+}
+]
+},
+{
 "type": "board",
 "id": "15_d6",
 "ch": 15
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Notation Dubois pour (ch19 D6, Vatutin-Steijlen 2007, Talon + Trappe): 44-39 (35x44) 23-18 (12x34) 50x10 (15x4) 21x1"
+}
+]
 },
 {
 "type": "board",
@@ -5144,14 +4484,59 @@ const DATA: ManuelData = {
 "ch": 15
 },
 {
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Exemple — (Dubois ch19 D7, Wiering-Sier 2008, trait aux noirs, 7 demi-coups)"
+}
+]
+},
+{
 "type": "board",
 "id": "15_d8",
 "ch": 15
 },
 {
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Trappe cachée"
+}
+]
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "Notation Dubois pour (ch19 D8, Depaepe-Groenendijk 2014, trait aux noirs, 7 demi-coups): (7-12) 16x7 (14-20) 25x14 (19x10) 30x17 (1x41)"
+}
+]
+},
+{
 "type": "board",
 "id": "15_d9",
 "ch": 15
+},
+{
+"type": "h3",
+"ch": 15,
+"runs": [
+{
+"t": "15.4. Note sur D1"
+}
+]
+},
+{
+"type": "p",
+"ch": 15,
+"runs": [
+{
+"t": "(Dubois D1) contient une typographique dans le PDF ((19x19) au lieu d'une notation valide ). La reconstruction a néanmoins réussi en interprétant la suite logique de la position"
+}
+]
 },
 {
 "type": "h2",
@@ -5167,358 +4552,28 @@ const DATA: ManuelData = {
 "ch": 16,
 "runs": [
 {
-"t": "<!-- pedagogy-motifs: coup_philippe -->"
-}
-]
+"t": "Le "
 },
 {
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Le **coup Philippe** est l'un des mécanismes les plus **simples et les mieux connus** du répertoire. Il a déjà été abordé au chapitre 6 (`BEG_CH06_002`) sous sa forme la plus élémentaire. Ce chapitre final l'étudie sous ses formes plus développées, avec **partenariats fréquents** avec d'autres coups nommés (coup de mazette, coup turc)."
-}
-]
+"b": 1,
+"t": "coup Philippe"
 },
 {
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Les 10 exercices viennent du chapitre 20 de Dubois (pages 63-65)."
-}
-]
+"t": " est l'un des mécanismes les plus "
 },
 {
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "### 16.1. Forme la plus élémentaire (rappel)"
-}
-]
+"b": 1,
+"t": "simples et les mieux connus"
 },
 {
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "`BEG_CH06_002` (Dubois ch5 D1) — voir §6.2."
-}
-]
+"t": " du répertoire. Il a déjà été abordé au chapitre 6 ) sous sa forme la plus élémentaire. Ce chapitre final l'étudie sous ses formes plus développées, avec "
 },
 {
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `34-30 (25x34) 40x7`"
-}
-]
+"b": 1,
+"t": "partenariats fréquents"
 },
 {
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "3 pions blancs contre 3 pions noirs, sacrifice central, rafle de 3 captures. C'est la forme la plus épurée du coup Philippe."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "### 16.2. Forme complète (D2 — Dartelen-Ligthart 1938)"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Exemple — `BEG_CH16_002` (Dubois ch20 D2) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `33-28 (22x24) 31x22 (18x27) 34-30 (25x34) 40x16`"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Forme à 6 demi-coups qui combine coup Philippe et collage. Avec deux pions noirs en 23 et 25, le sacrifice `33-28` puis le collage `34-30` ouvrent la rafle `40×16` (cf `final_move.path = 40→29→18→7→16`, captures 11, 12, 23, 34)."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "`published_notation` Dubois pour les variantes : - `BEG_CH16_003` (ch20 D3, variante via 37-31) : `37-31 (26x28) 33x22 (18x27) 34-30 (25x34) 40x16` - `BEG_CH16_004` (ch20 D4, Davidov-Romanov 1963, schéma Philippe via attaque noire) : `31-26 (21x23) 26-21 (16x27) 34-30 (25x34) 40x16` - `BEG_CH16_005` (ch20 D5, combinaison piégeuse — la voie évidente échoue, cf `claude_notes`) : `32-27 (21x34) 39x30 (35x24) 33-28 (22x33) 38x7` - `BEG_CH16_006` (ch20 D6, Leijenaar-Romanskaia 2003, rafle `48×26`) : `33-28 (22x24) 34-30 (25x34) 32-28 (23x43) 48x26`"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH16_002` | `33-28` | +0.50 | 23 | — | | `BEG_CH16_003` | `37-31` | +2.69 | 25 | — | | `BEG_CH16_004` | `31-26` | +0.95 | 23 | — | | `BEG_CH16_005` | `32-27` | +7.49 | 28 | — | | `BEG_CH16_006` | `33-28` | +1.08 | 24 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "### 16.3. Coup de Mazette dans le chapitre Philippe (D7)"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Exemple — `BEG_CH16_007` (Dubois ch20 D7) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `28-22 (17x28) 25-20 (14x34) 40x18 (13x31) 32x5`"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "« Coup de mazette classique » selon `claude_notes`. À retenir : la prise forcée `(13×31)` libère la rafle finale `32×5` (`final_move.path = 32→23→14→5`, 3 captures 10, 19, 28)."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH16_007` | `28-22` | +5.01 | 24 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "### 16.4. Coup turc avec envoi à dame (D1 — conclusion du livre)"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "`BEG_CH16_001` (Dubois ch20 D1) est un **coup turc** combiné à un envoi à dame — « la dernière combinaison en 3 temps » selon Dubois, position- conclusion du livre Apprentissage Combinaisons."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `37-31 (26x48) 47-41 (48x33) 38x29`"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Le sacrifice `37-31` force la promotion noire en 48 (`26x48`), puis `47-41` provoque la rafle de dame `(48x33)`, enfin la rafle blanche `38×29` conclut (`final_move=None`, R007 — rafle de dame, cf `claude_notes`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH16_001` | `37-31` | +5.67 | 30 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "### 16.5. Parties historiques côté noir (D8) et complexes (D9, D10)"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Exemple — `BEG_CH16_008` (Dubois ch20 D8, Merin-Agafonow 1975, trait aux noirs, envoi à dame avec temps de réserve) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `(14-19) 27x18 (13x22) 24x4 (17-21) 4x27 (21x23)`"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Le sacrifice noir `(14-19)` est suivi de l'envoi à dame du blanc (`24x4` — promotion), puis le rappel `(17-21)` ramène la dame en 27 (`4x27`), et la rafle noire `(21×23)` conclut (`final_move=None`, R007)."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée (cosmétique)** — Pour `BEG_CH16_008`, `(14-19)` entre parenthèses (trait aux noirs)."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "Exemple — `BEG_CH16_009` (Dubois ch20 D9, visualisation 32-28) :"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "> `published_notation` Dubois : `34x23 (19x48) 30x37 (48x31) 36x27`"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "`concept` de la fixture : « pas de vraie méthode, il faut visualiser ». Envoi à dame du noir avec rafle de dame `(48×31)`, `final_move=None` (R007, cf `claude_notes`)."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "🔴 **Divergence Scan flaggée** — Pour `BEG_CH16_009`, Scan recommande `32-28` comme premier coup (éval +4.80, profondeur 32), là où la `published_notation` Dubois commence par `34x23` (qui est une rafle forcée — la fixture indique implicitement que les noirs ont attaqué). Cette substitution change radicalement la séquence : Scan trouve un sacrifice silencieux `32-28` plus efficace que la rafle immédiate. Le PV complet est dans `scan_analysis_debutant.json` — le coup Dubois reste enseignable pour le mécanisme de l'envoi à dame."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "`published_notation` Dubois pour `BEG_CH16_010` (ch20 D10, Aliar-Huijzer 2010) : `27-21 (16x29) 42-38 (23x43) 34x14 (25x34) 30x6`"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "`claude_notes` mentionne une anomalie dans la notation publiée : `30.48x6` — variante 30x6 retenue."
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "**Validation Scan** :"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "| Fixture | Premier coup PV | Éval | Profondeur | Divergence | |---------|-----------------|------|-----------|------------| | `BEG_CH16_008` | `14-19` | +1.41 | 26 | 🔴 | | `BEG_CH16_009` | `32-28` | +4.80 | 32 | 🔴 | | `BEG_CH16_010` | `27-21` | +2.99 | 31 | — |"
-}
-]
-},
-{
-"type": "p",
-"ch": 16,
-"runs": [
-{
-"t": "---"
+"t": " avec d'autres coups nommés (coup de mazette, coup turc)"
 }
 ]
 },
@@ -5528,9 +4583,107 @@ const DATA: ManuelData = {
 "ch": 16
 },
 {
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Les 10 exercices viennent du chapitre 20 de Dubois (pages 63-65)"
+}
+]
+},
+{
+"type": "h3",
+"ch": 16,
+"runs": [
+{
+"t": "16.1. Forme la plus élémentaire (rappel)"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "(Dubois ch5 D1) — voir §6.2"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "3 pions blancs contre 3 pions noirs, sacrifice central, rafle de 3 captures. C'est la forme la plus épurée du coup Philippe"
+}
+]
+},
+{
+"type": "h3",
+"ch": 16,
+"runs": [
+{
+"t": "16.2. Forme complète (D2 — Dartelen-Ligthart 1938)"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Exemple — (Dubois ch20 D2)"
+}
+]
+},
+{
 "type": "board",
 "id": "16_d1",
 "ch": 16
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Forme à 6 demi-coups qui combine coup Philippe et collage. Avec deux pions noirs en 23 et 25, le sacrifice 33-28 puis le collage 34-30 ouvrent la rafle 40×16"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Notation Dubois pour les variantes"
+}
+]
+},
+{
+"type": "ul",
+"ch": 16,
+"items": [
+[
+{
+"t": "(ch20 D3, variante via 37-31): 37-31 (26x28) 33x22 (18x27) 34-30 (25x34) 40x16"
+}
+],
+[
+{
+"t": "(ch20 D4, Davidov-Romanov 1963, schéma Philippe via attaque noire): 31-26 (21x23) 26-21 (16x27) 34-30 (25x34) 40x16"
+}
+],
+[
+{
+"t": "(ch20 D5, combinaison piégeuse — la voie évidente échoue): 32-27 (21x34) 39x30 (35x24) 33-28 (22x33) 38x7"
+}
+],
+[
+{
+"t": "(ch20 D6, Leijenaar-Romanskaia 2003, rafle 48×26): 33-28 (22x24) 34-30 (25x34) 32-28 (23x43) 48x26"
+}
+]
+]
 },
 {
 "type": "board",
@@ -5553,9 +4706,61 @@ const DATA: ManuelData = {
 "ch": 16
 },
 {
+"type": "h3",
+"ch": 16,
+"runs": [
+{
+"t": "16.3. Coup de Mazette dans le chapitre Philippe (D7)"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Exemple — (Dubois ch20 D7)"
+}
+]
+},
+{
 "type": "board",
 "id": "16_d6",
 "ch": 16
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "«Coup de mazette classique» selon. À retenir: la prise forcée (13×31) libère la rafle finale 32×5"
+}
+]
+},
+{
+"type": "h3",
+"ch": 16,
+"runs": [
+{
+"t": "16.4. Coup turc avec envoi à dame (D1 — conclusion du livre)"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "(Dubois ch20 D1) est un "
+},
+{
+"b": 1,
+"t": "coup turc"
+},
+{
+"t": " combiné à un envoi à dame — «la dernière combinaison en 3 temps» selon Dubois, position- conclusion du livre Apprentissage Combinaisons"
+}
+]
 },
 {
 "type": "board",
@@ -5563,9 +4768,54 @@ const DATA: ManuelData = {
 "ch": 16
 },
 {
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Le sacrifice 37-31 force la promotion noire en 48 (26x48), puis 47-41 provoque la rafle de dame (48x33), enfin la rafle blanche 38×29 conclut"
+}
+]
+},
+{
+"type": "h3",
+"ch": 16,
+"runs": [
+{
+"t": "16.5. Parties historiques côté noir (D8) et complexes (D9, D10)"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Exemple — (Dubois ch20 D8, Merin-Agafonow 1975, trait aux noirs, envoi à dame avec temps de réserve)"
+}
+]
+},
+{
 "type": "board",
 "id": "16_d8",
 "ch": 16
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Le sacrifice noir (14-19) est suivi de l'envoi à dame du blanc (24x4 — promotion), puis le rappel (17-21) ramène la dame en 27 (4x27), et la rafle noire (21×23) conclut"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Exemple — (Dubois ch20 D9, visualisation 32-28)"
+}
+]
 },
 {
 "type": "board",
@@ -5573,16 +4823,43 @@ const DATA: ManuelData = {
 "ch": 16
 },
 {
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "«pas de vraie méthode, il faut visualiser». Envoi à dame du noir avec rafle de dame (48×31), )"
+}
+]
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "Notation Dubois pour (ch20 D10, Aliar-Huijzer 2010): 27-21 (16x29) 42-38 (23x43) 34x14 (25x34) 30x6"
+}
+]
+},
+{
 "type": "board",
 "id": "16_d10",
 "ch": 16
+},
+{
+"type": "p",
+"ch": 16,
+"runs": [
+{
+"t": "mentionne une anomalie dans la notation publiée: 30.48x6 — variante 30x6 retenue"
+}
+]
 }
 ],
 "positions": {
 "1_d0": {
 "id": "1_d0",
 "ch": 1,
-"title": "BEG_CH01_001",
+"title": "Position",
 "start": {
 "wm": [
 31,
@@ -5633,12 +4910,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH01_001"
+"theme": "Position"
 },
 "1_d1": {
 "id": "1_d1",
 "ch": 1,
-"title": "BEG_CH01_002",
+"title": "Position",
 "start": {
 "wm": [
 28,
@@ -5689,12 +4966,12 @@ const DATA: ManuelData = {
 "turn": "black"
 },
 "moves": [],
-"theme": "BEG_CH01_002"
+"theme": "Position"
 },
 "2_d0": {
 "id": "2_d0",
 "ch": 2,
-"title": "BEG_CH02_001",
+"title": "Position",
 "start": {
 "wm": [
 35
@@ -5705,12 +4982,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH02_001"
+"theme": "Position"
 },
 "2_d1": {
 "id": "2_d1",
 "ch": 2,
-"title": "BEG_CH02_002",
+"title": "Position",
 "start": {
 "wm": [
 22
@@ -5721,12 +4998,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH02_002"
+"theme": "Position"
 },
 "2_d2": {
 "id": "2_d2",
 "ch": 2,
-"title": "BEG_CH02_003",
+"title": "Capture simple — le pion saute par-dessus un adversaire",
 "start": {
 "wm": [
 31
@@ -5761,7 +5038,7 @@ const DATA: ManuelData = {
 "2_d3": {
 "id": "2_d3",
 "ch": 2,
-"title": "BEG_CH02_004",
+"title": "Capture vers l'arrière — autorisée pour le pion en capture",
 "start": {
 "wm": [
 22
@@ -5796,7 +5073,7 @@ const DATA: ManuelData = {
 "2_d4": {
 "id": "2_d4",
 "ch": 2,
-"title": "BEG_CH02_005",
+"title": "Rafle — capture multiple en chaîne",
 "start": {
 "wm": [
 31
@@ -5834,7 +5111,7 @@ const DATA: ManuelData = {
 "2_d5": {
 "id": "2_d5",
 "ch": 2,
-"title": "BEG_CH02_006",
+"title": "Capture simple — le pion saute par-dessus un adversaire",
 "start": {
 "wm": [
 31
@@ -5869,7 +5146,7 @@ const DATA: ManuelData = {
 "2_d6": {
 "id": "2_d6",
 "ch": 2,
-"title": "BEG_CH02_007",
+"title": "Prise maximale — la rafle la plus longue est obligatoire",
 "start": {
 "wm": [
 31,
@@ -5909,7 +5186,7 @@ const DATA: ManuelData = {
 "2_d7": {
 "id": "2_d7",
 "ch": 2,
-"title": "BEG_CH02_008",
+"title": "Position",
 "start": {
 "wm": [
 6
@@ -5920,12 +5197,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH02_008"
+"theme": "Position"
 },
 "2_d8": {
 "id": "2_d8",
 "ch": 2,
-"title": "BEG_CH02_009",
+"title": "Position",
 "start": {
 "wm": [],
 "wk": [
@@ -5936,12 +5213,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH02_009"
+"theme": "Position"
 },
 "2_d9": {
 "id": "2_d9",
 "ch": 2,
-"title": "BEG_CH02_010",
+"title": "Position",
 "start": {
 "wm": [],
 "wk": [
@@ -5954,12 +5231,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH02_010"
+"theme": "Position"
 },
 "2_d10": {
 "id": "2_d10",
 "ch": 2,
-"title": "BEG_CH02_011",
+"title": "Position",
 "start": {
 "wm": [
 23
@@ -5975,12 +5252,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH02_011"
+"theme": "Position"
 },
 "2_d11": {
 "id": "2_d11",
 "ch": 2,
-"title": "BEG_CH02_012",
+"title": "Position",
 "start": {
 "wm": [],
 "wk": [
@@ -5993,12 +5270,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH02_012"
+"theme": "Position"
 },
 "3_d0": {
 "id": "3_d0",
 "ch": 3,
-"title": "BEG_CH03_001",
+"title": "Dubois D1 — Le schéma CONTACT-PRISE-RAFLE",
 "start": {
 "wm": [
 26,
@@ -6073,7 +5350,7 @@ const DATA: ManuelData = {
 "3_d1": {
 "id": "3_d1",
 "ch": 3,
-"title": "BEG_CH03_003",
+"title": "Dubois D3 — Choisir le bon sacrifice",
 "start": {
 "wm": [
 25,
@@ -6156,7 +5433,7 @@ const DATA: ManuelData = {
 "3_d2": {
 "id": "3_d2",
 "ch": 3,
-"title": "BEG_CH03_005",
+"title": "Dubois D5 — Combinaison inattendue",
 "start": {
 "wm": [
 24,
@@ -6246,7 +5523,7 @@ const DATA: ManuelData = {
 "3_d3": {
 "id": "3_d3",
 "ch": 3,
-"title": "BEG_CH03_006",
+"title": "Dubois D6 — Attaque de 2 pions, sans collage",
 "start": {
 "wm": [
 26,
@@ -6331,7 +5608,7 @@ const DATA: ManuelData = {
 "3_d4": {
 "id": "3_d4",
 "ch": 3,
-"title": "BEG_CH03_008",
+"title": "Dubois D8 — Oser donner 3 pions",
 "start": {
 "wm": [
 28,
@@ -6420,7 +5697,7 @@ const DATA: ManuelData = {
 "3_d5": {
 "id": "3_d5",
 "ch": 3,
-"title": "BEG_CH03_009",
+"title": "Dubois D9 — Prise majoritaire déterminante",
 "start": {
 "wm": [
 30,
@@ -6495,7 +5772,7 @@ const DATA: ManuelData = {
 "3_d6": {
 "id": "3_d6",
 "ch": 3,
-"title": "BEG_CH03_010",
+"title": "Dubois D10 — Solution contre-intuitive",
 "start": {
 "wm": [
 29,
@@ -6580,7 +5857,7 @@ const DATA: ManuelData = {
 "3_d7": {
 "id": "3_d7",
 "ch": 3,
-"title": "BEG_CH03_004",
+"title": "Dubois D4 — Le collage (attaque sur 2 pions)",
 "start": {
 "wm": [
 27,
@@ -6659,7 +5936,7 @@ const DATA: ManuelData = {
 "3_d8": {
 "id": "3_d8",
 "ch": 3,
-"title": "BEG_CH03_007",
+"title": "Dubois D7 — Collage classique",
 "start": {
 "wm": [
 22,
@@ -6734,7 +6011,7 @@ const DATA: ManuelData = {
 "3_d9": {
 "id": "3_d9",
 "ch": 3,
-"title": "BEG_CH03_002",
+"title": "Dubois D2 — Coup de mazette classique",
 "start": {
 "wm": [
 28,
@@ -6801,7 +6078,7 @@ const DATA: ManuelData = {
 "4_d0": {
 "id": "4_d0",
 "ch": 4,
-"title": "BEG_CH04_001",
+"title": "Exemple introductif — Le collage en 3 temps",
 "start": {
 "wm": [
 22,
@@ -6918,7 +6195,7 @@ const DATA: ManuelData = {
 "4_d1": {
 "id": "4_d1",
 "ch": 4,
-"title": "BEG_CH04_002",
+"title": "Dubois ch6 D1 — Prise majoritaire menant à un point d'appui",
 "start": {
 "wm": [
 25,
@@ -7005,7 +6282,7 @@ const DATA: ManuelData = {
 "4_d2": {
 "id": "4_d2",
 "ch": 4,
-"title": "BEG_CH04_003",
+"title": "Dubois ch6 D4 — Gambit de 2 pions (sans rafle finale)",
 "start": {
 "wm": [
 22,
@@ -7078,7 +6355,7 @@ const DATA: ManuelData = {
 "4_d3": {
 "id": "4_d3",
 "ch": 4,
-"title": "BEG_CH04_004",
+"title": "Dubois ch6 D6 — Premier collage en 3 temps",
 "start": {
 "wm": [
 22,
@@ -7193,7 +6470,7 @@ const DATA: ManuelData = {
 "4_d4": {
 "id": "4_d4",
 "ch": 4,
-"title": "BEG_CH04_008",
+"title": "Dubois ch7 D2 — Collage classique (attaque de 4 pions)",
 "start": {
 "wm": [
 27,
@@ -7282,7 +6559,7 @@ const DATA: ManuelData = {
 "4_d5": {
 "id": "4_d5",
 "ch": 4,
-"title": "BEG_CH04_005",
+"title": "Dubois ch6 D7 — Collage avec élimination préalable",
 "start": {
 "wm": [
 26,
@@ -7397,7 +6674,7 @@ const DATA: ManuelData = {
 "4_d6": {
 "id": "4_d6",
 "ch": 4,
-"title": "BEG_CH04_006",
+"title": "Dubois ch6 D9 — Le coup royal",
 "start": {
 "wm": [
 27,
@@ -7510,7 +6787,7 @@ const DATA: ManuelData = {
 "4_d7": {
 "id": "4_d7",
 "ch": 4,
-"title": "BEG_CH04_007",
+"title": "Dubois ch6 D10 — Envoi à dame + collage (Rustenburg-van Dartelen 1934)",
 "start": {
 "wm": [
 15,
@@ -7623,7 +6900,7 @@ const DATA: ManuelData = {
 "4_d8": {
 "id": "4_d8",
 "ch": 4,
-"title": "BEG_CH04_009",
+"title": "Dubois ch7 D5 — Triple mécanisme : majoritaire + envoi à dame + collage",
 "start": {
 "wm": [
 24,
@@ -7685,7 +6962,7 @@ const DATA: ManuelData = {
 "4_d9": {
 "id": "4_d9",
 "ch": 4,
-"title": "BEG_CH04_010",
+"title": "Dubois ch7 D8 — Coup de mazette",
 "start": {
 "wm": [
 27,
@@ -7786,7 +7063,7 @@ const DATA: ManuelData = {
 "4_d10": {
 "id": "4_d10",
 "ch": 4,
-"title": "BEG_CH04_011",
+"title": "Dubois ch7 D9 — Coup de mazette inversé",
 "start": {
 "wm": [
 24,
@@ -7895,7 +7172,7 @@ const DATA: ManuelData = {
 "5_d0": {
 "id": "5_d0",
 "ch": 5,
-"title": "BEG_CH05_001",
+"title": "Exemple narratif Dubois ch4 — Envoi à dame en 3 temps",
 "start": {
 "wm": [
 25,
@@ -8012,7 +7289,7 @@ const DATA: ManuelData = {
 "5_d1": {
 "id": "5_d1",
 "ch": 5,
-"title": "BEG_CH05_002",
+"title": "Exemple narratif Dubois ch4 — Combinaison en 3 phases (5 temps)",
 "start": {
 "wm": [
 30,
@@ -8124,7 +7401,7 @@ const DATA: ManuelData = {
 "5_d2": {
 "id": "5_d2",
 "ch": 5,
-"title": "BEG_CH05_003",
+"title": "Dubois ch4 D1 — Coup royal sous sa forme la plus simple",
 "start": {
 "wm": [
 27,
@@ -8205,7 +7482,7 @@ const DATA: ManuelData = {
 "5_d3": {
 "id": "5_d3",
 "ch": 5,
-"title": "BEG_CH05_004",
+"title": "Dubois ch4 D2 — Prise majoritaire surprenante (Salomé-Nimbi 2015)",
 "start": {
 "wm": [
 22,
@@ -8288,7 +7565,7 @@ const DATA: ManuelData = {
 "5_d4": {
 "id": "5_d4",
 "ch": 5,
-"title": "BEG_CH05_005",
+"title": "Dubois ch4 D3 — Prise majoritaire avec très longue rafle",
 "start": {
 "wm": [
 25,
@@ -8379,7 +7656,7 @@ const DATA: ManuelData = {
 "5_d5": {
 "id": "5_d5",
 "ch": 5,
-"title": "BEG_CH05_006",
+"title": "Dubois ch4 D5 — Coup royal variante",
 "start": {
 "wm": [
 33,
@@ -8460,7 +7737,7 @@ const DATA: ManuelData = {
 "5_d6": {
 "id": "5_d6",
 "ch": 5,
-"title": "BEG_CH05_007",
+"title": "Dubois ch4 D7 — Règle de la prise majoritaire décisive",
 "start": {
 "wm": [
 27,
@@ -8543,7 +7820,7 @@ const DATA: ManuelData = {
 "5_d7": {
 "id": "5_d7",
 "ch": 5,
-"title": "BEG_CH05_008",
+"title": "Dubois ch4 D8 — Envoi à dame avec double sacrifice",
 "start": {
 "wm": [
 27,
@@ -8654,7 +7931,7 @@ const DATA: ManuelData = {
 "5_d8": {
 "id": "5_d8",
 "ch": 5,
-"title": "BEG_CH05_009",
+"title": "Dubois ch4 D9 — Envoi à dame côté noir (Navarro-Roozenburg 1956)",
 "start": {
 "wm": [
 24,
@@ -8771,7 +8048,7 @@ const DATA: ManuelData = {
 "5_d9": {
 "id": "5_d9",
 "ch": 5,
-"title": "BEG_CH05_010",
+"title": "Dubois ch4 D10 — Envoi à dame côté noir (Bakker-Ivens 1976)",
 "start": {
 "wm": [
 18,
@@ -8894,7 +8171,7 @@ const DATA: ManuelData = {
 "6_d0": {
 "id": "6_d0",
 "ch": 6,
-"title": "BEG_CH06_007",
+"title": "Dubois ch5 D6 — Méthode noir gagnante (Laporta-Mostovoy 1970)",
 "start": {
 "wm": [
 20,
@@ -8993,7 +8270,7 @@ const DATA: ManuelData = {
 "6_d1": {
 "id": "6_d1",
 "ch": 6,
-"title": "BEG_CH06_009",
+"title": "Dubois ch5 D8 — 5 points de contact (Bergsma-de Vries 1961)",
 "start": {
 "wm": [
 28,
@@ -9112,7 +8389,7 @@ const DATA: ManuelData = {
 "6_d2": {
 "id": "6_d2",
 "ch": 6,
-"title": "BEG_CH06_010",
+"title": "Dubois ch5 D9 — Rafle 'cachée' révélée par les points de contact (Leclercq-Weiss 1903)",
 "start": {
 "wm": [
 18,
@@ -9223,7 +8500,7 @@ const DATA: ManuelData = {
 "6_d3": {
 "id": "6_d3",
 "ch": 6,
-"title": "BEG_CH06_001",
+"title": "Exemple narratif Dubois ch5 — La méthode des points de contact",
 "start": {
 "wm": [
 29,
@@ -9342,7 +8619,7 @@ const DATA: ManuelData = {
 "6_d4": {
 "id": "6_d4",
 "ch": 6,
-"title": "BEG_CH06_002",
+"title": "Dubois ch5 D1 — Le coup Philippe sous sa forme la plus simple",
 "start": {
 "wm": [
 34,
@@ -9409,7 +8686,7 @@ const DATA: ManuelData = {
 "6_d5": {
 "id": "6_d5",
 "ch": 6,
-"title": "BEG_CH06_003",
+"title": "Dubois ch5 D2 — Prise majoritaire identifiée par les points de contact",
 "start": {
 "wm": [
 27,
@@ -9494,7 +8771,7 @@ const DATA: ManuelData = {
 "6_d6": {
 "id": "6_d6",
 "ch": 6,
-"title": "BEG_CH06_004",
+"title": "Dubois ch5 D3 — Collage identifié par les points de contact",
 "start": {
 "wm": [
 26,
@@ -9575,7 +8852,7 @@ const DATA: ManuelData = {
 "6_d7": {
 "id": "6_d7",
 "ch": 6,
-"title": "BEG_CH06_005",
+"title": "Dubois ch5 D4 — Gambit identifié par les points de contact",
 "start": {
 "wm": [
 26,
@@ -9646,7 +8923,7 @@ const DATA: ManuelData = {
 "6_d8": {
 "id": "6_d8",
 "ch": 6,
-"title": "BEG_CH06_006",
+"title": "Dubois ch5 D5 — Rafle longue (sans commentaire dans le livre)",
 "start": {
 "wm": [
 17,
@@ -9730,7 +9007,7 @@ const DATA: ManuelData = {
 "6_d9": {
 "id": "6_d9",
 "ch": 6,
-"title": "BEG_CH06_008",
+"title": "Dubois ch5 D7 — 4 points de contact à analyser",
 "start": {
 "wm": [
 27,
@@ -9841,7 +9118,7 @@ const DATA: ManuelData = {
 "6_d10": {
 "id": "6_d10",
 "ch": 6,
-"title": "BEG_CH06_011",
+"title": "Dubois ch5 D10 — Point d'appui alternatif",
 "start": {
 "wm": [
 23,
@@ -9954,7 +9231,7 @@ const DATA: ManuelData = {
 "7_d0": {
 "id": "7_d0",
 "ch": 7,
-"title": "BEG_CH07_001",
+"title": "Exemple narratif Dubois ch8 — Combinaison en 3 temps de repos",
 "start": {
 "wm": [
 27,
@@ -10085,7 +9362,7 @@ const DATA: ManuelData = {
 "7_d1": {
 "id": "7_d1",
 "ch": 7,
-"title": "BEG_CH07_012",
+"title": "Position",
 "start": {
 "wm": [
 26,
@@ -10114,12 +9391,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH07_012"
+"theme": "Position"
 },
 "7_d2": {
 "id": "7_d2",
 "ch": 7,
-"title": "BEG_CH07_002",
+"title": "Exemple narratif Dubois ch8 — Combinaison en 3 phases (envoi à dame)",
 "start": {
 "wm": [
 23,
@@ -10290,7 +9567,7 @@ const DATA: ManuelData = {
 "7_d3": {
 "id": "7_d3",
 "ch": 7,
-"title": "BEG_CH07_003",
+"title": "Dubois ch8 D1 — Trait aux noirs, attaque libère case 38",
 "start": {
 "wm": [
 24,
@@ -10370,10 +9647,121 @@ const DATA: ManuelData = {
 "win": "black",
 "exp": "Trait aux noirs. L'attaque 14-20 sur le pion blanc 25 ouvre un coup de dame à 49."
 },
+"7_d9": {
+"id": "7_d9",
+"ch": 7,
+"title": "Dubois ch8 D7 — Envoi à dame noire et reprise (Carli-van Outheusden 1988)",
+"start": {
+"wm": [
+25,
+27,
+28,
+29,
+31,
+32,
+33,
+34,
+41,
+43
+],
+"wk": [],
+"bm": [
+2,
+8,
+9,
+10,
+13,
+14,
+16,
+18,
+19,
+26
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "28-23",
+"f": 28,
+"t": 23,
+"c": [],
+"path": [
+28,
+23
+],
+"p": false
+},
+{
+"n": "26x48",
+"f": 26,
+"t": 48,
+"c": [
+32,
+33,
+43,
+31
+],
+"path": [
+26,
+37,
+28,
+39,
+48
+],
+"p": true
+},
+{
+"n": "23x3",
+"f": 23,
+"t": 3,
+"c": [
+8,
+18
+],
+"path": [
+23,
+12,
+3
+],
+"p": true
+},
+{
+"n": "48x30",
+"f": 48,
+"t": 30,
+"c": [
+34
+],
+"path": [
+48,
+30
+],
+"p": false
+},
+{
+"n": "25x34",
+"f": 25,
+"t": 34,
+"c": [
+30
+],
+"path": [
+25,
+34
+],
+"p": false
+}
+],
+"theme": "envoi_a_dame",
+"pub": "28-23 26x48 23x3 48x30 25x34",
+"win": "white",
+"exp": "Partie historique 1988. Mécanisme combiné : prise majoritaire + envoi à dame noire + reprise."
+},
 "7_d4": {
 "id": "7_d4",
 "ch": 7,
-"title": "BEG_CH07_004",
+"title": "Dubois ch8 D2 — Collage et temps de repos (de Waard-Tjon A Ong 2013)",
 "start": {
 "wm": [
 25,
@@ -10466,7 +9854,7 @@ const DATA: ManuelData = {
 "7_d5": {
 "id": "7_d5",
 "ch": 7,
-"title": "BEG_CH07_005",
+"title": "Dubois ch8 D3 — Gambit utilisant un temps de repos",
 "start": {
 "wm": [
 27,
@@ -10535,7 +9923,7 @@ const DATA: ManuelData = {
 "7_d6": {
 "id": "7_d6",
 "ch": 7,
-"title": "BEG_CH07_006",
+"title": "Dubois ch8 D4 — Coup de dame à 1",
 "start": {
 "wm": [
 24,
@@ -10648,7 +10036,7 @@ const DATA: ManuelData = {
 "7_d7": {
 "id": "7_d7",
 "ch": 7,
-"title": "BEG_CH07_007",
+"title": "Dubois ch8 D5 — Attaque et point d'appui mobile",
 "start": {
 "wm": [
 26,
@@ -10751,7 +10139,7 @@ const DATA: ManuelData = {
 "7_d8": {
 "id": "7_d8",
 "ch": 7,
-"title": "BEG_CH07_008",
+"title": "Dubois ch8 D6 — Coup de dame à 46 (Janssen-van Aalten 1995)",
 "start": {
 "wm": [
 23,
@@ -10874,121 +10262,10 @@ const DATA: ManuelData = {
 "win": "black",
 "exp": "Partie historique 1995. Trait aux noirs. Idée d'un coup de dame à 46. Plan : éliminer le 28 et acheminer un pion en 13."
 },
-"7_d9": {
-"id": "7_d9",
-"ch": 7,
-"title": "BEG_CH07_009",
-"start": {
-"wm": [
-25,
-27,
-28,
-29,
-31,
-32,
-33,
-34,
-41,
-43
-],
-"wk": [],
-"bm": [
-2,
-8,
-9,
-10,
-13,
-14,
-16,
-18,
-19,
-26
-],
-"bk": [],
-"turn": "white"
-},
-"moves": [
-{
-"n": "28-23",
-"f": 28,
-"t": 23,
-"c": [],
-"path": [
-28,
-23
-],
-"p": false
-},
-{
-"n": "26x48",
-"f": 26,
-"t": 48,
-"c": [
-32,
-33,
-43,
-31
-],
-"path": [
-26,
-37,
-28,
-39,
-48
-],
-"p": true
-},
-{
-"n": "23x3",
-"f": 23,
-"t": 3,
-"c": [
-8,
-18
-],
-"path": [
-23,
-12,
-3
-],
-"p": true
-},
-{
-"n": "48x30",
-"f": 48,
-"t": 30,
-"c": [
-34
-],
-"path": [
-48,
-30
-],
-"p": false
-},
-{
-"n": "25x34",
-"f": 25,
-"t": 34,
-"c": [
-30
-],
-"path": [
-25,
-34
-],
-"p": false
-}
-],
-"theme": "envoi_a_dame",
-"pub": "28-23 26x48 23x3 48x30 25x34",
-"win": "white",
-"exp": "Partie historique 1988. Mécanisme combiné : prise majoritaire + envoi à dame noire + reprise."
-},
 "7_d10": {
 "id": "7_d10",
 "ch": 7,
-"title": "BEG_CH07_010",
+"title": "Dubois ch8 D8 — Coup de dame à 1",
 "start": {
 "wm": [
 22,
@@ -11105,7 +10382,7 @@ const DATA: ManuelData = {
 "7_d11": {
 "id": "7_d11",
 "ch": 7,
-"title": "BEG_CH07_011",
+"title": "Dubois ch8 D9 — Collage noir (Veresjagin-Balajan 1965)",
 "start": {
 "wm": [
 22,
@@ -11228,7 +10505,7 @@ const DATA: ManuelData = {
 "8_d0": {
 "id": "8_d0",
 "ch": 8,
-"title": "BEG_CH08_001",
+"title": "Exemple narratif Dubois ch9 — Créer un temps de repos en 2 sacrifices",
 "start": {
 "wm": [
 25,
@@ -11331,7 +10608,7 @@ const DATA: ManuelData = {
 "8_d1": {
 "id": "8_d1",
 "ch": 8,
-"title": "BEG_CH08_002",
+"title": "Exemple narratif Dubois ch9 — Méthode en 3 phases",
 "start": {
 "wm": [
 22,
@@ -11440,7 +10717,7 @@ const DATA: ManuelData = {
 "8_d2": {
 "id": "8_d2",
 "ch": 8,
-"title": "BEG_CH08_003",
+"title": "Dubois ch9 D1 — Une seule rafle possible (Linssen-Bandstra 1982)",
 "start": {
 "wm": [
 27,
@@ -11531,7 +10808,7 @@ const DATA: ManuelData = {
 "8_d3": {
 "id": "8_d3",
 "ch": 8,
-"title": "BEG_CH08_004",
+"title": "Dubois ch9 D2 — Prise majoritaire ouvre la voie",
 "start": {
 "wm": [
 27,
@@ -11614,7 +10891,7 @@ const DATA: ManuelData = {
 "8_d4": {
 "id": "8_d4",
 "ch": 8,
-"title": "BEG_CH08_005",
+"title": "Dubois ch9 D3 — Exploitation mignonne (Loenen-Hengefeld 1990)",
 "start": {
 "wm": [
 28,
@@ -11719,7 +10996,7 @@ const DATA: ManuelData = {
 "8_d5": {
 "id": "8_d5",
 "ch": 8,
-"title": "BEG_CH08_007",
+"title": "Dubois ch9 D5 — Élimination ciblée (Schippers-Barten 2012)",
 "start": {
 "wm": [
 24,
@@ -11840,7 +11117,7 @@ const DATA: ManuelData = {
 "8_d6": {
 "id": "8_d6",
 "ch": 8,
-"title": "BEG_CH08_009",
+"title": "Dubois ch9 D7 — Offre 22-17 crée un temps de repos",
 "start": {
 "wm": [
 21,
@@ -11945,7 +11222,7 @@ const DATA: ManuelData = {
 "8_d7": {
 "id": "8_d7",
 "ch": 8,
-"title": "BEG_CH08_010",
+"title": "Dubois ch9 D8 — Offre classique de 3 pions",
 "start": {
 "wm": [
 25,
@@ -12062,7 +11339,7 @@ const DATA: ManuelData = {
 "8_d8": {
 "id": "8_d8",
 "ch": 8,
-"title": "BEG_CH08_012",
+"title": "Dubois ch9 D10 — Rafle aboutissant à 3",
 "start": {
 "wm": [
 22,
@@ -12173,7 +11450,7 @@ const DATA: ManuelData = {
 "8_d9": {
 "id": "8_d9",
 "ch": 8,
-"title": "BEG_CH08_006",
+"title": "Dubois ch9 D4 — Rafle rare 24x11 (Badal-Kemperman 1994)",
 "start": {
 "wm": [
 25,
@@ -12286,7 +11563,7 @@ const DATA: ManuelData = {
 "8_d10": {
 "id": "8_d10",
 "ch": 8,
-"title": "BEG_CH08_008",
+"title": "Dubois ch9 D6 — Combinaison compliquée (van Leeuwen-de Jong 1968)",
 "start": {
 "wm": [
 22,
@@ -12405,7 +11682,7 @@ const DATA: ManuelData = {
 "8_d11": {
 "id": "8_d11",
 "ch": 8,
-"title": "BEG_CH08_011",
+"title": "Dubois ch9 D9 — Coup de talon (Toet-Luteijn 1977)",
 "start": {
 "wm": [
 24,
@@ -12518,7 +11795,7 @@ const DATA: ManuelData = {
 "9_d0": {
 "id": "9_d0",
 "ch": 9,
-"title": "BEG_CH09_001",
+"title": "Exemple narratif Dubois ch13 — Forme typique du coup de l'express",
 "start": {
 "wm": [
 27,
@@ -12658,53 +11935,10 @@ const DATA: ManuelData = {
 "win": "white",
 "exp": "Le coup de l'express est un mécanisme combinatoire célèbre, caractérisé par une suite de 4 sacrifices consécutifs qui acheminent les pions noirs par paires successives, suivie d'une rafle finale 33x2 ou 33x4."
 },
-"9_d1": {
-"id": "9_d1",
-"ch": 9,
-"title": "BEG_CH09_002",
-"start": {
-"wm": [
-33,
-39
-],
-"wk": [],
-"bm": [
-8,
-9,
-18,
-28
-],
-"bk": [],
-"turn": "white"
-},
-"moves": [
-{
-"n": "33x2",
-"f": 33,
-"t": 2,
-"c": [
-8,
-18,
-28
-],
-"path": [
-33,
-22,
-13,
-2
-],
-"p": true
-}
-],
-"theme": "coup_express",
-"pub": "33x2",
-"win": "white",
-"exp": "Position finale typique après un coup de l'express réussi. Le pion blanc 33 a balayé la grande diagonale et atteint la case 2 (promotion)."
-},
 "9_d2": {
 "id": "9_d2",
 "ch": 9,
-"title": "BEG_CH09_003",
+"title": "Dubois ch13 D1 — Acheminer un pion noir en 21",
 "start": {
 "wm": [
 26,
@@ -12809,7 +12043,7 @@ const DATA: ManuelData = {
 "9_d3": {
 "id": "9_d3",
 "ch": 9,
-"title": "BEG_CH09_007",
+"title": "Dubois ch13 D5 — Acheminer un pion noir en 40 (coquille PDF corrigée)",
 "start": {
 "wm": [
 26,
@@ -12926,7 +12160,7 @@ const DATA: ManuelData = {
 "9_d4": {
 "id": "9_d4",
 "ch": 9,
-"title": "BEG_CH09_008",
+"title": "Dubois ch13 D6 — Rafle 39x10 ouverte",
 "start": {
 "wm": [
 24,
@@ -13035,7 +12269,7 @@ const DATA: ManuelData = {
 "9_d5": {
 "id": "9_d5",
 "ch": 9,
-"title": "BEG_CH09_009",
+"title": "Dubois ch13 D7 — Position noire compacte mais cassable",
 "start": {
 "wm": [
 26,
@@ -13154,7 +12388,7 @@ const DATA: ManuelData = {
 "9_d6": {
 "id": "9_d6",
 "ch": 9,
-"title": "BEG_CH09_010",
+"title": "Dubois ch13 D8 — Acheminer un pion noir en 37",
 "start": {
 "wm": [
 26,
@@ -13271,7 +12505,7 @@ const DATA: ManuelData = {
 "9_d7": {
 "id": "9_d7",
 "ch": 9,
-"title": "BEG_CH09_011",
+"title": "Dubois ch13 D9 — Schéma typique du coup de l'express",
 "start": {
 "wm": [
 24,
@@ -13402,7 +12636,7 @@ const DATA: ManuelData = {
 "9_d8": {
 "id": "9_d8",
 "ch": 9,
-"title": "BEG_CH09_012",
+"title": "Dubois ch13 D10 — Coup de l'express caché",
 "start": {
 "wm": [
 23,
@@ -13531,7 +12765,7 @@ const DATA: ManuelData = {
 "9_d9": {
 "id": "9_d9",
 "ch": 9,
-"title": "BEG_CH09_004",
+"title": "Position",
 "start": {
 "wm": [
 23,
@@ -13567,12 +12801,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH09_004"
+"theme": "Position"
 },
 "9_d10": {
 "id": "9_d10",
 "ch": 9,
-"title": "BEG_CH09_005",
+"title": "Position",
 "start": {
 "wm": [
 16,
@@ -13602,12 +12836,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH09_005"
+"theme": "Position"
 },
 "9_d11": {
 "id": "9_d11",
 "ch": 9,
-"title": "BEG_CH09_006",
+"title": "Position",
 "start": {
 "wm": [
 20,
@@ -13638,12 +12872,55 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH09_006"
+"theme": "Position"
+},
+"9_d1": {
+"id": "9_d1",
+"ch": 9,
+"title": "Position finale du coup de l'express — Trait blanc après rafle 33x2",
+"start": {
+"wm": [
+33,
+39
+],
+"wk": [],
+"bm": [
+8,
+9,
+18,
+28
+],
+"bk": [],
+"turn": "white"
+},
+"moves": [
+{
+"n": "33x2",
+"f": 33,
+"t": 2,
+"c": [
+8,
+18,
+28
+],
+"path": [
+33,
+22,
+13,
+2
+],
+"p": true
+}
+],
+"theme": "coup_express",
+"pub": "33x2",
+"win": "white",
+"exp": "Position finale typique après un coup de l'express réussi. Le pion blanc 33 a balayé la grande diagonale et atteint la case 2 (promotion)."
 },
 "10_d0": {
 "id": "10_d0",
 "ch": 10,
-"title": "BEG_CH10_001",
+"title": "Exemple narratif Dubois ch14 — Schéma de base du Ricochet",
 "start": {
 "wm": [
 28,
@@ -13744,7 +13021,7 @@ const DATA: ManuelData = {
 "10_d1": {
 "id": "10_d1",
 "ch": 10,
-"title": "BEG_CH10_002",
+"title": "Exemple narratif Dubois ch14 — Application en partie",
 "start": {
 "wm": [
 27,
@@ -13941,7 +13218,7 @@ const DATA: ManuelData = {
 "10_d2": {
 "id": "10_d2",
 "ch": 10,
-"title": "BEG_CH10_003",
+"title": "Dubois ch14 D1 — Collage et coup de dame en 5",
 "start": {
 "wm": [
 28,
@@ -14056,7 +13333,7 @@ const DATA: ManuelData = {
 "10_d3": {
 "id": "10_d3",
 "ch": 10,
-"title": "BEG_CH10_004",
+"title": "Dubois ch14 D2 — Coup de dame en 4",
 "start": {
 "wm": [
 26,
@@ -14173,7 +13450,7 @@ const DATA: ManuelData = {
 "10_d4": {
 "id": "10_d4",
 "ch": 10,
-"title": "BEG_CH10_005",
+"title": "Dubois ch14 D3 — Combinaison ultra classique",
 "start": {
 "wm": [
 25,
@@ -14284,7 +13561,7 @@ const DATA: ManuelData = {
 "10_d5": {
 "id": "10_d5",
 "ch": 10,
-"title": "BEG_CH10_006",
+"title": "Dubois ch14 D4 — Coup de dame 31x4 (Kloot-Kuipers 1939)",
 "start": {
 "wm": [
 27,
@@ -14398,7 +13675,7 @@ const DATA: ManuelData = {
 "10_d6": {
 "id": "10_d6",
 "ch": 10,
-"title": "BEG_CH10_007",
+"title": "Dubois ch14 D5 — Coup de dame en 1",
 "start": {
 "wm": [
 26,
@@ -14509,7 +13786,7 @@ const DATA: ManuelData = {
 "10_d7": {
 "id": "10_d7",
 "ch": 10,
-"title": "BEG_CH10_008",
+"title": "Dubois ch14 D6 — Rafle 44x2 (coquille PDF corrigée)",
 "start": {
 "wm": [
 27,
@@ -14614,7 +13891,7 @@ const DATA: ManuelData = {
 "10_d8": {
 "id": "10_d8",
 "ch": 10,
-"title": "BEG_CH10_011",
+"title": "Dubois ch14 D9 — Coup de dame à 4 via ricochet",
 "start": {
 "wm": [
 26,
@@ -14761,7 +14038,7 @@ const DATA: ManuelData = {
 "10_d9": {
 "id": "10_d9",
 "ch": 10,
-"title": "BEG_CH10_009",
+"title": "Dubois ch14 D7 — Coup Napoléon (préview)",
 "start": {
 "wm": [
 25,
@@ -14868,7 +14145,7 @@ const DATA: ManuelData = {
 "10_d10": {
 "id": "10_d10",
 "ch": 10,
-"title": "BEG_CH10_010",
+"title": "Dubois ch14 D8 — Ricochet dissimulé (Coenen-van Ingen 1990)",
 "start": {
 "wm": [
 22,
@@ -15013,7 +14290,7 @@ const DATA: ManuelData = {
 "10_d11": {
 "id": "10_d11",
 "ch": 10,
-"title": "BEG_CH10_012",
+"title": "Dubois ch14 D10 — Rafle cachée (Le Goff-Molimard 1909)",
 "start": {
 "wm": [
 24,
@@ -15160,7 +14437,7 @@ const DATA: ManuelData = {
 "11_d0": {
 "id": "11_d0",
 "ch": 11,
-"title": "BEG_CH11_001",
+"title": "Exemple narratif Dubois ch15 — Schéma 1 du coup de Rappel",
 "start": {
 "wm": [
 28,
@@ -15255,7 +14532,7 @@ const DATA: ManuelData = {
 "11_d1": {
 "id": "11_d1",
 "ch": 11,
-"title": "BEG_CH11_002",
+"title": "Exemple narratif Dubois ch15 — Schéma 2 du coup de Rappel",
 "start": {
 "wm": [
 30,
@@ -15349,7 +14626,7 @@ const DATA: ManuelData = {
 "11_d2": {
 "id": "11_d2",
 "ch": 11,
-"title": "BEG_CH11_003",
+"title": "Exemple narratif Dubois ch15 — Schéma 3 du coup de Rappel",
 "start": {
 "wm": [
 28,
@@ -15444,7 +14721,7 @@ const DATA: ManuelData = {
 "11_d3": {
 "id": "11_d3",
 "ch": 11,
-"title": "BEG_CH11_004",
+"title": "Dubois ch15 D1 — Rafle finissant en 7 via pion de base 49",
 "start": {
 "wm": [
 27,
@@ -15559,7 +14836,7 @@ const DATA: ManuelData = {
 "11_d4": {
 "id": "11_d4",
 "ch": 11,
-"title": "BEG_CH11_005",
+"title": "Dubois ch15 D2 — Acheminer pion noir en 22",
 "start": {
 "wm": [
 22,
@@ -15670,7 +14947,7 @@ const DATA: ManuelData = {
 "11_d5": {
 "id": "11_d5",
 "ch": 11,
-"title": "BEG_CH11_006",
+"title": "Dubois ch15 D3 — Acheminer pion noir en 33",
 "start": {
 "wm": [
 26,
@@ -15779,7 +15056,7 @@ const DATA: ManuelData = {
 "11_d6": {
 "id": "11_d6",
 "ch": 11,
-"title": "BEG_CH11_007",
+"title": "Dubois ch15 D4 — Combinaison + fin de partie",
 "start": {
 "wm": [
 24,
@@ -15884,7 +15161,7 @@ const DATA: ManuelData = {
 "11_d7": {
 "id": "11_d7",
 "ch": 11,
-"title": "BEG_CH11_010",
+"title": "Dubois ch15 D7 — Rappel à 4 demi-coups (Rapopport-Gertsenzon 1963)",
 "start": {
 "wm": [
 25,
@@ -16017,7 +15294,7 @@ const DATA: ManuelData = {
 "11_d8": {
 "id": "11_d8",
 "ch": 11,
-"title": "BEG_CH11_008",
+"title": "Dubois ch15 D5 — Coup de la Trappe (Michiels-Marini 1986)",
 "start": {
 "wm": [
 15,
@@ -16132,7 +15409,7 @@ const DATA: ManuelData = {
 "11_d9": {
 "id": "11_d9",
 "ch": 11,
-"title": "BEG_CH11_009",
+"title": "Dubois ch15 D6 — Autre coup de la Trappe",
 "start": {
 "wm": [
 27,
@@ -16238,7 +15515,7 @@ const DATA: ManuelData = {
 "11_d10": {
 "id": "11_d10",
 "ch": 11,
-"title": "BEG_CH11_011",
+"title": "Dubois ch15 D8 — Coup de dame à 50 noir (van Aalten-Clerc 1976)",
 "start": {
 "wm": [
 24,
@@ -16375,7 +15652,7 @@ const DATA: ManuelData = {
 "11_d11": {
 "id": "11_d11",
 "ch": 11,
-"title": "BEG_CH11_012",
+"title": "Dubois ch15 D9 — Rafle en 44 (trait noir)",
 "start": {
 "wm": [
 16,
@@ -16512,7 +15789,7 @@ const DATA: ManuelData = {
 "12_d0": {
 "id": "12_d0",
 "ch": 12,
-"title": "BEG_CH12_006",
+"title": "Dubois ch16 D6 — Coup renversé pur",
 "start": {
 "wm": [
 22,
@@ -16643,7 +15920,7 @@ const DATA: ManuelData = {
 "12_d1": {
 "id": "12_d1",
 "ch": 12,
-"title": "BEG_CH12_001",
+"title": "Dubois ch16 D1 — Combinaison à la case 4",
 "start": {
 "wm": [
 26,
@@ -16760,7 +16037,7 @@ const DATA: ManuelData = {
 "12_d2": {
 "id": "12_d2",
 "ch": 12,
-"title": "BEG_CH12_003",
+"title": "Dubois ch16 D3 — Coup de dame à 2 via éliminations",
 "start": {
 "wm": [
 25,
@@ -16875,7 +16152,7 @@ const DATA: ManuelData = {
 "12_d3": {
 "id": "12_d3",
 "ch": 12,
-"title": "BEG_CH12_007",
+"title": "Dubois ch16 D7 — Combinaison avec temps de repos",
 "start": {
 "wm": [
 24,
@@ -17006,7 +16283,7 @@ const DATA: ManuelData = {
 "12_d4": {
 "id": "12_d4",
 "ch": 12,
-"title": "BEG_CH12_010",
+"title": "Dubois ch16 D10 — Combinaison fulgurante",
 "start": {
 "wm": [
 24,
@@ -17149,7 +16426,7 @@ const DATA: ManuelData = {
 "12_d5": {
 "id": "12_d5",
 "ch": 12,
-"title": "BEG_CH12_002",
+"title": "Dubois ch16 D2 — Coup de chevron (Datel-Schwarzman 1977)",
 "start": {
 "wm": [
 22,
@@ -17272,7 +16549,7 @@ const DATA: ManuelData = {
 "12_d6": {
 "id": "12_d6",
 "ch": 12,
-"title": "BEG_CH12_004",
+"title": "Dubois ch16 D4 — Exploitation pion de bande 35 (Gordijn-den Hartogh 1952)",
 "start": {
 "wm": [
 26,
@@ -17383,7 +16660,7 @@ const DATA: ManuelData = {
 "12_d7": {
 "id": "12_d7",
 "ch": 12,
-"title": "BEG_CH12_005",
+"title": "Dubois ch16 D5 — Coup de la Trappe (Clasquin-van Es 1981)",
 "start": {
 "wm": [
 24,
@@ -17504,7 +16781,7 @@ const DATA: ManuelData = {
 "12_d8": {
 "id": "12_d8",
 "ch": 12,
-"title": "BEG_CH12_008",
+"title": "Dubois ch16 D8 — Coup parallèle (Bergsma-Spoelstra 1952)",
 "start": {
 "wm": [
 25,
@@ -17619,7 +16896,7 @@ const DATA: ManuelData = {
 "12_d9": {
 "id": "12_d9",
 "ch": 12,
-"title": "BEG_CH12_009",
+"title": "Dubois ch16 D9 — Coup renversé avec envoi à dame (Spoelstra-Bergsma 1972)",
 "start": {
 "wm": [
 24,
@@ -17756,7 +17033,7 @@ const DATA: ManuelData = {
 "13_d0": {
 "id": "13_d0",
 "ch": 13,
-"title": "BEG_CH13_009",
+"title": "Dubois ch17 D9 — Pur coup Napoléon",
 "start": {
 "wm": [
 25,
@@ -17899,7 +17176,7 @@ const DATA: ManuelData = {
 "13_d1": {
 "id": "13_d1",
 "ch": 13,
-"title": "BEG_CH13_005",
+"title": "Dubois ch17 D5 — Schéma Napoléon (Haijtink-Scholte Lubberink 1994)",
 "start": {
 "wm": [
 23,
@@ -18030,7 +17307,7 @@ const DATA: ManuelData = {
 "13_d2": {
 "id": "13_d2",
 "ch": 13,
-"title": "BEG_CH13_006",
+"title": "Dubois ch17 D6 — Rappel + Napoléon (van Leijen-Schunselaar 1971)",
 "start": {
 "wm": [
 23,
@@ -18173,7 +17450,7 @@ const DATA: ManuelData = {
 "13_d3": {
 "id": "13_d3",
 "ch": 13,
-"title": "BEG_CH13_007",
+"title": "Dubois ch17 D7 — Coup Napoléon pur",
 "start": {
 "wm": [
 22,
@@ -18304,7 +17581,7 @@ const DATA: ManuelData = {
 "13_d4": {
 "id": "13_d4",
 "ch": 13,
-"title": "BEG_CH13_008",
+"title": "Dubois ch17 D8 — Coup Napoléon (Kolodiev-Weytsman 1973)",
 "start": {
 "wm": [
 24,
@@ -18431,7 +17708,7 @@ const DATA: ManuelData = {
 "13_d5": {
 "id": "13_d5",
 "ch": 13,
-"title": "BEG_CH13_010",
+"title": "Dubois ch17 D10 — Rafle 48x6 (Papinski-Lewandowski 1979)",
 "start": {
 "wm": [
 27,
@@ -18576,7 +17853,7 @@ const DATA: ManuelData = {
 "13_d6": {
 "id": "13_d6",
 "ch": 13,
-"title": "BEG_CH13_001",
+"title": "Dubois ch17 D1 — Envoi à dame surprenant",
 "start": {
 "wm": [
 30,
@@ -18691,7 +17968,7 @@ const DATA: ManuelData = {
 "13_d7": {
 "id": "13_d7",
 "ch": 13,
-"title": "BEG_CH13_004",
+"title": "Dubois ch17 D4 — Coup de l'Express (coquille PDF corrigée)",
 "start": {
 "wm": [
 28,
@@ -18796,7 +18073,7 @@ const DATA: ManuelData = {
 "13_d8": {
 "id": "13_d8",
 "ch": 13,
-"title": "BEG_CH13_002",
+"title": "Dubois ch17 D2 — Rafle 22x44 (Bom-van Dijk 1963)",
 "start": {
 "wm": [
 16,
@@ -18911,7 +18188,7 @@ const DATA: ManuelData = {
 "13_d9": {
 "id": "13_d9",
 "ch": 13,
-"title": "BEG_CH13_003",
+"title": "Dubois ch17 D3 — Coup de dame en 46 (Baerends-Stoop 1984)",
 "start": {
 "wm": [
 26,
@@ -19038,7 +18315,7 @@ const DATA: ManuelData = {
 "14_d0": {
 "id": "14_d0",
 "ch": 14,
-"title": "BEG_CH14_006",
+"title": "Dubois ch18 D6 — Pur coup de la Trappe",
 "start": {
 "wm": [
 25,
@@ -19175,7 +18452,7 @@ const DATA: ManuelData = {
 "14_d1": {
 "id": "14_d1",
 "ch": 14,
-"title": "BEG_CH14_001",
+"title": "Dubois ch18 D1 — Rafle 30x6",
 "start": {
 "wm": [
 26,
@@ -19292,7 +18569,7 @@ const DATA: ManuelData = {
 "14_d2": {
 "id": "14_d2",
 "ch": 14,
-"title": "BEG_CH14_002",
+"title": "Dubois ch18 D2 — Coup de Rappel (révision)",
 "start": {
 "wm": [
 27,
@@ -19397,7 +18674,7 @@ const DATA: ManuelData = {
 "14_d3": {
 "id": "14_d3",
 "ch": 14,
-"title": "BEG_CH14_003",
+"title": "Dubois ch18 D3 — Rafle finale en 9",
 "start": {
 "wm": [
 22,
@@ -19510,7 +18787,7 @@ const DATA: ManuelData = {
 "14_d4": {
 "id": "14_d4",
 "ch": 14,
-"title": "BEG_CH14_009",
+"title": "Dubois ch18 D9 — Mécanisme inattendu (van Dijk)",
 "start": {
 "wm": [
 28,
@@ -19645,7 +18922,7 @@ const DATA: ManuelData = {
 "14_d5": {
 "id": "14_d5",
 "ch": 14,
-"title": "BEG_CH14_004",
+"title": "Dubois ch18 D4 — Trappe avec rafle 23x45 (Kocken-Doomernik 1971)",
 "start": {
 "wm": [
 22,
@@ -19790,7 +19067,7 @@ const DATA: ManuelData = {
 "14_d6": {
 "id": "14_d6",
 "ch": 14,
-"title": "BEG_CH14_005",
+"title": "Dubois ch18 D5 — Coup de dame à 4 (Hoogland-van den Broek 1912)",
 "start": {
 "wm": [
 25,
@@ -19935,7 +19212,7 @@ const DATA: ManuelData = {
 "14_d7": {
 "id": "14_d7",
 "ch": 14,
-"title": "BEG_CH14_008",
+"title": "Dubois ch18 D8 — Trappe noire (Bronstring-Holstvoogd 2005)",
 "start": {
 "wm": [
 22,
@@ -20074,7 +19351,7 @@ const DATA: ManuelData = {
 "14_d8": {
 "id": "14_d8",
 "ch": 14,
-"title": "BEG_CH14_007",
+"title": "Dubois ch18 D7 — Trappe à 5 (Maertzdorf-Alofs 1997)",
 "start": {
 "wm": [
 27,
@@ -20227,7 +19504,7 @@ const DATA: ManuelData = {
 "14_d9": {
 "id": "14_d9",
 "ch": 14,
-"title": "BEG_CH14_010",
+"title": "Dubois ch18 D10 — Envoi à dame + ricochet (Kats-Agafonov 1965)",
 "start": {
 "wm": [
 23,
@@ -20366,7 +19643,7 @@ const DATA: ManuelData = {
 "15_d0": {
 "id": "15_d0",
 "ch": 15,
-"title": "BEG_CH15_004",
+"title": "Dubois ch19 D4 — Coup de dame à 3 par talon pur",
 "start": {
 "wm": [
 22,
@@ -20501,7 +19778,7 @@ const DATA: ManuelData = {
 "15_d1": {
 "id": "15_d1",
 "ch": 15,
-"title": "BEG_CH15_005",
+"title": "Dubois ch19 D5 — Coup de dame à 1 par talon pur",
 "start": {
 "wm": [
 24,
@@ -20636,7 +19913,7 @@ const DATA: ManuelData = {
 "15_d2": {
 "id": "15_d2",
 "ch": 15,
-"title": "BEG_CH15_001",
+"title": "Dubois ch19 D1 — Coup de mazette dans le coup de Talon",
 "start": {
 "wm": [
 24,
@@ -20751,7 +20028,7 @@ const DATA: ManuelData = {
 "15_d3": {
 "id": "15_d3",
 "ch": 15,
-"title": "BEG_CH15_002",
+"title": "Dubois ch19 D2 — Rafle aboutissant en 7",
 "start": {
 "wm": [
 23,
@@ -20860,7 +20137,7 @@ const DATA: ManuelData = {
 "15_d4": {
 "id": "15_d4",
 "ch": 15,
-"title": "BEG_CH15_009",
+"title": "Dubois ch19 D9 — Pur coup de la Trappe",
 "start": {
 "wm": [
 23,
@@ -20989,7 +20266,7 @@ const DATA: ManuelData = {
 "15_d5": {
 "id": "15_d5",
 "ch": 15,
-"title": "BEG_CH15_010",
+"title": "Dubois ch19 D10 — Coup de Talon final (de Jongh-Bizot 1927)",
 "start": {
 "wm": [
 25,
@@ -21128,7 +20405,7 @@ const DATA: ManuelData = {
 "15_d6": {
 "id": "15_d6",
 "ch": 15,
-"title": "BEG_CH15_003",
+"title": "Dubois ch19 D3 — Rafle 50x8 (Lewkowicz-Blokland 1998)",
 "start": {
 "wm": [
 26,
@@ -21263,7 +20540,7 @@ const DATA: ManuelData = {
 "15_d7": {
 "id": "15_d7",
 "ch": 15,
-"title": "BEG_CH15_006",
+"title": "Dubois ch19 D6 — Talon + Trappe (Vatutin-Steijlen 2007)",
 "start": {
 "wm": [
 21,
@@ -21404,7 +20681,7 @@ const DATA: ManuelData = {
 "15_d8": {
 "id": "15_d8",
 "ch": 15,
-"title": "BEG_CH15_007",
+"title": "Dubois ch19 D7 — Trappe cachée (Wiering-Sier 2008)",
 "start": {
 "wm": [
 16,
@@ -21535,7 +20812,7 @@ const DATA: ManuelData = {
 "15_d9": {
 "id": "15_d9",
 "ch": 15,
-"title": "BEG_CH15_008",
+"title": "Dubois ch19 D8 — Combinaison cachée (Depaepe-Groenendijk 2014)",
 "start": {
 "wm": [
 16,
@@ -21678,7 +20955,7 @@ const DATA: ManuelData = {
 "16_d0": {
 "id": "16_d0",
 "ch": 16,
-"title": "BEG_CH06_002",
+"title": "Position",
 "start": {
 "wm": [
 34,
@@ -21695,12 +20972,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH06_002"
+"theme": "Position"
 },
 "16_d1": {
 "id": "16_d1",
 "ch": 16,
-"title": "BEG_CH16_002",
+"title": "Dubois ch20 D2 — Coup Philippe (Dartelen-Ligthart 1938)",
 "start": {
 "wm": [
 29,
@@ -21852,7 +21129,7 @@ const DATA: ManuelData = {
 "16_d2": {
 "id": "16_d2",
 "ch": 16,
-"title": "BEG_CH16_003",
+"title": "Dubois ch20 D3 — Variante coup Philippe",
 "start": {
 "wm": [
 32,
@@ -21993,7 +21270,7 @@ const DATA: ManuelData = {
 "16_d3": {
 "id": "16_d3",
 "ch": 16,
-"title": "BEG_CH16_004",
+"title": "Dubois ch20 D4 — Schéma Philippe via attaque noire (Davidov-Romanov 1963)",
 "start": {
 "wm": [
 27,
@@ -22140,7 +21417,7 @@ const DATA: ManuelData = {
 "16_d4": {
 "id": "16_d4",
 "ch": 16,
-"title": "BEG_CH16_005",
+"title": "Dubois ch20 D5 — Coup Philippe avec ruse",
 "start": {
 "wm": [
 26,
@@ -22281,7 +21558,7 @@ const DATA: ManuelData = {
 "16_d5": {
 "id": "16_d5",
 "ch": 16,
-"title": "BEG_CH16_006",
+"title": "Dubois ch20 D6 — Rafle 48x26 (Leijenaar-Romanskaia 2003)",
 "start": {
 "wm": [
 29,
@@ -22428,7 +21705,7 @@ const DATA: ManuelData = {
 "16_d6": {
 "id": "16_d6",
 "ch": 16,
-"title": "BEG_CH16_007",
+"title": "Dubois ch20 D7 — Coup de Mazette classique",
 "start": {
 "wm": [
 25,
@@ -22575,7 +21852,7 @@ const DATA: ManuelData = {
 "16_d7": {
 "id": "16_d7",
 "ch": 16,
-"title": "BEG_CH16_001",
+"title": "Dubois ch20 D1 — Coup turc avec envoi à dame",
 "start": {
 "wm": [
 25,
@@ -22652,7 +21929,7 @@ const DATA: ManuelData = {
 "16_d8": {
 "id": "16_d8",
 "ch": 16,
-"title": "BEG_CH16_008",
+"title": "Dubois ch20 D8 — Envoi à dame avec temps de réserve (Merin-Agafonow 1975)",
 "start": {
 "wm": [
 24,
@@ -22791,7 +22068,7 @@ const DATA: ManuelData = {
 "16_d9": {
 "id": "16_d9",
 "ch": 16,
-"title": "BEG_CH16_009",
+"title": "Position",
 "start": {
 "wm": [
 25,
@@ -22826,12 +22103,12 @@ const DATA: ManuelData = {
 "turn": "white"
 },
 "moves": [],
-"theme": "BEG_CH16_009"
+"theme": "Position"
 },
 "16_d10": {
 "id": "16_d10",
 "ch": 16,
-"title": "BEG_CH16_010",
+"title": "Dubois ch20 D10 — Rafle 30x6 ou 48x6 (Aliar-Huijzer 2010)",
 "start": {
 "wm": [
 27,
