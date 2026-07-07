@@ -244,7 +244,7 @@ export function GameHeatmap({
     <div className="flex flex-col gap-1.5">
       <button
         onClick={() => setOpen(v => !v)}
-        className="flex items-center justify-between text-xs text-gray-400 hover:text-gray-200 cursor-pointer bg-transparent border-0 p-0 text-left"
+        className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-xs text-gray-400 hover:text-gray-200 cursor-pointer bg-transparent border-0 p-0 text-left"
       >
         <span>
           {open ? '▾' : '▸'} Faiblesses distinctes ({userSide === 'white' ? '⬜' : '⬛'})
@@ -385,7 +385,7 @@ export function WeaknessGantt({
       <div className="flex flex-col gap-1.5">
         <button
           onClick={() => setOpen(v => !v)}
-          className="flex items-center justify-between text-xs text-gray-400 hover:text-gray-200 cursor-pointer bg-transparent border-0 p-0 text-left"
+          className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-xs text-gray-400 hover:text-gray-200 cursor-pointer bg-transparent border-0 p-0 text-left"
         >
           <span>{open ? '▾' : '▸'} Durée des faiblesses (Gantt)</span>
           <span className="text-gray-600">pas de données</span>
@@ -408,7 +408,7 @@ export function WeaknessGantt({
     <div className="flex flex-col gap-1.5">
       <button
         onClick={() => setOpen(v => !v)}
-        className="flex items-center justify-between text-xs text-gray-400 hover:text-gray-200 cursor-pointer bg-transparent border-0 p-0 text-left"
+        className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5 text-xs text-gray-400 hover:text-gray-200 cursor-pointer bg-transparent border-0 p-0 text-left"
       >
         <span>{open ? '▾' : '▸'} Durée des faiblesses (Gantt)</span>
         <span className="text-gray-600">
@@ -838,9 +838,9 @@ export default function PedagogyPanel({ gameId, analysis, loading, userSide, lan
   if (!analysis && !loading) {
     return (
       <div className="bg-gray-800/50 border border-gray-700 rounded-xl p-3 flex flex-col gap-2">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5">
           <span className="text-xs font-semibold text-gray-300">Analyse pédagogique</span>
-          <span className="text-xs text-gray-500">dilf · cross-check Scan</span>
+          <span className="text-xs text-gray-500 whitespace-nowrap">dilf · cross-check Scan</span>
         </div>
         {error ? (
           <div className="text-xs text-red-400 bg-red-900/20 border border-red-800/40 rounded p-2 font-mono break-all">
@@ -877,9 +877,9 @@ export default function PedagogyPanel({ gameId, analysis, loading, userSide, lan
 
       {/* Summary header */}
       <div className="px-3 py-2 border-b border-gray-700 flex flex-col gap-2">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-0.5">
           <span className="text-xs font-semibold text-gray-300">Analyse pédagogique</span>
-          <span className="text-xs text-gray-500">{verdicts.length} demi-coups · Scan</span>
+          <span className="text-xs text-gray-500 whitespace-nowrap">{verdicts.length} demi-coups · Scan</span>
         </div>
 
         <MaterialTimeline verdicts={verdicts} currentHalfMove={currentHalfMove} onJumpTo={onJumpTo} />
